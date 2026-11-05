@@ -1,0 +1,45 @@
+const {chromium}=require(process.env.PW||'playwright');
+const BASE=process.env.BASE||'http://localhost:8777/_test.html';
+let pass=0,fail=0;const ok=(c,m)=>{if(c){pass++;console.log('PASS ',m)}else{fail++;console.log('FAIL ',m)}};
+(async()=>{
+const b=await chromium.launch({executablePath:process.env.CHROME});
+const p=await b.newPage({viewport:{width:1280,height:900}});const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(m.type()==='error')errs.push(m.text())});
+await p.goto(BASE);await p.waitForSelector('.pcard');
+ok(await p.$$eval('.pcard',x=>x.length)===9,'home shows 9 path cards');
+ok(/77/.test(await p.textContent('.stats')),'home stats show 77 courses');
+await p.fill('#hq','sql');await p.click('#homeSearch button');await p.waitForSelector('#list .course');
+ok(await p.inputValue('#fq')==='sql','home search carries into catalog');
+const n1=await p.$$eval('#list .course',x=>x.length);ok(n1>0&&n1<77,`search filters catalog (${n1})`);
+await p.fill('#fq','');await p.selectOption('#fcost','free');const nf=await p.$$eval('#list .course',x=>x.length);
+ok(await p.$$eval('#list .course .p-open',x=>x.length)===0&&nf>0,`evidence filter keeps only provider-free (${nf})`);
+await p.selectOption('#fcost','');await p.selectOption('#fpath','data-analyst');const np=await p.$$eval('#list .course',x=>x.length);ok(np>0&&np<20,`path filter (${np})`);
+await p.selectOption('#flevel','Advanced');await p.selectOption('#fprov','Kaggle Learn');ok(await p.$('#list .empty')!==null,'no-match state shows');
+await p.goto(BASE+'#path-frontend');await p.waitForSelector('.stage');
+ok(await p.$$eval('.stage',x=>x.length)===4,'frontend path has 4 stages');
+ok(await p.$('.sponsor-slot')!==null,'sponsor slot is labelled on path');
+const first=await p.$('.stage .course input');await first.check();
+ok(/1 of/.test(await p.textContent('#ptext')),'ticking a course updates progress');
+await p.reload();await p.waitForSelector('.stage');ok(/1 of/.test(await p.textContent('#ptext')),'progress persists after reload');
+await p.click('#resetPath');ok(/^0 of/.test(await p.textContent('#ptext')),'reset clears path progress');
+const ev=await p.$('.stage details.ev');await ev.click();ok(/Provider says|Open access/.test(await ev.textContent()),'evidence panel explains why free');
+for(const r of ['cohorts','institutions','sponsor']){await p.goto(BASE+'#'+r);await p.waitForSelector('form.card');
+  await p.click('form.card button[type=submit]');ok(/Please fill in/.test(await p.textContent('.form-msg')),`${r}: empty submit shows validation`);
+  for(const i of await p.$$('form.card [required]')){const t=await i.getAttribute('type');const tag=await i.evaluate(e=>e.tagName);if(tag==='SELECT')continue;await i.fill(t==='email'?'a@b.co':'Test')}
+  await p.click('form.card button[type=submit]');ok(/Nothing was sent/.test(await p.textContent('.form-msg')),`${r}: honest not-connected message`)}
+await p.goto(BASE+'#support');ok(/aren't open yet/.test(await p.textContent('main')),'support page states donations not open');
+await p.goto(BASE+'#method');ok(/77 courses listed/.test(await p.textContent('main')),'method page shows counts');
+await p.goto(BASE+'#nope');ok(/isn't here/.test(await p.textContent('main')),'unknown route shows not-found');
+await p.goto(BASE+'#cohorts');ok(await p.getAttribute('#nav a[href="#cohorts"]','aria-current')==='page','nav marks current page');
+const m=await b.newPage({viewport:{width:390,height:844}});
+for(const r of ['home','path-ai-engineer','courses','cohorts','institutions']){await m.goto(BASE+'#'+r);await m.waitForTimeout(250);
+  ok(!(await m.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1)),`no horizontal scroll at 390px: ${r}`)}
+await m.click('#menuBtn');ok(await m.isVisible('#nav a[href="#paths"]'),'mobile menu opens');
+const d=await b.newPage({colorScheme:'dark'});await d.goto(BASE);await d.waitForSelector('.pcard');
+ok(await d.evaluate(()=>getComputedStyle(document.body).backgroundColor)==='rgb(12, 20, 23)','dark theme applies');
+const s=await b.newContext();await s.addInitScript(()=>{Object.defineProperty(window,'localStorage',{get(){throw new Error('blocked')}})});
+const sp=await s.newPage();await sp.goto(BASE+'#path-backend');await sp.waitForSelector('.stage');ok(true,'renders with storage blocked');
+const real=errs.filter(e=>!/ERR_TUNNEL|status of 404/.test(e));ok(real.length===0,'no script errors '+real.join(' | '));
+await m.goto(BASE);await m.screenshot({path:'/tmp/claude-0/web_m.png',fullPage:false});
+await p.setViewportSize({width:1280,height:900});await p.goto(BASE);await p.waitForSelector('.pcard');await p.screenshot({path:'/tmp/claude-0/web_home.png',fullPage:true});
+await p.goto(BASE+'#path-data-analyst');await p.waitForSelector('.stage');await p.screenshot({path:'/tmp/claude-0/web_path.png'});
+console.log(`PASSED ${pass}/${pass+fail}`);await b.close();process.exit(fail?1:0)})();
