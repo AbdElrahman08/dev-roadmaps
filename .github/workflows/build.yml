@@ -2,11 +2,15 @@ name: Build inventory, check links, deploy site
 on:
   push:
     branches: [main]
-    paths: ["data/verifications.json", "scripts/**", "site/index.html", ".github/workflows/build.yml"]
+    paths: ["data/verifications.json", "data/additions.json", "scripts/**", "site/index.html", ".github/workflows/build.yml"]
   schedule:
     - cron: "17 3 * * 1"   # weekly, Monday 03:17 UTC
   workflow_dispatch:
     inputs:
+      force_linkcheck:
+        description: "Re-check every URL (1) or only stale ones (0)"
+        required: false
+        default: "0"
       upstream_ref:
         description: "developer-roadmap commit or branch (default: master)"
         required: false
@@ -38,7 +42,7 @@ jobs:
         run: python scripts/build_inventory.py upstream
       - name: Link check
         run: python scripts/link_check.py
-        env: { MAX_AGE_DAYS: "7", CONCURRENCY: "40" }
+        env: { MAX_AGE_DAYS: "7", CONCURRENCY: "40", FORCE: "${{ github.event.inputs.force_linkcheck || '0' }}" }
       - name: Build inventory (pass 2, with link results)
         run: python scripts/build_inventory.py upstream
       - name: Commit data

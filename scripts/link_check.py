@@ -7,7 +7,7 @@ Verdicts
   error    timeout, TLS or other network error: inconclusive
 Results are incremental: URLs checked within MAX_AGE_DAYS are skipped.
 """
-import asyncio, json, os, sys, time
+import asyncio, json, os, re, sys, time
 from collections import defaultdict
 from urllib.parse import urlparse
 import aiohttp
@@ -17,6 +17,14 @@ GLOBAL = int(os.environ.get("CONCURRENCY", "40"))
 PER_HOST = 3
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 free-dev-roadmaps-linkcheck"
 PATH = "data/linkcheck.json"
+FORCE = os.environ.get("FORCE") == "1"
+# Text that only appears when a signed-out visitor is blocked from the full content.
+PAYWALL_MARKERS = ["member-only story", "this story is only available to medium members", "subscribe to continue reading",
+    "subscribe to read", "to continue reading, subscribe", "you've reached your free article limit", "this content is for subscribers only",
+    "become a member to read", "unlock this article", "purchase to unlock", "this article is for paid subscribers",
+    "sign in to continue reading", "log in to continue reading", "upgrade to premium to unlock", "this lesson is for pro members",
+    "enroll to unlock", "buy now to access this course"]
+LOGIN_URL_PATTERNS = [r"/(login|signin|sign-in|sign_in|auth|accounts/login)\b", r"accounts\.google\.com", r"login\.microsoftonline", r"[?&]redirect_to=", r"/sso/"]
 
 def now():
     return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
@@ -38,21 +46,30 @@ async def check(session, url, sems, gsem):
     h = urlparse(url).netloc
     async with gsem, sems[h]:
         rec = {"checked_at": now()}
-        for method in ("HEAD", "GET"):
-            try:
-                async with session.request(method, url, allow_redirects=True, timeout=aiohttp.ClientTimeout(total=25)) as r:
-                    code = r.status
-                    rec.update(code=code, final_url=str(r.url), method=method)
-                    if method == "HEAD" and code in (403, 405, 404, 400, 429, 500, 501):
-                        continue  # many servers reject HEAD; retry with GET
-                    break
-            except aiohttp.ClientConnectorDNSError as e:
-                rec.update(code=None, error=f"dns: {e}"); break
-            except Exception as e:
-                rec.update(code=None, error=f"{type(e).__name__}: {e}"[:200])
-                if method == "GET":
-                    break
+        body = b""
+        try:
+            async with session.get(url, allow_redirects=True, timeout=aiohttp.ClientTimeout(total=30)) as r:
+                rec.update(code=r.status, final_url=str(r.url), method="GET")
+                ctype = r.headers.get("Content-Type", "")
+                if "html" in ctype:
+                    body = await r.content.read(400_000)
+                rec["content_type"] = ctype.split(";")[0][:60]
+        except aiohttp.ClientConnectorDNSError as e:
+            rec.update(code=None, error=f"dns: {e}")
+        except Exception as e:
+            rec.update(code=None, error=f"{type(e).__name__}: {e}"[:200])
         c = rec.get("code")
+        # Access check: did the public, signed-out page show a paywall or a login wall?
+        if c and 200 <= c < 400:
+            fu = rec.get("final_url", url).lower()
+            text = body.decode("utf-8", "ignore").lower()
+            hits = [m for m in PAYWALL_MARKERS if m in text]
+            if any(re.search(p, fu) for p in LOGIN_URL_PATTERNS) and not any(re.search(p, url.lower()) for p in LOGIN_URL_PATTERNS):
+                rec["access"] = "login wall"
+            elif hits:
+                rec["access"] = "paywall"; rec["paywall_markers"] = hits[:3]
+            else:
+                rec["access"] = "open" if (body or "html" not in rec.get("content_type", "html")) else "open (no body read)"
         if c is None:
             rec["verdict"] = "broken" if str(rec.get("error", "")).startswith("dns") else "error"
         elif 200 <= c < 400:
@@ -71,8 +88,8 @@ async def main():
     old = json.load(open(PATH))["results"] if os.path.exists(PATH) else {}
     urls = collect()
     cutoff = time.time() - MAX_AGE_DAYS * 86400
-    todo = [u for u in urls if u not in old or time.mktime(time.strptime(old[u]["checked_at"], "%Y-%m-%dT%H:%M:%SZ")) < cutoff
-            or old[u].get("verdict") in ("error",)]
+    todo = urls if FORCE else [u for u in urls if u not in old or time.mktime(time.strptime(old[u]["checked_at"], "%Y-%m-%dT%H:%M:%SZ")) < cutoff
+            or old[u].get("verdict") in ("error",) or "access" not in old[u] and old[u].get("verdict") == "ok"]
     print(f"{len(urls)} unique urls, {len(todo)} to check", flush=True)
     sems = defaultdict(lambda: asyncio.Semaphore(PER_HOST))
     gsem = asyncio.Semaphore(GLOBAL)
