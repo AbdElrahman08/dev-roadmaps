@@ -44,6 +44,9 @@ def collect():
     if os.path.exists("data/additions.json"):
         for a in json.load(open("data/additions.json"))["entries"]:
             urls.add(a["url"])
+    if os.path.exists("web/src/courses.json"):
+        for c in json.load(open("web/src/courses.json"))["courses"]:
+            urls.add(c["url"])
     return sorted(u for u in urls if u.startswith("http"))
 
 YT_HOSTS = {"www.youtube.com", "youtube.com", "m.youtube.com", "youtu.be"}

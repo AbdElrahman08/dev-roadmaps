@@ -1,0 +1,351 @@
+{
+ "paths": [
+  {
+   "id": "foundations",
+   "title": "Programming foundations",
+   "for": "Complete beginners who want one solid start before choosing a direction.",
+   "stages": [
+    {
+     "title": "Think like a programmer",
+     "why": "Learn what code is doing, using one well-taught course with real problem sets.",
+     "courses": [
+      "cs50x",
+      "khan-programming"
+     ]
+    },
+    {
+     "title": "Get fluent in one language",
+     "why": "Python is forgiving and is used in web, data and AI alike.",
+     "courses": [
+      "cs50p",
+      "mooc-python",
+      "fcc-python"
+     ]
+    },
+    {
+     "title": "Use the tools every developer uses",
+     "why": "The shell, Git and an editor are what separate tutorials from real work.",
+     "courses": [
+      "missing",
+      "progit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frontend",
+   "title": "Frontend web developer",
+   "for": "People who want to build websites and web apps people see and use.",
+   "stages": [
+    {
+     "title": "HTML and CSS",
+     "why": "Structure and layout come first. Build pages that work on phones.",
+     "courses": [
+      "odin-foundations",
+      "fcc-rwd",
+      "webdev-css"
+     ]
+    },
+    {
+     "title": "JavaScript",
+     "why": "The language of the browser. Learn it properly before reaching for a framework.",
+     "courses": [
+      "jsinfo",
+      "fcc-js",
+      "mdn-learn"
+     ]
+    },
+    {
+     "title": "A framework and real apps",
+     "why": "React is widely used. Learn it on real projects.",
+     "courses": [
+      "react-learn",
+      "fso",
+      "odin-fsjs"
+     ]
+    },
+    {
+     "title": "Quality",
+     "why": "Accessibility and types make your work usable and maintainable.",
+     "courses": [
+      "webdev-a11y",
+      "ts-handbook"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "backend",
+   "title": "Backend developer",
+   "for": "People who want to build the servers, APIs and databases behind apps.",
+   "stages": [
+    {
+     "title": "Databases and SQL",
+     "why": "Almost every backend stores data. SQL is the skill that lasts longest.",
+     "courses": [
+      "cs50sql",
+      "fcc-rdb",
+      "pg-tutorial"
+     ]
+    },
+    {
+     "title": "Build APIs",
+     "why": "Pick one stack (Python or JavaScript) and build real endpoints.",
+     "courses": [
+      "cs50w",
+      "django-tut",
+      "node-learn",
+      "fcc-backend"
+     ]
+    },
+    {
+     "title": "Security and depth",
+     "why": "Know the common vulnerabilities, then learn how databases work inside.",
+     "courses": [
+      "owasp-top10",
+      "cmu-db"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "data-analyst",
+   "title": "Data analyst",
+   "for": "People who want to answer business questions with data.",
+   "stages": [
+    {
+     "title": "Python and SQL basics",
+     "why": "The two tools almost every analyst job asks for.",
+     "courses": [
+      "kg-python",
+      "kg-sql",
+      "kg-pandas"
+     ]
+    },
+    {
+     "title": "Statistics you'll actually use",
+     "why": "Averages, spread, sampling and tests, so your conclusions hold up.",
+     "courses": [
+      "khan-stats"
+     ]
+    },
+    {
+     "title": "Analysis and visualization",
+     "why": "Turn data into charts and findings people can act on.",
+     "courses": [
+      "kg-viz",
+      "fcc-da",
+      "pyda"
+     ]
+    },
+    {
+     "title": "BI tools or R",
+     "why": "Power BI for business dashboards, or R if you're heading toward research.",
+     "courses": [
+      "mslearn-pbi",
+      "r4ds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "machine-learning",
+   "title": "Machine learning engineer",
+   "for": "People who want to train and evaluate models, with the maths behind them.",
+   "stages": [
+    {
+     "title": "The maths",
+     "why": "Linear algebra and probability are the language of ML.",
+     "courses": [
+      "khan-la",
+      "mit-1806",
+      "khan-stats"
+     ]
+    },
+    {
+     "title": "Classical ML",
+     "why": "Regression, trees and evaluation still solve most real problems.",
+     "courses": [
+      "mlcc",
+      "kg-ml",
+      "kg-iml",
+      "islp"
+     ]
+    },
+    {
+     "title": "Deep learning",
+     "why": "Neural networks from practical use to the theory underneath.",
+     "courses": [
+      "fastai",
+      "mit-6s191",
+      "d2l"
+     ]
+    },
+    {
+     "title": "Theory",
+     "why": "For people aiming at research roles or graduate study.",
+     "courses": [
+      "cs229"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai-engineer",
+   "title": "AI engineer (LLMs and agents)",
+   "for": "Developers building products on large language models.",
+   "stages": [
+    {
+     "title": "How LLMs work",
+     "why": "Build a small language model yourself, so the APIs stop being magic.",
+     "courses": [
+      "zero-to-hero",
+      "hf-llm"
+     ]
+    },
+    {
+     "title": "Prompting and tool use",
+     "why": "Most product quality comes from prompts, context and tools.",
+     "courses": [
+      "prompting-guide",
+      "anthropic-courses",
+      "oai-cookbook"
+     ]
+    },
+    {
+     "title": "Agents",
+     "why": "Plan, call tools and recover from errors.",
+     "courses": [
+      "hf-agents"
+     ]
+    },
+    {
+     "title": "Shipping it",
+     "why": "Evaluation, deployment and monitoring in production.",
+     "courses": [
+      "fsdl-llm",
+      "madewithml"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "devops",
+   "title": "DevOps and cloud engineer",
+   "for": "People who want to build, ship and run software reliably.",
+   "stages": [
+    {
+     "title": "Linux and the shell",
+     "why": "Servers run Linux. You'll live in the terminal.",
+     "courses": [
+      "linuxjourney",
+      "missing"
+     ]
+    },
+    {
+     "title": "Containers",
+     "why": "Docker is the standard way to package software.",
+     "courses": [
+      "docker-start",
+      "dwd"
+     ]
+    },
+    {
+     "title": "Automation and CI/CD",
+     "why": "Every change gets built, tested and deployed automatically.",
+     "courses": [
+      "gha-quick",
+      "tf-tut"
+     ]
+    },
+    {
+     "title": "Orchestration and the cloud",
+     "why": "Run containers at scale and understand cloud building blocks.",
+     "courses": [
+      "k8s-basics",
+      "dwk",
+      "az-fund"
+     ]
+    },
+    {
+     "title": "Reliability",
+     "why": "How large teams keep systems up.",
+     "courses": [
+      "sre-books"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cybersecurity",
+   "title": "Cybersecurity",
+   "for": "People who want to defend systems, or test them with permission.",
+   "stages": [
+    {
+     "title": "Hands-on basics",
+     "why": "Learn Linux and security thinking by playing.",
+     "courses": [
+      "bandit",
+      "picoctf"
+     ]
+    },
+    {
+     "title": "Core concepts",
+     "why": "The concepts behind entry-level certificates, and how companies organize security.",
+     "courses": [
+      "messer-secplus",
+      "nist-csf",
+      "csb"
+     ]
+    },
+    {
+     "title": "Web security",
+     "why": "Most attacks start at a web application.",
+     "courses": [
+      "owasp-top10",
+      "portswigger"
+     ]
+    },
+    {
+     "title": "Systems security",
+     "why": "University-level depth.",
+     "courses": [
+      "mit-6858"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "computer-science",
+   "title": "Computer science core",
+   "for": "Self-taught developers who want what a CS degree covers.",
+   "stages": [
+    {
+     "title": "Maths for CS",
+     "why": "Proofs, discrete maths and probability.",
+     "courses": [
+      "mit-6042"
+     ]
+    },
+    {
+     "title": "Algorithms and data structures",
+     "why": "The basis of technical interviews and of efficient code.",
+     "courses": [
+      "mit-6006",
+      "ods",
+      "erickson"
+     ]
+    },
+    {
+     "title": "How computers work",
+     "why": "From logic gates to operating systems to networks.",
+     "courses": [
+      "nand2tetris",
+      "ostep",
+      "cnsa"
+     ]
+    }
+   ]
+  }
+ ]
+}

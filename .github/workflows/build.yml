@@ -2,7 +2,7 @@ name: Build inventory, check links, deploy site
 on:
   push:
     branches: [main]
-    paths: ["data/verifications.json", "data/additions.json", "scripts/**", "site/index.html", ".github/workflows/build.yml"]
+    paths: ["data/verifications.json", "data/additions.json", "scripts/**", "site/index.html", "web/src/**", "web/index.html", ".github/workflows/build.yml"]
   schedule:
     - cron: "17 3 * * 1"   # weekly, Monday 03:17 UTC
   workflow_dispatch:
@@ -45,6 +45,8 @@ jobs:
         env: { MAX_AGE_DAYS: "7", CONCURRENCY: "40", FORCE: "${{ github.event.inputs.force_linkcheck || '0' }}" }
       - name: Build inventory (pass 2, with link results)
         run: python scripts/build_inventory.py upstream
+      - name: Build the public site catalog (independent content only)
+        run: python scripts/build_web.py
       - name: Commit data (rebuilt on top of the latest main, never merged)
         run: |
           git config user.name "inventory-bot"
@@ -54,7 +56,8 @@ jobs:
             git fetch -q origin main && git reset -q --hard origin/main
             cp /tmp/keep/linkcheck.json data/linkcheck.json && mkdir -p data/pages && cp -r /tmp/keep/pages/. data/pages/
             python scripts/build_inventory.py upstream
-            git add data site/data
+            python scripts/build_web.py
+            git add data site/data web/data
             git diff --cached --quiet && break
             git commit -qm "data: inventory refresh $(date -u +%F)"
             git push -q origin HEAD:main && break
@@ -63,6 +66,6 @@ jobs:
       - uses: actions/configure-pages@v5
         continue-on-error: true
       - uses: actions/upload-pages-artifact@v3
-        with: { path: site }
+        with: { path: web }   # only the independent site is ever deployed; site/ holds roadmap.sh-derived data (personal use)
       - uses: actions/deploy-pages@v4
         continue-on-error: true

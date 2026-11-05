@@ -1,0 +1,1046 @@
+{
+"built_at": "2026-11-05T22:06:12Z",
+"verified_on": "2026-11-05",
+"providers": {
+"Harvard CS50": {
+"url": "https://cs50.harvard.edu/x/",
+"claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+"tier": "provider-free"
+},
+"MIT OpenCourseWare": {
+"url": "https://ocw.mit.edu/about/",
+"claim": "\"a free and open collection of material from thousands of MIT courses\"; \"MIT does not offer credit or certification to users of OCW\"",
+"tier": "provider-free"
+},
+"fast.ai": {
+"url": "https://course.fast.ai/",
+"claim": "\"a free course designed for people ... with some coding experience\"",
+"tier": "provider-free"
+},
+"Kaggle Learn": {
+"url": "https://www.kaggle.com/learn",
+"claim": "Described as \"no-cost courses\"",
+"tier": "provider-free"
+},
+"freeCodeCamp": {
+"url": "https://www.freecodecamp.org/news/about/",
+"claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+"tier": "provider-free"
+},
+"The Odin Project": {
+"url": "https://www.theodinproject.com/about",
+"claim": "\"a free open source coding curriculum that can be taken entirely online\"",
+"tier": "provider-free"
+},
+"Khan Academy": {
+"url": "https://www.khanacademy.org/about",
+"claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+"tier": "provider-free"
+}
+},
+"courses": [
+{
+"id": "progit",
+"title": "Pro Git (book)",
+"provider": "Git project",
+"url": "https://git-scm.com/book/en/v2",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:22Z"
+},
+"cost": "open"
+},
+{
+"id": "fcc-rwd",
+"title": "Responsive Web Design",
+"provider": "freeCodeCamp",
+"url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+"format": "Interactive certification",
+"level": "Beginner",
+"note": "",
+"provider_evidence": {
+"url": "https://www.freecodecamp.org/news/about/",
+"claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:17Z"
+},
+"cost": "free"
+},
+{
+"id": "mdn-learn",
+"title": "Learn web development",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:20Z"
+},
+"cost": "open"
+},
+{
+"id": "jsinfo",
+"title": "The Modern JavaScript Tutorial",
+"provider": "javascript.info",
+"url": "https://javascript.info/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:16Z"
+},
+"cost": "open"
+},
+{
+"id": "react-learn",
+"title": "Learn React",
+"provider": "React docs",
+"url": "https://react.dev/learn",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:37Z"
+},
+"cost": "open"
+},
+{
+"id": "ts-handbook",
+"title": "The TypeScript Handbook",
+"provider": "TypeScript docs",
+"url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:01Z"
+},
+"cost": "open"
+},
+{
+"id": "pg-tutorial",
+"title": "PostgreSQL Tutorial",
+"provider": "PostgreSQL docs",
+"url": "https://www.postgresql.org/docs/current/tutorial.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:44Z"
+},
+"cost": "open"
+},
+{
+"id": "node-learn",
+"title": "Learn Node.js",
+"provider": "Node.js docs",
+"url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:55Z"
+},
+"cost": "open"
+},
+{
+"id": "owasp-top10",
+"title": "OWASP Top Ten",
+"provider": "OWASP",
+"url": "https://owasp.org/www-project-top-ten/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:31Z"
+},
+"cost": "open"
+},
+{
+"id": "kg-python",
+"title": "Python",
+"provider": "Kaggle Learn",
+"url": "https://www.kaggle.com/learn/python",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": {
+"url": "https://www.kaggle.com/learn",
+"claim": "Described as \"no-cost courses\"",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:51Z"
+},
+"cost": "free"
+},
+{
+"id": "khan-stats",
+"title": "Statistics and Probability",
+"provider": "Khan Academy",
+"url": "https://www.khanacademy.org/math/statistics-probability",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": {
+"url": "https://www.khanacademy.org/about",
+"claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:11Z"
+},
+"cost": "free"
+},
+{
+"id": "r4ds",
+"title": "R for Data Science (2e)",
+"provider": "Wickham, Çetinkaya-Rundel, Grolemund",
+"url": "https://r4ds.hadley.nz/",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:05Z"
+},
+"cost": "open"
+},
+{
+"id": "mslearn-pbi",
+"title": "Power BI training",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+"format": "Modules",
+"level": "Beginner",
+"note": "Learning modules. Certification exams are separate.",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:47Z"
+},
+"cost": "open"
+},
+{
+"id": "khan-la",
+"title": "Linear Algebra",
+"provider": "Khan Academy",
+"url": "https://www.khanacademy.org/math/linear-algebra",
+"format": "Video course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": {
+"url": "https://www.khanacademy.org/about",
+"claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:09Z"
+},
+"cost": "free"
+},
+{
+"id": "mlcc",
+"title": "Machine Learning Crash Course",
+"provider": "Google for Developers",
+"url": "https://developers.google.com/machine-learning/crash-course",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:02Z"
+},
+"cost": "open"
+},
+{
+"id": "fastai",
+"title": "Practical Deep Learning for Coders",
+"provider": "fast.ai",
+"url": "https://course.fast.ai/",
+"format": "Video course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": {
+"url": "https://course.fast.ai/",
+"claim": "\"a free course designed for people ... with some coding experience\"",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:37Z"
+},
+"cost": "free"
+},
+{
+"id": "mit-6s191",
+"title": "MIT 6.S191: Introduction to Deep Learning",
+"provider": "MIT",
+"url": "https://introtodeeplearning.com/",
+"format": "Lectures + labs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:44Z"
+},
+"cost": "open"
+},
+{
+"id": "prompting-guide",
+"title": "Prompt Engineering Guide",
+"provider": "DAIR.AI",
+"url": "https://www.promptingguide.ai/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:02Z"
+},
+"cost": "open"
+},
+{
+"id": "linuxjourney",
+"title": "Linux Journey",
+"provider": "Linux Journey",
+"url": "https://linuxjourney.com/",
+"format": "Interactive guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:01Z"
+},
+"cost": "open"
+},
+{
+"id": "docker-start",
+"title": "Docker: Get started",
+"provider": "Docker docs",
+"url": "https://docs.docker.com/get-started/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:15Z"
+},
+"cost": "open"
+},
+{
+"id": "k8s-basics",
+"title": "Learn Kubernetes Basics",
+"provider": "Kubernetes docs",
+"url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:47Z"
+},
+"cost": "open"
+},
+{
+"id": "sre-books",
+"title": "Site Reliability Engineering books",
+"provider": "Google",
+"url": "https://sre.google/books/",
+"format": "Books",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:20Z"
+},
+"cost": "open"
+},
+{
+"id": "picoctf",
+"title": "picoCTF practice",
+"provider": "Carnegie Mellon University",
+"url": "https://picoctf.org/",
+"format": "Capture the flag",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:20Z"
+},
+"cost": "open"
+},
+{
+"id": "nist-csf",
+"title": "NIST Cybersecurity Framework",
+"provider": "NIST",
+"url": "https://www.nist.gov/cyberframework",
+"format": "Framework",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:53Z"
+},
+"cost": "open"
+},
+{
+"id": "ods",
+"title": "Open Data Structures",
+"provider": "Pat Morin",
+"url": "https://opendatastructures.org/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:09Z"
+},
+"cost": "open"
+}
+],
+"paths": [
+{
+"id": "foundations",
+"title": "Programming foundations",
+"for": "Complete beginners who want one solid start before choosing a direction.",
+"stages": [
+{
+"title": "Think like a programmer",
+"why": "Learn what code is doing, using one well-taught course with real problem sets.",
+"courses": []
+},
+{
+"title": "Get fluent in one language",
+"why": "Python is forgiving and is used in web, data and AI alike.",
+"courses": []
+},
+{
+"title": "Use the tools every developer uses",
+"why": "The shell, Git and an editor are what separate tutorials from real work.",
+"courses": [
+"progit"
+]
+}
+],
+"course_count": 1
+},
+{
+"id": "frontend",
+"title": "Frontend web developer",
+"for": "People who want to build websites and web apps people see and use.",
+"stages": [
+{
+"title": "HTML and CSS",
+"why": "Structure and layout come first. Build pages that work on phones.",
+"courses": [
+"fcc-rwd"
+]
+},
+{
+"title": "JavaScript",
+"why": "The language of the browser. Learn it properly before reaching for a framework.",
+"courses": [
+"jsinfo",
+"mdn-learn"
+]
+},
+{
+"title": "A framework and real apps",
+"why": "React is widely used. Learn it on real projects.",
+"courses": [
+"react-learn"
+]
+},
+{
+"title": "Quality",
+"why": "Accessibility and types make your work usable and maintainable.",
+"courses": [
+"ts-handbook"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "backend",
+"title": "Backend developer",
+"for": "People who want to build the servers, APIs and databases behind apps.",
+"stages": [
+{
+"title": "Databases and SQL",
+"why": "Almost every backend stores data. SQL is the skill that lasts longest.",
+"courses": [
+"pg-tutorial"
+]
+},
+{
+"title": "Build APIs",
+"why": "Pick one stack (Python or JavaScript) and build real endpoints.",
+"courses": [
+"node-learn"
+]
+},
+{
+"title": "Security and depth",
+"why": "Know the common vulnerabilities, then learn how databases work inside.",
+"courses": [
+"owasp-top10"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "data-analyst",
+"title": "Data analyst",
+"for": "People who want to answer business questions with data.",
+"stages": [
+{
+"title": "Python and SQL basics",
+"why": "The two tools almost every analyst job asks for.",
+"courses": [
+"kg-python"
+]
+},
+{
+"title": "Statistics you'll actually use",
+"why": "Averages, spread, sampling and tests, so your conclusions hold up.",
+"courses": [
+"khan-stats"
+]
+},
+{
+"title": "Analysis and visualization",
+"why": "Turn data into charts and findings people can act on.",
+"courses": []
+},
+{
+"title": "BI tools or R",
+"why": "Power BI for business dashboards, or R if you're heading toward research.",
+"courses": [
+"mslearn-pbi",
+"r4ds"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "machine-learning",
+"title": "Machine learning engineer",
+"for": "People who want to train and evaluate models, with the maths behind them.",
+"stages": [
+{
+"title": "The maths",
+"why": "Linear algebra and probability are the language of ML.",
+"courses": [
+"khan-la",
+"khan-stats"
+]
+},
+{
+"title": "Classical ML",
+"why": "Regression, trees and evaluation still solve most real problems.",
+"courses": [
+"mlcc"
+]
+},
+{
+"title": "Deep learning",
+"why": "Neural networks from practical use to the theory underneath.",
+"courses": [
+"fastai",
+"mit-6s191"
+]
+},
+{
+"title": "Theory",
+"why": "For people aiming at research roles or graduate study.",
+"courses": []
+}
+],
+"course_count": 5
+},
+{
+"id": "ai-engineer",
+"title": "AI engineer (LLMs and agents)",
+"for": "Developers building products on large language models.",
+"stages": [
+{
+"title": "How LLMs work",
+"why": "Build a small language model yourself, so the APIs stop being magic.",
+"courses": []
+},
+{
+"title": "Prompting and tool use",
+"why": "Most product quality comes from prompts, context and tools.",
+"courses": [
+"prompting-guide"
+]
+},
+{
+"title": "Agents",
+"why": "Plan, call tools and recover from errors.",
+"courses": []
+},
+{
+"title": "Shipping it",
+"why": "Evaluation, deployment and monitoring in production.",
+"courses": []
+}
+],
+"course_count": 1
+},
+{
+"id": "devops",
+"title": "DevOps and cloud engineer",
+"for": "People who want to build, ship and run software reliably.",
+"stages": [
+{
+"title": "Linux and the shell",
+"why": "Servers run Linux. You'll live in the terminal.",
+"courses": [
+"linuxjourney"
+]
+},
+{
+"title": "Containers",
+"why": "Docker is the standard way to package software.",
+"courses": [
+"docker-start"
+]
+},
+{
+"title": "Automation and CI/CD",
+"why": "Every change gets built, tested and deployed automatically.",
+"courses": []
+},
+{
+"title": "Orchestration and the cloud",
+"why": "Run containers at scale and understand cloud building blocks.",
+"courses": [
+"k8s-basics"
+]
+},
+{
+"title": "Reliability",
+"why": "How large teams keep systems up.",
+"courses": [
+"sre-books"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "cybersecurity",
+"title": "Cybersecurity",
+"for": "People who want to defend systems, or test them with permission.",
+"stages": [
+{
+"title": "Hands-on basics",
+"why": "Learn Linux and security thinking by playing.",
+"courses": [
+"picoctf"
+]
+},
+{
+"title": "Core concepts",
+"why": "The concepts behind entry-level certificates, and how companies organize security.",
+"courses": [
+"nist-csf"
+]
+},
+{
+"title": "Web security",
+"why": "Most attacks start at a web application.",
+"courses": [
+"owasp-top10"
+]
+},
+{
+"title": "Systems security",
+"why": "University-level depth.",
+"courses": []
+}
+],
+"course_count": 3
+},
+{
+"id": "computer-science",
+"title": "Computer science core",
+"for": "Self-taught developers who want what a CS degree covers.",
+"stages": [
+{
+"title": "Maths for CS",
+"why": "Proofs, discrete maths and probability.",
+"courses": []
+},
+{
+"title": "Algorithms and data structures",
+"why": "The basis of technical interviews and of efficient code.",
+"courses": [
+"ods"
+]
+},
+{
+"title": "How computers work",
+"why": "From logic gates to operating systems to networks.",
+"courses": []
+}
+],
+"course_count": 1
+}
+],
+"hidden": [
+{
+"id": "cs50x",
+"title": "CS50x: Introduction to Computer Science",
+"url": "https://cs50.harvard.edu/x/",
+"reason": "not checked"
+},
+{
+"id": "cs50p",
+"title": "CS50P: Introduction to Programming with Python",
+"url": "https://cs50.harvard.edu/python/",
+"reason": "not checked"
+},
+{
+"id": "mooc-python",
+"title": "Python Programming MOOC",
+"url": "https://programming-26.mooc.fi/",
+"reason": "not checked"
+},
+{
+"id": "missing",
+"title": "The Missing Semester of Your CS Education",
+"url": "https://missing.csail.mit.edu/",
+"reason": "not checked"
+},
+{
+"id": "khan-programming",
+"title": "Computer Programming",
+"url": "https://www.khanacademy.org/computing/computer-programming",
+"reason": "not checked"
+},
+{
+"id": "fcc-python",
+"title": "Scientific Computing with Python",
+"url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+"reason": "not checked"
+},
+{
+"id": "odin-foundations",
+"title": "Foundations",
+"url": "https://www.theodinproject.com/paths/foundations",
+"reason": "not checked"
+},
+{
+"id": "webdev-css",
+"title": "Learn CSS",
+"url": "https://web.dev/learn/css",
+"reason": "not checked"
+},
+{
+"id": "webdev-a11y",
+"title": "Learn Accessibility",
+"url": "https://web.dev/learn/accessibility",
+"reason": "not checked"
+},
+{
+"id": "fcc-js",
+"title": "JavaScript Algorithms and Data Structures",
+"url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+"reason": "not checked"
+},
+{
+"id": "fso",
+"title": "Full Stack Open",
+"url": "https://fullstackopen.com/en/",
+"reason": "not checked"
+},
+{
+"id": "odin-fsjs",
+"title": "Full Stack JavaScript",
+"url": "https://www.theodinproject.com/paths/full-stack-javascript",
+"reason": "not checked"
+},
+{
+"id": "cs50w",
+"title": "CS50W: Web Programming with Python and JavaScript",
+"url": "https://cs50.harvard.edu/web/",
+"reason": "not checked"
+},
+{
+"id": "cs50sql",
+"title": "CS50 SQL: Introduction to Databases with SQL",
+"url": "https://cs50.harvard.edu/sql/",
+"reason": "not checked"
+},
+{
+"id": "fcc-backend",
+"title": "Back End Development and APIs",
+"url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+"reason": "not checked"
+},
+{
+"id": "fcc-rdb",
+"title": "Relational Database",
+"url": "https://www.freecodecamp.org/learn/relational-database/",
+"reason": "not checked"
+},
+{
+"id": "django-tut",
+"title": "Writing your first Django app",
+"url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+"reason": "not checked"
+},
+{
+"id": "cmu-db",
+"title": "CMU 15-445/645 Database Systems",
+"url": "https://15445.courses.cs.cmu.edu/",
+"reason": "not checked"
+},
+{
+"id": "kg-pandas",
+"title": "Pandas",
+"url": "https://www.kaggle.com/learn/pandas",
+"reason": "not checked"
+},
+{
+"id": "kg-viz",
+"title": "Data Visualization",
+"url": "https://www.kaggle.com/learn/data-visualization",
+"reason": "not checked"
+},
+{
+"id": "kg-sql",
+"title": "Intro to SQL",
+"url": "https://www.kaggle.com/learn/intro-to-sql",
+"reason": "not checked"
+},
+{
+"id": "fcc-da",
+"title": "Data Analysis with Python",
+"url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+"reason": "not checked"
+},
+{
+"id": "pyda",
+"title": "Python for Data Analysis (3e, open access)",
+"url": "https://wesmckinney.com/book/",
+"reason": "not checked"
+},
+{
+"id": "mit-1806",
+"title": "18.06 Linear Algebra (Gilbert Strang)",
+"url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+"reason": "not checked"
+},
+{
+"id": "kg-ml",
+"title": "Intro to Machine Learning",
+"url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+"reason": "not checked"
+},
+{
+"id": "kg-iml",
+"title": "Intermediate Machine Learning",
+"url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+"reason": "not checked"
+},
+{
+"id": "islp",
+"title": "An Introduction to Statistical Learning (Python edition)",
+"url": "https://www.statlearning.com/",
+"reason": "not checked"
+},
+{
+"id": "d2l",
+"title": "Dive into Deep Learning",
+"url": "https://d2l.ai/",
+"reason": "not checked"
+},
+{
+"id": "cs229",
+"title": "CS229: Machine Learning",
+"url": "https://cs229.stanford.edu/",
+"reason": "not checked"
+},
+{
+"id": "zero-to-hero",
+"title": "Neural Networks: Zero to Hero",
+"url": "https://karpathy.ai/zero-to-hero.html",
+"reason": "not checked"
+},
+{
+"id": "hf-llm",
+"title": "LLM Course",
+"url": "https://huggingface.co/learn/llm-course",
+"reason": "not checked"
+},
+{
+"id": "hf-agents",
+"title": "Agents Course",
+"url": "https://huggingface.co/learn/agents-course",
+"reason": "not checked"
+},
+{
+"id": "anthropic-courses",
+"title": "Anthropic courses (prompting, tool use, evals)",
+"url": "https://github.com/anthropics/courses",
+"reason": "not checked"
+},
+{
+"id": "oai-cookbook",
+"title": "OpenAI Cookbook",
+"url": "https://cookbook.openai.com/",
+"reason": "not checked"
+},
+{
+"id": "madewithml",
+"title": "Made With ML (MLOps)",
+"url": "https://madewithml.com/",
+"reason": "not checked"
+},
+{
+"id": "fsdl-llm",
+"title": "LLM Bootcamp",
+"url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+"reason": "not checked"
+},
+{
+"id": "dwd",
+"title": "DevOps with Docker",
+"url": "https://devopswithdocker.com/",
+"reason": "not checked"
+},
+{
+"id": "dwk",
+"title": "DevOps with Kubernetes",
+"url": "https://devopswithkubernetes.com/",
+"reason": "not checked"
+},
+{
+"id": "gha-quick",
+"title": "GitHub Actions quickstart",
+"url": "https://docs.github.com/en/actions/writing-workflows/quickstart",
+"reason": "not checked"
+},
+{
+"id": "tf-tut",
+"title": "Terraform tutorials",
+"url": "https://developer.hashicorp.com/terraform/tutorials",
+"reason": "not checked"
+},
+{
+"id": "az-fund",
+"title": "Azure Fundamentals: Describe cloud concepts",
+"url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+"reason": "not checked"
+},
+{
+"id": "bandit",
+"title": "Bandit wargame",
+"url": "https://overthewire.org/wargames/bandit/",
+"reason": "not checked"
+},
+{
+"id": "csb",
+"title": "Cyber Security Base",
+"url": "https://cybersecuritybase.mooc.fi/",
+"reason": "not checked"
+},
+{
+"id": "portswigger",
+"title": "Web Security Academy",
+"url": "https://portswigger.net/web-security",
+"reason": "not checked"
+},
+{
+"id": "messer-secplus",
+"title": "CompTIA Security+ SY0-701 training videos",
+"url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+"reason": "not checked"
+},
+{
+"id": "mit-6858",
+"title": "6.858 Computer Systems Security",
+"url": "https://ocw.mit.edu/courses/6-858-computer-systems-security-fall-2014/",
+"reason": "not checked"
+},
+{
+"id": "mit-6006",
+"title": "6.006 Introduction to Algorithms",
+"url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+"reason": "not checked"
+},
+{
+"id": "mit-6042",
+"title": "6.042J Mathematics for Computer Science",
+"url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",
+"reason": "not checked"
+},
+{
+"id": "erickson",
+"title": "Algorithms (Jeff Erickson)",
+"url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+"reason": "not checked"
+},
+{
+"id": "nand2tetris",
+"title": "From Nand to Tetris",
+"url": "https://www.nand2tetris.org/",
+"reason": "not checked"
+},
+{
+"id": "ostep",
+"title": "Operating Systems: Three Easy Pieces",
+"url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+"reason": "not checked"
+},
+{
+"id": "cnsa",
+"title": "Computer Networks: A Systems Approach",
+"url": "https://book.systemsapproach.org/",
+"reason": "not checked"
+}
+]
+}

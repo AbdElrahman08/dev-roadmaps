@@ -1,0 +1,916 @@
+{
+ "verified_on": "2026-11-05",
+ "providers": {
+  "Harvard CS50": {
+   "url": "https://cs50.harvard.edu/x/",
+   "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+   "tier": "provider-free"
+  },
+  "MIT OpenCourseWare": {
+   "url": "https://ocw.mit.edu/about/",
+   "claim": "\"a free and open collection of material from thousands of MIT courses\"; \"MIT does not offer credit or certification to users of OCW\"",
+   "tier": "provider-free"
+  },
+  "fast.ai": {
+   "url": "https://course.fast.ai/",
+   "claim": "\"a free course designed for people ... with some coding experience\"",
+   "tier": "provider-free"
+  },
+  "Kaggle Learn": {
+   "url": "https://www.kaggle.com/learn",
+   "claim": "Described as \"no-cost courses\"",
+   "tier": "provider-free"
+  },
+  "freeCodeCamp": {
+   "url": "https://www.freecodecamp.org/news/about/",
+   "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+   "tier": "provider-free"
+  },
+  "The Odin Project": {
+   "url": "https://www.theodinproject.com/about",
+   "claim": "\"a free open source coding curriculum that can be taken entirely online\"",
+   "tier": "provider-free"
+  },
+  "Khan Academy": {
+   "url": "https://www.khanacademy.org/about",
+   "claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+   "tier": "provider-free"
+  }
+ },
+ "courses": [
+  {
+   "id": "cs50x",
+   "title": "CS50x: Introduction to Computer Science",
+   "provider": "Harvard CS50",
+   "url": "https://cs50.harvard.edu/x/",
+   "format": "Video course + problem sets",
+   "level": "Beginner",
+   "note": "Free via OpenCourseWare. A verified certificate goes through edX.",
+   "provider_evidence": {
+    "url": "https://cs50.harvard.edu/x/",
+    "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "cs50p",
+   "title": "CS50P: Introduction to Programming with Python",
+   "provider": "Harvard CS50",
+   "url": "https://cs50.harvard.edu/python/",
+   "format": "Video course + problem sets",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://cs50.harvard.edu/x/",
+    "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "mooc-python",
+   "title": "Python Programming MOOC",
+   "provider": "University of Helsinki",
+   "url": "https://programming-26.mooc.fi/",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "University of Helsinki credits (5 ECTS per part) need exercises plus an exam. Open until the end of 2026.",
+   "provider_evidence": null
+  },
+  {
+   "id": "missing",
+   "title": "The Missing Semester of Your CS Education",
+   "provider": "MIT CSAIL",
+   "url": "https://missing.csail.mit.edu/",
+   "format": "Lectures + notes",
+   "level": "Beginner",
+   "note": "Shell, editors, Git, debugging, packaging.",
+   "provider_evidence": null
+  },
+  {
+   "id": "progit",
+   "title": "Pro Git (book)",
+   "provider": "Git project",
+   "url": "https://git-scm.com/book/en/v2",
+   "format": "Book",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "khan-programming",
+   "title": "Computer Programming",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/computing/computer-programming",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.khanacademy.org/about",
+    "claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "fcc-python",
+   "title": "Scientific Computing with Python",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+   "format": "Interactive certification",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.freecodecamp.org/news/about/",
+    "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "odin-foundations",
+   "title": "Foundations",
+   "provider": "The Odin Project",
+   "url": "https://www.theodinproject.com/paths/foundations",
+   "format": "Project-based curriculum",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.theodinproject.com/about",
+    "claim": "\"a free open source coding curriculum that can be taken entirely online\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "fcc-rwd",
+   "title": "Responsive Web Design",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+   "format": "Interactive certification",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.freecodecamp.org/news/about/",
+    "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "mdn-learn",
+   "title": "Learn web development",
+   "provider": "MDN Web Docs",
+   "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+   "format": "Guide",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "webdev-css",
+   "title": "Learn CSS",
+   "provider": "web.dev (Google)",
+   "url": "https://web.dev/learn/css",
+   "format": "Course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "webdev-a11y",
+   "title": "Learn Accessibility",
+   "provider": "web.dev (Google)",
+   "url": "https://web.dev/learn/accessibility",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "fcc-js",
+   "title": "JavaScript Algorithms and Data Structures",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+   "format": "Interactive certification",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.freecodecamp.org/news/about/",
+    "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "jsinfo",
+   "title": "The Modern JavaScript Tutorial",
+   "provider": "javascript.info",
+   "url": "https://javascript.info/",
+   "format": "Tutorial",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "react-learn",
+   "title": "Learn React",
+   "provider": "React docs",
+   "url": "https://react.dev/learn",
+   "format": "Tutorial",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "fso",
+   "title": "Full Stack Open",
+   "provider": "University of Helsinki",
+   "url": "https://fullstackopen.com/en/",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "React, Node.js, testing, TypeScript, GraphQL.",
+   "provider_evidence": null
+  },
+  {
+   "id": "odin-fsjs",
+   "title": "Full Stack JavaScript",
+   "provider": "The Odin Project",
+   "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+   "format": "Project-based curriculum",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.theodinproject.com/about",
+    "claim": "\"a free open source coding curriculum that can be taken entirely online\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "ts-handbook",
+   "title": "The TypeScript Handbook",
+   "provider": "TypeScript docs",
+   "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "cs50w",
+   "title": "CS50W: Web Programming with Python and JavaScript",
+   "provider": "Harvard CS50",
+   "url": "https://cs50.harvard.edu/web/",
+   "format": "Video course + projects",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://cs50.harvard.edu/x/",
+    "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "cs50sql",
+   "title": "CS50 SQL: Introduction to Databases with SQL",
+   "provider": "Harvard CS50",
+   "url": "https://cs50.harvard.edu/sql/",
+   "format": "Video course + problem sets",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://cs50.harvard.edu/x/",
+    "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "fcc-backend",
+   "title": "Back End Development and APIs",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+   "format": "Interactive certification",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.freecodecamp.org/news/about/",
+    "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "fcc-rdb",
+   "title": "Relational Database",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/relational-database/",
+   "format": "Interactive certification",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.freecodecamp.org/news/about/",
+    "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "pg-tutorial",
+   "title": "PostgreSQL Tutorial",
+   "provider": "PostgreSQL docs",
+   "url": "https://www.postgresql.org/docs/current/tutorial.html",
+   "format": "Docs",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "django-tut",
+   "title": "Writing your first Django app",
+   "provider": "Django docs",
+   "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+   "format": "Tutorial",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "node-learn",
+   "title": "Learn Node.js",
+   "provider": "Node.js docs",
+   "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "owasp-top10",
+   "title": "OWASP Top Ten",
+   "provider": "OWASP",
+   "url": "https://owasp.org/www-project-top-ten/",
+   "format": "Reference",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "cmu-db",
+   "title": "CMU 15-445/645 Database Systems",
+   "provider": "Carnegie Mellon University",
+   "url": "https://15445.courses.cs.cmu.edu/",
+   "format": "Lectures + projects",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "kg-python",
+   "title": "Python",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/python",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.kaggle.com/learn",
+    "claim": "Described as \"no-cost courses\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "kg-pandas",
+   "title": "Pandas",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/pandas",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.kaggle.com/learn",
+    "claim": "Described as \"no-cost courses\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "kg-viz",
+   "title": "Data Visualization",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/data-visualization",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.kaggle.com/learn",
+    "claim": "Described as \"no-cost courses\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "kg-sql",
+   "title": "Intro to SQL",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/intro-to-sql",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.kaggle.com/learn",
+    "claim": "Described as \"no-cost courses\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "fcc-da",
+   "title": "Data Analysis with Python",
+   "provider": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+   "format": "Interactive certification",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.freecodecamp.org/news/about/",
+    "claim": "\"Learn to Code for Free\"; a 501(c)(3) donor-supported public charity",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "khan-stats",
+   "title": "Statistics and Probability",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.khanacademy.org/about",
+    "claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "r4ds",
+   "title": "R for Data Science (2e)",
+   "provider": "Wickham, Çetinkaya-Rundel, Grolemund",
+   "url": "https://r4ds.hadley.nz/",
+   "format": "Book",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "pyda",
+   "title": "Python for Data Analysis (3e, open access)",
+   "provider": "Wes McKinney",
+   "url": "https://wesmckinney.com/book/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "mslearn-pbi",
+   "title": "Power BI training",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+   "format": "Modules",
+   "level": "Beginner",
+   "note": "Learning modules. Certification exams are separate.",
+   "provider_evidence": null
+  },
+  {
+   "id": "khan-la",
+   "title": "Linear Algebra",
+   "provider": "Khan Academy",
+   "url": "https://www.khanacademy.org/math/linear-algebra",
+   "format": "Video course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.khanacademy.org/about",
+    "claim": "\"provide a free, world-class education to anyone, anywhere\"; 501(c)(3) nonprofit",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "mit-1806",
+   "title": "18.06 Linear Algebra (Gilbert Strang)",
+   "provider": "MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+   "format": "Lectures + problem sets",
+   "level": "Intermediate",
+   "note": "No certificate.",
+   "provider_evidence": {
+    "url": "https://ocw.mit.edu/about/",
+    "claim": "\"a free and open collection of material from thousands of MIT courses\"; \"MIT does not offer credit or certification to users of OCW\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "mlcc",
+   "title": "Machine Learning Crash Course",
+   "provider": "Google for Developers",
+   "url": "https://developers.google.com/machine-learning/crash-course",
+   "format": "Course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "kg-ml",
+   "title": "Intro to Machine Learning",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+   "format": "Interactive course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.kaggle.com/learn",
+    "claim": "Described as \"no-cost courses\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "kg-iml",
+   "title": "Intermediate Machine Learning",
+   "provider": "Kaggle Learn",
+   "url": "https://www.kaggle.com/learn/intermediate-machine-learning",
+   "format": "Interactive course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://www.kaggle.com/learn",
+    "claim": "Described as \"no-cost courses\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "islp",
+   "title": "An Introduction to Statistical Learning (Python edition)",
+   "provider": "James, Witten, Hastie, Tibshirani, Taylor",
+   "url": "https://www.statlearning.com/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "fastai",
+   "title": "Practical Deep Learning for Coders",
+   "provider": "fast.ai",
+   "url": "https://course.fast.ai/",
+   "format": "Video course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://course.fast.ai/",
+    "claim": "\"a free course designed for people ... with some coding experience\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "mit-6s191",
+   "title": "MIT 6.S191: Introduction to Deep Learning",
+   "provider": "MIT",
+   "url": "https://introtodeeplearning.com/",
+   "format": "Lectures + labs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "d2l",
+   "title": "Dive into Deep Learning",
+   "provider": "d2l.ai",
+   "url": "https://d2l.ai/",
+   "format": "Interactive book",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "cs229",
+   "title": "CS229: Machine Learning",
+   "provider": "Stanford University",
+   "url": "https://cs229.stanford.edu/",
+   "format": "Lecture notes",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "zero-to-hero",
+   "title": "Neural Networks: Zero to Hero",
+   "provider": "Andrej Karpathy",
+   "url": "https://karpathy.ai/zero-to-hero.html",
+   "format": "Video series",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "hf-llm",
+   "title": "LLM Course",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/learn/llm-course",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "hf-agents",
+   "title": "Agents Course",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/learn/agents-course",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "anthropic-courses",
+   "title": "Anthropic courses (prompting, tool use, evals)",
+   "provider": "Anthropic",
+   "url": "https://github.com/anthropics/courses",
+   "format": "Notebooks",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "prompting-guide",
+   "title": "Prompt Engineering Guide",
+   "provider": "DAIR.AI",
+   "url": "https://www.promptingguide.ai/",
+   "format": "Guide",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "oai-cookbook",
+   "title": "OpenAI Cookbook",
+   "provider": "OpenAI",
+   "url": "https://cookbook.openai.com/",
+   "format": "Examples",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "madewithml",
+   "title": "Made With ML (MLOps)",
+   "provider": "Made With ML",
+   "url": "https://madewithml.com/",
+   "format": "Course",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "fsdl-llm",
+   "title": "LLM Bootcamp",
+   "provider": "The Full Stack",
+   "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+   "format": "Lectures",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "linuxjourney",
+   "title": "Linux Journey",
+   "provider": "Linux Journey",
+   "url": "https://linuxjourney.com/",
+   "format": "Interactive guide",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "docker-start",
+   "title": "Docker: Get started",
+   "provider": "Docker docs",
+   "url": "https://docs.docker.com/get-started/",
+   "format": "Tutorial",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "dwd",
+   "title": "DevOps with Docker",
+   "provider": "University of Helsinki",
+   "url": "https://devopswithdocker.com/",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "k8s-basics",
+   "title": "Learn Kubernetes Basics",
+   "provider": "Kubernetes docs",
+   "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+   "format": "Tutorial",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "dwk",
+   "title": "DevOps with Kubernetes",
+   "provider": "University of Helsinki",
+   "url": "https://devopswithkubernetes.com/",
+   "format": "Course",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "gha-quick",
+   "title": "GitHub Actions quickstart",
+   "provider": "GitHub Docs",
+   "url": "https://docs.github.com/en/actions/writing-workflows/quickstart",
+   "format": "Docs",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "tf-tut",
+   "title": "Terraform tutorials",
+   "provider": "HashiCorp",
+   "url": "https://developer.hashicorp.com/terraform/tutorials",
+   "format": "Tutorials",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "az-fund",
+   "title": "Azure Fundamentals: Describe cloud concepts",
+   "provider": "Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+   "format": "Learning path",
+   "level": "Beginner",
+   "note": "Learning path. The AZ-900 exam is separate.",
+   "provider_evidence": null
+  },
+  {
+   "id": "sre-books",
+   "title": "Site Reliability Engineering books",
+   "provider": "Google",
+   "url": "https://sre.google/books/",
+   "format": "Books",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "bandit",
+   "title": "Bandit wargame",
+   "provider": "OverTheWire",
+   "url": "https://overthewire.org/wargames/bandit/",
+   "format": "Hands-on game",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "picoctf",
+   "title": "picoCTF practice",
+   "provider": "Carnegie Mellon University",
+   "url": "https://picoctf.org/",
+   "format": "Capture the flag",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "csb",
+   "title": "Cyber Security Base",
+   "provider": "University of Helsinki",
+   "url": "https://cybersecuritybase.mooc.fi/",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "portswigger",
+   "title": "Web Security Academy",
+   "provider": "PortSwigger",
+   "url": "https://portswigger.net/web-security",
+   "format": "Course + labs",
+   "level": "Intermediate",
+   "note": "Reading is open. Labs need a free account.",
+   "provider_evidence": null
+  },
+  {
+   "id": "messer-secplus",
+   "title": "CompTIA Security+ SY0-701 training videos",
+   "provider": "Professor Messer",
+   "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+   "format": "Video course",
+   "level": "Beginner",
+   "note": "Videos only. The CompTIA exam is paid.",
+   "provider_evidence": null
+  },
+  {
+   "id": "mit-6858",
+   "title": "6.858 Computer Systems Security",
+   "provider": "MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/6-858-computer-systems-security-fall-2014/",
+   "format": "Lectures",
+   "level": "Advanced",
+   "note": "No certificate.",
+   "provider_evidence": {
+    "url": "https://ocw.mit.edu/about/",
+    "claim": "\"a free and open collection of material from thousands of MIT courses\"; \"MIT does not offer credit or certification to users of OCW\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "nist-csf",
+   "title": "NIST Cybersecurity Framework",
+   "provider": "NIST",
+   "url": "https://www.nist.gov/cyberframework",
+   "format": "Framework",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "mit-6006",
+   "title": "6.006 Introduction to Algorithms",
+   "provider": "MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+   "format": "Lectures + problem sets",
+   "level": "Intermediate",
+   "note": "No certificate.",
+   "provider_evidence": {
+    "url": "https://ocw.mit.edu/about/",
+    "claim": "\"a free and open collection of material from thousands of MIT courses\"; \"MIT does not offer credit or certification to users of OCW\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "mit-6042",
+   "title": "6.042J Mathematics for Computer Science",
+   "provider": "MIT OpenCourseWare",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",
+   "format": "Lectures + problem sets",
+   "level": "Intermediate",
+   "note": "No certificate.",
+   "provider_evidence": {
+    "url": "https://ocw.mit.edu/about/",
+    "claim": "\"a free and open collection of material from thousands of MIT courses\"; \"MIT does not offer credit or certification to users of OCW\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "erickson",
+   "title": "Algorithms (Jeff Erickson)",
+   "provider": "University of Illinois",
+   "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+   "format": "Book",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "ods",
+   "title": "Open Data Structures",
+   "provider": "Pat Morin",
+   "url": "https://opendatastructures.org/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "nand2tetris",
+   "title": "From Nand to Tetris",
+   "provider": "nand2tetris.org",
+   "url": "https://www.nand2tetris.org/",
+   "format": "Course + projects",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "ostep",
+   "title": "Operating Systems: Three Easy Pieces",
+   "provider": "Arpaci-Dusseau (UW-Madison)",
+   "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "cnsa",
+   "title": "Computer Networks: A Systems Approach",
+   "provider": "Peterson & Davie",
+   "url": "https://book.systemsapproach.org/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  }
+ ]
+}
