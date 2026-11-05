@@ -45,13 +45,21 @@ jobs:
         env: { MAX_AGE_DAYS: "7", CONCURRENCY: "40", FORCE: "${{ github.event.inputs.force_linkcheck || '0' }}" }
       - name: Build inventory (pass 2, with link results)
         run: python scripts/build_inventory.py upstream
-      - name: Commit data
+      - name: Commit data (rebuilt on top of the latest main, never merged)
         run: |
           git config user.name "inventory-bot"
           git config user.email "inventory-bot@users.noreply.github.com"
-          git add data site/data
-          git diff --cached --quiet || git commit -m "data: inventory refresh $(date -u +%F)"
-          git pull --rebase origin main && git push
+          mkdir -p /tmp/keep && cp data/linkcheck.json /tmp/keep/ && cp -r data/pages /tmp/keep/pages
+          for attempt in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp /tmp/keep/linkcheck.json data/linkcheck.json && mkdir -p data/pages && cp -r /tmp/keep/pages/. data/pages/
+            python scripts/build_inventory.py upstream
+            git add data site/data
+            git diff --cached --quiet && break
+            git commit -qm "data: inventory refresh $(date -u +%F)"
+            git push -q origin HEAD:main && break
+            sleep 10
+          done
       - uses: actions/configure-pages@v5
         continue-on-error: true
       - uses: actions/upload-pages-artifact@v3
