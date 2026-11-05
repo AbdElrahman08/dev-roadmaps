@@ -1,0 +1,124 @@
+<title>Roadmaps Business Research</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: ledger workspace — stage summary first, then one tabbed register at a time, rows as auditable records */
+:root{
+  --bg:#f6f7f5;--surface:#ffffff;--fg:#1d2420;--muted:#5d6a63;--line:#d9dfdb;
+  --accent:#1f6f5c;--accent-soft:#e2efe9;--crit:#a33a2b;--crit-soft:#f7e4e0;--warn:#8a5a00;--warn-soft:#f6ecd6;
+  --display:"Bricolage Grotesque",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121614;--surface:#1a201d;--fg:#e4ebe7;--muted:#9aa8a1;--line:#2c3531;
+  --accent:#6cc3a8;--accent-soft:#1d3029;--crit:#f08f7f;--crit-soft:#3a201c;--warn:#e3b55a;--warn-soft:#352b17;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121614;--surface:#1a201d;--fg:#e4ebe7;--muted:#9aa8a1;--line:#2c3531;
+  --accent:#6cc3a8;--accent-soft:#1d3029;--crit:#f08f7f;--crit-soft:#3a201c;--warn:#e3b55a;--warn-soft:#352b17;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body)}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+header{display:grid;gap:6px}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(26px,4vw,38px)/1.1 var(--display);margin:0;text-wrap:balance}
+h2{font:600 19px/1.25 var(--display);margin:0}
+p{margin:0;max-width:68ch}
+.alert{background:var(--crit-soft);border-left:4px solid var(--crit);padding:16px 18px;display:grid;gap:6px;border-radius:2px}
+.alert strong{color:var(--crit)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);padding:16px 18px;display:grid;gap:10px;align-content:start;min-width:0}
+.panel ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.tools{width:100%;border-collapse:collapse;font-size:13.5px}
+.tools td,.tools th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.chip{display:inline-block;font:500 11.5px var(--mono);padding:2px 7px;border-radius:999px;white-space:nowrap}
+.ok{background:var(--accent-soft);color:var(--accent)}.no{background:var(--crit-soft);color:var(--crit)}.part{background:var(--warn-soft);color:var(--warn)}
+nav{display:flex;flex-wrap:wrap;gap:6px}
+nav button{font:500 13px var(--body);background:transparent;color:var(--fg);border:1px solid var(--line);padding:6px 12px;border-radius:999px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+nav button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.reg-head{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:end}
+input{font:14px var(--body);padding:7px 10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);min-width:0;width:min(320px,100%)}
+.scroll{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table.reg{border-collapse:collapse;font-size:13px;min-width:900px;width:100%}
+table.reg th{font:500 11.5px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--bg);position:sticky;top:0}
+table.reg th,table.reg td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;max-width:340px}
+table.reg td:first-child{font:500 12.5px var(--mono);white-space:nowrap}
+table.reg a{color:var(--accent);word-break:break-all}
+.unk{font:500 12px var(--mono);color:var(--warn)}
+.empty{padding:20px;color:var(--muted)}
+.foot{color:var(--muted);font-size:13px}
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Stage 1 · closed 5 Nov 2026 · research workspace</div>
+  <h1>Free dev roadmaps as a business</h1>
+  <p>Evidence collected so far on turning the verified-free roadmaps into a business. Every record links to its source and the date it was read. Unknown values stay blank. None of them has been estimated.</p>
+</header>
+
+<section class="alert" aria-label="Blocking finding">
+  <strong>Blocking finding · RK-001 / D-001</strong>
+  <p>The roadmap.sh licence allows personal use only. It forbids publishing the content "in any form" outside the repository without prior consent from the author. That blocks a public launch or any monetization of content taken from roadmap.sh until you have written consent, or until the topic structure is rebuilt independently. This isn't legal advice. Talk to a lawyer before you decide.</p>
+</section>
+
+<div class="grid">
+  <section class="panel"><h2>What we know</h2><ul>
+    <li>Competitors charge roughly $15–40 a month, or $239–399 a year (Codecademy, Coursera Plus, Boot.dev).</li>
+    <li>roadmap.sh already sells Team seats at $10 a seat per month and AI features to the same audience.</li>
+    <li>Fully free curricula run on donations (freeCodeCamp is a US 501(c)(3); The Odin Project also takes donations).</li>
+    <li>Class Central funds course discovery with ads and affiliate links.</li>
+    <li>Egypt's government funds free tech training at scale (Digital Pioneers aims at 12,000 a year; DEPI has 3,000+ graduates through one vendor).</li>
+  </ul></section>
+  <section class="panel"><h2>What we don't know</h2><ul>
+    <li>Demand: there are no interviews, survey responses or usage data yet.</li>
+    <li>TAM, SAM, SOM, CAC, churn and our own price are all unknown.</li>
+    <li>Whether the roadmap.sh author would consent, and on what terms.</li>
+    <li>Individual roadmap.sh Pro prices and Scrimba prices (neither page showed them).</li>
+    <li>Search demand and traffic (Semrush has no API units left).</li>
+  </ul></section>
+  <section class="panel"><h2>Next priorities</h2><ul>
+    <li>Decide D-001: ask for consent (I'll draft the email; it's sent only with your approval) or rebuild independently.</li>
+    <li>VE-001: learner interviews plus a Typeform survey (published only with your approval).</li>
+    <li>VE-002: interviews with institutions, tracked in HubSpot (records created only with your approval).</li>
+    <li>Size the market from primary statistics.</li>
+  </ul></section>
+</div>
+
+<section class="panel" aria-label="Tools"><h2>Tools used in this stage</h2>
+<div class="scroll" style="border:0"><table class="tools"><tbody>
+<tr><td>Web research, official pricing pages</td><td><span class="chip ok">used</span></td><td>8 competitors checked; Scrimba didn't render</td></tr>
+<tr><td>Semrush</td><td><span class="chip part">connected · no API units</span></td><td>No SEO or traffic data collected</td></tr>
+<tr><td>Ahrefs, Similarweb, Google Trends, G2, Trustpilot, Product Hunt</td><td><span class="chip no">not connected</span></td><td>Not used; nothing from them in these registers</td></tr>
+<tr><td>Google Drive and Sheets</td><td><span class="chip no">not connected</span></td><td>CSV files in the GitHub repo instead</td></tr>
+<tr><td>Notion</td><td><span class="chip part">create tools not loaded</span></td><td>The CSV files are ready to import</td></tr>
+<tr><td>Typeform, HubSpot, Figma</td><td><span class="chip ok">connected</span></td><td>Not used yet; anything they create or publish needs your approval</td></tr>
+<tr><td>GitHub</td><td><span class="chip ok">used</span></td><td>Registers in <code>research/</code>; upstream licence read</td></tr>
+</tbody></table></div></section>
+
+<section style="display:grid;gap:14px" aria-label="Registers">
+  <div class="reg-head"><h2 id="regtitle">Registers</h2><input id="q" type="search" placeholder="Filter rows" aria-label="Filter rows in this register"></div>
+  <nav id="tabs" role="tablist" aria-label="Registers"></nav>
+  <div class="scroll"><table class="reg" id="reg"><thead></thead><tbody></tbody></table></div>
+</section>
+<p class="foot">Source of truth: <code>research/*.csv</code> in AbdElrahman08/dev-roadmaps. This page is a read-only view rebuilt from those files. No human review of this research has taken place.</p>
+</div>
+<script>
+const DATA=__DATA__;
+let cur=DATA[0].id;
+try{const h=location.hash.slice(1);if(DATA.some(d=>d.id===h))cur=h}catch(e){}
+const tabs=document.getElementById('tabs'),q=document.getElementById('q');
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function cell(v){if(/^https?:\/\//.test(v))return `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(v)}</a>`;
+  if(/^UNKNOWN|^UNVERIFIED/.test(v))return `<span class="unk">${esc(v)}</span>`;return esc(v)}
+function render(){
+  const d=DATA.find(x=>x.id===cur),f=q.value.trim().toLowerCase();
+  tabs.innerHTML=DATA.map(x=>`<button role="tab" aria-selected="${x.id===cur}" data-id="${x.id}">${x.label} · ${x.rows.length}</button>`).join('');
+  const t=document.getElementById('reg');
+  t.tHead.innerHTML='<tr>'+d.cols.map(c=>`<th>${esc(c.replace(/_/g,' '))}</th>`).join('')+'</tr>';
+  const rows=d.rows.filter(r=>!f||r.join(' ').toLowerCase().includes(f));
+  t.tBodies[0].innerHTML=rows.length?rows.map(r=>'<tr>'+r.map(v=>'<td>'+cell(v)+'</td>').join('')+'</tr>').join(''):
+    `<tr><td class="empty" colspan="${d.cols.length}">${d.rows.length?'No rows match the filter.':'No records yet. Records will be added once interviews are run, with consent recorded.'}</td></tr>`;
+}
+tabs.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;cur=b.dataset.id;try{history.replaceState(null,'','#'+cur)}catch(_){location.hash=cur}render()});
+q.addEventListener('input',render);
+window.addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(DATA.some(d=>d.id===h)){cur=h;render()}});
+render();
+</script>

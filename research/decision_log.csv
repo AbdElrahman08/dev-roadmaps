@@ -1,0 +1,4 @@
+id,date,decision,rationale,evidence_ids,status,decided_by
+D-001,2026-11-05,Pause any public launch or monetization of roadmap.sh-derived content until written consent is obtained or content is rebuilt independently,Upstream license allows personal use only,EV-001;EV-012,Proposed — needs your decision,pending
+D-002,2026-11-05,Treat revenue models RM-001..RM-005 as hypotheses; none adopted,Only competitor precedents exist; no demand data,EV-002..EV-009,Proposed,pending
+D-003,2026-11-05,Include Egypt government programs as substitutes in competitor set,Free scholarships at scale,EV-010;EV-011,Proposed,pending

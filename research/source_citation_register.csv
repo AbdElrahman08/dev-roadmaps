@@ -1,0 +1,13 @@
+id,source_title,source_url,source_type,publication_date,access_date,used_by
+SRC-001,developer-roadmap repository license file,https://github.com/kamranahmedse/developer-roadmap/blob/master/license,Primary: license text,unknown (file in repo HEAD),2026-11-05,EV-001
+SRC-002,roadmap.sh Premium page,https://roadmap.sh/premium,Primary: official pricing page,not stated,2026-11-05,EV-002
+SRC-003,roadmap.sh About page,https://roadmap.sh/about,Primary: company self-report,not stated,2026-11-05,EV-003
+SRC-004,Codecademy pricing page,https://www.codecademy.com/pricing,Primary: official pricing page,not stated,2026-11-05,EV-004
+SRC-005,Coursera Plus page,https://www.coursera.org/courseraplus,Primary: official pricing page,not stated,2026-11-05,EV-005
+SRC-006,Boot.dev pricing page,https://www.boot.dev/pricing,Primary: official pricing page,not stated,2026-11-05,EV-006
+SRC-007,freeCodeCamp About,https://www.freecodecamp.org/news/about/,Primary: organization self-report,not stated,2026-11-05,EV-007
+SRC-008,The Odin Project About,https://www.theodinproject.com/about,Primary: organization page,not stated,2026-11-05,EV-008
+SRC-009,Class Central About,https://www.classcentral.com/about,Primary: company self-report,not stated,2026-11-05,EV-009
+SRC-010,Amwal Al Ghad: Egypt introduces initiative to train 12k youth annually,https://en.amwalalghad.com/?p=191951,Secondary: news,2025-02-06,2026-11-05,EV-010
+SRC-011,Global Knowledge case study: Global Knowledge powers DEPI,https://www.globalknowledge.com/en/solutions/case-studies/global-knowledge-powers-depi,Vendor case study,2026-04-29,2026-11-05,EV-011
+SRC-012,dev-roadmaps repository data/coverage.json,https://github.com/AbdElrahman08/dev-roadmaps,Internal build output,2026-11-05,2026-11-05,EV-012

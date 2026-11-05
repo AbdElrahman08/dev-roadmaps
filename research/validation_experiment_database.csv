@@ -1,0 +1,4 @@
+id,hypothesis,method,tool,success_metric,status,result,notes
+VE-001,Learners want a verified-free roadmap (vs roadmap.sh),10-15 learner interviews + short survey,Typeform (connected),Interviews completed; % who report paying for or abandoning paid links,Not started,,Survey needs your approval before publishing
+VE-002,Institutions would pay for seats/progress tracking,5 interviews with universities/training providers,HubSpot (connected) for tracking,Interviews done; stated willingness to pay (kept separate from purchases),Not started,,
+VE-003,Price point,Pricing interviews after VE-002,—,—,Not started,,

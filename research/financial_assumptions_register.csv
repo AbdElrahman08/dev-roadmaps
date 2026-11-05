@@ -1,0 +1,11 @@
+id,assumption,value,unit,status,source_or_formula,notes
+FA-001,Target addressable learners (TAM),UNKNOWN,learners,Not estimated,Requires market sizing research,Do not fill without a source
+FA-002,Serviceable market (SAM),UNKNOWN,learners,Not estimated,Depends on FA-001 and chosen geography,
+FA-003,Obtainable share (SOM),UNKNOWN,learners,Not estimated,Depends on acquisition tests (VE-002),
+FA-004,Competitor reference price: roadmap.sh Team,10,USD/seat/month,Observed,EV-002,"Reference only, not our price"
+FA-005,Competitor reference price: Codecademy Pro (annual),19.99,USD/month,Observed,EV-004,
+FA-006,Competitor reference price: Coursera Plus (annual list),399,USD/year,Observed,EV-005,Promo 239 until 2026-11-30
+FA-007,Our price per seat,UNKNOWN,USD or EGP,Not set,Pricing test VE-003,
+FA-008,Customer acquisition cost (CAC),UNKNOWN,per customer,Not estimated,Needs acquisition experiment,
+FA-009,Churn / retention,UNKNOWN,%/month,Not estimated,Needs usage data,
+FA-010,Hosting cost,0 (current),USD/month,Observed,GitHub Actions + static hosting on free tiers,Will change with traffic; verify plan limits

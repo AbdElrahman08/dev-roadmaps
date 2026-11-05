@@ -1,0 +1,10 @@
+id,name,url,category,price_model,list_price_usd,free_offer,audience_size_claim,evidence_ids,verified_on,notes
+CMP-001,roadmap.sh,https://roadmap.sh,Roadmaps + AI tutor (upstream source),Freemium + Pro + Team seats,Team $10/seat/month; individual Pro not rendered,Roadmaps free; AI features one-time allowance,3.2M+ registered (self-report),EV-002;EV-003,2026-11-05,Upstream owner; license restricts reuse (EV-001)
+CMP-002,Codecademy,https://www.codecademy.com,Interactive courses,Subscription,Plus 14.99-29.99/mo; Pro 19.99-39.99/mo,Basic tier,not checked,EV-004,2026-11-05,
+CMP-003,Coursera Plus,https://www.coursera.org,Course marketplace,Subscription / per course,59/mo; 239-399/yr; courses 49-79/mo,Audit options exist (not re-checked),not checked,EV-005,2026-11-05,Promo ends 2026-11-30
+CMP-004,Boot.dev,https://www.boot.dev,Interactive backend courses,Subscription,399/yr,Read-only free mode,not checked,EV-006,2026-11-05,
+CMP-005,freeCodeCamp,https://www.freecodecamp.org,Free curriculum,Donations (US 501(c)(3)),0,Entire curriculum,1M+ people/day across properties (self-report),EV-007,2026-11-05,
+CMP-006,The Odin Project,https://www.theodinproject.com,Free open-source curriculum,Donations,0,Entire curriculum,not stated,EV-008,2026-11-05,
+CMP-007,Class Central,https://www.classcentral.com,Course aggregator / reviews,Ads + affiliate,0 to learner,"Search, reviews",60M unique users since 2011 (self-report),EV-009,2026-11-05,Closest model to a 'find free courses' product
+CMP-008,DEPI / Digital Pioneers (MCIT),https://depi.gov.eg,Government training (Egypt),Government-funded scholarships,0 to learner (Digital Pioneers),Full scholarships,"12k/yr target; 3,000+ DEPI graduates via one vendor",EV-010;EV-011,2026-11-05,Official site failed to load; figures from secondary sources
+CMP-009,Scrimba,https://scrimba.com,Interactive screencasts,Subscription (unverified),UNVERIFIED — pricing page did not render,unknown,not checked,,2026-11-05,Re-check pricing in a browser
