@@ -1515,6 +1515,2455 @@
     "why": "Hands-on, beginner-to-intermediate pandas EDA on real datasets — same goal as the 2-hour Coursera Guided Project. Already on the source roadmap (Machine Learning topic).",
     "gap": "Not a single 2-hour project; learners should use Topics 1–2 only."
    }
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees",
+   "access_status": "link-unverified",
+   "provider": "Coursera (UC San Diego)",
+   "cost_evidence": "Lecture page could not be fetched (client error); free viewing not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.coursera.org/specializations/scala",
+   "access_status": "access-uncertain",
+   "provider": "EPFL (Coursera)",
+   "cost_evidence": "FAQ: 'No, you cannot take this course for free.'; 'Enroll for free' button; Coursera Plus; financial aid.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "JetBrains Academy: Functional Programming in Scala",
+    "url": "https://academy.jetbrains.com/course/23833-functional-programming-in-scala",
+    "provider": "JetBrains Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "'Yes! It's 100% free and works with both the free and paid versions of JetBrains IDEs.' Level: advanced.",
+    "why": "Functional programming in Scala course, matching the goal of EPFL's Functional Programming in Scala Specialization.",
+    "gap": "Single course rather than a 5-course specialisation; no parallel programming, Spark or capstone."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/scala-spark-big-data",
+   "access_status": "access-uncertain",
+   "provider": "EPFL (Coursera)",
+   "cost_evidence": "'Enroll for free'; some assignments titled '(audit)' but no explicit free/audit statement for the course; FAQ says materials need the paid Certificate experience.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/learn/microsoft-azure---data-factory",
+   "access_status": "access-uncertain",
+   "provider": "EDUCBA (Coursera)",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Microsoft Learn: Data integration at scale with Azure Data Factory",
+    "url": "https://learn.microsoft.com/en-us/training/paths/data-integration-scale-azure-data-factory",
+    "provider": "Microsoft Learn",
+    "type": "course (learning path)",
+    "access": "free",
+    "evidence": "Microsoft Learn FAQ: training is free. Path: 6 modules (ingestion, code-free transformation, orchestration, SSIS packages, operationalising pipelines); intermediate.",
+    "why": "Microsoft's own intermediate Azure Data Factory training, covering the same pipeline-building scope as EDUCBA's Coursera course.",
+    "gap": "Hands-on exercises need an Azure subscription (free trial available)."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/learning-server-side-programming-through-game-development",
+   "access_status": "access-uncertain",
+   "provider": "HKUST (Coursera)",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Full Stack Open, Part 3: Programming a server with NodeJS and Express",
+    "url": "https://fullstackopen.com/en/part3",
+    "provider": "University of Helsinki",
+    "type": "course",
+    "access": "free",
+    "evidence": "'Open online course on JavaScript based modern web development by University of Helsinki and Houston Inc.'",
+    "why": "Server-side programming course (REST APIs, Node.js, Express, deployment), the same core goal as HKUST's server-side course.",
+    "gap": "Not game-themed and no PHP or WebSocket module."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/packt-scala-fundamentals-ll2gw",
+   "access_status": "paid",
+   "provider": "Packt (Coursera)",
+   "cost_evidence": "'This course is currently available only to learners who have paid or received financial aid'; only first video previewable.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "JetBrains Academy: Functional Programming in Scala",
+    "url": "https://academy.jetbrains.com/course/23833-functional-programming-in-scala",
+    "provider": "JetBrains Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "'Yes! It's 100% free and works with both the free and paid versions of JetBrains IDEs.' Level: advanced.",
+    "why": "Functional programming in Scala course, matching the goal of EPFL's Functional Programming in Scala Specialization.",
+    "gap": "Single course rather than a 5-course specialisation; no parallel programming, Spark or capstone."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/requirements-gathering-in-business-analysis",
+   "access_status": "access-uncertain",
+   "provider": "Microsoft (Coursera)",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/learn/introduction-to-openai-codex",
+   "access_status": "access-uncertain",
+   "provider": "Scrimba (Coursera)",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/learn/machine-learning-foundations-for-product-managers",
+   "access_status": "access-uncertain",
+   "provider": "Duke (Coursera)",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Google Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "provider": "Google for Developers",
+    "type": "course",
+    "access": "free",
+    "evidence": "Google Developers Blog (2018): 'MLCC is free.' No prior ML required.",
+    "why": "Covers what ML is, the modelling process, evaluation, linear models and neural networks — the core of Duke's ML Foundations for Product Managers.",
+    "gap": "Written for engineers, not product managers; no PM-specific project."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/ai-security",
+   "access_status": "free",
+   "provider": "Infosec (Coursera)",
+   "cost_evidence": "FAQ: 'No, all features of this course are available for free.' No certificate awarded.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/arrays-OsBSF",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1",
+   "access_status": "access-uncertain",
+   "provider": "University of Washington (Coursera)",
+   "cost_evidence": "Programming Languages, Part A: 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no-certificate option not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Data Structures and Performance: 'Enroll for free' vs FAQ 'purchase the Certificate experience'.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/blockchain-basics/basic-operations-OxILB",
+   "access_status": "access-uncertain",
+   "provider": "University at Buffalo (Coursera)",
+   "cost_evidence": "Blockchain Basics: 'Enroll for free' vs FAQ 'purchase the Certificate experience'; lectures not viewable without enrolling.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Cyfrin Updraft: Blockchain Basics",
+    "url": "https://updraft.cyfrin.io/courses/blockchain-basics",
+    "provider": "Cyfrin Updraft",
+    "type": "course",
+    "access": "free",
+    "evidence": "Updraft course pages: 'Sign up today completely for free'. Blockchain Basics: beginner, 58 lessons, how blockchains work, PoW/PoS, wallets, gas, transactions, smart contracts.",
+    "why": "Beginner blockchain fundamentals course covering the same structure and operations topics as Buffalo's Blockchain Basics.",
+    "gap": "No price shown on this course page itself; free status taken from Updraft's course pages."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/blockchain-basics/blockchain-structure-5rj9Z",
+   "access_status": "access-uncertain",
+   "provider": "University at Buffalo (Coursera)",
+   "cost_evidence": "Same course as basic-operations lecture: free access not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Cyfrin Updraft: Blockchain Basics",
+    "url": "https://updraft.cyfrin.io/courses/blockchain-basics",
+    "provider": "Cyfrin Updraft",
+    "type": "course",
+    "access": "free",
+    "evidence": "Updraft course pages: 'Sign up today completely for free'. Blockchain Basics: beginner, 58 lessons, how blockchains work, PoW/PoS, wallets, gas, transactions, smart contracts.",
+    "why": "Beginner blockchain fundamentals course covering the same structure and operations topics as Buffalo's Blockchain Basics.",
+    "gap": "No price shown on this course page itself; free status taken from Updraft's course pages."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore",
+   "access_status": "link-unverified",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Lecture page could not be fetched; course page did not render course-specific access terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/home/week/4",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/specializations/pearson-linux-networking-basics-and-beyond",
+   "access_status": "access-uncertain",
+   "provider": "Pearson (Coursera)",
+   "cost_evidence": "FAQ: 'No, you cannot take this course for free.'",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/learn/advanced-matplotlib-design-customize-visualizations",
+   "access_status": "access-uncertain",
+   "provider": "EDUCBA (Coursera)",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://pt.coursera.org/learn/test-and-behavior-driven-development-tdd-bdd",
+   "access_status": "access-uncertain",
+   "provider": "IBM (Coursera)",
+   "cost_evidence": "Redirects to www.coursera.org/learn/test-and-behavior-driven-development-tdd-bdd: 'Enroll for free' vs FAQ 'purchase the Certificate experience'.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/courses?query=unix",
+   "access_status": "access-uncertain",
+   "provider": "Coursera (search page)",
+   "cost_evidence": "Search results page, not a course. FAQ: first module of many courses previewable free, then 7-day trial; full access needs upgrade or financial aid.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "WebTerm Learn: Terminal Introduction",
+    "url": "https://learn.webterm.app/en/courses/terminal-introduction",
+    "provider": "WebTerm Learn",
+    "type": "course (interactive)",
+    "access": "free (free account after lesson 1)",
+    "evidence": "'A free beginner course to learn how to use the terminal and Linux commands by actually typing them in your browser'; free sign-up unlocks later lessons.",
+    "why": "Beginner Unix/Linux command-line course in the browser, replacing a Coursera search-results link that is not a course.",
+    "gap": "Covers shell usage, not Unix internals."
+   }
+  },
+  {
+   "url": "http://udacity.com/course/intro-to-inferential-statistics--ud201",
+   "access_status": "free",
+   "provider": "Udacity",
+   "cost_evidence": "Course page (https variant) states 'Free Course'; intermediate; estimation, hypothesis testing, t-tests, ANOVA, regression, chi-squared.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udacity.com/course/intro-to-inferential-statistics--ud201",
+   "access_status": "free",
+   "provider": "Udacity",
+   "cost_evidence": "Course page states 'Free Course'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udacity.com/course/intro-to-statistics--st101",
+   "access_status": "free",
+   "provider": "Udacity",
+   "cost_evidence": "Course page states 'Free Course'; beginner, no prior experience required.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197",
+   "access_status": "free",
+   "provider": "Udacity",
+   "cost_evidence": "Course page states 'Free Course'; no prerequisites.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udemy.com/course/swift-programming-for-beginners-no-experience/",
+   "access_status": "link-unverified",
+   "provider": "Udemy",
+   "cost_evidence": "Page could not be fetched (client error); price unknown.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udemy.com/course/edge-computing/",
+   "access_status": "access-uncertain",
+   "provider": "Udemy",
+   "cost_evidence": "Page loads but shows no price and no 'Free' wording.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.udemy.com/course/akka-essentials/",
+   "access_status": "access-uncertain",
+   "provider": "Udemy (Daniel Ciocîrlan)",
+   "cost_evidence": "Page shows no price and no 'Free' wording; 12h46m, for experienced Scala programmers.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.udemy.com/course/gradle-fundamentals/",
+   "access_status": "link-unverified",
+   "provider": "Udemy",
+   "cost_evidence": "Page could not be fetched (client error); price unknown.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udemy.com/course/understanding-blockchain-technology/",
+   "access_status": "link-unverified",
+   "provider": "Udemy",
+   "cost_evidence": "Page could not be fetched (client error); price unknown.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.udemy.com/course/gamephysics/",
+   "access_status": "access-uncertain",
+   "provider": "Udemy (Ben Tristem)",
+   "cost_evidence": "Page shows no price and no 'Free' wording.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/E7cXP/introduction",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/introduction-2OpTs",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/queues-EShpq",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/rabin-karps-algorithm-c0Qkw",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part II (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part2",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'. Module 9 substring search (brute force, KMP, Boyer-Moore, Rabin-Karp); module 8 tries.",
+    "why": "Covers Rabin-Karp and pattern search in text at the same university level as the UC San Diego string-algorithm lectures.",
+    "gap": "Examples in Java; no certificate."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/nYrc8/optimization-precomputation",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part II (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part2",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'. Module 9 substring search (brute force, KMP, Boyer-Moore, Rabin-Karp); module 8 tries.",
+    "why": "Covers Rabin-Karp and pattern search in text at the same university level as the UC San Diego string-algorithm lectures.",
+    "gap": "Examples in Java; no certificate."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/h4ZLc/optimization-implementation-and-analysis",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part II (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part2",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'. Module 9 substring search (brute force, KMP, Boyer-Moore, Rabin-Karp); module 8 tries.",
+    "why": "Covers Rabin-Karp and pattern search in text at the same university level as the UC San Diego string-algorithm lectures.",
+    "gap": "Examples in Java; no certificate."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part II (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part2",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'. Module 9 substring search (brute force, KMP, Boyer-Moore, Rabin-Karp); module 8 tries.",
+    "why": "Covers Rabin-Karp and pattern search in text at the same university level as the UC San Diego string-algorithm lectures.",
+    "gap": "Examples in Java; no certificate."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/data-structures/stacks-UdKzQ",
+   "access_status": "access-uncertain",
+   "provider": "UC San Diego (Coursera)",
+   "cost_evidence": "Same Coursera course ('data-structures') as https://www.coursera.org/lecture/data-structures/arrays-OsBSF: Course 'Data Structures': 'Enroll for free' vs FAQ 'purchase the Certificate experience'; no free viewing of lectures confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Princeton Algorithms, Part I (Sedgewick & Wayne)",
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "provider": "Princeton University (Coursera)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'All the features of this course are available for free'; no certificate (Princeton policy).",
+    "why": "University-level data structures course covering arrays and resizing arrays, linked lists, stacks, queues, priority queues and heapsort, binary search trees and balanced search trees — the same topics as the UC San Diego lectures.",
+    "gap": "Balanced trees are taught as 2-3 / red-black trees, not AVL trees; examples are in Java."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part II course page: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05",
+   "action": ""
+  },
+  {
+   "url": "https://www.kodeco.com/7649117-carthage-tutorial-getting-started",
+   "access_status": "free (tutorial; first page checked)",
+   "provider": "Kodeco",
+   "cost_evidence": "Tutorial page readable without a subscription; a free account is only needed for source code and progress tracking. Later pages of multi-page tutorials not checked.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.kodeco.com/30195423-core-image-tutorial-getting-started",
+   "access_status": "free (tutorial; first page checked)",
+   "provider": "Kodeco",
+   "cost_evidence": "Tutorial page readable without a subscription; a free account is only needed for source code and progress tracking. Later pages of multi-page tutorials not checked.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.kodeco.com/5055364-ios-storyboards-getting-started",
+   "access_status": "free (tutorial; first page checked)",
+   "provider": "Kodeco",
+   "cost_evidence": "Tutorial page readable without a subscription; a free account is only needed for source code and progress tracking. Later pages of multi-page tutorials not checked.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.kodeco.com/6620276-sqlite-with-swift-tutorial-getting-started",
+   "access_status": "free (tutorial; first page checked)",
+   "provider": "Kodeco",
+   "cost_evidence": "Tutorial page readable without a subscription; a free account is only needed for source code and progress tracking. Later pages of multi-page tutorials not checked.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.kodeco.com/books/ios-animations-by-tutorials/v6.0/chapters/5-transitions",
+   "access_status": "access-uncertain",
+   "provider": "Kodeco",
+   "cost_evidence": "Book chapter on Kodeco; books are generally part of the paid Kodeco subscription — not confirmed on the page.",
+   "verified_on": "2026-11-05",
+   "action": "label-only",
+   "notes": "Book or chapter, not a course: labelled, no replacement required."
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/restful-web-services/9780596809140/ch04.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch03.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://rockthejvm.com/courses/akka-apache-pekko-essentials-with-scala",
+   "access_status": "paid",
+   "provider": "Rock the JVM",
+   "cost_evidence": "Course page: 'Buy course — $85' or subscription '$35/mo'.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://rockthejvm.com/courses/cats",
+   "access_status": "paid",
+   "provider": "Rock the JVM",
+   "cost_evidence": "Course page: 'Buy course — $85' or subscription '$35/mo'.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/scala-functional-programming/9781783985845/ch01s05.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/testing-in-scala/9781449360313/ch04.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://rockthejvm.com/courses/zio",
+   "access_status": "paid",
+   "provider": "Rock the JVM",
+   "cost_evidence": "Course page: 'Buy course — $85' or subscription '$35/mo'.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/computer-science-programming/9781449356835/fivedot3_until_loops.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.netacad.com/courses/javascript-essentials-1?courseLang=en-US",
+   "access_status": "free",
+   "provider": "Cisco Networking Academy",
+   "cost_evidence": "Representative course page (Introduction to Cybersecurity): 'Free Online Course'. Same course catalogue for the other NetAcad links.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/learning-the-bash/1565923472/ch04s03.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/programming-entity-framework/9781449331825/ch05.html",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/c-and-net/9781788292481/aa08c601-f374-4e31-be8e-8eb69d63bd19.xhtml",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/java-ee-8/9781788830621/5012c01e-90ca-4809-a210-d3736574f5b3.xhtml",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+   "access_status": "free",
+   "provider": "Cisco Networking Academy",
+   "cost_evidence": "Representative course page (Introduction to Cybersecurity): 'Free Online Course'. Same course catalogue for the other NetAcad links.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
+   "access_status": "free",
+   "provider": "Cisco Networking Academy",
+   "cost_evidence": "Representative course page (Introduction to Cybersecurity): 'Free Online Course'. Same course catalogue for the other NetAcad links.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://anthropic.skilljar.com/model-context-protocol-advanced-topics",
+   "access_status": "free",
+   "provider": "Anthropic (Skilljar)",
+   "cost_evidence": "Registration button 'Register | FREE' (checked on claude-101, claude-code-in-action, ai-capabilities-and-limitations); free Skilljar account needed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://anthropic.skilljar.com/claude-code-101",
+   "access_status": "free",
+   "provider": "Anthropic (Skilljar)",
+   "cost_evidence": "Registration button 'Register | FREE' (checked on claude-101, claude-code-in-action, ai-capabilities-and-limitations); free Skilljar account needed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://anthropic.skilljar.com/introduction-to-model-context-protocol",
+   "access_status": "free",
+   "provider": "Anthropic (Skilljar)",
+   "cost_evidence": "Registration button 'Register | FREE' (checked on claude-101, claude-code-in-action, ai-capabilities-and-limitations); free Skilljar account needed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://anthropic.skilljar.com/introduction-to-agent-skills",
+   "access_status": "free",
+   "provider": "Anthropic (Skilljar)",
+   "cost_evidence": "Registration button 'Register | FREE' (checked on claude-101, claude-code-in-action, ai-capabilities-and-limitations); free Skilljar account needed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://anthropic.skilljar.com/introduction-to-subagents",
+   "access_status": "free",
+   "provider": "Anthropic (Skilljar)",
+   "cost_evidence": "Registration button 'Register | FREE' (checked on claude-101, claude-code-in-action, ai-capabilities-and-limitations); free Skilljar account needed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://anthropic.skilljar.com/ai-capabilities-and-limitations",
+   "access_status": "free",
+   "provider": "Anthropic (Skilljar)",
+   "cost_evidence": "Registration button 'Register | FREE' (checked on claude-101, claude-code-in-action, ai-capabilities-and-limitations); free Skilljar account needed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.skills.google/course_templates/543",
+   "access_status": "access-uncertain",
+   "provider": "Google Skills",
+   "cost_evidence": "Course page (course_templates/35) states no cost, credits or free access.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/ai-systems-performance/9781098170202/",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.skills.google/course_templates/35",
+   "access_status": "access-uncertain",
+   "provider": "Google Skills",
+   "cost_evidence": "Course page (course_templates/35) states no cost, credits or free access.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/",
+   "access_status": "paid",
+   "provider": "O'Reilly Media",
+   "cost_evidence": "O'Reilly library title: 'Become an O’Reilly member and get unlimited access'; 'Unlock full access' leads to a trial sign-up. Book/chapter, not a course.",
+   "verified_on": "2026-11-05",
+   "notes": "Not a course; no replacement required. Book or chapter, not a course: labelled, no replacement required.",
+   "action": "label-only"
+  },
+  {
+   "url": "https://www.skills.google/paths/76",
+   "access_status": "access-uncertain",
+   "provider": "Google Skills",
+   "cost_evidence": "Course page (course_templates/35) states no cost, credits or free access.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-tag-push-pull-push-images-to-a-registry",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-volumes-vs-bind-mounts-how-to-persist-container-data",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-compose-run-an-app-database-with-one-command",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-run-flags-explained-p-e-name-logs-exec",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/how-to-write-a-dockerfile-containerize-a-python-flask-app",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-fundamentals-layers-directives-port-mapping",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-image-security-best-practices-cve-scanning",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-multi-stage-builds-image-optimization",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/introduction-to-docker-containers-images-your-first-container",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/tutorial/docker-networking-explained-connect-containers-by-name",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/fundamentals-of-data-transformation",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/vector-search-fundamentals",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/search-fundamentals",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/crud-operations-in-mongodb",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/relational-to-document-model",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/schema-design-patterns-and-antipatterns",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/advanced-schema-patterns-and-antipatterns",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/schema-design-optimization",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/indexing-design-fundamentals",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/secure-mongodb-self-managed-authn-and-authz",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/monitoring-tooling",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/performance-tools-and-techniques",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/query-optimization",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/cluster-reliability",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/data-resilience-self-managed",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/data-resilience-atlas",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/sharding-strategies",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/networking-security-self-managed",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/networking-security-atlas",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/learning-paths/atlas-essentials",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.mongodb.com/courses/mongodb-overview",
+   "access_status": "free (provider-wide statement)",
+   "provider": "MongoDB University",
+   "cost_evidence": "MongoDB University states 'Start training with MongoDB University for free today.' Course pages render client-side; course-specific terms not readable. Checked on https://learn.mongodb.com/courses/sharding-strategies.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/chainlink-fundamentals",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/wallets",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/web3-wallet-security-basics",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/advanced-web3-wallet-security",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/foundry",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/advanced-foundry",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/full-stack-web3-development-crash-course",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/blockchain-basics",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/security",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/intro-python-vyper-smart-contract-development",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/intermediate-python-vyper-smart-contract-development",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/advanced-python-vyper-smart-contract-development",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/rust-programming-basics",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/solidity",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/formal-verification",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/fundamentals-of-zero-knowledge-proofs",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://updraft.cyfrin.io/courses/noir-programming-and-zk-circuits",
+   "access_status": "free",
+   "provider": "Cyfrin Updraft",
+   "cost_evidence": "Representative course page (advanced-foundry): 'Sign up today completely for free.' Same platform and template for every Updraft course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://prepare.sh/course/docker-course",
+   "access_status": "free (labs unverified)",
+   "provider": "Prepare.sh",
+   "cost_evidence": "Docker course page: 'free to start · no setup'; tutorial text readable with no paywall. Whether the interactive lab needs an account or Premium was not confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/catalogue/application-security/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/catalogue/cloud-security/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/catalogue/git-security/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/catalogue/privacy-compliance/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/agentic-goal-hijack/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/broken-user-authentication/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/cicd-secret-exposure/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/clawdbot-prompt-injection/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/clean-desk-basics/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/cloud-network-exposure/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/malicious-base-images/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/mfa-fatigue-attack/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/over-permissive-iam/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/phishing/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/privileged-containers/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/public-storage-buckets/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/ransomware/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/secrets-in-image-layers/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/secure-document-disposal/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ransomleak.com/exercises/social-engineering/",
+   "access_status": "free",
+   "provider": "RansomLeak",
+   "cost_evidence": "RansomLeak catalogue states 'Free, no sign-up' (checked on https://ransomleak.com/catalogue/ai-security/).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLo2EIpI_JMQvWfQndUesu0nPBAtZ9gP1o",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-hVG9z0fCac&list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY&pp=iAQB",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=2JYT5f2isg4",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=2QQQtiFwXjU&list=PLTZYG7bZ1u6oHnGp4Ib3n0y-CmFQdTW6r",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=8Xg7E9shq0U",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=9Ua2b06oAr4",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=B8i49C8fC3E",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=D4Asp5g4fp8",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=FcsY1YPBwzQ",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=G3e-cpL7ofc",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=KLdF1yu_bmI",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Ns_tRKD20c4",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=XCsS_NVAa1g",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=cxYHugyNTP0",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=e-hTm5VmofI",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=ly36kn0ug4k",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=n4R2E7O-Ngo",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=oxuRxtrO2Ag",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=pW3PFtchHDc",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=qwA6MmbeGNo&t=457s",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=r8UvWSX3KA8",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=yLf2jRY39Rc&list=PLIhvC56v63IIyU0aBUed4qwP0nSCORAdB",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=zA8guDqfv40",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://youtu.be/JU767SDMDvA",
+   "access_status": "free",
+   "provider": "YouTube",
+   "cost_evidence": "Public YouTube video or playlist: no payment or sign-in to watch. Availability is confirmed by the automated link check, not by hand.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://academy.hackthebox.com/course/preview/file-inclusion",
+   "access_status": "access-uncertain",
+   "provider": "HTB Academy",
+   "cost_evidence": "'Start for Free' sign-up, but 'Sign Up or Log In to unlock the module'; module cube cost/subscription terms not shown on the page.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://academy.jetbrains.com/course/23833-functional-programming-in-scala",
+   "access_status": "free",
+   "provider": "JetBrains Academy",
+   "cost_evidence": "'Yes! It's 100% free and works with both the free and paid versions of JetBrains IDEs.' Level: advanced.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://ahrefs.com/academy/how-to-use-ahrefs",
+   "access_status": "free (course); tool may need paid plan",
+   "provider": "Ahrefs Academy",
+   "cost_evidence": "Course 'absolutely free of charge', no sign-up; whether the Ahrefs tools shown need a subscription is not stated.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-docker",
+   "access_status": "link-unverified",
+   "provider": "MOOC.fi (University of Helsinki)",
+   "cost_evidence": "Page renders client-side; only the title 'MOOC.fi courses' was readable, no cost terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://courses.mshah.io/courses/cpp-programming-language",
+   "access_status": "free",
+   "provider": "Mike Shah",
+   "cost_evidence": "'This course is Free -- what is the catch?'",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://cursor.com/learn",
+   "access_status": "access-uncertain",
+   "provider": "Cursor",
+   "cost_evidence": "Official tutorials page states no price for the course or plan needed.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://developer.android.com/courses/android-basics-compose/course",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Android Developers (Google)",
+   "cost_evidence": "Self-paced online course on developer.android.com, open without payment; page states no price. Prereqs: basic computer and maths skills.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://explore.skillbuilder.aws/learn/course/106/introduction-to-containers",
+   "access_status": "retired",
+   "provider": "AWS Skill Builder",
+   "cost_evidence": "Old course URL redirects to a Skill Builder search page with a 'redirect not found' banner: the course link no longer resolves.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Prepare.sh: Docker Course (hands-on)",
+    "url": "https://prepare.sh/course/docker-course",
+    "provider": "Prepare.sh",
+    "type": "course",
+    "access": "free (labs unverified)",
+    "evidence": "'free to start · no setup'; 9 chapters starting with 'Introduction to Docker: Containers, Images & Your First Container'.",
+    "why": "Introductory containers course replacing an AWS Skill Builder link that no longer resolves.",
+    "gap": "Whether every interactive lab is free was not confirmed."
+   }
+  },
+  {
+   "url": "https://fireship.io/lessons/the-ultimate-beginners-guide-to-firebase/",
+   "access_status": "free",
+   "provider": "Fireship",
+   "cost_evidence": "Lesson page readable with no paywall or PRO label.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://fullstackopen.com/en/part3",
+   "access_status": "free",
+   "provider": "University of Helsinki",
+   "cost_evidence": "'Open online course on JavaScript based modern web development by University of Helsinki and Houston Inc.'",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+   "access_status": "free",
+   "provider": "Hugging Face",
+   "cost_evidence": "'It's completely free and open-source!'; needs free Colab and a free HF account.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://hyperskill.org/tracks/8",
+   "access_status": "access-uncertain",
+   "provider": "Hyperskill (JetBrains Academy)",
+   "cost_evidence": "'Start for free', 'No credit card required', but the track's plan terms are only behind 'View plans'; full free access not confirmed.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "University of Helsinki: Java Programming MOOC",
+    "url": "https://java-programming.mooc.fi/",
+    "provider": "University of Helsinki (MOOC.fi)",
+    "type": "course",
+    "access": "free",
+    "evidence": "'A free online course on learning Java'; 'Anyone can join - no previous programming knowledge is required.' Parts 1–14.",
+    "why": "Beginner Java course from first program to object-oriented programming, matching Hyperskill's Introduction to Java.",
+    "gap": "Legacy course: no longer updated and no credits."
+   }
+  },
+  {
+   "url": "https://hyperskill.org/courses/8",
+   "access_status": "access-uncertain",
+   "provider": "Hyperskill (JetBrains Academy)",
+   "cost_evidence": "Same course as hyperskill.org/tracks/8: free start, full-access plan terms not shown.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "University of Helsinki: Java Programming MOOC",
+    "url": "https://java-programming.mooc.fi/",
+    "provider": "University of Helsinki (MOOC.fi)",
+    "type": "course",
+    "access": "free",
+    "evidence": "'A free online course on learning Java'; 'Anyone can join - no previous programming knowledge is required.' Parts 1–14.",
+    "why": "Beginner Java course from first program to object-oriented programming, matching Hyperskill's Introduction to Java.",
+    "gap": "Legacy course: no longer updated and no credits."
+   }
+  },
+  {
+   "url": "https://labex.io/courses/linux-for-noobs",
+   "access_status": "free (certificate paid)",
+   "provider": "LabEx",
+   "cost_evidence": "'Join For Free'; 'Upgrade to Get Certificate'. Beginner.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://labex.io/courses/linux-basic-commands-practice-online",
+   "access_status": "free (certificate paid)",
+   "provider": "LabEx",
+   "cost_evidence": "Same LabEx catalogue as linux-for-noobs: free sign-up, paid certificate. This course page itself was not opened.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://laravel.com/learn",
+   "access_status": "free",
+   "provider": "Laravel",
+   "cost_evidence": "Learn page lists two free video courses (Getting Started with Laravel; PHP Fundamentals).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.getdbt.com/catalog",
+   "access_status": "link-unverified",
+   "provider": "dbt Labs",
+   "cost_evidence": "Catalogue renders only with JavaScript; which courses are free could not be read.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://kodekloud.com/studio/labs/kubernetes/deployments-stable",
+   "access_status": "link-unverified",
+   "provider": "KodeKloud",
+   "cost_evidence": "Page could not be fetched (client error).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.wordpress.org/course/beginner-wordpress-developer/",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Learn WordPress (WordPress.org)",
+   "cost_evidence": "Course page opens without payment or sign-in; no price shown. Beginner.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.webterm.app/en/courses/terminal-introduction",
+   "access_status": "free (free account after lesson 1)",
+   "provider": "WebTerm Learn",
+   "cost_evidence": "Checked on terminal-introduction: 'A free beginner course'; 'Sign up free to unlock every lesson ahead'. Other WebTerm courses share the platform terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.webterm.app/en/courses/terminal-fundamentals",
+   "access_status": "free (free account after lesson 1)",
+   "provider": "WebTerm Learn",
+   "cost_evidence": "Checked on terminal-introduction: 'A free beginner course'; 'Sign up free to unlock every lesson ahead'. Other WebTerm courses share the platform terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.webterm.app/en/courses/terminal-advanced",
+   "access_status": "free (free account after lesson 1)",
+   "provider": "WebTerm Learn",
+   "cost_evidence": "Checked on terminal-introduction: 'A free beginner course'; 'Sign up free to unlock every lesson ahead'. Other WebTerm courses share the platform terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.webterm.app/en/courses/vim-introduction",
+   "access_status": "free (free account after lesson 1)",
+   "provider": "WebTerm Learn",
+   "cost_evidence": "Checked on terminal-introduction: 'A free beginner course'; 'Sign up free to unlock every lesson ahead'. Other WebTerm courses share the platform terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://gitualize.com/commands/git-cherry-pick",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Gitualize",
+   "cost_evidence": "Command guide page opens without sign-in or paywall; no pricing or licence shown (checked on git-rebase).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://gitualize.com/commands/git-merge",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Gitualize",
+   "cost_evidence": "Command guide page opens without sign-in or paywall; no pricing or licence shown (checked on git-rebase).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://gitualize.com/commands/git-rebase",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Gitualize",
+   "cost_evidence": "Command guide page opens without sign-in or paywall; no pricing or licence shown (checked on git-rebase).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://gitualize.com/commands/git-reset",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Gitualize",
+   "cost_evidence": "Command guide page opens without sign-in or paywall; no pricing or licence shown (checked on git-rebase).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://gitualize.com/commands/git-revert",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Gitualize",
+   "cost_evidence": "Command guide page opens without sign-in or paywall; no pricing or licence shown (checked on git-rebase).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://gitualize.com/commands/git-stash",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Gitualize",
+   "cost_evidence": "Command guide page opens without sign-in or paywall; no pricing or licence shown (checked on git-rebase).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://inter-git.com/lessons/adding-files-to-index",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Inter-Git",
+   "cost_evidence": "Lesson page opens without payment; sign-in only for feedback (checked on introduction).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://inter-git.com/lessons/creating-repository",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Inter-Git",
+   "cost_evidence": "Lesson page opens without payment; sign-in only for feedback (checked on introduction).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://inter-git.com/lessons/introduction",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Inter-Git",
+   "cost_evidence": "Lesson page opens without payment; sign-in only for feedback (checked on introduction).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://inter-git.com/lessons/making-a-commit",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Inter-Git",
+   "cost_evidence": "Lesson page opens without payment; sign-in only for feedback (checked on introduction).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://course.fast.ai",
+   "access_status": "free",
+   "provider": "fast.ai",
+   "cost_evidence": "Same course as https://course.fast.ai/: 'A free course designed for people with some coding experience'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://mlcourse.ai/",
+   "access_status": "free (open access; bonus assignments paid)",
+   "provider": "mlcourse.ai",
+   "cost_evidence": "Course pages open without login; some bonus assignments behind a Patreon tier (checked 2026-11-05 on topic01).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5",
+   "access_status": "free",
+   "provider": "Microsoft Learn",
+   "cost_evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Exercises needing cloud resources require an Azure subscription.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/",
+   "access_status": "free",
+   "provider": "Microsoft Learn",
+   "cost_evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Exercises needing cloud resources require an Azure subscription.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.microsoft.com/en-us/training/modules/network-fundamentals/",
+   "access_status": "free",
+   "provider": "Microsoft Learn",
+   "cost_evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Exercises needing cloud resources require an Azure subscription.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learn.microsoft.com/en-us/training/modules/understand-postgresql-query-process/",
+   "access_status": "free",
+   "provider": "Microsoft Learn",
+   "cost_evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Exercises needing cloud resources require an Azure subscription.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/?WT.mc_id=dotnet-35129-website",
+   "access_status": "free",
+   "provider": "Microsoft Learn",
+   "cost_evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Exercises needing cloud resources require an Azure subscription.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/a_multimodal_world",
+   "access_status": "free (provider-wide)",
+   "provider": "Hugging Face Learn",
+   "cost_evidence": "Hugging Face Learn courses are stated free on every course intro checked (LLM, MCP, Agents, Deep RL). This chapter page itself was not opened.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-destroy",
+   "access_status": "free (open access; no price stated)",
+   "provider": "HashiCorp Developer",
+   "cost_evidence": "Official tutorial on developer.hashicorp.com, open without sign-in. AWS tutorial steps create billable AWS resources.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://developer.hashicorp.com/terraform/tutorials/cli/apply",
+   "access_status": "free (open access; no price stated)",
+   "provider": "HashiCorp Developer",
+   "cost_evidence": "Official tutorial on developer.hashicorp.com, open without sign-in. AWS tutorial steps create billable AWS resources.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://developer.hashicorp.com/terraform/tutorials/cli/plan",
+   "access_status": "free (open access; no price stated)",
+   "provider": "HashiCorp Developer",
+   "cost_evidence": "Official tutorial on developer.hashicorp.com, open without sign-in. AWS tutorial steps create billable AWS resources.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Apple Developer",
+   "cost_evidence": "Official SwiftUI tutorial, open without sign-in.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/#Type-Safety-and-Type-Inference",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Swift.org",
+   "cost_evidence": "Official Swift book on swift.org, open documentation.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Android Developers (Google)",
+   "cost_evidence": "Pathway of Android Basics with Compose; open without payment; no price stated.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://codelabs.developers.google.com/gemini-cli-hands-on#0",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Google Codelabs",
+   "cost_evidence": "Codelab opens without payment; using Gemini CLI needs a Google account (API quota/pricing not checked).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://web.dev/learn/css/",
+   "access_status": "free (open access; no price stated)",
+   "provider": "web.dev (Google)",
+   "cost_evidence": "Open course on web.dev; no sign-in or price.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learnprompting.org/courses/intro-to-prompt-engineering",
+   "access_status": "paid",
+   "provider": "Learn Prompting",
+   "cost_evidence": "Learn Prompting Plus: 'This course is included in our Learn Prompting Plus catalog, accessible with a monthly or yearly subscription' (~$21/month annual); 3-day free trial.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Anthropic Prompt Engineering Interactive Tutorial",
+    "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "provider": "Anthropic (GitHub)",
+    "type": "course (notebooks)",
+    "access": "free course; running it needs an API key",
+    "evidence": "Public GitHub repo (cloned 2026-11-05): '9 chapters with accompanying exercises' from beginner to advanced; also offered as a Google Sheets version.",
+    "why": "Beginner-to-intermediate structured prompt engineering course (prompt structure, clarity, roles, separating data, output formatting, chaining) — the same goal as Learn Prompting's introduction.",
+    "gap": "Exercises call the Claude API, which needs an API key with pay-as-you-go usage; the content itself is free to read. Last updated 2024."
+   }
+  },
+  {
+   "url": "https://learnprompting.org/courses/advanced-prompt-hacking",
+   "access_status": "paid",
+   "provider": "Learn Prompting",
+   "cost_evidence": "Learn Prompting Plus: 'This course is included in our Learn Prompting Plus catalog, accessible with a monthly or yearly subscription' (~$21/month annual); 3-day free trial.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "RansomLeak: OWASP Top 10 for LLM, Agentic & MCP Apps exercises",
+    "url": "https://ransomleak.com/catalogue/ai-security/",
+    "provider": "RansomLeak",
+    "type": "course (interactive exercises)",
+    "access": "free",
+    "evidence": "Catalogue: 'Free, no sign-up'; 55 exercises incl. prompt injection, system-prompt leakage, data poisoning, agent goal hijacking, MCP tool poisoning.",
+    "why": "Hands-on prompt injection and LLM attack exercises — the same learning goal as Learn Prompting's prompt hacking courses.",
+    "gap": "Exercise-based awareness training rather than a lecture course; less depth on advanced jailbreak techniques."
+   }
+  },
+  {
+   "url": "https://learnprompting.org/courses/intro-to-gen-ai",
+   "access_status": "paid",
+   "provider": "Learn Prompting",
+   "cost_evidence": "Learn Prompting Plus: 'This course is included in our Learn Prompting Plus catalog, accessible with a monthly or yearly subscription' (~$21/month annual); 3-day free trial.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Microsoft Learn: Introduction to generative AI and agents",
+    "url": "https://learn.microsoft.com/training/modules/fundamentals-generative-ai",
+    "provider": "Microsoft Learn",
+    "type": "course (module)",
+    "access": "free",
+    "evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Module: beginner, ~37 min, units on LLMs, prompts, AI agents, an exercise and an assessment.",
+    "why": "Non-technical beginner introduction to generative AI and LLMs, matching Learn Prompting's Introduction to Generative AI for non-technical professionals.",
+    "gap": "Short (under an hour) and Microsoft-tool flavoured."
+   }
+  },
+  {
+   "url": "https://learnprompting.org/courses/intro-to-prompt-hacking",
+   "access_status": "paid",
+   "provider": "Learn Prompting",
+   "cost_evidence": "Learn Prompting Plus: 'This course is included in our Learn Prompting Plus catalog, accessible with a monthly or yearly subscription' (~$21/month annual); 3-day free trial.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "RansomLeak: OWASP Top 10 for LLM, Agentic & MCP Apps exercises",
+    "url": "https://ransomleak.com/catalogue/ai-security/",
+    "provider": "RansomLeak",
+    "type": "course (interactive exercises)",
+    "access": "free",
+    "evidence": "Catalogue: 'Free, no sign-up'; 55 exercises incl. prompt injection, system-prompt leakage, data poisoning, agent goal hijacking, MCP tool poisoning.",
+    "why": "Hands-on prompt injection and LLM attack exercises — the same learning goal as Learn Prompting's prompt hacking courses.",
+    "gap": "Exercise-based awareness training rather than a lecture course; less depth on advanced jailbreak techniques."
+   }
+  },
+  {
+   "url": "https://linuxhandbook.com/courses/bash/",
+   "access_status": "free",
+   "provider": "Linux Handbook",
+   "cost_evidence": "'Free, no signup needed'; 'completely free. No signup, no paywall'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://spring.academy/courses/spring-boot",
+   "access_status": "link-unverified",
+   "provider": "Spring Academy (Broadcom)",
+   "cost_evidence": "Page renders client-side; only 'Compass' metadata readable, no cost terms.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://spring.academy/courses/spring-academy-secure-rest-api-oauth2",
+   "access_status": "link-unverified",
+   "provider": "Spring Academy (Broadcom)",
+   "cost_evidence": "Page renders client-side; no cost terms readable.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://tryhackme.com/r/room/filepathtraversal",
+   "access_status": "access-uncertain",
+   "provider": "TryHackMe",
+   "cost_evidence": "Room page shows no free/subscriber label.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://tryhackme.com/r/room/cybergovernanceregulation",
+   "access_status": "access-uncertain",
+   "provider": "TryHackMe",
+   "cost_evidence": "Room page shows no free/subscriber label; platform-level 'free online cyber security training' is not room-specific.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://vueschool.io/courses/nuxtjs-fundamentals",
+   "access_status": "free",
+   "provider": "Vue School",
+   "cost_evidence": "'Learn Nuxt from this FREE Nuxt.js Fundamentals Course.' Covers Nuxt 2.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.cloudskillsboost.google/course_templates/701",
+   "access_status": "access-uncertain",
+   "provider": "Google Skills",
+   "cost_evidence": "Redirects to skills.google/course_templates/701 (Cloud SQL); no cost or credits stated.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.codecademy.com/learn/learn-swift",
+   "access_status": "free (certificate paid)",
+   "provider": "Codecademy",
+   "cost_evidence": "Course labelled 'Free'; 'Certificate of completion available with Plus or Pro.'",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.coursera.org/lecture/algorithms-part1/selection-UQxFT",
+   "access_status": "free",
+   "provider": "Princeton (Coursera)",
+   "cost_evidence": "Algorithms, Part I: 'All the features of this course are available for free.' No certificate.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.educative.io/courses/cpp-fundamentals-for-professionals/automatic-type-deduction-auto",
+   "access_status": "access-uncertain",
+   "provider": "Educative",
+   "cost_evidence": "Lesson page shows no price or free-access statement.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.edx.org/course/databases-5-sql",
+   "access_status": "access-uncertain",
+   "provider": "StanfordOnline (edX)",
+   "cost_evidence": "Course page shows no free/audit/price statement for this course.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Udacity: Intro to Relational Databases",
+    "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197",
+    "provider": "Udacity",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: 'Free Course'; no prerequisites; tables, queries, joins, SQL, Python DB-API, normalised design.",
+    "why": "Introductory relational databases and SQL course, matching Stanford's Databases: Relational Databases and SQL.",
+    "gap": "Lighter on relational algebra and theory than the Stanford course."
+   }
+  },
+  {
+   "url": "https://www.simplilearn.com/free-postgresql-course-skillup",
+   "access_status": "free",
+   "provider": "Simplilearn SkillUp",
+   "cost_evidence": "'Enroll in our free PostgreSQL course and earn a certification.' Beginner.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.simplilearn.com/project-management/prince2-foundation-and-practitioner-certification-training",
+   "access_status": "paid",
+   "provider": "Simplilearn",
+   "cost_evidence": "Online bootcamp listed at $2,632 (25% off $3,509); includes exam fee.",
+   "verified_on": "2026-11-05",
+   "action": "label-only",
+   "notes": "Paid certification bootcamp (exam included); no free equivalent can grant the PRINCE2 certification."
+  },
+  {
+   "url": "https://www.linkedin.com/learning/asp-dot-net-core-logging-with-log4net",
+   "access_status": "access-uncertain",
+   "provider": "LinkedIn Learning",
+   "cost_evidence": "Page blocks automated fetching (robots); LinkedIn Learning courses normally need a subscription — not confirmed here.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.freecodecamp.org/learn/responsive-web-design-v9/",
+   "access_status": "free",
+   "provider": "freeCodeCamp",
+   "cost_evidence": "'Learn to Code for Free.'",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+   "access_status": "free",
+   "provider": "freeCodeCamp",
+   "cost_evidence": "freeCodeCamp: 'Learn to Code for Free' (checked on responsive-web-design-v9).",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.hackingwithswift.com/100",
+   "access_status": "free",
+   "provider": "Hacking with Swift",
+   "cost_evidence": "'This is a free collection of videos, tutorials, tests, and more'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://skillbuilder.aws/learn/S1VYRYHD8V/aws-networking-basics/SKP7248UVF",
+   "access_status": "link-unverified",
+   "provider": "AWS Skill Builder",
+   "cost_evidence": "Link lands on the Skill Builder home page ('600+ free courses'); the specific course page did not render, so its terms are unconfirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/",
+   "access_status": "access-uncertain",
+   "provider": "DeepLearning.AI",
+   "cost_evidence": "Course page does not describe this course as free; graded assignment and certificate are PRO.",
+   "verified_on": "2026-11-05",
+   "action": "replace",
+   "replacement": {
+    "title": "Claude Academy: Introduction to agent skills",
+    "url": "https://anthropic.skilljar.com/introduction-to-agent-skills",
+    "provider": "Anthropic (Skilljar)",
+    "type": "course",
+    "access": "free",
+    "evidence": "Anthropic Skilljar courses: 'Register | FREE' (checked on three course pages on the same platform).",
+    "why": "Anthropic's own course on agent skills, the same subject as DeepLearning.AI's Agent Skills with Anthropic.",
+    "gap": "This specific course page was not opened; platform-level evidence only."
+   }
+  },
+  {
+   "url": "https://www.internetsociety.org/learning/encryption/",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Internet Society",
+   "cost_evidence": "Online course page opens without payment; no price shown.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.examwizardz.app/pbq-practice",
+   "access_status": "free tier (rest Pro)",
+   "provider": "ExamWizardz",
+   "cost_evidence": "'30 of them are free to play with no account'; free account unlocks first 4 sections; 'Pro opens the rest of the library'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.networkacademy.io/ccna/ipv6",
+   "access_status": "free (open access; no price stated)",
+   "provider": "NetworkAcademy.io",
+   "cost_evidence": "Course page opens without payment; only an optional 'Donate' link.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.simplilearn.com/free-python-django-course-skillup",
+   "access_status": "free",
+   "provider": "Simplilearn SkillUp",
+   "cost_evidence": "'Enroll in our free Django course and earn a certificate.' Beginner.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.simplilearn.com/free-business-intelligence-course-online-skillup",
+   "access_status": "free",
+   "provider": "Simplilearn SkillUp",
+   "cost_evidence": "'Our free business intelligence course is available on our E-learning platforms'. Beginner.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.cloudskillsboost.google/course_templates/754",
+   "access_status": "access-uncertain",
+   "provider": "Google Skills",
+   "cost_evidence": "Redirects to skills.google/course_templates/754; Google Skills course pages checked state no cost or credits.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://www.educative.io/courses/database-design-fundamentals/m7JnY9Xm6Qp",
+   "access_status": "access-uncertain",
+   "provider": "Educative",
+   "cost_evidence": "Lesson page shows no price or free-access statement.",
+   "verified_on": "2026-11-05",
+   "action": "label-uncertain",
+   "notes": "No free replacement with comparable scope verified yet."
+  },
+  {
+   "url": "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Google Tech Dev Guide",
+   "cost_evidence": "Static path page of links to external resources (YouTube, LeetCode, HackerRank); no sign-in.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learnvimscriptthehardway.stevelosh.com/",
+   "access_status": "free",
+   "provider": "Steve Losh",
+   "cost_evidence": "'The book will always be free to read online.'",
+   "verified_on": "2026-11-05",
+   "notes": "Book, tagged 'course' in the source."
+  },
+  {
+   "url": "https://linuxhandbook.com/bash/",
+   "access_status": "free",
+   "provider": "Linux Handbook",
+   "cost_evidence": "Bash Fundamentals: 'fully free, no signup or account required'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://maven.com/articles/product-managers-guide-market-research",
+   "access_status": "free",
+   "provider": "Maven",
+   "cost_evidence": "Full article loads, no paywall; it is an article, not a Maven course.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://maven.com/articles/product-managers-understand-market-landscape",
+   "access_status": "free (article; not opened)",
+   "provider": "Maven",
+   "cost_evidence": "Same Maven articles section as the market-research article, which loads with no paywall. This article was not opened.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://metaltutorial.com/",
+   "access_status": "free (open access; no price stated)",
+   "provider": "Metal Tutorial",
+   "cost_evidence": "Tutorial site loads; no price or paywall.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://openvim.com/",
+   "access_status": "free (open access; no price stated)",
+   "provider": "OpenVim",
+   "cost_evidence": "Interactive tutorial page loads; no price or paywall.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://practice.course.rs/",
+   "access_status": "link-unverified",
+   "provider": "Rust By Practice",
+   "cost_evidence": "Redirects (302) to a different domain, practice-rust.beatai.org; destination not checked. Treat as unverified until confirmed.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://0xinfection.github.io/reversing/",
+   "access_status": "link-unverified",
+   "provider": "0xinfection",
+   "cost_evidence": "Redirects (302) to 0xinfection.xyz/reversing/; destination not checked.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.learn-c.org/",
+   "access_status": "free",
+   "provider": "learn-c.org",
+   "cost_evidence": "'learn-c.org is a free interactive C tutorial'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.learn-c.org/en/Pointers",
+   "access_status": "free",
+   "provider": "learn-c.org",
+   "cost_evidence": "Lesson on learn-c.org, 'a free interactive C tutorial'.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.programiz.com/swift-programming",
+   "access_status": "free (tutorial; PRO upsell)",
+   "provider": "Programiz",
+   "cost_evidence": "'you can use our free Swift tutorials'; site also sells Programiz PRO.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://circleci.com/blog/deployment-strategies-types-trade-offs-and-how-to-choose/#c-consent-modal",
+   "access_status": "cost not reviewed",
+   "provider": "CircleCI blog",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://learnprompting.org/blog/ai-red-teaming-courses",
+   "access_status": "cost not reviewed",
+   "provider": "Learn Prompting blog",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://peterfriese.github.io/Building-SwiftUI-Components-Tutorial/tutorials/tutorial-table-of-contents/",
+   "access_status": "cost not reviewed",
+   "provider": "Peter Friese",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://rxmarbles.com/",
+   "access_status": "cost not reviewed",
+   "provider": "RxMarbles",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.codecademy.com/learn/learn-r/modules/learn-r-data-cleaning/cheatsheet",
+   "access_status": "cost not reviewed",
+   "provider": "Codecademy",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/",
+   "access_status": "cost not reviewed",
+   "provider": "EC-Council",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.elastic.co/docs/api/doc/elasticsearch/operation/operation-indices-delete",
+   "access_status": "cost not reviewed",
+   "provider": "Elastic docs",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.prodify.group/blog/behavioral-science-crash-course-steve-wendels-create-action-funnel",
+   "access_status": "cost not reviewed",
+   "provider": "Prodify blog",
+   "cost_evidence": "Tagged 'course' in the source but it is an article, docs page, cheat sheet or tool. Not opened by hand; covered by the automated link check.",
+   "verified_on": "2026-11-05"
+  },
+  {
+   "url": "https://www.quora.com/",
+   "access_status": "cost not reviewed",
+   "provider": "Quora",
+   "cost_evidence": "The source links Quora's home page, not a course or specific resource.",
+   "verified_on": "2026-11-05",
+   "notes": "Probable broken source link: points at a site home page."
   }
  ]
 }

@@ -43,8 +43,8 @@ COURSE_PATHS = {
     "udemy.com": r"^/course/", "udacity.com": r"^/course", "pluralsight.com": r"^/(courses|paths)/",
     "educative.io": r"^/(courses|path)/", "datacamp.com": r"^/(courses|tracks)/", "frontendmasters.com": r"^/(courses|learn)/",
     "linkedin.com": r"^/learning/", "codecademy.com": r"^/learn/", "zerotomastery.io": r"^/courses/", "egghead.io": r"^/courses/",
-    "scrimba.com": r"^/", "edx.org": r"^/(learn|course|certificates|professional-certificate)", "skillshare.com": r"^/",
-    "oreilly.com": r"^/(library|videos)/", "learning.oreilly.com": r"^/", "maven.com": r"^/", "acloudguru.com": r"^/", "cbtnuggets.com": r"^/",
+    "scrimba.com": r"^/(?!articles|blog)", "edx.org": r"^/(learn|course|certificates|professional-certificate)", "skillshare.com": r"^/",
+    "oreilly.com": r"^/(library|videos|live-events)/", "learning.oreilly.com": r"^/", "maven.com": r"^/", "acloudguru.com": r"^/(course|learning-paths?)", "cbtnuggets.com": r"^/(it-training|learn|training)/",
 }
 AFFILIATE_HOSTS = {"imp.i384100.net"}
 BOOKSTORES = {"amazon.com", "amzn.to", "manning.com", "oreilly.com"}
