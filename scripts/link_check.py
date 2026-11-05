@@ -15,7 +15,7 @@ import aiohttp
 MAX_AGE_DAYS = int(os.environ.get("MAX_AGE_DAYS", "7"))
 GLOBAL = int(os.environ.get("CONCURRENCY", "40"))
 PER_HOST = 3
-UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 free-dev-roadmaps-linkcheck"
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 free-dev-roadmaps-linkcheck (+https://github.com/AbdElrahman08/dev-roadmaps)"
 PATH = "data/linkcheck.json"
 FORCE = os.environ.get("FORCE") == "1"
 # Text that only appears when a signed-out visitor is blocked from the full content.
@@ -46,8 +46,51 @@ def collect():
             urls.add(a["url"])
     return sorted(u for u in urls if u.startswith("http"))
 
+YT_HOSTS = {"www.youtube.com", "youtube.com", "m.youtube.com", "youtu.be"}
+WIKI_RE = re.compile(r"^https?://([a-z]+)\.wikipedia\.org/wiki/([^?#]+)")
+
+async def api_check(session, url):
+    """Sites that rate-limit HTML fetches from CI get checked through their public API instead.
+    YouTube oEmbed answers only for public, embeddable videos and playlists; a private or removed
+    video returns 401/403/404. Wikipedia's REST summary returns 404 for a missing article."""
+    from urllib.parse import quote, unquote
+    h = urlparse(url).netloc
+    if h in YT_HOSTS:
+        api, kind = "https://www.youtube.com/oembed?format=json&url=" + quote(url, safe=""), "youtube-oembed"
+    else:
+        m = WIKI_RE.match(url)
+        if not m: return None
+        api, kind = f"https://{m.group(1)}.wikipedia.org/api/rest_v1/page/summary/{quote(unquote(m.group(2)), safe='')}", "wikipedia-rest"
+    rec = {"checked_at": now(), "method": kind}
+    for attempt in range(4):
+        try:
+            async with session.get(api, timeout=aiohttp.ClientTimeout(total=30)) as r:
+                rec["code"] = r.status
+                if r.status == 429:
+                    await asyncio.sleep(5 * (attempt + 1)); continue
+                if r.status == 200:
+                    j = await r.json(content_type=None)
+                    rec["title"] = (j.get("title") or "")[:120]
+                    if kind == "wikipedia-rest" and j.get("type") == "disambiguation":
+                        rec["note"] = "disambiguation page"
+                    rec.update(verdict="ok", access="open")
+                elif r.status in (401, 403, 404, 410, 400):
+                    rec["verdict"] = "broken"; rec["note"] = "not public or not found via API"
+                else:
+                    rec["verdict"] = "error"
+                return rec
+        except Exception as e:
+            rec.update(code=None, error=f"{type(e).__name__}: {e}"[:200], verdict="error")
+            await asyncio.sleep(2)
+    rec.setdefault("verdict", "blocked")
+    return rec
+
 async def check(session, url, sems, gsem):
     h = urlparse(url).netloc
+    if h in YT_HOSTS or WIKI_RE.match(url):
+        async with gsem, sems["api:" + ("yt" if h in YT_HOSTS else "wiki")]:
+            rec = await api_check(session, url)
+            if rec: return url, rec
     async with gsem, sems[h]:
         rec = {"checked_at": now()}
         body = b""
@@ -100,7 +143,7 @@ async def main():
     urls = collect()
     cutoff = time.time() - MAX_AGE_DAYS * 86400
     todo = urls if FORCE else [u for u in urls if u not in old or time.mktime(time.strptime(old[u]["checked_at"], "%Y-%m-%dT%H:%M:%SZ")) < cutoff
-            or old[u].get("verdict") in ("error",) or "access" not in old[u] and old[u].get("verdict") == "ok"]
+            or old[u].get("verdict") in ("error", "blocked") or "access" not in old[u] and old[u].get("verdict") == "ok"]
     print(f"{len(urls)} unique urls, {len(todo)} to check", flush=True)
     sems = defaultdict(lambda: asyncio.Semaphore(PER_HOST))
     gsem = asyncio.Semaphore(GLOBAL)
