@@ -1,0 +1,56 @@
+name: Build inventory, check links, deploy site
+on:
+  push:
+    branches: [main]
+    paths: ["data/verifications.json", "scripts/**", "site/index.html", ".github/workflows/build.yml"]
+  schedule:
+    - cron: "17 3 * * 1"   # weekly, Monday 03:17 UTC
+  workflow_dispatch:
+    inputs:
+      upstream_ref:
+        description: "developer-roadmap commit or branch (default: master)"
+        required: false
+        default: "master"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: build
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install aiohttp==3.10.11
+      - name: Clone upstream roadmap content
+        run: |
+          git clone --filter=blob:none --no-checkout https://github.com/kamranahmedse/developer-roadmap.git upstream
+          cd upstream && git sparse-checkout set roadmaps && git checkout "${{ github.event.inputs.upstream_ref || 'master' }}"
+          git log -1 --format='%H %cI'
+      - name: Fetch roadmap.sh page data
+        run: python scripts/fetch_pages.py upstream
+      - name: Build inventory (pass 1)
+        run: python scripts/build_inventory.py upstream
+      - name: Link check
+        run: python scripts/link_check.py
+        env: { MAX_AGE_DAYS: "7", CONCURRENCY: "40" }
+      - name: Build inventory (pass 2, with link results)
+        run: python scripts/build_inventory.py upstream
+      - name: Commit data
+        run: |
+          git config user.name "inventory-bot"
+          git config user.email "inventory-bot@users.noreply.github.com"
+          git add data site/data
+          git diff --cached --quiet || git commit -m "data: inventory refresh $(date -u +%F)"
+          git pull --rebase origin main && git push
+      - uses: actions/configure-pages@v5
+        continue-on-error: true
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - uses: actions/deploy-pages@v4
+        continue-on-error: true

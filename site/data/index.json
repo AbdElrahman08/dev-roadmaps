@@ -1,0 +1,1764 @@
+{
+ "repo_commit": "2c6b81e61150dc900a397dacd89ca631335c4b5c",
+ "roadmaps": [
+  {
+   "slug": "ai-agents",
+   "title": "AI Agents",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 101,
+   "counts": {
+    "resources": 280,
+    "verified_free": 6,
+    "uncertain": 0,
+    "replaced": 1,
+    "needs_review": 0,
+    "not_reviewed": 273,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 280
+   }
+  },
+  {
+   "slug": "ai-data-scientist",
+   "title": "AI Data Scientist",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 8,
+   "counts": {
+    "resources": 27,
+    "verified_free": 20,
+    "uncertain": 0,
+    "replaced": 4,
+    "needs_review": 0,
+    "not_reviewed": 3,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 27
+   }
+  },
+  {
+   "slug": "ai-engineer",
+   "title": "AI Engineer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 191,
+   "counts": {
+    "resources": 485,
+    "verified_free": 13,
+    "uncertain": 1,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 471,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 485
+   }
+  },
+  {
+   "slug": "ai-product-builder",
+   "title": "AI Product Builder",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 52,
+   "counts": {
+    "resources": 128,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 4,
+    "not_reviewed": 124,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 128
+   }
+  },
+  {
+   "slug": "ai-red-teaming",
+   "title": "AI Red Teaming",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 64,
+   "counts": {
+    "resources": 206,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 13,
+    "not_reviewed": 192,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 206
+   }
+  },
+  {
+   "slug": "android",
+   "title": "Android",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 114,
+   "counts": {
+    "resources": 206,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 2,
+    "not_reviewed": 204,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 206
+   }
+  },
+  {
+   "slug": "angular",
+   "title": "Angular",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 159,
+   "counts": {
+    "resources": 414,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 414,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 414
+   }
+  },
+  {
+   "slug": "api-design",
+   "title": "API Design",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 97,
+   "counts": {
+    "resources": 255,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 254,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 255
+   }
+  },
+  {
+   "slug": "aspnet-core",
+   "title": "ASP.NET Core",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 146,
+   "counts": {
+    "resources": 358,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 6,
+    "not_reviewed": 352,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 358
+   }
+  },
+  {
+   "slug": "aws",
+   "title": "AWS",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 101,
+   "counts": {
+    "resources": 124,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 121,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 124
+   }
+  },
+  {
+   "slug": "backend",
+   "title": "Backend",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 156,
+   "counts": {
+    "resources": 526,
+    "verified_free": 2,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 20,
+    "not_reviewed": 504,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 526
+   }
+  },
+  {
+   "slug": "backend-beginner",
+   "title": "Backend Beginner",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 26,
+   "counts": {
+    "resources": 107,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 104,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 107
+   }
+  },
+  {
+   "slug": "bi-analyst",
+   "title": "BI Analyst",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 203,
+   "counts": {
+    "resources": 281,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 21,
+    "not_reviewed": 260,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 281
+   }
+  },
+  {
+   "slug": "blockchain",
+   "title": "Blockchain",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 127,
+   "counts": {
+    "resources": 398,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 28,
+    "not_reviewed": 370,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 398
+   }
+  },
+  {
+   "slug": "c",
+   "title": "C",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 145,
+   "counts": {
+    "resources": 337,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 334,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 337
+   }
+  },
+  {
+   "slug": "claude-code",
+   "title": "Claude Code",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 149,
+   "counts": {
+    "resources": 451,
+    "verified_free": 2,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 11,
+    "not_reviewed": 438,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 451
+   }
+  },
+  {
+   "slug": "cloud-computing",
+   "title": "Cloud Computing",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 119,
+   "counts": {
+    "resources": 366,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 7,
+    "not_reviewed": 359,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 366
+   }
+  },
+  {
+   "slug": "cloudflare",
+   "title": "Cloudflare",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 97,
+   "counts": {
+    "resources": 210,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 209,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 210
+   }
+  },
+  {
+   "slug": "code-review",
+   "title": "Code Review",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 5,
+   "counts": {
+    "resources": 15,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 15,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 15
+   }
+  },
+  {
+   "slug": "codex",
+   "title": "Codex",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 116,
+   "counts": {
+    "resources": 232,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 232,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 232
+   }
+  },
+  {
+   "slug": "computer-science",
+   "title": "Computer Science",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 188,
+   "counts": {
+    "resources": 496,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 30,
+    "not_reviewed": 466,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 496
+   }
+  },
+  {
+   "slug": "cpp",
+   "title": "C++",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 128,
+   "counts": {
+    "resources": 153,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 2,
+    "not_reviewed": 151,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 153
+   }
+  },
+  {
+   "slug": "css",
+   "title": "CSS",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 104,
+   "counts": {
+    "resources": 239,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 5,
+    "not_reviewed": 234,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 239
+   }
+  },
+  {
+   "slug": "cyber-security",
+   "title": "Cyber Security",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 301,
+   "counts": {
+    "resources": 679,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 24,
+    "not_reviewed": 655,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 679
+   }
+  },
+  {
+   "slug": "data-analyst",
+   "title": "Data Analyst",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 102,
+   "counts": {
+    "resources": 198,
+    "verified_free": 1,
+    "uncertain": 1,
+    "replaced": 1,
+    "needs_review": 0,
+    "not_reviewed": 195,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 198
+   }
+  },
+  {
+   "slug": "data-engineer",
+   "title": "Data Engineer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 187,
+   "counts": {
+    "resources": 395,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 1,
+    "needs_review": 16,
+    "not_reviewed": 377,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 395
+   }
+  },
+  {
+   "slug": "datastructures-and-algorithms",
+   "title": "Datastructures And Algorithms",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 107,
+   "counts": {
+    "resources": 114,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 113,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 114
+   }
+  },
+  {
+   "slug": "design-system",
+   "title": "Design System",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 124,
+   "counts": {
+    "resources": 58,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 58,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 58
+   }
+  },
+  {
+   "slug": "devops",
+   "title": "DevOps",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 140,
+   "counts": {
+    "resources": 419,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 14,
+    "not_reviewed": 405,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 419
+   }
+  },
+  {
+   "slug": "devops-beginner",
+   "title": "DevOps Beginner",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 13,
+   "counts": {
+    "resources": 66,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 65,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 66
+   }
+  },
+  {
+   "slug": "devrel",
+   "title": "DevRel",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 142,
+   "counts": {
+    "resources": 135,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 134,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 135
+   }
+  },
+  {
+   "slug": "devsecops",
+   "title": "DevSecOps",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 94,
+   "counts": {
+    "resources": 302,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 300,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 302
+   }
+  },
+  {
+   "slug": "django",
+   "title": "Django",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 113,
+   "counts": {
+    "resources": 393,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 392,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 393
+   }
+  },
+  {
+   "slug": "docker",
+   "title": "Docker",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 56,
+   "counts": {
+    "resources": 150,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 15,
+    "not_reviewed": 135,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 150
+   }
+  },
+  {
+   "slug": "elasticsearch",
+   "title": "Elasticsearch",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 113,
+   "counts": {
+    "resources": 431,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 430,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 431
+   }
+  },
+  {
+   "slug": "engineering-manager",
+   "title": "Engineering Manager",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 133,
+   "counts": {
+    "resources": 16,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 16,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 16
+   }
+  },
+  {
+   "slug": "flutter",
+   "title": "Flutter",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 108,
+   "counts": {
+    "resources": 223,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 223,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 223
+   }
+  },
+  {
+   "slug": "forward-deployed-engineer",
+   "title": "Forward Deployed Engineer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 97,
+   "counts": {
+    "resources": 315,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 311,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 315
+   }
+  },
+  {
+   "slug": "frontend",
+   "title": "Frontend",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 120,
+   "counts": {
+    "resources": 393,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 18,
+    "not_reviewed": 374,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 393
+   }
+  },
+  {
+   "slug": "frontend-beginner",
+   "title": "Frontend Beginner",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 9,
+   "counts": {
+    "resources": 38,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 37,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 38
+   }
+  },
+  {
+   "slug": "full-stack",
+   "title": "Full Stack",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 37,
+   "counts": {
+    "resources": 89,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 2,
+    "not_reviewed": 87,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 89
+   }
+  },
+  {
+   "slug": "game-developer",
+   "title": "Game Developer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 144,
+   "counts": {
+    "resources": 266,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 264,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 266
+   }
+  },
+  {
+   "slug": "git-github",
+   "title": "Git and GitHub",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 155,
+   "counts": {
+    "resources": 350,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 17,
+    "not_reviewed": 333,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 350
+   }
+  },
+  {
+   "slug": "git-github-beginner",
+   "title": "Git and GitHub Beginner",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 5,
+   "counts": {
+    "resources": 17,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 4,
+    "not_reviewed": 13,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 17
+   }
+  },
+  {
+   "slug": "golang",
+   "title": "Go",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 172,
+   "counts": {
+    "resources": 473,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 473,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 473
+   }
+  },
+  {
+   "slug": "graphql",
+   "title": "GraphQL",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 66,
+   "counts": {
+    "resources": 81,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 81,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 81
+   }
+  },
+  {
+   "slug": "html",
+   "title": "HTML",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 88,
+   "counts": {
+    "resources": 189,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 188,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 189
+   }
+  },
+  {
+   "slug": "inference-engineering",
+   "title": "Inference Engineering",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 142,
+   "counts": {
+    "resources": 479,
+    "verified_free": 1,
+    "uncertain": 1,
+    "replaced": 0,
+    "needs_review": 5,
+    "not_reviewed": 472,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 479
+   }
+  },
+  {
+   "slug": "ios",
+   "title": "iOS",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 170,
+   "counts": {
+    "resources": 379,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 17,
+    "not_reviewed": 362,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 379
+   }
+  },
+  {
+   "slug": "java",
+   "title": "Java",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 88,
+   "counts": {
+    "resources": 182,
+    "verified_free": 0,
+    "uncertain": 1,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 180,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 182
+   }
+  },
+  {
+   "slug": "javascript",
+   "title": "JavaScript",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 126,
+   "counts": {
+    "resources": 250,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 250,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 250
+   }
+  },
+  {
+   "slug": "kotlin",
+   "title": "Kotlin",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 153,
+   "counts": {
+    "resources": 347,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 344,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 347
+   }
+  },
+  {
+   "slug": "kubernetes",
+   "title": "Kubernetes",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 67,
+   "counts": {
+    "resources": 194,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 193,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 194
+   }
+  },
+  {
+   "slug": "laravel",
+   "title": "Laravel",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 104,
+   "counts": {
+    "resources": 384,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 383,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 384
+   }
+  },
+  {
+   "slug": "leetcode",
+   "title": "LeetCode",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 137,
+   "counts": {
+    "resources": 403,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 403,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 403
+   }
+  },
+  {
+   "slug": "linux",
+   "title": "Linux",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 102,
+   "counts": {
+    "resources": 294,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 6,
+    "not_reviewed": 288,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 294
+   }
+  },
+  {
+   "slug": "machine-learning",
+   "title": "Machine Learning",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 150,
+   "counts": {
+    "resources": 332,
+    "verified_free": 8,
+    "uncertain": 0,
+    "replaced": 1,
+    "needs_review": 0,
+    "not_reviewed": 323,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 332
+   }
+  },
+  {
+   "slug": "mlops",
+   "title": "MLOps",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 62,
+   "counts": {
+    "resources": 266,
+    "verified_free": 2,
+    "uncertain": 0,
+    "replaced": 1,
+    "needs_review": 4,
+    "not_reviewed": 259,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 266
+   }
+  },
+  {
+   "slug": "mongodb",
+   "title": "MongoDB",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 106,
+   "counts": {
+    "resources": 284,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 22,
+    "not_reviewed": 262,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 284
+   }
+  },
+  {
+   "slug": "network-engineer",
+   "title": "Network Engineer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 197,
+   "counts": {
+    "resources": 458,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 10,
+    "not_reviewed": 448,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 458
+   }
+  },
+  {
+   "slug": "nextjs",
+   "title": "Next.js",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 94,
+   "counts": {
+    "resources": 188,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 188,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 188
+   }
+  },
+  {
+   "slug": "nodejs",
+   "title": "Node.js",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 113,
+   "counts": {
+    "resources": 252,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 252,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 252
+   }
+  },
+  {
+   "slug": "openclaw",
+   "title": "OpenClaw",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 118,
+   "counts": {
+    "resources": 228,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 228,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 228
+   }
+  },
+  {
+   "slug": "php",
+   "title": "PHP",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 120,
+   "counts": {
+    "resources": 139,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 139,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 139
+   }
+  },
+  {
+   "slug": "postgresql-dba",
+   "title": "PostgreSQL DBA",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 170,
+   "counts": {
+    "resources": 370,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 367,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 370
+   }
+  },
+  {
+   "slug": "power-bi",
+   "title": "Power BI",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 146,
+   "counts": {
+    "resources": 301,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 301,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 301
+   }
+  },
+  {
+   "slug": "product-design",
+   "title": "Product Design",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 118,
+   "counts": {
+    "resources": 228,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 227,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 228
+   }
+  },
+  {
+   "slug": "product-manager",
+   "title": "Product Manager",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 172,
+   "counts": {
+    "resources": 518,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 515,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 518
+   }
+  },
+  {
+   "slug": "prompt-engineering",
+   "title": "Prompt Engineering",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 47,
+   "counts": {
+    "resources": 92,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 91,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 92
+   }
+  },
+  {
+   "slug": "python",
+   "title": "Python",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 87,
+   "counts": {
+    "resources": 245,
+    "verified_free": 1,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 244,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 245
+   }
+  },
+  {
+   "slug": "python-data-analysis",
+   "title": "Python Data Analysis",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 113,
+   "counts": {
+    "resources": 306,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 305,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 306
+   }
+  },
+  {
+   "slug": "qa",
+   "title": "QA",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 146,
+   "counts": {
+    "resources": 304,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 301,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 304
+   }
+  },
+  {
+   "slug": "r",
+   "title": "R",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 129,
+   "counts": {
+    "resources": 369,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 368,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 369
+   }
+  },
+  {
+   "slug": "r-programming",
+   "title": "R Programming",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 129,
+   "counts": {
+    "resources": 369,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 368,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 369
+   }
+  },
+  {
+   "slug": "react",
+   "title": "React",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 82,
+   "counts": {
+    "resources": 230,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 230,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 230
+   }
+  },
+  {
+   "slug": "react-native",
+   "title": "React Native",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 95,
+   "counts": {
+    "resources": 165,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 165,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 165
+   }
+  },
+  {
+   "slug": "redis",
+   "title": "Redis",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 162,
+   "counts": {
+    "resources": 238,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 238,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 238
+   }
+  },
+  {
+   "slug": "ruby",
+   "title": "Ruby",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 106,
+   "counts": {
+    "resources": 389,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 388,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 389
+   }
+  },
+  {
+   "slug": "ruby-on-rails",
+   "title": "Ruby on Rails",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 107,
+   "counts": {
+    "resources": 329,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 329,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 329
+   }
+  },
+  {
+   "slug": "rust",
+   "title": "Rust",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 122,
+   "counts": {
+    "resources": 348,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 348,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 348
+   }
+  },
+  {
+   "slug": "scala",
+   "title": "Scala",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 165,
+   "counts": {
+    "resources": 376,
+    "verified_free": 0,
+    "uncertain": 1,
+    "replaced": 0,
+    "needs_review": 12,
+    "not_reviewed": 363,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 376
+   }
+  },
+  {
+   "slug": "seo",
+   "title": "SEO",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 216,
+   "counts": {
+    "resources": 346,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 2,
+    "not_reviewed": 344,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 346
+   }
+  },
+  {
+   "slug": "server-side-game-developer",
+   "title": "Server Side Game Developer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 156,
+   "counts": {
+    "resources": 479,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 476,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 479
+   }
+  },
+  {
+   "slug": "shell-bash",
+   "title": "Shell / Bash",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 174,
+   "counts": {
+    "resources": 456,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 6,
+    "not_reviewed": 450,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 456
+   }
+  },
+  {
+   "slug": "software-architect",
+   "title": "Software Architect",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 112,
+   "counts": {
+    "resources": 269,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 266,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 269
+   }
+  },
+  {
+   "slug": "software-design-architecture",
+   "title": "Software Design Architecture",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 94,
+   "counts": {
+    "resources": 141,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 140,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 141
+   }
+  },
+  {
+   "slug": "spring-boot",
+   "title": "Spring Boot",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 46,
+   "counts": {
+    "resources": 114,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 2,
+    "not_reviewed": 112,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 114
+   }
+  },
+  {
+   "slug": "sql",
+   "title": "SQL",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 112,
+   "counts": {
+    "resources": 163,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 163,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 163
+   }
+  },
+  {
+   "slug": "swift-ui",
+   "title": "SwiftUI",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 156,
+   "counts": {
+    "resources": 482,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 2,
+    "not_reviewed": 480,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 482
+   }
+  },
+  {
+   "slug": "system-design",
+   "title": "System Design",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 147,
+   "counts": {
+    "resources": 214,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 211,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 214
+   }
+  },
+  {
+   "slug": "technical-writer",
+   "title": "Technical Writer",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 84,
+   "counts": {
+    "resources": 8,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 8,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 8
+   }
+  },
+  {
+   "slug": "terraform",
+   "title": "Terraform",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 110,
+   "counts": {
+    "resources": 275,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 3,
+    "not_reviewed": 272,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 275
+   }
+  },
+  {
+   "slug": "typescript",
+   "title": "TypeScript",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 93,
+   "counts": {
+    "resources": 114,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 114,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 114
+   }
+  },
+  {
+   "slug": "ux-design",
+   "title": "UX Design",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 94,
+   "counts": {
+    "resources": 66,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 65,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 66
+   }
+  },
+  {
+   "slug": "vibe-coding",
+   "title": "Vibe Coding",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 53,
+   "counts": {
+    "resources": 164,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 163,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 164
+   }
+  },
+  {
+   "slug": "vue",
+   "title": "Vue",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 84,
+   "counts": {
+    "resources": 142,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 0,
+    "not_reviewed": 142,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 142
+   }
+  },
+  {
+   "slug": "wordpress",
+   "title": "WordPress",
+   "page_updatedAt": null,
+   "page_fetched": false,
+   "topics": 115,
+   "counts": {
+    "resources": 377,
+    "verified_free": 0,
+    "uncertain": 0,
+    "replaced": 0,
+    "needs_review": 1,
+    "not_reviewed": 376,
+    "link_ok": 0,
+    "link_bad": 0,
+    "link_unchecked": 377
+   }
+  }
+ ],
+ "totals": {
+  "resources": 26130,
+  "verified_free": 62,
+  "uncertain": 5,
+  "replaced": 9,
+  "needs_review": 407,
+  "not_reviewed": 25647,
+  "link_ok": 0,
+  "link_bad": 0,
+  "link_unchecked": 26130
+ },
+ "verification_entries": 93,
+ "linkcheck_entries": 0
+}

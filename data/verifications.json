@@ -1,0 +1,1520 @@
+{
+ "note": "Provider-page verifications and free replacements, keyed by original URL. Applied to every roadmap that links the URL.",
+ "entries": [
+  {
+   "url": "https://imp.i384100.net/baqMYv",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Affiliate redirect could not be followed (robots-blocked). Inferred target coursera.org/specializations/mathematics-machine-learning: FAQ 'No, you cannot take this course for free'; 'Included with Coursera Plus'.",
+   "verified_on": "2026-11-05",
+   "provider": "Imperial College London (inferred)",
+   "level": "Beginner (course 3 intermediate)",
+   "prerequisites": "High-school maths; basic Python/NumPy for course 3",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Khan Academy: Linear Algebra + Multivariable Calculus",
+    "url": "https://www.khanacademy.org/math/linear-algebra",
+    "url2": "https://www.khanacademy.org/math/multivariable-calculus",
+    "provider": "Khan Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "Khan Academy support: 'Learning at Khan Academy is always free!' (support.khanacademy.org/hc/en-us/articles/202260114). Course pages load (canonical URLs confirmed); unit lists render client-side and could not be read.",
+    "why": "Covers the same two pillars as Imperial's courses 1-2 (linear algebra; multivariable calculus incl. gradients) at the same beginner/high-school-maths entry level. Both courses are already listed in the source repo for this topic.",
+    "gap": "No PCA unit; PCA is covered by chapter 10 of the free Mathematics for Machine Learning book already on this topic."
+   }
+  },
+  {
+   "url": "https://imp.i384100.net/LX5M7M",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Inferred target coursera.org/learn/algebra-and-differential-calculus-for-data-science: 'Enroll for free' but FAQ says materials/assignments need the paid Certificate experience; audit not confirmed for this course.",
+   "verified_on": "2026-11-05",
+   "provider": "University of Colorado Boulder (inferred)",
+   "level": "Intermediate",
+   "prerequisites": "Not specified",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Khan Academy: Differential Calculus",
+    "url": "https://www.khanacademy.org/math/differential-calculus",
+    "provider": "Khan Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "Khan Academy support page: 'always free'. Canonical URL confirmed; unit list renders client-side and could not be read.",
+    "why": "Same learning goal as CU Boulder's course (limits, continuity, derivative definition, product/chain rules, curve sketching, optimisation) at an introductory level.",
+    "gap": "CU Boulder's course also reviews algebra (functions, logs, exponents) and proof by induction; Khan's Algebra courses cover the review if needed."
+   }
+  },
+  {
+   "url": "https://www.khanacademy.org/math/linear-algebra",
+   "access_status": "free",
+   "cost_evidence": "Khan Academy support: 'Learning at Khan Academy is always free!'",
+   "verified_on": "2026-11-05",
+   "provider": "Khan Academy",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.khanacademy.org/math/multivariable-calculus",
+   "access_status": "free",
+   "cost_evidence": "Khan Academy support: 'always free'",
+   "verified_on": "2026-11-05",
+   "provider": "Khan Academy",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+   "access_status": "free",
+   "cost_evidence": "Public YouTube playlist, 16 videos, owner 3Blue1Brown",
+   "verified_on": "2026-11-05",
+   "provider": "3Blue1Brown",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.youtube.com/playlist?list=PLZHQObOWTPOMsr9K-rj53DwVRMYO3t5Yr",
+   "access_status": "free (link unconfirmed)",
+   "cost_evidence": "Fetch returned no playlist metadata; existence not confirmed",
+   "verified_on": "2026-11-05",
+   "provider": "3Blue1Brown",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Re-check in a browser.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://mml-book.github.io/",
+   "access_status": "free",
+   "cost_evidence": "'We will keep PDFs of this book freely available.'",
+   "verified_on": "2026-11-05",
+   "provider": "Cambridge University Press / authors",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf",
+   "access_status": "free (open licence)",
+   "cost_evidence": "Hosted on MIT OCW",
+   "verified_on": "2026-11-05",
+   "provider": "MIT OpenCourseWare",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://linear.axler.net/LADR4e.pdf",
+   "access_status": "free (open licence)",
+   "cost_evidence": "CC BY-NC 4.0",
+   "verified_on": "2026-11-05",
+   "provider": "Sheldon Axler",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/3eRv4v",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Inferred target coursera.org/learn/stanford-statistics: 'Enroll for free' vs FAQ 'purchase the Certificate experience'; 'Included with Coursera Plus'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "provider": "Stanford Online (inferred)",
+   "level": "Beginner",
+   "prerequisites": "Not specified",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Khan Academy: Statistics and Probability",
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "provider": "Khan Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "Khan Academy support page: 'always free'. Canonical URL confirmed; unit list renders client-side and could not be read.",
+    "why": "Beginner course spanning descriptive statistics, sampling, probability, sampling distributions/CLT, confidence intervals, significance tests, chi-square and ANOVA — the same syllabus as Stanford's Introduction to Statistics. Already listed in the source repo for this topic.",
+    "gap": "None material at this level; no resampling unit (bootstrap is covered by the Data 8 textbook replacement below)."
+   }
+  },
+  {
+   "url": "https://imp.i384100.net/vN0JAA",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Affiliate target could not be resolved. Closest match page: audit/no-certificate option not confirmed; materials require paid Certificate experience.",
+   "verified_on": "2026-11-05",
+   "provider": "Unresolved (closest match: CU Boulder, Statistical Inference and Hypothesis Testing in Data Science Applications)",
+   "level": "Intermediate (if CU Boulder)",
+   "prerequisites": "Not specified",
+   "notes": "Target identity is an inference from the label only.",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "MIT OCW 18.650 Statistics for Applications (Fall 2016)",
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/",
+    "provider": "MIT OpenCourseWare",
+    "type": "course",
+    "access": "free (open licence)",
+    "evidence": "Course page: CC BY-NC-SA 4.0, lecture videos, notes and problem sets downloadable; syllabus topics include Parametric Hypothesis Testing and Testing Goodness of Fit. Prerequisites: probability (18.440 level) and some linear algebra.",
+    "why": "Intermediate, maths-based treatment of hypothesis testing (parametric tests, goodness-of-fit, likelihood-based methods) matching the inferred CU Boulder 'Statistical Inference and Hypothesis Testing' course level.",
+    "gap": "Uses mathematical notation rather than R notebooks; no autograded labs."
+   }
+  },
+  {
+   "url": "https://imp.i384100.net/daDM6Q",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Affiliate target could not be resolved; provider page not reached.",
+   "verified_on": "2026-11-05",
+   "provider": "Unresolved (likely University of London, 'Probability and Statistics: To p or not to p?')",
+   "level": "Beginner (if UoL)",
+   "prerequisites": "Unknown",
+   "notes": "Same replacement as Introduction to Statistics: Khan's course spans probability, sampling and sampling distributions.",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Khan Academy: Statistics and Probability",
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "provider": "Khan Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "Khan Academy support page: 'always free'. Canonical URL confirmed; unit list renders client-side and could not be read.",
+    "why": "Beginner course spanning descriptive statistics, sampling, probability, sampling distributions/CLT, confidence intervals, significance tests, chi-square and ANOVA — the same syllabus as Stanford's Introduction to Statistics. Already listed in the source repo for this topic.",
+    "gap": "None material at this level; no resampling unit (bootstrap is covered by the Data 8 textbook replacement below)."
+   }
+  },
+  {
+   "url": "https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f#1e3b",
+   "access_status": "free",
+   "cost_evidence": "Full text loaded; no paywall notice",
+   "verified_on": "2026-11-05",
+   "provider": "VK CoreML team (Medium)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://towardsdatascience.com/step-by-step-for-planning-an-a-b-test-ef3c93143c0b",
+   "access_status": "free",
+   "cost_evidence": "Full text loaded; no paywall notice",
+   "verified_on": "2026-11-05",
+   "provider": "Towards Data Science",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://splitmetrics.com/resources/minimum-detectable-effect-mde/",
+   "access_status": "free",
+   "cost_evidence": "Full article loaded",
+   "verified_on": "2026-11-05",
+   "provider": "SplitMetrics",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://kdd.org/kdd2016/papers/files/adp0945-xieA.pdf",
+   "access_status": "free",
+   "cost_evidence": "PDF text loaded",
+   "verified_on": "2026-11-05",
+   "provider": "KDD 2016 (Xie & Aurisset, Netflix)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Same paper as 'Netflix: Stratification' below.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf",
+   "access_status": "free",
+   "cost_evidence": "PDF text loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Deng, Xu, Kohavi, Walker (WSDM 2013)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d",
+   "access_status": "link-unverified",
+   "cost_evidence": "Fetch failed (client error)",
+   "verified_on": "2026-11-05",
+   "provider": "Booking.com",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Re-check in a browser; may be a Medium-hosted page that blocks bots.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://doordash.engineering/2020/06/08/improving-experimental-power-through-control-using-predictions-as-covariate-cupac/",
+   "access_status": "free",
+   "cost_evidence": "Article body loaded",
+   "verified_on": "2026-11-05",
+   "provider": "DoorDash Engineering",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.researchgate.net/publication/305997925_Improving_the_Sensitivity_of_Online_Controlled_Experiments_Case_Studies_at_Netflix",
+   "access_status": "link-unverified",
+   "cost_evidence": "Fetch failed (client error). The same paper is freely available at the KDD link above.",
+   "verified_on": "2026-11-05",
+   "provider": "ResearchGate",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://arxiv.org/pdf/1803.06336",
+   "access_status": "free",
+   "cost_evidence": "arXiv PDF loaded",
+   "verified_on": "2026-11-05",
+   "provider": "arXiv (Deng, Knoblich, Lu)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://stat.cmu.edu/~hseltman/files/ratio.pdf",
+   "access_status": "free",
+   "cost_evidence": "PDF loaded",
+   "verified_on": "2026-11-05",
+   "provider": "CMU (H. Seltman)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.khanacademy.org/math/statistics-probability",
+   "access_status": "free",
+   "cost_evidence": "Khan Academy support: 'always free'",
+   "verified_on": "2026-11-05",
+   "provider": "Khan Academy",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.openintro.org/book/os/",
+   "access_status": "free",
+   "cost_evidence": "'FREE -- OpenIntro Statistics PDF … set the price to $0'",
+   "verified_on": "2026-11-05",
+   "provider": "OpenIntro",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.coursera.org/specializations/statistics-with-python",
+   "access_status": "access-uncertain",
+   "cost_evidence": "FAQ: 'No, you cannot take this course for free'; 'Enroll for free' button; Coursera Plus.",
+   "verified_on": "2026-11-05",
+   "provider": "University of Michigan",
+   "level": "Beginner",
+   "prerequisites": "High-school algebra; basic Python recommended",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Computational and Inferential Thinking (UC Berkeley Data 8 textbook)",
+    "url": "https://inferentialthinking.com/",
+    "provider": "UC Berkeley Data 8",
+    "type": "course textbook (interactive)",
+    "access": "free (open licence)",
+    "evidence": "Site: 'licensed for free consumption' under CC BY-NC-ND 4.0. Chapters include Sampling, Testing Hypotheses, Comparing Two Samples, Estimation, Inference for Regression — all in Python.",
+    "why": "Beginner-level statistics taught in Python (sampling, hypothesis tests, A/B-style two-sample comparison, estimation, regression inference) — the same goal as UMich's Statistics with Python.",
+    "gap": "No Bayesian or multilevel-model material (UMich course 3 touches these)."
+   }
+  },
+  {
+   "url": "https://www.youtube.com/@statquest",
+   "access_status": "free",
+   "cost_evidence": "Public YouTube channel",
+   "verified_on": "2026-11-05",
+   "provider": "StatQuest",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://bookdown.org/ts_robinson1994/10EconometricTheorems/",
+   "access_status": "free",
+   "cost_evidence": "Open web book loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Thomas S. Robinson (bookdown)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://academia.edu/33062577/Dougherty_Intro_to_Econometrics_4th_ed_small",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Fetch failed; Academia.edu downloads usually need an account. A commercial textbook uploaded by a user — rights status unclear.",
+   "verified_on": "2026-11-05",
+   "provider": "Academia.edu (user upload)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Not a course, so no replacement made; shown with an 'uncertain' label.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/k0krYL",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Repo lists the same course at coursera.org/learn/erasmus-econometrics. Provider page: 'Enroll for free', but no audit/no-certificate option or certificate price stated.",
+   "verified_on": "2026-11-05",
+   "provider": "Erasmus University Rotterdam",
+   "level": "Advanced undergraduate",
+   "prerequisites": "Basics of matrices, probability, statistics",
+   "notes": "Page and repo both list this course (page via affiliate link, repo direct).",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Ben Lambert: A full course in econometrics – undergraduate level (YouTube)",
+    "url": "https://www.youtube.com/playlist?list=PLcZcY_ZXuygxO0CSE0lMa5WadbPpNix7v",
+    "provider": "YouTube (Ben Lambert)",
+    "type": "youtube playlist",
+    "access": "free",
+    "evidence": "Public playlist, 199 videos. Ben Lambert's channel (@SpartacanUsuals) confirmed; the fetched playlist page reported its owner as 'newtvchannel', so whether this playlist is hosted on Ben Lambert's own channel is NOT confirmed.",
+    "why": "Advanced-undergraduate econometrics: OLS, Gauss-Markov, inference, heteroskedasticity/serial-correlation tests, IV/2SLS and time series (stationarity, unit roots, cointegration) — the same scope and level as Erasmus's course.",
+    "gap": "Binary-choice (logit/probit) models are not in part 1; playlist ownership unconfirmed."
+   }
+  },
+  {
+   "url": "https://www.kaggle.com/learn/time-series",
+   "access_status": "free",
+   "cost_evidence": "kaggle.com/learn: 'these no-cost courses'",
+   "verified_on": "2026-11-05",
+   "provider": "Kaggle",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://kaggle.com/code/jagangupta/time-series-basics-exploring-traditional-ts#Hierarchical-time-series",
+   "access_status": "free",
+   "cost_evidence": "Public notebook",
+   "verified_on": "2026-11-05",
+   "provider": "Kaggle (jagangupta)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python",
+   "access_status": "free",
+   "cost_evidence": "Full article loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Machine Learning Mastery",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/",
+   "access_status": "free",
+   "cost_evidence": "Full article loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Machine Learning Mastery",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://github.com/stalkermustang/bcdc_ds_takehome",
+   "access_status": "free",
+   "cost_evidence": "Public repo (cloned; last commit 2023-01-16)",
+   "verified_on": "2026-11-05",
+   "provider": "GitHub",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/9g97Ke",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Affiliate target could not be resolved; no single provider page identifiable.",
+   "verified_on": "2026-11-05",
+   "provider": "Unresolved (several Coursera courses share this name)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Target identity unknown; replacement chosen for the stated learning goal (linear regression).",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Penn State STAT 501: Regression Methods",
+    "url": "https://online.stat.psu.edu/stat501/",
+    "provider": "Penn State Eberly College of Science",
+    "type": "course (online notes + videos)",
+    "access": "free (open licence)",
+    "evidence": "Page: 'These notes are free to use under Creative Commons license CC BY-NC 4.0.' Lessons: SLR, SLR evaluation/estimation/assumptions, MLR, categorical predictors, transformations, model building, influential points, multicollinearity, WLS & logistic regression.",
+    "why": "Introductory applied linear regression course matching a 'Coursera: Linear Regression' course in goal and level.",
+    "gap": "Examples use Minitab and R rather than Python."
+   }
+  },
+  {
+   "url": "https://ocw.mit.edu/courses/14-382-econometrics-spring-2017/",
+   "access_status": "free (open licence)",
+   "cost_evidence": "CC BY-NC-SA 4.0; notes, problem sets, exams; no videos",
+   "verified_on": "2026-11-05",
+   "provider": "MIT OpenCourseWare",
+   "level": "Graduate",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://economicsnetwork.ac.uk/teaching/Lecture%20Notes%20and%20Short%20Texts/Econometrics",
+   "access_status": "free",
+   "cost_evidence": "Page loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Economics Network",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.kaggle.com/learn/python",
+   "access_status": "free",
+   "cost_evidence": "kaggle.com/learn: 'these no-cost courses'",
+   "verified_on": "2026-11-05",
+   "provider": "Kaggle",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://developers.google.com/edu/python",
+   "access_status": "free",
+   "cost_evidence": "'a free class for people with a little bit of programming experience'; CC BY 4.0; updated 2024-07-23",
+   "verified_on": "2026-11-05",
+   "provider": "Google for Developers",
+   "level": "",
+   "prerequisites": "Basic programming in any language",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://leetcode.com/studyplan/",
+   "access_status": "free tier (some content Premium)",
+   "cost_evidence": "Page loads; site offers a paid Premium subscription. Which plans are free was not determined.",
+   "verified_on": "2026-11-05",
+   "provider": "LeetCode",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://leetcode.com/explore/learn/",
+   "access_status": "link-unverified",
+   "cost_evidence": "Fetch failed (client error)",
+   "verified_on": "2026-11-05",
+   "provider": "LeetCode",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/5gqv4n",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Inferred target coursera.org/specializations/algorithms: FAQ 'No, you cannot take this course for free'.",
+   "verified_on": "2026-11-05",
+   "provider": "Stanford Online (inferred)",
+   "level": "Intermediate",
+   "prerequisites": "One programming language; proofs; discrete probability",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Tim Roughgarden: Algorithms Illuminated lectures, Parts 1–3 (YouTube)",
+    "url": "https://www.youtube.com/playlist?list=PLEGCF-WLh2RLHqXx6-GZr_w7LgqKDXxN_",
+    "url2": "https://www.youtube.com/playlist?list=PLEGCF-WLh2RJ5W-pt-KE9GUArTDzVwL1P",
+    "url3": "https://www.youtube.com/playlist?list=PLEGCF-WLh2RI5H8JBWxq0Q4AN7XVaj-h-",
+    "provider": "YouTube (Tim Roughgarden Lectures)",
+    "type": "youtube playlist",
+    "access": "free",
+    "evidence": "Playlists owned by 'Tim Roughgarden Lectures': Part 1 (37 videos), Part 2 (28), Part 3 (48). timroughgarden.org/videos.html maps them to the Coursera specialization's courses.",
+    "why": "Same instructor and same lectures as the Stanford Algorithms Specialization: divide & conquer, sorting, randomized algorithms, graph search, shortest paths, data structures, greedy, MST, dynamic programming.",
+    "gap": "No Part 4 playlist found (Bellman-Ford/Floyd-Warshall revisited, NP-completeness); no graded programming assignments."
+   }
+  },
+  {
+   "url": "https://sqltutorial.org/",
+   "access_status": "free",
+   "cost_evidence": "Open tutorial pages; no price or paywall on page",
+   "verified_on": "2026-11-05",
+   "provider": "sqltutorial.org",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://docs.python.org/3/tutorial/",
+   "access_status": "free",
+   "cost_evidence": "Official docs",
+   "verified_on": "2026-11-05",
+   "provider": "Python Software Foundation",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://cran.r-project.org/manuals.html",
+   "access_status": "free",
+   "cost_evidence": "Official docs",
+   "verified_on": "2026-11-05",
+   "provider": "CRAN",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Re-check in a browser.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+   "access_status": "access-uncertain",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "provider": "IBM",
+   "level": "Beginner",
+   "prerequisites": "No programming experience",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Python for Everybody (PY4E)",
+    "url": "https://www.py4e.com",
+    "provider": "Charles Severance / University of Michigan",
+    "type": "course",
+    "access": "free (open licence)",
+    "evidence": "Site: materials are free; 'free, global open and online course'; CC BY 4.0.",
+    "why": "Beginner Python course with no prior programming required, progressing to files, web data and APIs — same goal and level as IBM's Python for Data Science, AI & Development.",
+    "gap": "No pandas/NumPy unit; Kaggle Learn Python + pandas User Guide (both on the source roadmap) fill this."
+   }
+  },
+  {
+   "url": "https://pll.harvard.edu/course/introduction-data-science-python",
+   "access_status": "free audit",
+   "cost_evidence": "Provider page: price 'Free*', 'Audit for Free', verified certificate $299. The asterisk's conditions were not shown on the page.",
+   "verified_on": "2026-11-05",
+   "provider": "Harvard University",
+   "level": "Intermediate",
+   "prerequisites": "Baseline Python and statistics",
+   "notes": "Kept: free audit is stated by the provider; audit terms (e.g. time limits) unverified.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+   "access_status": "free (open licence)",
+   "cost_evidence": "CC BY-NC-ND text, MIT code",
+   "verified_on": "2026-11-05",
+   "provider": "Jake VanderPlas",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/AWAv4R",
+   "access_status": "paid",
+   "cost_evidence": "Repo lists coursera.org/projects/exploratory-data-analysis-python-pandas. Provider page: 'Auditing is not available for Guided Projects'; 'Financial aid is not available'; 'Included with Coursera Plus'.",
+   "verified_on": "2026-11-05",
+   "provider": "Coursera",
+   "level": "Beginner",
+   "prerequisites": "Intro statistics required; Python recommended",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "mlcourse.ai Topics 1–2: EDA with Pandas and Visual Data Analysis",
+    "url": "https://mlcourse.ai/book/topic01/topic01_intro.html",
+    "provider": "mlcourse.ai (Yury Kashnitsky)",
+    "type": "course",
+    "access": "free (open access; bonus assignments paid)",
+    "evidence": "Course pages open without login; no licence/price statement on page; some bonus assignments are behind a Patreon tier. Topics 1–2 cover data cleaning, preliminary analysis and plotting with Seaborn/Matplotlib/Plotly.",
+    "why": "Hands-on, beginner-to-intermediate pandas EDA on real datasets — same goal as the 2-hour Coursera Guided Project. Already on the source roadmap (Machine Learning topic).",
+    "gap": "Not a single 2-hour project; learners should use Topics 1–2 only."
+   }
+  },
+  {
+   "url": "https://imp.i384100.net/GmQMLE",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Inferred target coursera.org/learn/ibm-exploratory-data-analysis-for-machine-learning: 'Enroll for free' vs paid Certificate experience; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "provider": "IBM (inferred)",
+   "level": "Intermediate",
+   "prerequisites": "Python; calculus, linear algebra, probability, statistics",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "mlcourse.ai Topics 1, 2 and 6: EDA, visual analysis, feature engineering & selection",
+    "url": "https://mlcourse.ai/book/topic01/topic01_intro.html",
+    "provider": "mlcourse.ai (Yury Kashnitsky)",
+    "type": "course",
+    "access": "free (open access; bonus assignments paid)",
+    "evidence": "As above; Topic 6 is feature engineering and feature selection.",
+    "why": "Matches IBM's EDA for ML modules on retrieving/cleaning data and EDA + feature engineering at intermediate level (Python, pandas). Already on the source roadmap.",
+    "gap": "IBM's module on inferential statistics/hypothesis testing is covered under the Statistics topic instead."
+   }
+  },
+  {
+   "url": "https://pandas.pydata.org/docs/user_guide/basics.html",
+   "access_status": "free",
+   "cost_evidence": "Official docs",
+   "verified_on": "2026-11-05",
+   "provider": "pandas",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce/",
+   "access_status": "free",
+   "cost_evidence": "Full article loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Towards Data Science",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/",
+   "access_status": "free",
+   "cost_evidence": "Full article loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Analytics Vidhya",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://mlcourse.ai/book/topic01/topic01_intro.html",
+   "access_status": "free (open access; bonus assignments paid)",
+   "cost_evidence": "Pages open without login; Patreon tier for bonus assignments",
+   "verified_on": "2026-11-05",
+   "provider": "mlcourse.ai (Yury Kashnitsky)",
+   "level": "",
+   "prerequisites": "Python, maths, basic DevOps",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/oqGkrg",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Inferred target coursera.org/specializations/machine-learning-introduction: FAQ 'No, you cannot take this course for free' while also mentioning 'If you audit the course for free…' — contradictory.",
+   "verified_on": "2026-11-05",
+   "provider": "Stanford Online & DeepLearning.AI (inferred)",
+   "level": "Beginner",
+   "prerequisites": "Basic coding; high-school maths",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Google Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "provider": "Google for Developers",
+    "type": "course",
+    "access": "free",
+    "evidence": "Google Developers Blog (2 Mar 2018): 'MLCC is free.' Current prerequisites page: no prior ML required; algebra, basic stats, Python recommended; modules: linear & logistic regression, classification, data, overfitting, neural networks, embeddings, LLM intro, production ML.",
+    "why": "Beginner ML course with the same entry requirements as Andrew Ng's ML Specialization (basic Python + high-school maths) covering regression, classification and neural networks.",
+    "gap": "Lighter on unsupervised learning, decision trees/ensembles and recommender systems; mlcourse.ai (on the source roadmap) covers trees, ensembles, boosting, PCA and clustering. Cost statement dates from 2018; the current course pages do not restate it."
+   }
+  },
+  {
+   "url": "https://microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
+   "access_status": "free",
+   "cost_evidence": "PDF hosted by Microsoft Research loaded",
+   "verified_on": "2026-11-05",
+   "provider": "Microsoft Research",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://github.com/gerdm/prml",
+   "access_status": "free",
+   "cost_evidence": "Public repo (cloned; last commit 2022-07-25)",
+   "verified_on": "2026-11-05",
+   "provider": "GitHub (gerdm)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/Wq9MV3",
+   "access_status": "paid",
+   "cost_evidence": "Inferred target coursera.org/specializations/deep-learning: FAQ 'No, you cannot take this course for free'; no audit mentioned.",
+   "verified_on": "2026-11-05",
+   "provider": "DeepLearning.AI (inferred)",
+   "level": "Intermediate",
+   "prerequisites": "Intermediate Python; basic linear algebra; basic ML",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "MIT 6.S191 Introduction to Deep Learning (2026)",
+    "url": "https://introtodeeplearning.com/",
+    "provider": "MIT",
+    "type": "course + youtube playlist",
+    "access": "free (open licence)",
+    "evidence": "Site: 'All materials are open-sourced to the world for free' (MIT licence). Lecture playlist (90 videos): https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI. Prereqs: elementary calculus and linear algebra; Python helpful.",
+    "why": "Intermediate deep learning course covering fully connected nets, computer vision (CNNs), sequence modelling (RNNs/LSTMs/attention/transformers) and LLM fine-tuning labs — the same list as this topic's checklist.",
+    "gap": "A short bootcamp, so less depth than the 5-course DeepLearning.AI specialization; pair with the free Deep Learning Book on this topic for depth. Transfer learning is not named as a lecture."
+   }
+  },
+  {
+   "url": "https://www.deeplearningbook.org/",
+   "access_status": "free",
+   "cost_evidence": "'will remain available online for free'",
+   "verified_on": "2026-11-05",
+   "provider": "Goodfellow, Bengio, Courville",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://arxiv.org/pdf/1706.03762",
+   "access_status": "free",
+   "cost_evidence": "arXiv PDF",
+   "verified_on": "2026-11-05",
+   "provider": "arXiv",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://jalammar.github.io/illustrated-transformer/",
+   "access_status": "free",
+   "cost_evidence": "Open blog post",
+   "verified_on": "2026-11-05",
+   "provider": "Jay Alammar",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://roadmap.sh/machine-learning",
+   "access_status": "free",
+   "cost_evidence": "Cross-link only",
+   "verified_on": "2026-11-05",
+   "provider": "roadmap.sh",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Repo-only cross-link; also listed under Machine Learning.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://imp.i384100.net/nLA5mx",
+   "access_status": "retired",
+   "cost_evidence": "DeepLearning.AI community: enrollment closed 8 May 2024; courses 2–4 being discontinued (staff reply, 23 Jun 2024); course 1 continues standalone.",
+   "verified_on": "2026-11-05",
+   "provider": "DeepLearning.AI (inferred: Machine Learning Engineering for Production)",
+   "level": "Intermediate",
+   "prerequisites": "",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "DataTalksClub MLOps Zoomcamp",
+    "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+    "provider": "DataTalks.Club",
+    "type": "course + youtube playlist",
+    "access": "free",
+    "evidence": "README: 'A Free 9-Week Course'; self-paced cost 'Free'; modules: experiment tracking, orchestration, deployment (batch/web/streaming), monitoring, best practices incl. 'CI/CD with GitHub Actions'. Prereqs: Python, Docker, command line, ML, 1+ yr programming. Repo last commit 2026-09-16.",
+    "why": "Intermediate production-ML course covering the topic's checklist (deployment models, CI/CD) and the scope of the retired DeepLearning.AI MLOps Specialization.",
+    "gap": "Live cohort not running in 2026; self-paced homework is not scored and there is no certificate."
+   }
+  },
+  {
+   "url": "https://roadmap.sh/mlops",
+   "access_status": "free",
+   "cost_evidence": "Cross-link only",
+   "verified_on": "2026-11-05",
+   "provider": "roadmap.sh",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://grow.google/ai-coursera",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Resolves to grow.google/ai: lists Coursera-hosted courses without prices; only some workshops stated 'at no cost'. Candidate free replacement (Google Skills 'Beginner: Introduction to Generative AI', described as no-cost in Google's Sept 2023 blog) does not state cost on its current page.",
+   "verified_on": "2026-11-05",
+   "provider": "Grow with Google",
+   "level": "",
+   "prerequisites": "",
+   "notes": "No replacement with verifiable no-cost access found. Labelled uncertain, not presented as free. The free Hugging Face LLM Course on the same topic covers the LLM learning goal.",
+   "action": "label-uncertain",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+   "access_status": "free",
+   "cost_evidence": "'completely free and without ads'",
+   "verified_on": "2026-11-05",
+   "provider": "Hugging Face",
+   "level": "",
+   "prerequisites": "Good Python; intro deep learning recommended",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.promptingguide.ai/",
+   "access_status": "free (guide); site sells separate courses",
+   "cost_evidence": "Guide content without paywall; banners promote paid courses",
+   "verified_on": "2026-11-05",
+   "provider": "DAIR.AI",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://arxiv.org/abs/2005.11401",
+   "access_status": "free",
+   "cost_evidence": "arXiv",
+   "verified_on": "2026-11-05",
+   "provider": "arXiv",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://www.coursera.org/learn/vibe-coding-fundamentals",
+   "access_status": "access-uncertain",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; 'Included with Coursera Plus'; audit not confirmed.",
+   "verified_on": "2026-11-05",
+   "provider": "University of Colorado System",
+   "level": "Beginner",
+   "prerequisites": "No coding needed",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Claude Academy: Claude Code 101",
+    "url": "https://academy.claude.com/courses/claude-code-101",
+    "provider": "Anthropic (Claude Academy)",
+    "type": "course",
+    "access": "free course; tool use requires paid plan or API key",
+    "evidence": "Claude Code docs list Claude Academy as 'free self-paced courses, including Claude Code 101'. Course page: ~1.5 h, 12 lessons, no prior AI-tool experience assumed; requires a Claude Pro/Max/Enterprise account or API key to practise.",
+    "why": "Beginner course on working with an AI coding assistant (what it is, first prompts, explore→plan→code→commit, context, review) — the same goal as Vibe Coding Fundamentals.",
+    "gap": "Course content is free but hands-on practice needs a paid Claude plan or pay-as-you-go API usage, so it is not fully no-cost. Flagged rather than presented as free."
+   }
+  },
+  {
+   "url": "https://code.claude.com/docs",
+   "access_status": "free docs; product needs paid plan or API key",
+   "cost_evidence": "Source link docs.anthropic.com/en/docs/claude-code 302-redirects here; docs state most surfaces need a Claude subscription or Console account.",
+   "verified_on": "2026-11-05",
+   "provider": "Anthropic",
+   "level": "",
+   "prerequisites": "",
+   "notes": "URL updated to the redirect target.",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://tweag.github.io/agentic-coding-handbook/",
+   "access_status": "free",
+   "cost_evidence": "Open site; source repo public (last commit 2026-05-07)",
+   "verified_on": "2026-11-05",
+   "provider": "Tweag",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-data-scientist"
+   ]
+  },
+  {
+   "url": "https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb",
+   "access_status": "link-unverified",
+   "cost_evidence": "Provider page could not be fetched (client error). Not presented as free until checked in a browser.",
+   "verified_on": "2026-11-05",
+   "provider": "Microsoft Support",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "data-analyst"
+   ]
+  },
+  {
+   "url": "https://www.coursera.org/learn/introduction-to-data-analytics",
+   "access_status": "access-uncertain",
+   "cost_evidence": "'Enroll for free' vs FAQ 'purchase the Certificate experience'; 'Included with Coursera Plus'; audit not confirmed for this course.",
+   "verified_on": "2026-11-05",
+   "provider": "IBM (Coursera)",
+   "level": "Beginner",
+   "prerequisites": "None",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "data-analyst"
+   ],
+   "replacement": {
+    "title": "Microsoft Learn: Get started with Microsoft data analytics",
+    "url": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/",
+    "provider": "Microsoft Learn",
+    "type": "course (learning path)",
+    "access": "free",
+    "evidence": "Microsoft Learn FAQ: 'Microsoft Learn training is free and available to anyone'. Path: 4 modules (analytics process from data to insight, Power BI, end-to-end analytics in Fabric, Copilot in Power BI); no prerequisites.",
+    "why": "Introductory path on what data analytics is, the analytics process and building first reports — the same goal as IBM's Introduction to Data Analytics.",
+    "gap": "Microsoft-tool focused (Power BI, Fabric) where IBM's course is vendor-neutral; Microsoft labels it intermediate; no module on data-analyst careers. Some exercises need an Azure subscription (sandboxes retired)."
+   }
+  },
+  {
+   "url": "https://developers.google.com/machine-learning/crash-course/classification",
+   "access_status": "free",
+   "cost_evidence": "Part of Google Machine Learning Crash Course; Google Developers Blog (2018): 'MLCC is free'. Pages open without sign-in.",
+   "verified_on": "2026-11-05",
+   "provider": "Google for Developers",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "machine-learning"
+   ]
+  },
+  {
+   "url": "https://developers.google.com/machine-learning/gan",
+   "access_status": "free (open access; no price stated)",
+   "cost_evidence": "Course pages open without sign-in; no price, paywall or enrolment step. Prereqs: MLCC and some TensorFlow.",
+   "verified_on": "2026-11-05",
+   "provider": "Google for Developers",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "machine-learning"
+   ]
+  },
+  {
+   "url": "https://towardsdatascience.com/getting-familiar-with-keras-dd17a110652d/",
+   "access_status": "free",
+   "cost_evidence": "Full article text loads with no paywall notice.",
+   "verified_on": "2026-11-05",
+   "provider": "Towards Data Science",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Tagged 'course' in the source but it is a single tutorial article.",
+   "action": "",
+   "roadmaps": [
+    "machine-learning"
+   ]
+  },
+  {
+   "url": "https://course.fast.ai/",
+   "access_status": "free",
+   "cost_evidence": "'A free course designed for people with some coding experience'. Prereqs: ~1 year coding, high-school maths.",
+   "verified_on": "2026-11-05",
+   "provider": "fast.ai",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "machine-learning"
+   ]
+  },
+  {
+   "url": "https://anthropic.skilljar.com/claude-101",
+   "access_status": "free",
+   "cost_evidence": "Registration button 'Register | FREE'; free Skilljar account needed; no paid plan needed for the course.",
+   "verified_on": "2026-11-05",
+   "provider": "Anthropic (Skilljar)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://anthropic.skilljar.com/claude-code-in-action",
+   "access_status": "free",
+   "cost_evidence": "Registration button 'Register | FREE'; free Skilljar account. The page does not say which Claude plan is needed to practise.",
+   "verified_on": "2026-11-05",
+   "provider": "Anthropic (Skilljar)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Course is free; using Claude Code itself may need a paid plan or API key.",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://codelabs.developers.google.com/onramp/instructions#0",
+   "access_status": "free (open access; no price stated)",
+   "cost_evidence": "Codelab opens without payment; needs a Google account and a Gemini API key from Google AI Studio (key pricing not checked); no Cloud billing mentioned.",
+   "verified_on": "2026-11-05",
+   "provider": "Google Codelabs",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://grow.google/ai/",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Landing page lists Coursera-hosted courses without prices; only some workshops stated 'at no cost'.",
+   "verified_on": "2026-11-05",
+   "provider": "Grow with Google",
+   "level": "",
+   "prerequisites": "",
+   "notes": "No free replacement verified; Hugging Face LLM Course on the same roadmap covers the LLM learning goal.",
+   "action": "label-uncertain",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://huggingface.co/learn/nlp-course/en/chapter4/1",
+   "access_status": "free",
+   "cost_evidence": "Hugging Face LLM Course, 'completely free and without ads'; chapter page loads.",
+   "verified_on": "2026-11-05",
+   "provider": "Hugging Face",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=00GKzGyWFEs&list=PLo2EIpI_JMQvWfQndUesu0nPBAtZ9gP1o",
+   "access_status": "free",
+   "cost_evidence": "Public YouTube video/playlist on the official Hugging Face channel.",
+   "verified_on": "2026-11-05",
+   "provider": "YouTube (Hugging Face)",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://huggingface.co/learn/mcp-course/en/unit0/introduction",
+   "access_status": "free",
+   "cost_evidence": "'This free course'; 'The certification process is completely free'.",
+   "verified_on": "2026-11-05",
+   "provider": "Hugging Face",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://www.deeplearning.ai/short-courses/building-with-llama-4/",
+   "access_status": "free (time-limited per provider)",
+   "cost_evidence": "'Course access is free for a limited time during the DeepLearning.AI learning platform beta!'; PRO adds certificate.",
+   "verified_on": "2026-11-05",
+   "provider": "DeepLearning.AI",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Free today but the provider says this is temporary; re-check.",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://ransomleak.com/catalogue/ai-security/",
+   "access_status": "free",
+   "cost_evidence": "Page: 'Free, no sign-up'. 55 exercises across OWASP LLM/Agentic/MCP Top 10.",
+   "verified_on": "2026-11-05",
+   "provider": "RansomLeak",
+   "level": "",
+   "prerequisites": "",
+   "notes": "",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://thenewstack.io/a-comprehensive-guide-to-function-calling-in-llms/",
+   "access_status": "free",
+   "cost_evidence": "Full article loads, no paywall.",
+   "verified_on": "2026-11-05",
+   "provider": "The New Stack",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Tagged 'course' in the source but it is an article.",
+   "action": "",
+   "roadmaps": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "url": "https://v2.scrimba.com/the-ai-engineer-path-c02v?via=roadmap",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Page-only button (roadmap.sh referral link). Redirects to scrimba.com; price/plan terms could not be read from the page. Scrimba's full paths are generally behind its Pro plan, not confirmed here.",
+   "verified_on": "2026-11-05",
+   "provider": "Scrimba",
+   "level": "Not stated",
+   "prerequisites": "",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-engineer"
+   ],
+   "replacement": {
+    "title": "Hugging Face AI Agents Course",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "provider": "Hugging Face",
+    "type": "course",
+    "access": "free",
+    "evidence": "'This free course'; certification 'completely free'; prereqs basic Python and LLM basics, free HF account. Units: agent fundamentals and tools, smolagents/LlamaIndex/LangGraph, agentic RAG, final project.",
+    "why": "Covers the Scrimba path's stated core (agents, RAG, tool use/MCP-style integrations) as a structured, project-based course for developers.",
+    "gap": "Multimodal apps are not covered; pair with the free Hugging Face MCP Course on the same roadmap for MCP."
+   }
+  },
+  {
+   "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+   "access_status": "free (time-limited per provider)",
+   "cost_evidence": "'Course access is free for a limited time during the DeepLearning.AI learning platform beta!'",
+   "verified_on": "2026-11-05",
+   "provider": "DeepLearning.AI",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Free today but temporary per provider.",
+   "action": "",
+   "roadmaps": [
+    "ai-agents"
+   ]
+  },
+  {
+   "url": "https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/",
+   "access_status": "free (time-limited per provider)",
+   "cost_evidence": "'Course access is free for a limited time during the DeepLearning.AI learning platform beta!'",
+   "verified_on": "2026-11-05",
+   "provider": "DeepLearning.AI",
+   "level": "",
+   "prerequisites": "",
+   "notes": "Free today but temporary per provider.",
+   "action": "",
+   "roadmaps": [
+    "ai-agents"
+   ]
+  },
+  {
+   "url": "https://www.udacity.com/course/ai-agents-with-langchain-and-langgraph--cd13764",
+   "access_status": "paid",
+   "cost_evidence": "Subscription or 'one-time payment' options listed; 15 h, intermediate; prereqs REST APIs, OpenAI API, advanced Python, LLMs.",
+   "verified_on": "2026-11-05",
+   "provider": "Udacity",
+   "level": "Intermediate",
+   "prerequisites": "REST APIs, OpenAI API, advanced Python, LLMs",
+   "notes": "",
+   "action": "replace",
+   "roadmaps": [
+    "ai-agents"
+   ],
+   "replacement": {
+    "title": "LangChain Academy: Introduction to LangGraph (Python)",
+    "url": "https://academy.langchain.com/courses/intro-to-langgraph",
+    "provider": "LangChain Academy",
+    "type": "course",
+    "access": "free",
+    "evidence": "Course page: price 'Free', 'Enroll for free'; 6 modules, 55 lessons, ~6 h video: state & memory, human-in-the-loop, building an assistant, long-term memory, deployment.",
+    "why": "Taught by the framework's makers; covers LangGraph agents with memory and human-in-the-loop at the same intermediate level as the Udacity course.",
+    "gap": "No LangChain-basics, RAGAS evaluation or capstone project like Udacity's HealthBot; level and prerequisites not stated on the page."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/learn/erasmus-econometrics",
+   "access_status": "access-uncertain",
+   "cost_evidence": "Repo lists the same course at coursera.org/learn/erasmus-econometrics. Provider page: 'Enroll for free', but no audit/no-certificate option or certificate price stated.",
+   "verified_on": "2026-11-05",
+   "provider": "Erasmus University Rotterdam",
+   "level": "Advanced undergraduate",
+   "prerequisites": "Basics of matrices, probability, statistics",
+   "notes": "Page and repo both list this course (page via affiliate link, repo direct). Same course as the page's affiliate link https://imp.i384100.net/k0krYL.",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "Ben Lambert: A full course in econometrics – undergraduate level (YouTube)",
+    "url": "https://www.youtube.com/playlist?list=PLcZcY_ZXuygxO0CSE0lMa5WadbPpNix7v",
+    "provider": "YouTube (Ben Lambert)",
+    "type": "youtube playlist",
+    "access": "free",
+    "evidence": "Public playlist, 199 videos. Ben Lambert's channel (@SpartacanUsuals) confirmed; the fetched playlist page reported its owner as 'newtvchannel', so whether this playlist is hosted on Ben Lambert's own channel is NOT confirmed.",
+    "why": "Advanced-undergraduate econometrics: OLS, Gauss-Markov, inference, heteroskedasticity/serial-correlation tests, IV/2SLS and time series (stationarity, unit roots, cointegration) — the same scope and level as Erasmus's course.",
+    "gap": "Binary-choice (logit/probit) models are not in part 1; playlist ownership unconfirmed."
+   }
+  },
+  {
+   "url": "https://www.coursera.org/projects/exploratory-data-analysis-python-pandas",
+   "access_status": "paid",
+   "cost_evidence": "Repo lists coursera.org/projects/exploratory-data-analysis-python-pandas. Provider page: 'Auditing is not available for Guided Projects'; 'Financial aid is not available'; 'Included with Coursera Plus'.",
+   "verified_on": "2026-11-05",
+   "provider": "Coursera",
+   "level": "Beginner",
+   "prerequisites": "Intro statistics required; Python recommended",
+   "notes": "Same course as the page's affiliate link https://imp.i384100.net/AWAv4R.",
+   "action": "replace",
+   "roadmaps": [
+    "ai-data-scientist"
+   ],
+   "replacement": {
+    "title": "mlcourse.ai Topics 1–2: EDA with Pandas and Visual Data Analysis",
+    "url": "https://mlcourse.ai/book/topic01/topic01_intro.html",
+    "provider": "mlcourse.ai (Yury Kashnitsky)",
+    "type": "course",
+    "access": "free (open access; bonus assignments paid)",
+    "evidence": "Course pages open without login; no licence/price statement on page; some bonus assignments are behind a Patreon tier. Topics 1–2 cover data cleaning, preliminary analysis and plotting with Seaborn/Matplotlib/Plotly.",
+    "why": "Hands-on, beginner-to-intermediate pandas EDA on real datasets — same goal as the 2-hour Coursera Guided Project. Already on the source roadmap (Machine Learning topic).",
+    "gap": "Not a single 2-hour project; learners should use Topics 1–2 only."
+   }
+  }
+ ]
+}

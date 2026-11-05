@@ -1,0 +1,248 @@
+<meta charset="utf-8">
+<title>Free Dev Roadmaps</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a field ledger. Catalogue of roadmaps up top; one roadmap at a time below with a sticky filter bar and a topic index. Every entry carries its evidence. */
+:root{
+  --bg:#f3f6f2; --surface:#ffffff; --ink:#17201b; --muted:#5a665f; --line:#d5ddd6;
+  --accent:#0e6e5c; --accent-soft:#dcefe9;
+  --ok:#1f7a3a; --ok-bg:#e1f2e5; --warn:#8a5a00; --warn-bg:#fbefd2; --bad:#a3322a; --bad-bg:#f8e1de; --gone:#5b5f66; --gone-bg:#e7e9ec;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif; --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#101613; --surface:#18201c; --ink:#e4ebe6; --muted:#9aa89f; --line:#2c3831; --accent:#5fc7ad; --accent-soft:#1d3a32;
+  --ok:#7fd494; --ok-bg:#1c3324; --warn:#f0c46a; --warn-bg:#3a2e14; --bad:#f19b92; --bad-bg:#3d1f1c; --gone:#b5bac2; --gone-bg:#2a2e33; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#101613; --surface:#18201c; --ink:#e4ebe6; --muted:#9aa89f; --line:#2c3831; --accent:#5fc7ad; --accent-soft:#1d3a32;
+  --ok:#7fd494; --ok-bg:#1c3324; --warn:#f0c46a; --warn-bg:#3a2e14; --bad:#f19b92; --bad-bg:#3d1f1c; --gone:#b5bac2; --gone-bg:#2a2e33; color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{padding-block:28px 14px}
+.eyebrow{font:500 12px/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(28px,4.6vw,44px)/1.05 var(--display);letter-spacing:-.01em;margin:8px 0 10px;text-wrap:balance}
+.lede{max-width:70ch;color:var(--muted);margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:12px;font:400 13px/1.4 var(--mono);color:var(--muted)}
+.facts b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-block:1px solid var(--line)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;padding-block:10px}
+.bar input[type=search]{flex:1 1 240px;min-width:0;font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.bar select{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);max-width:100%}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 13px/1 var(--body);padding:7px 11px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.progress{display:flex;align-items:center;gap:8px;font:400 12px/1 var(--mono);color:var(--muted)}
+.meter{width:110px;height:6px;border-radius:3px;background:var(--line);overflow:hidden}.meter i{display:block;height:100%;background:var(--accent);width:0}
+.catalogue{padding-block:14px 4px}.catalogue>summary{font:600 15px/1.4 var(--body);margin-bottom:10px}
+.catalogue h2,.results h2{font:700 20px/1.2 var(--display);margin:0 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.rm{display:grid;gap:4px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);text-decoration:none;color:var(--ink)}
+.rm:hover{border-color:var(--accent)}
+.rm[aria-current="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.rm b{font-weight:600}
+.rm span{font:400 12px/1.4 var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.rm .pilot{color:var(--ok)}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;padding-block:22px 48px}
+nav.index{position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px);align-self:start;max-height:calc(100vh - 90px);overflow:auto}
+nav.index ol{list-style:none;margin:0;padding:0;display:grid;gap:1px}
+nav.index a{display:flex;justify-content:space-between;gap:8px;text-decoration:none;color:var(--ink);padding:5px 8px;border-radius:6px;font-size:13px}
+nav.index a .n{font:400 11px/1.7 var(--mono);color:var(--muted)}
+nav.index a[aria-current="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+main{min-width:0;display:grid;gap:26px}
+.rmhead h2{font:700 clamp(24px,3.4vw,34px)/1.1 var(--display);margin:0 0 6px}
+.rmhead p{margin:0;color:var(--muted);font-size:14px;max-width:80ch}
+section.topic{scroll-margin-top:84px}
+section.topic h3{font:700 19px/1.2 var(--display);margin:0 0 8px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+section.topic h3 .ord{font:500 12px/1 var(--mono);color:var(--muted)}
+section.topic h3 .src{font:400 11px/1 var(--mono);color:var(--muted)}
+.items{display:grid;gap:6px}
+.item{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 12px;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.item.done .title a{text-decoration:line-through;color:var(--muted)}
+.item input[type=checkbox]{width:18px;height:18px;margin-top:3px;accent-color:var(--accent)}
+.head{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.title{font-weight:600;overflow-wrap:anywhere}
+.title a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:3px}
+.title a:hover{color:var(--accent)}
+.meta{font:400 12px/1.4 var(--mono);color:var(--muted);overflow-wrap:anywhere}
+.pill{font:500 11px/1 var(--mono);padding:4px 7px;border-radius:4px;letter-spacing:.03em;white-space:nowrap}
+.s-free{background:var(--ok-bg);color:var(--ok)}.s-uncertain{background:var(--warn-bg);color:var(--warn)}.s-paid{background:var(--bad-bg);color:var(--bad)}
+.s-nr{background:var(--gone-bg);color:var(--gone)}.s-link{background:var(--bad-bg);color:var(--bad)}
+.replaces{font-size:13px;color:var(--muted)}
+details{font-size:13px}summary{cursor:pointer;color:var(--accent);font-weight:500}
+details dl{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 12px;margin:8px 0 0}
+details dt{color:var(--muted);font:500 12px/1.5 var(--mono)}details dd{margin:0;overflow-wrap:anywhere}
+.results{padding-block:10px}
+.empty{padding:20px;border:1px dashed var(--line);border-radius:8px;color:var(--muted)}
+.legend{margin-top:14px;font-size:12px;color:var(--muted);display:grid;gap:6px}
+footer{border-top:1px solid var(--line);padding-block:18px 40px;font-size:13px;color:var(--muted)}footer p{max-width:85ch}
+.more{justify-self:start}
+@media (max-width:860px){.layout{grid-template-columns:minmax(0,1fr)} nav.index{position:static;max-height:none} nav.index ol{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<header class="top wrap">
+  <div class="eyebrow" id="eyebrow">Loading inventory…</div>
+  <h1>Free Dev Roadmaps</h1>
+  <p class="lede">Every roadmap on roadmap.sh, rebuilt from one inventory. Courses are checked on the provider's own page; paid or unconfirmed ones are swapped for free equivalents or labelled. Everything else is link-checked but its cost is marked as not yet reviewed.</p>
+  <div class="facts" id="facts"></div>
+</header>
+
+<div class="bar" role="search">
+  <div class="wrap">
+    <label for="q" style="position:absolute;left:-9999px">Search all roadmaps</label>
+    <input id="q" type="search" placeholder="Search all 97 roadmaps…" autocomplete="off">
+    <select id="roadmapSelect" aria-label="Roadmap"></select>
+    <div class="chips" id="accessChips" role="group" aria-label="Access">
+      <button class="chip" data-access="all" aria-pressed="true">All</button>
+      <button class="chip" data-access="free" aria-pressed="false">Verified free</button>
+      <button class="chip" data-access="replacement" aria-pressed="false">Replacements</button>
+      <button class="chip" data-access="uncertain" aria-pressed="false">Uncertain</button>
+      <button class="chip" data-access="broken" aria-pressed="false">Broken links</button>
+    </div>
+    <div class="progress"><span id="progressText">0 done</span><span class="meter"><i id="meter"></i></span><button class="chip" id="resetProgress" type="button">Reset</button></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <section class="results" id="results" hidden></section>
+  <details class="catalogue" id="catalogue"><summary id="catSummary">Browse all roadmaps</summary><div class="grid" id="grid"></div></details>
+</div>
+
+<div class="wrap layout" id="layout">
+  <nav class="index" aria-label="Topics"><ol id="nav"></ol>
+    <div class="legend">
+      <span><span class="pill s-free">FREE</span> confirmed on provider page</span>
+      <span><span class="pill s-uncertain">UNCERTAIN</span> free access not confirmed</span>
+      <span><span class="pill s-nr">NOT REVIEWED</span> cost not yet checked</span>
+      <span><span class="pill s-link">BROKEN</span> link check failed</span>
+    </div>
+  </nav>
+  <main id="main"><div class="empty">Pick a roadmap above.</div></main>
+</div>
+
+<footer class="wrap"><p id="sourceLine"></p><p>Ticks are saved in this browser only. Independent study aid with its own design; not affiliated with roadmap.sh.</p></footer>
+
+<script>
+(function(){
+const KEY='fdr-progress-v1', PILOT=new Set(['ai-data-scientist','data-analyst','machine-learning','ai-engineer','ai-agents']);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+let progress={}; try{progress=JSON.parse(localStorage.getItem('fdr-progress-v1')||'{}')||{}}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(progress))}catch(e){}};
+let INDEX=null, SEARCH=null, current=null, cache={};
+const state={q:'',access:'all',limit:{}};
+
+function kind(r){
+  const a=(r.access_status||'').toLowerCase(), lv=(r.link||{}).verdict;
+  if(r.action==='replace'&&r.replacement) return 'replacement';
+  if(lv==='broken') return 'broken';
+  if(a.startsWith('free')&&r.verification==='provider-page') return a.includes('time-limited')?'timelimited':'free';
+  if(a==='cost not reviewed'||a==='internal link') return 'nr';
+  return 'uncertain';
+}
+function pill(k,r){
+  return {free:['s-free','FREE'],timelimited:['s-uncertain','FREE · TIME-LIMITED'],replacement:['s-free','FREE REPLACEMENT'],
+    uncertain:['s-uncertain', (r.access_status==='paid'?'PAID':'UNCERTAIN')],broken:['s-link','BROKEN LINK'],
+    nr:['s-nr', r.access_status==='internal link'?'ROADMAP.SH':'NOT REVIEWED']}[k];
+}
+function match(k){
+  if(state.access==='all') return true;
+  if(state.access==='free') return k==='free'||k==='timelimited';
+  return state.access===k;
+}
+function card(r){
+  const k=kind(r), p=pill(k,r), rep=k==='replacement'?r.replacement:null;
+  const url=rep?rep.url:r.url, title=rep?rep.title:r.title, done=!!progress[r.id];
+  let dl=`<dt>Access</dt><dd>${esc(rep?rep.access:r.access_status)}</dd>`;
+  if(rep) dl+=`<dt>Evidence</dt><dd>${esc(rep.evidence)}</dd><dt>Why it fits</dt><dd>${esc(rep.why)}</dd><dt>Gaps</dt><dd>${esc(rep.gap||'')}</dd><dt>Original</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a> — ${esc(r.access_status)}. ${esc(r.cost_evidence||'')}</dd>`;
+  else if(r.cost_evidence) dl+=`<dt>Evidence</dt><dd>${esc(r.cost_evidence)}</dd>`;
+  if(r.notes) dl+=`<dt>Note</dt><dd>${esc(r.notes)}</dd>`;
+  const li=r.link; dl+=`<dt>Link check</dt><dd>${li?esc(li.verdict+(li.code?' ('+li.code+')':'')+' · '+li.checked_at):'not yet run'}</dd>`;
+  dl+=`<dt>Source</dt><dd>${[r.in_page&&'page',r.in_repo&&'repo'].filter(Boolean).join(' + ')}${r.grouping?' · grouped by page position':''}</dd>`;
+  if(r.verified_on) dl+=`<dt>Verified</dt><dd>${esc(r.verified_on)}</dd>`;
+  return `<div class="item${done?' done':''}" data-id="${r.id}" data-kind="${k}"><input type="checkbox" id="cb-${r.id}" ${done?'checked':''} aria-label="Mark ${esc(title)} as done">
+  <div><div class="head"><span class="title"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a></span><span class="pill ${p[0]}">${p[1]}</span></div>
+  <div class="meta">${esc(rep?rep.type:r.type)}${rep?' · '+esc(rep.provider):''}</div>
+  ${rep?`<div class="replaces">Replaces <s>${esc(r.title)}</s> (${esc(r.access_status)})</div>`:''}
+  <details><summary>Evidence</summary><dl>${dl}</dl></details></div></div>`;
+}
+async function loadRoadmap(s){
+  if(!cache[s]){ const res=await fetch(`data/r/${s}.json`); cache[s]=await res.json(); }
+  return cache[s];
+}
+async function show(s){
+  const meta=INDEX.roadmaps.find(x=>x.slug===s); if(!meta) return;
+  current=await loadRoadmap(s);
+  document.getElementById('roadmapSelect').value=s;
+  document.querySelectorAll('#grid .rm').forEach(a=>a.setAttribute('aria-current',a.dataset.slug===s?'true':'false'));
+  renderRoadmap();
+}
+function renderRoadmap(){
+  const d=current, main=document.getElementById('main'), c=d.counts;
+  let html=`<div class="rmhead"><h2>${esc(d.title)}</h2><p>${c.resources} resources · ${c.verified_free} verified free · ${c.replaced} free replacements · ${c.uncertain+c.needs_review} uncertain or awaiting review · ${c.not_reviewed} not cost-reviewed. Page data ${d.page_fetched?'updated '+esc((d.page_updatedAt||'').slice(0,10)):'not fetched yet (repository content only)'}.</p></div>`;
+  let shown=0;
+  d.topics.forEach(t=>{
+    const rs=t.resources.filter(r=>match(kind(r)));
+    if(!rs.length && state.access!=='all') return;
+    shown+=rs.length;
+    html+=`<section class="topic" id="t-${slug(t.id)}"><h3><span class="ord">${String(t.order).padStart(3,'0')}</span>${esc(t.label)}<span class="src">${[t.in_page&&'page',t.in_repo&&'repo'].filter(Boolean).join('+')}</span></h3><div class="items">${rs.length?rs.map(card).join(''):'<div class="meta">No linked resources for this topic.</div>'}</div></section>`;
+  });
+  main.innerHTML=html+(shown||state.access==='all'?'':`<div class="empty" id="emptyState">Nothing in this roadmap matches the filter.</div>`);
+  renderNav(); renderProgress();
+}
+function renderNav(){
+  const d=current;
+  document.getElementById('nav').innerHTML=d.topics.filter(t=>state.access==='all'||t.resources.some(r=>match(kind(r)))).map(t=>{
+    const done=t.resources.filter(r=>progress[r.id]).length;
+    return `<li><a href="#t-${slug(t.id)}" data-topic="${esc(t.id)}"><span>${esc(t.label)}</span><span class="n">${done}/${t.resources.length}</span></a></li>`}).join('');
+}
+function renderProgress(){
+  const total=current?current.topics.reduce((a,t)=>a+t.resources.length,0):0;
+  const done=current?current.topics.reduce((a,t)=>a+t.resources.filter(r=>progress[r.id]).length,0):0;
+  document.getElementById('progressText').textContent=`${done} / ${total} done`;
+  document.getElementById('meter').style.width=total?(100*done/total).toFixed(1)+'%':'0';
+}
+async function runSearch(){
+  const box=document.getElementById('results'), q=state.q;
+  if(!q){box.hidden=true;return}
+  if(!SEARCH){box.hidden=false;box.innerHTML='<p class="meta">Loading search index…</p>';SEARCH=await (await fetch('data/search.json')).json();}
+  const words=q.split(/\s+/);
+  const hits=SEARCH.filter(x=>{const h=(x[0]+' '+x[1]+' '+x[2]+' '+x[3]).toLowerCase();return words.every(w=>h.includes(w))});
+  const top=hits.slice(0,60);
+  box.hidden=false;
+  box.innerHTML=`<h2 id="searchCount">${hits.length} results across all roadmaps</h2>`+(top.length?`<div class="items">${top.map(x=>`<div class="item search-hit"><span></span><div><div class="head"><span class="title"><a href="${esc(x[3])}" target="_blank" rel="noopener">${esc(x[2])}</a></span></div><div class="meta"><a href="#${esc(x[0])}" data-goto="${esc(x[0])}">${esc(x[0])}</a> · ${esc(x[1])} · ${esc(x[5]==='replace'?'replaced with a free equivalent':x[4])}</div></div></div>`).join('')}</div>${hits.length>60?'<p class="meta">Showing the first 60. Narrow the search to see more.</p>':''}`:'<div class="empty" id="emptyState">No resources match. Try fewer words.</div>');
+}
+let timer;
+document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();clearTimeout(timer);timer=setTimeout(runSearch,150)});
+document.getElementById('roadmapSelect').addEventListener('change',e=>{location.hash=e.target.value});
+document.getElementById('accessChips').addEventListener('click',e=>{const b=e.target.closest('[data-access]');if(!b)return;state.access=b.dataset.access;
+  document.querySelectorAll('#accessChips .chip').forEach(c=>c.setAttribute('aria-pressed',c===b?'true':'false'));if(current)renderRoadmap()});
+document.getElementById('main').addEventListener('change',e=>{if(e.target.type!=='checkbox')return;const it=e.target.closest('.item'),id=it.dataset.id;
+  if(e.target.checked)progress[id]=Date.now();else delete progress[id];save();it.classList.toggle('done',e.target.checked);renderNav();renderProgress()});
+document.getElementById('resetProgress').addEventListener('click',()=>{if(!current)return;current.topics.forEach(t=>t.resources.forEach(r=>delete progress[r.id]));save();renderRoadmap()});
+document.getElementById('nav').addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;e.preventDefault();
+  document.querySelectorAll('#nav a').forEach(x=>x.setAttribute('aria-current',x===a?'true':'false'));
+  const el=document.getElementById(a.getAttribute('href').slice(1));if(el)el.scrollIntoView({block:'start'})});
+function route(){const h=decodeURIComponent(location.hash.slice(1));if(INDEX&&INDEX.roadmaps.some(r=>r.slug===h)){show(h);document.getElementById('catalogue').open=false;document.getElementById('layout').scrollIntoView({block:'start'})}}
+window.addEventListener('hashchange',route);
+(async function init(){
+  try{INDEX=await (await fetch('data/index.json')).json()}catch(e){document.getElementById('eyebrow').textContent='Could not load data/index.json. Reload the page to try again.';return}
+  const T=INDEX.totals;
+  document.getElementById('eyebrow').textContent=`${INDEX.roadmaps.length} roadmaps · source commit ${INDEX.repo_commit.slice(0,8)}`;
+  document.getElementById('facts').innerHTML=`<span><b>${T.resources.toLocaleString()}</b> resources</span><span><b>${T.verified_free}</b> verified free</span><span><b>${T.replaced}</b> free replacements</span><span><b>${(T.uncertain+T.needs_review)}</b> uncertain or awaiting review</span><span><b>${(T.link_ok+T.link_bad).toLocaleString()}</b> links checked</span>`;
+  document.getElementById('sourceLine').innerHTML=`Source: <a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh</a> page data and <a href="https://github.com/kamranahmedse/developer-roadmap/tree/${esc(INDEX.repo_commit)}/roadmaps" target="_blank" rel="noopener">its public repository</a> at commit ${esc(INDEX.repo_commit.slice(0,8))}. ${INDEX.verification_entries} provider-page verifications.`;
+  const rs=INDEX.roadmaps.slice().sort((a,b)=>(PILOT.has(b.slug)-PILOT.has(a.slug))||a.title.localeCompare(b.title));
+  document.getElementById('catSummary').textContent=`Browse all ${INDEX.roadmaps.length} roadmaps`;
+  document.getElementById('roadmapSelect').innerHTML=rs.map(r=>`<option value="${r.slug}">${esc(r.title)}</option>`).join('');
+  document.getElementById('grid').innerHTML=rs.map(r=>`<a class="rm" href="#${r.slug}" data-slug="${r.slug}"><b>${esc(r.title)}</b><span>${r.counts.resources} resources · ${r.topics} topics</span><span class="${PILOT.has(r.slug)?'pilot':''}">${PILOT.has(r.slug)?'Courses verified':(r.counts.needs_review===1?'1 course':r.counts.needs_review+' courses')+' awaiting review'}</span></a>`).join('');
+  document.getElementById('results').addEventListener('click',e=>{const a=e.target.closest('[data-goto]');if(a){document.getElementById('q').value='';state.q='';runSearch()}});
+  if(!location.hash||!INDEX.roadmaps.some(r=>r.slug===location.hash.slice(1))) await show('ai-data-scientist'); else route();
+})();
+})();
+</script>
