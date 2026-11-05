@@ -143,13 +143,13 @@ function kind(r){
   if(r.action==='replace'&&r.replacement) return 'replacement';
   if(lv==='broken') return 'broken';
   if(a.startsWith('free')&&r.verification==='provider-page') return a.includes('time-limited')?'timelimited':'free';
-  if(a==='cost not reviewed'||a==='internal link') return 'nr';
+  if(a==='cost not reviewed'||a==='internal link'||a==='sponsor or profile link') return 'nr';
   return 'uncertain';
 }
 function pill(k,r){
   return {free:['s-free','FREE'],timelimited:['s-uncertain','FREE · TIME-LIMITED'],replacement:['s-free','FREE REPLACEMENT'],
     uncertain:['s-uncertain', (r.access_status==='paid'?'PAID':'UNCERTAIN')],broken:['s-link','BROKEN LINK'],
-    nr:['s-nr', r.access_status==='internal link'?'ROADMAP.SH':'NOT REVIEWED']}[k];
+    nr:['s-nr', r.access_status==='internal link'?'ROADMAP.SH':r.access_status==='sponsor or profile link'?'SPONSOR / PROFILE':'NOT REVIEWED']}[k];
 }
 function match(k){
   if(state.access==='all') return true;

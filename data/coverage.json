@@ -4,6 +4,8 @@
   {
    "slug": "ai-agents",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 101,
    "repo_topics": 101,
    "topics_only_in_page": 0,
@@ -15,6 +17,8 @@
   {
    "slug": "ai-data-scientist",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 10,
    "repo_topics": 8,
    "topics_only_in_page": 2,
@@ -26,6 +30,8 @@
   {
    "slug": "ai-engineer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 190,
    "repo_topics": 191,
    "topics_only_in_page": 0,
@@ -37,6 +43,8 @@
   {
    "slug": "ai-product-builder",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 8,
+   "page_partner_promo": false,
    "page_topics": 52,
    "repo_topics": 52,
    "topics_only_in_page": 1,
@@ -48,6 +56,8 @@
   {
    "slug": "ai-red-teaming",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 64,
    "repo_topics": 64,
    "topics_only_in_page": 0,
@@ -59,6 +69,8 @@
   {
    "slug": "android",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 113,
    "repo_topics": 114,
    "topics_only_in_page": 0,
@@ -70,6 +82,8 @@
   {
    "slug": "angular",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 158,
    "repo_topics": 159,
    "topics_only_in_page": 0,
@@ -81,6 +95,8 @@
   {
    "slug": "api-design",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 97,
    "repo_topics": 97,
    "topics_only_in_page": 0,
@@ -92,6 +108,8 @@
   {
    "slug": "aspnet-core",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 146,
    "repo_topics": 146,
    "topics_only_in_page": 0,
@@ -103,6 +121,8 @@
   {
    "slug": "aws",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 101,
    "repo_topics": 101,
    "topics_only_in_page": 0,
@@ -114,28 +134,34 @@
   {
    "slug": "backend",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 11,
+   "page_partner_promo": true,
    "page_topics": 155,
    "repo_topics": 156,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 1,
    "repo_resource_links": 526,
-   "page_resource_buttons": 1,
-   "inventory_resources": 527
+   "page_resource_buttons": 0,
+   "inventory_resources": 526
   },
   {
    "slug": "backend-beginner",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 26,
    "repo_topics": 26,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
    "repo_resource_links": 107,
-   "page_resource_buttons": 1,
-   "inventory_resources": 108
+   "page_resource_buttons": 0,
+   "inventory_resources": 107
   },
   {
    "slug": "bi-analyst",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 178,
    "repo_topics": 203,
    "topics_only_in_page": 0,
@@ -147,6 +173,8 @@
   {
    "slug": "blockchain",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 127,
    "repo_topics": 127,
    "topics_only_in_page": 0,
@@ -158,6 +186,8 @@
   {
    "slug": "c",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 12,
+   "page_partner_promo": false,
    "page_topics": 141,
    "repo_topics": 145,
    "topics_only_in_page": 0,
@@ -169,6 +199,8 @@
   {
    "slug": "claude-code",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 1,
+   "page_partner_promo": false,
    "page_topics": 146,
    "repo_topics": 149,
    "topics_only_in_page": 0,
@@ -180,6 +212,8 @@
   {
    "slug": "cloud-computing",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": false,
    "page_topics": 118,
    "repo_topics": 119,
    "topics_only_in_page": 0,
@@ -191,6 +225,8 @@
   {
    "slug": "cloudflare",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 97,
    "repo_topics": 97,
    "topics_only_in_page": 0,
@@ -202,6 +238,8 @@
   {
    "slug": "code-review",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 5,
    "repo_topics": 5,
    "topics_only_in_page": 5,
@@ -213,6 +251,8 @@
   {
    "slug": "codex",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": false,
    "page_topics": 112,
    "repo_topics": 116,
    "topics_only_in_page": 0,
@@ -224,6 +264,8 @@
   {
    "slug": "computer-science",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 188,
    "repo_topics": 188,
    "topics_only_in_page": 0,
@@ -235,6 +277,8 @@
   {
    "slug": "cpp",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 127,
    "repo_topics": 128,
    "topics_only_in_page": 0,
@@ -246,6 +290,8 @@
   {
    "slug": "css",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 104,
    "repo_topics": 104,
    "topics_only_in_page": 0,
@@ -257,6 +303,8 @@
   {
    "slug": "cyber-security",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 301,
    "repo_topics": 301,
    "topics_only_in_page": 0,
@@ -268,6 +316,8 @@
   {
    "slug": "data-analyst",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 99,
    "repo_topics": 102,
    "topics_only_in_page": 0,
@@ -279,6 +329,8 @@
   {
    "slug": "data-engineer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 184,
    "repo_topics": 187,
    "topics_only_in_page": 0,
@@ -290,6 +342,8 @@
   {
    "slug": "datastructures-and-algorithms",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 107,
    "repo_topics": 107,
    "topics_only_in_page": 0,
@@ -301,6 +355,8 @@
   {
    "slug": "design-system",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 124,
    "repo_topics": 124,
    "topics_only_in_page": 0,
@@ -312,28 +368,34 @@
   {
    "slug": "devops",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": true,
    "page_topics": 139,
    "repo_topics": 140,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 1,
    "repo_resource_links": 419,
-   "page_resource_buttons": 1,
-   "inventory_resources": 420
+   "page_resource_buttons": 0,
+   "inventory_resources": 419
   },
   {
    "slug": "devops-beginner",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 13,
    "repo_topics": 13,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
    "repo_resource_links": 66,
-   "page_resource_buttons": 1,
-   "inventory_resources": 67
+   "page_resource_buttons": 0,
+   "inventory_resources": 66
   },
   {
    "slug": "devrel",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 142,
    "repo_topics": 142,
    "topics_only_in_page": 0,
@@ -345,6 +407,8 @@
   {
    "slug": "devsecops",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 93,
    "repo_topics": 94,
    "topics_only_in_page": 0,
@@ -356,6 +420,8 @@
   {
    "slug": "django",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 113,
    "repo_topics": 113,
    "topics_only_in_page": 0,
@@ -367,6 +433,8 @@
   {
    "slug": "docker",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 57,
    "repo_topics": 56,
    "topics_only_in_page": 1,
@@ -378,6 +446,8 @@
   {
    "slug": "elasticsearch",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 113,
    "repo_topics": 113,
    "topics_only_in_page": 0,
@@ -389,6 +459,8 @@
   {
    "slug": "engineering-manager",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 133,
    "repo_topics": 133,
    "topics_only_in_page": 0,
@@ -400,6 +472,8 @@
   {
    "slug": "flutter",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 108,
    "repo_topics": 108,
    "topics_only_in_page": 0,
@@ -411,6 +485,8 @@
   {
    "slug": "forward-deployed-engineer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 94,
    "repo_topics": 97,
    "topics_only_in_page": 0,
@@ -422,28 +498,34 @@
   {
    "slug": "frontend",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 11,
+   "page_partner_promo": true,
    "page_topics": 120,
    "repo_topics": 120,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
    "repo_resource_links": 393,
-   "page_resource_buttons": 1,
-   "inventory_resources": 394
+   "page_resource_buttons": 0,
+   "inventory_resources": 393
   },
   {
    "slug": "frontend-beginner",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 9,
    "repo_topics": 9,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
    "repo_resource_links": 38,
-   "page_resource_buttons": 1,
-   "inventory_resources": 39
+   "page_resource_buttons": 0,
+   "inventory_resources": 38
   },
   {
    "slug": "full-stack",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 37,
    "repo_topics": 37,
    "topics_only_in_page": 0,
@@ -455,6 +537,8 @@
   {
    "slug": "game-developer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 144,
    "repo_topics": 144,
    "topics_only_in_page": 0,
@@ -466,28 +550,34 @@
   {
    "slug": "git-github",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 156,
    "repo_topics": 155,
    "topics_only_in_page": 1,
    "topics_only_in_repo": 0,
    "repo_resource_links": 350,
-   "page_resource_buttons": 1,
-   "inventory_resources": 351
+   "page_resource_buttons": 0,
+   "inventory_resources": 350
   },
   {
    "slug": "git-github-beginner",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 5,
    "repo_topics": 5,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
    "repo_resource_links": 17,
-   "page_resource_buttons": 1,
-   "inventory_resources": 18
+   "page_resource_buttons": 0,
+   "inventory_resources": 17
   },
   {
    "slug": "golang",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 172,
    "repo_topics": 172,
    "topics_only_in_page": 0,
@@ -499,6 +589,8 @@
   {
    "slug": "graphql",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 66,
    "repo_topics": 66,
    "topics_only_in_page": 0,
@@ -510,6 +602,8 @@
   {
    "slug": "html",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 88,
    "repo_topics": 88,
    "topics_only_in_page": 0,
@@ -521,6 +615,8 @@
   {
    "slug": "inference-engineering",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": false,
    "page_topics": 138,
    "repo_topics": 142,
    "topics_only_in_page": 0,
@@ -532,6 +628,8 @@
   {
    "slug": "ios",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 169,
    "repo_topics": 170,
    "topics_only_in_page": 0,
@@ -543,6 +641,8 @@
   {
    "slug": "java",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 88,
    "repo_topics": 88,
    "topics_only_in_page": 0,
@@ -554,6 +654,8 @@
   {
    "slug": "javascript",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 126,
    "repo_topics": 126,
    "topics_only_in_page": 0,
@@ -565,6 +667,8 @@
   {
    "slug": "kotlin",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 153,
    "repo_topics": 153,
    "topics_only_in_page": 0,
@@ -576,6 +680,8 @@
   {
    "slug": "kubernetes",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": true,
    "page_topics": 67,
    "repo_topics": 67,
    "topics_only_in_page": 1,
@@ -587,6 +693,8 @@
   {
    "slug": "laravel",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 104,
    "repo_topics": 104,
    "topics_only_in_page": 0,
@@ -598,6 +706,8 @@
   {
    "slug": "leetcode",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 137,
    "repo_topics": 137,
    "topics_only_in_page": 0,
@@ -609,6 +719,8 @@
   {
    "slug": "linux",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 102,
    "repo_topics": 102,
    "topics_only_in_page": 0,
@@ -620,6 +732,8 @@
   {
    "slug": "machine-learning",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 150,
    "repo_topics": 150,
    "topics_only_in_page": 0,
@@ -631,6 +745,8 @@
   {
    "slug": "mlops",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 62,
    "repo_topics": 62,
    "topics_only_in_page": 0,
@@ -642,6 +758,8 @@
   {
    "slug": "mongodb",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 106,
    "repo_topics": 106,
    "topics_only_in_page": 0,
@@ -653,6 +771,8 @@
   {
    "slug": "network-engineer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 13,
+   "page_partner_promo": false,
    "page_topics": 196,
    "repo_topics": 197,
    "topics_only_in_page": 0,
@@ -664,6 +784,8 @@
   {
    "slug": "nextjs",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 94,
    "repo_topics": 94,
    "topics_only_in_page": 0,
@@ -675,6 +797,8 @@
   {
    "slug": "nodejs",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 113,
    "repo_topics": 113,
    "topics_only_in_page": 0,
@@ -686,6 +810,8 @@
   {
    "slug": "openclaw",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 107,
    "repo_topics": 118,
    "topics_only_in_page": 0,
@@ -697,6 +823,8 @@
   {
    "slug": "php",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 120,
    "repo_topics": 120,
    "topics_only_in_page": 0,
@@ -708,6 +836,8 @@
   {
    "slug": "postgresql-dba",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 170,
    "repo_topics": 170,
    "topics_only_in_page": 0,
@@ -719,6 +849,8 @@
   {
    "slug": "power-bi",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 11,
+   "page_partner_promo": true,
    "page_topics": 131,
    "repo_topics": 146,
    "topics_only_in_page": 0,
@@ -730,6 +862,8 @@
   {
    "slug": "product-design",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 117,
    "repo_topics": 118,
    "topics_only_in_page": 0,
@@ -741,6 +875,8 @@
   {
    "slug": "product-manager",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": true,
    "page_topics": 172,
    "repo_topics": 172,
    "topics_only_in_page": 0,
@@ -752,6 +888,8 @@
   {
    "slug": "prompt-engineering",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 47,
    "repo_topics": 47,
    "topics_only_in_page": 0,
@@ -763,6 +901,8 @@
   {
    "slug": "python",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 87,
    "repo_topics": 87,
    "topics_only_in_page": 0,
@@ -774,6 +914,8 @@
   {
    "slug": "python-data-analysis",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 112,
    "repo_topics": 113,
    "topics_only_in_page": 0,
@@ -785,6 +927,8 @@
   {
    "slug": "qa",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 147,
    "repo_topics": 146,
    "topics_only_in_page": 1,
@@ -796,6 +940,8 @@
   {
    "slug": "r",
    "page_fetched": false,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": false,
    "page_topics": 0,
    "repo_topics": 129,
    "topics_only_in_page": 0,
@@ -807,6 +953,8 @@
   {
    "slug": "r-programming",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": true,
    "page_topics": 129,
    "repo_topics": 129,
    "topics_only_in_page": 0,
@@ -818,6 +966,8 @@
   {
    "slug": "react",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 82,
    "repo_topics": 82,
    "topics_only_in_page": 1,
@@ -829,6 +979,8 @@
   {
    "slug": "react-native",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 95,
    "repo_topics": 95,
    "topics_only_in_page": 0,
@@ -840,6 +992,8 @@
   {
    "slug": "redis",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 162,
    "repo_topics": 162,
    "topics_only_in_page": 0,
@@ -851,6 +1005,8 @@
   {
    "slug": "ruby",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 11,
+   "page_partner_promo": false,
    "page_topics": 102,
    "repo_topics": 106,
    "topics_only_in_page": 0,
@@ -862,6 +1018,8 @@
   {
    "slug": "ruby-on-rails",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 12,
+   "page_partner_promo": false,
    "page_topics": 98,
    "repo_topics": 107,
    "topics_only_in_page": 0,
@@ -873,6 +1031,8 @@
   {
    "slug": "rust",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 122,
    "repo_topics": 122,
    "topics_only_in_page": 0,
@@ -884,6 +1044,8 @@
   {
    "slug": "scala",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 14,
+   "page_partner_promo": false,
    "page_topics": 165,
    "repo_topics": 165,
    "topics_only_in_page": 0,
@@ -895,6 +1057,8 @@
   {
    "slug": "seo",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": false,
    "page_topics": 216,
    "repo_topics": 216,
    "topics_only_in_page": 0,
@@ -906,6 +1070,8 @@
   {
    "slug": "server-side-game-developer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 156,
    "repo_topics": 156,
    "topics_only_in_page": 0,
@@ -917,6 +1083,8 @@
   {
    "slug": "shell-bash",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 174,
    "repo_topics": 174,
    "topics_only_in_page": 0,
@@ -928,6 +1096,8 @@
   {
    "slug": "software-architect",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": true,
    "page_topics": 113,
    "repo_topics": 112,
    "topics_only_in_page": 1,
@@ -939,6 +1109,8 @@
   {
    "slug": "software-design-architecture",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 94,
    "repo_topics": 94,
    "topics_only_in_page": 0,
@@ -950,6 +1122,8 @@
   {
    "slug": "spring-boot",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 46,
    "repo_topics": 46,
    "topics_only_in_page": 0,
@@ -961,6 +1135,8 @@
   {
    "slug": "sql",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 113,
    "repo_topics": 112,
    "topics_only_in_page": 1,
@@ -972,6 +1148,8 @@
   {
    "slug": "swift-ui",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 156,
    "repo_topics": 156,
    "topics_only_in_page": 0,
@@ -983,6 +1161,8 @@
   {
    "slug": "system-design",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 147,
    "repo_topics": 147,
    "topics_only_in_page": 0,
@@ -994,6 +1174,8 @@
   {
    "slug": "technical-writer",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 84,
    "repo_topics": 84,
    "topics_only_in_page": 0,
@@ -1005,6 +1187,8 @@
   {
    "slug": "terraform",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 110,
    "repo_topics": 110,
    "topics_only_in_page": 0,
@@ -1016,6 +1200,8 @@
   {
    "slug": "typescript",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 93,
    "repo_topics": 93,
    "topics_only_in_page": 0,
@@ -1027,6 +1213,8 @@
   {
    "slug": "ux-design",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 93,
    "repo_topics": 94,
    "topics_only_in_page": 0,
@@ -1038,6 +1226,8 @@
   {
    "slug": "vibe-coding",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 18,
    "repo_topics": 53,
    "topics_only_in_page": 0,
@@ -1049,6 +1239,8 @@
   {
    "slug": "vue",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 84,
    "repo_topics": 84,
    "topics_only_in_page": 0,
@@ -1060,6 +1252,8 @@
   {
    "slug": "wordpress",
    "page_fetched": true,
+   "page_ai_course_titles_without_links": 10,
+   "page_partner_promo": false,
    "page_topics": 115,
    "repo_topics": 115,
    "topics_only_in_page": 0,

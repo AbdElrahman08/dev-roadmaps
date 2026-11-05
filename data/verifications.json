@@ -3964,6 +3964,14 @@
    "cost_evidence": "The source links Quora's home page, not a course or specific resource.",
    "verified_on": "2026-11-05",
    "notes": "Probable broken source link: points at a site home page."
+  },
+  {
+   "url": "https://docs.anthropic.com/en/docs/claude-code",
+   "access_status": "free docs; product needs paid plan or API key",
+   "provider": "Anthropic",
+   "cost_evidence": "302-redirects to code.claude.com/docs; docs state most surfaces need a Claude subscription or Console account.",
+   "verified_on": "2026-11-05",
+   "notes": "Source URL redirects; destination https://code.claude.com/docs."
   }
  ]
 }

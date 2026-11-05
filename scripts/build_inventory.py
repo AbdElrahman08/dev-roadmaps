@@ -70,8 +70,10 @@ def node_label(n):
 def classify(url, rtype, in_page_button):
     """Default access status before any manual verification."""
     h = host(url)
-    if h.endswith("roadmap.sh"):
+    if h.endswith("roadmap.sh") or url.startswith("/"):
         return "internal link", "n/a"
+    if re.search(r"linkedin\.com/in/|utm_source=roadmap|[?&]c=img-|discord\.gg/", url) or (h == "github.com" and len([x for x in urlparse(url).path.split("/") if x]) == 1) or (in_page_button and rtype == "page button" and re.search(r"Visit (his|her|their) |Profile|Website$", "")):
+        return "sponsor or profile link", "auto"
     if url in VER:
         return VER[url]["access_status"], "provider-page"
     path = urlparse(url).path.lower()
@@ -125,7 +127,9 @@ def parse_page(slug):
             u = (l.get("url") or l.get("href") or "").strip()
             if u:
                 buttons.append(dict(id=l.get("id", n["id"]), label=(l.get("label") or "").strip(), url=u, y=pos(n)[0], x=pos(n)[1], type="linksgroup"))
-    return dict(title=d.get("title"), updatedAt=d.get("updatedAt"), topics=topics, buttons=buttons, pos=pos)
+    t = d.get("title")
+    if isinstance(t, dict): t = t.get("page") or t.get("card")
+    return dict(title=t, ai_courses=len(d.get("aiCourses") or []), partner=bool(d.get("partner")), updatedAt=d.get("updatedAt"), topics=topics, buttons=buttons, pos=pos)
 
 def link_info(u):
     return LINKS.get(u)
@@ -160,7 +164,7 @@ for slug in slugs:
         ordered = sorted([(v[1], v[0]) for v in topic_map.values() if v[0]["in_page"]], key=lambda z: z[0])
         extra = None
         for b in page["buttons"]:
-            if host(b["url"]).endswith("roadmap.sh"):
+            if host(b["url"]).endswith("roadmap.sh") or b["url"].startswith("/") or b["url"].startswith("#"):
                 continue
             page_btn += 1
             target = None
@@ -201,7 +205,7 @@ for slug in slugs:
                 counts["verified_free"] += 1
             elif a == "needs provider review":
                 counts["needs_review"] += 1
-            elif a in ("cost not reviewed", "internal link"):
+            elif a in ("cost not reviewed", "internal link", "sponsor or profile link"):
                 counts["not_reviewed"] += 1
             else:
                 counts["uncertain"] += 1
@@ -223,7 +227,7 @@ for slug in slugs:
     index.append(dict(slug=slug, title=rec["title"], page_updatedAt=rec["page_updatedAt"], page_fetched=bool(page),
                       topics=len(out_topics), counts=counts))
     repo_links = sum(len(t["resources"]) for t in repo.values())
-    coverage.append(dict(slug=slug, page_fetched=bool(page), page_topics=len(page_ids), repo_topics=len(repo),
+    coverage.append(dict(slug=slug, page_fetched=bool(page), page_ai_course_titles_without_links=(page or {}).get("ai_courses", 0), page_partner_promo=(page or {}).get("partner", False), page_topics=len(page_ids), repo_topics=len(repo),
                          topics_only_in_page=len(page_ids - set(repo)), topics_only_in_repo=len(set(repo) - page_ids),
                          repo_resource_links=repo_links, page_resource_buttons=page_btn,
                          inventory_resources=counts["resources"]))
