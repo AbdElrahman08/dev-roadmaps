@@ -410,8 +410,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 230,
-    "link_ok": 235,
-    "link_bad": 2,
+    "link_ok": 236,
+    "link_bad": 1,
     "link_unchecked": 2
    }
   },
@@ -572,8 +572,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 299,
-    "link_ok": 270,
-    "link_bad": 4,
+    "link_ok": 271,
+    "link_bad": 3,
     "link_unchecked": 28
    }
   },
@@ -752,8 +752,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 265,
-    "link_ok": 212,
-    "link_bad": 16,
+    "link_ok": 214,
+    "link_bad": 14,
     "link_unchecked": 39
    }
   },
@@ -860,8 +860,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 473,
-    "link_ok": 442,
-    "link_bad": 12,
+    "link_ok": 443,
+    "link_bad": 11,
     "link_unchecked": 26
    }
   },
@@ -914,8 +914,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 250,
-    "link_ok": 237,
-    "link_bad": 2,
+    "link_ok": 239,
+    "link_bad": 0,
     "link_unchecked": 11
    }
   },
@@ -1346,8 +1346,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 229,
-    "link_ok": 219,
-    "link_bad": 3,
+    "link_ok": 220,
+    "link_bad": 2,
     "link_unchecked": 8
    }
   },
@@ -1400,8 +1400,8 @@
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 388,
-    "link_ok": 362,
-    "link_bad": 2,
+    "link_ok": 363,
+    "link_bad": 1,
     "link_unchecked": 25
    }
   },
@@ -1755,8 +1755,8 @@
   "replaced": 71,
   "needs_review": 0,
   "not_reviewed": 25632,
-  "link_ok": 23580,
-  "link_bad": 339,
+  "link_ok": 23589,
+  "link_bad": 330,
   "link_unchecked": 2279
  },
  "verification_entries": 382,

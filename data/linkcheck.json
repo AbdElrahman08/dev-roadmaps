@@ -346,7 +346,7 @@
 "verdict": "ok"
 },
 "http://sphinxsearch.com/forum/view.html?id=3609": {
-"checked_at": "2026-11-05T16:37:37Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host sphinxsearch.com:80 ssl:default [Connect call failed ('94.130.185.129', 80)]",
 "verdict": "error"
@@ -545,7 +545,7 @@
 "verdict": "ok"
 },
 "http://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/": {
-"checked_at": "2026-11-05T16:37:41Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 522,
 "final_url": "https://www.travelblogadvice.com/technical/the-differences-between-push-and-pull-cdns/",
 "method": "HEAD",
@@ -624,7 +624,7 @@
 "verdict": "ok"
 },
 "https://.amazon.com/what-is/ide/": {
-"checked_at": "2026-11-05T16:38:27Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "UnicodeError: label empty or too long",
 "verdict": "error"
@@ -698,7 +698,7 @@
 "verdict": "ok"
 },
 "https://3dskillup.com/effective-lighting-for-games/": {
-"checked_at": "2026-11-05T16:38:30Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -1189,7 +1189,7 @@
 "verdict": "ok"
 },
 "https://ai.meta.com/tools/faiss/": {
-"checked_at": "2026-11-05T16:36:18Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 400,
 "method": "GET",
 "verdict": "error"
@@ -3007,13 +3007,13 @@
 "verdict": "ok"
 },
 "https://app.qawolf.com/docs/create-a-test": {
-"checked_at": "2026-11-05T16:29:42Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8792) when reading Header value is too long.', url='https://qawolf.notion.site/QA-Wolf-Docs-4d30e49cb8054beaa00a9b7640d22d34'",
 "verdict": "error"
 },
 "https://app.qawolf.com/docs/why-qa-wolf": {
-"checked_at": "2026-11-05T16:29:42Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8792) when reading Header value is too long.', url='https://qawolf.notion.site/QA-Wolf-Docs-4d30e49cb8054beaa00a9b7640d22d34'",
 "verdict": "error"
@@ -3596,7 +3596,7 @@
 "verdict": "ok"
 },
 "https://atiquequreshi.com/blog/what-are-algorithm-updates-in-seo": {
-"checked_at": "2026-11-05T16:29:53Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host atiquequreshi.com:443 ssl:default [Connect call failed ('127.0.0.1', 443)]",
 "verdict": "error"
@@ -5029,19 +5029,19 @@
 "verdict": "ok"
 },
 "https://bentoml.com/llm/getting-started/choosing-the-right-model": {
-"checked_at": "2026-11-05T16:30:28Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 502,
 "method": "HEAD",
 "verdict": "error"
 },
 "https://bentoml.com/llm/llm-inference-basics/openai-compatible-api": {
-"checked_at": "2026-11-05T16:30:28Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 502,
 "method": "HEAD",
 "verdict": "error"
 },
 "https://bentoml.com/llm/llm-inference-basics/serverless-vs-self-hosted-llm-inference": {
-"checked_at": "2026-11-05T16:30:28Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 502,
 "method": "HEAD",
 "verdict": "error"
@@ -6560,9 +6560,9 @@
 "verdict": "ok"
 },
 "https://blog.nashtechglobal.com/understanding-angulars-ahead-of-time-aot-compilation/": {
-"checked_at": "2026-11-05T16:31:02Z",
-"code": null,
-"error": "TimeoutError: ",
+"checked_at": "2026-11-05T16:44:33Z",
+"code": 502,
+"method": "HEAD",
 "verdict": "error"
 },
 "https://blog.ndepend.com/c-async-await-explained/": {
@@ -7327,7 +7327,7 @@
 "verdict": "ok"
 },
 "https://business.adobe.com/blog/basics/learn-about-a-b-testing": {
-"checked_at": "2026-11-05T16:31:20Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -7558,7 +7558,7 @@
 "verdict": "ok"
 },
 "https://cgobsession.com/complete-guide-to-texture-map-types/": {
-"checked_at": "2026-11-05T16:31:26Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host cgobsession.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, cert",
 "verdict": "error"
@@ -7948,31 +7948,31 @@
 "verdict": "ok"
 },
 "https://clickhouse.com/": {
-"checked_at": "2026-11-05T16:31:38Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (9582) when reading Header value is too long.', url='https://clickhouse.com/'",
 "verdict": "error"
 },
 "https://clickhouse.com/docs/intro": {
-"checked_at": "2026-11-05T16:31:38Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10049) when reading Header value is too long.', url='https://clickhouse.com/docs/intro'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (12787) when reading Header value is too long.', url='https://clickhouse.com/docs/intro'",
 "verdict": "error"
 },
 "https://clickhouse.com/resources/engineering/llm-inference-latency": {
-"checked_at": "2026-11-05T16:31:38Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (9582) when reading Header value is too long.', url='https://clickhouse.com/resources/engineering/llm-inference-latency'",
 "verdict": "error"
 },
 "https://clickhouse.com/resources/engineering/llm-observability": {
-"checked_at": "2026-11-05T16:31:39Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (8753) when reading Header value is too long.', url='https://clickhouse.com/resources/engineering/llm-observability'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (9582) when reading Header value is too long.', url='https://clickhouse.com/resources/engineering/llm-observability'",
 "verdict": "error"
 },
 "https://clickhouse.com/resources/engineering/percentiles-vs-averages": {
-"checked_at": "2026-11-05T16:31:39Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (9582) when reading Header value is too long.', url='https://clickhouse.com/resources/engineering/percentiles-vs-averages'",
 "verdict": "error"
@@ -9526,7 +9526,7 @@
 "verdict": "ok"
 },
 "https://codeparrot.ai/blogs/tanstack-for-beginners-a-complete-guide-tutorial": {
-"checked_at": "2026-11-05T16:32:39Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host codeparrot.ai:443 ssl:default [None]",
 "verdict": "error"
@@ -9799,7 +9799,7 @@
 "verdict": "ok"
 },
 "https://commandmasters.com/commands/expand-common/": {
-"checked_at": "2026-11-05T16:32:44Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host commandmasters.com:443 ssl:default [None]",
 "verdict": "error"
@@ -11319,7 +11319,7 @@
 "verdict": "blocked"
 },
 "https://defcon.org/": {
-"checked_at": "2026-11-05T16:33:14Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientOSError: [Errno 104] Connection reset by peer",
 "verdict": "error"
@@ -19104,7 +19104,7 @@
 "verdict": "ok"
 },
 "https://dispatched.dev/": {
-"checked_at": "2026-11-05T16:35:27Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 500,
 "method": "GET",
 "verdict": "error"
@@ -26258,13 +26258,13 @@
 "verdict": "ok"
 },
 "https://edu.anarcho-copy.org/Programming%20Languages/Rust/rust-programming-language-steve-klabnik.pdf": {
-"checked_at": "2026-11-05T16:36:47Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 530,
 "method": "HEAD",
 "verdict": "error"
 },
 "https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/": {
-"checked_at": "2026-11-05T16:36:47Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host education.district0x.io:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismat",
 "verdict": "error"
@@ -28940,13 +28940,13 @@
 "verdict": "blocked"
 },
 "https://fauna.com/blog/database-transaction": {
-"checked_at": "2026-11-05T16:37:28Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation": {
-"checked_at": "2026-11-05T16:37:28Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -29149,7 +29149,7 @@
 "verdict": "ok"
 },
 "https://fjolt.com/article/vue-composition-api-vs-options-api": {
-"checked_at": "2026-11-05T16:37:32Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host fjolt.com:443 ssl:default [None]",
 "verdict": "error"
@@ -29435,7 +29435,7 @@
 "verdict": "ok"
 },
 "https://futuramo.com/blog/improving-hospital-efficiency-with-health-data-analytics/": {
-"checked_at": "2026-11-05T16:37:38Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 502,
 "method": "HEAD",
 "verdict": "error"
@@ -29502,25 +29502,25 @@
 "verdict": "ok"
 },
 "https://gamedev.net/blog/2080/entry-2261232-shadow-mapping-part-1-pcf-and-vsms/": {
-"checked_at": "2026-11-05T16:37:39Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 503,
 "method": "HEAD",
 "verdict": "error"
 },
 "https://gamedev.net/forums/topic/535895-catmull-rom-in-shmups/": {
-"checked_at": "2026-11-05T16:37:39Z",
-"code": 503,
+"checked_at": "2026-11-05T16:44:32Z",
+"code": 200,
 "method": "HEAD",
-"verdict": "error"
+"verdict": "ok"
 },
 "https://gamedev.net/forums/topic/600708-subsurface-scattering/": {
-"checked_at": "2026-11-05T16:37:39Z",
-"code": 503,
+"checked_at": "2026-11-05T16:44:32Z",
+"code": 200,
 "method": "HEAD",
-"verdict": "error"
+"verdict": "ok"
 },
 "https://gamedev.net/forums/topic/653589-misc-polyhedon-related-posts-for-game-physics/": {
-"checked_at": "2026-11-05T16:37:39Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 503,
 "method": "HEAD",
 "verdict": "error"
@@ -29532,13 +29532,13 @@
 "verdict": "blocked"
 },
 "https://gamedev.net/tutorials/_/technical/game-programming/state-machines-in-games-r2982/": {
-"checked_at": "2026-11-05T16:37:40Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 503,
 "method": "HEAD",
 "verdict": "error"
 },
 "https://gamedev.net/tutorials/programming/general-and-gameplay-programming/frustum-culling-r4613/": {
-"checked_at": "2026-11-05T16:37:40Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 503,
 "method": "HEAD",
 "verdict": "error"
@@ -29762,7 +29762,7 @@
 "verdict": "ok"
 },
 "https://gemini.google.com/": {
-"checked_at": "2026-11-05T16:37:44Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (16225) when reading Header value is too long.', url='https://gemini.google.com/'",
 "verdict": "error"
@@ -33940,21 +33940,21 @@
 "verdict": "ok"
 },
 "https://golang.ntxm.org/docs/error-handling-in-go/the-error-interface/": {
-"checked_at": "2026-11-05T16:39:41Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientConnectorSSLError: Cannot connect to host golang.ntxm.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)]",
+"error": "ClientConnectorSSLError: Cannot connect to host golang.ntxm.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)]",
 "verdict": "error"
 },
 "https://golang.ntxm.org/docs/functions-in-go/named-return-values/": {
-"checked_at": "2026-11-05T16:39:41Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientConnectorSSLError: Cannot connect to host golang.ntxm.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)]",
+"error": "ClientConnectorSSLError: Cannot connect to host golang.ntxm.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)]",
 "verdict": "error"
 },
 "https://golang.ntxm.org/docs/structs-and-interfaces/understanding-interfaces-in-go/": {
-"checked_at": "2026-11-05T16:39:41Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientConnectorSSLError: Cannot connect to host golang.ntxm.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)]",
+"error": "ClientConnectorSSLError: Cannot connect to host golang.ntxm.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)]",
 "verdict": "error"
 },
 "https://golang.org/doc/effective_go.html#channels": {
@@ -33995,13 +33995,13 @@
 "verdict": "ok"
 },
 "https://golangbyexamples.com/go-mod-tidy/": {
-"checked_at": "2026-11-05T16:39:42Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host golangbyexamples.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,",
 "verdict": "error"
 },
 "https://golangbyexamples.com/select-statement-golang/": {
-"checked_at": "2026-11-05T16:39:42Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host golangbyexamples.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,",
 "verdict": "error"
@@ -34067,7 +34067,7 @@
 "verdict": "ok"
 },
 "https://golangprojectstructure.com/default-zero-values-in-go-code/": {
-"checked_at": "2026-11-05T16:39:44Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host golangprojectstructure.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mis",
 "verdict": "error"
@@ -35144,7 +35144,7 @@
 "verdict": "ok"
 },
 "https://hackertarget.com/openvas-tutorial-tips/": {
-"checked_at": "2026-11-05T16:40:01Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": 520,
 "method": "HEAD",
 "verdict": "error"
@@ -35699,13 +35699,13 @@
 "verdict": "ok"
 },
 "https://howtorust.com/understanding-result-option-and-operators-in-rust/": {
-"checked_at": "2026-11-05T16:40:13Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://howtorust.com/using-channels-in-rust-why-and-when/": {
-"checked_at": "2026-11-05T16:40:13Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -37517,7 +37517,7 @@
 "verdict": "ok"
 },
 "https://john-woodman.com/research/wadcoms/": {
-"checked_at": "2026-11-05T16:27:55Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -43839,7 +43839,7 @@
 "verdict": "ok"
 },
 "https://learncodeweb.com/typescript/modules-in-typescript-explain-with-an-example/": {
-"checked_at": "2026-11-05T16:30:43Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host learncodeweb.com:443 ssl:default [None]",
 "verdict": "error"
@@ -46430,9 +46430,9 @@
 "verdict": "blocked"
 },
 "https://ltx.io/glossary/local-inference": {
-"checked_at": "2026-11-05T16:31:52Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (8233) when reading Header value is too long.', url='https://ltx.io/glossary/local-inference'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (17245) when reading Header value is too long.', url='https://ltx.io/glossary/local-inference'",
 "verdict": "error"
 },
 "https://lubridate.tidyverse.org/": {
@@ -47370,7 +47370,7 @@
 "verdict": "ok"
 },
 "https://medium.appbase.io/sort-elasticsearch-a-tutorial-on-sorting-with-elasticsearch-762b6c02557f": {
-"checked_at": "2026-11-05T16:32:34Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -53675,27 +53675,27 @@
 "verdict": "ok"
 },
 "https://nordlayer.com/blog/cybersecurity-monitoring/": {
-"checked_at": "2026-11-05T16:34:38Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (13499) when reading Header value is too long.', url='https://nordlayer.com/blog/cybersecurity-monitoring/'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (14699) when reading Header value is too long.', url='https://nordlayer.com/blog/cybersecurity-monitoring/'",
 "verdict": "error"
 },
 "https://nordlayer.com/blog/wordpress-security-best-practices/": {
-"checked_at": "2026-11-05T16:34:38Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (9392) when reading Header value is too long.', url='https://nordlayer.com/blog/wordpress-security-best-practices/'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10761) when reading Header value is too long.', url='https://nordlayer.com/blog/wordpress-security-best-practices/'",
 "verdict": "error"
 },
 "https://nordlayer.com/learn/access-control/mandatory-access-control/": {
-"checked_at": "2026-11-05T16:34:38Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (9392) when reading Header value is too long.', url='https://nordlayer.com/learn/access-control/mandatory-access-control/'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (13499) when reading Header value is too long.', url='https://nordlayer.com/learn/access-control/mandatory-access-control/'",
 "verdict": "error"
 },
 "https://nordlayer.com/learn/firewall/circuit-level/": {
-"checked_at": "2026-11-05T16:34:38Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (9392) when reading Header value is too long.', url='https://nordlayer.com/learn/firewall/circuit-level/'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (14699) when reading Header value is too long.', url='https://nordlayer.com/learn/firewall/circuit-level/'",
 "verdict": "error"
 },
 "https://nordvpn.com/blog/mpls-vpn": {
@@ -54080,13 +54080,13 @@
 "verdict": "ok"
 },
 "https://online.stat.psu.edu/stat501/": {
-"checked_at": "2026-11-05T16:34:45Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host online.stat.psu.edu:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local",
 "verdict": "error"
 },
 "https://online.york.ac.uk/resources/what-is-reinforcement-learning/": {
-"checked_at": "2026-11-05T16:34:45Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (10438) when reading Header value is too long.', url='https://online.york.ac.uk/resources/what-is-reinforcement-learning/'",
 "verdict": "error"
@@ -54244,7 +54244,7 @@
 "verdict": "ok"
 },
 "https://opendsa.cs.vt.edu/ODSA/Books/Everything/html/IntroOO.html": {
-"checked_at": "2026-11-05T16:34:47Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host opendsa.cs.vt.edu:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, ce",
 "verdict": "error"
@@ -55161,7 +55161,7 @@
 "verdict": "ok"
 },
 "https://parrotsec.org/download": {
-"checked_at": "2026-11-05T16:35:06Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "TooManyRedirects: 0, message='', url='https://parrotsec.org/download'",
 "verdict": "error"
@@ -57528,7 +57528,7 @@
 "verdict": "ok"
 },
 "https://puppet.com/": {
-"checked_at": "2026-11-05T16:35:29Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.puppet.com/'",
 "verdict": "error"
@@ -62070,9 +62070,9 @@
 "verdict": "ok"
 },
 "https://rust-guide.com/en/documentation/collections/BinaryHeap": {
-"checked_at": "2026-11-05T16:36:23Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
-"error": "ClientConnectorSSLError: Cannot connect to host rust-guide.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)]",
+"error": "ClientConnectorSSLError: Cannot connect to host rust-guide.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)]",
 "verdict": "error"
 },
 "https://rust-lang.org/": {
@@ -62088,7 +62088,7 @@
 "verdict": "ok"
 },
 "https://rustlang.app/article/Rust_concurrency_and_parallelism.html": {
-"checked_at": "2026-11-05T16:36:23Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -62185,43 +62185,43 @@
 "verdict": "blocked"
 },
 "https://safetyculture.com/topics/project-management-system/project-monitoring-and-control": {
-"checked_at": "2026-11-05T16:36:23Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8672) when reading Header value is too long.', url='https://mitti.com/topics/project-management-system/project-monitoring-and-control'",
 "verdict": "error"
 },
 "https://safetyculture.com/topics/qualitative-and-quantitative-risk-analysis/qualitative-risk-analysis": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10041) when reading Header value is too long.', url='https://mitti.com/topics/qualitative-and-quantitative-risk-analysis/qualitative-risk-a",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (8672) when reading Header value is too long.', url='https://mitti.com/topics/qualitative-and-quantitative-risk-analysis/qualitative-risk-an",
 "verdict": "error"
 },
 "https://safetyculture.com/topics/qualitative-and-quantitative-risk-analysis/quantitative-risk-analysis": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10041) when reading Header value is too long.', url='https://mitti.com/topics/qualitative-and-quantitative-risk-analysis/quantitative-risk-",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (11370) when reading Header value is too long.', url='https://mitti.com/topics/qualitative-and-quantitative-risk-analysis/quantitative-risk-",
 "verdict": "error"
 },
 "https://safetyculture.com/topics/risk-analysis": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10041) when reading Header value is too long.', url='https://mitti.com/topics/risk-analysis'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (11370) when reading Header value is too long.', url='https://mitti.com/topics/risk-analysis'",
 "verdict": "error"
 },
 "https://safetyculture.com/topics/risk-management/project-risk-management": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (11370) when reading Header value is too long.', url='https://mitti.com/topics/risk-management/project-risk-management'",
 "verdict": "error"
 },
 "https://safetyculture.com/topics/risk-mitigation/risk-mitigation-strategies": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (8672) when reading Header value is too long.', url='https://mitti.com/topics/risk-mitigation/risk-mitigation-strategies'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (11370) when reading Header value is too long.', url='https://mitti.com/topics/risk-mitigation/risk-mitigation-strategies'",
 "verdict": "error"
 },
 "https://safetyculture.com/topics/risk-monitoring": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (11370) when reading Header value is too long.', url='https://mitti.com/topics/risk-monitoring'",
 "verdict": "error"
@@ -63209,7 +63209,7 @@
 "verdict": "ok"
 },
 "https://skycryptor.com/blog/how-to-steal-a-machine-learning-model": {
-"checked_at": "2026-11-05T16:36:33Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -65528,7 +65528,7 @@
 "verdict": "ok"
 },
 "https://techbeacon.com/security/8-open-source-kubernetes-vulnerability-scanners-consider": {
-"checked_at": "2026-11-05T16:37:03Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host techbeacon.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certi",
 "verdict": "error"
@@ -65615,9 +65615,9 @@
 "verdict": "ok"
 },
 "https://tessl.io/blog/from-vibe-coding-to-vibe-planning/": {
-"checked_at": "2026-11-05T16:37:05Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10609) when reading Header value is too long.', url='https://tessl.io/blog/from-vibe-coding-to-vibe-planning'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (9240) when reading Header value is too long.', url='https://tessl.io/blog/from-vibe-coding-to-vibe-planning'",
 "verdict": "error"
 },
 "https://testdriven.io/blog/customize-django-admin/": {
@@ -66632,7 +66632,7 @@
 "verdict": "ok"
 },
 "https://thinkster.io/tutorials/angular-2-directives": {
-"checked_at": "2026-11-05T16:37:26Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -66681,10 +66681,10 @@
 "verdict": "ok"
 },
 "https://threat-modeling.com/pasta-threat-modeling/": {
-"checked_at": "2026-11-05T16:37:27Z",
-"code": null,
-"error": "TimeoutError: ",
-"verdict": "error"
+"checked_at": "2026-11-05T16:44:31Z",
+"code": 200,
+"method": "HEAD",
+"verdict": "ok"
 },
 "https://thriveagency.com/news/why-proprietary-research-data-is-key-to-brand-differentiation/": {
 "checked_at": "2026-11-05T16:37:27Z",
@@ -66693,7 +66693,7 @@
 "verdict": "ok"
 },
 "https://thrivingtechnologist.com/topics/scrum/": {
-"checked_at": "2026-11-05T16:37:28Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host thrivingtechnologist.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate ha",
 "verdict": "error"
@@ -68048,7 +68048,7 @@
 "verdict": "ok"
 },
 "https://u-tor.com/topic/mobile-automation-steps": {
-"checked_at": "2026-11-05T16:37:54Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host u-tor.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificat",
 "verdict": "error"
@@ -68500,7 +68500,7 @@
 "verdict": "ok"
 },
 "https://utopia-insights.dev/react-custom-hooks-best-practices-and-examples/": {
-"checked_at": "2026-11-05T16:38:06Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -70687,7 +70687,7 @@
 "verdict": "blocked"
 },
 "https://www.akana.com/blog/what-is-jwt": {
-"checked_at": "2026-11-05T16:39:13Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.perforce.com/blog/aka/what-is-jwt'",
 "verdict": "error"
@@ -71138,9 +71138,9 @@
 "verdict": "ok"
 },
 "https://www.aporia.com/learn/understanding-the-role-of-embeddings-in-rag-llms/": {
-"checked_at": "2026-11-05T16:39:29Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientConnectorSSLError: Cannot connect to host www.aporia.com:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1010)]",
+"error": "ClientConnectorSSLError: Cannot connect to host www.aporia.com:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)]",
 "verdict": "error"
 },
 "https://www.apple.com/macos/macos-sequoia/": {
@@ -73056,10 +73056,10 @@
 "verdict": "ok"
 },
 "https://www.bentoml.com/blog/what-is-gpu-memory-and-why-it-matters-for-llm-inference": {
-"checked_at": "2026-11-05T16:40:04Z",
-"code": 502,
+"checked_at": "2026-11-05T16:44:32Z",
+"code": 200,
 "method": "HEAD",
-"verdict": "error"
+"verdict": "ok"
 },
 "https://www.bezkoder.com/spring-boot-unit-test-jpa-repo-datajpatest/": {
 "checked_at": "2026-11-05T16:40:04Z",
@@ -73148,7 +73148,7 @@
 "verdict": "ok"
 },
 "https://www.blazemeter.com/blog/contract-testing#:~:text=Contract%20testing%20focuses%20on%20verifying,services%20that%20rely%20on%20it.": {
-"checked_at": "2026-11-05T16:40:07Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.blazemeter.com/blog/contract-testing#:~:text=Contract%20testing%20focuses%2",
 "verdict": "error"
@@ -73769,7 +73769,7 @@
 "verdict": "ok"
 },
 "https://www.cbrix.com/difference-between-fibers-and-threads-a-comprehensive-guide/": {
-"checked_at": "2026-11-05T16:40:20Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 500,
 "method": "GET",
 "verdict": "error"
@@ -73817,7 +73817,7 @@
 "verdict": "ok"
 },
 "https://www.cdata.com/blog/what-is-a-data-hub": {
-"checked_at": "2026-11-05T16:40:21Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8943) when reading Header value is too long.', url='https://www.cdata.com/blog/what-is-a-data-hub'",
 "verdict": "error"
@@ -74156,13 +74156,13 @@
 "verdict": "ok"
 },
 "https://www.clarifai.com/blog/vibe-coding-explained": {
-"checked_at": "2026-11-05T16:27:11Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://www.classes.cs.uchicago.edu/archive/2017/spring/12300-1/lab5.html": {
-"checked_at": "2026-11-05T16:27:12Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host www.classes.cs.uchicago.edu:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mi",
 "verdict": "error"
@@ -75181,28 +75181,32 @@
 "verdict": "ok"
 },
 "https://www.codeguage.com/courses/js/variables": {
-"checked_at": "2026-11-05T16:27:52Z",
-"code": null,
-"error": "TimeoutError: ",
-"verdict": "error"
+"checked_at": "2026-11-05T16:44:33Z",
+"code": 200,
+"final_url": "https://www.codeguage.com/mini-courses",
+"method": "HEAD",
+"verdict": "ok"
 },
 "https://www.codeguage.com/courses/js/variables#Tips_for_naming_variables": {
-"checked_at": "2026-11-05T16:27:53Z",
-"code": null,
-"error": "TimeoutError: ",
-"verdict": "error"
+"checked_at": "2026-11-05T16:44:33Z",
+"code": 200,
+"final_url": "https://www.codeguage.com/mini-courses",
+"method": "HEAD",
+"verdict": "ok"
 },
 "https://www.codeguage.com/courses/react/jsx": {
-"checked_at": "2026-11-05T16:27:53Z",
-"code": null,
-"error": "TimeoutError: ",
-"verdict": "error"
+"checked_at": "2026-11-05T16:44:33Z",
+"code": 200,
+"final_url": "https://www.codeguage.com/mini-courses",
+"method": "HEAD",
+"verdict": "ok"
 },
 "https://www.codeguage.com/v1/courses/css/text-spacing": {
-"checked_at": "2026-11-05T16:28:43Z",
-"code": null,
-"error": "TimeoutError: ",
-"verdict": "error"
+"checked_at": "2026-11-05T16:44:34Z",
+"code": 200,
+"final_url": "https://www.codeguage.com/mini-courses",
+"method": "HEAD",
+"verdict": "ok"
 },
 "https://www.codeguru.com/cplusplus/what-is-runtime-type-identification-rtti-in-c/": {
 "checked_at": "2026-11-05T16:27:51Z",
@@ -75254,27 +75258,27 @@
 "verdict": "ok"
 },
 "https://www.codeproject.com/Articles/1224839/Learn-NServiceBus-from-NET-Core-WebAPI": {
-"checked_at": "2026-11-05T16:27:53Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientConnectorError: Cannot connect to host www.codeproject.com:443 ssl:default [None]",
+"error": "ClientConnectorError: Cannot connect to host www.codeproject.com:443 ssl:default [Connection reset by peer]",
 "verdict": "error"
 },
 "https://www.codeproject.com/Articles/25380/Dependency-Injection-with-Autofac": {
-"checked_at": "2026-11-05T16:27:53Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host www.codeproject.com:443 ssl:default [None]",
 "verdict": "error"
 },
 "https://www.codeproject.com/Articles/5339241/Exploring-the-Microsoft-Extensions-DependencyInjec": {
-"checked_at": "2026-11-05T16:27:53Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientConnectorError: Cannot connect to host www.codeproject.com:443 ssl:default [None]",
 "verdict": "error"
 },
 "https://www.codeproject.com/Tips/480091/Using-Solr-for-Search-with-NET-Csharp": {
-"checked_at": "2026-11-05T16:27:53Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
-"error": "ClientConnectorError: Cannot connect to host www.codeproject.com:443 ssl:default [None]",
+"error": "ClientConnectorError: Cannot connect to host www.codeproject.com:443 ssl:default [Connection reset by peer]",
 "verdict": "error"
 },
 "https://www.codequoi.com/en/errno-and-error-management-in-c/": {
@@ -75350,7 +75354,7 @@
 "verdict": "ok"
 },
 "https://www.codingexplorations.com/blog/calling-c-functions-from-go-a-quick-guide": {
-"checked_at": "2026-11-05T16:27:56Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host www.codingexplorations.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to ge",
 "verdict": "error"
@@ -77230,7 +77234,7 @@
 "verdict": "ok"
 },
 "https://www.deque.com/axe/": {
-"checked_at": "2026-11-05T16:29:00Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (9370) when reading Header value is too long.', url='https://www.deque.com/axe/'",
 "verdict": "error"
@@ -78455,7 +78459,7 @@
 "verdict": "ok"
 },
 "https://www.dspguide.com/ch28/5.htm#:~:text=Programs%20written%20in%20assembly%20can,almost%20always%20the%20first%20choice.": {
-"checked_at": "2026-11-05T16:29:33Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 503,
 "final_url": "https://www.dspguide.com/ch28/5.htm",
 "method": "HEAD",
@@ -78487,7 +78491,7 @@
 "verdict": "ok"
 },
 "https://www.eaton.com/us/en-us/markets/data-centers/data-center-cooling/efficiency/energy-consumption-in-data-centers-air-versus-liquid-cooling.html": {
-"checked_at": "2026-11-05T16:29:34Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -79923,7 +79927,7 @@
 "verdict": "ok"
 },
 "https://www.embedded.com/linkage-in-c-and-c/": {
-"checked_at": "2026-11-05T16:30:02Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -80130,19 +80134,19 @@
 "verdict": "ok"
 },
 "https://www.essentialsql.com/sql-trigger/": {
-"checked_at": "2026-11-05T16:30:06Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host www.essentialsql.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has ex",
 "verdict": "error"
 },
 "https://www.essentialsql.com/understanding-relational-databases-a-beginners-guide/": {
-"checked_at": "2026-11-05T16:30:06Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host www.essentialsql.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has ex",
 "verdict": "error"
 },
 "https://www.essentialsql.com/what-is-a-database-index/": {
-"checked_at": "2026-11-05T16:30:07Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host www.essentialsql.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has ex",
 "verdict": "error"
@@ -81519,7 +81523,7 @@
 "verdict": "ok"
 },
 "https://www.geeksforgeeks.org/pattern-searching/": {
-"checked_at": "2026-11-05T16:30:43Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TooManyRedirects: 0, message='', url='https://www.geeksforgeeks.org/pattern-searching/'",
 "verdict": "error"
@@ -83388,31 +83392,31 @@
 "verdict": "ok"
 },
 "https://www.hpe.com/emea_africa/en/what-is/spine-leaf-architecture.html": {
-"checked_at": "2026-11-05T16:31:22Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://www.hpe.com/emea_europe/en/what-is/vxlan.html": {
-"checked_at": "2026-11-05T16:31:23Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://www.hpe.com/int/en/what-is/cloud-workloads.html": {
-"checked_at": "2026-11-05T16:31:23Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://www.hpe.com/int/en/what-is/rack-servers.html": {
-"checked_at": "2026-11-05T16:32:14Z",
+"checked_at": "2026-11-05T16:45:23Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://www.hpe.com/uk/en/what-is/on-premises-vs-cloud.html": {
-"checked_at": "2026-11-05T16:32:14Z",
+"checked_at": "2026-11-05T16:45:23Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -85680,13 +85684,13 @@
 "verdict": "ok"
 },
 "https://www.ituonline.com/blogs/reliable-bytes-how-tcp-ensures-trustworthy-data-transfer-across-the-internet/": {
-"checked_at": "2026-11-05T16:32:43Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
 },
 "https://www.ituonline.com/tech-definitions/what-is-multithreading-synchronization/": {
-"checked_at": "2026-11-05T16:32:43Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -86243,7 +86247,7 @@
 "verdict": "ok"
 },
 "https://www.kiltandcode.com/puppeteer-sharp-crawl-the-web-using-csharp-and-headless-chrome/": {
-"checked_at": "2026-11-05T16:32:56Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": 503,
 "final_url": "https://kiltandcode.com/puppeteer-sharp-crawl-the-web-using-csharp-and-headless-chrome/",
 "method": "HEAD",
@@ -86513,7 +86517,7 @@
 "verdict": "ok"
 },
 "https://www.learn-c.org/": {
-"checked_at": "2026-11-05T16:33:01Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": 415,
 "method": "HEAD",
 "verdict": "error"
@@ -86599,10 +86603,10 @@
 "verdict": "ok"
 },
 "https://www.learnrubyonline.org/": {
-"checked_at": "2026-11-05T16:33:03Z",
-"code": 415,
+"checked_at": "2026-11-05T16:44:33Z",
+"code": 200,
 "method": "HEAD",
-"verdict": "error"
+"verdict": "ok"
 },
 "https://www.learnrxjs.io/": {
 "checked_at": "2026-11-05T16:33:03Z",
@@ -89503,21 +89507,21 @@
 "verdict": "ok"
 },
 "https://www.notion.so/help/guides/using-notion-for-product-roadmaps": {
-"checked_at": "2026-11-05T16:34:03Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10538) when reading Header value is too long.', url='https://www.notion.so/help/guides/using-notion-for-product-roadmaps'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10778) when reading Header value is too long.', url='https://www.notion.so/help/guides/using-notion-for-product-roadmaps'",
 "verdict": "error"
 },
 "https://www.notion.so/product/projects": {
-"checked_at": "2026-11-05T16:34:03Z",
+"checked_at": "2026-11-05T16:44:33Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10637) when reading Header value is too long.', url='https://www.notion.so/product/projects'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10778) when reading Header value is too long.', url='https://www.notion.so/product/projects'",
 "verdict": "error"
 },
 "https://www.notion.so/teams": {
-"checked_at": "2026-11-05T16:34:03Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (10648) when reading Header value is too long.', url='https://www.notion.so/teams'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (9209) when reading Header value is too long.', url='https://www.notion.so/teams'",
 "verdict": "error"
 },
 "https://www.npmjs.com/": {
@@ -89900,13 +89904,13 @@
 "verdict": "ok"
 },
 "https://www.openlogic.com/blog/postgresql-system-catalog-overview": {
-"checked_at": "2026-11-05T16:34:09Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.openlogic.com/blog/postgresql-system-catalog-overview'",
 "verdict": "error"
 },
 "https://www.openlogic.com/blog/what-sql-database": {
-"checked_at": "2026-11-05T16:34:09Z",
+"checked_at": "2026-11-05T16:44:34Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.openlogic.com/blog/what-sql-database'",
 "verdict": "error"
@@ -89918,7 +89922,7 @@
 "verdict": "ok"
 },
 "https://www.opentext.com/products/documentum-content-management": {
-"checked_at": "2026-11-05T16:34:10Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 444,
 "method": "HEAD",
 "verdict": "error"
@@ -90407,13 +90411,13 @@
 "verdict": "ok"
 },
 "https://www.perforce.com/blog/pdx/test-data-management": {
-"checked_at": "2026-11-05T16:34:17Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.perforce.com/blog/pdx/test-data-management'",
 "verdict": "error"
 },
 "https://www.perforce.com/solutions/test-data-management": {
-"checked_at": "2026-11-05T16:34:17Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8363) when reading Header value is too long.', url='https://www.perforce.com/solutions/test-data-management'",
 "verdict": "error"
@@ -93558,7 +93562,7 @@
 "verdict": "ok"
 },
 "https://www.rapid7.com/fundamentals/vulnerability-management-and-scanning/": {
-"checked_at": "2026-11-05T16:35:11Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (9901) when reading Header value is too long.', url='https://www.rapid7.com/fundamentals/vulnerability-management-and-scanning/'",
 "verdict": "error"
@@ -95891,9 +95895,9 @@
 "verdict": "ok"
 },
 "https://www.skillcamper.com/blog/neural-networks-explained-a-beginners-guide": {
-"checked_at": "2026-11-05T16:35:33Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientConnectorSSLError: Cannot connect to host www.skillcamper.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)]",
+"error": "ClientConnectorSSLError: Cannot connect to host www.skillcamper.com:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)]",
 "verdict": "error"
 },
 "https://www.skills.google/course_templates/35": {
@@ -96181,7 +96185,7 @@
 "verdict": "ok"
 },
 "https://www.sophos.com/en-us/cybersecurity-explained/what-is-server-hardening": {
-"checked_at": "2026-11-05T16:35:34Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -96795,7 +96799,7 @@
 "verdict": "ok"
 },
 "https://www.suse.com/c/rancher_blog/an-introduction-to-big-data-concepts/": {
-"checked_at": "2026-11-05T16:35:39Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 503,
 "method": "HEAD",
 "verdict": "error"
@@ -97129,9 +97133,9 @@
 "verdict": "blocked"
 },
 "https://www.tabnine.com/blog/code-refactoring-with-generative-ai/": {
-"checked_at": "2026-11-05T16:35:42Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (12089) when reading Header value is too long.', url='https://www.tricentis.com/learn?utm_source=www.tabnine.com&utm_medium=referral&utm_cam",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (16185) when reading Header value is too long.', url='https://www.tricentis.com/learn?utm_source=www.tabnine.com&utm_medium=referral&utm_cam",
 "verdict": "error"
 },
 "https://www.tailorbrands.com/blog/logo-usage-guidelines": {
@@ -97190,7 +97194,7 @@
 "verdict": "ok"
 },
 "https://www.techferry.com/articles/spring-annotations.html": {
-"checked_at": "2026-11-05T16:35:43Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": null,
 "error": "TimeoutError: ",
 "verdict": "error"
@@ -97526,7 +97530,7 @@
 "verdict": "blocked"
 },
 "https://www.tektutorialshub.com/asp-net-core/asp-net-core-dependency-injection-lifetime/": {
-"checked_at": "2026-11-05T16:35:47Z",
+"checked_at": "2026-11-05T16:44:31Z",
 "code": 526,
 "method": "HEAD",
 "verdict": "error"
@@ -100061,7 +100065,7 @@
 "verdict": "blocked"
 },
 "https://www.uml-diagrams.org/": {
-"checked_at": "2026-11-05T16:36:24Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientConnectorCertificateError: Cannot connect to host www.uml-diagrams.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get loca",
 "verdict": "error"
@@ -101940,15 +101944,15 @@
 "verdict": "ok"
 },
 "https://www.waldo.com/blog/how-to-use-alamofire": {
-"checked_at": "2026-11-05T16:36:49Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (11992) when reading Header value is too long.', url='https://www.tricentis.com/learn/how-to-use-alamofire'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (18624) when reading Header value is too long.', url='https://www.tricentis.com/learn/how-to-use-alamofire'",
 "verdict": "error"
 },
 "https://www.waldo.com/blog/swift-vs-objective-c": {
-"checked_at": "2026-11-05T16:36:49Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
-"error": "ClientResponseError: 400, message='Got more than 8190 bytes (12089) when reading Header value is too long.', url='https://www.tricentis.com/learn'",
+"error": "ClientResponseError: 400, message='Got more than 8190 bytes (16185) when reading Header value is too long.', url='https://www.tricentis.com/learn'",
 "verdict": "error"
 },
 "https://www.wallarm.com/what/a-simple-explanation-of-what-a-websocket-is": {
@@ -102264,7 +102268,7 @@
 "verdict": "ok"
 },
 "https://www.xuchao.org/docs/mongodb/core/security-ldap-external.html": {
-"checked_at": "2026-11-05T16:36:51Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": 526,
 "method": "HEAD",
 "verdict": "error"
@@ -128765,7 +128769,7 @@
 "verdict": "ok"
 },
 "https://www.zend.com/topics/Debugger-API": {
-"checked_at": "2026-11-05T16:34:43Z",
+"checked_at": "2026-11-05T16:44:32Z",
 "code": null,
 "error": "ClientResponseError: 400, message='Got more than 8190 bytes (8301) when reading Header value is too long.', url='https://www.zend.com/topics/Debugger-API'",
 "verdict": "error"
@@ -130308,8 +130312,8 @@
 "summary": {
 "blocked": 1999,
 "broken": 171,
-"error": 130,
-"ok": 18903
+"error": 121,
+"ok": 18912
 },
-"updated_at": "2026-11-05T16:41:04Z"
+"updated_at": "2026-11-05T16:46:15Z"
 }
