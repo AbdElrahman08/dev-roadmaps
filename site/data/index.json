@@ -1153,17 +1153,17 @@
    "topics": 68,
    "counts": {
     "resources": 195,
-    "shown": 184,
-    "removed": 11,
+    "shown": 186,
+    "removed": 9,
     "added": 1,
     "verified_free": 1,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 193,
-    "link_ok": 185,
+    "link_ok": 187,
     "link_bad": 6,
-    "link_unchecked": 4,
+    "link_unchecked": 2,
     "topics_without_verified_link": 0
    }
   },
@@ -1316,8 +1316,8 @@
     "needs_review": 0,
     "not_reviewed": 451,
     "link_ok": 414,
-    "link_bad": 10,
-    "link_unchecked": 43,
+    "link_bad": 11,
+    "link_unchecked": 42,
     "topics_without_verified_link": 1
    }
   },
@@ -1527,17 +1527,17 @@
    "topics": 87,
    "counts": {
     "resources": 245,
-    "shown": 184,
-    "removed": 61,
+    "shown": 185,
+    "removed": 60,
     "added": 0,
     "verified_free": 1,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 244,
-    "link_ok": 240,
+    "link_ok": 241,
     "link_bad": 3,
-    "link_unchecked": 2,
+    "link_unchecked": 1,
     "topics_without_verified_link": 0
    }
   },
@@ -1989,17 +1989,17 @@
    "topics": 85,
    "counts": {
     "resources": 91,
-    "shown": 86,
-    "removed": 5,
+    "shown": 88,
+    "removed": 3,
     "added": 82,
     "verified_free": 82,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 9,
-    "link_ok": 87,
+    "link_ok": 89,
     "link_bad": 1,
-    "link_unchecked": 3,
+    "link_unchecked": 1,
     "topics_without_verified_link": 1
    }
   },
@@ -2138,19 +2138,19 @@
  ],
  "totals": {
   "resources": 27574,
-  "shown": 24129,
-  "removed": 3445,
+  "shown": 24134,
+  "removed": 3440,
   "added": 1376,
   "verified_free": 1794,
   "uncertain": 77,
   "replaced": 71,
   "needs_review": 0,
   "not_reviewed": 25632,
-  "link_ok": 24916,
-  "link_bad": 465,
-  "link_unchecked": 2193,
+  "link_ok": 24921,
+  "link_bad": 466,
+  "link_unchecked": 2187,
   "topics_without_verified_link": 95
  },
  "verification_entries": 382,
- "linkcheck_entries": 22056
+ "linkcheck_entries": 22108
 }
