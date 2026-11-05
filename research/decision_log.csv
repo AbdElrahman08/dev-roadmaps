@@ -1,4 +1,5 @@
 id,date,decision,rationale,evidence_ids,status,decided_by
-D-001,2026-11-05,Pause any public launch or monetization of roadmap.sh-derived content until written consent is obtained or content is rebuilt independently,Upstream license allows personal use only,EV-001;EV-012,Proposed — needs your decision,pending
+D-001,2026-11-05,Rebuild independently: the public site (Darb) uses original paths and courses chosen directly from provider catalogs; roadmap.sh-derived data stays private (personal use),Upstream license allows personal use only,EV-001;EV-012,Decided,AbdElrahman (2026-11-06)
 D-002,2026-11-05,Treat revenue models RM-001..RM-005 as hypotheses; none adopted,Only competitor precedents exist; no demand data,EV-002..EV-009,Proposed,pending
 D-003,2026-11-05,Include Egypt government programs as substitutes in competitor set,Free scholarships at scale,EV-010;EV-011,Proposed,pending
+D-004,2026-11-06,"Launch v1 with four optional revenue features (cohorts/mentorship waitlist, sponsor slots, institution plan, donations); courses stay free; no prices published until tested",Owner choice; prices unknown (FA-007),RM-001;RM-002;RM-006,Decided,AbdElrahman (2026-11-06)

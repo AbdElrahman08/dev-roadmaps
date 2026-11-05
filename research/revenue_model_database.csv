@@ -1,6 +1,7 @@
 id,model,description,precedent_competitors,evidence_ids,status,key_unknowns,licence_dependency
-RM-001,Donations / sponsorship,Learners and companies fund a free product,freeCodeCamp; The Odin Project,EV-007;EV-008,Hypothesis — untested,Willingness to donate in Egypt; payment rails,Requires upstream consent if roadmap.sh content is published (EV-001)
+RM-001,Donations / sponsorship,Learners and companies fund a free product,freeCodeCamp; The Odin Project,EV-007;EV-008,Hypothesis — untested,Willingness to donate in Egypt; payment rails,None if built on independent content (D-001)
 RM-002,Team / institution seats,Universities and training providers pay per seat for progress tracking,roadmap.sh Team $10/seat/month,EV-002,Hypothesis — untested,Institution budgets; purchase process; competition with roadmap.sh's own Team plan,Same
 RM-003,Affiliate links,Commission on paid course referrals,Class Central,EV-009,Hypothesis — conflicts with free-only positioning,Affiliate availability; user trust,Same
 RM-004,Employer sponsorship / hiring partnerships,Employers sponsor tracks or access verified learners,none verified,,Hypothesis — no evidence yet,Employer demand; privacy of learner data,Same
 RM-005,Paid AI tutor / premium features,Premium layer on top of free roadmaps,roadmap.sh Pro; Codecademy Pro,EV-002;EV-004,Hypothesis — untested,Differentiation vs roadmap.sh Pro,Same
+RM-006,Cohorts and mentorship,Paid live cohorts and 1:1 mentorship on top of free paths,Common in bootcamps; none verified in this register,,In v1 as waitlist only — untested,Price; demand; mentor time,None — independent content (D-001)

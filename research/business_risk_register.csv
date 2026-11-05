@@ -1,5 +1,5 @@
 id,risk,category,likelihood,impact,evidence_ids,mitigation,owner,status
-RK-001,roadmap.sh license forbids publishing its content outside the repository without prior consent,Legal,Certain (as written),Critical — blocks public launch and monetization,EV-001,"Seek written consent from the author, or rebuild the topic structure independently from primary curricula; get legal advice",AbdElrahman,Open
+RK-001,roadmap.sh license forbids publishing its content outside the repository without prior consent,Legal,Certain (as written),Critical — blocks public launch and monetization,EV-001,Decided D-001: public site built independently; keep dev-roadmaps repo private because it holds roadmap.sh-derived data,AbdElrahman,Mitigated by design (check before any public launch)
 RK-002,roadmap.sh already sells Team seats and AI features to the same audience,Competitive,High,High,EV-002;EV-003,"Differentiate on verified-free resources, Arabic/Egypt focus (untested)",AbdElrahman,Open
 RK-003,"Free government programs (DEPI, Digital Pioneers) substitute for paid training in Egypt",Market,Medium,Medium,EV-010;EV-011,Position as complement; explore partnerships (untested),AbdElrahman,Open
 RK-004,Link rot invalidates 'verified' claim over time,Operational,High,Medium,EV-012,Weekly automated link check already in place,AbdElrahman,Mitigated (partially)

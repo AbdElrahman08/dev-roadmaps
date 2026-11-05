@@ -24,11 +24,13 @@ Stage 1 closed 2026-11-05. The registers in this folder are the source of truth,
 ## Updated assumptions
 The only values recorded are competitor list prices (FA-004 to FA-006). Every other financial input stays UNKNOWN.
 
-## Decisions (proposed, waiting for the owner)
-D-001 to D-003 are in `decision_log.csv`.
+## Decisions
+- D-001 decided on 6 Nov 2026: rebuild independently. The public site, Darb, is in `web/` and uses original paths and courses taken directly from the providers. The data derived from roadmap.sh stays private.
+- D-004 decided on 6 Nov 2026: v1 includes a cohort waitlist, sponsor slots, an institution plan and donations. No prices will be published until they've been tested.
+- D-002 and D-003 are still proposed.
 
 ## Next research priorities
-1. Resolve D-001: ask the roadmap.sh author for consent (draft an email, sent only with your approval) and/or get legal advice.
+1. Connect the Darb forms (Typeform, created only with your approval) and a donation link, then put the `web/` folder in its own public repository.
 2. VE-001: learner interviews and a Typeform survey. The survey is published only with your approval.
 3. VE-002: interviews with institutions, tracked in HubSpot. CRM records are created only with your approval.
 4. Size the market (FA-001 to FA-003) from primary statistics.
