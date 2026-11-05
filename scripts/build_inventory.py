@@ -54,7 +54,9 @@ def verdict(r):
             return False, "replacement link broken or walled"
         return True, "free replacement (provider page checked)"
     if r.get("source") == "added":
-        return (link_open(li) or li is None), "added for an empty topic (provider page or open-access check)"
+        if not link_open(li):
+            return False, "added resource not yet confirmed by the link and paywall check"
+        return True, "added for an empty topic: relevance reviewed by hand, open access confirmed by the link check"
     if r["verification"] == "provider-page" and a.startswith("free") and not hard_fail(li):
         return True, "provider page checked by hand"
     if not li:

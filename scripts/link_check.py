@@ -30,16 +30,20 @@ def now():
     return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
 def collect():
+    """Every URL the inventory knows about: source resources (shown or removed), replacements and additions."""
+    import csv
     urls = set()
-    for f in os.listdir("site/data/r"):
-        d = json.load(open(f"site/data/r/{f}"))
-        for t in d["topics"]:
-            for r in t["resources"]:
-                urls.add(r["url"])
-                rep = r.get("replacement") or {}
-                for k in ("url", "url2", "url3"):
-                    if rep.get(k):
-                        urls.add(rep[k])
+    if os.path.exists("data/inventory.csv"):
+        for row in csv.DictReader(open("data/inventory.csv")):
+            for k in ("url", "replacement_url"):
+                if row.get(k): urls.add(row[k])
+    for e in json.load(open("data/verifications.json"))["entries"] if os.path.exists("data/verifications.json") else []:
+        rep = e.get("replacement") or {}
+        for k in ("url", "url2", "url3"):
+            if rep.get(k): urls.add(rep[k])
+    if os.path.exists("data/additions.json"):
+        for a in json.load(open("data/additions.json"))["entries"]:
+            urls.add(a["url"])
     return sorted(u for u in urls if u.startswith("http"))
 
 async def check(session, url, sems, gsem):
@@ -64,13 +68,20 @@ async def check(session, url, sems, gsem):
             fu = rec.get("final_url", url).lower()
             text = body.decode("utf-8", "ignore").lower()
             hits = [m for m in PAYWALL_MARKERS if m in text]
+            title = re.search(r"<title[^>]*>(.*?)</title>", text, re.S)
+            title = title.group(1).strip()[:120] if title else ""
+            if title: rec["title"] = title
+            if re.search(r"(page not found|^404\b|\b404 not found|doesn.t exist|wikipedia does not have an article)", title):
+                rec["verdict"] = "broken"; rec["soft_404"] = True
             if any(re.search(p, fu) for p in LOGIN_URL_PATTERNS) and not any(re.search(p, url.lower()) for p in LOGIN_URL_PATTERNS):
                 rec["access"] = "login wall"
             elif hits:
                 rec["access"] = "paywall"; rec["paywall_markers"] = hits[:3]
             else:
                 rec["access"] = "open" if (body or "html" not in rec.get("content_type", "html")) else "open (no body read)"
-        if c is None:
+        if rec.get("soft_404"):
+            pass
+        elif c is None:
             rec["verdict"] = "broken" if str(rec.get("error", "")).startswith("dns") else "error"
         elif 200 <= c < 400:
             rec["verdict"] = "ok"
