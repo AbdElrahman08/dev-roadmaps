@@ -35,11 +35,16 @@ const BASE = process.argv[2] || 'http://127.0.0.1:8766/';
   ok('replacement entry links to the free course', hrefs.some(h => h.includes('academy.langchain.com')), hrefs.join(' '));
   await page.click('[data-access="free"]'); await page.waitForTimeout(200);
   const k2 = await page.$$eval('#main .item', x => x.map(i => i.dataset.kind));
-  ok('Verified-free filter shows only verified items', k2.length > 0 && k2.every(k => k === 'free' || k === 'timelimited'), k2.length);
-  await page.click('[data-access="uncertain"]'); await page.waitForTimeout(200);
+  ok('Provider-checked filter shows only provider-checked items', k2.length > 0 && k2.every(k => k === 'free' || k === 'timelimited'), k2.length);
+  await page.click('[data-access="open"]'); await page.waitForTimeout(200);
   const k3 = await page.$$eval('#main .item', x => x.map(i => i.dataset.kind));
-  ok('Uncertain filter shows only uncertain items', k3.every(k => k === 'uncertain'), k3.length);
+  ok('Open-access filter shows only open-access items', k3.length > 0 && k3.every(k => k === 'open'), k3.length);
   await page.click('[data-access="all"]'); await page.waitForTimeout(200);
+  // only verified links are published
+  const allVerified = await page.evaluate(async () => { const d = await (await fetch('data/r/ai-agents.json')).json(); return d.topics.every(t => t.resources.every(r => r.verified === true)); });
+  ok('published roadmap data contains only verified links', allVerified);
+  const brokenShown = await page.evaluate(async () => { const s = await (await fetch('data/search.json')).json(); return s.length; });
+  ok('search index holds only verified links', brokenShown === idx.totals.shown, `${brokenShown} vs ${idx.totals.shown}`);
   // nothing unverified shown as FREE
   const bad = await page.$$eval('#main .item', x => x.filter(i => /^FREE$/.test(i.querySelector('.head .pill').textContent) && i.dataset.kind !== 'free').length);
   ok('no unverified item carries a FREE label', bad === 0, bad);

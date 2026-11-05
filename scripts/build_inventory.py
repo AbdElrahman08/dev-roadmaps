@@ -30,6 +30,44 @@ if os.path.exists("data/verifications.json"):
     for v in json.load(open("data/verifications.json"))["entries"]:
         VER[v["url"]] = v
 LINKS = json.load(open("data/linkcheck.json"))["results"] if os.path.exists("data/linkcheck.json") else {}
+ADD = {}
+if os.path.exists("data/additions.json"):
+    for a in json.load(open("data/additions.json"))["entries"]:
+        ADD.setdefault((a["roadmap"], a["topic_id"]), []).append(a)
+
+def link_open(li):
+    """Verified open access: page loaded (2xx/3xx) for a signed-out visitor with no paywall or login wall detected."""
+    if not li or li.get("verdict") != "ok":
+        return False
+    return li.get("access", "open").startswith("open")
+
+def hard_fail(li):
+    """A definite failure: the page is gone or walled. Bot blocks and timeouts are inconclusive, not failures."""
+    return bool(li) and (li.get("verdict") == "broken" or li.get("access") in ("paywall", "login wall"))
+
+def verdict(r):
+    """Return (verified, basis_or_reason)."""
+    li = r.get("link"); a = r["access_status"]
+    if r.get("action") == "replace" and r.get("replacement"):
+        rl = LINKS.get(r["replacement"]["url"])
+        if hard_fail(rl):
+            return False, "replacement link broken or walled"
+        return True, "free replacement (provider page checked)"
+    if r.get("source") == "added":
+        return (link_open(li) or li is None), "added for an empty topic (provider page or open-access check)"
+    if r["verification"] == "provider-page" and a.startswith("free") and not hard_fail(li):
+        return True, "provider page checked by hand"
+    if not li:
+        return False, "link not checked yet"
+    if li.get("verdict") != "ok":
+        return False, f"link {li.get('verdict')}" + (f" ({li.get('code')})" if li.get("code") else "")
+    if not link_open(li):
+        return False, li.get("access", "access not open")
+    if r["verification"] == "provider-page":
+        return (True, "provider page checked") if a.startswith("free") else (False, a)
+    if a == "cost not reviewed":
+        return True, "open-access check: loaded publicly, no paywall or login wall"
+    return False, a
 
 # Hosts whose courses are commonly paywalled or certificate-gated: flagged for provider review, never shown as free until verified.
 PAID_HOSTS = {"coursera.org", "udemy.com", "udacity.com", "pluralsight.com", "linkedin.com", "educative.io", "datacamp.com",
@@ -182,12 +220,20 @@ for slug in slugs:
             else:
                 target["resources"].append(dict(title=b["label"], url=b["url"], type="page button", in_repo=False, in_page=True,
                                                 page_node_id=b["id"], grouping="by page position"))
+    # reviewed additions for topics that had no verified link
+    for t in out_topics:
+        for a in ADD.get((slug, t["id"]), []):
+            t["resources"].append(dict(title=a["title"], url=a["url"], type=a.get("type", "article"), in_repo=False, in_page=False,
+                                       page_node_id="", source="added", provider=a.get("provider", ""), cost_evidence=a.get("evidence", ""),
+                                       why=a.get("why", ""), verified_on=a.get("verified_on", "")))
     # enrich
-    counts = dict(resources=0, verified_free=0, uncertain=0, replaced=0, needs_review=0, not_reviewed=0, link_ok=0, link_bad=0, link_unchecked=0)
+    counts = dict(resources=0, shown=0, removed=0, added=0, verified_free=0, uncertain=0, replaced=0, needs_review=0, not_reviewed=0, link_ok=0, link_bad=0, link_unchecked=0)
     for t in out_topics:
         for r in t["resources"]:
             r["id"] = rid(slug, t["id"], r["url"], r["title"])
             st, method = classify(r["url"], r["type"], r["in_page"])
+            if r.get("source") == "added":
+                st, method = "free", "provider-page"
             r["access_status"], r["verification"] = st, method
             v = VER.get(r["url"])
             if v:
@@ -198,6 +244,10 @@ for slug in slugs:
             if li:
                 r["link"] = li
             counts["resources"] += 1
+            ok, why = verdict(r)
+            r["verified"], r["basis" if ok else "removed_reason"] = ok, why
+            counts["shown" if ok else "removed"] += 1
+            if r.get("source") == "added": counts["added"] += 1
             a = r["access_status"]
             if r.get("action") == "replace":
                 counts["replaced"] += 1
@@ -211,18 +261,28 @@ for slug in slugs:
                 counts["uncertain"] += 1
             ls = (li or {}).get("verdict")
             counts["link_ok" if ls == "ok" else "link_bad" if ls in ("broken", "error") else "link_unchecked"] += 1
-            search.append([slug, t["label"], r["title"], r["url"], a, r.get("action", "")])
+            if ok:
+                search.append([slug, t["label"], (r.get("replacement") or {}).get("title") or r["title"], (r.get("replacement") or {}).get("url") or r["url"], a, r.get("action", "")])
             csv_rows.append(dict(roadmap=slug, topic=t["label"], topic_id=t["id"], title=r["title"], url=r["url"], type=r["type"],
-                                 source="+".join(x for x, f in (("page", r["in_page"]), ("repo", r["in_repo"])) if f),
+                                 source="+".join(x for x, f in (("page", r["in_page"]), ("repo", r["in_repo"]), ("added", r.get("source") == "added")) if f),
                                  page_node_id=r["page_node_id"], access_status=a, verification=method,
                                  cost_evidence=r.get("cost_evidence", ""), verified_on=r.get("verified_on", ""),
                                  action=r.get("action", ""), replacement_title=(r.get("replacement") or {}).get("title", ""),
                                  replacement_url=(r.get("replacement") or {}).get("url", ""),
                                  replacement_why=(r.get("replacement") or {}).get("why", ""),
                                  link_verdict=(li or {}).get("verdict", "unchecked"), link_code=(li or {}).get("code", ""),
-                                 link_checked_at=(li or {}).get("checked_at", "")))
+                                 link_checked_at=(li or {}).get("checked_at", ""), link_access=(li or {}).get("access", ""),
+                                 shown_on_site="yes" if ok else "no", basis_or_removed_reason=why,
+                                 added_source="added" if r.get("source") == "added" else ""))
+    site_topics = []
+    for t in out_topics:
+        keep = [r for r in t["resources"] if r["verified"]]
+        if t["id"] == "page-extras" and not keep:
+            continue
+        site_topics.append(dict(t, resources=keep, removed=len(t["resources"]) - len(keep)))
+    counts["topics_without_verified_link"] = sum(1 for t in site_topics if not t["resources"])
     rec = dict(slug=slug, title=(page or {}).get("title") or nice_title(slug), page_updatedAt=(page or {}).get("updatedAt"),
-               page_fetched=bool(page), repo_commit=REPO_COMMIT, topics=out_topics, counts=counts)
+               page_fetched=bool(page), repo_commit=REPO_COMMIT, topics=site_topics, counts=counts)
     json.dump(rec, open(f"{OUT}/r/{slug}.json", "w"), ensure_ascii=False, separators=(",", ":"))
     index.append(dict(slug=slug, title=rec["title"], page_updatedAt=rec["page_updatedAt"], page_fetched=bool(page),
                       topics=len(out_topics), counts=counts))
@@ -232,7 +292,7 @@ for slug in slugs:
                          repo_resource_links=repo_links, page_resource_buttons=page_btn,
                          inventory_resources=counts["resources"]))
 
-totals = {k: sum(i["counts"][k] for i in index) for k in index[0]["counts"]}
+totals = {k: sum(i["counts"].get(k, 0) for i in index) for k in index[0]["counts"]}
 json.dump(dict(repo_commit=REPO_COMMIT, roadmaps=index, totals=totals,
                verification_entries=len(VER), linkcheck_entries=len(LINKS)), open(f"{OUT}/index.json", "w"), ensure_ascii=False, indent=1)
 json.dump(search, open(f"{OUT}/search.json", "w"), ensure_ascii=False, separators=(",", ":"))

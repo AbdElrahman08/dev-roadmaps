@@ -89,21 +89,21 @@ footer{border-top:1px solid var(--line);padding-block:18px 40px;font-size:13px;c
 <header class="top wrap">
   <div class="eyebrow" id="eyebrow">Loading inventory…</div>
   <h1>Free Dev Roadmaps</h1>
-  <p class="lede">Every roadmap on roadmap.sh, rebuilt from one inventory. Courses are checked on the provider's own page; paid or unconfirmed ones are swapped for free equivalents or labelled. Everything else is link-checked but its cost is marked as not yet reviewed.</p>
+  <p class="lede">Every roadmap on roadmap.sh, rebuilt from one inventory and showing only verified links. Courses are checked on the provider's own page, paid ones are swapped for free equivalents, and every other link has to load publicly with no paywall or login wall. Topics that lost all their links get a hand-picked verified resource.</p>
   <div class="facts" id="facts"></div>
 </header>
 
 <div class="bar" role="search">
   <div class="wrap">
     <label for="q" style="position:absolute;left:-9999px">Search all roadmaps</label>
-    <input id="q" type="search" placeholder="Search all 97 roadmaps…" autocomplete="off">
+    <input id="q" type="search" placeholder="Search verified links in all roadmaps…" autocomplete="off">
     <select id="roadmapSelect" aria-label="Roadmap"></select>
     <div class="chips" id="accessChips" role="group" aria-label="Access">
       <button class="chip" data-access="all" aria-pressed="true">All</button>
-      <button class="chip" data-access="free" aria-pressed="false">Verified free</button>
+      <button class="chip" data-access="free" aria-pressed="false">Provider-checked</button>
       <button class="chip" data-access="replacement" aria-pressed="false">Replacements</button>
-      <button class="chip" data-access="uncertain" aria-pressed="false">Uncertain</button>
-      <button class="chip" data-access="broken" aria-pressed="false">Broken links</button>
+      <button class="chip" data-access="added" aria-pressed="false">Added</button>
+      <button class="chip" data-access="open" aria-pressed="false">Open access</button>
     </div>
     <div class="progress"><span id="progressText">0 done</span><span class="meter"><i id="meter"></i></span><button class="chip" id="resetProgress" type="button">Reset</button></div>
   </div>
@@ -117,10 +117,11 @@ footer{border-top:1px solid var(--line);padding-block:18px 40px;font-size:13px;c
 <div class="wrap layout" id="layout">
   <nav class="index" aria-label="Topics"><ol id="nav"></ol>
     <div class="legend">
-      <span><span class="pill s-free">FREE</span> confirmed on provider page</span>
-      <span><span class="pill s-uncertain">UNCERTAIN</span> free access not confirmed</span>
-      <span><span class="pill s-nr">NOT REVIEWED</span> cost not yet checked</span>
-      <span><span class="pill s-link">BROKEN</span> link check failed</span>
+      <span><span class="pill s-free">FREE</span> free access confirmed on the provider's page</span>
+      <span><span class="pill s-free">FREE REPLACEMENT</span> stands in for a paid course</span>
+      <span><span class="pill s-free">ADDED</span> picked for a topic that had no verified link</span>
+      <span><span class="pill s-nr">OPEN ACCESS</span> loaded publicly, no paywall or login wall</span>
+      <span>Unverified, broken, paywalled and sponsor links are not shown; they stay in the inventory with the reason.</span>
     </div>
   </nav>
   <main id="main"><div class="empty">Pick a roadmap above.</div></main>
@@ -139,17 +140,14 @@ let INDEX=null, SEARCH=null, current=null, cache={};
 const state={q:'',access:'all',limit:{}};
 
 function kind(r){
-  const a=(r.access_status||'').toLowerCase(), lv=(r.link||{}).verdict;
   if(r.action==='replace'&&r.replacement) return 'replacement';
-  if(lv==='broken') return 'broken';
-  if(a.startsWith('free')&&r.verification==='provider-page') return a.includes('time-limited')?'timelimited':'free';
-  if(a==='cost not reviewed'||a==='internal link'||a==='sponsor or profile link') return 'nr';
-  return 'uncertain';
+  if(r.source==='added') return 'added';
+  if(r.verification==='provider-page') return (r.access_status||'').includes('time-limited')?'timelimited':'free';
+  return 'open';
 }
 function pill(k,r){
   return {free:['s-free','FREE'],timelimited:['s-uncertain','FREE · TIME-LIMITED'],replacement:['s-free','FREE REPLACEMENT'],
-    uncertain:['s-uncertain', (r.access_status==='paid'?'PAID':'UNCERTAIN')],broken:['s-link','BROKEN LINK'],
-    nr:['s-nr', r.access_status==='internal link'?'ROADMAP.SH':r.access_status==='sponsor or profile link'?'SPONSOR / PROFILE':'NOT REVIEWED']}[k];
+    added:['s-free','ADDED'],open:['s-nr','OPEN ACCESS']}[k];
 }
 function match(k){
   if(state.access==='all') return true;
@@ -162,9 +160,11 @@ function card(r){
   let dl=`<dt>Access</dt><dd>${esc(rep?rep.access:r.access_status)}</dd>`;
   if(rep) dl+=`<dt>Evidence</dt><dd>${esc(rep.evidence)}</dd><dt>Why it fits</dt><dd>${esc(rep.why)}</dd><dt>Gaps</dt><dd>${esc(rep.gap||'')}</dd><dt>Original</dt><dd><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a> — ${esc(r.access_status)}. ${esc(r.cost_evidence||'')}</dd>`;
   else if(r.cost_evidence) dl+=`<dt>Evidence</dt><dd>${esc(r.cost_evidence)}</dd>`;
+  if(r.why) dl+=`<dt>Why it fits</dt><dd>${esc(r.why)}</dd>`;
   if(r.notes) dl+=`<dt>Note</dt><dd>${esc(r.notes)}</dd>`;
-  const li=r.link; dl+=`<dt>Link check</dt><dd>${li?esc(li.verdict+(li.code?' ('+li.code+')':'')+' · '+li.checked_at):'not yet run'}</dd>`;
-  dl+=`<dt>Source</dt><dd>${[r.in_page&&'page',r.in_repo&&'repo'].filter(Boolean).join(' + ')}${r.grouping?' · grouped by page position':''}</dd>`;
+  if(r.basis) dl+=`<dt>Verified by</dt><dd>${esc(r.basis)}</dd>`;
+  const li=r.link; dl+=`<dt>Link check</dt><dd>${li?esc((li.access||li.verdict)+(li.code?' ('+li.code+')':'')+' · '+li.checked_at):'not yet run'}</dd>`;
+  dl+=`<dt>Source</dt><dd>${[r.in_page&&'roadmap.sh page',r.in_repo&&'roadmap.sh repository',r.source==='added'&&'added here'].filter(Boolean).join(' + ')}${r.grouping?' · grouped by page position':''}</dd>`;
   if(r.verified_on) dl+=`<dt>Verified</dt><dd>${esc(r.verified_on)}</dd>`;
   return `<div class="item${done?' done':''}" data-id="${r.id}" data-kind="${k}"><input type="checkbox" id="cb-${r.id}" ${done?'checked':''} aria-label="Mark ${esc(title)} as done">
   <div><div class="head"><span class="title"><a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a></span><span class="pill ${p[0]}">${p[1]}</span></div>
@@ -185,13 +185,13 @@ async function show(s){
 }
 function renderRoadmap(){
   const d=current, main=document.getElementById('main'), c=d.counts;
-  let html=`<div class="rmhead"><h2>${esc(d.title)}</h2><p>${c.resources} resources · ${c.verified_free} verified free · ${c.replaced} free replacements · ${c.uncertain+c.needs_review} uncertain or awaiting review · ${c.not_reviewed} not cost-reviewed. Page data ${d.page_fetched?'updated '+esc((d.page_updatedAt||'').slice(0,10)):'not fetched yet (repository content only)'}.</p></div>`;
+  let html=`<div class="rmhead"><h2>${esc(d.title)}</h2><p>${c.shown} verified links (${c.replaced} free replacements, ${c.added} added) · ${c.removed} unverified links removed · ${c.topics_without_verified_link} topics still without a link. Page data ${d.page_fetched?'updated '+esc((d.page_updatedAt||'').slice(0,10)):'not fetched'}.</p></div>`;
   let shown=0;
   d.topics.forEach(t=>{
     const rs=t.resources.filter(r=>match(kind(r)));
     if(!rs.length && state.access!=='all') return;
     shown+=rs.length;
-    html+=`<section class="topic" id="t-${slug(t.id)}"><h3><span class="ord">${String(t.order).padStart(3,'0')}</span>${esc(t.label)}<span class="src">${[t.in_page&&'page',t.in_repo&&'repo'].filter(Boolean).join('+')}</span></h3><div class="items">${rs.length?rs.map(card).join(''):'<div class="meta">No linked resources for this topic.</div>'}</div></section>`;
+    html+=`<section class="topic" id="t-${slug(t.id)}"><h3><span class="ord">${String(t.order).padStart(3,'0')}</span>${esc(t.label)}<span class="src">${[t.in_page&&'page',t.in_repo&&'repo'].filter(Boolean).join('+')}</span></h3><div class="items">${rs.length?rs.map(card).join(''):'<div class="meta">No verified link yet for this topic.</div>'}</div></section>`;
   });
   main.innerHTML=html+(shown||state.access==='all'?'':`<div class="empty" id="emptyState">Nothing in this roadmap matches the filter.</div>`);
   renderNav(); renderProgress();
@@ -216,7 +216,7 @@ async function runSearch(){
   const hits=SEARCH.filter(x=>{const h=(x[0]+' '+x[1]+' '+x[2]+' '+x[3]).toLowerCase();return words.every(w=>h.includes(w))});
   const top=hits.slice(0,60);
   box.hidden=false;
-  box.innerHTML=`<h2 id="searchCount">${hits.length} results across all roadmaps</h2>`+(top.length?`<div class="items">${top.map(x=>`<div class="item search-hit"><span></span><div><div class="head"><span class="title"><a href="${esc(x[3])}" target="_blank" rel="noopener">${esc(x[2])}</a></span></div><div class="meta"><a href="#${esc(x[0])}" data-goto="${esc(x[0])}">${esc(x[0])}</a> · ${esc(x[1])} · ${esc(x[5]==='replace'?'replaced with a free equivalent':x[4])}</div></div></div>`).join('')}</div>${hits.length>60?'<p class="meta">Showing the first 60. Narrow the search to see more.</p>':''}`:'<div class="empty" id="emptyState">No resources match. Try fewer words.</div>');
+  box.innerHTML=`<h2 id="searchCount">${hits.length} results across all roadmaps</h2>`+(top.length?`<div class="items">${top.map(x=>`<div class="item search-hit"><span></span><div><div class="head"><span class="title"><a href="${esc(x[3])}" target="_blank" rel="noopener">${esc(x[2])}</a></span></div><div class="meta"><a href="#${esc(x[0])}" data-goto="${esc(x[0])}">${esc(x[0])}</a> · ${esc(x[1])} · ${esc(x[5]==='replace'?'free replacement':x[4]==='cost not reviewed'?'open access':x[4])}</div></div></div>`).join('')}</div>${hits.length>60?'<p class="meta">Showing the first 60. Narrow the search to see more.</p>':''}`:'<div class="empty" id="emptyState">No resources match. Try fewer words.</div>');
 }
 let timer;
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim().toLowerCase();clearTimeout(timer);timer=setTimeout(runSearch,150)});
@@ -235,12 +235,12 @@ window.addEventListener('hashchange',route);
   try{INDEX=await (await fetch('data/index.json')).json()}catch(e){document.getElementById('eyebrow').textContent='Could not load data/index.json. Reload the page to try again.';return}
   const T=INDEX.totals;
   document.getElementById('eyebrow').textContent=`${INDEX.roadmaps.length} roadmaps · source commit ${INDEX.repo_commit.slice(0,8)}`;
-  document.getElementById('facts').innerHTML=`<span><b>${T.resources.toLocaleString()}</b> resources</span><span><b>${T.verified_free}</b> verified free</span><span><b>${T.replaced}</b> free replacements</span><span><b>${(T.uncertain+T.needs_review)}</b> uncertain or awaiting review</span><span><b>${(T.link_ok+T.link_bad).toLocaleString()}</b> links checked</span>`;
+  document.getElementById('facts').innerHTML=`<span><b>${T.shown.toLocaleString()}</b> verified links</span><span><b>${T.replaced}</b> free replacements</span><span><b>${T.added}</b> added for empty topics</span><span><b>${T.removed.toLocaleString()}</b> unverified links removed</span>`;
   document.getElementById('sourceLine').innerHTML=`Source: <a href="https://roadmap.sh/" target="_blank" rel="noopener">roadmap.sh</a> page data and <a href="https://github.com/kamranahmedse/developer-roadmap/tree/${esc(INDEX.repo_commit)}/roadmaps" target="_blank" rel="noopener">its public repository</a> at commit ${esc(INDEX.repo_commit.slice(0,8))}. ${INDEX.verification_entries} provider-page verifications.`;
   const rs=INDEX.roadmaps.slice().sort((a,b)=>(PILOT.has(b.slug)-PILOT.has(a.slug))||a.title.localeCompare(b.title));
   document.getElementById('catSummary').textContent=`Browse all ${INDEX.roadmaps.length} roadmaps`;
   document.getElementById('roadmapSelect').innerHTML=rs.map(r=>`<option value="${r.slug}">${esc(r.title)}</option>`).join('');
-  document.getElementById('grid').innerHTML=rs.map(r=>`<a class="rm" href="#${r.slug}" data-slug="${r.slug}"><b>${esc(r.title)}</b><span>${r.counts.resources} resources · ${r.topics} topics</span><span class="${PILOT.has(r.slug)?'pilot':''}">${PILOT.has(r.slug)?'Courses verified':(r.counts.needs_review===1?'1 course':r.counts.needs_review+' courses')+' awaiting review'}</span></a>`).join('');
+  document.getElementById('grid').innerHTML=rs.map(r=>`<a class="rm" href="#${r.slug}" data-slug="${r.slug}"><b>${esc(r.title)}</b><span>${r.topics} topics</span><span class="${PILOT.has(r.slug)?'pilot':''}">${PILOT.has(r.slug)?'Courses verified':(r.counts.needs_review===1?'1 course':r.counts.needs_review+' courses')+' awaiting review'}</span></a>`).join('');
   document.getElementById('results').addEventListener('click',e=>{const a=e.target.closest('[data-goto]');if(a){document.getElementById('q').value='';state.q='';runSearch()}});
   if(!location.hash||!INDEX.roadmaps.some(r=>r.slug===location.hash.slice(1))) await show('ai-data-scientist'); else route();
 })();
