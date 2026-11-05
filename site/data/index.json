@@ -8,19 +8,19 @@
    "page_fetched": true,
    "topics": 101,
    "counts": {
-    "resources": 280,
-    "shown": 218,
+    "resources": 282,
+    "shown": 220,
     "removed": 62,
-    "added": 0,
-    "verified_free": 6,
+    "added": 2,
+    "verified_free": 8,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 273,
-    "link_ok": 216,
-    "link_bad": 0,
-    "link_unchecked": 64,
-    "topics_without_verified_link": 3
+    "link_ok": 220,
+    "link_bad": 2,
+    "link_unchecked": 60,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -30,19 +30,19 @@
    "page_fetched": true,
    "topics": 10,
    "counts": {
-    "resources": 75,
-    "shown": 67,
+    "resources": 76,
+    "shown": 68,
     "removed": 8,
-    "added": 0,
-    "verified_free": 49,
+    "added": 1,
+    "verified_free": 50,
     "uncertain": 5,
     "replaced": 18,
     "needs_review": 0,
     "not_reviewed": 3,
-    "link_ok": 62,
+    "link_ok": 67,
     "link_bad": 0,
-    "link_unchecked": 13,
-    "topics_without_verified_link": 1
+    "link_unchecked": 9,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -52,19 +52,19 @@
    "page_fetched": true,
    "topics": 191,
    "counts": {
-    "resources": 486,
-    "shown": 290,
-    "removed": 196,
-    "added": 0,
-    "verified_free": 15,
+    "resources": 495,
+    "shown": 303,
+    "removed": 192,
+    "added": 9,
+    "verified_free": 24,
     "uncertain": 2,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 468,
-    "link_ok": 288,
-    "link_bad": 0,
-    "link_unchecked": 198,
-    "topics_without_verified_link": 18
+    "link_ok": 316,
+    "link_bad": 11,
+    "link_unchecked": 168,
+    "topics_without_verified_link": 11
    }
   },
   {
@@ -74,19 +74,19 @@
    "page_fetched": true,
    "topics": 54,
    "counts": {
-    "resources": 129,
-    "shown": 73,
-    "removed": 56,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 139,
+    "shown": 84,
+    "removed": 55,
+    "added": 10,
+    "verified_free": 12,
     "uncertain": 3,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 124,
-    "link_ok": 72,
+    "link_ok": 106,
     "link_bad": 0,
-    "link_unchecked": 57,
-    "topics_without_verified_link": 11
+    "link_unchecked": 33,
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -97,17 +97,17 @@
    "topics": 65,
    "counts": {
     "resources": 207,
-    "shown": 165,
-    "removed": 42,
+    "shown": 167,
+    "removed": 40,
     "added": 0,
     "verified_free": 6,
     "uncertain": 0,
     "replaced": 5,
     "needs_review": 0,
     "not_reviewed": 196,
-    "link_ok": 165,
-    "link_bad": 0,
-    "link_unchecked": 42,
+    "link_ok": 170,
+    "link_bad": 17,
+    "link_unchecked": 20,
     "topics_without_verified_link": 0
    }
   },
@@ -118,19 +118,19 @@
    "page_fetched": true,
    "topics": 114,
    "counts": {
-    "resources": 206,
-    "shown": 158,
-    "removed": 48,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 210,
+    "shown": 165,
+    "removed": 45,
+    "added": 4,
+    "verified_free": 6,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 204,
-    "link_ok": 158,
-    "link_bad": 0,
-    "link_unchecked": 48,
-    "topics_without_verified_link": 6
+    "link_ok": 170,
+    "link_bad": 5,
+    "link_unchecked": 35,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -140,19 +140,19 @@
    "page_fetched": true,
    "topics": 159,
    "counts": {
-    "resources": 414,
-    "shown": 333,
-    "removed": 81,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 418,
+    "shown": 324,
+    "removed": 94,
+    "added": 4,
+    "verified_free": 4,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 414,
-    "link_ok": 333,
-    "link_bad": 0,
-    "link_unchecked": 81,
-    "topics_without_verified_link": 4
+    "link_ok": 324,
+    "link_bad": 6,
+    "link_unchecked": 88,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -162,19 +162,19 @@
    "page_fetched": true,
    "topics": 97,
    "counts": {
-    "resources": 255,
-    "shown": 182,
-    "removed": 73,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 257,
+    "shown": 181,
+    "removed": 76,
+    "added": 2,
+    "verified_free": 2,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 254,
-    "link_ok": 182,
-    "link_bad": 0,
-    "link_unchecked": 73,
-    "topics_without_verified_link": 5
+    "link_ok": 193,
+    "link_bad": 1,
+    "link_unchecked": 63,
+    "topics_without_verified_link": 4
    }
   },
   {
@@ -184,19 +184,19 @@
    "page_fetched": true,
    "topics": 146,
    "counts": {
-    "resources": 359,
-    "shown": 255,
-    "removed": 104,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 375,
+    "shown": 272,
+    "removed": 103,
+    "added": 16,
+    "verified_free": 17,
     "uncertain": 4,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 354,
-    "link_ok": 255,
-    "link_bad": 0,
-    "link_unchecked": 104,
-    "topics_without_verified_link": 19
+    "link_ok": 287,
+    "link_bad": 19,
+    "link_unchecked": 69,
+    "topics_without_verified_link": 4
    }
   },
   {
@@ -206,19 +206,19 @@
    "page_fetched": true,
    "topics": 101,
    "counts": {
-    "resources": 124,
+    "resources": 125,
     "shown": 116,
-    "removed": 8,
-    "added": 0,
-    "verified_free": 5,
+    "removed": 9,
+    "added": 1,
+    "verified_free": 6,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 119,
-    "link_ok": 114,
-    "link_bad": 0,
-    "link_unchecked": 10,
-    "topics_without_verified_link": 1
+    "link_ok": 116,
+    "link_bad": 1,
+    "link_unchecked": 8,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -228,19 +228,19 @@
    "page_fetched": true,
    "topics": 156,
    "counts": {
-    "resources": 526,
+    "resources": 528,
     "shown": 290,
-    "removed": 236,
-    "added": 0,
-    "verified_free": 18,
+    "removed": 238,
+    "added": 2,
+    "verified_free": 20,
     "uncertain": 2,
     "replaced": 3,
     "needs_review": 0,
     "not_reviewed": 503,
-    "link_ok": 280,
-    "link_bad": 1,
-    "link_unchecked": 245,
-    "topics_without_verified_link": 8
+    "link_ok": 330,
+    "link_bad": 6,
+    "link_unchecked": 192,
+    "topics_without_verified_link": 6
    }
   },
   {
@@ -250,19 +250,19 @@
    "page_fetched": true,
    "topics": 26,
    "counts": {
-    "resources": 107,
-    "shown": 54,
+    "resources": 109,
+    "shown": 56,
     "removed": 53,
-    "added": 0,
-    "verified_free": 2,
+    "added": 2,
+    "verified_free": 4,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 104,
-    "link_ok": 53,
-    "link_bad": 0,
-    "link_unchecked": 54,
-    "topics_without_verified_link": 4
+    "link_ok": 73,
+    "link_bad": 3,
+    "link_unchecked": 33,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -272,19 +272,19 @@
    "page_fetched": true,
    "topics": 203,
    "counts": {
-    "resources": 281,
-    "shown": 170,
-    "removed": 111,
-    "added": 0,
-    "verified_free": 20,
+    "resources": 344,
+    "shown": 218,
+    "removed": 126,
+    "added": 63,
+    "verified_free": 83,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 260,
-    "link_ok": 170,
-    "link_bad": 0,
-    "link_unchecked": 111,
-    "topics_without_verified_link": 79
+    "link_ok": 228,
+    "link_bad": 3,
+    "link_unchecked": 113,
+    "topics_without_verified_link": 35
    }
   },
   {
@@ -294,19 +294,19 @@
    "page_fetched": true,
    "topics": 127,
    "counts": {
-    "resources": 398,
-    "shown": 283,
-    "removed": 115,
-    "added": 0,
-    "verified_free": 25,
+    "resources": 400,
+    "shown": 299,
+    "removed": 101,
+    "added": 2,
+    "verified_free": 27,
     "uncertain": 1,
     "replaced": 2,
     "needs_review": 0,
     "not_reviewed": 370,
-    "link_ok": 283,
-    "link_bad": 0,
-    "link_unchecked": 115,
-    "topics_without_verified_link": 3
+    "link_ok": 308,
+    "link_bad": 14,
+    "link_unchecked": 78,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -316,19 +316,19 @@
    "page_fetched": true,
    "topics": 145,
    "counts": {
-    "resources": 337,
-    "shown": 189,
-    "removed": 148,
-    "added": 0,
-    "verified_free": 3,
+    "resources": 350,
+    "shown": 209,
+    "removed": 141,
+    "added": 13,
+    "verified_free": 16,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 334,
-    "link_ok": 189,
-    "link_bad": 0,
-    "link_unchecked": 148,
-    "topics_without_verified_link": 26
+    "link_ok": 211,
+    "link_bad": 3,
+    "link_unchecked": 136,
+    "topics_without_verified_link": 13
    }
   },
   {
@@ -338,19 +338,19 @@
    "page_fetched": true,
    "topics": 149,
    "counts": {
-    "resources": 451,
-    "shown": 351,
-    "removed": 100,
-    "added": 0,
-    "verified_free": 10,
+    "resources": 455,
+    "shown": 349,
+    "removed": 106,
+    "added": 4,
+    "verified_free": 14,
     "uncertain": 0,
     "replaced": 3,
     "needs_review": 0,
     "not_reviewed": 438,
-    "link_ok": 348,
-    "link_bad": 0,
-    "link_unchecked": 103,
-    "topics_without_verified_link": 4
+    "link_ok": 353,
+    "link_bad": 1,
+    "link_unchecked": 101,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -360,18 +360,18 @@
    "page_fetched": true,
    "topics": 119,
    "counts": {
-    "resources": 366,
+    "resources": 367,
     "shown": 211,
-    "removed": 155,
-    "added": 0,
-    "verified_free": 6,
+    "removed": 156,
+    "added": 1,
+    "verified_free": 7,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 359,
-    "link_ok": 209,
-    "link_bad": 0,
-    "link_unchecked": 157,
+    "link_ok": 231,
+    "link_bad": 5,
+    "link_unchecked": 131,
     "topics_without_verified_link": 10
    }
   },
@@ -382,19 +382,19 @@
    "page_fetched": true,
    "topics": 98,
    "counts": {
-    "resources": 212,
-    "shown": 190,
+    "resources": 213,
+    "shown": 191,
     "removed": 22,
-    "added": 0,
-    "verified_free": 0,
+    "added": 1,
+    "verified_free": 1,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 211,
-    "link_ok": 192,
-    "link_bad": 0,
-    "link_unchecked": 20,
-    "topics_without_verified_link": 3
+    "link_ok": 198,
+    "link_bad": 3,
+    "link_unchecked": 12,
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -404,19 +404,19 @@
    "page_fetched": true,
    "topics": 10,
    "counts": {
-    "resources": 16,
-    "shown": 16,
+    "resources": 20,
+    "shown": 20,
     "removed": 0,
-    "added": 0,
-    "verified_free": 0,
+    "added": 4,
+    "verified_free": 4,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 16,
-    "link_ok": 16,
+    "link_ok": 20,
     "link_bad": 0,
     "link_unchecked": 0,
-    "topics_without_verified_link": 4
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -427,17 +427,17 @@
    "topics": 116,
    "counts": {
     "resources": 232,
-    "shown": 216,
-    "removed": 16,
+    "shown": 217,
+    "removed": 15,
     "added": 0,
     "verified_free": 0,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 232,
-    "link_ok": 216,
+    "link_ok": 218,
     "link_bad": 0,
-    "link_unchecked": 16,
+    "link_unchecked": 14,
     "topics_without_verified_link": 0
    }
   },
@@ -448,19 +448,19 @@
    "page_fetched": true,
    "topics": 189,
    "counts": {
-    "resources": 497,
-    "shown": 229,
-    "removed": 268,
-    "added": 0,
-    "verified_free": 11,
+    "resources": 505,
+    "shown": 240,
+    "removed": 265,
+    "added": 8,
+    "verified_free": 19,
     "uncertain": 3,
     "replaced": 17,
     "needs_review": 0,
     "not_reviewed": 466,
-    "link_ok": 216,
-    "link_bad": 8,
-    "link_unchecked": 273,
-    "topics_without_verified_link": 48
+    "link_ok": 251,
+    "link_bad": 25,
+    "link_unchecked": 229,
+    "topics_without_verified_link": 35
    }
   },
   {
@@ -470,19 +470,19 @@
    "page_fetched": true,
    "topics": 129,
    "counts": {
-    "resources": 154,
-    "shown": 73,
-    "removed": 81,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 209,
+    "shown": 115,
+    "removed": 94,
+    "added": 55,
+    "verified_free": 56,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 152,
-    "link_ok": 72,
-    "link_bad": 0,
-    "link_unchecked": 82,
-    "topics_without_verified_link": 73
+    "link_ok": 118,
+    "link_bad": 1,
+    "link_unchecked": 90,
+    "topics_without_verified_link": 36
    }
   },
   {
@@ -492,19 +492,19 @@
    "page_fetched": true,
    "topics": 104,
    "counts": {
-    "resources": 239,
-    "shown": 159,
-    "removed": 80,
-    "added": 0,
-    "verified_free": 9,
+    "resources": 241,
+    "shown": 160,
+    "removed": 81,
+    "added": 2,
+    "verified_free": 11,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 230,
-    "link_ok": 155,
-    "link_bad": 0,
-    "link_unchecked": 84,
-    "topics_without_verified_link": 9
+    "link_ok": 160,
+    "link_bad": 1,
+    "link_unchecked": 80,
+    "topics_without_verified_link": 8
    }
   },
   {
@@ -514,19 +514,19 @@
    "page_fetched": true,
    "topics": 301,
    "counts": {
-    "resources": 679,
-    "shown": 384,
-    "removed": 295,
-    "added": 0,
-    "verified_free": 19,
+    "resources": 689,
+    "shown": 397,
+    "removed": 292,
+    "added": 10,
+    "verified_free": 29,
     "uncertain": 4,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 656,
-    "link_ok": 380,
-    "link_bad": 1,
-    "link_unchecked": 298,
-    "topics_without_verified_link": 40
+    "link_ok": 410,
+    "link_bad": 7,
+    "link_unchecked": 272,
+    "topics_without_verified_link": 29
    }
   },
   {
@@ -536,19 +536,19 @@
    "page_fetched": true,
    "topics": 102,
    "counts": {
-    "resources": 198,
-    "shown": 119,
-    "removed": 79,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 208,
+    "shown": 123,
+    "removed": 85,
+    "added": 10,
+    "verified_free": 11,
     "uncertain": 1,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 195,
-    "link_ok": 119,
-    "link_bad": 0,
-    "link_unchecked": 79,
-    "topics_without_verified_link": 21
+    "link_ok": 143,
+    "link_bad": 2,
+    "link_unchecked": 63,
+    "topics_without_verified_link": 16
    }
   },
   {
@@ -558,19 +558,19 @@
    "page_fetched": true,
    "topics": 187,
    "counts": {
-    "resources": 395,
-    "shown": 248,
-    "removed": 147,
-    "added": 0,
-    "verified_free": 6,
+    "resources": 427,
+    "shown": 278,
+    "removed": 149,
+    "added": 32,
+    "verified_free": 38,
     "uncertain": 7,
     "replaced": 5,
     "needs_review": 0,
     "not_reviewed": 377,
-    "link_ok": 246,
-    "link_bad": 1,
-    "link_unchecked": 148,
-    "topics_without_verified_link": 42
+    "link_ok": 303,
+    "link_bad": 2,
+    "link_unchecked": 122,
+    "topics_without_verified_link": 17
    }
   },
   {
@@ -580,19 +580,19 @@
    "page_fetched": true,
    "topics": 107,
    "counts": {
-    "resources": 114,
-    "shown": 35,
-    "removed": 79,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 174,
+    "shown": 91,
+    "removed": 83,
+    "added": 60,
+    "verified_free": 62,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 112,
-    "link_ok": 34,
+    "link_ok": 106,
     "link_bad": 0,
-    "link_unchecked": 80,
-    "topics_without_verified_link": 85
+    "link_unchecked": 68,
+    "topics_without_verified_link": 35
    }
   },
   {
@@ -602,19 +602,19 @@
    "page_fetched": true,
    "topics": 124,
    "counts": {
-    "resources": 58,
-    "shown": 44,
-    "removed": 14,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 157,
+    "shown": 131,
+    "removed": 26,
+    "added": 99,
+    "verified_free": 99,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 58,
-    "link_ok": 44,
-    "link_bad": 0,
-    "link_unchecked": 14,
-    "topics_without_verified_link": 102
+    "link_ok": 131,
+    "link_bad": 6,
+    "link_unchecked": 20,
+    "topics_without_verified_link": 14
    }
   },
   {
@@ -624,19 +624,19 @@
    "page_fetched": true,
    "topics": 140,
    "counts": {
-    "resources": 419,
-    "shown": 256,
-    "removed": 163,
-    "added": 0,
-    "verified_free": 14,
+    "resources": 420,
+    "shown": 254,
+    "removed": 166,
+    "added": 1,
+    "verified_free": 15,
     "uncertain": 2,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 403,
-    "link_ok": 249,
-    "link_bad": 1,
-    "link_unchecked": 169,
-    "topics_without_verified_link": 8
+    "link_ok": 273,
+    "link_bad": 3,
+    "link_unchecked": 144,
+    "topics_without_verified_link": 9
    }
   },
   {
@@ -646,19 +646,19 @@
    "page_fetched": true,
    "topics": 13,
    "counts": {
-    "resources": 66,
-    "shown": 33,
+    "resources": 67,
+    "shown": 34,
     "removed": 33,
-    "added": 0,
-    "verified_free": 3,
+    "added": 1,
+    "verified_free": 4,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 62,
-    "link_ok": 31,
-    "link_bad": 0,
-    "link_unchecked": 35,
-    "topics_without_verified_link": 1
+    "link_ok": 40,
+    "link_bad": 1,
+    "link_unchecked": 26,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -668,19 +668,19 @@
    "page_fetched": true,
    "topics": 143,
    "counts": {
-    "resources": 136,
-    "shown": 87,
-    "removed": 49,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 219,
+    "shown": 140,
+    "removed": 79,
+    "added": 83,
+    "verified_free": 84,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 135,
-    "link_ok": 87,
-    "link_bad": 0,
-    "link_unchecked": 49,
-    "topics_without_verified_link": 88
+    "link_ok": 143,
+    "link_bad": 8,
+    "link_unchecked": 68,
+    "topics_without_verified_link": 39
    }
   },
   {
@@ -690,19 +690,19 @@
    "page_fetched": true,
    "topics": 94,
    "counts": {
-    "resources": 302,
-    "shown": 170,
-    "removed": 132,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 316,
+    "shown": 180,
+    "removed": 136,
+    "added": 14,
+    "verified_free": 16,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 299,
-    "link_ok": 170,
-    "link_bad": 1,
-    "link_unchecked": 131,
-    "topics_without_verified_link": 16
+    "link_ok": 197,
+    "link_bad": 3,
+    "link_unchecked": 116,
+    "topics_without_verified_link": 6
    }
   },
   {
@@ -712,18 +712,18 @@
    "page_fetched": true,
    "topics": 113,
    "counts": {
-    "resources": 393,
-    "shown": 258,
-    "removed": 135,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 394,
+    "shown": 260,
+    "removed": 134,
+    "added": 1,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 392,
-    "link_ok": 258,
-    "link_bad": 0,
-    "link_unchecked": 135,
+    "link_ok": 265,
+    "link_bad": 1,
+    "link_unchecked": 128,
     "topics_without_verified_link": 2
    }
   },
@@ -734,19 +734,19 @@
    "page_fetched": true,
    "topics": 58,
    "counts": {
-    "resources": 151,
-    "shown": 127,
-    "removed": 24,
-    "added": 0,
-    "verified_free": 15,
+    "resources": 154,
+    "shown": 132,
+    "removed": 22,
+    "added": 3,
+    "verified_free": 18,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 135,
-    "link_ok": 127,
+    "link_ok": 137,
     "link_bad": 0,
-    "link_unchecked": 24,
-    "topics_without_verified_link": 3
+    "link_unchecked": 17,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -756,19 +756,19 @@
    "page_fetched": true,
    "topics": 113,
    "counts": {
-    "resources": 431,
-    "shown": 312,
-    "removed": 119,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 433,
+    "shown": 308,
+    "removed": 125,
+    "added": 2,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 431,
     "link_ok": 312,
-    "link_bad": 0,
-    "link_unchecked": 119,
-    "topics_without_verified_link": 2
+    "link_bad": 6,
+    "link_unchecked": 115,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -778,19 +778,19 @@
    "page_fetched": true,
    "topics": 133,
    "counts": {
-    "resources": 16,
-    "shown": 11,
-    "removed": 5,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 141,
+    "shown": 88,
+    "removed": 53,
+    "added": 125,
+    "verified_free": 125,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 16,
-    "link_ok": 11,
-    "link_bad": 0,
-    "link_unchecked": 5,
-    "topics_without_verified_link": 126
+    "link_ok": 88,
+    "link_bad": 1,
+    "link_unchecked": 52,
+    "topics_without_verified_link": 50
    }
   },
   {
@@ -800,18 +800,18 @@
    "page_fetched": true,
    "topics": 108,
    "counts": {
-    "resources": 223,
+    "resources": 226,
     "shown": 165,
-    "removed": 58,
-    "added": 0,
-    "verified_free": 0,
+    "removed": 61,
+    "added": 3,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 223,
-    "link_ok": 165,
-    "link_bad": 0,
-    "link_unchecked": 58,
+    "link_ok": 171,
+    "link_bad": 2,
+    "link_unchecked": 53,
     "topics_without_verified_link": 5
    }
   },
@@ -822,19 +822,19 @@
    "page_fetched": true,
    "topics": 97,
    "counts": {
-    "resources": 315,
-    "shown": 163,
-    "removed": 152,
-    "added": 0,
-    "verified_free": 7,
+    "resources": 319,
+    "shown": 173,
+    "removed": 146,
+    "added": 4,
+    "verified_free": 11,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 307,
-    "link_ok": 162,
-    "link_bad": 0,
-    "link_unchecked": 153,
-    "topics_without_verified_link": 9
+    "link_ok": 223,
+    "link_bad": 4,
+    "link_unchecked": 92,
+    "topics_without_verified_link": 6
    }
   },
   {
@@ -844,19 +844,19 @@
    "page_fetched": true,
    "topics": 120,
    "counts": {
-    "resources": 393,
-    "shown": 249,
-    "removed": 144,
-    "added": 0,
-    "verified_free": 18,
+    "resources": 394,
+    "shown": 257,
+    "removed": 137,
+    "added": 1,
+    "verified_free": 19,
     "uncertain": 0,
     "replaced": 2,
     "needs_review": 0,
     "not_reviewed": 373,
-    "link_ok": 239,
-    "link_bad": 0,
-    "link_unchecked": 154,
-    "topics_without_verified_link": 4
+    "link_ok": 285,
+    "link_bad": 1,
+    "link_unchecked": 108,
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -867,17 +867,17 @@
    "topics": 9,
    "counts": {
     "resources": 38,
-    "shown": 21,
-    "removed": 17,
+    "shown": 22,
+    "removed": 16,
     "added": 0,
     "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 35,
-    "link_ok": 19,
-    "link_bad": 0,
-    "link_unchecked": 19,
+    "link_ok": 26,
+    "link_bad": 1,
+    "link_unchecked": 11,
     "topics_without_verified_link": 0
    }
   },
@@ -888,19 +888,19 @@
    "page_fetched": true,
    "topics": 37,
    "counts": {
-    "resources": 89,
-    "shown": 45,
-    "removed": 44,
-    "added": 0,
-    "verified_free": 4,
+    "resources": 101,
+    "shown": 60,
+    "removed": 41,
+    "added": 12,
+    "verified_free": 16,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 84,
-    "link_ok": 43,
-    "link_bad": 0,
-    "link_unchecked": 46,
-    "topics_without_verified_link": 14
+    "link_ok": 71,
+    "link_bad": 1,
+    "link_unchecked": 29,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -910,19 +910,19 @@
    "page_fetched": true,
    "topics": 145,
    "counts": {
-    "resources": 267,
-    "shown": 161,
-    "removed": 106,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 283,
+    "shown": 186,
+    "removed": 97,
+    "added": 16,
+    "verified_free": 17,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 265,
-    "link_ok": 161,
-    "link_bad": 0,
-    "link_unchecked": 106,
-    "topics_without_verified_link": 26
+    "link_ok": 195,
+    "link_bad": 13,
+    "link_unchecked": 75,
+    "topics_without_verified_link": 11
    }
   },
   {
@@ -932,19 +932,19 @@
    "page_fetched": true,
    "topics": 156,
    "counts": {
-    "resources": 350,
-    "shown": 268,
-    "removed": 82,
-    "added": 0,
-    "verified_free": 18,
+    "resources": 353,
+    "shown": 285,
+    "removed": 68,
+    "added": 3,
+    "verified_free": 21,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 332,
-    "link_ok": 267,
-    "link_bad": 0,
-    "link_unchecked": 83,
-    "topics_without_verified_link": 5
+    "link_ok": 288,
+    "link_bad": 1,
+    "link_unchecked": 64,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -954,19 +954,19 @@
    "page_fetched": true,
    "topics": 5,
    "counts": {
-    "resources": 17,
-    "shown": 10,
-    "removed": 7,
-    "added": 0,
-    "verified_free": 4,
+    "resources": 18,
+    "shown": 14,
+    "removed": 4,
+    "added": 1,
+    "verified_free": 5,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 13,
-    "link_ok": 10,
+    "link_ok": 15,
     "link_bad": 0,
-    "link_unchecked": 7,
-    "topics_without_verified_link": 2
+    "link_unchecked": 3,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -976,19 +976,19 @@
    "page_fetched": true,
    "topics": 172,
    "counts": {
-    "resources": 473,
-    "shown": 356,
+    "resources": 475,
+    "shown": 358,
     "removed": 117,
-    "added": 0,
-    "verified_free": 0,
+    "added": 2,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 473,
-    "link_ok": 356,
-    "link_bad": 0,
-    "link_unchecked": 117,
-    "topics_without_verified_link": 3
+    "link_ok": 358,
+    "link_bad": 14,
+    "link_unchecked": 103,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -998,19 +998,19 @@
    "page_fetched": true,
    "topics": 66,
    "counts": {
-    "resources": 81,
-    "shown": 78,
+    "resources": 83,
+    "shown": 80,
     "removed": 3,
-    "added": 0,
-    "verified_free": 0,
+    "added": 2,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 81,
-    "link_ok": 78,
-    "link_bad": 0,
-    "link_unchecked": 3,
-    "topics_without_verified_link": 2
+    "link_ok": 80,
+    "link_bad": 3,
+    "link_unchecked": 0,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1021,18 +1021,18 @@
    "topics": 88,
    "counts": {
     "resources": 189,
-    "shown": 112,
-    "removed": 77,
+    "shown": 110,
+    "removed": 79,
     "added": 0,
     "verified_free": 1,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 188,
-    "link_ok": 111,
-    "link_bad": 0,
-    "link_unchecked": 78,
-    "topics_without_verified_link": 24
+    "link_ok": 116,
+    "link_bad": 3,
+    "link_unchecked": 70,
+    "topics_without_verified_link": 25
    }
   },
   {
@@ -1042,19 +1042,19 @@
    "page_fetched": true,
    "topics": 142,
    "counts": {
-    "resources": 480,
-    "shown": 350,
-    "removed": 130,
-    "added": 0,
-    "verified_free": 3,
+    "resources": 486,
+    "shown": 344,
+    "removed": 142,
+    "added": 6,
+    "verified_free": 9,
     "uncertain": 4,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 473,
-    "link_ok": 350,
-    "link_bad": 1,
-    "link_unchecked": 129,
-    "topics_without_verified_link": 7
+    "link_ok": 348,
+    "link_bad": 12,
+    "link_unchecked": 126,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1064,19 +1064,19 @@
    "page_fetched": true,
    "topics": 171,
    "counts": {
-    "resources": 380,
-    "shown": 256,
-    "removed": 124,
-    "added": 0,
-    "verified_free": 13,
+    "resources": 407,
+    "shown": 279,
+    "removed": 128,
+    "added": 27,
+    "verified_free": 40,
     "uncertain": 2,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 365,
-    "link_ok": 255,
-    "link_bad": 0,
-    "link_unchecked": 125,
-    "topics_without_verified_link": 38
+    "link_ok": 292,
+    "link_bad": 7,
+    "link_unchecked": 108,
+    "topics_without_verified_link": 12
    }
   },
   {
@@ -1086,19 +1086,19 @@
    "page_fetched": true,
    "topics": 88,
    "counts": {
-    "resources": 182,
-    "shown": 147,
-    "removed": 35,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 188,
+    "shown": 160,
+    "removed": 28,
+    "added": 6,
+    "verified_free": 6,
     "uncertain": 1,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 180,
-    "link_ok": 147,
+    "link_ok": 162,
     "link_bad": 0,
-    "link_unchecked": 35,
-    "topics_without_verified_link": 7
+    "link_unchecked": 26,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1108,19 +1108,19 @@
    "page_fetched": true,
    "topics": 126,
    "counts": {
-    "resources": 250,
-    "shown": 211,
-    "removed": 39,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 257,
+    "shown": 224,
+    "removed": 33,
+    "added": 7,
+    "verified_free": 7,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 250,
-    "link_ok": 211,
+    "link_ok": 227,
     "link_bad": 0,
-    "link_unchecked": 39,
-    "topics_without_verified_link": 7
+    "link_unchecked": 30,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1130,19 +1130,19 @@
    "page_fetched": true,
    "topics": 153,
    "counts": {
-    "resources": 347,
-    "shown": 252,
-    "removed": 95,
-    "added": 0,
-    "verified_free": 3,
+    "resources": 349,
+    "shown": 253,
+    "removed": 96,
+    "added": 2,
+    "verified_free": 5,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 344,
-    "link_ok": 252,
-    "link_bad": 0,
+    "link_ok": 253,
+    "link_bad": 1,
     "link_unchecked": 95,
-    "topics_without_verified_link": 4
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -1152,18 +1152,18 @@
    "page_fetched": true,
    "topics": 68,
    "counts": {
-    "resources": 194,
-    "shown": 137,
+    "resources": 195,
+    "shown": 138,
     "removed": 57,
-    "added": 0,
-    "verified_free": 0,
+    "added": 1,
+    "verified_free": 1,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 193,
-    "link_ok": 137,
-    "link_bad": 0,
-    "link_unchecked": 57,
+    "link_ok": 139,
+    "link_bad": 3,
+    "link_unchecked": 53,
     "topics_without_verified_link": 3
    }
   },
@@ -1174,19 +1174,19 @@
    "page_fetched": true,
    "topics": 104,
    "counts": {
-    "resources": 384,
+    "resources": 394,
     "shown": 230,
-    "removed": 154,
-    "added": 0,
-    "verified_free": 1,
+    "removed": 164,
+    "added": 10,
+    "verified_free": 11,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 383,
     "link_ok": 229,
-    "link_bad": 0,
-    "link_unchecked": 155,
-    "topics_without_verified_link": 11
+    "link_bad": 4,
+    "link_unchecked": 161,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1196,19 +1196,19 @@
    "page_fetched": true,
    "topics": 137,
    "counts": {
-    "resources": 403,
-    "shown": 45,
-    "removed": 358,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 432,
+    "shown": 40,
+    "removed": 392,
+    "added": 29,
+    "verified_free": 29,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 403,
-    "link_ok": 45,
-    "link_bad": 0,
-    "link_unchecked": 358,
-    "topics_without_verified_link": 98
+    "link_ok": 52,
+    "link_bad": 1,
+    "link_unchecked": 379,
+    "topics_without_verified_link": 102
    }
   },
   {
@@ -1218,18 +1218,18 @@
    "page_fetched": true,
    "topics": 102,
    "counts": {
-    "resources": 294,
-    "shown": 255,
-    "removed": 39,
-    "added": 0,
-    "verified_free": 7,
+    "resources": 295,
+    "shown": 254,
+    "removed": 41,
+    "added": 1,
+    "verified_free": 8,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 287,
     "link_ok": 258,
-    "link_bad": 3,
-    "link_unchecked": 33,
+    "link_bad": 5,
+    "link_unchecked": 32,
     "topics_without_verified_link": 2
    }
   },
@@ -1240,19 +1240,19 @@
    "page_fetched": true,
    "topics": 150,
    "counts": {
-    "resources": 332,
-    "shown": 180,
-    "removed": 152,
-    "added": 0,
-    "verified_free": 10,
+    "resources": 354,
+    "shown": 201,
+    "removed": 153,
+    "added": 22,
+    "verified_free": 32,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 321,
-    "link_ok": 179,
-    "link_bad": 0,
-    "link_unchecked": 153,
-    "topics_without_verified_link": 33
+    "link_ok": 203,
+    "link_bad": 2,
+    "link_unchecked": 149,
+    "topics_without_verified_link": 11
    }
   },
   {
@@ -1262,19 +1262,19 @@
    "page_fetched": true,
    "topics": 63,
    "counts": {
-    "resources": 267,
-    "shown": 140,
-    "removed": 127,
-    "added": 0,
-    "verified_free": 7,
+    "resources": 268,
+    "shown": 137,
+    "removed": 131,
+    "added": 1,
+    "verified_free": 8,
     "uncertain": 1,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 258,
-    "link_ok": 140,
-    "link_bad": 1,
-    "link_unchecked": 126,
-    "topics_without_verified_link": 2
+    "link_ok": 156,
+    "link_bad": 3,
+    "link_unchecked": 109,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1284,19 +1284,19 @@
    "page_fetched": true,
    "topics": 106,
    "counts": {
-    "resources": 284,
-    "shown": 232,
+    "resources": 286,
+    "shown": 234,
     "removed": 52,
-    "added": 0,
-    "verified_free": 22,
+    "added": 2,
+    "verified_free": 24,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 262,
-    "link_ok": 232,
-    "link_bad": 0,
-    "link_unchecked": 52,
-    "topics_without_verified_link": 2
+    "link_ok": 239,
+    "link_bad": 10,
+    "link_unchecked": 37,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1306,19 +1306,19 @@
    "page_fetched": true,
    "topics": 197,
    "counts": {
-    "resources": 458,
-    "shown": 196,
-    "removed": 262,
-    "added": 0,
-    "verified_free": 4,
+    "resources": 467,
+    "shown": 204,
+    "removed": 263,
+    "added": 9,
+    "verified_free": 13,
     "uncertain": 3,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 451,
-    "link_ok": 194,
-    "link_bad": 1,
-    "link_unchecked": 263,
-    "topics_without_verified_link": 46
+    "link_ok": 221,
+    "link_bad": 6,
+    "link_unchecked": 240,
+    "topics_without_verified_link": 37
    }
   },
   {
@@ -1328,19 +1328,19 @@
    "page_fetched": true,
    "topics": 94,
    "counts": {
-    "resources": 188,
-    "shown": 148,
-    "removed": 40,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 189,
+    "shown": 152,
+    "removed": 37,
+    "added": 1,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 187,
-    "link_ok": 147,
-    "link_bad": 0,
-    "link_unchecked": 41,
-    "topics_without_verified_link": 2
+    "link_ok": 155,
+    "link_bad": 1,
+    "link_unchecked": 33,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1350,19 +1350,19 @@
    "page_fetched": true,
    "topics": 113,
    "counts": {
-    "resources": 252,
-    "shown": 198,
-    "removed": 54,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 261,
+    "shown": 209,
+    "removed": 52,
+    "added": 9,
+    "verified_free": 9,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 252,
-    "link_ok": 198,
-    "link_bad": 0,
-    "link_unchecked": 54,
-    "topics_without_verified_link": 9
+    "link_ok": 209,
+    "link_bad": 2,
+    "link_unchecked": 50,
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -1372,19 +1372,19 @@
    "page_fetched": true,
    "topics": 118,
    "counts": {
-    "resources": 228,
-    "shown": 180,
-    "removed": 48,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 230,
+    "shown": 178,
+    "removed": 52,
+    "added": 2,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 228,
-    "link_ok": 180,
+    "link_ok": 190,
     "link_bad": 0,
-    "link_unchecked": 48,
-    "topics_without_verified_link": 3
+    "link_unchecked": 40,
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -1394,19 +1394,19 @@
    "page_fetched": true,
    "topics": 120,
    "counts": {
-    "resources": 139,
-    "shown": 135,
+    "resources": 143,
+    "shown": 139,
     "removed": 4,
-    "added": 0,
-    "verified_free": 0,
+    "added": 4,
+    "verified_free": 4,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 139,
-    "link_ok": 135,
-    "link_bad": 0,
-    "link_unchecked": 4,
-    "topics_without_verified_link": 4
+    "link_ok": 139,
+    "link_bad": 1,
+    "link_unchecked": 3,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1416,19 +1416,19 @@
    "page_fetched": true,
    "topics": 170,
    "counts": {
-    "resources": 370,
-    "shown": 308,
-    "removed": 62,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 380,
+    "shown": 314,
+    "removed": 66,
+    "added": 10,
+    "verified_free": 12,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 367,
-    "link_ok": 310,
-    "link_bad": 1,
-    "link_unchecked": 59,
-    "topics_without_verified_link": 12
+    "link_ok": 320,
+    "link_bad": 8,
+    "link_unchecked": 52,
+    "topics_without_verified_link": 4
    }
   },
   {
@@ -1438,19 +1438,19 @@
    "page_fetched": true,
    "topics": 146,
    "counts": {
-    "resources": 301,
-    "shown": 188,
-    "removed": 113,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 341,
+    "shown": 222,
+    "removed": 119,
+    "added": 40,
+    "verified_free": 40,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 301,
-    "link_ok": 188,
-    "link_bad": 0,
-    "link_unchecked": 113,
-    "topics_without_verified_link": 43
+    "link_ok": 222,
+    "link_bad": 2,
+    "link_unchecked": 117,
+    "topics_without_verified_link": 7
    }
   },
   {
@@ -1460,19 +1460,19 @@
    "page_fetched": true,
    "topics": 118,
    "counts": {
-    "resources": 228,
-    "shown": 134,
-    "removed": 94,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 249,
+    "shown": 147,
+    "removed": 102,
+    "added": 21,
+    "verified_free": 22,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 227,
-    "link_ok": 133,
-    "link_bad": 0,
-    "link_unchecked": 95,
-    "topics_without_verified_link": 23
+    "link_ok": 149,
+    "link_bad": 1,
+    "link_unchecked": 99,
+    "topics_without_verified_link": 9
    }
   },
   {
@@ -1482,19 +1482,19 @@
    "page_fetched": true,
    "topics": 172,
    "counts": {
-    "resources": 518,
-    "shown": 494,
+    "resources": 519,
+    "shown": 495,
     "removed": 24,
-    "added": 0,
-    "verified_free": 2,
+    "added": 1,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 515,
-    "link_ok": 494,
-    "link_bad": 0,
-    "link_unchecked": 24,
-    "topics_without_verified_link": 1
+    "link_ok": 496,
+    "link_bad": 10,
+    "link_unchecked": 13,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1504,19 +1504,19 @@
    "page_fetched": true,
    "topics": 47,
    "counts": {
-    "resources": 92,
-    "shown": 83,
-    "removed": 9,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 93,
+    "shown": 89,
+    "removed": 4,
+    "added": 1,
+    "verified_free": 2,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 91,
-    "link_ok": 83,
+    "link_ok": 91,
     "link_bad": 0,
-    "link_unchecked": 9,
-    "topics_without_verified_link": 1
+    "link_unchecked": 2,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1527,17 +1527,17 @@
    "topics": 87,
    "counts": {
     "resources": 245,
-    "shown": 158,
-    "removed": 87,
+    "shown": 159,
+    "removed": 86,
     "added": 0,
     "verified_free": 1,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 244,
-    "link_ok": 158,
+    "link_ok": 215,
     "link_bad": 0,
-    "link_unchecked": 87,
+    "link_unchecked": 30,
     "topics_without_verified_link": 0
    }
   },
@@ -1548,19 +1548,19 @@
    "page_fetched": true,
    "topics": 113,
    "counts": {
-    "resources": 306,
-    "shown": 172,
-    "removed": 134,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 310,
+    "shown": 171,
+    "removed": 139,
+    "added": 4,
+    "verified_free": 4,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 305,
-    "link_ok": 172,
+    "link_ok": 192,
     "link_bad": 0,
-    "link_unchecked": 134,
-    "topics_without_verified_link": 8
+    "link_unchecked": 118,
+    "topics_without_verified_link": 6
    }
   },
   {
@@ -1570,19 +1570,19 @@
    "page_fetched": true,
    "topics": 147,
    "counts": {
-    "resources": 304,
-    "shown": 222,
-    "removed": 82,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 328,
+    "shown": 238,
+    "removed": 90,
+    "added": 24,
+    "verified_free": 26,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 301,
-    "link_ok": 222,
-    "link_bad": 0,
-    "link_unchecked": 82,
-    "topics_without_verified_link": 27
+    "link_ok": 247,
+    "link_bad": 9,
+    "link_unchecked": 72,
+    "topics_without_verified_link": 9
    }
   },
   {
@@ -1592,19 +1592,19 @@
    "page_fetched": false,
    "topics": 129,
    "counts": {
-    "resources": 369,
-    "shown": 250,
-    "removed": 119,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 372,
+    "shown": 247,
+    "removed": 125,
+    "added": 3,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 369,
     "link_ok": 250,
     "link_bad": 0,
-    "link_unchecked": 119,
-    "topics_without_verified_link": 5
+    "link_unchecked": 122,
+    "topics_without_verified_link": 4
    }
   },
   {
@@ -1614,19 +1614,19 @@
    "page_fetched": true,
    "topics": 129,
    "counts": {
-    "resources": 369,
-    "shown": 250,
-    "removed": 119,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 372,
+    "shown": 248,
+    "removed": 124,
+    "added": 3,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 369,
-    "link_ok": 250,
+    "link_ok": 251,
     "link_bad": 0,
-    "link_unchecked": 119,
-    "topics_without_verified_link": 5
+    "link_unchecked": 121,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -1636,19 +1636,19 @@
    "page_fetched": true,
    "topics": 83,
    "counts": {
-    "resources": 230,
+    "resources": 232,
     "shown": 173,
-    "removed": 57,
-    "added": 0,
-    "verified_free": 1,
+    "removed": 59,
+    "added": 2,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 229,
-    "link_ok": 172,
-    "link_bad": 0,
-    "link_unchecked": 58,
-    "topics_without_verified_link": 2
+    "link_ok": 176,
+    "link_bad": 1,
+    "link_unchecked": 55,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1658,19 +1658,19 @@
    "page_fetched": true,
    "topics": 95,
    "counts": {
-    "resources": 165,
-    "shown": 147,
-    "removed": 18,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 168,
+    "shown": 149,
+    "removed": 19,
+    "added": 3,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 165,
-    "link_ok": 147,
+    "link_ok": 155,
     "link_bad": 0,
-    "link_unchecked": 18,
-    "topics_without_verified_link": 3
+    "link_unchecked": 13,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1680,19 +1680,19 @@
    "page_fetched": true,
    "topics": 162,
    "counts": {
-    "resources": 238,
-    "shown": 216,
-    "removed": 22,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 257,
+    "shown": 238,
+    "removed": 19,
+    "added": 19,
+    "verified_free": 19,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 238,
-    "link_ok": 216,
-    "link_bad": 0,
-    "link_unchecked": 22,
-    "topics_without_verified_link": 19
+    "link_ok": 239,
+    "link_bad": 4,
+    "link_unchecked": 14,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1702,18 +1702,18 @@
    "page_fetched": true,
    "topics": 106,
    "counts": {
-    "resources": 389,
-    "shown": 283,
-    "removed": 106,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 390,
+    "shown": 279,
+    "removed": 111,
+    "added": 1,
+    "verified_free": 1,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 388,
-    "link_ok": 283,
-    "link_bad": 0,
-    "link_unchecked": 106,
+    "link_ok": 280,
+    "link_bad": 1,
+    "link_unchecked": 109,
     "topics_without_verified_link": 1
    }
   },
@@ -1724,19 +1724,19 @@
    "page_fetched": true,
    "topics": 107,
    "counts": {
-    "resources": 329,
-    "shown": 213,
-    "removed": 116,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 358,
+    "shown": 239,
+    "removed": 119,
+    "added": 29,
+    "verified_free": 29,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 329,
-    "link_ok": 213,
-    "link_bad": 0,
-    "link_unchecked": 116,
-    "topics_without_verified_link": 29
+    "link_ok": 241,
+    "link_bad": 3,
+    "link_unchecked": 114,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1746,18 +1746,18 @@
    "page_fetched": true,
    "topics": 122,
    "counts": {
-    "resources": 348,
-    "shown": 267,
-    "removed": 81,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 349,
+    "shown": 269,
+    "removed": 80,
+    "added": 1,
+    "verified_free": 1,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 348,
-    "link_ok": 267,
-    "link_bad": 1,
-    "link_unchecked": 80,
+    "link_ok": 269,
+    "link_bad": 13,
+    "link_unchecked": 67,
     "topics_without_verified_link": 1
    }
   },
@@ -1768,19 +1768,19 @@
    "page_fetched": true,
    "topics": 166,
    "counts": {
-    "resources": 377,
-    "shown": 325,
-    "removed": 52,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 400,
+    "shown": 345,
+    "removed": 55,
+    "added": 23,
+    "verified_free": 24,
     "uncertain": 11,
     "replaced": 2,
     "needs_review": 0,
     "not_reviewed": 363,
-    "link_ok": 325,
-    "link_bad": 1,
-    "link_unchecked": 51,
-    "topics_without_verified_link": 23
+    "link_ok": 352,
+    "link_bad": 5,
+    "link_unchecked": 43,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -1790,19 +1790,19 @@
    "page_fetched": true,
    "topics": 216,
    "counts": {
-    "resources": 346,
-    "shown": 215,
-    "removed": 131,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 457,
+    "shown": 302,
+    "removed": 155,
+    "added": 111,
+    "verified_free": 112,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 345,
-    "link_ok": 215,
-    "link_bad": 0,
-    "link_unchecked": 131,
-    "topics_without_verified_link": 115
+    "link_ok": 308,
+    "link_bad": 3,
+    "link_unchecked": 146,
+    "topics_without_verified_link": 19
    }
   },
   {
@@ -1812,19 +1812,19 @@
    "page_fetched": true,
    "topics": 157,
    "counts": {
-    "resources": 480,
-    "shown": 406,
-    "removed": 74,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 481,
+    "shown": 423,
+    "removed": 58,
+    "added": 1,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 477,
-    "link_ok": 406,
-    "link_bad": 0,
-    "link_unchecked": 74,
-    "topics_without_verified_link": 1
+    "link_ok": 424,
+    "link_bad": 3,
+    "link_unchecked": 54,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1834,19 +1834,19 @@
    "page_fetched": true,
    "topics": 174,
    "counts": {
-    "resources": 456,
-    "shown": 270,
-    "removed": 186,
-    "added": 0,
-    "verified_free": 8,
+    "resources": 467,
+    "shown": 284,
+    "removed": 183,
+    "added": 11,
+    "verified_free": 19,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 447,
-    "link_ok": 270,
-    "link_bad": 13,
-    "link_unchecked": 173,
-    "topics_without_verified_link": 18
+    "link_ok": 281,
+    "link_bad": 20,
+    "link_unchecked": 166,
+    "topics_without_verified_link": 16
    }
   },
   {
@@ -1856,19 +1856,19 @@
    "page_fetched": true,
    "topics": 113,
    "counts": {
-    "resources": 269,
-    "shown": 179,
-    "removed": 90,
-    "added": 0,
-    "verified_free": 1,
+    "resources": 287,
+    "shown": 203,
+    "removed": 84,
+    "added": 18,
+    "verified_free": 19,
     "uncertain": 1,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 266,
-    "link_ok": 179,
-    "link_bad": 0,
-    "link_unchecked": 90,
-    "topics_without_verified_link": 24
+    "link_ok": 220,
+    "link_bad": 10,
+    "link_unchecked": 57,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -1878,19 +1878,19 @@
    "page_fetched": true,
    "topics": 94,
    "counts": {
-    "resources": 142,
-    "shown": 68,
-    "removed": 74,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 162,
+    "shown": 87,
+    "removed": 75,
+    "added": 20,
+    "verified_free": 20,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 141,
-    "link_ok": 68,
-    "link_bad": 1,
-    "link_unchecked": 73,
-    "topics_without_verified_link": 42
+    "link_ok": 87,
+    "link_bad": 4,
+    "link_unchecked": 71,
+    "topics_without_verified_link": 20
    }
   },
   {
@@ -1900,19 +1900,19 @@
    "page_fetched": true,
    "topics": 46,
    "counts": {
-    "resources": 114,
-    "shown": 98,
-    "removed": 16,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 115,
+    "shown": 100,
+    "removed": 15,
+    "added": 1,
+    "verified_free": 1,
     "uncertain": 2,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 112,
-    "link_ok": 98,
-    "link_bad": 0,
-    "link_unchecked": 16,
-    "topics_without_verified_link": 1
+    "link_ok": 103,
+    "link_bad": 2,
+    "link_unchecked": 10,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -1922,19 +1922,19 @@
    "page_fetched": true,
    "topics": 113,
    "counts": {
-    "resources": 163,
-    "shown": 109,
-    "removed": 54,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 177,
+    "shown": 121,
+    "removed": 56,
+    "added": 14,
+    "verified_free": 14,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 163,
-    "link_ok": 109,
-    "link_bad": 0,
+    "link_ok": 121,
+    "link_bad": 2,
     "link_unchecked": 54,
-    "topics_without_verified_link": 32
+    "topics_without_verified_link": 19
    }
   },
   {
@@ -1944,19 +1944,19 @@
    "page_fetched": true,
    "topics": 156,
    "counts": {
-    "resources": 482,
-    "shown": 339,
-    "removed": 143,
-    "added": 0,
-    "verified_free": 6,
+    "resources": 487,
+    "shown": 338,
+    "removed": 149,
+    "added": 5,
+    "verified_free": 11,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 476,
-    "link_ok": 338,
-    "link_bad": 1,
-    "link_unchecked": 143,
-    "topics_without_verified_link": 6
+    "link_ok": 337,
+    "link_bad": 3,
+    "link_unchecked": 147,
+    "topics_without_verified_link": 1
    }
   },
   {
@@ -1966,19 +1966,19 @@
    "page_fetched": true,
    "topics": 147,
    "counts": {
-    "resources": 214,
-    "shown": 163,
-    "removed": 51,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 226,
+    "shown": 179,
+    "removed": 47,
+    "added": 12,
+    "verified_free": 12,
     "uncertain": 3,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 211,
-    "link_ok": 163,
-    "link_bad": 0,
-    "link_unchecked": 51,
-    "topics_without_verified_link": 17
+    "link_ok": 182,
+    "link_bad": 3,
+    "link_unchecked": 41,
+    "topics_without_verified_link": 5
    }
   },
   {
@@ -1988,19 +1988,19 @@
    "page_fetched": true,
    "topics": 85,
    "counts": {
-    "resources": 9,
-    "shown": 2,
-    "removed": 7,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 91,
+    "shown": 59,
+    "removed": 32,
+    "added": 82,
+    "verified_free": 82,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 9,
-    "link_ok": 2,
+    "link_ok": 60,
     "link_bad": 0,
-    "link_unchecked": 7,
-    "topics_without_verified_link": 82
+    "link_unchecked": 31,
+    "topics_without_verified_link": 25
    }
   },
   {
@@ -2010,19 +2010,19 @@
    "page_fetched": true,
    "topics": 110,
    "counts": {
-    "resources": 275,
-    "shown": 207,
-    "removed": 68,
-    "added": 0,
-    "verified_free": 3,
+    "resources": 280,
+    "shown": 213,
+    "removed": 67,
+    "added": 5,
+    "verified_free": 8,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 272,
-    "link_ok": 207,
-    "link_bad": 2,
-    "link_unchecked": 66,
-    "topics_without_verified_link": 7
+    "link_ok": 214,
+    "link_bad": 3,
+    "link_unchecked": 63,
+    "topics_without_verified_link": 2
    }
   },
   {
@@ -2032,19 +2032,19 @@
    "page_fetched": true,
    "topics": 93,
    "counts": {
-    "resources": 114,
-    "shown": 109,
-    "removed": 5,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 124,
+    "shown": 118,
+    "removed": 6,
+    "added": 10,
+    "verified_free": 10,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 114,
-    "link_ok": 109,
-    "link_bad": 0,
+    "link_ok": 118,
+    "link_bad": 1,
     "link_unchecked": 5,
-    "topics_without_verified_link": 10
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -2054,19 +2054,19 @@
    "page_fetched": true,
    "topics": 94,
    "counts": {
-    "resources": 66,
-    "shown": 41,
-    "removed": 25,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 124,
+    "shown": 72,
+    "removed": 52,
+    "added": 58,
+    "verified_free": 58,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 66,
-    "link_ok": 41,
+    "link_ok": 73,
     "link_bad": 0,
-    "link_unchecked": 25,
-    "topics_without_verified_link": 60
+    "link_unchecked": 51,
+    "topics_without_verified_link": 32
    }
   },
   {
@@ -2076,19 +2076,19 @@
    "page_fetched": true,
    "topics": 53,
    "counts": {
-    "resources": 164,
-    "shown": 121,
-    "removed": 43,
-    "added": 0,
-    "verified_free": 0,
+    "resources": 165,
+    "shown": 123,
+    "removed": 42,
+    "added": 1,
+    "verified_free": 1,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 163,
-    "link_ok": 120,
-    "link_bad": 0,
-    "link_unchecked": 44,
-    "topics_without_verified_link": 4
+    "link_ok": 132,
+    "link_bad": 5,
+    "link_unchecked": 28,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -2098,19 +2098,19 @@
    "page_fetched": true,
    "topics": 84,
    "counts": {
-    "resources": 142,
-    "shown": 124,
-    "removed": 18,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 143,
+    "shown": 123,
+    "removed": 20,
+    "added": 1,
+    "verified_free": 3,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 140,
-    "link_ok": 123,
-    "link_bad": 1,
-    "link_unchecked": 18,
-    "topics_without_verified_link": 1
+    "link_ok": 122,
+    "link_bad": 2,
+    "link_unchecked": 19,
+    "topics_without_verified_link": 0
    }
   },
   {
@@ -2120,37 +2120,37 @@
    "page_fetched": true,
    "topics": 116,
    "counts": {
-    "resources": 378,
-    "shown": 279,
-    "removed": 99,
-    "added": 0,
-    "verified_free": 2,
+    "resources": 389,
+    "shown": 275,
+    "removed": 114,
+    "added": 11,
+    "verified_free": 13,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 376,
-    "link_ok": 278,
-    "link_bad": 0,
-    "link_unchecked": 100,
-    "topics_without_verified_link": 11
+    "link_ok": 292,
+    "link_bad": 4,
+    "link_unchecked": 93,
+    "topics_without_verified_link": 0
    }
   }
  ],
  "totals": {
-  "resources": 26198,
-  "shown": 17905,
-  "removed": 8293,
-  "added": 0,
-  "verified_free": 418,
+  "resources": 27574,
+  "shown": 19019,
+  "removed": 8555,
+  "added": 1376,
+  "verified_free": 1794,
   "uncertain": 77,
   "replaced": 71,
   "needs_review": 0,
   "not_reviewed": 25632,
-  "link_ok": 17821,
-  "link_bad": 40,
-  "link_unchecked": 8337,
-  "topics_without_verified_link": 1881
+  "link_ok": 19735,
+  "link_bad": 390,
+  "link_unchecked": 7449,
+  "topics_without_verified_link": 816
  },
  "verification_entries": 382,
- "linkcheck_entries": 18699
+ "linkcheck_entries": 22056
 }
