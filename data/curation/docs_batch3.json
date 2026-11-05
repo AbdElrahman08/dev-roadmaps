@@ -1,0 +1,888 @@
+{
+"engineering-manager": {
+"Process": [
+"Software development process (Wikipedia)",
+"https://en.wikipedia.org/wiki/Software_development_process"
+],
+"EM vs Tech Lead vs IC": [
+"Engineering management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Engineering_management"
+],
+"People": [
+"People management (Wikipedia)",
+"https://en.wikipedia.org/wiki/People_management"
+],
+"Product": [
+"Product management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Product_management"
+],
+"Development / Release Workflow": [
+"Release management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Release_management"
+],
+"Software Engineering Background": [
+"Software engineering (Wikipedia)",
+"https://en.wikipedia.org/wiki/Software_engineering"
+],
+"System Design and Architecture": [
+"Software architecture (Wikipedia)",
+"https://en.wikipedia.org/wiki/Software_architecture"
+],
+"Build vs Buy Evaluation": [
+"Make-or-buy decision (Wikipedia)",
+"https://en.wikipedia.org/wiki/Make-or-buy_decision"
+],
+"Security  Best Practices": [
+"OWASP Top Ten",
+"https://owasp.org/www-project-top-ten/"
+],
+"Scaling Infrastructure": [
+"Scalability (Wikipedia)",
+"https://en.wikipedia.org/wiki/Scalability"
+],
+"One-on-One Meetings": [
+"One-on-one meeting (Wikipedia)",
+"https://en.wikipedia.org/wiki/One-on-one_meeting"
+],
+"Hiring and Recruitment": [
+"Recruitment (Wikipedia)",
+"https://en.wikipedia.org/wiki/Recruitment"
+],
+"Feedback Delivery": [
+"Feedback (Wikipedia)",
+"https://en.wikipedia.org/wiki/Feedback"
+],
+"Team Meetings": [
+"Meeting (Wikipedia)",
+"https://en.wikipedia.org/wiki/Meeting"
+],
+"Team Structure and Design": [
+"Conway's law (Wikipedia)",
+"https://en.wikipedia.org/wiki/Conway's_law"
+],
+"Team Motivation": [
+"Work motivation (Wikipedia)",
+"https://en.wikipedia.org/wiki/Work_motivation"
+],
+"Status Reporting": [
+"Status report (Wikipedia)",
+"https://en.wikipedia.org/wiki/Status_report"
+],
+"Stakeholder Management": [
+"Stakeholder management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Stakeholder_management"
+],
+"Stakeholder management": [
+"Stakeholder management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Stakeholder_management"
+],
+"Career Development Planning": [
+"Career development (Wikipedia)",
+"https://en.wikipedia.org/wiki/Career_development"
+],
+"Project Tracking": [
+"Project management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Project_management"
+],
+"Milestone Management": [
+"Milestone (project management) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Milestone_(project_management)"
+],
+"Timeline Estimation": [
+"Software development effort estimation (Wikipedia)",
+"https://en.wikipedia.org/wiki/Software_development_effort_estimation"
+],
+"Dependency management": [
+"Dependency (project management) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Dependency_(project_management)"
+],
+"Product strategy alignment": [
+"Product strategy (Wikipedia)",
+"https://en.wikipedia.org/wiki/Product_strategy"
+],
+"KPI Definition": [
+"Performance indicator (Wikipedia)",
+"https://en.wikipedia.org/wiki/Performance_indicator"
+],
+"ROI analysis": [
+"Return on investment (Wikipedia)",
+"https://en.wikipedia.org/wiki/Return_on_investment"
+],
+"Market awareness": [
+"Market research (Wikipedia)",
+"https://en.wikipedia.org/wiki/Market_research"
+],
+"Budget Planning": [
+"Budget (Wikipedia)",
+"https://en.wikipedia.org/wiki/Budget"
+],
+"Team Health Metrics": [
+"DORA: Research and metrics",
+"https://dora.dev/research/"
+],
+"Resource forecasting": [
+"Resource management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Resource_management"
+],
+"Project Postmortems": [
+"Google SRE book: Postmortem culture",
+"https://sre.google/sre-book/postmortem-culture/"
+],
+"Company Culture": [
+"Organizational culture (Wikipedia)",
+"https://en.wikipedia.org/wiki/Organizational_culture"
+],
+"Culture evolution": [
+"Organizational culture (Wikipedia)",
+"https://en.wikipedia.org/wiki/Organizational_culture"
+],
+"Cost Optimization": [
+"Cost reduction (Wikipedia)",
+"https://en.wikipedia.org/wiki/Cost_reduction"
+],
+"Vendor Management": [
+"Vendor management system (Wikipedia)",
+"https://en.wikipedia.org/wiki/Vendor_management_system"
+],
+"Politics navigation": [
+"Workplace politics (Wikipedia)",
+"https://en.wikipedia.org/wiki/Workplace_politics"
+],
+"Defining and Enforcing Values": [
+"Organizational culture (Wikipedia)",
+"https://en.wikipedia.org/wiki/Organizational_culture"
+],
+"Inclusive environment creation": [
+"Inclusion (value and practice) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Inclusion_(value_and_practice)"
+],
+"Team Traditions and Rituals": [
+"Team building (Wikipedia)",
+"https://en.wikipedia.org/wiki/Team_building"
+],
+"Learning culture development": [
+"Learning organization (Wikipedia)",
+"https://en.wikipedia.org/wiki/Learning_organization"
+],
+"Recognition programs": [
+"Employee recognition (Wikipedia)",
+"https://en.wikipedia.org/wiki/Employee_recognition"
+],
+"Social connections": [
+"Team building (Wikipedia)",
+"https://en.wikipedia.org/wiki/Team_building"
+],
+"Technical excellence mindset": [
+"Software craftsmanship (Wikipedia)",
+"https://en.wikipedia.org/wiki/Software_craftsmanship"
+],
+"Blameless Post-mortems": [
+"Google SRE book: Postmortem culture",
+"https://sre.google/sre-book/postmortem-culture/"
+],
+"Emergency protocols": [
+"Google SRE book: Managing incidents",
+"https://sre.google/sre-book/managing-incidents/"
+],
+"Contingency planning": [
+"Contingency plan (Wikipedia)",
+"https://en.wikipedia.org/wiki/Contingency_plan"
+],
+"War Room Management": [
+"Google SRE book: Managing incidents",
+"https://sre.google/sre-book/managing-incidents/"
+],
+"Stakeholder Communication": [
+"Google SRE book: Managing incidents",
+"https://sre.google/sre-book/managing-incidents/"
+],
+"Emergency staffing": [
+"Google SRE book: Being on-call",
+"https://sre.google/sre-book/being-on-call/"
+],
+"Service Recovery": [
+"Google SRE book: Emergency response",
+"https://sre.google/sre-book/emergency-response/"
+],
+"Post-incident analysis": [
+"Google SRE book: Postmortem culture",
+"https://sre.google/sre-book/postmortem-culture/"
+],
+"Production issues management": [
+"Google SRE book: Effective troubleshooting",
+"https://sre.google/sre-book/effective-troubleshooting/"
+],
+"Customer feedback integration": [
+"Customer feedback (Wikipedia)",
+"https://en.wikipedia.org/wiki/Customer_feedback"
+],
+"Technology partnerships": [
+"Strategic alliance (Wikipedia)",
+"https://en.wikipedia.org/wiki/Strategic_alliance"
+],
+"Technical partnerships": [
+"Strategic alliance (Wikipedia)",
+"https://en.wikipedia.org/wiki/Strategic_alliance"
+],
+"External collaboration": [
+"Strategic alliance (Wikipedia)",
+"https://en.wikipedia.org/wiki/Strategic_alliance"
+],
+"Integration management": [
+"Enterprise application integration (Wikipedia)",
+"https://en.wikipedia.org/wiki/Enterprise_application_integration"
+],
+"Customer success alignment": [
+"Customer success (Wikipedia)",
+"https://en.wikipedia.org/wiki/Customer_success"
+],
+"Architecture documentation": [
+"arc42: architecture documentation template",
+"https://arc42.org/overview"
+],
+"API strategy": [
+"Google Cloud API Design Guide",
+"https://cloud.google.com/apis/design"
+],
+"Feature prioritization": [
+"MoSCoW method (Wikipedia)",
+"https://en.wikipedia.org/wiki/MoSCoW_method"
+],
+"Process documentation": [
+"Standard operating procedure (Wikipedia)",
+"https://en.wikipedia.org/wiki/Standard_operating_procedure"
+],
+"Best Practices": [
+"Best practice (Wikipedia)",
+"https://en.wikipedia.org/wiki/Best_practice"
+],
+"Lessons Learned": [
+"Lessons learned (Wikipedia)",
+"https://en.wikipedia.org/wiki/Lessons_learned"
+],
+"Board presentations": [
+"Board of directors (Wikipedia)",
+"https://en.wikipedia.org/wiki/Board_of_directors"
+],
+"Executive summaries": [
+"Executive summary (Wikipedia)",
+"https://en.wikipedia.org/wiki/Executive_summary"
+],
+"Strategic proposals": [
+"Business case (Wikipedia)",
+"https://en.wikipedia.org/wiki/Business_case"
+],
+"Budget requests": [
+"Business case (Wikipedia)",
+"https://en.wikipedia.org/wiki/Business_case"
+],
+"Vision alignment": [
+"Vision statement (Wikipedia)",
+"https://en.wikipedia.org/wiki/Vision_statement"
+],
+"Tech Talks": [
+"Presentation (Wikipedia)",
+"https://en.wikipedia.org/wiki/Presentation"
+],
+"Brown Bags": [
+"Brown bag seminar (Wikipedia)",
+"https://en.wikipedia.org/wiki/Brown_bag_seminar"
+],
+"Legacy system retirement": [
+"Legacy system (Wikipedia)",
+"https://en.wikipedia.org/wiki/Legacy_system"
+],
+"Impact assessment": [
+"Change impact analysis (Wikipedia)",
+"https://en.wikipedia.org/wiki/Change_impact_analysis"
+],
+"Tool transitions": [
+"Change management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Change_management"
+],
+"Reorganizations": [
+"Reorganization (Wikipedia)",
+"https://en.wikipedia.org/wiki/Reorganization"
+],
+"Process changes": [
+"Change management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Change_management"
+],
+"Team mergers": [
+"Change management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Change_management"
+],
+"Communication planning": [
+"Communication plan (Wikipedia)",
+"https://en.wikipedia.org/wiki/Communication_plan"
+],
+"Role transitions": [
+"Succession planning (Wikipedia)",
+"https://en.wikipedia.org/wiki/Succession_planning"
+],
+"Resistance management": [
+"Change management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Change_management"
+],
+"Responsibility shifts": [
+"Responsibility assignment matrix (Wikipedia)",
+"https://en.wikipedia.org/wiki/Responsibility_assignment_matrix"
+]
+},
+"devrel": {
+"Public Speaking": [
+"Public speaking (Wikipedia)",
+"https://en.wikipedia.org/wiki/Public_speaking"
+],
+"Presentation Techniques": [
+"Presentation (Wikipedia)",
+"https://en.wikipedia.org/wiki/Presentation"
+],
+"Rules of Three": [
+"Rule of three (writing) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Rule_of_three_(writing)"
+],
+"Social Media": [
+"Social media marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Social_media_marketing"
+],
+"PechaKucha": [
+"PechaKucha (Wikipedia)",
+"https://en.wikipedia.org/wiki/PechaKucha"
+],
+"Storytelling": [
+"Storytelling (Wikipedia)",
+"https://en.wikipedia.org/wiki/Storytelling"
+],
+"Mind Mapping": [
+"Mind map (Wikipedia)",
+"https://en.wikipedia.org/wiki/Mind_map"
+],
+"Visualization": [
+"Data and information visualization (Wikipedia)",
+"https://en.wikipedia.org/wiki/Data_and_information_visualization"
+],
+"Engaging Audience": [
+"Audience (Wikipedia)",
+"https://en.wikipedia.org/wiki/Audience"
+],
+"Networking": [
+"Business networking (Wikipedia)",
+"https://en.wikipedia.org/wiki/Business_networking"
+],
+"Networking Strategies": [
+"Business networking (Wikipedia)",
+"https://en.wikipedia.org/wiki/Business_networking"
+],
+"The Hook": [
+"Hook (narrative) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Hook_(narrative)"
+],
+"JetBrains IDEs": [
+"JetBrains: IntelliJ IDEA documentation",
+"https://www.jetbrains.com/help/idea/getting-started.html"
+],
+"Event Participation": [
+"Developer conference (Wikipedia)",
+"https://en.wikipedia.org/wiki/Developer_conference"
+],
+"Handouts": [
+"Handout (Wikipedia)",
+"https://en.wikipedia.org/wiki/Handout"
+],
+"Managing Discussions": [
+"Facilitation (business) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Facilitation_(business)"
+],
+"APIs & SDKs": [
+"Software development kit (Wikipedia)",
+"https://en.wikipedia.org/wiki/Software_development_kit"
+],
+"Understanding APIs": [
+"API (Wikipedia)",
+"https://en.wikipedia.org/wiki/API"
+],
+"Repetition & Reinforcement": [
+"Repetition (rhetorical device) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Repetition_(rhetorical_device)"
+],
+"Issues & Pull Requests": [
+"GitHub Docs: About pull requests",
+"https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests"
+],
+"Handling Q&A": [
+"Q&A session (Wikipedia)",
+"https://en.wikipedia.org/wiki/Q&A_session"
+],
+"Managing Difficult Questions": [
+"Q&A session (Wikipedia)",
+"https://en.wikipedia.org/wiki/Q&A_session"
+],
+"Labelling and Cleanup": [
+"GitHub Docs: Managing labels",
+"https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels"
+],
+"Milestones & Releases": [
+"GitHub Docs: About releases",
+"https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases"
+],
+"Public Backlog": [
+"GitHub Docs: About Projects",
+"https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects"
+],
+"Identifying Audience": [
+"Target audience (Wikipedia)",
+"https://en.wikipedia.org/wiki/Target_audience"
+],
+"Recognition Programs": [
+"Employee recognition (Wikipedia)",
+"https://en.wikipedia.org/wiki/Employee_recognition"
+],
+"Platform Selection": [
+"Open Source Guides: Building welcoming communities",
+"https://opensource.guide/building-community/"
+],
+"Initial Outreach": [
+"Open Source Guides: Finding users for your project",
+"https://opensource.guide/finding-users/"
+],
+"Moderation": [
+"Open Source Guides: Your code of conduct",
+"https://opensource.guide/code-of-conduct/"
+],
+"Rules and Policies": [
+"Open Source Guides: Your code of conduct",
+"https://opensource.guide/code-of-conduct/"
+],
+"Surveys": [
+"Survey methodology (Wikipedia)",
+"https://en.wikipedia.org/wiki/Survey_methodology"
+],
+"Post Event Followup": [
+"Event management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Event_management"
+],
+"Promotion": [
+"Promotion (marketing) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Promotion_(marketing)"
+],
+"Planning": [
+"Event management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Event_management"
+],
+"Technical Setup": [
+"Webcast (Wikipedia)",
+"https://en.wikipedia.org/wiki/Webcast"
+],
+"Guest Blogging": [
+"Guest blogging (Wikipedia)",
+"https://en.wikipedia.org/wiki/Guest_blogging"
+],
+"Video": [
+"Online video platform (Wikipedia)",
+"https://en.wikipedia.org/wiki/Online_video_platform"
+],
+"SEO Basics": [
+"Google Search Central: SEO Starter Guide",
+"https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+],
+"Writing Process": [
+"Writing process (Wikipedia)",
+"https://en.wikipedia.org/wiki/Writing_process"
+],
+"Topic Selection": [
+"Content strategy (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_strategy"
+],
+"Twitch": [
+"Twitch (service) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Twitch_(service)"
+],
+"Streamyard": [
+"StreamYard Help Center",
+"https://support.streamyard.com/"
+],
+"Recording": [
+"OBS Studio: Quick start guide",
+"https://obsproject.com/kb/quick-start-guide"
+],
+"YouTube": [
+"YouTube Creators",
+"https://www.youtube.com/creators/"
+],
+"X": [
+"X Help Center",
+"https://help.x.com/en"
+],
+"Blogging": [
+"Blog (Wikipedia)",
+"https://en.wikipedia.org/wiki/Blog"
+],
+"Scripting": [
+"Screenplay (Wikipedia)",
+"https://en.wikipedia.org/wiki/Screenplay"
+],
+"Video Production": [
+"Video production (Wikipedia)",
+"https://en.wikipedia.org/wiki/Video_production"
+],
+"Live Streaming": [
+"Livestreaming (Wikipedia)",
+"https://en.wikipedia.org/wiki/Livestreaming"
+],
+"Tutorials": [
+"Tutorial (Wikipedia)",
+"https://en.wikipedia.org/wiki/Tutorial"
+],
+"Instagram": [
+"Instagram Help Center",
+"https://help.instagram.com/"
+],
+"Example Apps": [
+"Sample code (Wikipedia)",
+"https://en.wikipedia.org/wiki/Sample_code"
+],
+"Sample Projects": [
+"Sample code (Wikipedia)",
+"https://en.wikipedia.org/wiki/Sample_code"
+],
+"Use Case Based": [
+"Use case (Wikipedia)",
+"https://en.wikipedia.org/wiki/Use_case"
+],
+"Forums": [
+"Internet forum (Wikipedia)",
+"https://en.wikipedia.org/wiki/Internet_forum"
+],
+"Support": [
+"Technical support (Wikipedia)",
+"https://en.wikipedia.org/wiki/Technical_support"
+],
+"Tracking Engagement": [
+"Customer engagement (Wikipedia)",
+"https://en.wikipedia.org/wiki/Customer_engagement"
+],
+"Issue Tracking": [
+"GitHub Docs: About issues",
+"https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues"
+],
+"Office Hours": [
+"Office hours (Wikipedia)",
+"https://en.wikipedia.org/wiki/Office_hours"
+],
+"Platform Specific Analytics": [
+"Social media measurement (Wikipedia)",
+"https://en.wikipedia.org/wiki/Social_media_measurement"
+],
+"Social Media Analytics": [
+"Social media analytics (Wikipedia)",
+"https://en.wikipedia.org/wiki/Social_media_analytics"
+],
+"Webinars": [
+"Web conferencing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Web_conferencing"
+],
+"Reporting": [
+"Report (Wikipedia)",
+"https://en.wikipedia.org/wiki/Report"
+],
+"Regular Reports": [
+"Report (Wikipedia)",
+"https://en.wikipedia.org/wiki/Report"
+],
+"Key Metrics": [
+"Performance indicator (Wikipedia)",
+"https://en.wikipedia.org/wiki/Performance_indicator"
+],
+"Tools": [
+"Developer relations (Wikipedia)",
+"https://en.wikipedia.org/wiki/Developer_relations"
+],
+"Thought Leadership": [
+"Thought leader (Wikipedia)",
+"https://en.wikipedia.org/wiki/Thought_leader"
+],
+"Insights & Recommendations": [
+"Analytics (Wikipedia)",
+"https://en.wikipedia.org/wiki/Analytics"
+],
+"Publishing": [
+"Publishing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Publishing"
+],
+"Media Appearances": [
+"Public relations (Wikipedia)",
+"https://en.wikipedia.org/wiki/Public_relations"
+],
+"Meetups": [
+"Meetup (website) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Meetup_(website)"
+],
+"Continuous Learning": [
+"Lifelong learning (Wikipedia)",
+"https://en.wikipedia.org/wiki/Lifelong_learning"
+]
+},
+"technical-writer": {
+"Technology Expertise": [
+"Google: Technical Writing courses",
+"https://developers.google.com/tech-writing"
+],
+"Language Proficiency": [
+"Google developer documentation style guide",
+"https://developers.google.com/style"
+],
+"Introduction": [
+"Technical writer (Wikipedia)",
+"https://en.wikipedia.org/wiki/Technical_writer"
+],
+"Required Skills": [
+"Technical writer (Wikipedia)",
+"https://en.wikipedia.org/wiki/Technical_writer"
+],
+"Growth as a Technical Writer": [
+"Write the Docs: Guide",
+"https://www.writethedocs.org/guide/"
+],
+"Research Tools": [
+"Research (Wikipedia)",
+"https://en.wikipedia.org/wiki/Research"
+],
+"Publishing Tools": [
+"Write the Docs: Docs as Code",
+"https://www.writethedocs.org/guide/docs-as-code/"
+],
+"Tooling": [
+"Write the Docs: Docs as Code",
+"https://www.writethedocs.org/guide/docs-as-code/"
+],
+"Docs Generation Tools": [
+"Write the Docs: Docs as Code",
+"https://www.writethedocs.org/guide/docs-as-code/"
+],
+"SEO Tools": [
+"Google Search Central: SEO Starter Guide",
+"https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+],
+"Story Telling": [
+"Storytelling (Wikipedia)",
+"https://en.wikipedia.org/wiki/Storytelling"
+],
+"Subtle Selling": [
+"Content marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_marketing"
+],
+"Markdown": [
+"Markdown Guide",
+"https://www.markdownguide.org/"
+],
+"Call to Actions": [
+"Call to action (marketing) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Call_to_action_(marketing)"
+],
+"References": [
+"Citation (Wikipedia)",
+"https://en.wikipedia.org/wiki/Citation"
+],
+"Content Research": [
+"Content strategy (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_strategy"
+],
+"Crafting Great Titles": [
+"Google Search Central: Influencing title links",
+"https://developers.google.com/search/docs/appearance/title-link"
+],
+"Topic Score": [
+"Content strategy (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_strategy"
+],
+"Product Content": [
+"Content strategy (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_strategy"
+],
+"Content Objectives & Intent": [
+"Content strategy (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_strategy"
+],
+"Keyword Volume": [
+"Keyword research (Wikipedia)",
+"https://en.wikipedia.org/wiki/Keyword_research"
+],
+"Search Trends": [
+"Google Trends",
+"https://trends.google.com/trends/"
+],
+"Short-tail Keywords": [
+"Keyword research (Wikipedia)",
+"https://en.wikipedia.org/wiki/Keyword_research"
+],
+"Long-Tail Keywords": [
+"Long-tail keyword (Wikipedia)",
+"https://en.wikipedia.org/wiki/Long-tail_keyword"
+],
+"SEO Keywords": [
+"Keyword research (Wikipedia)",
+"https://en.wikipedia.org/wiki/Keyword_research"
+],
+"Content SEO": [
+"Google Search Central: Creating helpful content",
+"https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+],
+"Backlinking": [
+"Backlink (Wikipedia)",
+"https://en.wikipedia.org/wiki/Backlink"
+],
+"General Product Prose": [
+"Google: Technical Writing courses",
+"https://developers.google.com/tech-writing"
+],
+"User Persona": [
+"Persona (user experience) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Persona_(user_experience)"
+],
+"ICP & Buyer Persona": [
+"Buyer persona (Wikipedia)",
+"https://en.wikipedia.org/wiki/Buyer_persona"
+],
+"Communities & Forums": [
+"Internet forum (Wikipedia)",
+"https://en.wikipedia.org/wiki/Internet_forum"
+],
+"How-to Guides": [
+"Diátaxis: How-to guides",
+"https://diataxis.fr/how-to-guides/"
+],
+"Types of Technical Content": [
+"Diátaxis documentation framework",
+"https://diataxis.fr/"
+],
+"Docs Structure": [
+"Diátaxis documentation framework",
+"https://diataxis.fr/"
+],
+"Support Request Evaluation": [
+"Technical support (Wikipedia)",
+"https://en.wikipedia.org/wiki/Technical_support"
+],
+"Buyer Journey & Content Funnel": [
+"Purchase funnel (Wikipedia)",
+"https://en.wikipedia.org/wiki/Purchase_funnel"
+],
+"Top-funnel Content": [
+"Purchase funnel (Wikipedia)",
+"https://en.wikipedia.org/wiki/Purchase_funnel"
+],
+"Mid-funnel Content": [
+"Purchase funnel (Wikipedia)",
+"https://en.wikipedia.org/wiki/Purchase_funnel"
+],
+"Bottom-funnel Content": [
+"Purchase funnel (Wikipedia)",
+"https://en.wikipedia.org/wiki/Purchase_funnel"
+],
+"Developer Docs": [
+"Write the Docs: Guide",
+"https://www.writethedocs.org/guide/"
+],
+"Help Content": [
+"Online help (Wikipedia)",
+"https://en.wikipedia.org/wiki/Online_help"
+],
+"Technical Content Marketing": [
+"Content marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_marketing"
+],
+"User Goals": [
+"User story (Wikipedia)",
+"https://en.wikipedia.org/wiki/User_story"
+],
+"Troubleshooting": [
+"Troubleshooting (Wikipedia)",
+"https://en.wikipedia.org/wiki/Troubleshooting"
+],
+"Developer Journey": [
+"Developer experience (Wikipedia)",
+"https://en.wikipedia.org/wiki/Developer_experience"
+],
+"API Definitions": [
+"OpenAPI Specification",
+"https://spec.openapis.org/oas/latest.html"
+],
+"Developer Support": [
+"Technical support (Wikipedia)",
+"https://en.wikipedia.org/wiki/Technical_support"
+],
+"Platform Support": [
+"Technical support (Wikipedia)",
+"https://en.wikipedia.org/wiki/Technical_support"
+],
+"Comparative Posts": [
+"Comparative advertising (Wikipedia)",
+"https://en.wikipedia.org/wiki/Comparative_advertising"
+],
+"Pillar Content": [
+"Content marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_marketing"
+],
+"Generic Gated Content": [
+"Lead generation (Wikipedia)",
+"https://en.wikipedia.org/wiki/Lead_generation"
+],
+"Link Shorteners / Tracking": [
+"UTM parameters (Wikipedia)",
+"https://en.wikipedia.org/wiki/UTM_parameters"
+],
+"Awareness Blog Posts": [
+"Content marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_marketing"
+],
+"Platform Tracking and Metrics": [
+"Web analytics (Wikipedia)",
+"https://en.wikipedia.org/wiki/Web_analytics"
+],
+"Conversion Tracking": [
+"Conversion marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Conversion_marketing"
+],
+"Release Notes / Product Announcements": [
+"Release notes (Wikipedia)",
+"https://en.wikipedia.org/wiki/Release_notes"
+],
+"Customer Case-Studies": [
+"Case study (Wikipedia)",
+"https://en.wikipedia.org/wiki/Case_study"
+],
+"Content Aging & Timelines": [
+"Content management (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_management"
+],
+"Technical Website Copy": [
+"Copywriting (Wikipedia)",
+"https://en.wikipedia.org/wiki/Copywriting"
+],
+"Frequently Asked Questions": [
+"FAQ (Wikipedia)",
+"https://en.wikipedia.org/wiki/FAQ"
+],
+"Canonical Link": [
+"Google Search Central: Consolidate duplicate URLs",
+"https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+],
+"OpenGraph Data": [
+"The Open Graph protocol",
+"https://ogp.me/"
+],
+"Content Distribution": [
+"Content marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Content_marketing"
+],
+"Content Distribution Channels": [
+"Distribution (marketing) (Wikipedia)",
+"https://en.wikipedia.org/wiki/Distribution_(marketing)"
+],
+"Content Distribution Amplification Strategies": [
+"Viral marketing (Wikipedia)",
+"https://en.wikipedia.org/wiki/Viral_marketing"
+]
+}
+}
