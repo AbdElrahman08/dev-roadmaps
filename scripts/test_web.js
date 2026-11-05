@@ -22,10 +22,8 @@ ok(/1 of/.test(await p.textContent('#ptext')),'ticking a course updates progress
 await p.reload();await p.waitForSelector('.stage');ok(/1 of/.test(await p.textContent('#ptext')),'progress persists after reload');
 await p.click('#resetPath');ok(/^0 of/.test(await p.textContent('#ptext')),'reset clears path progress');
 const ev=await p.$('.stage details.ev');await ev.click();ok(/Provider says|Open access/.test(await ev.textContent()),'evidence panel explains why free');
-for(const r of ['cohorts','institutions','sponsor']){await p.goto(BASE+'#'+r);await p.waitForSelector('form.card');
-  await p.click('form.card button[type=submit]');ok(/Please fill in/.test(await p.textContent('.form-msg')),`${r}: empty submit shows validation`);
-  for(const i of await p.$$('form.card [required]')){const t=await i.getAttribute('type');const tag=await i.evaluate(e=>e.tagName);if(tag==='SELECT')continue;await i.fill(t==='email'?'a@b.co':'Test')}
-  await p.click('form.card button[type=submit]');ok(/Nothing was sent/.test(await p.textContent('.form-msg')),`${r}: honest not-connected message`)}
+for(const [r,id] of [['cohorts','CLR4YoH0'],['institutions','BqHGGquz'],['sponsor','ZvDPPuai']]){await p.goto(BASE+'#'+r);await p.waitForSelector('main .btn-primary');
+  ok((await p.getAttribute('main a.btn-primary','href')).endsWith(id),`${r}: links to its Typeform form`)}
 await p.goto(BASE+'#support');ok(/aren't open yet/.test(await p.textContent('main')),'support page states donations not open');
 await p.goto(BASE+'#method');ok(/77 courses listed/.test(await p.textContent('main')),'method page shows counts');
 await p.goto(BASE+'#nope');ok(/isn't here/.test(await p.textContent('main')),'unknown route shows not-found');
