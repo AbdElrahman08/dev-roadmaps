@@ -1,0 +1,1162 @@
+{
+ "fetched_at": "2026-11-05T16:27:08Z",
+ "results": [
+  {
+   "slug": "ai-agents",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ai-agents",
+   "status": "ok",
+   "nodes": 189,
+   "updatedAt": "2026-03-09T11:24:39.307Z",
+   "title": {
+    "card": "AI Agents",
+    "page": "AI Agents",
+    "_id": "69aeadf598cf6f865c8d9b39"
+   }
+  },
+  {
+   "slug": "ai-data-scientist",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ai-data-scientist",
+   "status": "ok",
+   "nodes": 129,
+   "updatedAt": "2026-10-19T10:20:05.906Z",
+   "title": {
+    "card": "AI and Data Scientist",
+    "page": "AI and Data Scientist Roadmap",
+    "_id": "6ad5eed4da8eeb9e5a030a80"
+   }
+  },
+  {
+   "slug": "ai-engineer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ai-engineer",
+   "status": "ok",
+   "nodes": 280,
+   "updatedAt": "2026-10-16T13:43:41.288Z",
+   "title": {
+    "card": "AI Engineer",
+    "page": "AI Engineer",
+    "_id": "6ad22a0cda8eeb9e5a02fe8c"
+   }
+  },
+  {
+   "slug": "ai-product-builder",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ai-product-builder",
+   "status": "ok",
+   "nodes": 93,
+   "updatedAt": "2026-10-22T16:50:37.601Z",
+   "title": {
+    "card": "AI Product Builders",
+    "page": "AI Product Builder",
+    "_id": "6ada3edc0ce35cf4cea4eb63"
+   }
+  },
+  {
+   "slug": "ai-red-teaming",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ai-red-teaming",
+   "status": "ok",
+   "nodes": 105,
+   "updatedAt": "2026-03-20T12:25:38.799Z",
+   "title": {
+    "card": "AI Red Teaming",
+    "page": "AI Red Teaming",
+    "_id": "69bd3bcd31e228f31bc863d5"
+   }
+  },
+  {
+   "slug": "android",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/android",
+   "status": "ok",
+   "nodes": 157,
+   "updatedAt": "2026-07-24T08:58:13.999Z",
+   "title": {
+    "card": "Android",
+    "page": "Android Developer",
+    "_id": "6a2bcda0d5b55a91aab11b1b"
+   }
+  },
+  {
+   "slug": "angular",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/angular",
+   "status": "ok",
+   "nodes": 201,
+   "updatedAt": "2026-06-15T11:34:57.179Z",
+   "title": {
+    "card": "Angular",
+    "page": "Angular Developer",
+    "_id": "6a2fe3602204ffbc59e596c7"
+   }
+  },
+  {
+   "slug": "api-design",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/api-design",
+   "status": "ok",
+   "nodes": 123,
+   "updatedAt": "2026-05-18T13:59:39.252Z",
+   "title": {
+    "card": "API Design",
+    "page": "API Design",
+    "_id": "6a0b1b49a95e0d5c68de82fb"
+   }
+  },
+  {
+   "slug": "aspnet-core",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/aspnet-core",
+   "status": "ok",
+   "nodes": 202,
+   "updatedAt": "2026-09-14T11:34:19.617Z",
+   "title": {
+    "card": "ASP.NET Core",
+    "page": "ASP.NET Core Developer",
+    "_id": "6aa7db67aca636c6b9ea1d6f"
+   }
+  },
+  {
+   "slug": "aws",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/aws",
+   "status": "ok",
+   "nodes": 133,
+   "updatedAt": "2026-10-27T10:45:30.875Z",
+   "title": {
+    "card": "AWS",
+    "page": "AWS Roadmap",
+    "_id": "6ae080c99133391546ad7d9b"
+   }
+  },
+  {
+   "slug": "backend",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/backend",
+   "status": "ok",
+   "nodes": 225,
+   "updatedAt": "2026-02-07T16:58:57.293Z",
+   "title": {
+    "card": "Backend",
+    "page": "Backend Developer",
+    "_id": "6986094d45613096ac8d34a0"
+   }
+  },
+  {
+   "slug": "backend-beginner",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/backend-beginner",
+   "status": "ok",
+   "nodes": 49,
+   "updatedAt": "2026-03-04T16:32:38.311Z",
+   "title": {
+    "card": "Backend Beginner",
+    "page": "Backend Beginner",
+    "_id": "69a85ea598cf6f865c8d7114"
+   }
+  },
+  {
+   "slug": "bi-analyst",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/bi-analyst",
+   "status": "ok",
+   "nodes": 212,
+   "updatedAt": "2026-10-08T09:04:00.664Z",
+   "title": {
+    "card": "BI Analyst",
+    "page": "BI Analyst",
+    "_id": "6ac75c7fda8eeb9e5a02d3bd"
+   }
+  },
+  {
+   "slug": "blockchain",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/blockchain",
+   "status": "ok",
+   "nodes": 172,
+   "updatedAt": "2026-01-06T16:31:52.106Z",
+   "title": {
+    "card": "Blockchain",
+    "page": "Blockchain Developer",
+    "_id": "694ac7b63eeddc26d7c36969"
+   }
+  },
+  {
+   "slug": "c",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/c",
+   "status": "ok",
+   "nodes": 177,
+   "updatedAt": "2026-07-15T12:17:03.888Z",
+   "title": {
+    "card": "C Programming",
+    "page": "C Programming",
+    "_id": "6a5113b1dd873c5a784da2fa"
+   }
+  },
+  {
+   "slug": "claude-code",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/claude-code",
+   "status": "ok",
+   "nodes": 189,
+   "updatedAt": "2026-10-26T15:06:09.601Z",
+   "title": {
+    "card": "Claude Code",
+    "page": "Claude Code",
+    "_id": "6adf6c609133391546ad6595"
+   }
+  },
+  {
+   "slug": "cloud-computing",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/cloud-computing",
+   "status": "ok",
+   "nodes": 150,
+   "updatedAt": "2026-11-03T15:44:10.607Z",
+   "title": {
+    "card": "Cloud Computing",
+    "page": "Cloud Computing",
+    "_id": "6aea0148db5536d0f18a54fe"
+   }
+  },
+  {
+   "slug": "cloudflare",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/cloudflare",
+   "status": "ok",
+   "nodes": 127,
+   "updatedAt": "2026-05-21T16:45:33.617Z",
+   "title": {
+    "card": "Cloudflare",
+    "page": "Cloudflare",
+    "_id": "6a0f36ada95e0d5c68ded49b"
+   }
+  },
+  {
+   "slug": "code-review",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/code-review",
+   "status": "ok",
+   "nodes": 18,
+   "updatedAt": "2025-09-03T11:33:30.622Z",
+   "title": {
+    "card": "Code Review",
+    "page": "Code Review Pyramid",
+    "_id": "68b8191c778c8bf6b3340939"
+   }
+  },
+  {
+   "slug": "codex",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/codex",
+   "status": "ok",
+   "nodes": 138,
+   "updatedAt": "2026-11-04T14:29:16.883Z",
+   "title": {
+    "card": "Codex",
+    "page": "Codex",
+    "_id": "6aea07c9db5536d0f18a57bc"
+   }
+  },
+  {
+   "slug": "computer-science",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/computer-science",
+   "status": "ok",
+   "nodes": 244,
+   "updatedAt": "2026-09-07T17:52:13.415Z",
+   "title": {
+    "card": "Computer Science",
+    "page": "Computer Science",
+    "_id": "6a9ef9cbaca636c6b9e9bfc0"
+   }
+  },
+  {
+   "slug": "cpp",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/cpp",
+   "status": "ok",
+   "nodes": 164,
+   "updatedAt": "2026-07-08T11:38:30.950Z",
+   "title": {
+    "card": "C++",
+    "page": "C++ Developer Roadmap",
+    "_id": "695e49163eeddc26d7c37ad7"
+   }
+  },
+  {
+   "slug": "css",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/css",
+   "status": "ok",
+   "nodes": 147,
+   "updatedAt": "2026-02-26T08:29:32.677Z",
+   "title": {
+    "card": "CSS",
+    "page": "CSS",
+    "_id": "69a0046a14f628c75763a339"
+   }
+  },
+  {
+   "slug": "cyber-security",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/cyber-security",
+   "status": "ok",
+   "nodes": 373,
+   "updatedAt": "2026-06-15T11:47:47.372Z",
+   "title": {
+    "card": "Cyber Security",
+    "page": "Cyber Security Expert",
+    "_id": "6a2fe6622204ffbc59e59a2e"
+   }
+  },
+  {
+   "slug": "data-analyst",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/data-analyst",
+   "status": "ok",
+   "nodes": 156,
+   "updatedAt": "2026-10-08T14:57:10.940Z",
+   "title": {
+    "card": "Data Analyst",
+    "page": "Data Analyst Roadmap",
+    "_id": "6ac7af45da8eeb9e5a02d5ab"
+   }
+  },
+  {
+   "slug": "data-engineer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/data-engineer",
+   "status": "ok",
+   "nodes": 258,
+   "updatedAt": "2026-10-09T08:12:57.882Z",
+   "title": {
+    "card": "Data Engineer",
+    "page": "Data Engineer Roadmap",
+    "_id": "6ac8a208da8eeb9e5a02d674"
+   }
+  },
+  {
+   "slug": "datastructures-and-algorithms",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/datastructures-and-algorithms",
+   "status": "ok",
+   "nodes": 134,
+   "updatedAt": "2026-09-25T07:16:54.387Z",
+   "title": {
+    "card": "Data Structures & Algorithms",
+    "page": "Data Structures & Algorithms",
+    "_id": "6ab61fe5786e49e9a56734fb"
+   }
+  },
+  {
+   "slug": "design-system",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/design-system",
+   "status": "ok",
+   "nodes": 173,
+   "updatedAt": "2025-11-19T08:40:14.512Z",
+   "title": {
+    "card": "Design System",
+    "page": "Design System",
+    "_id": "691d82697c7d1fa20e765f28"
+   }
+  },
+  {
+   "slug": "devops",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/devops",
+   "status": "ok",
+   "nodes": 171,
+   "updatedAt": "2026-10-27T10:48:40.272Z",
+   "title": {
+    "card": "DevOps",
+    "page": "DevOps Roadmap",
+    "_id": "6ae081869133391546ad7df0"
+   }
+  },
+  {
+   "slug": "devops-beginner",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/devops-beginner",
+   "status": "ok",
+   "nodes": 47,
+   "updatedAt": "2026-03-04T16:32:50.218Z",
+   "title": {
+    "card": "DevOps Beginner",
+    "page": "DevOps Beginner",
+    "_id": "69a85eb098cf6f865c8d7121"
+   }
+  },
+  {
+   "slug": "devrel",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/devrel",
+   "status": "ok",
+   "nodes": 185,
+   "updatedAt": "2026-09-22T12:44:07.118Z",
+   "title": {
+    "card": "Developer Relations",
+    "page": "Developer Relations",
+    "_id": "6ab27815aca636c6b9eaabec"
+   }
+  },
+  {
+   "slug": "devsecops",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/devsecops",
+   "status": "ok",
+   "nodes": 131,
+   "updatedAt": "2026-06-10T12:50:33.026Z",
+   "title": {
+    "card": "DevSecOps",
+    "page": "DevSecOps",
+    "_id": "6a295d97d5b55a91aab0ec8b"
+   }
+  },
+  {
+   "slug": "django",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/django",
+   "status": "ok",
+   "nodes": 160,
+   "updatedAt": "2026-02-26T08:25:03.150Z",
+   "title": {
+    "card": "Django",
+    "page": "Django",
+    "_id": "69a0035c14f628c75763a2eb"
+   }
+  },
+  {
+   "slug": "docker",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/docker",
+   "status": "ok",
+   "nodes": 80,
+   "updatedAt": "2026-10-27T10:43:44.663Z",
+   "title": {
+    "card": "Docker",
+    "page": "Docker Roadmap",
+    "_id": "6ae0805e9133391546ad7d87"
+   }
+  },
+  {
+   "slug": "elasticsearch",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/elasticsearch",
+   "status": "ok",
+   "nodes": 175,
+   "updatedAt": "2026-01-06T16:31:58.650Z",
+   "title": {
+    "card": "Elasticsearch",
+    "page": "Elasticsearch",
+    "_id": "692eff4e0b7b842abb9f0224"
+   }
+  },
+  {
+   "slug": "engineering-manager",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/engineering-manager",
+   "status": "ok",
+   "nodes": 227,
+   "updatedAt": "2026-02-26T08:48:55.643Z",
+   "title": {
+    "card": "Engineering Manager",
+    "page": "Engineering Manager",
+    "_id": "69a008f514f628c75763a76e"
+   }
+  },
+  {
+   "slug": "flutter",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/flutter",
+   "status": "ok",
+   "nodes": 139,
+   "updatedAt": "2026-01-06T16:31:57.099Z",
+   "title": {
+    "card": "Flutter",
+    "page": "Flutter Developer",
+    "_id": "68c40fd0166b018f83df332f"
+   }
+  },
+  {
+   "slug": "forward-deployed-engineer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/forward-deployed-engineer",
+   "status": "ok",
+   "nodes": 142,
+   "updatedAt": "2026-10-27T10:39:54.563Z",
+   "title": {
+    "card": "Forward Deployed Engineer",
+    "page": "Forward Deployed Engineer",
+    "_id": "6ae07f799133391546ad7d3e"
+   }
+  },
+  {
+   "slug": "frontend",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/frontend",
+   "status": "ok",
+   "nodes": 156,
+   "updatedAt": "2026-07-15T11:43:37.362Z",
+   "title": {
+    "card": "Frontend",
+    "page": "Frontend Developer",
+    "_id": "6a2671afac1c5fa9928ab4b6"
+   }
+  },
+  {
+   "slug": "frontend-beginner",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/frontend-beginner",
+   "status": "ok",
+   "nodes": 38,
+   "updatedAt": "2026-03-04T16:31:44.654Z",
+   "title": {
+    "card": "Frontend Beginner",
+    "page": "Frontend Beginner",
+    "_id": "69a85e6f98cf6f865c8d70e2"
+   }
+  },
+  {
+   "slug": "full-stack",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/full-stack",
+   "status": "ok",
+   "nodes": 79,
+   "updatedAt": "2026-01-06T16:31:50.558Z",
+   "title": {
+    "card": "Full Stack",
+    "page": "Full Stack Developer",
+    "_id": "68c40824166b018f83df2f1a"
+   }
+  },
+  {
+   "slug": "game-developer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/game-developer",
+   "status": "ok",
+   "nodes": 172,
+   "updatedAt": "2026-01-06T16:31:53.833Z",
+   "title": {
+    "card": "Game Developer",
+    "page": "Game Developer",
+    "_id": "68c40ed0166b018f83df3192"
+   }
+  },
+  {
+   "slug": "git-github",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/git-github",
+   "status": "ok",
+   "nodes": 201,
+   "updatedAt": "2026-09-03T08:24:40.418Z",
+   "title": {
+    "card": "Git and GitHub",
+    "page": "Learn Git and GitHub",
+    "_id": "6a992ec8aca636c6b9e98a87"
+   }
+  },
+  {
+   "slug": "git-github-beginner",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/git-github-beginner",
+   "status": "ok",
+   "nodes": 34,
+   "updatedAt": "2026-03-04T16:32:58.606Z",
+   "title": {
+    "card": "Git and GitHub Beginner",
+    "page": "Git and GitHub Beginner",
+    "_id": "69a85eb898cf6f865c8d7135"
+   }
+  },
+  {
+   "slug": "golang",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/golang",
+   "status": "ok",
+   "nodes": 231,
+   "updatedAt": "2026-01-06T16:31:57.237Z",
+   "title": {
+    "card": "Go",
+    "page": "Go Developer",
+    "_id": "68c40fe6166b018f83df3369"
+   }
+  },
+  {
+   "slug": "graphql",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/graphql",
+   "status": "ok",
+   "nodes": 104,
+   "updatedAt": "2026-02-26T08:43:56.741Z",
+   "title": {
+    "card": "GraphQL",
+    "page": "GraphQL",
+    "_id": "69a007ca14f628c75763a5a0"
+   }
+  },
+  {
+   "slug": "html",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/html",
+   "status": "ok",
+   "nodes": 111,
+   "updatedAt": "2026-02-26T08:54:20.306Z",
+   "title": {
+    "card": "HTML",
+    "page": "HTML",
+    "_id": "69a00a3a14f628c75763a808"
+   }
+  },
+  {
+   "slug": "inference-engineering",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/inference-engineering",
+   "status": "ok",
+   "nodes": 175,
+   "updatedAt": "2026-10-29T14:26:52.637Z",
+   "title": {
+    "card": "Inference Engineering",
+    "page": "Inference Engineering",
+    "_id": "6ae357ab9133391546ad8842"
+   }
+  },
+  {
+   "slug": "ios",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ios",
+   "status": "ok",
+   "nodes": 210,
+   "updatedAt": "2026-01-06T16:31:51.616Z",
+   "title": {
+    "card": "iOS",
+    "page": "iOS Developer",
+    "_id": "68c40e34166b018f83df313e"
+   }
+  },
+  {
+   "slug": "java",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/java",
+   "status": "ok",
+   "nodes": 125,
+   "updatedAt": "2026-01-27T13:57:35.172Z",
+   "title": {
+    "card": "Java",
+    "page": "Java Developer",
+    "_id": "69247d6d7c7d1fa20e767b66"
+   }
+  },
+  {
+   "slug": "javascript",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/javascript",
+   "status": "ok",
+   "nodes": 165,
+   "updatedAt": "2026-04-06T09:20:34.848Z",
+   "title": {
+    "card": "JavaScript",
+    "page": "JavaScript Roadmap",
+    "_id": "68c41405166b018f83df3894"
+   }
+  },
+  {
+   "slug": "kotlin",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/kotlin",
+   "status": "ok",
+   "nodes": 191,
+   "updatedAt": "2026-02-26T08:35:47.767Z",
+   "title": {
+    "card": "Kotlin",
+    "page": "Kotlin",
+    "_id": "69a005de14f628c75763a36c"
+   }
+  },
+  {
+   "slug": "kubernetes",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/kubernetes",
+   "status": "ok",
+   "nodes": 87,
+   "updatedAt": "2026-10-27T10:42:27.713Z",
+   "title": {
+    "card": "Kubernetes",
+    "page": "Kubernetes Roadmap",
+    "_id": "6ae080129133391546ad7d6f"
+   }
+  },
+  {
+   "slug": "laravel",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/laravel",
+   "status": "ok",
+   "nodes": 155,
+   "updatedAt": "2026-10-09T08:23:36.599Z",
+   "title": {
+    "card": "Laravel",
+    "page": "Laravel",
+    "_id": "6ac8a487da8eeb9e5a02d86f"
+   }
+  },
+  {
+   "slug": "leetcode",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/leetcode",
+   "status": "ok",
+   "nodes": 151,
+   "updatedAt": "2026-09-29T07:01:31.577Z",
+   "title": {
+    "card": "LeetCode",
+    "page": "LeetCode",
+    "_id": "6a608d26effd34ff20f89a70"
+   }
+  },
+  {
+   "slug": "linux",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/linux",
+   "status": "ok",
+   "nodes": 121,
+   "updatedAt": "2026-05-12T11:02:34.052Z",
+   "title": {
+    "card": "Linux",
+    "page": "Linux Roadmap",
+    "_id": "6a0308c870a823016f6a6c6d"
+   }
+  },
+  {
+   "slug": "machine-learning",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/machine-learning",
+   "status": "ok",
+   "nodes": 201,
+   "updatedAt": "2026-06-17T17:44:42.082Z",
+   "title": {
+    "card": "Machine Learning",
+    "page": "Machine Learning",
+    "_id": "6a32dd0843b548b57e9381ab"
+   }
+  },
+  {
+   "slug": "mlops",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/mlops",
+   "status": "ok",
+   "nodes": 80,
+   "updatedAt": "2026-10-27T10:35:29.327Z",
+   "title": {
+    "card": "MLOps",
+    "page": "MLOps Roadmap",
+    "_id": "6ae07e6e9133391546ad7cdc"
+   }
+  },
+  {
+   "slug": "mongodb",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/mongodb",
+   "status": "ok",
+   "nodes": 138,
+   "updatedAt": "2026-07-15T09:50:03.565Z",
+   "title": {
+    "card": "MongoDB",
+    "page": "MongoDB",
+    "_id": "69a0075c14f628c75763a56b"
+   }
+  },
+  {
+   "slug": "network-engineer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/network-engineer",
+   "status": "ok",
+   "nodes": 248,
+   "updatedAt": "2026-10-27T10:38:44.286Z",
+   "title": {
+    "card": "Network Engineer",
+    "page": "Network Engineer",
+    "_id": "6ae07f339133391546ad7d1d"
+   }
+  },
+  {
+   "slug": "nextjs",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/nextjs",
+   "status": "ok",
+   "nodes": 132,
+   "updatedAt": "2026-09-14T12:43:59.385Z",
+   "title": {
+    "card": "Next.js",
+    "page": "Next.js",
+    "_id": "6aa7ec0eaca636c6b9ea2b40"
+   }
+  },
+  {
+   "slug": "nodejs",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/nodejs",
+   "status": "ok",
+   "nodes": 160,
+   "updatedAt": "2026-01-06T16:31:52.243Z",
+   "title": {
+    "card": "Node.js",
+    "page": "Node.js Developer",
+    "_id": "68c40f90166b018f83df32b6"
+   }
+  },
+  {
+   "slug": "openclaw",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/openclaw",
+   "status": "ok",
+   "nodes": 154,
+   "updatedAt": "2026-09-10T11:04:25.517Z",
+   "title": {
+    "card": "OpenClaw",
+    "page": "OpenClaw",
+    "_id": "69deafce31e228f31bc915b2"
+   }
+  },
+  {
+   "slug": "php",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/php",
+   "status": "ok",
+   "nodes": 195,
+   "updatedAt": "2026-06-15T11:41:38.992Z",
+   "title": {
+    "card": "PHP",
+    "page": "PHP Roadmap",
+    "_id": "6a2fe4f12204ffbc59e59704"
+   }
+  },
+  {
+   "slug": "postgresql-dba",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/postgresql-dba",
+   "status": "ok",
+   "nodes": 233,
+   "updatedAt": "2026-01-06T16:31:51.969Z",
+   "title": {
+    "card": "PostgreSQL",
+    "page": "PostgreSQL DBA",
+    "_id": "68c40e1f166b018f83df3136"
+   }
+  },
+  {
+   "slug": "power-bi",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/power-bi",
+   "status": "ok",
+   "nodes": 163,
+   "updatedAt": "2026-09-29T07:01:25.804Z",
+   "title": {
+    "card": "Power BI",
+    "page": "Power BI",
+    "_id": "6aac1dedaca636c6b9ea69af"
+   }
+  },
+  {
+   "slug": "product-design",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/product-design",
+   "status": "ok",
+   "nodes": 143,
+   "updatedAt": "2026-08-06T15:08:10.657Z",
+   "title": {
+    "card": "Product Design",
+    "page": "Product Design",
+    "_id": "6a60de1beffd34ff20f89da4"
+   }
+  },
+  {
+   "slug": "product-manager",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/product-manager",
+   "status": "ok",
+   "nodes": 203,
+   "updatedAt": "2026-02-26T08:49:13.640Z",
+   "title": {
+    "card": "Product Manager",
+    "page": "Product Manager",
+    "_id": "69a0090714f628c75763a77e"
+   }
+  },
+  {
+   "slug": "prompt-engineering",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/prompt-engineering",
+   "status": "ok",
+   "nodes": 94,
+   "updatedAt": "2026-04-29T07:36:03.435Z",
+   "title": {
+    "card": "Prompt Engineering",
+    "page": "Prompt Engineering Roadmap",
+    "_id": "69f1b4de0cbf10396238cd4f"
+   }
+  },
+  {
+   "slug": "python",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/python",
+   "status": "ok",
+   "nodes": 124,
+   "updatedAt": "2026-10-15T07:59:06.285Z",
+   "title": {
+    "card": "Python",
+    "page": "Python Developer",
+    "_id": "6a97028eaca636c6b9e98679"
+   }
+  },
+  {
+   "slug": "python-data-analysis",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/python-data-analysis",
+   "status": "ok",
+   "nodes": 155,
+   "updatedAt": "2026-09-29T07:01:14.780Z",
+   "title": {
+    "card": "Python for Data Analysis",
+    "page": "Python for Data Analysis",
+    "_id": "6a9a6c14aca636c6b9e997e6"
+   }
+  },
+  {
+   "slug": "qa",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/qa",
+   "status": "ok",
+   "nodes": 186,
+   "updatedAt": "2026-03-30T09:08:13.741Z",
+   "title": {
+    "card": "QA",
+    "page": "QA Engineer",
+    "_id": "69ca3d7c31e228f31bc8713d"
+   }
+  },
+  {
+   "slug": "r",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/r",
+   "status": "http 404"
+  },
+  {
+   "slug": "r-programming",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/r-programming",
+   "status": "ok",
+   "nodes": 162,
+   "updatedAt": "2026-09-29T07:01:11.450Z",
+   "title": {
+    "card": "R Programming",
+    "page": "R Programming",
+    "_id": "6aac1e08aca636c6b9ea69c7"
+   }
+  },
+  {
+   "slug": "react",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/react",
+   "status": "ok",
+   "nodes": 112,
+   "updatedAt": "2026-10-13T09:14:19.064Z",
+   "title": {
+    "card": "React",
+    "page": "React Developer",
+    "_id": "6acdf669da8eeb9e5a02dc12"
+   }
+  },
+  {
+   "slug": "react-native",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/react-native",
+   "status": "ok",
+   "nodes": 125,
+   "updatedAt": "2026-01-06T16:31:56.550Z",
+   "title": {
+    "card": "React Native",
+    "page": "React Native Developer",
+    "_id": "692d78930b7b842abb9ecaf8"
+   }
+  },
+  {
+   "slug": "redis",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/redis",
+   "status": "ok",
+   "nodes": 246,
+   "updatedAt": "2026-03-20T12:21:44.235Z",
+   "title": {
+    "card": "Redis",
+    "page": "Redis Roadmap",
+    "_id": "69bd3bd631e228f31bc863e2"
+   }
+  },
+  {
+   "slug": "ruby",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ruby",
+   "status": "ok",
+   "nodes": 142,
+   "updatedAt": "2026-02-26T08:24:17.062Z",
+   "title": {
+    "card": "Ruby",
+    "page": "Ruby",
+    "_id": "69a0032f14f628c75763a2d4"
+   }
+  },
+  {
+   "slug": "ruby-on-rails",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ruby-on-rails",
+   "status": "ok",
+   "nodes": 141,
+   "updatedAt": "2026-02-26T08:23:04.930Z",
+   "title": {
+    "card": "Ruby on Rails",
+    "page": "Ruby on Rails",
+    "_id": "69a002e714f628c75763a2be"
+   }
+  },
+  {
+   "slug": "rust",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/rust",
+   "status": "ok",
+   "nodes": 176,
+   "updatedAt": "2026-08-05T10:29:08.098Z",
+   "title": {
+    "card": "Rust",
+    "page": "Rust Developer",
+    "_id": "6a731071c84807390820f869"
+   }
+  },
+  {
+   "slug": "scala",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/scala",
+   "status": "ok",
+   "nodes": 231,
+   "updatedAt": "2026-03-19T14:05:02.831Z",
+   "title": {
+    "card": "Scala",
+    "page": "Scala",
+    "_id": "69bbf6fa31e228f31bc85ec0"
+   }
+  },
+  {
+   "slug": "seo",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/seo",
+   "status": "ok",
+   "nodes": 263,
+   "updatedAt": "2026-09-29T07:19:34.015Z",
+   "title": {
+    "card": "SEO",
+    "page": "SEO",
+    "_id": "6abb6684189aa098f55855c2"
+   }
+  },
+  {
+   "slug": "server-side-game-developer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/server-side-game-developer",
+   "status": "ok",
+   "nodes": 197,
+   "updatedAt": "2026-01-06T16:31:53.971Z",
+   "title": {
+    "card": "Server Side Game Developer",
+    "page": "Server Side Game Developer",
+    "_id": "68c40ed7166b018f83df319a"
+   }
+  },
+  {
+   "slug": "shell-bash",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/shell-bash",
+   "status": "ok",
+   "nodes": 237,
+   "updatedAt": "2026-09-29T14:36:05.499Z",
+   "title": {
+    "card": "Shell / Bash",
+    "page": "Shell / Bash Roadmap",
+    "_id": "6abbccd2b63d4fa9c3928504"
+   }
+  },
+  {
+   "slug": "software-architect",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/software-architect",
+   "status": "ok",
+   "nodes": 146,
+   "updatedAt": "2026-01-06T16:31:52.878Z",
+   "title": {
+    "card": "Software Architect",
+    "page": "Software Architect",
+    "_id": "68edf7f0166b018f83dfa18a"
+   }
+  },
+  {
+   "slug": "software-design-architecture",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/software-design-architecture",
+   "status": "ok",
+   "nodes": 126,
+   "updatedAt": "2025-09-12T12:38:05.654Z",
+   "title": {
+    "card": "Software Design and Architecture",
+    "page": "Software Design and Architecture",
+    "_id": "68c40ff1166b018f83df3371"
+   }
+  },
+  {
+   "slug": "spring-boot",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/spring-boot",
+   "status": "ok",
+   "nodes": 57,
+   "updatedAt": "2026-03-17T15:55:08.992Z",
+   "title": {
+    "card": "Spring Boot",
+    "page": "Spring Boot Developer",
+    "_id": "698084299d704efe2cb0b313"
+   }
+  },
+  {
+   "slug": "sql",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/sql",
+   "status": "ok",
+   "nodes": 158,
+   "updatedAt": "2026-09-03T08:37:19.312Z",
+   "title": {
+    "card": "SQL",
+    "page": "SQL Roadmap",
+    "_id": "6a9931beaca636c6b9e98d48"
+   }
+  },
+  {
+   "slug": "swift-ui",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/swift-ui",
+   "status": "ok",
+   "nodes": 216,
+   "updatedAt": "2026-02-26T08:29:09.161Z",
+   "title": {
+    "card": "Swift & Swift UI",
+    "page": "Swift & Swift UI",
+    "_id": "69a0045014f628c75763a320"
+   }
+  },
+  {
+   "slug": "system-design",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/system-design",
+   "status": "ok",
+   "nodes": 201,
+   "updatedAt": "2026-03-03T10:30:08.690Z",
+   "title": {
+    "card": "System Design",
+    "page": "System Design Roadmap",
+    "_id": "69a6b82e3258582713dc3de5"
+   }
+  },
+  {
+   "slug": "technical-writer",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/technical-writer",
+   "status": "ok",
+   "nodes": 103,
+   "updatedAt": "2026-09-22T12:43:19.084Z",
+   "title": {
+    "card": "Technical Writer",
+    "page": "Technical Writer",
+    "_id": "6ab277e5aca636c6b9eaabdc"
+   }
+  },
+  {
+   "slug": "terraform",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/terraform",
+   "status": "ok",
+   "nodes": 129,
+   "updatedAt": "2026-10-27T10:47:12.532Z",
+   "title": {
+    "card": "Terraform",
+    "page": "Terraform Roadmap",
+    "_id": "6ae0812f9133391546ad7db2"
+   }
+  },
+  {
+   "slug": "typescript",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/typescript",
+   "status": "ok",
+   "nodes": 120,
+   "updatedAt": "2026-01-06T16:31:52.381Z",
+   "title": {
+    "card": "TypeScript",
+    "page": "TypeScript",
+    "_id": "68c40f8b166b018f83df32a7"
+   }
+  },
+  {
+   "slug": "ux-design",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/ux-design",
+   "status": "ok",
+   "nodes": 140,
+   "updatedAt": "2026-07-20T12:22:38.616Z",
+   "title": {
+    "card": "UX Design",
+    "page": "UX Design",
+    "_id": "6a5e130dd00674e850e8b3d7"
+   }
+  },
+  {
+   "slug": "vibe-coding",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/vibe-coding",
+   "status": "ok",
+   "nodes": 93,
+   "updatedAt": "2026-10-26T07:32:29.015Z",
+   "title": {
+    "card": "Vibe Coding",
+    "page": "Vibe Coding",
+    "_id": "6adf020c9133391546ad5399"
+   }
+  },
+  {
+   "slug": "vue",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/vue",
+   "status": "ok",
+   "nodes": 115,
+   "updatedAt": "2026-01-06T16:31:50.785Z",
+   "title": {
+    "card": "Vue",
+    "page": "Vue Developer",
+    "_id": "68c40f70166b018f83df326c"
+   }
+  },
+  {
+   "slug": "wordpress",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/wordpress",
+   "status": "ok",
+   "nodes": 171,
+   "updatedAt": "2026-01-06T16:31:58.787Z",
+   "title": {
+    "card": "WordPress",
+    "page": "WordPress",
+    "_id": "6932b21d0b7b842abba019a4"
+   }
+  }
+ ]
+}
