@@ -1426,8 +1426,8 @@
     "needs_review": 0,
     "not_reviewed": 367,
     "link_ok": 352,
-    "link_bad": 9,
-    "link_unchecked": 19,
+    "link_bad": 8,
+    "link_unchecked": 20,
     "topics_without_verified_link": 1
    }
   },
@@ -2147,10 +2147,10 @@
   "needs_review": 0,
   "not_reviewed": 25632,
   "link_ok": 24934,
-  "link_bad": 517,
-  "link_unchecked": 2123,
+  "link_bad": 516,
+  "link_unchecked": 2124,
   "topics_without_verified_link": 94
  },
  "verification_entries": 382,
- "linkcheck_entries": 22104
+ "linkcheck_entries": 22294
 }

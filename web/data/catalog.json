@@ -1,5 +1,5 @@
 {
-"built_at": "2026-11-07T11:57:26Z",
+"built_at": "2026-11-07T12:17:37Z",
 "verified_on": "2026-11-05",
 "providers": {
 "Harvard CS50": {
@@ -1297,6 +1297,4578 @@
 "checked_at": "2026-11-05T22:07:34Z"
 },
 "cost": "open"
+},
+{
+"id": "github-configuring-a-publishing-source-for-githu",
+"title": "Configuring a publishing source for GitHub Pages",
+"provider": "GitHub Docs",
+"url": "https://docs.github.com/en/pages/getting-started-with-github-pages",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "owasp-threat-modeling-cheat-sheet",
+"title": "Threat Modeling Cheat Sheet",
+"provider": "OWASP",
+"url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "owasp-devsecops-guideline",
+"title": "DevSecOps Guideline",
+"provider": "OWASP",
+"url": "https://owasp.org/www-project-devsecops-guideline/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "github-about-code-scanning",
+"title": "About code scanning",
+"provider": "GitHub Docs",
+"url": "https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "github-about-dependabot-alerts",
+"title": "About Dependabot alerts",
+"provider": "GitHub Docs",
+"url": "https://docs.github.com/en/code-security/dependabot/dependabot-alerts/about-dependabot-alerts",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "docker-docker-engine-security",
+"title": "Docker Engine security",
+"provider": "Docker docs",
+"url": "https://docs.docker.com/engine/security/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:15Z"
+},
+"cost": "open"
+},
+{
+"id": "kubernetes-kubernetes-security-concepts",
+"title": "Kubernetes security concepts",
+"provider": "Kubernetes docs",
+"url": "https://kubernetes.io/docs/concepts/security/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:38Z"
+},
+"cost": "open"
+},
+{
+"id": "openssf-slsa-supply-chain-levels-for-software-ar",
+"title": "SLSA: Supply-chain Levels for Software Artifacts",
+"provider": "OpenSSF",
+"url": "https://slsa.dev/",
+"format": "Framework",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "google-rules-of-machine-learning",
+"title": "Rules of Machine Learning",
+"provider": "Google for Developers",
+"url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "datatalksclub-data-engineering-zoomcamp",
+"title": "Data Engineering Zoomcamp",
+"provider": "DataTalksClub",
+"url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+"format": "Course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "apache-airflow-tutorial-fundamentals",
+"title": "Airflow tutorial: fundamentals",
+"provider": "Apache Airflow",
+"url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:36:04Z"
+},
+"cost": "open"
+},
+{
+"id": "apache-spark-quick-start",
+"title": "Spark quick start",
+"provider": "Apache Spark",
+"url": "https://spark.apache.org/docs/latest/quick-start.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "apache-introduction-to-kafka",
+"title": "Introduction to Kafka",
+"provider": "Apache Kafka",
+"url": "https://kafka.apache.org/intro",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "kimball-dimensional-modeling-techniques",
+"title": "Dimensional modeling techniques",
+"provider": "Kimball Group",
+"url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "kotlin-kotlin-tour",
+"title": "Kotlin tour",
+"provider": "Kotlin docs",
+"url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "android-android-basics-with-compose",
+"title": "Android Basics with Compose",
+"provider": "Android Developers",
+"url": "https://developer.android.com/courses/android-basics-compose/course",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:10Z"
+},
+"cost": "open"
+},
+{
+"id": "android-guide-to-app-architecture",
+"title": "Guide to app architecture",
+"provider": "Android Developers",
+"url": "https://developer.android.com/topic/architecture",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:13Z"
+},
+"cost": "open"
+},
+{
+"id": "android-publish-your-app",
+"title": "Publish your app",
+"provider": "Android Developers",
+"url": "https://developer.android.com/studio/publish",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:43Z"
+},
+"cost": "open"
+},
+{
+"id": "swift-org-the-swift-programming-language",
+"title": "The Swift Programming Language",
+"provider": "Swift.org",
+"url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "apple-swiftui-tutorials",
+"title": "SwiftUI tutorials",
+"provider": "Apple Developer",
+"url": "https://developer.apple.com/tutorials/swiftui",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:13Z"
+},
+"cost": "open"
+},
+{
+"id": "stanford-cs193p-developing-apps-for-ios",
+"title": "CS193p: Developing Apps for iOS",
+"provider": "Stanford University",
+"url": "https://cs193p.sites.stanford.edu/",
+"format": "Lectures + assignments",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "apple-distributing-your-app-for-beta-testing-and",
+"title": "Distributing your app for beta testing and releases",
+"provider": "Apple Developer",
+"url": "https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "postgresql-server-administration",
+"title": "Server administration",
+"provider": "PostgreSQL docs",
+"url": "https://www.postgresql.org/docs/current/admin.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "postgresql-backup-and-restore",
+"title": "Backup and restore",
+"provider": "PostgreSQL docs",
+"url": "https://www.postgresql.org/docs/current/backup.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "postgresql-high-availability-load-balancing-and-",
+"title": "High availability, load balancing and replication",
+"provider": "PostgreSQL docs",
+"url": "https://www.postgresql.org/docs/current/high-availability.html",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "postgresql-performance-tips",
+"title": "Performance tips",
+"provider": "PostgreSQL docs",
+"url": "https://www.postgresql.org/docs/current/performance-tips.html",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "satoshi-bitcoin-a-peer-to-peer-electronic-cash-s",
+"title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+"provider": "Satoshi Nakamoto",
+"url": "https://bitcoin.org/bitcoin.pdf",
+"format": "Paper",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "ethereum-org-ethereum-developer-docs",
+"title": "Ethereum developer docs",
+"provider": "ethereum.org",
+"url": "https://ethereum.org/en/developers/docs/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "solidity-solidity-documentation",
+"title": "Solidity documentation",
+"provider": "Solidity",
+"url": "https://docs.soliditylang.org/en/latest/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "cryptozombies-cryptozombies",
+"title": "CryptoZombies",
+"provider": "CryptoZombies",
+"url": "https://cryptozombies.io/",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "ethereum-org-smart-contract-security",
+"title": "Smart contract security",
+"provider": "ethereum.org",
+"url": "https://ethereum.org/en/developers/docs/smart-contracts/security/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:14Z"
+},
+"cost": "open"
+},
+{
+"id": "martin-the-practical-test-pyramid",
+"title": "The Practical Test Pyramid",
+"provider": "Martin Fowler",
+"url": "https://martinfowler.com/articles/practical-test-pyramid.html",
+"format": "Article",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:41Z"
+},
+"cost": "open"
+},
+{
+"id": "playwright-playwright-getting-started",
+"title": "Playwright: getting started",
+"provider": "Playwright",
+"url": "https://playwright.dev/docs/intro",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:04Z"
+},
+"cost": "open"
+},
+{
+"id": "cypress-why-cypress",
+"title": "Why Cypress?",
+"provider": "Cypress",
+"url": "https://docs.cypress.io/app/get-started/why-cypress",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "postman-postman-learning-center",
+"title": "Postman Learning Center",
+"provider": "Postman",
+"url": "https://learning.postman.com/docs/introduction/overview/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "pytest-pytest-get-started",
+"title": "pytest: get started",
+"provider": "pytest",
+"url": "https://docs.pytest.org/en/stable/getting-started.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "grafana-k6-documentation",
+"title": "k6 documentation",
+"provider": "Grafana k6",
+"url": "https://grafana.com/docs/k6/latest/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "martin-software-architecture-guide",
+"title": "Software Architecture Guide",
+"provider": "Martin Fowler",
+"url": "https://martinfowler.com/architecture/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "c4-the-c4-model",
+"title": "The C4 model",
+"provider": "C4 model",
+"url": "https://c4model.com/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "adr-architectural-decision-records",
+"title": "Architectural Decision Records",
+"provider": "ADR GitHub organization",
+"url": "https://adr.github.io/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "donne-system-design-primer",
+"title": "System Design Primer",
+"provider": "Donne Martin",
+"url": "https://github.com/donnemartin/system-design-primer",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-aws-well-architected-framework",
+"title": "AWS Well-Architected Framework",
+"provider": "AWS",
+"url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+"format": "Framework",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-azure-architecture-center",
+"title": "Azure Architecture Center",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/azure/architecture/",
+"format": "Guide",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "nielsen-10-usability-heuristics",
+"title": "10 usability heuristics",
+"provider": "Nielsen Norman Group",
+"url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+"format": "Article",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:06Z"
+},
+"cost": "open"
+},
+{
+"id": "laws-laws-of-ux",
+"title": "Laws of UX",
+"provider": "Laws of UX",
+"url": "https://lawsofux.com/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:32Z"
+},
+"cost": "open"
+},
+{
+"id": "gov-uk-user-research",
+"title": "User research",
+"provider": "GOV.UK Service Manual",
+"url": "https://www.gov.uk/service-manual/user-research",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "google-material-design-3",
+"title": "Material Design 3",
+"provider": "Google",
+"url": "https://m3.material.io/",
+"format": "Design system",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "figma-figma-learn",
+"title": "Figma Learn",
+"provider": "Figma",
+"url": "https://help.figma.com/hc/en-us/categories/360002051613",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:25Z"
+},
+"cost": "open"
+},
+{
+"id": "google-technical-writing-courses",
+"title": "Technical Writing courses",
+"provider": "Google for Developers",
+"url": "https://developers.google.com/tech-writing",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:22Z"
+},
+"cost": "open"
+},
+{
+"id": "google-developer-documentation-style-guide",
+"title": "Developer documentation style guide",
+"provider": "Google for Developers",
+"url": "https://developers.google.com/style",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:22Z"
+},
+"cost": "open"
+},
+{
+"id": "di-taxis-di-taxis-documentation-framework",
+"title": "Diátaxis documentation framework",
+"provider": "Diátaxis",
+"url": "https://diataxis.fr/",
+"format": "Framework",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:21Z"
+},
+"cost": "open"
+},
+{
+"id": "markdown-markdown-guide",
+"title": "Markdown Guide",
+"provider": "Markdown Guide",
+"url": "https://www.markdownguide.org/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:07Z"
+},
+"cost": "open"
+},
+{
+"id": "write-write-the-docs-guide",
+"title": "Write the Docs guide",
+"provider": "Write the Docs",
+"url": "https://www.writethedocs.org/guide/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:19Z"
+},
+"cost": "open"
+},
+{
+"id": "harvard-cs50-s-introduction-to-game-development",
+"title": "CS50's Introduction to Game Development",
+"provider": "Harvard CS50",
+"url": "https://cs50.harvard.edu/games/",
+"format": "Video course + projects",
+"level": "Beginner",
+"note": "",
+"provider_evidence": {
+"url": "https://cs50.harvard.edu/x/",
+"claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "free"
+},
+{
+"id": "godot-godot-getting-started",
+"title": "Godot: getting started",
+"provider": "Godot docs",
+"url": "https://docs.godotengine.org/en/stable/getting_started/introduction/index.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "robert-game-programming-patterns",
+"title": "Game Programming Patterns",
+"provider": "Robert Nystrom",
+"url": "https://gameprogrammingpatterns.com/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "amit-red-blob-games",
+"title": "Red Blob Games",
+"provider": "Amit Patel",
+"url": "https://www.redblobgames.com/",
+"format": "Interactive articles",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "joey-learnopengl",
+"title": "LearnOpenGL",
+"provider": "Joey de Vries",
+"url": "https://learnopengl.com/",
+"format": "Tutorial",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "gabriel-fast-paced-multiplayer",
+"title": "Fast-Paced Multiplayer",
+"provider": "Gabriel Gambetta",
+"url": "https://www.gabrielgambetta.com/client-server-game-architecture.html",
+"format": "Article series",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:55Z"
+},
+"cost": "open"
+},
+{
+"id": "valve-source-multiplayer-networking",
+"title": "Source Multiplayer Networking",
+"provider": "Valve Developer Community",
+"url": "https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking",
+"format": "Article",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "glenn-gaffer-on-games",
+"title": "Gaffer On Games",
+"provider": "Glenn Fiedler",
+"url": "https://gafferongames.com/",
+"format": "Articles",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "google-mlops-continuous-delivery-and-automation-",
+"title": "MLOps: continuous delivery and automation pipelines in ML",
+"provider": "Google Cloud",
+"url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "datatalksclub-mlops-zoomcamp",
+"title": "MLOps Zoomcamp",
+"provider": "DataTalksClub",
+"url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+"format": "Course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:25Z"
+},
+"cost": "open"
+},
+{
+"id": "mlflow-mlflow-documentation",
+"title": "MLflow documentation",
+"provider": "MLflow",
+"url": "https://mlflow.org/docs/latest/index.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "atlassian-product-management-guide",
+"title": "Product management guide",
+"provider": "Atlassian",
+"url": "https://www.atlassian.com/agile/product-management",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:03Z"
+},
+"cost": "open"
+},
+{
+"id": "basecamp-shape-up",
+"title": "Shape Up",
+"provider": "Basecamp",
+"url": "https://basecamp.com/shapeup",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "scrum-org-the-scrum-guide",
+"title": "The Scrum Guide",
+"provider": "Scrum.org",
+"url": "https://scrumguides.org/scrum-guide.html",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:36Z"
+},
+"cost": "open"
+},
+{
+"id": "gov-uk-service-manual",
+"title": "Service Manual",
+"provider": "GOV.UK",
+"url": "https://www.gov.uk/service-manual",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "atlassian-team-playbook",
+"title": "Team Playbook",
+"provider": "Atlassian",
+"url": "https://www.atlassian.com/team-playbook",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "gitlab-gitlab-handbook",
+"title": "GitLab Handbook",
+"provider": "GitLab",
+"url": "https://handbook.gitlab.com/handbook/",
+"format": "Handbook",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "google-google-engineering-practices",
+"title": "Google Engineering Practices",
+"provider": "Google",
+"url": "https://google.github.io/eng-practices/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "dora-dora-research",
+"title": "DORA research",
+"provider": "DORA",
+"url": "https://dora.dev/research/",
+"format": "Research",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:26Z"
+},
+"cost": "open"
+},
+{
+"id": "google-postmortem-culture",
+"title": "Postmortem culture",
+"provider": "Google SRE",
+"url": "https://sre.google/sre-book/postmortem-culture/",
+"format": "Book chapter",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:24Z"
+},
+"cost": "open"
+},
+{
+"id": "will-staffeng",
+"title": "StaffEng",
+"provider": "Will Larson",
+"url": "https://staffeng.com/",
+"format": "Articles",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "github-open-source-guides",
+"title": "Open Source Guides",
+"provider": "GitHub",
+"url": "https://opensource.guide/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "github-building-communities",
+"title": "Building communities",
+"provider": "GitHub Docs",
+"url": "https://docs.github.com/en/communities",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "zach-speaking-io",
+"title": "speaking.io",
+"provider": "Zach Holman",
+"url": "https://speaking.io/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-star-schema-guidance-for-power-bi",
+"title": "Star schema guidance for Power BI",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:24Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-dax-reference",
+"title": "DAX reference",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/dax/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "olivier-computer-networking-principles-protocols",
+"title": "Computer Networking: Principles, Protocols and Practice",
+"provider": "Olivier Bonaventure",
+"url": "https://www.computer-networking.info/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "wireshark-wireshark-user-s-guide",
+"title": "Wireshark User's Guide",
+"provider": "Wireshark",
+"url": "https://www.wireshark.org/docs/wsug_html_chunked/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "google-people-ai-guidebook",
+"title": "People + AI Guidebook",
+"provider": "Google PAIR",
+"url": "https://pair.withgoogle.com/guidebook/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-building-effective-agents",
+"title": "Building effective agents",
+"provider": "Anthropic",
+"url": "https://www.anthropic.com/engineering/building-effective-agents",
+"format": "Article",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-define-success-criteria-and-build-eval",
+"title": "Define success criteria and build evaluations",
+"provider": "Anthropic docs",
+"url": "https://docs.anthropic.com/en/docs/test-and-evaluate/develop-tests",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "brad-atomic-design",
+"title": "Atomic Design",
+"provider": "Brad Frost",
+"url": "https://atomicdesign.bradfrost.com/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "gov-uk-gov-uk-design-system",
+"title": "GOV.UK Design System",
+"provider": "GOV.UK",
+"url": "https://design-system.service.gov.uk/",
+"format": "Design system",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "mitre-mitre-atlas",
+"title": "MITRE ATLAS",
+"provider": "MITRE",
+"url": "https://atlas.mitre.org/",
+"format": "Knowledge base",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-ai-red-team-guidance",
+"title": "AI red team guidance",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/security/ai-red-team/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "nist-ai-risk-management-framework",
+"title": "AI Risk Management Framework",
+"provider": "NIST",
+"url": "https://www.nist.gov/itl/ai-risk-management-framework",
+"format": "Framework",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:54Z"
+},
+"cost": "open"
+},
+{
+"id": "nvidia-garak-llm-vulnerability-scanner",
+"title": "garak: LLM vulnerability scanner",
+"provider": "NVIDIA",
+"url": "https://github.com/NVIDIA/garak",
+"format": "Tool",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-pyrit",
+"title": "PyRIT",
+"provider": "Microsoft Azure",
+"url": "https://github.com/Azure/PyRIT",
+"format": "Tool",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:06Z"
+},
+"cost": "open"
+},
+{
+"id": "theia-how-to-make-llms-go-fast",
+"title": "How to make LLMs go fast",
+"provider": "Theia Vogel",
+"url": "https://vgel.me/posts/faster-inference/",
+"format": "Article",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "modal-gpu-glossary",
+"title": "GPU Glossary",
+"provider": "Modal",
+"url": "https://modal.com/gpu-glossary",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:43Z"
+},
+"cost": "open"
+},
+{
+"id": "vllm-vllm-documentation",
+"title": "vLLM documentation",
+"provider": "vLLM",
+"url": "https://docs.vllm.ai/en/latest/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:26Z"
+},
+"cost": "open"
+},
+{
+"id": "hugging-text-generation-inference",
+"title": "Text Generation Inference",
+"provider": "Hugging Face",
+"url": "https://huggingface.co/docs/text-generation-inference/index",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:25Z"
+},
+"cost": "open"
+},
+{
+"id": "ggml-org-llama-cpp",
+"title": "llama.cpp",
+"provider": "ggml-org",
+"url": "https://github.com/ggml-org/llama.cpp",
+"format": "Tool",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "sqlbolt-sqlbolt",
+"title": "SQLBolt",
+"provider": "SQLBolt",
+"url": "https://sqlbolt.com/",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "markus-use-the-index-luke",
+"title": "Use The Index, Luke",
+"provider": "Markus Winand",
+"url": "https://use-the-index-luke.com/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:01Z"
+},
+"cost": "open"
+},
+{
+"id": "mdn-javascript-guide",
+"title": "JavaScript Guide",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:20Z"
+},
+"cost": "open"
+},
+{
+"id": "marijn-eloquent-javascript",
+"title": "Eloquent JavaScript",
+"provider": "Marijn Haverbeke",
+"url": "https://eloquentjavascript.net/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:25Z"
+},
+"cost": "open"
+},
+{
+"id": "kyle-you-don-t-know-js-yet",
+"title": "You Don't Know JS Yet",
+"provider": "Kyle Simpson",
+"url": "https://github.com/getify/You-Dont-Know-JS",
+"format": "Book",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:22Z"
+},
+"cost": "open"
+},
+{
+"id": "typescript-typescript-for-javascript-programmers",
+"title": "TypeScript for JavaScript programmers",
+"provider": "TypeScript docs",
+"url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "matt-total-typescript-essentials",
+"title": "Total TypeScript Essentials",
+"provider": "Matt Pocock",
+"url": "https://www.totaltypescript.com/books/total-typescript-essentials",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "type-challenges-type-challenges",
+"title": "type-challenges",
+"provider": "type-challenges",
+"url": "https://github.com/type-challenges/type-challenges",
+"format": "Exercises",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "python-the-python-tutorial",
+"title": "The Python Tutorial",
+"provider": "Python docs",
+"url": "https://docs.python.org/3/tutorial/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:24Z"
+},
+"cost": "open"
+},
+{
+"id": "al-automate-the-boring-stuff-with-python",
+"title": "Automate the Boring Stuff with Python",
+"provider": "Al Sweigart",
+"url": "https://automatetheboringstuff.com/",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:25Z"
+},
+"cost": "open"
+},
+{
+"id": "python-packaging-python-projects",
+"title": "Packaging Python projects",
+"provider": "Python Packaging Authority",
+"url": "https://packaging.python.org/en/latest/tutorials/packaging-projects/",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "university-java-programming-mooc",
+"title": "Java Programming MOOC",
+"provider": "University of Helsinki",
+"url": "https://java-programming.mooc.fi/",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:16Z"
+},
+"cost": "open"
+},
+{
+"id": "dev-java-learn-java",
+"title": "Learn Java",
+"provider": "Dev.java (Oracle)",
+"url": "https://dev.java/learn/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "apache-maven-getting-started",
+"title": "Maven getting started",
+"provider": "Apache Maven",
+"url": "https://maven.apache.org/guides/getting-started/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:51Z"
+},
+"cost": "open"
+},
+{
+"id": "junit-junit-5-user-guide",
+"title": "JUnit 5 User Guide",
+"provider": "JUnit",
+"url": "https://junit.org/junit5/docs/current/user-guide/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:07Z"
+},
+"cost": "open"
+},
+{
+"id": "spring-spring-guides",
+"title": "Spring guides",
+"provider": "Spring",
+"url": "https://spring.io/guides",
+"format": "Tutorials",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "spring-building-rest-services-with-spring",
+"title": "Building REST services with Spring",
+"provider": "Spring",
+"url": "https://spring.io/guides/tutorials/rest",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "spring-spring-data-jpa",
+"title": "Spring Data JPA",
+"provider": "Spring",
+"url": "https://spring.io/projects/spring-data-jpa",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:16Z"
+},
+"cost": "open"
+},
+{
+"id": "spring-spring-security-reference",
+"title": "Spring Security reference",
+"provider": "Spring",
+"url": "https://docs.spring.io/spring-security/reference/index.html",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "spring-spring-boot-reference",
+"title": "Spring Boot reference",
+"provider": "Spring",
+"url": "https://docs.spring.io/spring-boot/index.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-a-tour-of-c",
+"title": "A tour of C#",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:37Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-introduction-to-asp-net-core",
+"title": "Introduction to ASP.NET Core",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:32Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-tutorial-create-a-minimal-api",
+"title": "Tutorial: create a minimal API",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-entity-framework-core",
+"title": "Entity Framework Core",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/ef/core/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:42Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-testing-in-net",
+"title": "Testing in .NET",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/dotnet/core/testing/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "express-express-routing-guide",
+"title": "Express routing guide",
+"provider": "Express",
+"url": "https://expressjs.com/en/guide/routing.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "yoni-node-js-best-practices",
+"title": "Node.js best practices",
+"provider": "Yoni Goldberg",
+"url": "https://github.com/goldbergyoni/nodebestpractices",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "node-js-node-js-api-reference",
+"title": "Node.js API reference",
+"provider": "Node.js docs",
+"url": "https://nodejs.org/docs/latest/api/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:26Z"
+},
+"cost": "open"
+},
+{
+"id": "tanstack-tanstack-query",
+"title": "TanStack Query",
+"provider": "TanStack",
+"url": "https://tanstack.com/query/latest/docs/framework/react/overview",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "testing-react-testing-library",
+"title": "React Testing Library",
+"provider": "Testing Library",
+"url": "https://testing-library.com/docs/react-testing-library/intro/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:39Z"
+},
+"cost": "open"
+},
+{
+"id": "react-react-reference",
+"title": "React reference",
+"provider": "React docs",
+"url": "https://react.dev/reference/react",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:43Z"
+},
+"cost": "open"
+},
+{
+"id": "vercel-next-js-learn",
+"title": "Next.js Learn",
+"provider": "Vercel",
+"url": "https://nextjs.org/learn",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:36:32Z"
+},
+"cost": "open"
+},
+{
+"id": "next-js-fetching-data",
+"title": "Fetching data",
+"provider": "Next.js docs",
+"url": "https://nextjs.org/docs/app/getting-started/fetching-data",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:36:08Z"
+},
+"cost": "open"
+},
+{
+"id": "next-js-deploying",
+"title": "Deploying",
+"provider": "Next.js docs",
+"url": "https://nextjs.org/docs/app/getting-started/deploying",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:36:06Z"
+},
+"cost": "open"
+},
+{
+"id": "vue-js-vue-tutorial",
+"title": "Vue tutorial",
+"provider": "Vue.js",
+"url": "https://vuejs.org/tutorial/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "vue-js-vue-guide",
+"title": "Vue guide",
+"provider": "Vue.js",
+"url": "https://vuejs.org/guide/introduction.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "vue-vue-router-guide",
+"title": "Vue Router guide",
+"provider": "Vue Router",
+"url": "https://router.vuejs.org/guide/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "pinia-pinia",
+"title": "Pinia",
+"provider": "Pinia",
+"url": "https://pinia.vuejs.org/introduction.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "nuxt-nuxt-introduction",
+"title": "Nuxt: introduction",
+"provider": "Nuxt",
+"url": "https://nuxt.com/docs/getting-started/introduction",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:11Z"
+},
+"cost": "open"
+},
+{
+"id": "vitest-vitest-guide",
+"title": "Vitest guide",
+"provider": "Vitest",
+"url": "https://vitest.dev/guide/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:26Z"
+},
+"cost": "open"
+},
+{
+"id": "angular-angular-tutorials",
+"title": "Angular tutorials",
+"provider": "Angular",
+"url": "https://angular.dev/tutorials",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:37Z"
+},
+"cost": "open"
+},
+{
+"id": "angular-angular-essentials",
+"title": "Angular essentials",
+"provider": "Angular",
+"url": "https://angular.dev/essentials",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:37Z"
+},
+"cost": "open"
+},
+{
+"id": "rxjs-rxjs-overview",
+"title": "RxJS overview",
+"provider": "RxJS",
+"url": "https://rxjs.dev/guide/overview",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:40Z"
+},
+"cost": "open"
+},
+{
+"id": "angular-testing-angular",
+"title": "Testing Angular",
+"provider": "Angular",
+"url": "https://angular.dev/guide/testing",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:17Z"
+},
+"cost": "open"
+},
+{
+"id": "react-react-native-introduction",
+"title": "React Native: introduction",
+"provider": "React Native",
+"url": "https://reactnative.dev/docs/getting-started",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:56Z"
+},
+"cost": "open"
+},
+{
+"id": "expo-expo-tutorial",
+"title": "Expo tutorial",
+"provider": "Expo",
+"url": "https://docs.expo.dev/tutorial/introduction/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "react-react-navigation",
+"title": "React Navigation",
+"provider": "React Navigation",
+"url": "https://reactnavigation.org/docs/getting-started",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "expo-expo-documentation",
+"title": "Expo documentation",
+"provider": "Expo",
+"url": "https://docs.expo.dev/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:19Z"
+},
+"cost": "open"
+},
+{
+"id": "dart-dart-language-tour",
+"title": "Dart language tour",
+"provider": "Dart",
+"url": "https://dart.dev/language",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "flutter-flutter-get-started",
+"title": "Flutter: get started",
+"provider": "Flutter docs",
+"url": "https://docs.flutter.dev/get-started",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "flutter-flutter-codelabs",
+"title": "Flutter codelabs",
+"provider": "Flutter docs",
+"url": "https://docs.flutter.dev/codelabs",
+"format": "Tutorials",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "flutter-state-management",
+"title": "State management",
+"provider": "Flutter docs",
+"url": "https://docs.flutter.dev/data-and-backend/state-mgmt/intro",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "flutter-deployment",
+"title": "Deployment",
+"provider": "Flutter docs",
+"url": "https://docs.flutter.dev/deployment",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:29Z"
+},
+"cost": "open"
+},
+{
+"id": "kotlin-kotlin-koans",
+"title": "Kotlin Koans",
+"provider": "Kotlin",
+"url": "https://play.kotlinlang.org/koans/overview",
+"format": "Exercises",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "kotlin-coroutines-guide",
+"title": "Coroutines guide",
+"provider": "Kotlin docs",
+"url": "https://kotlinlang.org/docs/coroutines-guide.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:16Z"
+},
+"cost": "open"
+},
+{
+"id": "ktor-ktor-documentation",
+"title": "Ktor documentation",
+"provider": "Ktor",
+"url": "https://ktor.io/docs/welcome.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:07Z"
+},
+"cost": "open"
+},
+{
+"id": "apple-develop-in-swift-tutorials",
+"title": "Develop in Swift tutorials",
+"provider": "Apple Developer",
+"url": "https://developer.apple.com/tutorials/develop-in-swift",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "hacking-100-days-of-swiftui",
+"title": "100 Days of SwiftUI",
+"provider": "Hacking with Swift",
+"url": "https://www.hackingwithswift.com/100/swiftui",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "learncpp-com-learncpp",
+"title": "LearnCpp",
+"provider": "LearnCpp.com",
+"url": "https://www.learncpp.com/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:31Z"
+},
+"cost": "open"
+},
+{
+"id": "standard-c-core-guidelines",
+"title": "C++ Core Guidelines",
+"provider": "Standard C++ Foundation",
+"url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "cmake-cmake-tutorial",
+"title": "CMake tutorial",
+"provider": "CMake",
+"url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:42Z"
+},
+"cost": "open"
+},
+{
+"id": "brian-beej-s-guide-to-c-programming",
+"title": "Beej's Guide to C Programming",
+"provider": "Brian Hall",
+"url": "https://beej.us/guide/bgc/",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:43Z"
+},
+"cost": "open"
+},
+{
+"id": "jens-modern-c",
+"title": "Modern C",
+"provider": "Jens Gustedt",
+"url": "https://gustedt.gitlabpages.inria.fr/modern-c/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "gnu-debugging-with-gdb",
+"title": "Debugging with GDB",
+"provider": "GNU",
+"url": "https://sourceware.org/gdb/current/onlinedocs/gdb.html/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "brian-beej-s-guide-to-network-programming",
+"title": "Beej's Guide to Network Programming",
+"provider": "Brian Hall",
+"url": "https://beej.us/guide/bgnet/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:44Z"
+},
+"cost": "open"
+},
+{
+"id": "rust-the-rust-programming-language",
+"title": "The Rust Programming Language",
+"provider": "Rust",
+"url": "https://doc.rust-lang.org/book/",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:04Z"
+},
+"cost": "open"
+},
+{
+"id": "rust-rustlings",
+"title": "Rustlings",
+"provider": "Rust",
+"url": "https://github.com/rust-lang/rustlings",
+"format": "Exercises",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "rust-rust-by-example",
+"title": "Rust by Example",
+"provider": "Rust",
+"url": "https://doc.rust-lang.org/rust-by-example/",
+"format": "Examples",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "google-comprehensive-rust",
+"title": "Comprehensive Rust",
+"provider": "Google",
+"url": "https://google.github.io/comprehensive-rust/",
+"format": "Course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "rust-asynchronous-programming-in-rust",
+"title": "Asynchronous Programming in Rust",
+"provider": "Rust",
+"url": "https://rust-lang.github.io/async-book/",
+"format": "Book",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "go-a-tour-of-go",
+"title": "A Tour of Go",
+"provider": "Go",
+"url": "https://go.dev/tour/",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:24Z"
+},
+"cost": "open"
+},
+{
+"id": "go-go-by-example",
+"title": "Go by Example",
+"provider": "Go by Example",
+"url": "https://gobyexample.com/",
+"format": "Examples",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:33Z"
+},
+"cost": "open"
+},
+{
+"id": "go-effective-go",
+"title": "Effective Go",
+"provider": "Go",
+"url": "https://go.dev/doc/effective_go",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:29Z"
+},
+"cost": "open"
+},
+{
+"id": "chris-learn-go-with-tests",
+"title": "Learn Go with Tests",
+"provider": "Chris James",
+"url": "https://quii.gitbook.io/learn-go-with-tests",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "php-php-manual-getting-started",
+"title": "PHP manual: getting started",
+"provider": "PHP",
+"url": "https://www.php.net/manual/en/getting-started.php",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "php-php-the-right-way",
+"title": "PHP: The Right Way",
+"provider": "PHP The Right Way",
+"url": "https://phptherightway.com/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:18Z"
+},
+"cost": "open"
+},
+{
+"id": "composer-composer-introduction",
+"title": "Composer: introduction",
+"provider": "Composer",
+"url": "https://getcomposer.org/doc/00-intro.md",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "phpunit-phpunit-documentation",
+"title": "PHPUnit documentation",
+"provider": "PHPUnit",
+"url": "https://docs.phpunit.de/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "symfony-symfony-the-fast-track",
+"title": "Symfony: The Fast Track",
+"provider": "Symfony",
+"url": "https://symfony.com/doc/current/the-fast-track/en/index.html",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "laravel-laravel-documentation",
+"title": "Laravel documentation",
+"provider": "Laravel",
+"url": "https://laravel.com/docs",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "pest-pest-documentation",
+"title": "Pest documentation",
+"provider": "Pest",
+"url": "https://pestphp.com/docs/installation",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:03Z"
+},
+"cost": "open"
+},
+{
+"id": "django-django-girls-tutorial",
+"title": "Django Girls tutorial",
+"provider": "Django Girls",
+"url": "https://tutorial.djangogirls.org/en/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "django-django-rest-framework-quickstart",
+"title": "Django REST framework quickstart",
+"provider": "Django REST framework",
+"url": "https://www.django-rest-framework.org/tutorial/quickstart/",
+"format": "Tutorial",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "django-deployment-checklist",
+"title": "Deployment checklist",
+"provider": "Django docs",
+"url": "https://docs.djangoproject.com/en/stable/howto/deployment/checklist/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "ruby-ruby-in-twenty-minutes",
+"title": "Ruby in Twenty Minutes",
+"provider": "Ruby",
+"url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:55Z"
+},
+"cost": "open"
+},
+{
+"id": "ruby-ruby-documentation",
+"title": "Ruby documentation",
+"provider": "Ruby",
+"url": "https://www.ruby-lang.org/en/documentation/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:53Z"
+},
+"cost": "open"
+},
+{
+"id": "the-ruby-course",
+"title": "Ruby course",
+"provider": "The Odin Project",
+"url": "https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby",
+"format": "Project-based curriculum",
+"level": "Beginner",
+"note": "",
+"provider_evidence": {
+"url": "https://www.theodinproject.com/about",
+"claim": "\"a free open source coding curriculum that can be taken entirely online\"",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "free"
+},
+{
+"id": "rspec-rspec",
+"title": "RSpec",
+"provider": "RSpec",
+"url": "https://rspec.info/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:19Z"
+},
+"cost": "open"
+},
+{
+"id": "rails-getting-started-with-rails",
+"title": "Getting started with Rails",
+"provider": "Rails Guides",
+"url": "https://guides.rubyonrails.org/getting_started.html",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:04Z"
+},
+"cost": "open"
+},
+{
+"id": "the-full-stack-ruby-on-rails",
+"title": "Full Stack Ruby on Rails",
+"provider": "The Odin Project",
+"url": "https://www.theodinproject.com/paths/full-stack-ruby-on-rails",
+"format": "Project-based curriculum",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": {
+"url": "https://www.theodinproject.com/about",
+"claim": "\"a free open source coding curriculum that can be taken entirely online\"",
+"tier": "provider-free"
+},
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "free"
+},
+{
+"id": "rails-active-record-basics",
+"title": "Active Record basics",
+"provider": "Rails Guides",
+"url": "https://guides.rubyonrails.org/active_record_basics.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "hotwire-hotwire",
+"title": "Hotwire",
+"provider": "Hotwire",
+"url": "https://hotwired.dev/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:35Z"
+},
+"cost": "open"
+},
+{
+"id": "scala-scala-3-book",
+"title": "Scala 3 Book",
+"provider": "Scala docs",
+"url": "https://docs.scala-lang.org/scala3/book/introduction.html",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "scala-tour-of-scala",
+"title": "Tour of Scala",
+"provider": "Scala docs",
+"url": "https://docs.scala-lang.org/tour/tour-of-scala.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "47-scala-exercises",
+"title": "Scala Exercises",
+"provider": "47 Degrees",
+"url": "https://www.scala-exercises.org/",
+"format": "Exercises",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "sbt-sbt-documentation",
+"title": "sbt documentation",
+"provider": "sbt",
+"url": "https://www.scala-sbt.org/1.x/docs/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "garrett-hands-on-programming-with-r",
+"title": "Hands-On Programming with R",
+"provider": "Garrett Grolemund",
+"url": "https://rstudio-education.github.io/hopr/",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "hadley-ggplot2-elegant-graphics-for-data-analysi",
+"title": "ggplot2: Elegant Graphics for Data Analysis",
+"provider": "Hadley Wickham",
+"url": "https://ggplot2-book.org/",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "hadley-advanced-r",
+"title": "Advanced R",
+"provider": "Hadley Wickham",
+"url": "https://adv-r.hadley.nz/",
+"format": "Book",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "hadley-r-packages",
+"title": "R Packages",
+"provider": "Hadley Wickham, Jennifer Bryan",
+"url": "https://r-pkgs.org/",
+"format": "Book",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "web-dev-learn-html",
+"title": "Learn HTML",
+"provider": "web.dev (Google)",
+"url": "https://web.dev/learn/html",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "mdn-structuring-content-with-html",
+"title": "Structuring content with HTML",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "web-dev-learn-forms",
+"title": "Learn Forms",
+"provider": "web.dev (Google)",
+"url": "https://web.dev/learn/forms",
+"format": "Course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "mdn-css-styling-basics",
+"title": "CSS styling basics",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:20Z"
+},
+"cost": "open"
+},
+{
+"id": "css-tricks-a-complete-guide-to-flexbox",
+"title": "A Complete Guide to Flexbox",
+"provider": "CSS-Tricks",
+"url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:00Z"
+},
+"cost": "open"
+},
+{
+"id": "css-tricks-a-complete-guide-to-css-grid",
+"title": "A Complete Guide to CSS Grid",
+"provider": "CSS-Tricks",
+"url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:00Z"
+},
+"cost": "open"
+},
+{
+"id": "codepip-flexbox-froggy",
+"title": "Flexbox Froggy",
+"provider": "Codepip",
+"url": "https://flexboxfroggy.com/",
+"format": "Game",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "codepip-grid-garden",
+"title": "Grid Garden",
+"provider": "Codepip",
+"url": "https://cssgridgarden.com/",
+"format": "Game",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "web-dev-learn-responsive-design",
+"title": "Learn Responsive Design",
+"provider": "web.dev (Google)",
+"url": "https://web.dev/learn/design",
+"format": "Course",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "graphql-learn-graphql",
+"title": "Learn GraphQL",
+"provider": "GraphQL Foundation",
+"url": "https://graphql.org/learn/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:01Z"
+},
+"cost": "open"
+},
+{
+"id": "how-how-to-graphql",
+"title": "How to GraphQL",
+"provider": "How to GraphQL",
+"url": "https://www.howtographql.com/",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:32:18Z"
+},
+"cost": "open"
+},
+{
+"id": "apollo-apollo-documentation",
+"title": "Apollo documentation",
+"provider": "Apollo",
+"url": "https://www.apollographql.com/docs/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:33Z"
+},
+"cost": "open"
+},
+{
+"id": "graphql-graphql-specification",
+"title": "GraphQL specification",
+"provider": "GraphQL Foundation",
+"url": "https://spec.graphql.org/",
+"format": "Specification",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:07Z"
+},
+"cost": "open"
+},
+{
+"id": "martin-distributed-systems-lecture-notes",
+"title": "Distributed Systems lecture notes",
+"provider": "Martin Kleppmann (University of Cambridge)",
+"url": "https://www.cl.cam.ac.uk/teaching/2122/ConcDisSys/dist-sys-notes.pdf",
+"format": "Lecture notes",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "mit-mit-6-5840-distributed-systems",
+"title": "MIT 6.5840 Distributed Systems",
+"provider": "MIT",
+"url": "https://pdos.csail.mit.edu/6.824/",
+"format": "Lectures + labs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "mdn-http",
+"title": "HTTP",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "google-api-design-guide",
+"title": "API Design Guide",
+"provider": "Google Cloud",
+"url": "https://cloud.google.com/apis/design",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:07Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-microsoft-rest-api-guidelines",
+"title": "Microsoft REST API Guidelines",
+"provider": "Microsoft",
+"url": "https://github.com/microsoft/api-guidelines",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "openapi-openapi-specification",
+"title": "OpenAPI Specification",
+"provider": "OpenAPI Initiative",
+"url": "https://spec.openapis.org/oas/latest.html",
+"format": "Specification",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:24Z"
+},
+"cost": "open"
+},
+{
+"id": "owasp-owasp-api-security-top-10",
+"title": "OWASP API Security Top 10",
+"provider": "OWASP",
+"url": "https://owasp.org/API-Security/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:24Z"
+},
+"cost": "open"
+},
+{
+"id": "grpc-grpc-introduction",
+"title": "gRPC: introduction",
+"provider": "gRPC",
+"url": "https://grpc.io/docs/what-is-grpc/introduction/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:17Z"
+},
+"cost": "open"
+},
+{
+"id": "refactoring-guru-design-patterns",
+"title": "Design patterns",
+"provider": "Refactoring.Guru",
+"url": "https://refactoring.guru/design-patterns",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:36:06Z"
+},
+"cost": "open"
+},
+{
+"id": "w3c-design-tokens-community-group",
+"title": "Design Tokens Community Group",
+"provider": "W3C",
+"url": "https://www.designtokens.org/",
+"format": "Specification",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:24Z"
+},
+"cost": "open"
+},
+{
+"id": "storybook-storybook-docs",
+"title": "Storybook docs",
+"provider": "Storybook",
+"url": "https://storybook.js.org/docs",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:27Z"
+},
+"cost": "open"
+},
+{
+"id": "learn-learn-prompting",
+"title": "Learn Prompting",
+"provider": "Learn Prompting",
+"url": "https://learnprompting.org/docs/introduction",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-prompt-engineering-overview",
+"title": "Prompt engineering overview",
+"provider": "Anthropic docs",
+"url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "google-prompt-design-strategies",
+"title": "Prompt design strategies",
+"provider": "Google AI for Developers",
+"url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:36:00Z"
+},
+"cost": "open"
+},
+{
+"id": "model-model-context-protocol",
+"title": "Model Context Protocol",
+"provider": "Model Context Protocol",
+"url": "https://modelcontextprotocol.io/introduction",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:34:52Z"
+},
+"cost": "open"
+},
+{
+"id": "langchain-langgraph-documentation",
+"title": "LangGraph documentation",
+"provider": "LangChain",
+"url": "https://langchain-ai.github.io/langgraph/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "openai-openai-agents-sdk",
+"title": "OpenAI Agents SDK",
+"provider": "OpenAI",
+"url": "https://openai.github.io/openai-agents-python/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "pandas-pandas-user-guide",
+"title": "pandas user guide",
+"provider": "pandas",
+"url": "https://pandas.pydata.org/docs/user_guide/index.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "matplotlib-matplotlib-tutorials",
+"title": "Matplotlib tutorials",
+"provider": "Matplotlib",
+"url": "https://matplotlib.org/stable/tutorials/index.html",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:49Z"
+},
+"cost": "open"
+},
+{
+"id": "seaborn-seaborn-tutorial",
+"title": "seaborn tutorial",
+"provider": "seaborn",
+"url": "https://seaborn.pydata.org/tutorial.html",
+"format": "Tutorial",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:38Z"
+},
+"cost": "open"
+},
+{
+"id": "project-jupyter-documentation",
+"title": "Jupyter documentation",
+"provider": "Project Jupyter",
+"url": "https://docs.jupyter.org/en/latest/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-power-bi-documentation",
+"title": "Power BI documentation",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/power-bi/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "microsoft-power-query-m-reference",
+"title": "Power Query M reference",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/powerquery-m/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "mongodb-mongodb-manual",
+"title": "MongoDB manual",
+"provider": "MongoDB",
+"url": "https://www.mongodb.com/docs/manual/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:35Z"
+},
+"cost": "open"
+},
+{
+"id": "mongodb-data-modeling",
+"title": "Data modeling",
+"provider": "MongoDB",
+"url": "https://www.mongodb.com/docs/manual/data-modeling/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:22Z"
+},
+"cost": "open"
+},
+{
+"id": "mongodb-aggregation-operations",
+"title": "Aggregation operations",
+"provider": "MongoDB",
+"url": "https://www.mongodb.com/docs/manual/aggregation/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:30Z"
+},
+"cost": "open"
+},
+{
+"id": "mongodb-indexes",
+"title": "Indexes",
+"provider": "MongoDB",
+"url": "https://www.mongodb.com/docs/manual/indexes/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:22Z"
+},
+"cost": "open"
+},
+{
+"id": "redis-redis-documentation",
+"title": "Redis documentation",
+"provider": "Redis",
+"url": "https://redis.io/docs/latest/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:09Z"
+},
+"cost": "open"
+},
+{
+"id": "redis-redis-data-types",
+"title": "Redis data types",
+"provider": "Redis",
+"url": "https://redis.io/docs/latest/develop/data-types/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:40Z"
+},
+"cost": "open"
+},
+{
+"id": "redis-redis-persistence",
+"title": "Redis persistence",
+"provider": "Redis",
+"url": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:51Z"
+},
+"cost": "open"
+},
+{
+"id": "elastic-elasticsearch-getting-started",
+"title": "Elasticsearch: getting started",
+"provider": "Elastic",
+"url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "elastic-mapping",
+"title": "Mapping",
+"provider": "Elastic",
+"url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "elastic-query-dsl",
+"title": "Query DSL",
+"provider": "Elastic",
+"url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "opensearch-opensearch-documentation",
+"title": "OpenSearch documentation",
+"provider": "OpenSearch",
+"url": "https://opensearch.org/docs/latest/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "william-the-linux-command-line",
+"title": "The Linux Command Line",
+"provider": "William Shotts",
+"url": "https://linuxcommand.org/tlcl.php",
+"format": "Book",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "greg-s-bashguide",
+"title": "BashGuide",
+"provider": "Greg's Wiki",
+"url": "https://mywiki.wooledge.org/BashGuide",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "shellcheck-shellcheck",
+"title": "ShellCheck",
+"provider": "ShellCheck",
+"url": "https://www.shellcheck.net/",
+"format": "Tool",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:34Z"
+},
+"cost": "open"
+},
+{
+"id": "gnu-bash-reference-manual",
+"title": "Bash Reference Manual",
+"provider": "GNU",
+"url": "https://www.gnu.org/software/bash/manual/bash.html",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:58:27Z"
+},
+"cost": "open"
+},
+{
+"id": "peter-learn-git-branching",
+"title": "Learn Git Branching",
+"provider": "Peter Cottle",
+"url": "https://learngitbranching.js.org/",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:15Z"
+},
+"cost": "open"
+},
+{
+"id": "github-github-skills",
+"title": "GitHub Skills",
+"provider": "GitHub",
+"url": "https://skills.github.com/",
+"format": "Interactive course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:08Z"
+},
+"cost": "open"
+},
+{
+"id": "github-get-started-with-github",
+"title": "Get started with GitHub",
+"provider": "GitHub Docs",
+"url": "https://docs.github.com/en/get-started",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:59:25Z"
+},
+"cost": "open"
+},
+{
+"id": "katie-oh-shit-git",
+"title": "Oh Shit, Git!?!",
+"provider": "Katie Sylor-Miller",
+"url": "https://ohshitgit.com/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "docker-docker-compose",
+"title": "Docker Compose",
+"provider": "Docker docs",
+"url": "https://docs.docker.com/compose/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:34Z"
+},
+"cost": "open"
+},
+{
+"id": "docker-building-best-practices",
+"title": "Building best practices",
+"provider": "Docker docs",
+"url": "https://docs.docker.com/build/building/best-practices/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:32Z"
+},
+"cost": "open"
+},
+{
+"id": "kubernetes-kubernetes-concepts",
+"title": "Kubernetes concepts",
+"provider": "Kubernetes docs",
+"url": "https://kubernetes.io/docs/concepts/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:11Z"
+},
+"cost": "open"
+},
+{
+"id": "helm-helm-documentation",
+"title": "Helm documentation",
+"provider": "Helm",
+"url": "https://helm.sh/docs/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:27Z"
+},
+"cost": "open"
+},
+{
+"id": "kelsey-kubernetes-the-hard-way",
+"title": "Kubernetes The Hard Way",
+"provider": "Kelsey Hightower",
+"url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+"format": "Tutorial",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "hashicorp-terraform-language",
+"title": "Terraform language",
+"provider": "HashiCorp",
+"url": "https://developer.hashicorp.com/terraform/language",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:27Z"
+},
+"cost": "open"
+},
+{
+"id": "hashicorp-modules",
+"title": "Modules",
+"provider": "HashiCorp",
+"url": "https://developer.hashicorp.com/terraform/language/modules",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:30Z"
+},
+"cost": "open"
+},
+{
+"id": "hashicorp-state",
+"title": "State",
+"provider": "HashiCorp",
+"url": "https://developer.hashicorp.com/terraform/language/state",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:35Z"
+},
+"cost": "open"
+},
+{
+"id": "hashicorp-terraform-tests",
+"title": "Terraform tests",
+"provider": "HashiCorp",
+"url": "https://developer.hashicorp.com/terraform/language/tests",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:37:38Z"
+},
+"cost": "open"
+},
+{
+"id": "opentofu-opentofu-documentation",
+"title": "OpenTofu documentation",
+"provider": "OpenTofu",
+"url": "https://opentofu.org/docs/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:38Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-getting-started-resource-center",
+"title": "Getting started resource center",
+"provider": "AWS",
+"url": "https://aws.amazon.com/getting-started/",
+"format": "Tutorials",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:34Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-iam-user-guide",
+"title": "IAM user guide",
+"provider": "AWS",
+"url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:05Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-amazon-ec2-concepts",
+"title": "Amazon EC2 concepts",
+"provider": "AWS",
+"url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:39:51Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-amazon-s3-user-guide",
+"title": "Amazon S3 user guide",
+"provider": "AWS",
+"url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:02Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-amazon-vpc-user-guide",
+"title": "Amazon VPC user guide",
+"provider": "AWS",
+"url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:35Z"
+},
+"cost": "open"
+},
+{
+"id": "aws-aws-lambda-developer-guide",
+"title": "AWS Lambda developer guide",
+"provider": "AWS",
+"url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:31Z"
+},
+"cost": "open"
+},
+{
+"id": "nist-the-nist-definition-of-cloud-computing-sp-8",
+"title": "The NIST Definition of Cloud Computing (SP 800-145)",
+"provider": "NIST",
+"url": "https://csrc.nist.gov/pubs/sp/800/145/final",
+"format": "Standard",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "google-google-cloud-overview",
+"title": "Google Cloud overview",
+"provider": "Google Cloud",
+"url": "https://cloud.google.com/docs/overview",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:22Z"
+},
+"cost": "open"
+},
+{
+"id": "cloudflare-cloudflare-dns",
+"title": "Cloudflare DNS",
+"provider": "Cloudflare docs",
+"url": "https://developers.cloudflare.com/dns/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "cloudflare-cloudflare-workers",
+"title": "Cloudflare Workers",
+"provider": "Cloudflare docs",
+"url": "https://developers.cloudflare.com/workers/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "cloudflare-cloudflare-pages",
+"title": "Cloudflare Pages",
+"provider": "Cloudflare docs",
+"url": "https://developers.cloudflare.com/pages/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "cloudflare-cloudflare-r2",
+"title": "Cloudflare R2",
+"provider": "Cloudflare docs",
+"url": "https://developers.cloudflare.com/r2/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:41:39Z"
+},
+"cost": "open"
+},
+{
+"id": "cloudflare-cloudflare-waf",
+"title": "Cloudflare WAF",
+"provider": "Cloudflare docs",
+"url": "https://developers.cloudflare.com/waf/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "visualgo-visualgo",
+"title": "VisuAlgo",
+"provider": "VisuAlgo",
+"url": "https://visualgo.net/en",
+"format": "Interactive visualisations",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:30Z"
+},
+"cost": "open"
+},
+{
+"id": "cses-cses-problem-set",
+"title": "CSES Problem Set",
+"provider": "CSES",
+"url": "https://cses.fi/problemset/",
+"format": "Exercises",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:29Z"
+},
+"cost": "open"
+},
+{
+"id": "cp-algorithms-algorithms-for-competitive-program",
+"title": "Algorithms for Competitive Programming",
+"provider": "cp-algorithms",
+"url": "https://cp-algorithms.com/",
+"format": "Reference",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "neetcode-neetcode-roadmap",
+"title": "NeetCode roadmap",
+"provider": "NeetCode",
+"url": "https://neetcode.io/roadmap",
+"format": "Problem list",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "antti-competitive-programmer-s-handbook",
+"title": "Competitive Programmer's Handbook",
+"provider": "Antti Laaksonen",
+"url": "https://cses.fi/book/book.pdf",
+"format": "Book",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "google-google-engineering-practices-the-reviewer",
+"title": "Google Engineering Practices: the reviewer's guide",
+"provider": "Google",
+"url": "https://google.github.io/eng-practices/review/reviewer/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "google-google-engineering-practices-the-author-s",
+"title": "Google Engineering Practices: the author's guide",
+"provider": "Google",
+"url": "https://google.github.io/eng-practices/review/developer/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "conventional-conventional-comments",
+"title": "Conventional Comments",
+"provider": "Conventional Comments",
+"url": "https://conventionalcomments.org/",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "owasp-code-review-guide",
+"title": "Code Review Guide",
+"provider": "OWASP",
+"url": "https://owasp.org/www-project-code-review-guide/",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:27Z"
+},
+"cost": "open"
+},
+{
+"id": "wordpress-org-learn-wordpress",
+"title": "Learn WordPress",
+"provider": "WordPress.org",
+"url": "https://learn.wordpress.org/",
+"format": "Course",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "wordpress-theme-handbook",
+"title": "Theme handbook",
+"provider": "WordPress Developer Resources",
+"url": "https://developer.wordpress.org/themes/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "wordpress-plugin-handbook",
+"title": "Plugin handbook",
+"provider": "WordPress Developer Resources",
+"url": "https://developer.wordpress.org/plugins/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:56Z"
+},
+"cost": "open"
+},
+{
+"id": "wordpress-block-editor-handbook",
+"title": "Block editor handbook",
+"provider": "WordPress Developer Resources",
+"url": "https://developer.wordpress.org/block-editor/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:53Z"
+},
+"cost": "open"
+},
+{
+"id": "wordpress-hardening-wordpress",
+"title": "Hardening WordPress",
+"provider": "WordPress Developer Resources",
+"url": "https://developer.wordpress.org/advanced-administration/security/hardening/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:52Z"
+},
+"cost": "open"
+},
+{
+"id": "google-seo-starter-guide",
+"title": "SEO Starter Guide",
+"provider": "Google Search Central",
+"url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:20Z"
+},
+"cost": "open"
+},
+{
+"id": "moz-beginner-s-guide-to-seo",
+"title": "Beginner's Guide to SEO",
+"provider": "Moz",
+"url": "https://moz.com/beginners-guide-to-seo",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "google-introduction-to-structured-data",
+"title": "Introduction to structured data",
+"provider": "Google Search Central",
+"url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:13Z"
+},
+"cost": "open"
+},
+{
+"id": "web-dev-web-vitals",
+"title": "Web Vitals",
+"provider": "web.dev (Google)",
+"url": "https://web.dev/articles/vitals",
+"format": "Article",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:57:59Z"
+},
+"cost": "open"
+},
+{
+"id": "google-search-console-help",
+"title": "Search Console Help",
+"provider": "Google",
+"url": "https://support.google.com/webmasters/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-claude-code-overview",
+"title": "Claude Code overview",
+"provider": "Anthropic docs",
+"url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-claude-code-quickstart",
+"title": "Claude Code quickstart",
+"provider": "Anthropic docs",
+"url": "https://docs.anthropic.com/en/docs/claude-code/quickstart",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-claude-code-best-practices",
+"title": "Claude Code best practices",
+"provider": "Anthropic",
+"url": "https://www.anthropic.com/engineering/claude-code-best-practices",
+"format": "Article",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:31Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-manage-claude-s-memory",
+"title": "Manage Claude's memory",
+"provider": "Anthropic docs",
+"url": "https://docs.anthropic.com/en/docs/claude-code/memory",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "anthropic-hooks",
+"title": "Hooks",
+"provider": "Anthropic docs",
+"url": "https://docs.anthropic.com/en/docs/claude-code/hooks",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "openai-codex-documentation",
+"title": "Codex documentation",
+"provider": "OpenAI",
+"url": "https://developers.openai.com/codex",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:27Z"
+},
+"cost": "open"
+},
+{
+"id": "openai-codex-cli",
+"title": "Codex CLI",
+"provider": "OpenAI",
+"url": "https://github.com/openai/codex",
+"format": "Tool",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:35:40Z"
+},
+"cost": "open"
+},
+{
+"id": "agents-md-agents-md",
+"title": "AGENTS.md",
+"provider": "AGENTS.md",
+"url": "https://agents.md/",
+"format": "Specification",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:36Z"
+},
+"cost": "open"
+},
+{
+"id": "openclaw-openclaw-documentation",
+"title": "OpenClaw documentation",
+"provider": "OpenClaw",
+"url": "https://docs.openclaw.ai/",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:33:56Z"
+},
+"cost": "open"
+},
+{
+"id": "openclaw-install-openclaw",
+"title": "Install OpenClaw",
+"provider": "OpenClaw",
+"url": "https://docs.openclaw.ai/install",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "openclaw-openclaw-source-code",
+"title": "OpenClaw source code",
+"provider": "OpenClaw",
+"url": "https://github.com/openclaw/openclaw",
+"format": "Source code",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
 }
 ],
 "paths": [
@@ -1311,7 +5883,9 @@
 "courses": [
 "cs50x",
 "khan-programming"
-]
+],
+"title_ar": "فكّر كمبرمج",
+"why_ar": "تعلّم ما يفعله الكود فعلًا، من خلال كورس واحد ممتاز مع تمارين حقيقية."
 },
 {
 "title": "Get fluent in one language",
@@ -1320,7 +5894,9 @@
 "cs50p",
 "mooc-python",
 "fcc-python"
-]
+],
+"title_ar": "أتقن لغة واحدة",
+"why_ar": "بايثون سهلة البداية وتُستخدم في الويب والبيانات والذكاء الاصطناعي."
 },
 {
 "title": "Use the tools every developer uses",
@@ -1328,9 +5904,14 @@
 "courses": [
 "missing",
 "progit"
-]
+],
+"title_ar": "استخدم أدوات كل مطوّر",
+"why_ar": "سطر الأوامر وGit والمحرّر هي ما يفصل الدروس عن العمل الحقيقي."
 }
 ],
+"category": "start",
+"title_ar": "أساسيات البرمجة",
+"for_ar": "للمبتدئين تمامًا ممن يريدون بداية قوية قبل اختيار تخصص.",
 "course_count": 7
 },
 {
@@ -1345,7 +5926,9 @@
 "odin-foundations",
 "fcc-rwd",
 "webdev-css"
-]
+],
+"title_ar": "HTML وCSS",
+"why_ar": "البنية والتنسيق أولًا. صمّم صفحات تعمل على الموبايل."
 },
 {
 "title": "JavaScript",
@@ -1354,7 +5937,9 @@
 "jsinfo",
 "fcc-js",
 "mdn-learn"
-]
+],
+"title_ar": "JavaScript",
+"why_ar": "لغة المتصفح. تعلّمها جيدًا قبل أي إطار عمل."
 },
 {
 "title": "A framework and real apps",
@@ -1363,7 +5948,9 @@
 "react-learn",
 "fso",
 "odin-fsjs"
-]
+],
+"title_ar": "إطار عمل وتطبيقات حقيقية",
+"why_ar": "React منتشر جدًا. تعلّمه من خلال مشاريع حقيقية."
 },
 {
 "title": "Quality",
@@ -1371,9 +5958,14 @@
 "courses": [
 "webdev-a11y",
 "ts-handbook"
-]
+],
+"title_ar": "الجودة",
+"why_ar": "إمكانية الوصول وأنواع TypeScript تجعل عملك قابلًا للاستخدام والصيانة."
 }
 ],
+"category": "role",
+"title_ar": "مطوّر واجهات أمامية",
+"for_ar": "لمن يريد بناء مواقع وتطبيقات ويب يراها الناس ويستخدمونها.",
 "course_count": 11
 },
 {
@@ -1388,7 +5980,9 @@
 "cs50sql",
 "fcc-rdb",
 "pg-tutorial"
-]
+],
+"title_ar": "قواعد البيانات وSQL",
+"why_ar": "تقريبًا كل باك إند يخزّن بيانات، وSQL مهارة تدوم طويلًا."
 },
 {
 "title": "Build APIs",
@@ -1398,7 +5992,9 @@
 "django-tut",
 "node-learn",
 "fcc-backend"
-]
+],
+"title_ar": "ابنِ واجهات API",
+"why_ar": "اختر بيئة واحدة (بايثون أو JavaScript) وابنِ endpoints حقيقية."
 },
 {
 "title": "Security and depth",
@@ -1406,9 +6002,14 @@
 "courses": [
 "owasp-top10",
 "cmu-db"
-]
+],
+"title_ar": "الأمان والعمق",
+"why_ar": "اعرف الثغرات الشائعة، ثم تعلّم كيف تعمل قواعد البيانات من الداخل."
 }
 ],
+"category": "role",
+"title_ar": "مطوّر باك إند",
+"for_ar": "لمن يريد بناء الخوادم وواجهات API وقواعد البيانات خلف التطبيقات.",
 "course_count": 9
 },
 {
@@ -1423,14 +6024,18 @@
 "kg-python",
 "kg-sql",
 "kg-pandas"
-]
+],
+"title_ar": "أساسيات بايثون وSQL",
+"why_ar": "الأداتان اللتان تطلبهما معظم وظائف التحليل."
 },
 {
 "title": "Statistics you'll actually use",
 "why": "Averages, spread, sampling and tests, so your conclusions hold up.",
 "courses": [
 "khan-stats"
-]
+],
+"title_ar": "الإحصاء الذي ستستخدمه فعلًا",
+"why_ar": "المتوسطات والتشتت والعيّنات والاختبارات، حتى تصمد استنتاجاتك."
 },
 {
 "title": "Analysis and visualization",
@@ -1439,7 +6044,9 @@
 "kg-viz",
 "fcc-da",
 "pyda"
-]
+],
+"title_ar": "التحليل والتصوير",
+"why_ar": "حوّل البيانات إلى رسوم ونتائج يمكن التصرف بناءً عليها."
 },
 {
 "title": "BI tools or R",
@@ -1447,9 +6054,14 @@
 "courses": [
 "mslearn-pbi",
 "r4ds"
-]
+],
+"title_ar": "أدوات BI أو R",
+"why_ar": "Power BI للوحات الأعمال، أو R إن كنت تتجه نحو البحث."
 }
 ],
+"category": "role",
+"title_ar": "محلّل بيانات",
+"for_ar": "لمن يريد الإجابة عن أسئلة العمل باستخدام البيانات.",
 "course_count": 9
 },
 {
@@ -1464,7 +6076,9 @@
 "khan-la",
 "mit-1806",
 "khan-stats"
-]
+],
+"title_ar": "الرياضيات",
+"why_ar": "الجبر الخطي والاحتمالات هما لغة التعلّم الآلي."
 },
 {
 "title": "Classical ML",
@@ -1474,7 +6088,9 @@
 "kg-ml",
 "kg-iml",
 "islp"
-]
+],
+"title_ar": "التعلّم الآلي الكلاسيكي",
+"why_ar": "الانحدار والأشجار والتقييم ما زالت تحل معظم المشكلات الحقيقية."
 },
 {
 "title": "Deep learning",
@@ -1483,16 +6099,23 @@
 "fastai",
 "mit-6s191",
 "d2l"
-]
+],
+"title_ar": "التعلّم العميق",
+"why_ar": "الشبكات العصبية من التطبيق العملي إلى النظرية."
 },
 {
 "title": "Theory",
 "why": "For people aiming at research roles or graduate study.",
 "courses": [
 "cs229"
-]
+],
+"title_ar": "النظرية",
+"why_ar": "لمن يستهدف البحث أو الدراسات العليا."
 }
 ],
+"category": "role",
+"title_ar": "مهندس تعلّم آلي",
+"for_ar": "لمن يريد تدريب النماذج وتقييمها مع فهم الرياضيات وراءها.",
 "course_count": 11
 },
 {
@@ -1506,7 +6129,9 @@
 "courses": [
 "zero-to-hero",
 "hf-llm"
-]
+],
+"title_ar": "كيف تعمل نماذج اللغة",
+"why_ar": "ابنِ نموذج لغة صغيرًا بنفسك حتى تفهم ما وراء الـ API."
 },
 {
 "title": "Prompting and tool use",
@@ -1515,14 +6140,18 @@
 "prompting-guide",
 "anthropic-courses",
 "oai-cookbook"
-]
+],
+"title_ar": "كتابة التعليمات واستخدام الأدوات",
+"why_ar": "معظم جودة المنتج تأتي من التعليمات والسياق والأدوات."
 },
 {
 "title": "Agents",
 "why": "Plan, call tools and recover from errors.",
 "courses": [
 "hf-agents"
-]
+],
+"title_ar": "الوكلاء",
+"why_ar": "التخطيط واستدعاء الأدوات والتعافي من الأخطاء."
 },
 {
 "title": "Shipping it",
@@ -1530,9 +6159,14 @@
 "courses": [
 "fsdl-llm",
 "madewithml"
-]
+],
+"title_ar": "الإطلاق",
+"why_ar": "التقييم والنشر والمراقبة في بيئة الإنتاج."
 }
 ],
+"category": "role",
+"title_ar": "مهندس ذكاء اصطناعي (LLMs ووكلاء)",
+"for_ar": "للمطوّرين الذين يبنون منتجات على نماذج اللغة الكبيرة.",
 "course_count": 8
 },
 {
@@ -1546,7 +6180,9 @@
 "courses": [
 "linuxjourney",
 "missing"
-]
+],
+"title_ar": "لينكس وسطر الأوامر",
+"why_ar": "الخوادم تعمل بلينكس، وستقضي وقتك في الطرفية."
 },
 {
 "title": "Containers",
@@ -1554,7 +6190,9 @@
 "courses": [
 "docker-start",
 "dwd"
-]
+],
+"title_ar": "الحاويات",
+"why_ar": "Docker هو الطريقة القياسية لتغليف البرمجيات."
 },
 {
 "title": "Automation and CI/CD",
@@ -1562,7 +6200,9 @@
 "courses": [
 "gha-quick",
 "tf-tut"
-]
+],
+"title_ar": "الأتمتة وCI/CD",
+"why_ar": "كل تغيير يُبنى ويُختبر ويُنشر تلقائيًا."
 },
 {
 "title": "Orchestration and the cloud",
@@ -1571,16 +6211,23 @@
 "k8s-basics",
 "dwk",
 "az-fund"
-]
+],
+"title_ar": "التنسيق والسحابة",
+"why_ar": "شغّل الحاويات على نطاق واسع وافهم مكوّنات السحابة."
 },
 {
 "title": "Reliability",
 "why": "How large teams keep systems up.",
 "courses": [
 "sre-books"
-]
+],
+"title_ar": "الاعتمادية",
+"why_ar": "كيف تحافظ الفرق الكبيرة على عمل الأنظمة."
 }
 ],
+"category": "role",
+"title_ar": "مهندس DevOps وسحابة",
+"for_ar": "لمن يريد بناء البرمجيات وإطلاقها وتشغيلها بثبات.",
 "course_count": 10
 },
 {
@@ -1594,7 +6241,9 @@
 "courses": [
 "bandit",
 "picoctf"
-]
+],
+"title_ar": "أساسيات عملية",
+"why_ar": "تعلّم لينكس والتفكير الأمني من خلال اللعب."
 },
 {
 "title": "Core concepts",
@@ -1603,7 +6252,9 @@
 "messer-secplus",
 "nist-csf",
 "csb"
-]
+],
+"title_ar": "المفاهيم الأساسية",
+"why_ar": "المفاهيم وراء الشهادات المبتدئة، وكيف تنظّم الشركات الأمن."
 },
 {
 "title": "Web security",
@@ -1611,16 +6262,23 @@
 "courses": [
 "owasp-top10",
 "portswigger"
-]
+],
+"title_ar": "أمن الويب",
+"why_ar": "معظم الهجمات تبدأ من تطبيق ويب."
 },
 {
 "title": "Systems security",
 "why": "University-level depth.",
 "courses": [
 "mit-6858"
-]
+],
+"title_ar": "أمن الأنظمة",
+"why_ar": "عمق بمستوى جامعي."
 }
 ],
+"category": "role",
+"title_ar": "الأمن السيبراني",
+"for_ar": "لمن يريد حماية الأنظمة، أو اختبارها بإذن.",
 "course_count": 8
 },
 {
@@ -1633,7 +6291,9 @@
 "why": "Proofs, discrete maths and probability.",
 "courses": [
 "mit-6042"
-]
+],
+"title_ar": "رياضيات علوم الحاسب",
+"why_ar": "البراهين والرياضيات المتقطعة والاحتمالات."
 },
 {
 "title": "Algorithms and data structures",
@@ -1642,7 +6302,9 @@
 "mit-6006",
 "ods",
 "erickson"
-]
+],
+"title_ar": "الخوارزميات وهياكل البيانات",
+"why_ar": "أساس مقابلات العمل التقنية والكود الفعّال."
 },
 {
 "title": "How computers work",
@@ -1651,11 +6313,3662 @@
 "nand2tetris",
 "ostep",
 "cnsa"
+],
+"title_ar": "كيف تعمل الحواسيب",
+"why_ar": "من البوابات المنطقية إلى أنظمة التشغيل والشبكات."
+}
+],
+"category": "cs",
+"title_ar": "أساسيات علوم الحاسب",
+"for_ar": "للمطوّرين العصاميين الذين يريدون ما تغطيه شهادة علوم الحاسب.",
+"course_count": 7
+},
+{
+"id": "full-stack",
+"category": "role",
+"title": "Full-stack developer",
+"title_ar": "مطوّر Full-stack",
+"for": "People who want to build a whole web app, from the page to the database to the server it runs on.",
+"for_ar": "لمن يريد بناء تطبيق ويب كامل، من الصفحة إلى قاعدة البيانات إلى الخادم.",
+"stages": [
+{
+"title": "The web's building blocks",
+"title_ar": "أساسيات الويب",
+"why": "HTML, CSS and JavaScript, learned on real projects.",
+"why_ar": "HTML وCSS وJavaScript من خلال مشاريع حقيقية.",
+"courses": [
+"odin-foundations",
+"jsinfo"
+]
+},
+{
+"title": "Frontend and backend together",
+"title_ar": "الواجهة والخادم معًا",
+"why": "One course that takes you through React, Node.js, databases and testing.",
+"why_ar": "كورس واحد يأخذك عبر React وNode.js وقواعد البيانات والاختبارات.",
+"courses": [
+"fso",
+"odin-fsjs"
+]
+},
+{
+"title": "Data",
+"title_ar": "البيانات",
+"why": "Design tables and write the queries your app needs.",
+"why_ar": "صمّم الجداول واكتب الاستعلامات التي يحتاجها تطبيقك.",
+"courses": [
+"cs50sql",
+"pg-tutorial"
+]
+},
+{
+"title": "Ship it",
+"title_ar": "انشره",
+"why": "Package the app and deploy it automatically.",
+"why_ar": "غلّف التطبيق وانشره تلقائيًا.",
+"courses": [
+"docker-start",
+"gha-quick",
+"github-configuring-a-publishing-source-for-githu"
+]
+}
+],
+"course_count": 9
+},
+{
+"id": "devsecops",
+"category": "role",
+"title": "DevSecOps engineer",
+"title_ar": "مهندس DevSecOps",
+"for": "DevOps engineers who want security built into every step of delivery.",
+"for_ar": "لمهندسي DevOps الذين يريدون دمج الأمان في كل خطوة من خطوات التسليم.",
+"stages": [
+{
+"title": "Know the risks",
+"title_ar": "اعرف المخاطر",
+"why": "The vulnerabilities you're protecting against, and how to model threats.",
+"why_ar": "الثغرات التي تحمي منها، وكيف تحلّل التهديدات.",
+"courses": [
+"owasp-top10",
+"owasp-threat-modeling-cheat-sheet"
+]
+},
+{
+"title": "Secure the pipeline",
+"title_ar": "أمّن خط التسليم",
+"why": "Scan code and dependencies on every change.",
+"why_ar": "افحص الكود والمكتبات مع كل تغيير.",
+"courses": [
+"owasp-devsecops-guideline",
+"github-about-code-scanning",
+"github-about-dependabot-alerts"
+]
+},
+{
+"title": "Containers and clusters",
+"title_ar": "الحاويات والعناقيد",
+"why": "Lock down images and Kubernetes workloads.",
+"why_ar": "أحكم تأمين الصور وأحمال Kubernetes.",
+"courses": [
+"docker-docker-engine-security",
+"kubernetes-kubernetes-security-concepts"
+]
+},
+{
+"title": "Supply chain",
+"title_ar": "سلسلة التوريد",
+"why": "Prove where your software came from.",
+"why_ar": "أثبت مصدر برمجياتك.",
+"courses": [
+"openssf-slsa-supply-chain-levels-for-software-ar"
+]
+}
+],
+"course_count": 8
+},
+{
+"id": "data-scientist",
+"category": "role",
+"title": "AI and data scientist",
+"title_ar": "عالم بيانات وذكاء اصطناعي",
+"for": "People who want to find patterns in data and build models that predict.",
+"for_ar": "لمن يريد اكتشاف الأنماط في البيانات وبناء نماذج تتنبأ.",
+"stages": [
+{
+"title": "Statistics",
+"title_ar": "الإحصاء",
+"why": "Probability, inference and experiments.",
+"why_ar": "الاحتمالات والاستدلال والتجارب.",
+"courses": [
+"khan-stats"
+]
+},
+{
+"title": "Python for data",
+"title_ar": "بايثون للبيانات",
+"why": "Load, clean and explore data.",
+"why_ar": "حمّل البيانات ونظّفها واستكشفها.",
+"courses": [
+"kg-pandas",
+"pyda"
+]
+},
+{
+"title": "Machine learning",
+"title_ar": "التعلّم الآلي",
+"why": "Models, validation and the trade-offs between them.",
+"why_ar": "النماذج والتحقق والمفاضلة بينها.",
+"courses": [
+"islp",
+"kg-ml",
+"kg-iml"
+]
+},
+{
+"title": "Deep learning and practice",
+"title_ar": "التعلّم العميق والممارسة",
+"why": "Neural networks, and lessons from teams that ship ML.",
+"why_ar": "الشبكات العصبية ودروس من فرق تطلق نماذج حقيقية.",
+"courses": [
+"fastai",
+"google-rules-of-machine-learning"
+]
+}
+],
+"course_count": 8
+},
+{
+"id": "data-engineer",
+"category": "role",
+"title": "Data engineer",
+"title_ar": "مهندس بيانات",
+"for": "People who want to build the pipelines that move and store data at scale.",
+"for_ar": "لمن يريد بناء خطوط البيانات التي تنقلها وتخزنها على نطاق واسع.",
+"stages": [
+{
+"title": "SQL and databases",
+"title_ar": "SQL وقواعد البيانات",
+"why": "The core skill. Learn it deeply.",
+"why_ar": "المهارة الأساسية. تعلّمها بعمق.",
+"courses": [
+"cs50sql",
+"pg-tutorial"
+]
+},
+{
+"title": "Pipelines end to end",
+"title_ar": "خطوط البيانات من البداية للنهاية",
+"why": "A free course covering ingestion, warehousing, batch and streaming.",
+"why_ar": "كورس مجاني يغطي الإدخال والمستودعات والمعالجة الدفعية والتدفقية.",
+"courses": [
+"datatalksclub-data-engineering-zoomcamp",
+"apache-airflow-tutorial-fundamentals"
+]
+},
+{
+"title": "Processing at scale",
+"title_ar": "المعالجة على نطاق واسع",
+"why": "Batch processing with Spark and event streams with Kafka.",
+"why_ar": "المعالجة الدفعية بـ Spark والتدفقات بـ Kafka.",
+"courses": [
+"apache-spark-quick-start",
+"apache-introduction-to-kafka"
+]
+},
+{
+"title": "Modelling and internals",
+"title_ar": "النمذجة وما بداخل قواعد البيانات",
+"why": "Dimensional modelling, and how databases work inside.",
+"why_ar": "النمذجة البُعدية وكيف تعمل قواعد البيانات من الداخل.",
+"courses": [
+"kimball-dimensional-modeling-techniques",
+"cmu-db"
+]
+}
+],
+"course_count": 8
+},
+{
+"id": "android",
+"category": "role",
+"title": "Android developer",
+"title_ar": "مطوّر أندرويد",
+"for": "People who want to build apps for Android phones.",
+"for_ar": "لمن يريد بناء تطبيقات لهواتف أندرويد.",
+"stages": [
+{
+"title": "Kotlin",
+"title_ar": "Kotlin",
+"why": "The language Android is built around.",
+"why_ar": "اللغة التي يعتمد عليها أندرويد.",
+"courses": [
+"kotlin-kotlin-tour"
+]
+},
+{
+"title": "Build your first apps",
+"title_ar": "ابنِ أول تطبيقاتك",
+"why": "Google's own free course with Jetpack Compose.",
+"why_ar": "كورس Google المجاني باستخدام Jetpack Compose.",
+"courses": [
+"android-android-basics-with-compose"
+]
+},
+{
+"title": "Architecture",
+"title_ar": "البنية",
+"why": "Structure apps so they stay maintainable.",
+"why_ar": "نظّم التطبيقات لتبقى قابلة للصيانة.",
+"courses": [
+"android-guide-to-app-architecture"
+]
+},
+{
+"title": "Publish",
+"title_ar": "النشر",
+"why": "Prepare and release your app.",
+"why_ar": "جهّز تطبيقك وأطلقه.",
+"courses": [
+"android-publish-your-app"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "ios",
+"category": "role",
+"title": "iOS developer",
+"title_ar": "مطوّر iOS",
+"for": "People who want to build apps for iPhone and iPad.",
+"for_ar": "لمن يريد بناء تطبيقات لـ iPhone وiPad.",
+"stages": [
+{
+"title": "Swift",
+"title_ar": "Swift",
+"why": "Apple's language, from the official book.",
+"why_ar": "لغة Apple من الكتاب الرسمي.",
+"courses": [
+"swift-org-the-swift-programming-language"
+]
+},
+{
+"title": "SwiftUI",
+"title_ar": "SwiftUI",
+"why": "Build interfaces with Apple's step-by-step tutorials.",
+"why_ar": "ابنِ الواجهات بدروس Apple خطوة بخطوة.",
+"courses": [
+"apple-swiftui-tutorials"
+]
+},
+{
+"title": "A university course",
+"title_ar": "كورس جامعي",
+"why": "Stanford's iOS course, lectures and assignments.",
+"why_ar": "كورس Stanford لتطوير iOS بالمحاضرات والتكليفات.",
+"courses": [
+"stanford-cs193p-developing-apps-for-ios"
+]
+},
+{
+"title": "Ship",
+"title_ar": "الإطلاق",
+"why": "Beta testing and App Store release.",
+"why_ar": "الاختبار التجريبي والنشر على App Store.",
+"courses": [
+"apple-distributing-your-app-for-beta-testing-and"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "postgresql-dba",
+"category": "role",
+"title": "PostgreSQL DBA",
+"title_ar": "مدير قواعد بيانات PostgreSQL",
+"for": "People who want to run PostgreSQL in production: setup, backups, tuning and uptime.",
+"for_ar": "لمن يريد تشغيل PostgreSQL في الإنتاج: الإعداد والنسخ الاحتياطي والضبط والإتاحة.",
+"stages": [
+{
+"title": "SQL fluency",
+"title_ar": "إتقان SQL",
+"why": "You can't administer what you can't query.",
+"why_ar": "لا يمكنك إدارة ما لا تستطيع الاستعلام عنه.",
+"courses": [
+"cs50sql",
+"pg-tutorial"
+]
+},
+{
+"title": "Administration",
+"title_ar": "الإدارة",
+"why": "Installation, configuration, roles and maintenance.",
+"why_ar": "التثبيت والإعداد والأدوار والصيانة.",
+"courses": [
+"postgresql-server-administration"
+]
+},
+{
+"title": "Backups and availability",
+"title_ar": "النسخ الاحتياطي والإتاحة",
+"why": "Recover from failure and keep the database up.",
+"why_ar": "استعد من الأعطال وحافظ على عمل قاعدة البيانات.",
+"courses": [
+"postgresql-backup-and-restore",
+"postgresql-high-availability-load-balancing-and-"
+]
+},
+{
+"title": "Performance",
+"title_ar": "الأداء",
+"why": "Read query plans and tune the server.",
+"why_ar": "اقرأ خطط الاستعلام واضبط الخادم.",
+"courses": [
+"postgresql-performance-tips",
+"cmu-db"
 ]
 }
 ],
 "course_count": 7
+},
+{
+"id": "blockchain",
+"category": "role",
+"title": "Blockchain developer",
+"title_ar": "مطوّر بلوكتشين",
+"for": "Developers who want to build smart contracts and decentralised apps.",
+"for_ar": "للمطوّرين الذين يريدون بناء العقود الذكية والتطبيقات اللامركزية.",
+"stages": [
+{
+"title": "How blockchains work",
+"title_ar": "كيف تعمل البلوكتشين",
+"why": "Start with the original idea.",
+"why_ar": "ابدأ من الفكرة الأصلية.",
+"courses": [
+"satoshi-bitcoin-a-peer-to-peer-electronic-cash-s",
+"ethereum-org-ethereum-developer-docs"
+]
+},
+{
+"title": "Smart contracts",
+"title_ar": "العقود الذكية",
+"why": "Write contracts in Solidity.",
+"why_ar": "اكتب العقود بلغة Solidity.",
+"courses": [
+"solidity-solidity-documentation",
+"cryptozombies-cryptozombies"
+]
+},
+{
+"title": "Security",
+"title_ar": "الأمان",
+"why": "Contract bugs cost real money. Learn the common ones.",
+"why_ar": "أخطاء العقود تكلّف أموالًا حقيقية. تعلّم الشائع منها.",
+"courses": [
+"ethereum-org-smart-contract-security"
+]
 }
 ],
-"hidden": []
+"course_count": 5
+},
+{
+"id": "qa",
+"category": "role",
+"title": "QA engineer",
+"title_ar": "مهندس ضمان جودة",
+"for": "People who want to make sure software works before users find out it doesn't.",
+"for_ar": "لمن يريد التأكد من أن البرمجيات تعمل قبل أن يكتشف المستخدمون العكس.",
+"stages": [
+{
+"title": "Testing strategy",
+"title_ar": "استراتيجية الاختبار",
+"why": "What to test, at which level, and why.",
+"why_ar": "ماذا تختبر، وعلى أي مستوى، ولماذا.",
+"courses": [
+"martin-the-practical-test-pyramid"
+]
+},
+{
+"title": "Automate the browser",
+"title_ar": "أتمتة المتصفح",
+"why": "End-to-end tests that click through your app.",
+"why_ar": "اختبارات شاملة تتصفح تطبيقك كالمستخدم.",
+"courses": [
+"playwright-playwright-getting-started",
+"cypress-why-cypress"
+]
+},
+{
+"title": "APIs and code",
+"title_ar": "الواجهات البرمجية والكود",
+"why": "Test APIs and write unit tests.",
+"why_ar": "اختبر الـ APIs واكتب اختبارات الوحدات.",
+"courses": [
+"postman-postman-learning-center",
+"pytest-pytest-get-started"
+]
+},
+{
+"title": "Performance and accessibility",
+"title_ar": "الأداء وإمكانية الوصول",
+"why": "Load testing and accessibility checks.",
+"why_ar": "اختبار الحِمل وفحوص إمكانية الوصول.",
+"courses": [
+"grafana-k6-documentation"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "software-architect",
+"category": "role",
+"title": "Software architect",
+"title_ar": "معماري برمجيات",
+"for": "Senior engineers who design systems and make the decisions that are hard to change later.",
+"for_ar": "للمهندسين الكبار الذين يصممون الأنظمة ويتخذون القرارات الصعب تغييرها لاحقًا.",
+"stages": [
+{
+"title": "What architecture is",
+"title_ar": "ما هي البنية المعمارية",
+"why": "Ideas and vocabulary.",
+"why_ar": "الأفكار والمصطلحات.",
+"courses": [
+"martin-software-architecture-guide"
+]
+},
+{
+"title": "Communicate designs",
+"title_ar": "توصيل التصميم",
+"why": "Diagrams and written decisions people can follow.",
+"why_ar": "رسوم وقرارات مكتوبة يمكن للآخرين متابعتها.",
+"courses": [
+"c4-the-c4-model",
+"adr-architectural-decision-records"
+]
+},
+{
+"title": "Design at scale",
+"title_ar": "التصميم على نطاق واسع",
+"why": "Patterns and trade-offs used by large systems.",
+"why_ar": "الأنماط والمفاضلات في الأنظمة الكبيرة.",
+"courses": [
+"donne-system-design-primer",
+"aws-aws-well-architected-framework",
+"microsoft-azure-architecture-center"
+]
+},
+{
+"title": "Reliability",
+"title_ar": "الاعتمادية",
+"why": "Run what you design.",
+"why_ar": "شغّل ما تصممه.",
+"courses": [
+"sre-books"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "ux-design",
+"category": "role",
+"title": "UX designer",
+"title_ar": "مصمم تجربة المستخدم",
+"for": "People who want to design products that are easy and pleasant to use.",
+"for_ar": "لمن يريد تصميم منتجات سهلة وممتعة الاستخدام.",
+"stages": [
+{
+"title": "Principles",
+"title_ar": "المبادئ",
+"why": "The heuristics and laws behind usable design.",
+"why_ar": "القواعد والقوانين وراء التصميم القابل للاستخدام.",
+"courses": [
+"nielsen-10-usability-heuristics",
+"laws-laws-of-ux"
+]
+},
+{
+"title": "Research",
+"title_ar": "البحث",
+"why": "Learn what users need before you design.",
+"why_ar": "اعرف ما يحتاجه المستخدمون قبل التصميم.",
+"courses": [
+"gov-uk-user-research"
+]
+},
+{
+"title": "Interface design",
+"title_ar": "تصميم الواجهات",
+"why": "Components, layout and a design tool.",
+"why_ar": "المكوّنات والتخطيط وأداة تصميم.",
+"courses": [
+"google-material-design-3",
+"figma-figma-learn"
+]
+},
+{
+"title": "Accessibility",
+"title_ar": "إمكانية الوصول",
+"why": "Design for everyone, including people with disabilities.",
+"why_ar": "صمّم للجميع، بمن فيهم ذوو الإعاقة.",
+"courses": [
+"webdev-a11y"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "technical-writer",
+"category": "role",
+"title": "Technical writer",
+"title_ar": "كاتب تقني",
+"for": "People who want to write documentation developers actually read.",
+"for_ar": "لمن يريد كتابة توثيق يقرؤه المطوّرون فعلًا.",
+"stages": [
+{
+"title": "Write clearly",
+"title_ar": "اكتب بوضوح",
+"why": "Google's free courses on technical writing.",
+"why_ar": "كورسات Google المجانية في الكتابة التقنية.",
+"courses": [
+"google-technical-writing-courses",
+"google-developer-documentation-style-guide"
+]
+},
+{
+"title": "Structure docs",
+"title_ar": "نظّم التوثيق",
+"why": "Tutorials, how-tos, reference and explanation.",
+"why_ar": "الدروس والأدلة والمراجع والشروح.",
+"courses": [
+"di-taxis-di-taxis-documentation-framework"
+]
+},
+{
+"title": "Tools and community",
+"title_ar": "الأدوات والمجتمع",
+"why": "Markdown, docs-as-code, and the people who do this work.",
+"why_ar": "Markdown والتوثيق ككود، ومجتمع العاملين في هذا المجال.",
+"courses": [
+"markdown-markdown-guide",
+"write-write-the-docs-guide"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "game-developer",
+"category": "role",
+"title": "Game developer",
+"title_ar": "مطوّر ألعاب",
+"for": "People who want to make games, from 2D prototypes to 3D engines.",
+"for_ar": "لمن يريد صناعة الألعاب، من النماذج ثنائية الأبعاد إلى المحركات ثلاثية الأبعاد.",
+"stages": [
+{
+"title": "A first game course",
+"title_ar": "أول كورس ألعاب",
+"why": "Harvard's game development course.",
+"why_ar": "كورس Harvard لتطوير الألعاب.",
+"courses": [
+"harvard-cs50-s-introduction-to-game-development"
+]
+},
+{
+"title": "An engine",
+"title_ar": "محرّك ألعاب",
+"why": "Godot is free and open source.",
+"why_ar": "Godot مجاني ومفتوح المصدر.",
+"courses": [
+"godot-godot-getting-started"
+]
+},
+{
+"title": "How games are built",
+"title_ar": "كيف تُبنى الألعاب",
+"why": "Patterns, algorithms and the maths behind gameplay.",
+"why_ar": "الأنماط والخوارزميات والرياضيات وراء اللعب.",
+"courses": [
+"robert-game-programming-patterns",
+"amit-red-blob-games",
+"khan-la"
+]
+},
+{
+"title": "Graphics",
+"title_ar": "الرسوميات",
+"why": "Render 3D scenes yourself.",
+"why_ar": "اعرض المشاهد ثلاثية الأبعاد بنفسك.",
+"courses": [
+"joey-learnopengl"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "multiplayer-backend",
+"category": "role",
+"title": "Server-side game developer",
+"title_ar": "مطوّر خوادم الألعاب",
+"for": "Developers who want to build the servers behind multiplayer games.",
+"for_ar": "للمطوّرين الذين يبنون الخوادم وراء الألعاب الجماعية.",
+"stages": [
+{
+"title": "Networking basics",
+"title_ar": "أساسيات الشبكات",
+"why": "How data moves between machines.",
+"why_ar": "كيف تنتقل البيانات بين الأجهزة.",
+"courses": [
+"cnsa"
+]
+},
+{
+"title": "Multiplayer architecture",
+"title_ar": "بنية الألعاب الجماعية",
+"why": "Prediction, lag compensation and authoritative servers.",
+"why_ar": "التنبؤ وتعويض التأخير والخوادم الموثوقة.",
+"courses": [
+"gabriel-fast-paced-multiplayer",
+"valve-source-multiplayer-networking",
+"glenn-gaffer-on-games"
+]
+},
+{
+"title": "Run it",
+"title_ar": "التشغيل",
+"why": "Containers and orchestration for game servers.",
+"why_ar": "الحاويات والتنسيق لخوادم الألعاب.",
+"courses": [
+"docker-start",
+"k8s-basics"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "mlops",
+"category": "role",
+"title": "MLOps engineer",
+"title_ar": "مهندس MLOps",
+"for": "Engineers who want to take models from notebooks to reliable production systems.",
+"for_ar": "للمهندسين الذين ينقلون النماذج من الدفاتر إلى أنظمة إنتاج موثوقة.",
+"stages": [
+{
+"title": "The practice",
+"title_ar": "الممارسة",
+"why": "What it takes to run ML in production.",
+"why_ar": "ما يتطلبه تشغيل التعلّم الآلي في الإنتاج.",
+"courses": [
+"google-mlops-continuous-delivery-and-automation-",
+"google-rules-of-machine-learning"
+]
+},
+{
+"title": "A full course",
+"title_ar": "كورس كامل",
+"why": "Two free courses covering the whole lifecycle.",
+"why_ar": "كورسان مجانيان يغطيان دورة الحياة كاملة.",
+"courses": [
+"madewithml",
+"datatalksclub-mlops-zoomcamp"
+]
+},
+{
+"title": "Tracking and versioning",
+"title_ar": "التتبّع والإصدارات",
+"why": "Track experiments and version data and models.",
+"why_ar": "تتبّع التجارب وأصدر البيانات والنماذج.",
+"courses": [
+"mlflow-mlflow-documentation"
+]
+},
+{
+"title": "Serving",
+"title_ar": "التقديم",
+"why": "Package and run models as services.",
+"why_ar": "غلّف النماذج وشغّلها كخدمات.",
+"courses": [
+"docker-start",
+"k8s-basics"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "product-manager",
+"category": "role",
+"title": "Product manager",
+"title_ar": "مدير منتج",
+"for": "People who want to decide what gets built, and why.",
+"for_ar": "لمن يريد أن يقرر ماذا يُبنى ولماذا.",
+"stages": [
+{
+"title": "The role",
+"title_ar": "الدور",
+"why": "What product managers do day to day.",
+"why_ar": "ماذا يفعل مدير المنتج يوميًا.",
+"courses": [
+"atlassian-product-management-guide"
+]
+},
+{
+"title": "Shaping and delivery",
+"title_ar": "تشكيل العمل وتسليمه",
+"why": "Turn ideas into work a team can build.",
+"why_ar": "حوّل الأفكار إلى عمل يستطيع الفريق بناءه.",
+"courses": [
+"basecamp-shape-up",
+"scrum-org-the-scrum-guide"
+]
+},
+{
+"title": "Users and services",
+"title_ar": "المستخدمون والخدمات",
+"why": "Research and design services around real needs.",
+"why_ar": "ابحث وصمّم الخدمات حول احتياجات حقيقية.",
+"courses": [
+"gov-uk-service-manual",
+"nielsen-10-usability-heuristics"
+]
+},
+{
+"title": "Metrics",
+"title_ar": "المقاييس",
+"why": "Query your own product data.",
+"why_ar": "استعلم عن بيانات منتجك بنفسك.",
+"courses": [
+"kg-sql"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "engineering-manager",
+"category": "role",
+"title": "Engineering manager",
+"title_ar": "مدير هندسي",
+"for": "Engineers moving into leading teams and people.",
+"for_ar": "للمهندسين الذين ينتقلون إلى قيادة الفرق والأشخاص.",
+"stages": [
+{
+"title": "Leading people",
+"title_ar": "قيادة الأشخاص",
+"why": "Practical guides for teams and managers.",
+"why_ar": "أدلة عملية للفرق والمديرين.",
+"courses": [
+"atlassian-team-playbook",
+"gitlab-gitlab-handbook"
+]
+},
+{
+"title": "Engineering practice",
+"title_ar": "الممارسات الهندسية",
+"why": "Code review and delivery performance.",
+"why_ar": "مراجعة الكود وأداء التسليم.",
+"courses": [
+"google-google-engineering-practices",
+"dora-dora-research"
+]
+},
+{
+"title": "When things break",
+"title_ar": "عندما تتعطل الأمور",
+"why": "Run incidents and learn from them without blame.",
+"why_ar": "أدِر الحوادث وتعلّم منها دون لوم.",
+"courses": [
+"google-postmortem-culture"
+]
+},
+{
+"title": "Technical leadership",
+"title_ar": "القيادة التقنية",
+"why": "How senior engineers lead without managing.",
+"why_ar": "كيف يقود المهندسون الكبار دون إدارة مباشرة.",
+"courses": [
+"will-staffeng"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "devrel",
+"category": "role",
+"title": "Developer relations",
+"title_ar": "علاقات المطوّرين",
+"for": "People who want to help developers succeed with a product, through docs, talks and community.",
+"for_ar": "لمن يريد مساعدة المطوّرين على النجاح مع منتج، عبر التوثيق والمحاضرات والمجتمع.",
+"stages": [
+{
+"title": "Community",
+"title_ar": "المجتمع",
+"why": "Build and look after a developer community.",
+"why_ar": "ابنِ مجتمع مطوّرين واعتنِ به.",
+"courses": [
+"github-open-source-guides",
+"github-building-communities"
+]
+},
+{
+"title": "Content",
+"title_ar": "المحتوى",
+"why": "Docs and tutorials developers can follow.",
+"why_ar": "توثيق ودروس يستطيع المطوّرون متابعتها.",
+"courses": [
+"di-taxis-di-taxis-documentation-framework",
+"google-technical-writing-courses"
+]
+},
+{
+"title": "Speaking",
+"title_ar": "التحدث",
+"why": "Give talks people remember.",
+"why_ar": "قدّم محاضرات يتذكرها الناس.",
+"courses": [
+"zach-speaking-io"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "bi-analyst",
+"category": "role",
+"title": "BI analyst",
+"title_ar": "محلل ذكاء أعمال",
+"for": "People who build the dashboards and reports a business runs on.",
+"for_ar": "لمن يبني اللوحات والتقارير التي يعتمد عليها العمل.",
+"stages": [
+{
+"title": "SQL",
+"title_ar": "SQL",
+"why": "Get data out of the warehouse yourself.",
+"why_ar": "استخرج البيانات من المستودع بنفسك.",
+"courses": [
+"kg-sql",
+"cs50sql"
+]
+},
+{
+"title": "Modelling",
+"title_ar": "النمذجة",
+"why": "Star schemas that make reports fast and correct.",
+"why_ar": "مخططات النجمة التي تجعل التقارير سريعة وصحيحة.",
+"courses": [
+"kimball-dimensional-modeling-techniques",
+"microsoft-star-schema-guidance-for-power-bi"
+]
+},
+{
+"title": "Dashboards",
+"title_ar": "اللوحات",
+"why": "Build reports in Power BI and write DAX.",
+"why_ar": "ابنِ التقارير في Power BI واكتب DAX.",
+"courses": [
+"mslearn-pbi",
+"microsoft-dax-reference"
+]
+},
+{
+"title": "Statistics",
+"title_ar": "الإحصاء",
+"why": "Know when a change is real.",
+"why_ar": "اعرف متى يكون التغيير حقيقيًا.",
+"courses": [
+"khan-stats"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "network-engineer",
+"category": "role",
+"title": "Network engineer",
+"title_ar": "مهندس شبكات",
+"for": "People who want to design and run the networks everything else depends on.",
+"for_ar": "لمن يريد تصميم وتشغيل الشبكات التي يعتمد عليها كل شيء.",
+"stages": [
+{
+"title": "How networks work",
+"title_ar": "كيف تعمل الشبكات",
+"why": "Protocols from the physical layer up.",
+"why_ar": "البروتوكولات بدءًا من الطبقة الفيزيائية.",
+"courses": [
+"cnsa",
+"olivier-computer-networking-principles-protocols"
+]
+},
+{
+"title": "Hands-on",
+"title_ar": "عمليًا",
+"why": "Capture and read real traffic.",
+"why_ar": "التقط حركة البيانات الحقيقية واقرأها.",
+"courses": [
+"wireshark-wireshark-user-s-guide",
+"linuxjourney"
+]
+},
+{
+"title": "The modern network",
+"title_ar": "الشبكات الحديثة",
+"why": "DNS, CDNs and security at the edge.",
+"why_ar": "DNS وشبكات توزيع المحتوى والأمان عند الحافة.",
+"courses": []
+}
+],
+"course_count": 4
+},
+{
+"id": "forward-deployed-engineer",
+"category": "role",
+"title": "Forward deployed engineer",
+"title_ar": "مهندس منتشر لدى العملاء",
+"for": "Engineers who work inside customer teams to make a product solve their real problem.",
+"for_ar": "للمهندسين الذين يعملون داخل فرق العملاء ليجعلوا المنتج يحل مشكلتهم الحقيقية.",
+"stages": [
+{
+"title": "Build fast across the stack",
+"title_ar": "ابنِ بسرعة عبر كل الطبقات",
+"why": "Full-stack skills to prototype on site.",
+"why_ar": "مهارات Full-stack لبناء النماذج عند العميل.",
+"courses": [
+"fso",
+"cs50sql"
+]
+},
+{
+"title": "Data and AI integration",
+"title_ar": "دمج البيانات والذكاء الاصطناعي",
+"why": "Connect customer data to models.",
+"why_ar": "اربط بيانات العميل بالنماذج.",
+"courses": [
+"hf-llm",
+"anthropic-courses"
+]
+},
+{
+"title": "Cloud",
+"title_ar": "السحابة",
+"why": "Deploy inside the customer's environment.",
+"why_ar": "انشر داخل بيئة العميل.",
+"courses": [
+"az-fund",
+"docker-start"
+]
+},
+{
+"title": "Communicate",
+"title_ar": "التواصل",
+"why": "Write and explain clearly to non-engineers.",
+"why_ar": "اكتب واشرح بوضوح لغير المهندسين.",
+"courses": [
+"google-technical-writing-courses"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "ai-product-builder",
+"category": "role",
+"title": "AI product builder",
+"title_ar": "صانع منتجات ذكاء اصطناعي",
+"for": "People who want to turn an idea into a working AI product.",
+"for_ar": "لمن يريد تحويل فكرة إلى منتج ذكاء اصطناعي يعمل.",
+"stages": [
+{
+"title": "Prompting",
+"title_ar": "كتابة التعليمات",
+"why": "Get reliable results from models.",
+"why_ar": "احصل على نتائج موثوقة من النماذج.",
+"courses": [
+"prompting-guide",
+"anthropic-courses"
+]
+},
+{
+"title": "Design for AI",
+"title_ar": "التصميم للذكاء الاصطناعي",
+"why": "How people experience AI features.",
+"why_ar": "كيف يختبر الناس ميزات الذكاء الاصطناعي.",
+"courses": [
+"google-people-ai-guidebook"
+]
+},
+{
+"title": "Build",
+"title_ar": "البناء",
+"why": "Examples and patterns you can reuse.",
+"why_ar": "أمثلة وأنماط قابلة لإعادة الاستخدام.",
+"courses": [
+"oai-cookbook",
+"anthropic-building-effective-agents"
+]
+},
+{
+"title": "Ship and measure",
+"title_ar": "أطلق وقِس",
+"why": "Scope the work, and test that it's good enough.",
+"why_ar": "حدّد نطاق العمل واختبر أنه جيد بما يكفي.",
+"courses": [
+"basecamp-shape-up",
+"anthropic-define-success-criteria-and-build-eval"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "product-designer",
+"category": "role",
+"title": "Product designer",
+"title_ar": "مصمم منتجات",
+"for": "Designers who own a product's experience from research to shipped UI.",
+"for_ar": "للمصممين الذين يتولّون تجربة المنتج من البحث إلى الواجهة المنشورة.",
+"stages": [
+{
+"title": "Principles",
+"title_ar": "المبادئ",
+"why": "Usability heuristics and the psychology behind them.",
+"why_ar": "قواعد قابلية الاستخدام وعلم النفس وراءها.",
+"courses": [
+"nielsen-10-usability-heuristics",
+"laws-laws-of-ux"
+]
+},
+{
+"title": "Systems",
+"title_ar": "الأنظمة",
+"why": "Design with components and patterns.",
+"why_ar": "صمّم بالمكوّنات والأنماط.",
+"courses": [
+"brad-atomic-design",
+"gov-uk-gov-uk-design-system"
+]
+},
+{
+"title": "Tools",
+"title_ar": "الأدوات",
+"why": "Design and prototype.",
+"why_ar": "صمّم وأنشئ النماذج الأولية.",
+"courses": [
+"figma-figma-learn",
+"google-material-design-3"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "ai-red-teaming",
+"category": "role",
+"title": "AI red teamer",
+"title_ar": "فريق اختبار الذكاء الاصطناعي الأحمر",
+"for": "Security people who test AI systems for harmful or unsafe behaviour, with permission.",
+"for_ar": "لأخصائيي الأمن الذين يختبرون أنظمة الذكاء الاصطناعي بحثًا عن سلوك ضار أو غير آمن، بإذن.",
+"stages": [
+{
+"title": "Know the risks",
+"title_ar": "اعرف المخاطر",
+"why": "The main ways LLM applications fail.",
+"why_ar": "أهم طرق فشل تطبيقات نماذج اللغة.",
+"courses": [
+"mitre-mitre-atlas"
+]
+},
+{
+"title": "Method",
+"title_ar": "المنهجية",
+"why": "How organisations plan and run AI red teaming.",
+"why_ar": "كيف تخطط المؤسسات لاختبار الذكاء الاصطناعي وتنفّذه.",
+"courses": [
+"microsoft-ai-red-team-guidance",
+"nist-ai-risk-management-framework"
+]
+},
+{
+"title": "Tools",
+"title_ar": "الأدوات",
+"why": "Open-source scanners for authorised testing.",
+"why_ar": "أدوات فحص مفتوحة المصدر للاختبار المصرّح به.",
+"courses": [
+"nvidia-garak-llm-vulnerability-scanner",
+"microsoft-pyrit"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "inference-engineering",
+"category": "role",
+"title": "Inference engineer",
+"title_ar": "مهندس استدلال النماذج",
+"for": "Engineers who make large models run fast and cheaply in production.",
+"for_ar": "للمهندسين الذين يجعلون النماذج الكبيرة تعمل بسرعة وتكلفة أقل في الإنتاج.",
+"stages": [
+{
+"title": "Why inference is hard",
+"title_ar": "لماذا الاستدلال صعب",
+"why": "Where the time and memory go.",
+"why_ar": "أين يذهب الوقت والذاكرة.",
+"courses": [
+"theia-how-to-make-llms-go-fast",
+"modal-gpu-glossary"
+]
+},
+{
+"title": "Serving engines",
+"title_ar": "محركات التقديم",
+"why": "Open-source servers for LLMs.",
+"why_ar": "خوادم مفتوحة المصدر لنماذج اللغة.",
+"courses": [
+"vllm-vllm-documentation",
+"hugging-text-generation-inference",
+"ggml-org-llama-cpp"
+]
+},
+{
+"title": "Make it smaller and faster",
+"title_ar": "اجعله أصغر وأسرع",
+"why": "Quantization and GPU programming.",
+"why_ar": "التكميم وبرمجة GPU.",
+"courses": []
+}
+],
+"course_count": 5
+},
+{
+"id": "sql",
+"category": "lang",
+"title": "SQL",
+"title_ar": "SQL",
+"for": "Anyone who works with data: analysts, developers and data engineers.",
+"for_ar": "لكل من يعمل بالبيانات: المحللون والمطوّرون ومهندسو البيانات.",
+"stages": [
+{
+"title": "Query basics",
+"title_ar": "أساسيات الاستعلام",
+"why": "SELECT, filters, joins and grouping, practised interactively.",
+"why_ar": "SELECT والتصفية والربط والتجميع بتمارين تفاعلية.",
+"courses": [
+"sqlbolt-sqlbolt",
+"kg-sql"
+]
+},
+{
+"title": "Design databases",
+"title_ar": "صمّم قواعد البيانات",
+"why": "Tables, keys and relationships.",
+"why_ar": "الجداول والمفاتيح والعلاقات.",
+"courses": [
+"cs50sql",
+"fcc-rdb"
+]
+},
+{
+"title": "Fast queries",
+"title_ar": "استعلامات سريعة",
+"why": "Indexes and how databases execute queries.",
+"why_ar": "الفهارس وكيف تنفّذ قواعد البيانات الاستعلامات.",
+"courses": [
+"markus-use-the-index-luke",
+"pg-tutorial"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "javascript",
+"category": "lang",
+"title": "JavaScript",
+"title_ar": "JavaScript",
+"for": "People learning the language of the web, for the browser or the server.",
+"for_ar": "لمن يتعلم لغة الويب، للمتصفح أو للخادم.",
+"stages": [
+{
+"title": "The language",
+"title_ar": "اللغة",
+"why": "Learn it properly from the start.",
+"why_ar": "تعلّمها بشكل صحيح من البداية.",
+"courses": [
+"jsinfo",
+"mdn-javascript-guide"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Solve problems until it's second nature.",
+"why_ar": "حل المسائل حتى تصبح طبيعية.",
+"courses": [
+"fcc-js"
+]
+},
+{
+"title": "Go deeper",
+"title_ar": "تعمّق",
+"why": "How the language really works.",
+"why_ar": "كيف تعمل اللغة فعلًا.",
+"courses": [
+"marijn-eloquent-javascript",
+"kyle-you-don-t-know-js-yet"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "typescript",
+"category": "lang",
+"title": "TypeScript",
+"title_ar": "TypeScript",
+"for": "JavaScript developers who want types that catch bugs before users do.",
+"for_ar": "لمطوّري JavaScript الذين يريدون أنواعًا تكشف الأخطاء قبل المستخدمين.",
+"stages": [
+{
+"title": "Start",
+"title_ar": "البداية",
+"why": "TypeScript for people who know JavaScript.",
+"why_ar": "TypeScript لمن يعرف JavaScript.",
+"courses": [
+"typescript-typescript-for-javascript-programmers"
+]
+},
+{
+"title": "The handbook",
+"title_ar": "الدليل",
+"why": "The official guide to the type system.",
+"why_ar": "الدليل الرسمي لنظام الأنواع.",
+"courses": [
+"ts-handbook",
+"matt-total-typescript-essentials"
+]
+},
+{
+"title": "Advanced types",
+"title_ar": "الأنواع المتقدمة",
+"why": "Puzzles that teach the type system deeply.",
+"why_ar": "ألغاز تعلّمك نظام الأنواع بعمق.",
+"courses": [
+"type-challenges-type-challenges"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "python",
+"category": "lang",
+"title": "Python",
+"title_ar": "بايثون",
+"for": "Beginners and developers who want one language for scripts, web, data and AI.",
+"for_ar": "للمبتدئين والمطوّرين الذين يريدون لغة واحدة للسكربتات والويب والبيانات والذكاء الاصطناعي.",
+"stages": [
+{
+"title": "Learn the language",
+"title_ar": "تعلّم اللغة",
+"why": "University courses with exercises.",
+"why_ar": "كورسات جامعية مع تمارين.",
+"courses": [
+"cs50p",
+"mooc-python",
+"python-the-python-tutorial"
+]
+},
+{
+"title": "Use it",
+"title_ar": "استخدمها",
+"why": "Automate everyday tasks.",
+"why_ar": "أتمت المهام اليومية.",
+"courses": [
+"al-automate-the-boring-stuff-with-python"
+]
+},
+{
+"title": "Write it professionally",
+"title_ar": "اكتبها باحتراف",
+"why": "Tests and packaging.",
+"why_ar": "الاختبارات والتغليف.",
+"courses": [
+"pytest-pytest-get-started",
+"python-packaging-python-projects"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "java",
+"category": "lang",
+"title": "Java",
+"title_ar": "Java",
+"for": "People learning Java for backend, Android or enterprise work.",
+"for_ar": "لمن يتعلم Java للباك إند أو أندرويد أو المؤسسات.",
+"stages": [
+{
+"title": "Learn the language",
+"title_ar": "تعلّم اللغة",
+"why": "A complete university course with exercises.",
+"why_ar": "كورس جامعي كامل مع تمارين.",
+"courses": [
+"university-java-programming-mooc",
+"dev-java-learn-java"
+]
+},
+{
+"title": "Build tools and tests",
+"title_ar": "أدوات البناء والاختبارات",
+"why": "How real Java projects are organised.",
+"why_ar": "كيف تُنظَّم مشاريع Java الحقيقية.",
+"courses": [
+"apache-maven-getting-started",
+"junit-junit-5-user-guide"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "spring-boot",
+"category": "web",
+"title": "Spring Boot",
+"title_ar": "Spring Boot",
+"for": "Java developers building web services.",
+"for_ar": "لمطوّري Java الذين يبنون خدمات الويب.",
+"stages": [
+{
+"title": "Java first",
+"title_ar": "Java أولًا",
+"why": "You'll need solid Java.",
+"why_ar": "ستحتاج Java قوية.",
+"courses": [
+"university-java-programming-mooc"
+]
+},
+{
+"title": "Spring guides",
+"title_ar": "أدلة Spring",
+"why": "Short official guides that each build one thing.",
+"why_ar": "أدلة رسمية قصيرة يبني كل منها شيئًا واحدًا.",
+"courses": [
+"spring-spring-guides",
+"spring-building-rest-services-with-spring"
+]
+},
+{
+"title": "Data and security",
+"title_ar": "البيانات والأمان",
+"why": "Persistence and authentication.",
+"why_ar": "التخزين والمصادقة.",
+"courses": [
+"spring-spring-data-jpa",
+"spring-spring-security-reference"
+]
+},
+{
+"title": "Reference",
+"title_ar": "المرجع",
+"why": "The full documentation.",
+"why_ar": "التوثيق الكامل.",
+"courses": [
+"spring-spring-boot-reference"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "csharp-aspnet",
+"category": "web",
+"title": "ASP.NET Core",
+"title_ar": "ASP.NET Core",
+"for": "Developers building web apps and APIs with C# and .NET.",
+"for_ar": "للمطوّرين الذين يبنون تطبيقات وواجهات API بـ C# و.NET.",
+"stages": [
+{
+"title": "C#",
+"title_ar": "C#",
+"why": "A tour of the language.",
+"why_ar": "جولة في اللغة.",
+"courses": [
+"microsoft-a-tour-of-c"
+]
+},
+{
+"title": "Web apps and APIs",
+"title_ar": "تطبيقات الويب والواجهات",
+"why": "Build your first API.",
+"why_ar": "ابنِ أول API.",
+"courses": [
+"microsoft-introduction-to-asp-net-core",
+"microsoft-tutorial-create-a-minimal-api"
+]
+},
+{
+"title": "Data and tests",
+"title_ar": "البيانات والاختبارات",
+"why": "Entity Framework Core and unit testing.",
+"why_ar": "Entity Framework Core واختبارات الوحدات.",
+"courses": [
+"microsoft-entity-framework-core",
+"microsoft-testing-in-net"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "nodejs",
+"category": "web",
+"title": "Node.js",
+"title_ar": "Node.js",
+"for": "JavaScript developers building servers and tools.",
+"for_ar": "لمطوّري JavaScript الذين يبنون الخوادم والأدوات.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "How Node.js runs JavaScript outside the browser.",
+"why_ar": "كيف يشغّل Node.js لغة JavaScript خارج المتصفح.",
+"courses": [
+"node-learn"
+]
+},
+{
+"title": "Build web servers",
+"title_ar": "ابنِ خوادم الويب",
+"why": "Express and REST APIs.",
+"why_ar": "Express وواجهات REST.",
+"courses": [
+"express-express-routing-guide",
+"fcc-backend",
+"fso"
+]
+},
+{
+"title": "Production",
+"title_ar": "الإنتاج",
+"why": "Patterns from experienced teams.",
+"why_ar": "أنماط من فرق ذات خبرة.",
+"courses": [
+"yoni-node-js-best-practices",
+"node-js-node-js-api-reference"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "react",
+"category": "web",
+"title": "React",
+"title_ar": "React",
+"for": "Frontend developers building interfaces with React.",
+"for_ar": "لمطوّري الواجهات الذين يبنون بـ React.",
+"stages": [
+{
+"title": "Learn React",
+"title_ar": "تعلّم React",
+"why": "The official tutorial and concepts.",
+"why_ar": "الدرس الرسمي والمفاهيم.",
+"courses": [
+"react-learn"
+]
+},
+{
+"title": "Real apps",
+"title_ar": "تطبيقات حقيقية",
+"why": "Data fetching, routing and state on full projects.",
+"why_ar": "جلب البيانات والتنقل والحالة في مشاريع كاملة.",
+"courses": [
+"fso",
+"tanstack-tanstack-query"
+]
+},
+{
+"title": "Test it",
+"title_ar": "اختبره",
+"why": "Test components the way users use them.",
+"why_ar": "اختبر المكوّنات كما يستخدمها الناس.",
+"courses": [
+"testing-react-testing-library"
+]
+},
+{
+"title": "Reference",
+"title_ar": "المرجع",
+"why": "Hooks and APIs in detail.",
+"why_ar": "الـ Hooks والواجهات بالتفصيل.",
+"courses": [
+"react-react-reference"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "nextjs",
+"category": "web",
+"title": "Next.js",
+"title_ar": "Next.js",
+"for": "React developers building full websites with server rendering.",
+"for_ar": "لمطوّري React الذين يبنون مواقع كاملة مع العرض على الخادم.",
+"stages": [
+{
+"title": "React first",
+"title_ar": "React أولًا",
+"why": "Next.js builds on React.",
+"why_ar": "Next.js مبني على React.",
+"courses": [
+"react-learn"
+]
+},
+{
+"title": "Learn Next.js",
+"title_ar": "تعلّم Next.js",
+"why": "Build a full app with the official course.",
+"why_ar": "ابنِ تطبيقًا كاملًا مع الكورس الرسمي.",
+"courses": [
+"vercel-next-js-learn"
+]
+},
+{
+"title": "Data and deployment",
+"title_ar": "البيانات والنشر",
+"why": "Fetching data and putting the app online.",
+"why_ar": "جلب البيانات ونشر التطبيق.",
+"courses": [
+"next-js-fetching-data",
+"next-js-deploying"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "vue",
+"category": "web",
+"title": "Vue.js",
+"title_ar": "Vue.js",
+"for": "Frontend developers who want an approachable framework.",
+"for_ar": "لمطوّري الواجهات الذين يريدون إطار عمل سهل البداية.",
+"stages": [
+{
+"title": "Learn Vue",
+"title_ar": "تعلّم Vue",
+"why": "The official tutorial and guide.",
+"why_ar": "الدرس والدليل الرسميان.",
+"courses": [
+"vue-js-vue-tutorial",
+"vue-js-vue-guide"
+]
+},
+{
+"title": "Apps",
+"title_ar": "التطبيقات",
+"why": "Routing and state.",
+"why_ar": "التنقل والحالة.",
+"courses": [
+"vue-vue-router-guide",
+"pinia-pinia"
+]
+},
+{
+"title": "Full sites and tests",
+"title_ar": "مواقع كاملة واختبارات",
+"why": "Nuxt for server rendering, Vitest for tests.",
+"why_ar": "Nuxt للعرض على الخادم وVitest للاختبارات.",
+"courses": [
+"nuxt-nuxt-introduction",
+"vitest-vitest-guide"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "angular",
+"category": "web",
+"title": "Angular",
+"title_ar": "Angular",
+"for": "Frontend developers building large apps with Angular.",
+"for_ar": "لمطوّري الواجهات الذين يبنون تطبيقات كبيرة بـ Angular.",
+"stages": [
+{
+"title": "TypeScript",
+"title_ar": "TypeScript",
+"why": "Angular is written in TypeScript.",
+"why_ar": "Angular مكتوب بـ TypeScript.",
+"courses": [
+"ts-handbook"
+]
+},
+{
+"title": "Learn Angular",
+"title_ar": "تعلّم Angular",
+"why": "Official tutorials and essentials.",
+"why_ar": "الدروس والأساسيات الرسمية.",
+"courses": [
+"angular-angular-tutorials",
+"angular-angular-essentials"
+]
+},
+{
+"title": "Reactive code and tests",
+"title_ar": "البرمجة التفاعلية والاختبارات",
+"why": "RxJS and testing.",
+"why_ar": "RxJS والاختبارات.",
+"courses": [
+"rxjs-rxjs-overview",
+"angular-testing-angular"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "react-native",
+"category": "web",
+"title": "React Native",
+"title_ar": "React Native",
+"for": "React developers building mobile apps for iOS and Android.",
+"for_ar": "لمطوّري React الذين يبنون تطبيقات موبايل لـ iOS وأندرويد.",
+"stages": [
+{
+"title": "React first",
+"title_ar": "React أولًا",
+"why": "React Native uses React.",
+"why_ar": "React Native يستخدم React.",
+"courses": [
+"react-learn"
+]
+},
+{
+"title": "Learn React Native",
+"title_ar": "تعلّم React Native",
+"why": "Official docs and Expo's tutorial.",
+"why_ar": "التوثيق الرسمي ودرس Expo.",
+"courses": [
+"react-react-native-introduction",
+"expo-expo-tutorial"
+]
+},
+{
+"title": "Real apps",
+"title_ar": "تطبيقات حقيقية",
+"why": "Navigation and the Expo platform.",
+"why_ar": "التنقل ومنصة Expo.",
+"courses": [
+"react-react-navigation",
+"expo-expo-documentation"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "flutter",
+"category": "web",
+"title": "Flutter",
+"title_ar": "Flutter",
+"for": "Developers building one app for mobile, web and desktop.",
+"for_ar": "للمطوّرين الذين يبنون تطبيقًا واحدًا للموبايل والويب وسطح المكتب.",
+"stages": [
+{
+"title": "Dart",
+"title_ar": "Dart",
+"why": "The language behind Flutter.",
+"why_ar": "اللغة وراء Flutter.",
+"courses": [
+"dart-dart-language-tour"
+]
+},
+{
+"title": "Learn Flutter",
+"title_ar": "تعلّم Flutter",
+"why": "Set up, then work through codelabs.",
+"why_ar": "جهّز البيئة ثم اعمل على الدروس العملية.",
+"courses": [
+"flutter-flutter-get-started",
+"flutter-flutter-codelabs"
+]
+},
+{
+"title": "State and release",
+"title_ar": "الحالة والإطلاق",
+"why": "Manage state and ship to stores.",
+"why_ar": "أدِر الحالة وانشر في المتاجر.",
+"courses": [
+"flutter-state-management",
+"flutter-deployment"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "kotlin",
+"category": "lang",
+"title": "Kotlin",
+"title_ar": "Kotlin",
+"for": "Developers learning Kotlin for Android or the server.",
+"for_ar": "للمطوّرين الذين يتعلمون Kotlin لأندرويد أو الخادم.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "The official tour and exercises.",
+"why_ar": "الجولة الرسمية والتمارين.",
+"courses": [
+"kotlin-kotlin-tour",
+"kotlin-kotlin-koans"
+]
+},
+{
+"title": "Concurrency",
+"title_ar": "التزامن",
+"why": "Coroutines.",
+"why_ar": "الـ Coroutines.",
+"courses": [
+"kotlin-coroutines-guide"
+]
+},
+{
+"title": "Use it",
+"title_ar": "استخدمها",
+"why": "Android apps or server apps.",
+"why_ar": "تطبيقات أندرويد أو خوادم.",
+"courses": [
+"android-android-basics-with-compose",
+"ktor-ktor-documentation"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "swiftui",
+"category": "web",
+"title": "SwiftUI",
+"title_ar": "SwiftUI",
+"for": "Developers building interfaces for Apple platforms.",
+"for_ar": "للمطوّرين الذين يبنون واجهات لمنصات Apple.",
+"stages": [
+{
+"title": "Swift",
+"title_ar": "Swift",
+"why": "The language first.",
+"why_ar": "اللغة أولًا.",
+"courses": [
+"swift-org-the-swift-programming-language",
+"apple-develop-in-swift-tutorials"
+]
+},
+{
+"title": "SwiftUI",
+"title_ar": "SwiftUI",
+"why": "Official tutorials, then 100 days of practice.",
+"why_ar": "الدروس الرسمية ثم 100 يوم من التمرين.",
+"courses": [
+"apple-swiftui-tutorials",
+"hacking-100-days-of-swiftui"
+]
+},
+{
+"title": "Go further",
+"title_ar": "تعمّق",
+"why": "Stanford's iOS course.",
+"why_ar": "كورس Stanford لـ iOS.",
+"courses": [
+"stanford-cs193p-developing-apps-for-ios"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "cpp",
+"category": "lang",
+"title": "C++",
+"title_ar": "C++",
+"for": "Developers working on performance-critical software, games or systems.",
+"for_ar": "للمطوّرين في البرمجيات عالية الأداء أو الألعاب أو الأنظمة.",
+"stages": [
+{
+"title": "Learn the language",
+"title_ar": "تعلّم اللغة",
+"why": "A complete free tutorial.",
+"why_ar": "درس مجاني كامل.",
+"courses": [
+"learncpp-com-learncpp"
+]
+},
+{
+"title": "Write it well",
+"title_ar": "اكتبها جيدًا",
+"why": "Modern guidelines and the reference.",
+"why_ar": "الإرشادات الحديثة والمرجع.",
+"courses": [
+"standard-c-core-guidelines"
+]
+},
+{
+"title": "Build projects",
+"title_ar": "ابنِ المشاريع",
+"why": "CMake, the common build system.",
+"why_ar": "CMake، نظام البناء الشائع.",
+"courses": [
+"cmake-cmake-tutorial"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "c",
+"category": "lang",
+"title": "C",
+"title_ar": "C",
+"for": "People who want to understand how software talks to hardware.",
+"for_ar": "لمن يريد فهم كيف تتحدث البرمجيات مع العتاد.",
+"stages": [
+{
+"title": "Start",
+"title_ar": "البداية",
+"why": "CS50 starts in C.",
+"why_ar": "CS50 يبدأ بلغة C.",
+"courses": [
+"cs50x",
+"brian-beej-s-guide-to-c-programming"
+]
+},
+{
+"title": "Modern C",
+"title_ar": "C الحديثة",
+"why": "A free book on writing C well.",
+"why_ar": "كتاب مجاني عن كتابة C جيدًا.",
+"courses": [
+"jens-modern-c"
+]
+},
+{
+"title": "Systems work",
+"title_ar": "البرمجة على مستوى النظام",
+"why": "Debugging and network programming.",
+"why_ar": "تصحيح الأخطاء وبرمجة الشبكات.",
+"courses": [
+"gnu-debugging-with-gdb",
+"brian-beej-s-guide-to-network-programming"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "rust",
+"category": "lang",
+"title": "Rust",
+"title_ar": "Rust",
+"for": "Developers who want fast, memory-safe systems code.",
+"for_ar": "للمطوّرين الذين يريدون كود أنظمة سريعًا وآمنًا للذاكرة.",
+"stages": [
+{
+"title": "The book",
+"title_ar": "الكتاب",
+"why": "The official introduction.",
+"why_ar": "المقدمة الرسمية.",
+"courses": [
+"rust-the-rust-programming-language"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Small exercises and runnable examples.",
+"why_ar": "تمارين صغيرة وأمثلة قابلة للتشغيل.",
+"courses": [
+"rust-rustlings",
+"rust-rust-by-example"
+]
+},
+{
+"title": "Go further",
+"title_ar": "تعمّق",
+"why": "Google's course and async Rust.",
+"why_ar": "كورس Google وRust غير المتزامنة.",
+"courses": [
+"google-comprehensive-rust",
+"rust-asynchronous-programming-in-rust"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "go",
+"category": "lang",
+"title": "Go",
+"title_ar": "Go",
+"for": "Developers building backend services, CLIs and cloud tools.",
+"for_ar": "للمطوّرين الذين يبنون خدمات وأدوات سطر أوامر وأدوات سحابية.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "The interactive tour.",
+"why_ar": "الجولة التفاعلية.",
+"courses": [
+"go-a-tour-of-go",
+"go-go-by-example"
+]
+},
+{
+"title": "Idiomatic Go",
+"title_ar": "Go الاصطلاحية",
+"why": "How Go code is meant to look.",
+"why_ar": "كيف يُفترض أن يبدو كود Go.",
+"courses": [
+"go-effective-go"
+]
+},
+{
+"title": "Test-driven",
+"title_ar": "مدفوعة بالاختبارات",
+"why": "Learn Go by writing tests first.",
+"why_ar": "تعلّم Go بكتابة الاختبارات أولًا.",
+"courses": [
+"chris-learn-go-with-tests"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "php",
+"category": "lang",
+"title": "PHP",
+"title_ar": "PHP",
+"for": "Developers building websites and web apps with PHP.",
+"for_ar": "للمطوّرين الذين يبنون مواقع وتطبيقات ويب بـ PHP.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "The official manual.",
+"why_ar": "الدليل الرسمي.",
+"courses": [
+"php-php-manual-getting-started"
+]
+},
+{
+"title": "Modern PHP",
+"title_ar": "PHP الحديثة",
+"why": "Current best practices, packages and tests.",
+"why_ar": "أفضل الممارسات الحالية والحزم والاختبارات.",
+"courses": [
+"php-php-the-right-way",
+"composer-composer-introduction",
+"phpunit-phpunit-documentation"
+]
+},
+{
+"title": "A framework",
+"title_ar": "إطار عمل",
+"why": "Build a full app with Symfony.",
+"why_ar": "ابنِ تطبيقًا كاملًا بـ Symfony.",
+"courses": [
+"symfony-symfony-the-fast-track"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "laravel",
+"category": "web",
+"title": "Laravel",
+"title_ar": "Laravel",
+"for": "PHP developers building full web apps.",
+"for_ar": "لمطوّري PHP الذين يبنون تطبيقات ويب كاملة.",
+"stages": [
+{
+"title": "Modern PHP",
+"title_ar": "PHP الحديثة",
+"why": "The language and its ecosystem.",
+"why_ar": "اللغة ومنظومتها.",
+"courses": [
+"php-php-the-right-way"
+]
+},
+{
+"title": "Learn Laravel",
+"title_ar": "تعلّم Laravel",
+"why": "Build an app with the official bootcamp.",
+"why_ar": "ابنِ تطبيقًا مع المعسكر الرسمي.",
+"courses": [
+"laravel-laravel-documentation"
+]
+},
+{
+"title": "Tests",
+"title_ar": "الاختبارات",
+"why": "Test with Pest.",
+"why_ar": "اختبر بـ Pest.",
+"courses": [
+"pest-pest-documentation"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "django",
+"category": "web",
+"title": "Django",
+"title_ar": "Django",
+"for": "Python developers building web apps and APIs.",
+"for_ar": "لمطوّري بايثون الذين يبنون تطبيقات وواجهات API.",
+"stages": [
+{
+"title": "Start",
+"title_ar": "البداية",
+"why": "Two friendly tutorials.",
+"why_ar": "درسان ودودان.",
+"courses": [
+"django-django-girls-tutorial",
+"django-tut"
+]
+},
+{
+"title": "APIs",
+"title_ar": "الواجهات البرمجية",
+"why": "Django REST framework.",
+"why_ar": "Django REST framework.",
+"courses": [
+"django-django-rest-framework-quickstart"
+]
+},
+{
+"title": "Production",
+"title_ar": "الإنتاج",
+"why": "Deploy safely.",
+"why_ar": "انشر بأمان.",
+"courses": [
+"django-deployment-checklist",
+"cs50w"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "ruby",
+"category": "lang",
+"title": "Ruby",
+"title_ar": "Ruby",
+"for": "People learning Ruby, often on the way to Rails.",
+"for_ar": "لمن يتعلم Ruby، غالبًا في الطريق إلى Rails.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "A quick start and the official docs.",
+"why_ar": "بداية سريعة والتوثيق الرسمي.",
+"courses": [
+"ruby-ruby-in-twenty-minutes",
+"ruby-ruby-documentation"
+]
+},
+{
+"title": "Projects",
+"title_ar": "المشاريع",
+"why": "Learn Ruby through projects.",
+"why_ar": "تعلّم Ruby من خلال المشاريع.",
+"courses": [
+"the-ruby-course"
+]
+},
+{
+"title": "Tests",
+"title_ar": "الاختبارات",
+"why": "RSpec.",
+"why_ar": "RSpec.",
+"courses": [
+"rspec-rspec"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "rails",
+"category": "web",
+"title": "Ruby on Rails",
+"title_ar": "Ruby on Rails",
+"for": "Developers building web apps quickly with Rails.",
+"for_ar": "للمطوّرين الذين يبنون تطبيقات ويب بسرعة باستخدام Rails.",
+"stages": [
+{
+"title": "Get started",
+"title_ar": "ابدأ",
+"why": "The official guide builds a first app.",
+"why_ar": "الدليل الرسمي يبني أول تطبيق.",
+"courses": [
+"rails-getting-started-with-rails"
+]
+},
+{
+"title": "The full path",
+"title_ar": "المسار الكامل",
+"why": "A free project-based curriculum.",
+"why_ar": "منهج مجاني قائم على المشاريع.",
+"courses": [
+"the-full-stack-ruby-on-rails"
+]
+},
+{
+"title": "Go deeper",
+"title_ar": "تعمّق",
+"why": "Models and modern frontends with Hotwire.",
+"why_ar": "النماذج والواجهات الحديثة بـ Hotwire.",
+"courses": [
+"rails-active-record-basics",
+"hotwire-hotwire"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "scala",
+"category": "lang",
+"title": "Scala",
+"title_ar": "Scala",
+"for": "Developers working with functional programming or big data on the JVM.",
+"for_ar": "للمطوّرين في البرمجة الوظيفية أو البيانات الضخمة على JVM.",
+"stages": [
+{
+"title": "Learn Scala",
+"title_ar": "تعلّم Scala",
+"why": "The official book and tour.",
+"why_ar": "الكتاب والجولة الرسميان.",
+"courses": [
+"scala-scala-3-book",
+"scala-tour-of-scala"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Exercises and the build tool.",
+"why_ar": "التمارين وأداة البناء.",
+"courses": [
+"47-scala-exercises",
+"sbt-sbt-documentation"
+]
+},
+{
+"title": "Big data",
+"title_ar": "البيانات الضخمة",
+"why": "Spark is written in Scala.",
+"why_ar": "Spark مكتوب بـ Scala.",
+"courses": [
+"apache-spark-quick-start"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "r",
+"category": "lang",
+"title": "R",
+"title_ar": "R",
+"for": "Analysts and researchers working with statistics and data.",
+"for_ar": "للمحللين والباحثين في الإحصاء والبيانات.",
+"stages": [
+{
+"title": "Learn R",
+"title_ar": "تعلّم R",
+"why": "Programming basics, then data science.",
+"why_ar": "أساسيات البرمجة ثم علم البيانات.",
+"courses": [
+"garrett-hands-on-programming-with-r",
+"r4ds"
+]
+},
+{
+"title": "Visualise",
+"title_ar": "التصوير البصري",
+"why": "ggplot2 in depth.",
+"why_ar": "ggplot2 بعمق.",
+"courses": [
+"hadley-ggplot2-elegant-graphics-for-data-analysi"
+]
+},
+{
+"title": "Go further",
+"title_ar": "تعمّق",
+"why": "Statistical learning, the language in depth, and packages.",
+"why_ar": "التعلّم الإحصائي واللغة بعمق والحزم.",
+"courses": [
+"islp",
+"hadley-advanced-r",
+"hadley-r-packages"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "html",
+"category": "web",
+"title": "HTML",
+"title_ar": "HTML",
+"for": "Anyone starting web development.",
+"for_ar": "لكل من يبدأ تطوير الويب.",
+"stages": [
+{
+"title": "Structure content",
+"title_ar": "هيكلة المحتوى",
+"why": "Elements, semantics and forms.",
+"why_ar": "العناصر والدلالات والنماذج.",
+"courses": [
+"web-dev-learn-html",
+"mdn-structuring-content-with-html"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Build pages.",
+"why_ar": "ابنِ صفحات.",
+"courses": [
+"fcc-rwd",
+"odin-foundations"
+]
+},
+{
+"title": "Forms and accessibility",
+"title_ar": "النماذج وإمكانية الوصول",
+"why": "Forms everyone can use.",
+"why_ar": "نماذج يستطيع الجميع استخدامها.",
+"courses": [
+"web-dev-learn-forms",
+"webdev-a11y"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "css",
+"category": "web",
+"title": "CSS",
+"title_ar": "CSS",
+"for": "Anyone who wants to lay out and style web pages.",
+"for_ar": "لكل من يريد تخطيط وتنسيق صفحات الويب.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "Selectors, the box model and the cascade.",
+"why_ar": "المحددات ونموذج الصندوق والتتالي.",
+"courses": [
+"webdev-css",
+"mdn-css-styling-basics"
+]
+},
+{
+"title": "Layout",
+"title_ar": "التخطيط",
+"why": "Flexbox and grid, with games to practise.",
+"why_ar": "Flexbox وGrid مع ألعاب للتمرين.",
+"courses": [
+"css-tricks-a-complete-guide-to-flexbox",
+"css-tricks-a-complete-guide-to-css-grid",
+"codepip-flexbox-froggy",
+"codepip-grid-garden"
+]
+},
+{
+"title": "Responsive design",
+"title_ar": "التصميم المتجاوب",
+"why": "Pages that work on every screen.",
+"why_ar": "صفحات تعمل على كل الشاشات.",
+"courses": [
+"web-dev-learn-responsive-design"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "graphql",
+"category": "web",
+"title": "GraphQL",
+"title_ar": "GraphQL",
+"for": "Developers building or consuming GraphQL APIs.",
+"for_ar": "للمطوّرين الذين يبنون واجهات GraphQL أو يستخدمونها.",
+"stages": [
+{
+"title": "Concepts",
+"title_ar": "المفاهيم",
+"why": "Queries, schemas and types.",
+"why_ar": "الاستعلامات والمخططات والأنواع.",
+"courses": [
+"graphql-learn-graphql"
+]
+},
+{
+"title": "Build",
+"title_ar": "البناء",
+"why": "A full-stack tutorial.",
+"why_ar": "درس Full-stack.",
+"courses": [
+"how-how-to-graphql",
+"apollo-apollo-documentation"
+]
+},
+{
+"title": "Specification",
+"title_ar": "المواصفة",
+"why": "How GraphQL is defined.",
+"why_ar": "كيف تُعرَّف GraphQL.",
+"courses": [
+"graphql-graphql-specification"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "system-design",
+"category": "cs",
+"title": "System design",
+"title_ar": "تصميم الأنظمة",
+"for": "Engineers preparing for senior roles or system design interviews.",
+"for_ar": "للمهندسين الذين يستعدون لأدوار متقدمة أو مقابلات تصميم الأنظمة.",
+"stages": [
+{
+"title": "Building blocks",
+"title_ar": "المكوّنات الأساسية",
+"why": "Caches, queues, load balancers and databases.",
+"why_ar": "التخزين المؤقت والطوابير وموازنات الحمل وقواعد البيانات.",
+"courses": [
+"donne-system-design-primer"
+]
+},
+{
+"title": "Distributed systems",
+"title_ar": "الأنظمة الموزعة",
+"why": "Consistency, replication and consensus.",
+"why_ar": "الاتساق والنسخ والإجماع.",
+"courses": [
+"martin-distributed-systems-lecture-notes",
+"mit-mit-6-5840-distributed-systems"
+]
+},
+{
+"title": "Real-world practice",
+"title_ar": "الممارسة الواقعية",
+"why": "How large companies design and run systems.",
+"why_ar": "كيف تصمم الشركات الكبيرة أنظمتها وتشغّلها.",
+"courses": [
+"aws-aws-well-architected-framework",
+"sre-books"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "api-design",
+"category": "cs",
+"title": "API design",
+"title_ar": "تصميم الواجهات البرمجية",
+"for": "Developers designing APIs other people will build on.",
+"for_ar": "للمطوّرين الذين يصممون واجهات سيبني عليها الآخرون.",
+"stages": [
+{
+"title": "HTTP",
+"title_ar": "HTTP",
+"why": "The protocol most APIs run on.",
+"why_ar": "البروتوكول الذي تعمل عليه معظم الواجهات.",
+"courses": [
+"mdn-http"
+]
+},
+{
+"title": "Design guidelines",
+"title_ar": "إرشادات التصميم",
+"why": "How Google and Microsoft design APIs.",
+"why_ar": "كيف تصمم Google وMicrosoft واجهاتهما.",
+"courses": [
+"google-api-design-guide",
+"microsoft-microsoft-rest-api-guidelines"
+]
+},
+{
+"title": "Describe and secure",
+"title_ar": "التوصيف والتأمين",
+"why": "OpenAPI and the main API security risks.",
+"why_ar": "OpenAPI وأهم مخاطر أمان الواجهات.",
+"courses": [
+"openapi-openapi-specification",
+"owasp-owasp-api-security-top-10"
+]
+},
+{
+"title": "Other styles",
+"title_ar": "أنماط أخرى",
+"why": "GraphQL and gRPC.",
+"why_ar": "GraphQL وgRPC.",
+"courses": [
+"graphql-learn-graphql",
+"grpc-grpc-introduction"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "software-design",
+"category": "cs",
+"title": "Software design and architecture",
+"title_ar": "تصميم البرمجيات وبنيتها",
+"for": "Developers who want code that's easy to change.",
+"for_ar": "للمطوّرين الذين يريدون كودًا سهل التغيير.",
+"stages": [
+{
+"title": "Design patterns",
+"title_ar": "أنماط التصميم",
+"why": "Common solutions, clearly explained.",
+"why_ar": "حلول شائعة بشرح واضح.",
+"courses": [
+"refactoring-guru-design-patterns"
+]
+},
+{
+"title": "Domain modelling",
+"title_ar": "نمذجة المجال",
+"why": "Model software around the business.",
+"why_ar": "صمّم البرمجيات حول طبيعة العمل.",
+"courses": []
+},
+{
+"title": "Architecture",
+"title_ar": "البنية المعمارية",
+"why": "Bigger decisions and how to record them.",
+"why_ar": "القرارات الأكبر وكيف توثّقها.",
+"courses": [
+"martin-software-architecture-guide",
+"adr-architectural-decision-records"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "design-system",
+"category": "design",
+"title": "Design systems",
+"title_ar": "أنظمة التصميم",
+"for": "Designers and frontend developers building shared component libraries.",
+"for_ar": "للمصممين ومطوّري الواجهات الذين يبنون مكتبات مكوّنات مشتركة.",
+"stages": [
+{
+"title": "Concepts",
+"title_ar": "المفاهيم",
+"why": "How design systems are structured.",
+"why_ar": "كيف تُبنى أنظمة التصميم.",
+"courses": [
+"brad-atomic-design"
+]
+},
+{
+"title": "Learn from good ones",
+"title_ar": "تعلّم من الأنظمة الجيدة",
+"why": "Two public systems with documented decisions.",
+"why_ar": "نظامان عامّان بقرارات موثّقة.",
+"courses": [
+"gov-uk-gov-uk-design-system",
+"google-material-design-3"
+]
+},
+{
+"title": "Build and ship",
+"title_ar": "البناء والإطلاق",
+"why": "Tokens, component docs and accessibility.",
+"why_ar": "الرموز وتوثيق المكوّنات وإمكانية الوصول.",
+"courses": [
+"w3c-design-tokens-community-group",
+"storybook-storybook-docs"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "prompt-engineering",
+"category": "data",
+"title": "Prompt engineering",
+"title_ar": "هندسة التعليمات",
+"for": "Anyone who wants dependable results from AI models.",
+"for_ar": "لكل من يريد نتائج موثوقة من نماذج الذكاء الاصطناعي.",
+"stages": [
+{
+"title": "Foundations",
+"title_ar": "الأساسيات",
+"why": "Techniques with examples.",
+"why_ar": "تقنيات مع أمثلة.",
+"courses": [
+"prompting-guide",
+"learn-learn-prompting"
+]
+},
+{
+"title": "From the model makers",
+"title_ar": "من صانعي النماذج",
+"why": "Official guides.",
+"why_ar": "الأدلة الرسمية.",
+"courses": [
+"anthropic-prompt-engineering-overview",
+"google-prompt-design-strategies"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Interactive notebooks.",
+"why_ar": "دفاتر تفاعلية.",
+"courses": [
+"anthropic-courses"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "ai-agents",
+"category": "data",
+"title": "AI agents",
+"title_ar": "وكلاء الذكاء الاصطناعي",
+"for": "Developers building systems where models plan and use tools.",
+"for_ar": "للمطوّرين الذين يبنون أنظمة تخطط فيها النماذج وتستخدم الأدوات.",
+"stages": [
+{
+"title": "Patterns",
+"title_ar": "الأنماط",
+"why": "When to use an agent, and the simplest designs that work.",
+"why_ar": "متى تستخدم وكيلًا، وأبسط التصاميم التي تنجح.",
+"courses": [
+"anthropic-building-effective-agents"
+]
+},
+{
+"title": "A full course",
+"title_ar": "كورس كامل",
+"why": "Build agents step by step.",
+"why_ar": "ابنِ الوكلاء خطوة بخطوة.",
+"courses": [
+"hf-agents"
+]
+},
+{
+"title": "Tools and frameworks",
+"title_ar": "الأدوات وأطر العمل",
+"why": "Connect agents to tools and data.",
+"why_ar": "اربط الوكلاء بالأدوات والبيانات.",
+"courses": [
+"model-model-context-protocol",
+"langchain-langgraph-documentation",
+"openai-openai-agents-sdk"
+]
+},
+{
+"title": "Evaluate",
+"title_ar": "التقييم",
+"why": "Know whether your agent actually works.",
+"why_ar": "اعرف إن كان وكيلك يعمل فعلًا.",
+"courses": [
+"anthropic-define-success-criteria-and-build-eval"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "python-data",
+"category": "data",
+"title": "Python for data analysis",
+"title_ar": "بايثون لتحليل البيانات",
+"for": "People who want to analyse data with Python instead of spreadsheets.",
+"for_ar": "لمن يريد تحليل البيانات ببايثون بدل الجداول.",
+"stages": [
+{
+"title": "Python and pandas",
+"title_ar": "بايثون وpandas",
+"why": "Short hands-on courses.",
+"why_ar": "كورسات عملية قصيرة.",
+"courses": [
+"kg-python",
+"kg-pandas"
+]
+},
+{
+"title": "Analysis",
+"title_ar": "التحليل",
+"why": "A full book and the pandas guide.",
+"why_ar": "كتاب كامل ودليل pandas.",
+"courses": [
+"pyda",
+"pandas-pandas-user-guide"
+]
+},
+{
+"title": "Charts and notebooks",
+"title_ar": "الرسوم والدفاتر",
+"why": "Visualise results and share them.",
+"why_ar": "صوّر النتائج وشاركها.",
+"courses": [
+"matplotlib-matplotlib-tutorials",
+"seaborn-seaborn-tutorial",
+"project-jupyter-documentation"
+]
+},
+{
+"title": "Certify",
+"title_ar": "الشهادة",
+"why": "A free certification project.",
+"why_ar": "مشروع شهادة مجاني.",
+"courses": [
+"fcc-da"
+]
+}
+],
+"course_count": 8
+},
+{
+"id": "power-bi",
+"category": "data",
+"title": "Power BI",
+"title_ar": "Power BI",
+"for": "Analysts building business reports and dashboards.",
+"for_ar": "للمحللين الذين يبنون تقارير ولوحات أعمال.",
+"stages": [
+{
+"title": "Learn Power BI",
+"title_ar": "تعلّم Power BI",
+"why": "Microsoft's own training.",
+"why_ar": "تدريب Microsoft الرسمي.",
+"courses": [
+"mslearn-pbi",
+"microsoft-power-bi-documentation"
+]
+},
+{
+"title": "Prepare data",
+"title_ar": "تجهيز البيانات",
+"why": "Power Query and modelling.",
+"why_ar": "Power Query والنمذجة.",
+"courses": [
+"microsoft-power-query-m-reference",
+"microsoft-star-schema-guidance-for-power-bi"
+]
+},
+{
+"title": "DAX",
+"title_ar": "DAX",
+"why": "Calculations and measures.",
+"why_ar": "الحسابات والمقاييس.",
+"courses": [
+"microsoft-dax-reference"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "mongodb",
+"category": "data",
+"title": "MongoDB",
+"title_ar": "MongoDB",
+"for": "Developers using a document database.",
+"for_ar": "للمطوّرين الذين يستخدمون قاعدة بيانات مستندات.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "CRUD and the manual.",
+"why_ar": "العمليات الأساسية والدليل.",
+"courses": [
+"mongodb-mongodb-manual"
+]
+},
+{
+"title": "Model data",
+"title_ar": "نمذجة البيانات",
+"why": "Design documents for how you read them.",
+"why_ar": "صمّم المستندات بحسب طريقة قراءتها.",
+"courses": [
+"mongodb-data-modeling"
+]
+},
+{
+"title": "Query and scale",
+"title_ar": "الاستعلام والتوسّع",
+"why": "Aggregation and indexes.",
+"why_ar": "التجميع والفهارس.",
+"courses": [
+"mongodb-aggregation-operations",
+"mongodb-indexes"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "redis",
+"category": "data",
+"title": "Redis",
+"title_ar": "Redis",
+"for": "Developers using Redis for caching, queues and fast data.",
+"for_ar": "للمطوّرين الذين يستخدمون Redis للتخزين المؤقت والطوابير والبيانات السريعة.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "What Redis is and how to use it.",
+"why_ar": "ما هو Redis وكيف تستخدمه.",
+"courses": [
+"redis-redis-documentation"
+]
+},
+{
+"title": "Data types",
+"title_ar": "أنواع البيانات",
+"why": "Strings, hashes, lists, sets and streams.",
+"why_ar": "النصوص والجداول والقوائم والمجموعات والتدفقات.",
+"courses": [
+"redis-redis-data-types"
+]
+},
+{
+"title": "Operate it",
+"title_ar": "تشغيله",
+"why": "Persistence and durability.",
+"why_ar": "الاستمرارية والمتانة.",
+"courses": [
+"redis-redis-persistence"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "elasticsearch",
+"category": "data",
+"title": "Elasticsearch",
+"title_ar": "Elasticsearch",
+"for": "Developers building search.",
+"for_ar": "للمطوّرين الذين يبنون محركات بحث.",
+"stages": [
+{
+"title": "How search works",
+"title_ar": "كيف يعمل البحث",
+"why": "The theory behind search engines.",
+"why_ar": "النظرية وراء محركات البحث.",
+"courses": []
+},
+{
+"title": "Elasticsearch",
+"title_ar": "Elasticsearch",
+"why": "Indexing, mappings and queries.",
+"why_ar": "الفهرسة والتعيينات والاستعلامات.",
+"courses": [
+"elastic-elasticsearch-getting-started",
+"elastic-mapping",
+"elastic-query-dsl"
+]
+},
+{
+"title": "Open-source alternative",
+"title_ar": "البديل مفتوح المصدر",
+"why": "OpenSearch.",
+"why_ar": "OpenSearch.",
+"courses": [
+"opensearch-opensearch-documentation"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "linux",
+"category": "cloud",
+"title": "Linux",
+"title_ar": "لينكس",
+"for": "Anyone who works with servers or wants to be comfortable in a terminal.",
+"for_ar": "لكل من يعمل مع الخوادم أو يريد الارتياح في الطرفية.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "Files, permissions, processes.",
+"why_ar": "الملفات والصلاحيات والعمليات.",
+"courses": [
+"linuxjourney",
+"william-the-linux-command-line"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "A game played in the terminal.",
+"why_ar": "لعبة تُلعب في الطرفية.",
+"courses": [
+"bandit"
+]
+},
+{
+"title": "Everyday tools",
+"title_ar": "أدوات يومية",
+"why": "Shell, editors, scripting and Git.",
+"why_ar": "الطرفية والمحرّرات والسكربتات وGit.",
+"courses": [
+"missing"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "shell-bash",
+"category": "cloud",
+"title": "Shell and Bash",
+"title_ar": "Shell وBash",
+"for": "People who want to automate work in the terminal.",
+"for_ar": "لمن يريد أتمتة العمل في الطرفية.",
+"stages": [
+{
+"title": "The command line",
+"title_ar": "سطر الأوامر",
+"why": "Commands and pipes.",
+"why_ar": "الأوامر والأنابيب.",
+"courses": [
+"missing",
+"william-the-linux-command-line"
+]
+},
+{
+"title": "Bash scripting",
+"title_ar": "كتابة سكربتات Bash",
+"why": "Write scripts that don't break.",
+"why_ar": "اكتب سكربتات لا تنكسر.",
+"courses": [
+"greg-s-bashguide",
+"shellcheck-shellcheck"
+]
+},
+{
+"title": "Reference",
+"title_ar": "المرجع",
+"why": "The full manual.",
+"why_ar": "الدليل الكامل.",
+"courses": [
+"gnu-bash-reference-manual"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "git-github",
+"category": "cloud",
+"title": "Git and GitHub",
+"title_ar": "Git وGitHub",
+"for": "Everyone who writes code, alone or in a team.",
+"for_ar": "لكل من يكتب كودًا، وحده أو ضمن فريق.",
+"stages": [
+{
+"title": "Git basics",
+"title_ar": "أساسيات Git",
+"why": "Commits, branches and merging, visually.",
+"why_ar": "الـ commits والفروع والدمج بشكل مرئي.",
+"courses": [
+"peter-learn-git-branching",
+"progit"
+]
+},
+{
+"title": "GitHub",
+"title_ar": "GitHub",
+"why": "Collaborate with pull requests.",
+"why_ar": "تعاون عبر طلبات الدمج.",
+"courses": [
+"github-github-skills",
+"github-get-started-with-github"
+]
+},
+{
+"title": "Automate and recover",
+"title_ar": "الأتمتة والتعافي",
+"why": "GitHub Actions, and fixing mistakes.",
+"why_ar": "GitHub Actions وإصلاح الأخطاء.",
+"courses": [
+"gha-quick",
+"katie-oh-shit-git"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "docker",
+"category": "cloud",
+"title": "Docker",
+"title_ar": "Docker",
+"for": "Developers who want to package and run software anywhere.",
+"for_ar": "للمطوّرين الذين يريدون تغليف البرمجيات وتشغيلها في أي مكان.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "Images, containers and Dockerfiles.",
+"why_ar": "الصور والحاويات وملفات Dockerfile.",
+"courses": [
+"docker-start",
+"dwd"
+]
+},
+{
+"title": "Multi-container apps",
+"title_ar": "تطبيقات متعددة الحاويات",
+"why": "Compose.",
+"why_ar": "Compose.",
+"courses": [
+"docker-docker-compose"
+]
+},
+{
+"title": "Production",
+"title_ar": "الإنتاج",
+"why": "Smaller, safer images.",
+"why_ar": "صور أصغر وأكثر أمانًا.",
+"courses": [
+"docker-building-best-practices",
+"docker-docker-engine-security"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "kubernetes",
+"category": "cloud",
+"title": "Kubernetes",
+"title_ar": "Kubernetes",
+"for": "Engineers running containers in production.",
+"for_ar": "للمهندسين الذين يشغّلون الحاويات في الإنتاج.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "Pods, deployments and services.",
+"why_ar": "الـ Pods والنشر والخدمات.",
+"courses": [
+"k8s-basics",
+"kubernetes-kubernetes-concepts"
+]
+},
+{
+"title": "A full course",
+"title_ar": "كورس كامل",
+"why": "Free university course.",
+"why_ar": "كورس جامعي مجاني.",
+"courses": [
+"dwk"
+]
+},
+{
+"title": "Package and understand",
+"title_ar": "التغليف والفهم",
+"why": "Helm, and building a cluster by hand.",
+"why_ar": "Helm وبناء عنقود يدويًا.",
+"courses": [
+"helm-helm-documentation",
+"kelsey-kubernetes-the-hard-way"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "terraform",
+"category": "cloud",
+"title": "Terraform",
+"title_ar": "Terraform",
+"for": "Engineers who want infrastructure defined as code.",
+"for_ar": "للمهندسين الذين يريدون تعريف البنية التحتية ككود.",
+"stages": [
+{
+"title": "Tutorials",
+"title_ar": "الدروس",
+"why": "Official hands-on tutorials.",
+"why_ar": "الدروس العملية الرسمية.",
+"courses": [
+"tf-tut"
+]
+},
+{
+"title": "The language",
+"title_ar": "اللغة",
+"why": "Resources, modules and state.",
+"why_ar": "الموارد والوحدات والحالة.",
+"courses": [
+"hashicorp-terraform-language",
+"hashicorp-modules",
+"hashicorp-state"
+]
+},
+{
+"title": "Test and alternatives",
+"title_ar": "الاختبار والبدائل",
+"why": "Testing, and the open-source fork.",
+"why_ar": "الاختبار والنسخة مفتوحة المصدر.",
+"courses": [
+"hashicorp-terraform-tests",
+"opentofu-opentofu-documentation"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "aws",
+"category": "cloud",
+"title": "AWS",
+"title_ar": "AWS",
+"for": "Engineers building on Amazon Web Services.",
+"for_ar": "للمهندسين الذين يبنون على Amazon Web Services.",
+"stages": [
+{
+"title": "Start",
+"title_ar": "البداية",
+"why": "Getting-started guides.",
+"why_ar": "أدلة البداية.",
+"courses": [
+"aws-getting-started-resource-center"
+]
+},
+{
+"title": "Core services",
+"title_ar": "الخدمات الأساسية",
+"why": "Identity, compute, storage, networking, serverless.",
+"why_ar": "الهوية والحوسبة والتخزين والشبكات والخدمات دون خادم.",
+"courses": [
+"aws-iam-user-guide",
+"aws-amazon-ec2-concepts",
+"aws-amazon-s3-user-guide",
+"aws-amazon-vpc-user-guide",
+"aws-aws-lambda-developer-guide"
+]
+},
+{
+"title": "Design well",
+"title_ar": "التصميم الجيد",
+"why": "AWS's own architecture principles.",
+"why_ar": "مبادئ البنية من AWS نفسها.",
+"courses": [
+"aws-aws-well-architected-framework"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "cloud-computing",
+"category": "cloud",
+"title": "Cloud computing",
+"title_ar": "الحوسبة السحابية",
+"for": "Anyone who wants to understand the cloud before picking a provider.",
+"for_ar": "لكل من يريد فهم السحابة قبل اختيار مزوّد.",
+"stages": [
+{
+"title": "What the cloud is",
+"title_ar": "ما هي السحابة",
+"why": "Definitions and service models.",
+"why_ar": "التعريفات ونماذج الخدمة.",
+"courses": [
+"nist-the-nist-definition-of-cloud-computing-sp-8"
+]
+},
+{
+"title": "Try a provider",
+"title_ar": "جرّب مزوّدًا",
+"why": "Free fundamentals and getting-started guides.",
+"why_ar": "أساسيات مجانية وأدلة بداية.",
+"courses": [
+"az-fund",
+"aws-getting-started-resource-center",
+"google-google-cloud-overview"
+]
+},
+{
+"title": "Cloud-native skills",
+"title_ar": "مهارات السحابة الأصلية",
+"why": "Containers and infrastructure as code.",
+"why_ar": "الحاويات والبنية التحتية ككود.",
+"courses": [
+"docker-start",
+"k8s-basics",
+"tf-tut"
+]
+}
+],
+"course_count": 7
+},
+{
+"id": "cloudflare",
+"category": "cloud",
+"title": "Cloudflare",
+"title_ar": "Cloudflare",
+"for": "Developers building and protecting sites on Cloudflare's network.",
+"for_ar": "للمطوّرين الذين يبنون المواقع ويحمونها على شبكة Cloudflare.",
+"stages": [
+{
+"title": "How the internet works",
+"title_ar": "كيف يعمل الإنترنت",
+"why": "DNS, CDNs and security, explained.",
+"why_ar": "DNS وشبكات التوزيع والأمان بشرح مبسّط.",
+"courses": [
+"cloudflare-cloudflare-dns"
+]
+},
+{
+"title": "Build on the edge",
+"title_ar": "البناء عند الحافة",
+"why": "Workers, Pages and storage.",
+"why_ar": "Workers وPages والتخزين.",
+"courses": [
+"cloudflare-cloudflare-workers",
+"cloudflare-cloudflare-pages",
+"cloudflare-cloudflare-r2"
+]
+},
+{
+"title": "Protect",
+"title_ar": "الحماية",
+"why": "Web application firewall.",
+"why_ar": "جدار حماية تطبيقات الويب.",
+"courses": [
+"cloudflare-cloudflare-waf"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "dsa",
+"category": "cs",
+"title": "Data structures and algorithms",
+"title_ar": "هياكل البيانات والخوارزميات",
+"for": "Developers preparing for interviews or wanting faster code.",
+"for_ar": "للمطوّرين الذين يستعدون للمقابلات أو يريدون كودًا أسرع.",
+"stages": [
+{
+"title": "Learn them",
+"title_ar": "تعلّمها",
+"why": "A university course and visual explanations.",
+"why_ar": "كورس جامعي وشروح مرئية.",
+"courses": [
+"mit-6006",
+"visualgo-visualgo"
+]
+},
+{
+"title": "Books",
+"title_ar": "الكتب",
+"why": "Free textbooks.",
+"why_ar": "كتب مجانية.",
+"courses": [
+"ods",
+"erickson"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Problem sets and reference algorithms.",
+"why_ar": "مجموعات مسائل وخوارزميات مرجعية.",
+"courses": [
+"cses-cses-problem-set",
+"cp-algorithms-algorithms-for-competitive-program"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "coding-interviews",
+"category": "cs",
+"title": "Coding interview practice",
+"title_ar": "التحضير لمقابلات البرمجة",
+"for": "People preparing for technical interviews.",
+"for_ar": "لمن يستعد للمقابلات التقنية.",
+"stages": [
+{
+"title": "Plan",
+"title_ar": "الخطة",
+"why": "What interviews test and how to prepare.",
+"why_ar": "ماذا تختبر المقابلات وكيف تستعد.",
+"courses": []
+},
+{
+"title": "Patterns",
+"title_ar": "الأنماط",
+"why": "A structured list of problem patterns.",
+"why_ar": "قائمة منظّمة لأنماط المسائل.",
+"courses": [
+"neetcode-neetcode-roadmap"
+]
+},
+{
+"title": "Practise",
+"title_ar": "التمرين",
+"why": "Free problems and a free handbook.",
+"why_ar": "مسائل مجانية وكتاب مجاني.",
+"courses": [
+"cses-cses-problem-set",
+"antti-competitive-programmer-s-handbook"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "code-review",
+"category": "cs",
+"title": "Code review",
+"title_ar": "مراجعة الكود",
+"for": "Developers who want to give and get better reviews.",
+"for_ar": "للمطوّرين الذين يريدون تقديم مراجعات أفضل وتلقّيها.",
+"stages": [
+{
+"title": "How Google reviews code",
+"title_ar": "كيف تراجع Google الكود",
+"why": "For reviewers and for authors.",
+"why_ar": "للمراجعين وللكتّاب.",
+"courses": [
+"google-google-engineering-practices-the-reviewer",
+"google-google-engineering-practices-the-author-s"
+]
+},
+{
+"title": "Write useful comments",
+"title_ar": "اكتب تعليقات مفيدة",
+"why": "Clear, kind, actionable feedback.",
+"why_ar": "ملاحظات واضحة ولطيفة وقابلة للتنفيذ.",
+"courses": [
+"conventional-conventional-comments"
+]
+},
+{
+"title": "Review for security",
+"title_ar": "راجع من أجل الأمان",
+"why": "Spot vulnerabilities in review.",
+"why_ar": "اكتشف الثغرات أثناء المراجعة.",
+"courses": [
+"owasp-code-review-guide"
+]
+}
+],
+"course_count": 4
+},
+{
+"id": "wordpress",
+"category": "web",
+"title": "WordPress",
+"title_ar": "WordPress",
+"for": "People building sites, themes and plugins with WordPress.",
+"for_ar": "لمن يبني مواقع وقوالب وإضافات بـ WordPress.",
+"stages": [
+{
+"title": "Use WordPress",
+"title_ar": "استخدم WordPress",
+"why": "Official free courses.",
+"why_ar": "كورسات رسمية مجانية.",
+"courses": [
+"wordpress-org-learn-wordpress"
+]
+},
+{
+"title": "Develop",
+"title_ar": "طوّر",
+"why": "Themes, plugins and blocks.",
+"why_ar": "القوالب والإضافات والكتل.",
+"courses": [
+"wordpress-theme-handbook",
+"wordpress-plugin-handbook",
+"wordpress-block-editor-handbook"
+]
+},
+{
+"title": "Secure",
+"title_ar": "أمّن",
+"why": "Harden a WordPress site.",
+"why_ar": "حصّن موقع WordPress.",
+"courses": [
+"wordpress-hardening-wordpress"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "seo",
+"category": "design",
+"title": "SEO",
+"title_ar": "تحسين محركات البحث",
+"for": "People who want their sites found in search.",
+"for_ar": "لمن يريد أن تظهر مواقعه في نتائج البحث.",
+"stages": [
+{
+"title": "Basics",
+"title_ar": "الأساسيات",
+"why": "Google's own starter guide.",
+"why_ar": "دليل البداية من Google نفسها.",
+"courses": [
+"google-seo-starter-guide",
+"moz-beginner-s-guide-to-seo"
+]
+},
+{
+"title": "Technical SEO",
+"title_ar": "تحسين تقني",
+"why": "Structured data and page experience.",
+"why_ar": "البيانات المنظّمة وتجربة الصفحة.",
+"courses": [
+"google-introduction-to-structured-data",
+"web-dev-web-vitals"
+]
+},
+{
+"title": "Measure",
+"title_ar": "القياس",
+"why": "Search Console.",
+"why_ar": "Search Console.",
+"courses": [
+"google-search-console-help"
+]
+}
+],
+"course_count": 5
+},
+{
+"id": "claude-code",
+"category": "tools",
+"title": "Claude Code",
+"title_ar": "Claude Code",
+"for": "Developers using Claude Code to write and change code.",
+"for_ar": "للمطوّرين الذين يستخدمون Claude Code لكتابة الكود وتعديله.",
+"stages": [
+{
+"title": "Get started",
+"title_ar": "ابدأ",
+"why": "What it is and your first session.",
+"why_ar": "ما هو وأول جلسة لك.",
+"courses": [
+"anthropic-claude-code-overview",
+"anthropic-claude-code-quickstart"
+]
+},
+{
+"title": "Work well with it",
+"title_ar": "اعمل معه بفعالية",
+"why": "Project memory and practices from the team that builds it.",
+"why_ar": "ذاكرة المشروع وممارسات الفريق الذي بناه.",
+"courses": [
+"anthropic-claude-code-best-practices",
+"anthropic-manage-claude-s-memory"
+]
+},
+{
+"title": "Extend it",
+"title_ar": "وسّعه",
+"why": "Hooks and MCP tools.",
+"why_ar": "الـ Hooks وأدوات MCP.",
+"courses": [
+"anthropic-hooks",
+"model-model-context-protocol"
+]
+}
+],
+"course_count": 6
+},
+{
+"id": "codex",
+"category": "tools",
+"title": "OpenAI Codex",
+"title_ar": "OpenAI Codex",
+"for": "Developers using OpenAI's coding agent.",
+"for_ar": "للمطوّرين الذين يستخدمون وكيل البرمجة من OpenAI.",
+"stages": [
+{
+"title": "Get started",
+"title_ar": "ابدأ",
+"why": "Official docs and the open-source CLI.",
+"why_ar": "التوثيق الرسمي وأداة سطر الأوامر مفتوحة المصدر.",
+"courses": [
+"openai-codex-documentation",
+"openai-codex-cli"
+]
+},
+{
+"title": "Give it context",
+"title_ar": "أعطه السياق",
+"why": "Project instructions agents can read.",
+"why_ar": "تعليمات المشروع التي يقرؤها الوكلاء.",
+"courses": [
+"agents-md-agents-md"
+]
+}
+],
+"course_count": 3
+},
+{
+"id": "vibe-coding",
+"category": "tools",
+"title": "Building with AI assistants",
+"title_ar": "البناء بمساعدة الذكاء الاصطناعي",
+"for": "People building apps by working with AI coding tools.",
+"for_ar": "لمن يبني تطبيقات بالعمل مع أدوات البرمجة بالذكاء الاصطناعي.",
+"stages": [
+{
+"title": "Enough code to steer",
+"title_ar": "ما يكفي من الكود للتوجيه",
+"why": "Learn to read what the AI writes.",
+"why_ar": "تعلّم قراءة ما يكتبه الذكاء الاصطناعي.",
+"courses": [
+"cs50x",
+"fcc-rwd"
+]
+},
+{
+"title": "Ask well",
+"title_ar": "اسأل جيدًا",
+"why": "Prompting and the tools themselves.",
+"why_ar": "كتابة التعليمات والأدوات نفسها.",
+"courses": [
+"prompting-guide",
+"anthropic-claude-code-overview"
+]
+},
+{
+"title": "Stay safe",
+"title_ar": "ابقَ آمنًا",
+"why": "Version control and security basics.",
+"why_ar": "التحكم بالإصدارات وأساسيات الأمان.",
+"courses": [
+"progit",
+"owasp-top10"
+]
+},
+{
+"title": "Put it online",
+"title_ar": "انشره على الإنترنت",
+"why": "Free hosting for what you build.",
+"why_ar": "استضافة مجانية لما تبنيه.",
+"courses": [
+"github-configuring-a-publishing-source-for-githu",
+"cloudflare-cloudflare-pages"
+]
+}
+],
+"course_count": 8
+},
+{
+"id": "openclaw",
+"category": "tools",
+"title": "OpenClaw",
+"title_ar": "OpenClaw",
+"for": "People who want to run their own AI agent with OpenClaw, safely.",
+"for_ar": "لمن يريد تشغيل وكيل ذكاء اصطناعي خاص به عبر OpenClaw بأمان.",
+"stages": [
+{
+"title": "Install and set up",
+"title_ar": "التثبيت والإعداد",
+"why": "The official docs and install guide.",
+"why_ar": "التوثيق الرسمي ودليل التثبيت.",
+"courses": [
+"openclaw-openclaw-documentation",
+"openclaw-install-openclaw"
+]
+},
+{
+"title": "How agents work",
+"title_ar": "كيف يعمل الوكلاء",
+"why": "Tools, memory and when agents go wrong.",
+"why_ar": "الأدوات والذاكرة ومتى يخطئ الوكلاء.",
+"courses": [
+"anthropic-building-effective-agents",
+"model-model-context-protocol"
+]
+},
+{
+"title": "Run it safely",
+"title_ar": "شغّله بأمان",
+"why": "An agent with tool access can do real damage. Know the risks.",
+"why_ar": "الوكيل الذي يملك صلاحية الأدوات قد يسبب ضررًا حقيقيًا. اعرف المخاطر.",
+"courses": [
+"openclaw-openclaw-source-code"
+]
+}
+],
+"course_count": 5
+}
+],
+"hidden": [
+{
+"id": "w3c-evaluating-web-accessibility",
+"title": "Evaluating web accessibility",
+"url": "https://www.w3.org/WAI/test-evaluate/",
+"reason": "blocked"
+},
+{
+"id": "w3c-accessibility-fundamentals",
+"title": "Accessibility fundamentals",
+"url": "https://www.w3.org/WAI/fundamentals/",
+"reason": "blocked"
+},
+{
+"id": "dvc-dvc-documentation",
+"title": "DVC documentation",
+"url": "https://dvc.org/doc",
+"reason": "blocked"
+},
+{
+"id": "cloudflare-cloudflare-learning-center",
+"title": "Cloudflare Learning Center",
+"url": "https://www.cloudflare.com/learning/",
+"reason": "blocked"
+},
+{
+"id": "owasp-owasp-top-10-for-llm-applications",
+"title": "OWASP Top 10 for LLM applications",
+"url": "https://genai.owasp.org/llm-top-10/",
+"reason": "blocked"
+},
+{
+"id": "hugging-quantization-overview",
+"title": "Quantization overview",
+"url": "https://huggingface.co/docs/transformers/main/en/quantization/overview",
+"reason": "blocked"
+},
+{
+"id": "nvidia-cuda-c-programming-guide",
+"title": "CUDA C++ Programming Guide",
+"url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+"reason": "broken"
+},
+{
+"id": "cppreference-com-cppreference",
+"title": "cppreference",
+"url": "https://en.cppreference.com/w/",
+"reason": "blocked"
+},
+{
+"id": "laravel-laravel-bootcamp",
+"title": "Laravel Bootcamp",
+"url": "https://bootcamp.laravel.com/",
+"reason": "broken"
+},
+{
+"id": "cloudflare-what-is-a-cdn",
+"title": "What is a CDN?",
+"url": "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/",
+"reason": "blocked"
+},
+{
+"id": "eric-domain-driven-design-reference",
+"title": "Domain-Driven Design Reference",
+"url": "https://www.domainlanguage.com/ddd/reference/",
+"reason": "blocked"
+},
+{
+"id": "w3c-wcag-overview",
+"title": "WCAG overview",
+"url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+"reason": "blocked"
+},
+{
+"id": "stanford-introduction-to-information-retrieval",
+"title": "Introduction to Information Retrieval",
+"url": "https://nlp.stanford.edu/IR-book/",
+"reason": "error"
+},
+{
+"id": "cloudflare-what-is-the-cloud",
+"title": "What is the cloud?",
+"url": "https://www.cloudflare.com/learning/cloud/what-is-the-cloud/",
+"reason": "blocked"
+},
+{
+"id": "yangshun-tech-interview-handbook",
+"title": "Tech Interview Handbook",
+"url": "https://www.techinterviewhandbook.org/",
+"reason": "blocked"
+}
+]
 }
