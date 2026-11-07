@@ -23,7 +23,7 @@
 "sql"
 ]
 },
-"built_at": "2026-11-07T12:38:19Z",
+"built_at": "2026-11-07T12:41:09Z",
 "verified_on": "2026-11-05",
 "providers": {
 "Harvard CS50": {
@@ -6353,6 +6353,21 @@
 "cost": "open"
 },
 {
+"id": "offsec-metasploit-unleashed",
+"title": "Metasploit documentation",
+"provider": "Rapid7",
+"url": "https://docs.metasploit.com/",
+"format": "Docs",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:40:06Z"
+},
+"cost": "open"
+},
+{
 "id": "aws-security-pillar-aws-well-architected",
 "title": "Security pillar: AWS Well-Architected",
 "provider": "AWS",
@@ -8103,6 +8118,7 @@
 "courses": [
 "portswigger",
 "owasp-owasp-web-security-testing-guide",
+"offsec-metasploit-unleashed",
 "bandit"
 ],
 "next": [
@@ -17312,12 +17328,5 @@
 "course_count": 12
 }
 ],
-"hidden": [
-{
-"id": "offsec-metasploit-unleashed",
-"title": "Metasploit documentation",
-"url": "https://docs.metasploit.com/",
-"reason": "not checked"
-}
-]
+"hidden": []
 }
