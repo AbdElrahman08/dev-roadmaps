@@ -4113,6 +4113,514 @@
    "level": "Intermediate",
    "note": "",
    "provider_evidence": null
+  },
+  {
+   "id": "harvard-cs50-s-computer-science-for-business-pro",
+   "title": "CS50's Computer Science for Business Professionals",
+   "provider": "Harvard CS50",
+   "url": "https://cs50.harvard.edu/business/",
+   "format": "Video course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://cs50.harvard.edu/x/",
+    "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "harvard-cs50-s-introduction-to-artificial-intell",
+   "title": "CS50's Introduction to Artificial Intelligence with Python",
+   "provider": "Harvard CS50",
+   "url": "https://cs50.harvard.edu/ai/",
+   "format": "Video course + projects",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": {
+    "url": "https://cs50.harvard.edu/x/",
+    "claim": "\"you are welcome to “take” this course for free via this OpenCourseWare\"",
+    "tier": "provider-free"
+   }
+  },
+  {
+   "id": "codecrafters-build-your-own-x",
+   "title": "Build your own X",
+   "provider": "CodeCrafters",
+   "url": "https://github.com/codecrafters-io/build-your-own-x",
+   "format": "Project ideas",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "florin-app-ideas",
+   "title": "App Ideas",
+   "provider": "Florin Pop",
+   "url": "https://github.com/florinpop17/app-ideas",
+   "format": "Project ideas",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "first-first-contributions",
+   "title": "First Contributions",
+   "provider": "First Contributions",
+   "url": "https://github.com/firstcontributions/first-contributions",
+   "format": "Tutorial",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "github-how-to-contribute-to-open-source",
+   "title": "How to contribute to open source",
+   "provider": "GitHub",
+   "url": "https://opensource.guide/how-to-contribute/",
+   "format": "Guide",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "john-coding-interview-university",
+   "title": "Coding Interview University",
+   "provider": "John Washam",
+   "url": "https://github.com/jwasham/coding-interview-university",
+   "format": "Study plan",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "kaggle-kaggle-competitions",
+   "title": "Kaggle competitions",
+   "provider": "Kaggle",
+   "url": "https://www.kaggle.com/competitions",
+   "format": "Practice",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "chip-machine-learning-interviews-book",
+   "title": "Machine Learning Interviews Book",
+   "provider": "Chip Huyen",
+   "url": "https://huyenchip.com/ml-interviews-book/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "nielsen-ux-design-portfolios",
+   "title": "UX design portfolios",
+   "provider": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/ux-design-portfolios/",
+   "format": "Article",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "ctftime-ctftime-capture-the-flag-events",
+   "title": "CTFtime: capture-the-flag events",
+   "provider": "CTFtime",
+   "url": "https://ctftime.org/",
+   "format": "Practice",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "security-security-onion-documentation",
+   "title": "Security Onion documentation",
+   "provider": "Security Onion Solutions",
+   "url": "https://docs.securityonion.net/",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "sigmahq-sigma-detection-rules",
+   "title": "Sigma detection rules",
+   "provider": "SigmaHQ",
+   "url": "https://github.com/SigmaHQ/sigma",
+   "format": "Reference",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "nist-computer-security-incident-handling-guide-s",
+   "title": "Computer Security Incident Handling Guide (SP 800-61)",
+   "provider": "NIST",
+   "url": "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+   "format": "Guide",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "owasp-owasp-web-security-testing-guide",
+   "title": "OWASP Web Security Testing Guide",
+   "provider": "OWASP",
+   "url": "https://owasp.org/www-project-web-security-testing-guide/",
+   "format": "Guide",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "offsec-metasploit-unleashed",
+   "title": "Metasploit Unleashed",
+   "provider": "OffSec",
+   "url": "https://www.offsec.com/metasploit-unleashed/",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "aws-security-pillar-aws-well-architected",
+   "title": "Security pillar: AWS Well-Architected",
+   "provider": "AWS",
+   "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+   "format": "Guide",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "center-cis-benchmarks",
+   "title": "CIS Benchmarks",
+   "provider": "Center for Internet Security",
+   "url": "https://www.cisecurity.org/cis-benchmarks",
+   "format": "Reference",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "iso-iso-iec-27001-overview",
+   "title": "ISO/IEC 27001 overview",
+   "provider": "ISO",
+   "url": "https://www.iso.org/standard/27001",
+   "format": "Standard",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "center-cis-critical-security-controls",
+   "title": "CIS Critical Security Controls",
+   "provider": "Center for Internet Security",
+   "url": "https://www.cisecurity.org/controls",
+   "format": "Framework",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "pinecone-retrieval-augmented-generation",
+   "title": "Retrieval-Augmented Generation",
+   "provider": "Pinecone Learning Center",
+   "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+   "format": "Guide",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "sbert-sentence-transformers-documentation",
+   "title": "Sentence Transformers documentation",
+   "provider": "SBERT",
+   "url": "https://www.sbert.net/",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "anthropic-contextual-retrieval",
+   "title": "Contextual Retrieval",
+   "provider": "Anthropic",
+   "url": "https://www.anthropic.com/news/contextual-retrieval",
+   "format": "Article",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "hugging-fine-tuning-with-the-trainer-api",
+   "title": "Fine-tuning with the Trainer API",
+   "provider": "Hugging Face LLM Course",
+   "url": "https://huggingface.co/learn/llm-course/chapter3/1",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "hugging-peft-documentation",
+   "title": "PEFT documentation",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/docs/peft/index",
+   "format": "Docs",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "stanford-cs231n-deep-learning-for-computer-visio",
+   "title": "CS231n: Deep Learning for Computer Vision",
+   "provider": "Stanford University",
+   "url": "https://cs231n.github.io/",
+   "format": "Lecture notes",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "hugging-computer-vision-course",
+   "title": "Computer Vision Course",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome/welcome",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "stanford-cs224n-nlp-with-deep-learning",
+   "title": "CS224N: NLP with Deep Learning",
+   "provider": "Stanford University",
+   "url": "https://web.stanford.edu/class/cs224n/",
+   "format": "Lectures",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "openai-spinning-up-in-deep-rl",
+   "title": "Spinning Up in Deep RL",
+   "provider": "OpenAI",
+   "url": "https://spinningup.openai.com/en/latest/",
+   "format": "Course",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "hugging-deep-rl-course",
+   "title": "Deep RL Course",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "scott-causal-inference-the-mixtape",
+   "title": "Causal Inference: The Mixtape",
+   "provider": "Scott Cunningham",
+   "url": "https://mixtape.scunning.com/",
+   "format": "Book",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "matheus-causal-inference-for-the-brave-and-true",
+   "title": "Causal Inference for the Brave and True",
+   "provider": "Matheus Facure",
+   "url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "rob-forecasting-principles-and-practice",
+   "title": "Forecasting: Principles and Practice",
+   "provider": "Rob J Hyndman, George Athanasopoulos",
+   "url": "https://otexts.com/fpp3/",
+   "format": "Book",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "prometheus-prometheus-overview",
+   "title": "Prometheus: overview",
+   "provider": "Prometheus",
+   "url": "https://prometheus.io/docs/introduction/overview/",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "opentelemetry-opentelemetry-documentation",
+   "title": "OpenTelemetry documentation",
+   "provider": "OpenTelemetry",
+   "url": "https://opentelemetry.io/docs/",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "cncf-platforms-white-paper",
+   "title": "Platforms white paper",
+   "provider": "CNCF TAG App Delivery",
+   "url": "https://tag-app-delivery.cncf.io/whitepapers/platforms/",
+   "format": "Guide",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "argo-argo-cd-documentation",
+   "title": "Argo CD documentation",
+   "provider": "Argo Project",
+   "url": "https://argo-cd.readthedocs.io/en/stable/",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "fastapi-fastapi-tutorial",
+   "title": "FastAPI tutorial",
+   "provider": "FastAPI",
+   "url": "https://fastapi.tiangolo.com/tutorial/",
+   "format": "Tutorial",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "web-dev-learn-performance",
+   "title": "Learn Performance",
+   "provider": "web.dev (Google)",
+   "url": "https://web.dev/learn/performance",
+   "format": "Course",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "apache-apache-flink-documentation",
+   "title": "Apache Flink documentation",
+   "provider": "Apache Flink",
+   "url": "https://nightlies.apache.org/flink/flink-docs-stable/",
+   "format": "Docs",
+   "level": "Advanced",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "dbt-dbt-documentation",
+   "title": "dbt documentation",
+   "provider": "dbt Labs",
+   "url": "https://docs.getdbt.com/docs/introduction",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "google-bigquery-documentation",
+   "title": "BigQuery documentation",
+   "provider": "Google Cloud",
+   "url": "https://cloud.google.com/bigquery/docs",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "google-google-cloud-architecture-center",
+   "title": "Google Cloud Architecture Center",
+   "provider": "Google Cloud",
+   "url": "https://cloud.google.com/architecture",
+   "format": "Guide",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "godot-your-first-2d-game",
+   "title": "Your first 2D game",
+   "provider": "Godot docs",
+   "url": "https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html",
+   "format": "Tutorial",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "unity-unity-learn",
+   "title": "Unity Learn",
+   "provider": "Unity",
+   "url": "https://learn.unity.com/",
+   "format": "Course",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "unity-unity-manual",
+   "title": "Unity Manual",
+   "provider": "Unity",
+   "url": "https://docs.unity3d.com/Manual/index.html",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "epic-unreal-engine-documentation",
+   "title": "Unreal Engine documentation",
+   "provider": "Epic Games",
+   "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine",
+   "format": "Docs",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "nielsen-usability-testing-101",
+   "title": "Usability testing 101",
+   "provider": "Nielsen Norman Group",
+   "url": "https://www.nngroup.com/articles/usability-testing-101/",
+   "format": "Article",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "refactoring-refactoring-ui-tips",
+   "title": "Refactoring UI tips",
+   "provider": "Refactoring UI",
+   "url": "https://www.refactoringui.com/",
+   "format": "Articles",
+   "level": "Intermediate",
+   "note": "",
+   "provider_evidence": null
+  },
+  {
+   "id": "gov-uk-content-design",
+   "title": "Content design",
+   "provider": "GOV.UK Service Manual",
+   "url": "https://www.gov.uk/guidance/content-design/writing-for-gov-uk",
+   "format": "Guide",
+   "level": "Beginner",
+   "note": "",
+   "provider_evidence": null
   }
  ]
 }

@@ -1,0 +1,2672 @@
+{
+ "foundations": {
+  "what": "Programming is telling a computer exactly what to do. This path gets you from zero to writing real programs and using the tools every developer uses.",
+  "what_ar": "البرمجة هي أن تخبر الحاسوب بما يفعله بالضبط. هذا المسار ينقلك من الصفر إلى كتابة برامج حقيقية واستخدام أدوات كل مطوّر.",
+  "skills": [
+   "Problem solving",
+   "Python",
+   "Data types and control flow",
+   "Debugging",
+   "Command line",
+   "Git"
+  ],
+  "skills_ar": [
+   "حل المشكلات",
+   "بايثون",
+   "أنواع البيانات والتحكم في التدفق",
+   "تصحيح الأخطاء",
+   "سطر الأوامر",
+   "Git"
+  ],
+  "roles": [
+   "Junior developer (after a specialisation)",
+   "Technical support",
+   "Automation assistant"
+  ],
+  "roles_ar": [
+   "مطوّر مبتدئ (بعد التخصص)",
+   "دعم فني",
+   "مساعد أتمتة"
+  ],
+  "outcome": "You can write, debug and share small programs, and you're ready to pick any other path.",
+  "outcome_ar": "تستطيع كتابة برامج صغيرة وتصحيحها ومشاركتها، وأنت جاهز لاختيار أي مسار آخر."
+ },
+ "frontend": {
+  "what": "Frontend developers build the part of websites and apps that people see and interact with in the browser.",
+  "what_ar": "مطوّر الواجهات الأمامية يبني الجزء الذي يراه الناس ويتفاعلون معه في المتصفح من المواقع والتطبيقات.",
+  "skills": [
+   "HTML and semantic markup",
+   "CSS layout and responsive design",
+   "JavaScript",
+   "React",
+   "Accessibility",
+   "TypeScript"
+  ],
+  "skills_ar": [
+   "HTML والترميز الدلالي",
+   "تخطيط CSS والتصميم المتجاوب",
+   "JavaScript",
+   "React",
+   "إمكانية الوصول",
+   "TypeScript"
+  ],
+  "roles": [
+   "Frontend developer",
+   "UI engineer",
+   "Web developer"
+  ],
+  "roles_ar": [
+   "مطوّر واجهات أمامية",
+   "مهندس واجهات",
+   "مطوّر ويب"
+  ],
+  "outcome": "You can build, test and ship accessible web apps with React and have projects to show.",
+  "outcome_ar": "تستطيع بناء تطبيقات ويب يسهل الوصول إليها باستخدام React واختبارها وإطلاقها، ولديك مشاريع تعرضها."
+ },
+ "backend": {
+  "what": "Backend developers build the servers, APIs and databases that power apps behind the scenes.",
+  "what_ar": "مطوّر الباك إند يبني الخوادم وواجهات API وقواعد البيانات التي تشغّل التطبيقات من الخلف.",
+  "skills": [
+   "SQL and database design",
+   "HTTP and REST APIs",
+   "A server language (Python or JavaScript)",
+   "Authentication and security",
+   "Testing",
+   "Deployment"
+  ],
+  "skills_ar": [
+   "SQL وتصميم قواعد البيانات",
+   "HTTP وواجهات REST",
+   "لغة خادم (بايثون أو JavaScript)",
+   "المصادقة والأمان",
+   "الاختبارات",
+   "النشر"
+  ],
+  "roles": [
+   "Backend developer",
+   "API developer",
+   "Software engineer"
+  ],
+  "roles_ar": [
+   "مطوّر باك إند",
+   "مطوّر واجهات برمجية",
+   "مهندس برمجيات"
+  ],
+  "outcome": "You can design a database, build a secure API on top of it and deploy it.",
+  "outcome_ar": "تستطيع تصميم قاعدة بيانات وبناء API آمن فوقها ونشره."
+ },
+ "full-stack": {
+  "what": "Full-stack developers build complete web applications: the interface, the server and the database.",
+  "what_ar": "مطوّر Full-stack يبني تطبيقات ويب كاملة: الواجهة والخادم وقاعدة البيانات.",
+  "skills": [
+   "HTML, CSS and JavaScript",
+   "React",
+   "Node.js",
+   "SQL databases",
+   "Testing",
+   "Deployment and CI"
+  ],
+  "skills_ar": [
+   "HTML وCSS وJavaScript",
+   "React",
+   "Node.js",
+   "قواعد بيانات SQL",
+   "الاختبارات",
+   "النشر وCI"
+  ],
+  "roles": [
+   "Full-stack developer",
+   "Web developer",
+   "Software engineer"
+  ],
+  "roles_ar": [
+   "مطوّر Full-stack",
+   "مطوّر ويب",
+   "مهندس برمجيات"
+  ],
+  "outcome": "You can take an idea to a deployed app on your own.",
+  "outcome_ar": "تستطيع تحويل فكرة إلى تطبيق منشور بنفسك."
+ },
+ "data-analyst": {
+  "what": "Data analysts turn raw data into answers that help a business decide what to do.",
+  "what_ar": "محلل البيانات يحوّل البيانات الخام إلى إجابات تساعد المؤسسة على اتخاذ القرار.",
+  "skills": [
+   "SQL",
+   "Python and pandas",
+   "Statistics",
+   "Data visualisation",
+   "Power BI or R",
+   "Communicating findings"
+  ],
+  "skills_ar": [
+   "SQL",
+   "بايثون وpandas",
+   "الإحصاء",
+   "تصوير البيانات",
+   "Power BI أو R",
+   "عرض النتائج"
+  ],
+  "roles": [
+   "Data analyst",
+   "Business analyst",
+   "Reporting analyst"
+  ],
+  "roles_ar": [
+   "محلل بيانات",
+   "محلل أعمال",
+   "محلل تقارير"
+  ],
+  "outcome": "You can query, clean, analyse and present data, with published analyses to show.",
+  "outcome_ar": "تستطيع الاستعلام عن البيانات وتنظيفها وتحليلها وعرضها، ولديك تحليلات منشورة تعرضها."
+ },
+ "machine-learning": {
+  "what": "Machine learning engineers build systems that learn patterns from data to make predictions.",
+  "what_ar": "مهندس التعلّم الآلي يبني أنظمة تتعلّم الأنماط من البيانات لتقوم بالتنبؤ.",
+  "skills": [
+   "Linear algebra and probability",
+   "Python",
+   "Classical ML",
+   "Model evaluation",
+   "Deep learning",
+   "Experiment design"
+  ],
+  "skills_ar": [
+   "الجبر الخطي والاحتمالات",
+   "بايثون",
+   "التعلّم الآلي الكلاسيكي",
+   "تقييم النماذج",
+   "التعلّم العميق",
+   "تصميم التجارب"
+  ],
+  "roles": [
+   "Machine learning engineer",
+   "Applied scientist",
+   "Research engineer"
+  ],
+  "roles_ar": [
+   "مهندس تعلّم آلي",
+   "عالم تطبيقي",
+   "مهندس أبحاث"
+  ],
+  "outcome": "You can train, evaluate and explain models, and understand the maths behind them.",
+  "outcome_ar": "تستطيع تدريب النماذج وتقييمها وشرحها، وتفهم الرياضيات وراءها."
+ },
+ "ai-engineer": {
+  "what": "AI engineers build products on top of large language models: chat, search, assistants and agents.",
+  "what_ar": "مهندس الذكاء الاصطناعي يبني منتجات فوق نماذج اللغة الكبيرة: المحادثة والبحث والمساعدات والوكلاء.",
+  "skills": [
+   "How LLMs work",
+   "Prompting and context",
+   "Tool use and agents",
+   "Retrieval (RAG)",
+   "Evaluation",
+   "Deployment"
+  ],
+  "skills_ar": [
+   "كيف تعمل نماذج اللغة",
+   "كتابة التعليمات والسياق",
+   "استخدام الأدوات والوكلاء",
+   "الاسترجاع (RAG)",
+   "التقييم",
+   "النشر"
+  ],
+  "roles": [
+   "AI engineer",
+   "LLM engineer",
+   "Applied AI developer"
+  ],
+  "roles_ar": [
+   "مهندس ذكاء اصطناعي",
+   "مهندس نماذج لغة",
+   "مطوّر ذكاء اصطناعي تطبيقي"
+  ],
+  "outcome": "You can build, evaluate and ship an LLM-powered feature.",
+  "outcome_ar": "تستطيع بناء ميزة تعتمد على نماذج اللغة وتقييمها وإطلاقها."
+ },
+ "devops": {
+  "what": "DevOps and cloud engineers build the systems that ship software and keep it running.",
+  "what_ar": "مهندس DevOps والسحابة يبني الأنظمة التي تطلق البرمجيات وتبقيها تعمل.",
+  "skills": [
+   "Linux",
+   "Networking",
+   "Docker",
+   "CI/CD",
+   "Kubernetes",
+   "Infrastructure as code",
+   "Monitoring"
+  ],
+  "skills_ar": [
+   "لينكس",
+   "الشبكات",
+   "Docker",
+   "CI/CD",
+   "Kubernetes",
+   "البنية التحتية ككود",
+   "المراقبة"
+  ],
+  "roles": [
+   "DevOps engineer",
+   "Cloud engineer",
+   "Site reliability engineer",
+   "Platform engineer"
+  ],
+  "roles_ar": [
+   "مهندس DevOps",
+   "مهندس سحابة",
+   "مهندس اعتمادية المواقع",
+   "مهندس منصات"
+  ],
+  "outcome": "You can containerise an app, automate its delivery and run it on a cluster.",
+  "outcome_ar": "تستطيع تغليف تطبيق في حاوية وأتمتة تسليمه وتشغيله على عنقود."
+ },
+ "cybersecurity": {
+  "what": "Security professionals protect systems and data, or test them with permission to find weaknesses first.",
+  "what_ar": "أخصائي الأمن يحمي الأنظمة والبيانات، أو يختبرها بإذن ليجد الثغرات أولًا.",
+  "skills": [
+   "Networking and Linux",
+   "Security fundamentals",
+   "Web security",
+   "Threat detection",
+   "Risk and frameworks",
+   "Ethical hacking"
+  ],
+  "skills_ar": [
+   "الشبكات ولينكس",
+   "أساسيات الأمن",
+   "أمن الويب",
+   "كشف التهديدات",
+   "المخاطر والأطر",
+   "الاختراق الأخلاقي"
+  ],
+  "roles": [
+   "SOC analyst",
+   "Penetration tester",
+   "Security engineer",
+   "GRC analyst"
+  ],
+  "roles_ar": [
+   "محلل مركز عمليات أمنية",
+   "مختبر اختراق",
+   "مهندس أمن",
+   "محلل حوكمة ومخاطر وامتثال"
+  ],
+  "outcome": "You understand how attacks work and how to defend against them, with CTF write-ups to show.",
+  "outcome_ar": "تفهم كيف تعمل الهجمات وكيف تتصدى لها، ولديك حلول مسابقات CTF تعرضها."
+ },
+ "devsecops": {
+  "what": "DevSecOps engineers build security into every step of building and shipping software.",
+  "what_ar": "مهندس DevSecOps يدمج الأمان في كل خطوة من بناء البرمجيات وإطلاقها.",
+  "skills": [
+   "Threat modelling",
+   "Secure CI/CD",
+   "Code and dependency scanning",
+   "Container security",
+   "Supply-chain security"
+  ],
+  "skills_ar": [
+   "تحليل التهديدات",
+   "CI/CD آمن",
+   "فحص الكود والمكتبات",
+   "أمن الحاويات",
+   "أمن سلسلة التوريد"
+  ],
+  "roles": [
+   "DevSecOps engineer",
+   "Application security engineer",
+   "Cloud security engineer"
+  ],
+  "roles_ar": [
+   "مهندس DevSecOps",
+   "مهندس أمن تطبيقات",
+   "مهندس أمن سحابة"
+  ],
+  "outcome": "You can secure a delivery pipeline from code to production.",
+  "outcome_ar": "تستطيع تأمين خط التسليم من الكود حتى الإنتاج."
+ },
+ "data-scientist": {
+  "what": "Data scientists find patterns in data and build models that predict or explain what happens.",
+  "what_ar": "عالم البيانات يكتشف الأنماط في البيانات ويبني نماذج تتنبأ بما يحدث أو تفسّره.",
+  "skills": [
+   "Statistics and experiments",
+   "Python data stack",
+   "Machine learning",
+   "Deep learning",
+   "Communicating results"
+  ],
+  "skills_ar": [
+   "الإحصاء والتجارب",
+   "أدوات بايثون للبيانات",
+   "التعلّم الآلي",
+   "التعلّم العميق",
+   "عرض النتائج"
+  ],
+  "roles": [
+   "Data scientist",
+   "ML scientist",
+   "Quantitative analyst"
+  ],
+  "roles_ar": [
+   "عالم بيانات",
+   "عالم تعلّم آلي",
+   "محلل كمّي"
+  ],
+  "outcome": "You can frame a question, model it and explain the answer with evidence.",
+  "outcome_ar": "تستطيع صياغة سؤال ونمذجته وشرح الإجابة بالأدلة."
+ },
+ "data-engineer": {
+  "what": "Data engineers build the pipelines and warehouses that move, store and prepare data at scale.",
+  "what_ar": "مهندس البيانات يبني خطوط البيانات والمستودعات التي تنقلها وتخزنها وتجهّزها على نطاق واسع.",
+  "skills": [
+   "Advanced SQL",
+   "Python",
+   "Data modelling",
+   "Batch and stream processing",
+   "Orchestration",
+   "Cloud warehouses"
+  ],
+  "skills_ar": [
+   "SQL متقدم",
+   "بايثون",
+   "نمذجة البيانات",
+   "المعالجة الدفعية والتدفقية",
+   "تنسيق المهام",
+   "مستودعات البيانات السحابية"
+  ],
+  "roles": [
+   "Data engineer",
+   "Analytics engineer",
+   "Big data engineer"
+  ],
+  "roles_ar": [
+   "مهندس بيانات",
+   "مهندس تحليلات",
+   "مهندس بيانات ضخمة"
+  ],
+  "outcome": "You can build a reliable pipeline from raw sources to a clean, modelled warehouse.",
+  "outcome_ar": "تستطيع بناء خط بيانات موثوق من المصادر الخام إلى مستودع منظّم."
+ },
+ "android": {
+  "what": "Android developers build apps for Android phones and tablets.",
+  "what_ar": "مطوّر أندرويد يبني تطبيقات لهواتف وأجهزة أندرويد اللوحية.",
+  "skills": [
+   "Kotlin",
+   "Jetpack Compose",
+   "App architecture",
+   "Data and networking",
+   "Testing",
+   "Publishing"
+  ],
+  "skills_ar": [
+   "Kotlin",
+   "Jetpack Compose",
+   "بنية التطبيقات",
+   "البيانات والشبكات",
+   "الاختبارات",
+   "النشر"
+  ],
+  "roles": [
+   "Android developer",
+   "Mobile developer"
+  ],
+  "roles_ar": [
+   "مطوّر أندرويد",
+   "مطوّر تطبيقات موبايل"
+  ],
+  "outcome": "You can build and publish an Android app.",
+  "outcome_ar": "تستطيع بناء تطبيق أندرويد ونشره."
+ },
+ "ios": {
+  "what": "iOS developers build apps for iPhone and iPad.",
+  "what_ar": "مطوّر iOS يبني تطبيقات لـ iPhone وiPad.",
+  "skills": [
+   "Swift",
+   "SwiftUI",
+   "App architecture",
+   "Data and networking",
+   "Testing",
+   "App Store release"
+  ],
+  "skills_ar": [
+   "Swift",
+   "SwiftUI",
+   "بنية التطبيقات",
+   "البيانات والشبكات",
+   "الاختبارات",
+   "النشر على App Store"
+  ],
+  "roles": [
+   "iOS developer",
+   "Mobile developer"
+  ],
+  "roles_ar": [
+   "مطوّر iOS",
+   "مطوّر تطبيقات موبايل"
+  ],
+  "outcome": "You can build and release an iOS app.",
+  "outcome_ar": "تستطيع بناء تطبيق iOS وإطلاقه."
+ },
+ "postgresql-dba": {
+  "what": "PostgreSQL DBAs keep databases fast, safe and available in production.",
+  "what_ar": "مدير قواعد بيانات PostgreSQL يحافظ على سرعة قواعد البيانات وأمانها وإتاحتها في الإنتاج.",
+  "skills": [
+   "SQL",
+   "Administration and roles",
+   "Backup and recovery",
+   "Replication",
+   "Query tuning",
+   "Monitoring"
+  ],
+  "skills_ar": [
+   "SQL",
+   "الإدارة والأدوار",
+   "النسخ الاحتياطي والاستعادة",
+   "النسخ المتماثل",
+   "ضبط الاستعلامات",
+   "المراقبة"
+  ],
+  "roles": [
+   "Database administrator",
+   "Database reliability engineer"
+  ],
+  "roles_ar": [
+   "مدير قواعد بيانات",
+   "مهندس اعتمادية قواعد البيانات"
+  ],
+  "outcome": "You can run PostgreSQL in production and recover it when things go wrong.",
+  "outcome_ar": "تستطيع تشغيل PostgreSQL في الإنتاج واستعادته عند حدوث الأعطال."
+ },
+ "blockchain": {
+  "what": "Blockchain developers build smart contracts and decentralised applications.",
+  "what_ar": "مطوّر البلوكتشين يبني العقود الذكية والتطبيقات اللامركزية.",
+  "skills": [
+   "How blockchains work",
+   "Ethereum",
+   "Solidity",
+   "Smart contract security",
+   "Web3 frontends"
+  ],
+  "skills_ar": [
+   "كيف تعمل البلوكتشين",
+   "Ethereum",
+   "Solidity",
+   "أمن العقود الذكية",
+   "واجهات Web3"
+  ],
+  "roles": [
+   "Smart contract developer",
+   "Blockchain engineer"
+  ],
+  "roles_ar": [
+   "مطوّر عقود ذكية",
+   "مهندس بلوكتشين"
+  ],
+  "outcome": "You can write, test and audit basic smart contracts.",
+  "outcome_ar": "تستطيع كتابة عقود ذكية أساسية واختبارها ومراجعتها."
+ },
+ "qa": {
+  "what": "QA engineers make sure software works before users find out it doesn't.",
+  "what_ar": "مهندس ضمان الجودة يتأكد من أن البرمجيات تعمل قبل أن يكتشف المستخدمون العكس.",
+  "skills": [
+   "Testing strategy",
+   "Test design",
+   "Browser automation",
+   "API testing",
+   "Performance testing",
+   "Accessibility testing"
+  ],
+  "skills_ar": [
+   "استراتيجية الاختبار",
+   "تصميم الاختبارات",
+   "أتمتة المتصفح",
+   "اختبار الواجهات البرمجية",
+   "اختبار الأداء",
+   "اختبار إمكانية الوصول"
+  ],
+  "roles": [
+   "QA engineer",
+   "Test automation engineer",
+   "SDET"
+  ],
+  "roles_ar": [
+   "مهندس ضمان جودة",
+   "مهندس أتمتة اختبارات",
+   "مطوّر اختبارات"
+  ],
+  "outcome": "You can plan testing for a product and automate it.",
+  "outcome_ar": "تستطيع تخطيط الاختبار لمنتج وأتمتته."
+ },
+ "software-architect": {
+  "what": "Software architects design systems and make the decisions that are hardest to change later.",
+  "what_ar": "معماري البرمجيات يصمم الأنظمة ويتخذ القرارات الأصعب تغييرًا لاحقًا.",
+  "skills": [
+   "Architecture styles",
+   "Trade-off analysis",
+   "Documenting decisions",
+   "Distributed systems",
+   "Cloud architecture",
+   "Reliability"
+  ],
+  "skills_ar": [
+   "أنماط البنية",
+   "تحليل المفاضلات",
+   "توثيق القرارات",
+   "الأنظمة الموزعة",
+   "بنية السحابة",
+   "الاعتمادية"
+  ],
+  "roles": [
+   "Software architect",
+   "Solutions architect",
+   "Principal engineer"
+  ],
+  "roles_ar": [
+   "معماري برمجيات",
+   "معماري حلول",
+   "مهندس رئيسي"
+  ],
+  "outcome": "You can design a system, explain its trade-offs and record the decisions.",
+  "outcome_ar": "تستطيع تصميم نظام وشرح مفاضلاته وتوثيق قراراته."
+ },
+ "ux-design": {
+  "what": "UX designers make products easy and pleasant to use, starting from what users actually need.",
+  "what_ar": "مصمم تجربة المستخدم يجعل المنتجات سهلة وممتعة الاستخدام، بدءًا مما يحتاجه المستخدمون فعلًا.",
+  "skills": [
+   "Usability principles",
+   "User research",
+   "Information architecture",
+   "Wireframing and prototyping",
+   "Interface design",
+   "Accessibility"
+  ],
+  "skills_ar": [
+   "مبادئ قابلية الاستخدام",
+   "بحث المستخدمين",
+   "هندسة المعلومات",
+   "الإطارات والنماذج الأولية",
+   "تصميم الواجهات",
+   "إمكانية الوصول"
+  ],
+  "roles": [
+   "UX designer",
+   "UX researcher",
+   "UI designer"
+  ],
+  "roles_ar": [
+   "مصمم تجربة مستخدم",
+   "باحث تجربة مستخدم",
+   "مصمم واجهات"
+  ],
+  "outcome": "You can research, design and test an interface, with case studies in a portfolio.",
+  "outcome_ar": "تستطيع البحث وتصميم واجهة واختبارها، ولديك دراسات حالة في ملف أعمالك."
+ },
+ "technical-writer": {
+  "what": "Technical writers create the documentation that helps people use software.",
+  "what_ar": "الكاتب التقني يكتب التوثيق الذي يساعد الناس على استخدام البرمجيات.",
+  "skills": [
+   "Clear writing",
+   "Documentation structure",
+   "Markdown and docs-as-code",
+   "Working with engineers",
+   "API documentation"
+  ],
+  "skills_ar": [
+   "الكتابة الواضحة",
+   "هيكلة التوثيق",
+   "Markdown والتوثيق ككود",
+   "العمل مع المهندسين",
+   "توثيق الواجهات البرمجية"
+  ],
+  "roles": [
+   "Technical writer",
+   "Documentation engineer",
+   "Developer educator"
+  ],
+  "roles_ar": [
+   "كاتب تقني",
+   "مهندس توثيق",
+   "معلّم مطوّرين"
+  ],
+  "outcome": "You can plan and write documentation sets developers can follow.",
+  "outcome_ar": "تستطيع تخطيط وكتابة توثيق يستطيع المطوّرون اتباعه."
+ },
+ "game-developer": {
+  "what": "Game developers design and program games, from gameplay to graphics.",
+  "what_ar": "مطوّر الألعاب يصمم الألعاب ويبرمجها، من آليات اللعب إلى الرسوميات.",
+  "skills": [
+   "Programming",
+   "A game engine",
+   "Game maths and physics",
+   "Design patterns for games",
+   "Graphics"
+  ],
+  "skills_ar": [
+   "البرمجة",
+   "محرّك ألعاب",
+   "رياضيات وفيزياء الألعاب",
+   "أنماط تصميم الألعاب",
+   "الرسوميات"
+  ],
+  "roles": [
+   "Game developer",
+   "Gameplay programmer",
+   "Graphics programmer"
+  ],
+  "roles_ar": [
+   "مطوّر ألعاب",
+   "مبرمج آليات اللعب",
+   "مبرمج رسوميات"
+  ],
+  "outcome": "You can build and publish small games.",
+  "outcome_ar": "تستطيع بناء ألعاب صغيرة ونشرها."
+ },
+ "multiplayer-backend": {
+  "what": "Server-side game developers build the servers that keep multiplayer games fair and responsive.",
+  "what_ar": "مطوّر خوادم الألعاب يبني الخوادم التي تجعل الألعاب الجماعية عادلة وسريعة الاستجابة.",
+  "skills": [
+   "Networking",
+   "Client-server architecture",
+   "Lag compensation",
+   "Concurrency",
+   "Deployment at scale"
+  ],
+  "skills_ar": [
+   "الشبكات",
+   "بنية العميل والخادم",
+   "تعويض التأخير",
+   "التزامن",
+   "النشر على نطاق واسع"
+  ],
+  "roles": [
+   "Game server engineer",
+   "Backend engineer (games)"
+  ],
+  "roles_ar": [
+   "مهندس خوادم ألعاب",
+   "مهندس باك إند للألعاب"
+  ],
+  "outcome": "You can design and run a multiplayer game server.",
+  "outcome_ar": "تستطيع تصميم خادم لعبة جماعية وتشغيله."
+ },
+ "mlops": {
+  "what": "MLOps engineers take models from notebooks to reliable production systems.",
+  "what_ar": "مهندس MLOps ينقل النماذج من الدفاتر إلى أنظمة إنتاج موثوقة.",
+  "skills": [
+   "ML lifecycle",
+   "Experiment tracking",
+   "Data and model versioning",
+   "Model serving",
+   "Monitoring"
+  ],
+  "skills_ar": [
+   "دورة حياة التعلّم الآلي",
+   "تتبّع التجارب",
+   "إصدار البيانات والنماذج",
+   "تقديم النماذج",
+   "المراقبة"
+  ],
+  "roles": [
+   "MLOps engineer",
+   "ML platform engineer"
+  ],
+  "roles_ar": [
+   "مهندس MLOps",
+   "مهندس منصات تعلّم آلي"
+  ],
+  "outcome": "You can automate training, deployment and monitoring of a model.",
+  "outcome_ar": "تستطيع أتمتة تدريب نموذج ونشره ومراقبته."
+ },
+ "product-manager": {
+  "what": "Product managers decide what gets built and why, and make sure it solves a real problem.",
+  "what_ar": "مدير المنتج يقرر ماذا يُبنى ولماذا، ويتأكد أنه يحل مشكلة حقيقية.",
+  "skills": [
+   "Discovery and user research",
+   "Prioritisation",
+   "Writing specs",
+   "Agile delivery",
+   "Metrics",
+   "Communication"
+  ],
+  "skills_ar": [
+   "الاستكشاف وبحث المستخدمين",
+   "ترتيب الأولويات",
+   "كتابة المواصفات",
+   "التسليم الرشيق",
+   "المقاييس",
+   "التواصل"
+  ],
+  "roles": [
+   "Product manager",
+   "Product owner",
+   "Associate product manager"
+  ],
+  "roles_ar": [
+   "مدير منتج",
+   "مالك منتج",
+   "مدير منتج مساعد"
+  ],
+  "outcome": "You can take a problem from discovery to a shipped, measured solution.",
+  "outcome_ar": "تستطيع أخذ مشكلة من الاستكشاف إلى حل منشور وقابل للقياس."
+ },
+ "engineering-manager": {
+  "what": "Engineering managers lead teams: people, delivery and technical direction.",
+  "what_ar": "المدير الهندسي يقود الفرق: الأشخاص والتسليم والتوجه التقني.",
+  "skills": [
+   "One-to-ones and feedback",
+   "Hiring",
+   "Delivery and planning",
+   "Incident management",
+   "Engineering metrics"
+  ],
+  "skills_ar": [
+   "الاجتماعات الفردية والملاحظات",
+   "التوظيف",
+   "التسليم والتخطيط",
+   "إدارة الحوادث",
+   "مقاييس الهندسة"
+  ],
+  "roles": [
+   "Engineering manager",
+   "Team lead",
+   "Staff engineer"
+  ],
+  "roles_ar": [
+   "مدير هندسي",
+   "قائد فريق",
+   "مهندس متقدم"
+  ],
+  "outcome": "You can lead a team that delivers reliably and grows.",
+  "outcome_ar": "تستطيع قيادة فريق يسلّم بثبات ويتطور."
+ },
+ "devrel": {
+  "what": "Developer relations people help developers succeed with a product, through docs, talks and community.",
+  "what_ar": "مختص علاقات المطوّرين يساعد المطوّرين على النجاح مع منتج، عبر التوثيق والمحاضرات والمجتمع.",
+  "skills": [
+   "Technical content",
+   "Public speaking",
+   "Community building",
+   "Developer feedback",
+   "Coding demos"
+  ],
+  "skills_ar": [
+   "المحتوى التقني",
+   "التحدث أمام الجمهور",
+   "بناء المجتمعات",
+   "ملاحظات المطوّرين",
+   "العروض البرمجية"
+  ],
+  "roles": [
+   "Developer advocate",
+   "Community manager",
+   "Developer educator"
+  ],
+  "roles_ar": [
+   "مناصر مطوّرين",
+   "مدير مجتمع",
+   "معلّم مطوّرين"
+  ],
+  "outcome": "You can create content and run a community developers value.",
+  "outcome_ar": "تستطيع صناعة محتوى وإدارة مجتمع يقدّره المطوّرون."
+ },
+ "bi-analyst": {
+  "what": "BI analysts build the dashboards and reports a business runs on.",
+  "what_ar": "محلل ذكاء الأعمال يبني اللوحات والتقارير التي يعتمد عليها العمل.",
+  "skills": [
+   "SQL",
+   "Data modelling",
+   "Power BI and DAX",
+   "Statistics",
+   "Dashboard design"
+  ],
+  "skills_ar": [
+   "SQL",
+   "نمذجة البيانات",
+   "Power BI وDAX",
+   "الإحصاء",
+   "تصميم اللوحات"
+  ],
+  "roles": [
+   "BI analyst",
+   "BI developer",
+   "Reporting analyst"
+  ],
+  "roles_ar": [
+   "محلل ذكاء أعمال",
+   "مطوّر ذكاء أعمال",
+   "محلل تقارير"
+  ],
+  "outcome": "You can model business data and build dashboards people trust.",
+  "outcome_ar": "تستطيع نمذجة بيانات العمل وبناء لوحات يثق بها الناس."
+ },
+ "network-engineer": {
+  "what": "Network engineers design, build and run the networks everything else depends on.",
+  "what_ar": "مهندس الشبكات يصمم ويبني ويشغّل الشبكات التي يعتمد عليها كل شيء.",
+  "skills": [
+   "Networking models and protocols",
+   "IP addressing and routing",
+   "Packet analysis",
+   "DNS and CDNs",
+   "Network security"
+  ],
+  "skills_ar": [
+   "نماذج الشبكات والبروتوكولات",
+   "العنونة والتوجيه",
+   "تحليل الحزم",
+   "DNS وشبكات التوزيع",
+   "أمن الشبكات"
+  ],
+  "roles": [
+   "Network engineer",
+   "Network administrator",
+   "NOC engineer"
+  ],
+  "roles_ar": [
+   "مهندس شبكات",
+   "مدير شبكات",
+   "مهندس مركز عمليات الشبكة"
+  ],
+  "outcome": "You can design, troubleshoot and secure a network.",
+  "outcome_ar": "تستطيع تصميم شبكة وحل مشكلاتها وتأمينها."
+ },
+ "forward-deployed-engineer": {
+  "what": "Forward deployed engineers work inside customer teams to make a product solve their real problems.",
+  "what_ar": "المهندس المنتشر لدى العملاء يعمل داخل فرقهم ليجعل المنتج يحل مشكلاتهم الحقيقية.",
+  "skills": [
+   "Full-stack prototyping",
+   "Data integration",
+   "LLM integration",
+   "Cloud deployment",
+   "Communicating with customers"
+  ],
+  "skills_ar": [
+   "بناء النماذج الأولية Full-stack",
+   "دمج البيانات",
+   "دمج نماذج اللغة",
+   "النشر السحابي",
+   "التواصل مع العملاء"
+  ],
+  "roles": [
+   "Forward deployed engineer",
+   "Solutions engineer",
+   "Customer engineer"
+  ],
+  "roles_ar": [
+   "مهندس منتشر لدى العملاء",
+   "مهندس حلول",
+   "مهندس عملاء"
+  ],
+  "outcome": "You can build working solutions on customer data, fast.",
+  "outcome_ar": "تستطيع بناء حلول تعمل على بيانات العميل بسرعة."
+ },
+ "ai-product-builder": {
+  "what": "AI product builders turn ideas into working AI products, often without a large team.",
+  "what_ar": "صانع منتجات الذكاء الاصطناعي يحوّل الأفكار إلى منتجات تعمل، غالبًا دون فريق كبير.",
+  "skills": [
+   "Prompting",
+   "Designing AI features",
+   "Prototyping with LLMs",
+   "Evaluation",
+   "Scoping and shipping"
+  ],
+  "skills_ar": [
+   "كتابة التعليمات",
+   "تصميم ميزات الذكاء الاصطناعي",
+   "بناء النماذج الأولية بنماذج اللغة",
+   "التقييم",
+   "تحديد النطاق والإطلاق"
+  ],
+  "roles": [
+   "AI product builder",
+   "AI product manager",
+   "Founder"
+  ],
+  "roles_ar": [
+   "صانع منتجات ذكاء اصطناعي",
+   "مدير منتجات ذكاء اصطناعي",
+   "مؤسس"
+  ],
+  "outcome": "You can ship and measure an AI-powered product.",
+  "outcome_ar": "تستطيع إطلاق منتج يعتمد على الذكاء الاصطناعي وقياسه."
+ },
+ "product-designer": {
+  "what": "Product designers own a product's experience from research to shipped interface.",
+  "what_ar": "مصمم المنتجات يتولّى تجربة المنتج من البحث إلى الواجهة المنشورة.",
+  "skills": [
+   "Usability principles",
+   "Research",
+   "Interaction design",
+   "Design systems",
+   "Prototyping tools"
+  ],
+  "skills_ar": [
+   "مبادئ قابلية الاستخدام",
+   "البحث",
+   "تصميم التفاعل",
+   "أنظمة التصميم",
+   "أدوات النماذج الأولية"
+  ],
+  "roles": [
+   "Product designer",
+   "UX/UI designer"
+  ],
+  "roles_ar": [
+   "مصمم منتجات",
+   "مصمم تجربة وواجهة مستخدم"
+  ],
+  "outcome": "You can design and ship product features end to end.",
+  "outcome_ar": "تستطيع تصميم ميزات المنتج وإطلاقها من البداية للنهاية."
+ },
+ "ai-red-teaming": {
+  "what": "AI red teamers test AI systems, with permission, for harmful, unsafe or insecure behaviour.",
+  "what_ar": "مختبر الذكاء الاصطناعي الأحمر يختبر أنظمة الذكاء الاصطناعي بإذن، بحثًا عن سلوك ضار أو غير آمن.",
+  "skills": [
+   "LLM risks",
+   "Prompt injection",
+   "Threat frameworks",
+   "Test planning",
+   "Reporting findings"
+  ],
+  "skills_ar": [
+   "مخاطر نماذج اللغة",
+   "حقن التعليمات",
+   "أطر التهديدات",
+   "تخطيط الاختبارات",
+   "كتابة تقارير النتائج"
+  ],
+  "roles": [
+   "AI red teamer",
+   "AI security engineer",
+   "Trust and safety analyst"
+  ],
+  "roles_ar": [
+   "مختبر ذكاء اصطناعي أحمر",
+   "مهندس أمن ذكاء اصطناعي",
+   "محلل ثقة وسلامة"
+  ],
+  "outcome": "You can plan and run an authorised AI red-team exercise and report it clearly.",
+  "outcome_ar": "تستطيع تخطيط اختبار أحمر مصرّح به لنظام ذكاء اصطناعي وتنفيذه وكتابة تقرير واضح عنه."
+ },
+ "inference-engineering": {
+  "what": "Inference engineers make large models run fast and cheaply in production.",
+  "what_ar": "مهندس الاستدلال يجعل النماذج الكبيرة تعمل بسرعة وتكلفة أقل في الإنتاج.",
+  "skills": [
+   "GPU basics",
+   "Serving engines",
+   "Batching and caching",
+   "Quantization",
+   "Performance measurement"
+  ],
+  "skills_ar": [
+   "أساسيات GPU",
+   "محركات التقديم",
+   "التجميع والتخزين المؤقت",
+   "التكميم",
+   "قياس الأداء"
+  ],
+  "roles": [
+   "Inference engineer",
+   "ML infrastructure engineer"
+  ],
+  "roles_ar": [
+   "مهندس استدلال",
+   "مهندس بنية تحتية للتعلّم الآلي"
+  ],
+  "outcome": "You can serve a model and make it measurably faster and cheaper.",
+  "outcome_ar": "تستطيع تقديم نموذج وجعله أسرع وأرخص بشكل قابل للقياس."
+ },
+ "computer-science": {
+  "what": "Computer science is the theory behind software: maths, algorithms and how computers work.",
+  "what_ar": "علوم الحاسب هي النظرية وراء البرمجيات: الرياضيات والخوارزميات وكيف تعمل الحواسيب.",
+  "skills": [
+   "Discrete maths",
+   "Algorithms and data structures",
+   "Computer architecture",
+   "Operating systems",
+   "Networks"
+  ],
+  "skills_ar": [
+   "الرياضيات المتقطعة",
+   "الخوارزميات وهياكل البيانات",
+   "معمارية الحاسوب",
+   "أنظمة التشغيل",
+   "الشبكات"
+  ],
+  "roles": [
+   "Software engineer",
+   "Systems engineer",
+   "Graduate study"
+  ],
+  "roles_ar": [
+   "مهندس برمجيات",
+   "مهندس أنظمة",
+   "الدراسات العليا"
+  ],
+  "outcome": "You understand what a CS degree covers and can reason about efficiency and systems.",
+  "outcome_ar": "تفهم ما تغطيه شهادة علوم الحاسب وتستطيع التفكير في الكفاءة والأنظمة."
+ },
+ "sql": {
+  "what": "SQL is the language for asking questions of databases. Almost every data and software job uses it.",
+  "what_ar": "SQL هي لغة طرح الأسئلة على قواعد البيانات، وتستخدمها تقريبًا كل وظائف البيانات والبرمجيات.",
+  "skills": [
+   "SELECT, filtering and sorting",
+   "Joins",
+   "Grouping and aggregates",
+   "Database design",
+   "Indexes and performance"
+  ],
+  "skills_ar": [
+   "SELECT والتصفية والترتيب",
+   "الربط",
+   "التجميع والدوال الإجمالية",
+   "تصميم قواعد البيانات",
+   "الفهارس والأداء"
+  ],
+  "roles": [
+   "Data analyst",
+   "Backend developer",
+   "Data engineer"
+  ],
+  "roles_ar": [
+   "محلل بيانات",
+   "مطوّر باك إند",
+   "مهندس بيانات"
+  ],
+  "outcome": "You can design tables and write fast, correct queries.",
+  "outcome_ar": "تستطيع تصميم الجداول وكتابة استعلامات سريعة وصحيحة."
+ },
+ "javascript": {
+  "what": "JavaScript is the programming language of the web, used in browsers and on servers.",
+  "what_ar": "JavaScript هي لغة برمجة الويب، وتُستخدم في المتصفحات وعلى الخوادم.",
+  "skills": [
+   "Syntax and types",
+   "Functions and closures",
+   "Objects and classes",
+   "Async code and promises",
+   "The DOM"
+  ],
+  "skills_ar": [
+   "القواعد والأنواع",
+   "الدوال والإغلاق",
+   "الكائنات والأصناف",
+   "الكود غير المتزامن والوعود",
+   "DOM"
+  ],
+  "roles": [
+   "Frontend developer",
+   "Full-stack developer",
+   "Node.js developer"
+  ],
+  "roles_ar": [
+   "مطوّر واجهات أمامية",
+   "مطوّر Full-stack",
+   "مطوّر Node.js"
+  ],
+  "outcome": "You can write modern JavaScript confidently in the browser and on the server.",
+  "outcome_ar": "تستطيع كتابة JavaScript الحديثة بثقة في المتصفح وعلى الخادم."
+ },
+ "typescript": {
+  "what": "TypeScript adds types to JavaScript so many bugs are caught before the code runs.",
+  "what_ar": "TypeScript تضيف الأنواع إلى JavaScript حتى تُكتشف أخطاء كثيرة قبل تشغيل الكود.",
+  "skills": [
+   "Basic types",
+   "Interfaces and generics",
+   "Narrowing",
+   "Utility types",
+   "Typing real projects"
+  ],
+  "skills_ar": [
+   "الأنواع الأساسية",
+   "الواجهات والأنواع العامة",
+   "تضييق الأنواع",
+   "الأنواع المساعدة",
+   "إضافة الأنواع لمشاريع حقيقية"
+  ],
+  "roles": [
+   "Frontend developer",
+   "Full-stack developer"
+  ],
+  "roles_ar": [
+   "مطوّر واجهات أمامية",
+   "مطوّر Full-stack"
+  ],
+  "outcome": "You can type real projects and read advanced type definitions.",
+  "outcome_ar": "تستطيع إضافة الأنواع لمشاريع حقيقية وقراءة تعريفات الأنواع المتقدمة."
+ },
+ "python": {
+  "what": "Python is a readable, general-purpose language used for scripts, web, data and AI.",
+  "what_ar": "بايثون لغة واضحة متعددة الاستخدامات للسكربتات والويب والبيانات والذكاء الاصطناعي.",
+  "skills": [
+   "Core syntax",
+   "Data structures",
+   "Functions and modules",
+   "Files and automation",
+   "Testing",
+   "Packaging"
+  ],
+  "skills_ar": [
+   "القواعد الأساسية",
+   "هياكل البيانات",
+   "الدوال والوحدات",
+   "الملفات والأتمتة",
+   "الاختبارات",
+   "تغليف الحزم"
+  ],
+  "roles": [
+   "Python developer",
+   "Data analyst",
+   "Automation engineer"
+  ],
+  "roles_ar": [
+   "مطوّر بايثون",
+   "محلل بيانات",
+   "مهندس أتمتة"
+  ],
+  "outcome": "You can write, test and package Python programs.",
+  "outcome_ar": "تستطيع كتابة برامج بايثون واختبارها وتغليفها."
+ },
+ "java": {
+  "what": "Java is a widely used language for backend systems, Android and large companies.",
+  "what_ar": "Java لغة واسعة الانتشار للأنظمة الخلفية وأندرويد والشركات الكبيرة.",
+  "skills": [
+   "Object-oriented programming",
+   "Collections",
+   "Exceptions",
+   "Build tools",
+   "Unit testing"
+  ],
+  "skills_ar": [
+   "البرمجة كائنية التوجه",
+   "المجموعات",
+   "الاستثناءات",
+   "أدوات البناء",
+   "اختبارات الوحدات"
+  ],
+  "roles": [
+   "Java developer",
+   "Backend developer"
+  ],
+  "roles_ar": [
+   "مطوّر Java",
+   "مطوّر باك إند"
+  ],
+  "outcome": "You can build and test Java applications with standard tools.",
+  "outcome_ar": "تستطيع بناء تطبيقات Java واختبارها بالأدوات القياسية."
+ },
+ "spring-boot": {
+  "what": "Spring Boot is the most common framework for building Java web services.",
+  "what_ar": "Spring Boot هو الإطار الأكثر شيوعًا لبناء خدمات الويب بـ Java.",
+  "skills": [
+   "REST APIs",
+   "Dependency injection",
+   "Data access with JPA",
+   "Security",
+   "Configuration"
+  ],
+  "skills_ar": [
+   "واجهات REST",
+   "حقن الاعتماديات",
+   "الوصول للبيانات بـ JPA",
+   "الأمان",
+   "الإعدادات"
+  ],
+  "roles": [
+   "Java backend developer"
+  ],
+  "roles_ar": [
+   "مطوّر باك إند Java"
+  ],
+  "outcome": "You can build a secure, database-backed Spring Boot service.",
+  "outcome_ar": "تستطيع بناء خدمة Spring Boot آمنة متصلة بقاعدة بيانات."
+ },
+ "csharp-aspnet": {
+  "what": "ASP.NET Core is Microsoft's framework for web apps and APIs in C#.",
+  "what_ar": "ASP.NET Core هو إطار Microsoft لتطبيقات وواجهات الويب بلغة C#.",
+  "skills": [
+   "C#",
+   "Minimal APIs and MVC",
+   "Entity Framework Core",
+   "Authentication",
+   "Testing"
+  ],
+  "skills_ar": [
+   "C#",
+   "Minimal APIs وMVC",
+   "Entity Framework Core",
+   "المصادقة",
+   "الاختبارات"
+  ],
+  "roles": [
+   ".NET developer",
+   "Backend developer"
+  ],
+  "roles_ar": [
+   "مطوّر .NET",
+   "مطوّر باك إند"
+  ],
+  "outcome": "You can build and test a .NET web API with a database.",
+  "outcome_ar": "تستطيع بناء واجهة ويب .NET متصلة بقاعدة بيانات واختبارها."
+ },
+ "nodejs": {
+  "what": "Node.js runs JavaScript on servers, for APIs, tools and real-time apps.",
+  "what_ar": "Node.js يشغّل JavaScript على الخوادم للواجهات البرمجية والأدوات والتطبيقات الفورية.",
+  "skills": [
+   "The event loop",
+   "Modules and npm",
+   "HTTP servers with Express",
+   "Databases",
+   "Testing",
+   "Production practices"
+  ],
+  "skills_ar": [
+   "حلقة الأحداث",
+   "الوحدات وnpm",
+   "خوادم HTTP بـ Express",
+   "قواعد البيانات",
+   "الاختبارات",
+   "ممارسات الإنتاج"
+  ],
+  "roles": [
+   "Node.js developer",
+   "Backend developer",
+   "Full-stack developer"
+  ],
+  "roles_ar": [
+   "مطوّر Node.js",
+   "مطوّر باك إند",
+   "مطوّر Full-stack"
+  ],
+  "outcome": "You can build and run production-ready Node.js APIs.",
+  "outcome_ar": "تستطيع بناء واجهات Node.js جاهزة للإنتاج وتشغيلها."
+ },
+ "react": {
+  "what": "React is the most widely used library for building web interfaces from components.",
+  "what_ar": "React هي المكتبة الأكثر استخدامًا لبناء واجهات الويب من مكوّنات.",
+  "skills": [
+   "Components and JSX",
+   "State and hooks",
+   "Data fetching",
+   "Routing",
+   "Testing"
+  ],
+  "skills_ar": [
+   "المكوّنات وJSX",
+   "الحالة والـ Hooks",
+   "جلب البيانات",
+   "التنقل",
+   "الاختبارات"
+  ],
+  "roles": [
+   "React developer",
+   "Frontend developer"
+  ],
+  "roles_ar": [
+   "مطوّر React",
+   "مطوّر واجهات أمامية"
+  ],
+  "outcome": "You can build and test real React apps.",
+  "outcome_ar": "تستطيع بناء تطبيقات React حقيقية واختبارها."
+ },
+ "nextjs": {
+  "what": "Next.js is a React framework for full websites with server rendering and routing.",
+  "what_ar": "Next.js إطار مبني على React لمواقع كاملة مع العرض على الخادم والتنقل.",
+  "skills": [
+   "App Router",
+   "Server and client components",
+   "Data fetching",
+   "Deployment"
+  ],
+  "skills_ar": [
+   "App Router",
+   "مكوّنات الخادم والعميل",
+   "جلب البيانات",
+   "النشر"
+  ],
+  "roles": [
+   "React developer",
+   "Full-stack developer"
+  ],
+  "roles_ar": [
+   "مطوّر React",
+   "مطوّر Full-stack"
+  ],
+  "outcome": "You can build and deploy a full Next.js site.",
+  "outcome_ar": "تستطيع بناء موقع Next.js كامل ونشره."
+ },
+ "vue": {
+  "what": "Vue.js is an approachable framework for building web interfaces.",
+  "what_ar": "Vue.js إطار سهل البداية لبناء واجهات الويب.",
+  "skills": [
+   "Components and reactivity",
+   "Vue Router",
+   "State with Pinia",
+   "Nuxt",
+   "Testing"
+  ],
+  "skills_ar": [
+   "المكوّنات والتفاعلية",
+   "Vue Router",
+   "إدارة الحالة بـ Pinia",
+   "Nuxt",
+   "الاختبارات"
+  ],
+  "roles": [
+   "Vue developer",
+   "Frontend developer"
+  ],
+  "roles_ar": [
+   "مطوّر Vue",
+   "مطوّر واجهات أمامية"
+  ],
+  "outcome": "You can build, route and test Vue apps.",
+  "outcome_ar": "تستطيع بناء تطبيقات Vue والتنقل فيها واختبارها."
+ },
+ "angular": {
+  "what": "Angular is a full framework for large web applications, built on TypeScript.",
+  "what_ar": "Angular إطار متكامل للتطبيقات الكبيرة مبني على TypeScript.",
+  "skills": [
+   "TypeScript",
+   "Components and templates",
+   "Services and dependency injection",
+   "RxJS",
+   "Testing"
+  ],
+  "skills_ar": [
+   "TypeScript",
+   "المكوّنات والقوالب",
+   "الخدمات وحقن الاعتماديات",
+   "RxJS",
+   "الاختبارات"
+  ],
+  "roles": [
+   "Angular developer",
+   "Frontend developer"
+  ],
+  "roles_ar": [
+   "مطوّر Angular",
+   "مطوّر واجهات أمامية"
+  ],
+  "outcome": "You can build and test a structured Angular application.",
+  "outcome_ar": "تستطيع بناء تطبيق Angular منظّم واختباره."
+ },
+ "react-native": {
+  "what": "React Native builds iOS and Android apps with React.",
+  "what_ar": "React Native يبني تطبيقات iOS وأندرويد باستخدام React.",
+  "skills": [
+   "React",
+   "Native components",
+   "Navigation",
+   "Expo",
+   "Publishing"
+  ],
+  "skills_ar": [
+   "React",
+   "المكوّنات الأصلية",
+   "التنقل",
+   "Expo",
+   "النشر"
+  ],
+  "roles": [
+   "Mobile developer",
+   "React Native developer"
+  ],
+  "roles_ar": [
+   "مطوّر تطبيقات موبايل",
+   "مطوّر React Native"
+  ],
+  "outcome": "You can build and ship a cross-platform mobile app.",
+  "outcome_ar": "تستطيع بناء تطبيق موبايل متعدد المنصات وإطلاقه."
+ },
+ "flutter": {
+  "what": "Flutter builds one app for mobile, web and desktop from a single Dart codebase.",
+  "what_ar": "Flutter يبني تطبيقًا واحدًا للموبايل والويب وسطح المكتب من كود Dart واحد.",
+  "skills": [
+   "Dart",
+   "Widgets and layout",
+   "State management",
+   "Networking",
+   "Publishing"
+  ],
+  "skills_ar": [
+   "Dart",
+   "الـ Widgets والتخطيط",
+   "إدارة الحالة",
+   "الشبكات",
+   "النشر"
+  ],
+  "roles": [
+   "Flutter developer",
+   "Mobile developer"
+  ],
+  "roles_ar": [
+   "مطوّر Flutter",
+   "مطوّر تطبيقات موبايل"
+  ],
+  "outcome": "You can build and release a Flutter app.",
+  "outcome_ar": "تستطيع بناء تطبيق Flutter وإطلاقه."
+ },
+ "kotlin": {
+  "what": "Kotlin is a modern language for Android and server-side development.",
+  "what_ar": "Kotlin لغة حديثة لتطوير أندرويد والخوادم.",
+  "skills": [
+   "Syntax and null safety",
+   "Collections",
+   "Coroutines",
+   "Android or Ktor"
+  ],
+  "skills_ar": [
+   "القواعد والأمان من القيم الفارغة",
+   "المجموعات",
+   "الـ Coroutines",
+   "أندرويد أو Ktor"
+  ],
+  "roles": [
+   "Android developer",
+   "Backend developer"
+  ],
+  "roles_ar": [
+   "مطوّر أندرويد",
+   "مطوّر باك إند"
+  ],
+  "outcome": "You can write idiomatic Kotlin for Android or the server.",
+  "outcome_ar": "تستطيع كتابة Kotlin اصطلاحية لأندرويد أو الخادم."
+ },
+ "swiftui": {
+  "what": "SwiftUI is Apple's framework for building interfaces across its platforms.",
+  "what_ar": "SwiftUI هو إطار Apple لبناء الواجهات عبر منصاتها.",
+  "skills": [
+   "Swift",
+   "Views and layout",
+   "State and data flow",
+   "Navigation",
+   "Publishing"
+  ],
+  "skills_ar": [
+   "Swift",
+   "العروض والتخطيط",
+   "الحالة وتدفق البيانات",
+   "التنقل",
+   "النشر"
+  ],
+  "roles": [
+   "iOS developer"
+  ],
+  "roles_ar": [
+   "مطوّر iOS"
+  ],
+  "outcome": "You can build polished SwiftUI apps.",
+  "outcome_ar": "تستطيع بناء تطبيقات SwiftUI متقنة."
+ },
+ "cpp": {
+  "what": "C++ is used where performance matters most: games, engines, finance and systems.",
+  "what_ar": "C++ تُستخدم حيث يكون الأداء أهم شيء: الألعاب والمحركات والمال والأنظمة.",
+  "skills": [
+   "Core language",
+   "Memory and RAII",
+   "The standard library",
+   "Modern C++ guidelines",
+   "Build systems"
+  ],
+  "skills_ar": [
+   "أساسيات اللغة",
+   "الذاكرة وRAII",
+   "المكتبة القياسية",
+   "إرشادات C++ الحديثة",
+   "أنظمة البناء"
+  ],
+  "roles": [
+   "C++ developer",
+   "Game engine programmer",
+   "Systems engineer"
+  ],
+  "roles_ar": [
+   "مطوّر C++",
+   "مبرمج محركات ألعاب",
+   "مهندس أنظمة"
+  ],
+  "outcome": "You can write and build modern, safe C++.",
+  "outcome_ar": "تستطيع كتابة C++ حديثة وآمنة وبناءها."
+ },
+ "c": {
+  "what": "C is the language closest to the hardware, behind operating systems and embedded devices.",
+  "what_ar": "C هي اللغة الأقرب للعتاد، وراء أنظمة التشغيل والأجهزة المدمجة.",
+  "skills": [
+   "Pointers and memory",
+   "Data structures in C",
+   "Debugging",
+   "System calls",
+   "Network programming"
+  ],
+  "skills_ar": [
+   "المؤشرات والذاكرة",
+   "هياكل البيانات في C",
+   "تصحيح الأخطاء",
+   "استدعاءات النظام",
+   "برمجة الشبكات"
+  ],
+  "roles": [
+   "Embedded developer",
+   "Systems programmer"
+  ],
+  "roles_ar": [
+   "مطوّر أنظمة مدمجة",
+   "مبرمج أنظمة"
+  ],
+  "outcome": "You can write and debug low-level C programs.",
+  "outcome_ar": "تستطيع كتابة برامج C منخفضة المستوى وتصحيحها."
+ },
+ "rust": {
+  "what": "Rust gives you C-level speed with memory safety, for systems, tools and web services.",
+  "what_ar": "Rust تمنحك سرعة C مع أمان الذاكرة، للأنظمة والأدوات وخدمات الويب.",
+  "skills": [
+   "Ownership and borrowing",
+   "Types and traits",
+   "Error handling",
+   "Concurrency",
+   "Async"
+  ],
+  "skills_ar": [
+   "الملكية والاستعارة",
+   "الأنواع والسمات",
+   "معالجة الأخطاء",
+   "التزامن",
+   "البرمجة غير المتزامنة"
+  ],
+  "roles": [
+   "Rust developer",
+   "Systems engineer"
+  ],
+  "roles_ar": [
+   "مطوّر Rust",
+   "مهندس أنظمة"
+  ],
+  "outcome": "You can build reliable, fast programs in Rust.",
+  "outcome_ar": "تستطيع بناء برامج موثوقة وسريعة بـ Rust."
+ },
+ "go": {
+  "what": "Go is a simple, fast language for backend services, command-line tools and cloud software.",
+  "what_ar": "Go لغة بسيطة وسريعة لخدمات الباك إند وأدوات سطر الأوامر وبرمجيات السحابة.",
+  "skills": [
+   "Syntax and types",
+   "Interfaces",
+   "Goroutines and channels",
+   "Testing",
+   "Modules"
+  ],
+  "skills_ar": [
+   "القواعد والأنواع",
+   "الواجهات",
+   "Goroutines والقنوات",
+   "الاختبارات",
+   "الوحدات"
+  ],
+  "roles": [
+   "Go developer",
+   "Backend developer",
+   "Cloud engineer"
+  ],
+  "roles_ar": [
+   "مطوّر Go",
+   "مطوّر باك إند",
+   "مهندس سحابة"
+  ],
+  "outcome": "You can build and test idiomatic Go services.",
+  "outcome_ar": "تستطيع بناء خدمات Go اصطلاحية واختبارها."
+ },
+ "php": {
+  "what": "PHP powers a large share of the web, from WordPress to modern frameworks.",
+  "what_ar": "PHP تشغّل جزءًا كبيرًا من الويب، من WordPress إلى الأطر الحديثة.",
+  "skills": [
+   "Core language",
+   "Composer and packages",
+   "Testing",
+   "Security",
+   "A framework"
+  ],
+  "skills_ar": [
+   "أساسيات اللغة",
+   "Composer والحزم",
+   "الاختبارات",
+   "الأمان",
+   "إطار عمل"
+  ],
+  "roles": [
+   "PHP developer",
+   "Backend developer"
+  ],
+  "roles_ar": [
+   "مطوّر PHP",
+   "مطوّر باك إند"
+  ],
+  "outcome": "You can build modern, tested PHP applications.",
+  "outcome_ar": "تستطيع بناء تطبيقات PHP حديثة ومختبرة."
+ },
+ "laravel": {
+  "what": "Laravel is the most popular PHP framework for full web applications.",
+  "what_ar": "Laravel هو إطار PHP الأكثر شيوعًا لتطبيقات الويب الكاملة.",
+  "skills": [
+   "Routing and controllers",
+   "Eloquent ORM",
+   "Authentication",
+   "Queues",
+   "Testing with Pest"
+  ],
+  "skills_ar": [
+   "التنقل والمتحكمات",
+   "Eloquent ORM",
+   "المصادقة",
+   "الطوابير",
+   "الاختبار بـ Pest"
+  ],
+  "roles": [
+   "Laravel developer",
+   "PHP developer"
+  ],
+  "roles_ar": [
+   "مطوّر Laravel",
+   "مطوّر PHP"
+  ],
+  "outcome": "You can build and test a full Laravel app.",
+  "outcome_ar": "تستطيع بناء تطبيق Laravel كامل واختباره."
+ },
+ "django": {
+  "what": "Django is a Python framework that includes most of what a web app needs.",
+  "what_ar": "Django إطار بايثون يتضمن معظم ما يحتاجه تطبيق الويب.",
+  "skills": [
+   "Models and the ORM",
+   "Views and templates",
+   "Admin",
+   "REST APIs",
+   "Deployment"
+  ],
+  "skills_ar": [
+   "النماذج وORM",
+   "العروض والقوالب",
+   "لوحة الإدارة",
+   "واجهات REST",
+   "النشر"
+  ],
+  "roles": [
+   "Django developer",
+   "Python backend developer"
+  ],
+  "roles_ar": [
+   "مطوّر Django",
+   "مطوّر باك إند بايثون"
+  ],
+  "outcome": "You can build, secure and deploy a Django app.",
+  "outcome_ar": "تستطيع بناء تطبيق Django وتأمينه ونشره."
+ },
+ "ruby": {
+  "what": "Ruby is a friendly language known for readable code and for Rails.",
+  "what_ar": "Ruby لغة ودودة معروفة بكودها المقروء وبإطار Rails.",
+  "skills": [
+   "Core syntax",
+   "Objects and blocks",
+   "Gems",
+   "Testing with RSpec"
+  ],
+  "skills_ar": [
+   "القواعد الأساسية",
+   "الكائنات والكتل",
+   "الـ Gems",
+   "الاختبار بـ RSpec"
+  ],
+  "roles": [
+   "Ruby developer",
+   "Rails developer"
+  ],
+  "roles_ar": [
+   "مطوّر Ruby",
+   "مطوّر Rails"
+  ],
+  "outcome": "You can write and test idiomatic Ruby.",
+  "outcome_ar": "تستطيع كتابة Ruby اصطلاحية واختبارها."
+ },
+ "rails": {
+  "what": "Ruby on Rails is a framework for building full web apps quickly.",
+  "what_ar": "Ruby on Rails إطار لبناء تطبيقات ويب كاملة بسرعة.",
+  "skills": [
+   "MVC",
+   "Active Record",
+   "Routing",
+   "Hotwire",
+   "Testing",
+   "Deployment"
+  ],
+  "skills_ar": [
+   "MVC",
+   "Active Record",
+   "التنقل",
+   "Hotwire",
+   "الاختبارات",
+   "النشر"
+  ],
+  "roles": [
+   "Rails developer",
+   "Full-stack developer"
+  ],
+  "roles_ar": [
+   "مطوّر Rails",
+   "مطوّر Full-stack"
+  ],
+  "outcome": "You can build and deploy a full Rails application.",
+  "outcome_ar": "تستطيع بناء تطبيق Rails كامل ونشره."
+ },
+ "scala": {
+  "what": "Scala combines object-oriented and functional programming on the JVM, and is used for big data.",
+  "what_ar": "Scala تجمع البرمجة كائنية التوجه والوظيفية على JVM، وتُستخدم في البيانات الضخمة.",
+  "skills": [
+   "Functional programming",
+   "Types",
+   "Collections",
+   "sbt",
+   "Spark"
+  ],
+  "skills_ar": [
+   "البرمجة الوظيفية",
+   "الأنواع",
+   "المجموعات",
+   "sbt",
+   "Spark"
+  ],
+  "roles": [
+   "Scala developer",
+   "Data engineer"
+  ],
+  "roles_ar": [
+   "مطوّر Scala",
+   "مهندس بيانات"
+  ],
+  "outcome": "You can write functional Scala and use it with Spark.",
+  "outcome_ar": "تستطيع كتابة Scala وظيفية واستخدامها مع Spark."
+ },
+ "r": {
+  "what": "R is a language built for statistics, data analysis and research graphics.",
+  "what_ar": "R لغة مصممة للإحصاء وتحليل البيانات ورسوم الأبحاث.",
+  "skills": [
+   "R basics",
+   "Data wrangling with the tidyverse",
+   "ggplot2",
+   "Statistical modelling",
+   "Packages"
+  ],
+  "skills_ar": [
+   "أساسيات R",
+   "معالجة البيانات بـ tidyverse",
+   "ggplot2",
+   "النمذجة الإحصائية",
+   "الحزم"
+  ],
+  "roles": [
+   "Data analyst",
+   "Statistician",
+   "Researcher"
+  ],
+  "roles_ar": [
+   "محلل بيانات",
+   "إحصائي",
+   "باحث"
+  ],
+  "outcome": "You can analyse data and publish clear graphics in R.",
+  "outcome_ar": "تستطيع تحليل البيانات ونشر رسوم واضحة بـ R."
+ },
+ "html": {
+  "what": "HTML gives web pages their structure and meaning.",
+  "what_ar": "HTML يمنح صفحات الويب بنيتها ومعناها.",
+  "skills": [
+   "Elements and semantics",
+   "Links and media",
+   "Forms",
+   "Accessibility"
+  ],
+  "skills_ar": [
+   "العناصر والدلالات",
+   "الروابط والوسائط",
+   "النماذج",
+   "إمكانية الوصول"
+  ],
+  "roles": [
+   "Web developer",
+   "Frontend developer"
+  ],
+  "roles_ar": [
+   "مطوّر ويب",
+   "مطوّر واجهات أمامية"
+  ],
+  "outcome": "You can write well-structured, accessible pages.",
+  "outcome_ar": "تستطيع كتابة صفحات منظّمة وسهلة الوصول."
+ },
+ "css": {
+  "what": "CSS controls how web pages look and lay out on every screen.",
+  "what_ar": "CSS يتحكم في شكل صفحات الويب وتخطيطها على كل الشاشات.",
+  "skills": [
+   "Selectors and the cascade",
+   "The box model",
+   "Flexbox and grid",
+   "Responsive design"
+  ],
+  "skills_ar": [
+   "المحددات والتتالي",
+   "نموذج الصندوق",
+   "Flexbox وGrid",
+   "التصميم المتجاوب"
+  ],
+  "roles": [
+   "Frontend developer",
+   "Web designer"
+  ],
+  "roles_ar": [
+   "مطوّر واجهات أمامية",
+   "مصمم ويب"
+  ],
+  "outcome": "You can build responsive layouts from any design.",
+  "outcome_ar": "تستطيع بناء تخطيطات متجاوبة لأي تصميم."
+ },
+ "graphql": {
+  "what": "GraphQL is a query language for APIs that lets clients ask for exactly the data they need.",
+  "what_ar": "GraphQL لغة استعلام للواجهات البرمجية تتيح للعميل طلب البيانات التي يحتاجها بالضبط.",
+  "skills": [
+   "Schemas and types",
+   "Queries and mutations",
+   "Resolvers",
+   "Clients"
+  ],
+  "skills_ar": [
+   "المخططات والأنواع",
+   "الاستعلامات والتعديلات",
+   "المحللات",
+   "العملاء"
+  ],
+  "roles": [
+   "Backend developer",
+   "Full-stack developer"
+  ],
+  "roles_ar": [
+   "مطوّر باك إند",
+   "مطوّر Full-stack"
+  ],
+  "outcome": "You can design and build a GraphQL API and a client for it.",
+  "outcome_ar": "تستطيع تصميم واجهة GraphQL وبناءها وبناء عميل لها."
+ },
+ "system-design": {
+  "what": "System design is planning how large software systems fit together so they stay fast and reliable.",
+  "what_ar": "تصميم الأنظمة هو التخطيط لكيفية تكامل الأنظمة البرمجية الكبيرة لتبقى سريعة وموثوقة.",
+  "skills": [
+   "Scalability building blocks",
+   "Caching and queues",
+   "Databases at scale",
+   "Distributed systems",
+   "Trade-offs"
+  ],
+  "skills_ar": [
+   "مكوّنات التوسّع",
+   "التخزين المؤقت والطوابير",
+   "قواعد البيانات على نطاق واسع",
+   "الأنظمة الموزعة",
+   "المفاضلات"
+  ],
+  "roles": [
+   "Senior software engineer",
+   "Software architect"
+  ],
+  "roles_ar": [
+   "مهندس برمجيات أول",
+   "معماري برمجيات"
+  ],
+  "outcome": "You can design a scalable system and defend your choices in an interview.",
+  "outcome_ar": "تستطيع تصميم نظام قابل للتوسّع والدفاع عن اختياراتك في مقابلة."
+ },
+ "api-design": {
+  "what": "API design is deciding how software talks to other software, so others can build on it easily.",
+  "what_ar": "تصميم الواجهات البرمجية هو تحديد كيف تتواصل البرمجيات مع بعضها، ليبني عليها الآخرون بسهولة.",
+  "skills": [
+   "HTTP",
+   "REST conventions",
+   "OpenAPI",
+   "API security",
+   "GraphQL and gRPC"
+  ],
+  "skills_ar": [
+   "HTTP",
+   "أعراف REST",
+   "OpenAPI",
+   "أمان الواجهات البرمجية",
+   "GraphQL وgRPC"
+  ],
+  "roles": [
+   "Backend developer",
+   "API product engineer"
+  ],
+  "roles_ar": [
+   "مطوّر باك إند",
+   "مهندس منتجات واجهات برمجية"
+  ],
+  "outcome": "You can design, document and secure an API others want to use.",
+  "outcome_ar": "تستطيع تصميم واجهة برمجية وتوثيقها وتأمينها يرغب الآخرون في استخدامها."
+ },
+ "software-design": {
+  "what": "Software design is how you structure code so it stays easy to change.",
+  "what_ar": "تصميم البرمجيات هو كيف تنظّم الكود ليبقى سهل التغيير.",
+  "skills": [
+   "Design patterns",
+   "Modularity",
+   "Domain modelling",
+   "Architecture decisions"
+  ],
+  "skills_ar": [
+   "أنماط التصميم",
+   "التقسيم إلى وحدات",
+   "نمذجة المجال",
+   "قرارات البنية"
+  ],
+  "roles": [
+   "Software engineer",
+   "Tech lead"
+  ],
+  "roles_ar": [
+   "مهندس برمجيات",
+   "قائد تقني"
+  ],
+  "outcome": "You can structure a codebase and explain why.",
+  "outcome_ar": "تستطيع تنظيم قاعدة كود وشرح السبب."
+ },
+ "design-system": {
+  "what": "A design system is a shared set of components, styles and rules that keeps a product consistent.",
+  "what_ar": "نظام التصميم مجموعة مشتركة من المكوّنات والأنماط والقواعد تحافظ على اتساق المنتج.",
+  "skills": [
+   "Atomic design",
+   "Design tokens",
+   "Component documentation",
+   "Accessibility",
+   "Governance"
+  ],
+  "skills_ar": [
+   "التصميم الذري",
+   "رموز التصميم",
+   "توثيق المكوّنات",
+   "إمكانية الوصول",
+   "الحوكمة"
+  ],
+  "roles": [
+   "Design system designer",
+   "Design engineer",
+   "Frontend developer"
+  ],
+  "roles_ar": [
+   "مصمم أنظمة تصميم",
+   "مهندس تصميم",
+   "مطوّر واجهات أمامية"
+  ],
+  "outcome": "You can build and document a component library teams adopt.",
+  "outcome_ar": "تستطيع بناء مكتبة مكوّنات وتوثيقها لتتبناها الفرق."
+ },
+ "prompt-engineering": {
+  "what": "Prompt engineering is writing instructions and context that get dependable results from AI models.",
+  "what_ar": "هندسة التعليمات هي كتابة تعليمات وسياق يحققان نتائج موثوقة من نماذج الذكاء الاصطناعي.",
+  "skills": [
+   "Clear instructions",
+   "Examples and structure",
+   "Chain of thought",
+   "Using tools",
+   "Testing prompts"
+  ],
+  "skills_ar": [
+   "تعليمات واضحة",
+   "الأمثلة والبنية",
+   "التفكير خطوة بخطوة",
+   "استخدام الأدوات",
+   "اختبار التعليمات"
+  ],
+  "roles": [
+   "AI engineer",
+   "Prompt engineer",
+   "Any knowledge worker"
+  ],
+  "roles_ar": [
+   "مهندس ذكاء اصطناعي",
+   "مهندس تعليمات",
+   "أي عامل معرفي"
+  ],
+  "outcome": "You can write and test prompts that work reliably.",
+  "outcome_ar": "تستطيع كتابة تعليمات تعمل بثبات واختبارها."
+ },
+ "ai-agents": {
+  "what": "AI agents are systems where a model plans steps and uses tools to complete a task.",
+  "what_ar": "وكلاء الذكاء الاصطناعي أنظمة يخطط فيها النموذج للخطوات ويستخدم الأدوات لإنجاز مهمة.",
+  "skills": [
+   "Agent patterns",
+   "Tool calling",
+   "MCP",
+   "Agent frameworks",
+   "Evaluation"
+  ],
+  "skills_ar": [
+   "أنماط الوكلاء",
+   "استدعاء الأدوات",
+   "MCP",
+   "أطر الوكلاء",
+   "التقييم"
+  ],
+  "roles": [
+   "AI engineer",
+   "Agent developer"
+  ],
+  "roles_ar": [
+   "مهندس ذكاء اصطناعي",
+   "مطوّر وكلاء"
+  ],
+  "outcome": "You can build, evaluate and limit a tool-using agent.",
+  "outcome_ar": "تستطيع بناء وكيل يستخدم الأدوات وتقييمه وضبط حدوده."
+ },
+ "python-data": {
+  "what": "Python is the most common tool for data analysis beyond spreadsheets.",
+  "what_ar": "بايثون هي الأداة الأكثر شيوعًا لتحليل البيانات بعد الجداول.",
+  "skills": [
+   "pandas",
+   "Data cleaning",
+   "Visualisation",
+   "Jupyter notebooks"
+  ],
+  "skills_ar": [
+   "pandas",
+   "تنظيف البيانات",
+   "التصوير البصري",
+   "دفاتر Jupyter"
+  ],
+  "roles": [
+   "Data analyst",
+   "Data scientist"
+  ],
+  "roles_ar": [
+   "محلل بيانات",
+   "عالم بيانات"
+  ],
+  "outcome": "You can analyse a dataset in Python and share the results.",
+  "outcome_ar": "تستطيع تحليل مجموعة بيانات ببايثون ومشاركة النتائج."
+ },
+ "power-bi": {
+  "what": "Power BI is Microsoft's tool for business dashboards and reports.",
+  "what_ar": "Power BI أداة Microsoft للوحات وتقارير الأعمال.",
+  "skills": [
+   "Power Query",
+   "Data modelling",
+   "DAX",
+   "Report design"
+  ],
+  "skills_ar": [
+   "Power Query",
+   "نمذجة البيانات",
+   "DAX",
+   "تصميم التقارير"
+  ],
+  "roles": [
+   "BI analyst",
+   "Data analyst"
+  ],
+  "roles_ar": [
+   "محلل ذكاء أعمال",
+   "محلل بيانات"
+  ],
+  "outcome": "You can build a correct, fast Power BI report.",
+  "outcome_ar": "تستطيع بناء تقرير Power BI صحيح وسريع."
+ },
+ "mongodb": {
+  "what": "MongoDB is a document database that stores data as flexible JSON-like documents.",
+  "what_ar": "MongoDB قاعدة بيانات مستندات تخزّن البيانات كمستندات مرنة شبيهة بـ JSON.",
+  "skills": [
+   "CRUD",
+   "Data modelling",
+   "Aggregation",
+   "Indexes"
+  ],
+  "skills_ar": [
+   "العمليات الأساسية",
+   "نمذجة البيانات",
+   "التجميع",
+   "الفهارس"
+  ],
+  "roles": [
+   "Backend developer",
+   "Database developer"
+  ],
+  "roles_ar": [
+   "مطوّر باك إند",
+   "مطوّر قواعد بيانات"
+  ],
+  "outcome": "You can model and query data efficiently in MongoDB.",
+  "outcome_ar": "تستطيع نمذجة البيانات والاستعلام عنها بكفاءة في MongoDB."
+ },
+ "redis": {
+  "what": "Redis is an in-memory data store used for caching, queues and real-time features.",
+  "what_ar": "Redis مخزن بيانات في الذاكرة يُستخدم للتخزين المؤقت والطوابير والميزات الفورية.",
+  "skills": [
+   "Data types",
+   "Caching patterns",
+   "Pub/sub and streams",
+   "Persistence"
+  ],
+  "skills_ar": [
+   "أنواع البيانات",
+   "أنماط التخزين المؤقت",
+   "النشر والاشتراك والتدفقات",
+   "الاستمرارية"
+  ],
+  "roles": [
+   "Backend developer",
+   "Site reliability engineer"
+  ],
+  "roles_ar": [
+   "مطوّر باك إند",
+   "مهندس اعتمادية المواقع"
+  ],
+  "outcome": "You can use Redis safely for caching and queues.",
+  "outcome_ar": "تستطيع استخدام Redis بأمان للتخزين المؤقت والطوابير."
+ },
+ "elasticsearch": {
+  "what": "Elasticsearch is a search engine used for site search, logs and analytics.",
+  "what_ar": "Elasticsearch محرك بحث يُستخدم للبحث في المواقع والسجلات والتحليلات.",
+  "skills": [
+   "How search works",
+   "Indexing and mappings",
+   "Query DSL",
+   "Relevance"
+  ],
+  "skills_ar": [
+   "كيف يعمل البحث",
+   "الفهرسة والتعيينات",
+   "Query DSL",
+   "الصلة"
+  ],
+  "roles": [
+   "Search engineer",
+   "Backend developer"
+  ],
+  "roles_ar": [
+   "مهندس بحث",
+   "مطوّر باك إند"
+  ],
+  "outcome": "You can build a relevant search feature.",
+  "outcome_ar": "تستطيع بناء ميزة بحث تعطي نتائج ملائمة."
+ },
+ "linux": {
+  "what": "Linux runs most servers and the cloud. Knowing it is essential for backend, DevOps and security work.",
+  "what_ar": "لينكس يشغّل معظم الخوادم والسحابة، ومعرفته ضرورية للباك إند وDevOps والأمن.",
+  "skills": [
+   "The shell",
+   "Files and permissions",
+   "Processes",
+   "Package management",
+   "Scripting"
+  ],
+  "skills_ar": [
+   "الطرفية",
+   "الملفات والصلاحيات",
+   "العمليات",
+   "إدارة الحزم",
+   "السكربتات"
+  ],
+  "roles": [
+   "System administrator",
+   "DevOps engineer"
+  ],
+  "roles_ar": [
+   "مدير أنظمة",
+   "مهندس DevOps"
+  ],
+  "outcome": "You can manage a Linux machine from the terminal.",
+  "outcome_ar": "تستطيع إدارة جهاز لينكس من الطرفية."
+ },
+ "shell-bash": {
+  "what": "Shell scripting automates repetitive work in the terminal.",
+  "what_ar": "كتابة سكربتات Shell تؤتمت العمل المتكرر في الطرفية.",
+  "skills": [
+   "Commands and pipes",
+   "Variables and conditions",
+   "Loops",
+   "Safe scripting"
+  ],
+  "skills_ar": [
+   "الأوامر والأنابيب",
+   "المتغيرات والشروط",
+   "الحلقات",
+   "كتابة سكربتات آمنة"
+  ],
+  "roles": [
+   "DevOps engineer",
+   "System administrator"
+  ],
+  "roles_ar": [
+   "مهندس DevOps",
+   "مدير أنظمة"
+  ],
+  "outcome": "You can write shell scripts that are safe to run.",
+  "outcome_ar": "تستطيع كتابة سكربتات آمنة التشغيل."
+ },
+ "git-github": {
+  "what": "Git tracks changes to code. GitHub is where teams share it and work together.",
+  "what_ar": "Git يتتبّع التغييرات في الكود، وGitHub هو مكان مشاركته والتعاون عليه.",
+  "skills": [
+   "Commits and branches",
+   "Merging and rebasing",
+   "Pull requests",
+   "Code review",
+   "GitHub Actions"
+  ],
+  "skills_ar": [
+   "الـ commits والفروع",
+   "الدمج وإعادة التأسيس",
+   "طلبات الدمج",
+   "مراجعة الكود",
+   "GitHub Actions"
+  ],
+  "roles": [
+   "Every developer"
+  ],
+  "roles_ar": [
+   "كل مطوّر"
+  ],
+  "outcome": "You can work on a team codebase with Git and GitHub confidently.",
+  "outcome_ar": "تستطيع العمل على قاعدة كود جماعية باستخدام Git وGitHub بثقة."
+ },
+ "docker": {
+  "what": "Docker packages software with everything it needs so it runs the same everywhere.",
+  "what_ar": "Docker يغلّف البرمجيات مع كل ما تحتاجه لتعمل بنفس الطريقة في كل مكان.",
+  "skills": [
+   "Images and containers",
+   "Dockerfiles",
+   "Compose",
+   "Image security"
+  ],
+  "skills_ar": [
+   "الصور والحاويات",
+   "ملفات Dockerfile",
+   "Compose",
+   "أمان الصور"
+  ],
+  "roles": [
+   "DevOps engineer",
+   "Backend developer"
+  ],
+  "roles_ar": [
+   "مهندس DevOps",
+   "مطوّر باك إند"
+  ],
+  "outcome": "You can containerise and run multi-service apps.",
+  "outcome_ar": "تستطيع تغليف تطبيقات متعددة الخدمات في حاويات وتشغيلها."
+ },
+ "kubernetes": {
+  "what": "Kubernetes runs and manages containers across many machines.",
+  "what_ar": "Kubernetes يشغّل الحاويات ويديرها عبر أجهزة متعددة.",
+  "skills": [
+   "Pods and deployments",
+   "Services and networking",
+   "Config and secrets",
+   "Helm",
+   "Cluster internals"
+  ],
+  "skills_ar": [
+   "الـ Pods والنشر",
+   "الخدمات والشبكات",
+   "الإعدادات والأسرار",
+   "Helm",
+   "ما بداخل العنقود"
+  ],
+  "roles": [
+   "DevOps engineer",
+   "Platform engineer"
+  ],
+  "roles_ar": [
+   "مهندس DevOps",
+   "مهندس منصات"
+  ],
+  "outcome": "You can deploy and operate apps on Kubernetes.",
+  "outcome_ar": "تستطيع نشر التطبيقات وتشغيلها على Kubernetes."
+ },
+ "terraform": {
+  "what": "Terraform defines cloud infrastructure as code you can review and version.",
+  "what_ar": "Terraform يعرّف البنية التحتية السحابية ككود قابل للمراجعة والإصدار.",
+  "skills": [
+   "HCL",
+   "Providers and resources",
+   "Modules",
+   "State",
+   "Testing"
+  ],
+  "skills_ar": [
+   "HCL",
+   "المزوّدون والموارد",
+   "الوحدات",
+   "الحالة",
+   "الاختبار"
+  ],
+  "roles": [
+   "DevOps engineer",
+   "Cloud engineer"
+  ],
+  "roles_ar": [
+   "مهندس DevOps",
+   "مهندس سحابة"
+  ],
+  "outcome": "You can manage real infrastructure safely with Terraform.",
+  "outcome_ar": "تستطيع إدارة بنية تحتية حقيقية بأمان باستخدام Terraform."
+ },
+ "aws": {
+  "what": "AWS is the largest cloud platform, used to run apps and data at any scale.",
+  "what_ar": "AWS أكبر منصة سحابية، وتُستخدم لتشغيل التطبيقات والبيانات بأي حجم.",
+  "skills": [
+   "IAM",
+   "EC2 and Lambda",
+   "S3",
+   "VPC networking",
+   "Well-architected design"
+  ],
+  "skills_ar": [
+   "IAM",
+   "EC2 وLambda",
+   "S3",
+   "شبكات VPC",
+   "التصميم الجيد"
+  ],
+  "roles": [
+   "Cloud engineer",
+   "Solutions architect"
+  ],
+  "roles_ar": [
+   "مهندس سحابة",
+   "معماري حلول"
+  ],
+  "outcome": "You can build and secure a basic application on AWS.",
+  "outcome_ar": "تستطيع بناء تطبيق أساسي على AWS وتأمينه."
+ },
+ "cloud-computing": {
+  "what": "Cloud computing is renting computing power, storage and services over the internet instead of owning servers.",
+  "what_ar": "الحوسبة السحابية هي استئجار قوة الحوسبة والتخزين والخدمات عبر الإنترنت بدل امتلاك الخوادم.",
+  "skills": [
+   "Cloud models",
+   "A major provider",
+   "Containers",
+   "Infrastructure as code"
+  ],
+  "skills_ar": [
+   "نماذج السحابة",
+   "مزوّد رئيسي",
+   "الحاويات",
+   "البنية التحتية ككود"
+  ],
+  "roles": [
+   "Cloud engineer",
+   "Cloud support associate"
+  ],
+  "roles_ar": [
+   "مهندس سحابة",
+   "مساعد دعم سحابي"
+  ],
+  "outcome": "You understand the cloud and can deploy to a major provider.",
+  "outcome_ar": "تفهم السحابة وتستطيع النشر على مزوّد رئيسي."
+ },
+ "cloudflare": {
+  "what": "Cloudflare runs a global network for DNS, security and apps at the edge.",
+  "what_ar": "Cloudflare تشغّل شبكة عالمية لـ DNS والأمان والتطبيقات عند الحافة.",
+  "skills": [
+   "DNS",
+   "CDN and caching",
+   "Workers",
+   "Pages and R2",
+   "WAF"
+  ],
+  "skills_ar": [
+   "DNS",
+   "شبكات التوزيع والتخزين المؤقت",
+   "Workers",
+   "Pages وR2",
+   "جدار الحماية"
+  ],
+  "roles": [
+   "Web developer",
+   "DevOps engineer"
+  ],
+  "roles_ar": [
+   "مطوّر ويب",
+   "مهندس DevOps"
+  ],
+  "outcome": "You can host, speed up and protect a site on Cloudflare.",
+  "outcome_ar": "تستطيع استضافة موقع وتسريعه وحمايته على Cloudflare."
+ },
+ "dsa": {
+  "what": "Data structures and algorithms are the techniques for organising data and solving problems efficiently.",
+  "what_ar": "هياكل البيانات والخوارزميات هي تقنيات تنظيم البيانات وحل المشكلات بكفاءة.",
+  "skills": [
+   "Complexity",
+   "Arrays, lists and hash tables",
+   "Trees and graphs",
+   "Sorting and searching",
+   "Dynamic programming"
+  ],
+  "skills_ar": [
+   "التعقيد",
+   "المصفوفات والقوائم وجداول التجزئة",
+   "الأشجار والرسوم البيانية",
+   "الفرز والبحث",
+   "البرمجة الديناميكية"
+  ],
+  "roles": [
+   "Software engineer"
+  ],
+  "roles_ar": [
+   "مهندس برمجيات"
+  ],
+  "outcome": "You can choose the right structure and analyse your solution's cost.",
+  "outcome_ar": "تستطيع اختيار الهيكل المناسب وتحليل تكلفة حلّك."
+ },
+ "coding-interviews": {
+  "what": "Coding interviews test problem solving under time pressure.",
+  "what_ar": "مقابلات البرمجة تختبر حل المشكلات تحت ضغط الوقت.",
+  "skills": [
+   "Problem patterns",
+   "Complexity analysis",
+   "Communicating your approach",
+   "Behavioural answers"
+  ],
+  "skills_ar": [
+   "أنماط المسائل",
+   "تحليل التعقيد",
+   "شرح طريقة التفكير",
+   "الإجابات السلوكية"
+  ],
+  "roles": [
+   "Software engineer candidate"
+  ],
+  "roles_ar": [
+   "مرشح لوظيفة مهندس برمجيات"
+  ],
+  "outcome": "You can solve common interview problems and explain your thinking.",
+  "outcome_ar": "تستطيع حل مسائل المقابلات الشائعة وشرح طريقة تفكيرك."
+ },
+ "code-review": {
+  "what": "Code review is checking each other's changes before they ship.",
+  "what_ar": "مراجعة الكود هي فحص تغييرات الزملاء قبل إطلاقها.",
+  "skills": [
+   "What to look for",
+   "Writing helpful comments",
+   "Being reviewed",
+   "Security review"
+  ],
+  "skills_ar": [
+   "ما الذي تبحث عنه",
+   "كتابة تعليقات مفيدة",
+   "تلقّي المراجعة",
+   "المراجعة الأمنية"
+  ],
+  "roles": [
+   "Software engineer",
+   "Tech lead"
+  ],
+  "roles_ar": [
+   "مهندس برمجيات",
+   "قائد تقني"
+  ],
+  "outcome": "You can give and receive reviews that improve code and teams.",
+  "outcome_ar": "تستطيع تقديم مراجعات وتلقّيها بما يحسّن الكود والفرق."
+ },
+ "wordpress": {
+  "what": "WordPress runs a large share of websites, from blogs to shops.",
+  "what_ar": "WordPress يشغّل نسبة كبيرة من المواقع، من المدونات إلى المتاجر.",
+  "skills": [
+   "Site building",
+   "Themes",
+   "Plugins",
+   "Blocks",
+   "Security"
+  ],
+  "skills_ar": [
+   "بناء المواقع",
+   "القوالب",
+   "الإضافات",
+   "الكتل",
+   "الأمان"
+  ],
+  "roles": [
+   "WordPress developer",
+   "Web developer"
+  ],
+  "roles_ar": [
+   "مطوّر WordPress",
+   "مطوّر ويب"
+  ],
+  "outcome": "You can build and secure custom WordPress sites.",
+  "outcome_ar": "تستطيع بناء مواقع WordPress مخصصة وتأمينها."
+ },
+ "seo": {
+  "what": "SEO is making websites easy for search engines to find, understand and rank.",
+  "what_ar": "تحسين محركات البحث هو جعل المواقع سهلة الاكتشاف والفهم والترتيب لدى محركات البحث.",
+  "skills": [
+   "How search works",
+   "On-page SEO",
+   "Technical SEO",
+   "Structured data",
+   "Measuring results"
+  ],
+  "skills_ar": [
+   "كيف يعمل البحث",
+   "التحسين داخل الصفحة",
+   "التحسين التقني",
+   "البيانات المنظّمة",
+   "قياس النتائج"
+  ],
+  "roles": [
+   "SEO specialist",
+   "Content marketer",
+   "Web developer"
+  ],
+  "roles_ar": [
+   "أخصائي تحسين محركات البحث",
+   "مسوّق محتوى",
+   "مطوّر ويب"
+  ],
+  "outcome": "You can audit and improve a site's search visibility.",
+  "outcome_ar": "تستطيع تدقيق ظهور موقع في البحث وتحسينه."
+ },
+ "claude-code": {
+  "what": "Claude Code is Anthropic's coding agent that works in your terminal and editor.",
+  "what_ar": "Claude Code هو وكيل البرمجة من Anthropic الذي يعمل في الطرفية والمحرّر.",
+  "skills": [
+   "Sessions and commands",
+   "Project memory (CLAUDE.md)",
+   "Reviewing changes",
+   "Hooks",
+   "MCP tools"
+  ],
+  "skills_ar": [
+   "الجلسات والأوامر",
+   "ذاكرة المشروع (CLAUDE.md)",
+   "مراجعة التغييرات",
+   "الـ Hooks",
+   "أدوات MCP"
+  ],
+  "roles": [
+   "Developer using AI tools"
+  ],
+  "roles_ar": [
+   "مطوّر يستخدم أدوات الذكاء الاصطناعي"
+  ],
+  "outcome": "You can use Claude Code productively and safely on real projects.",
+  "outcome_ar": "تستطيع استخدام Claude Code بإنتاجية وأمان في مشاريع حقيقية."
+ },
+ "codex": {
+  "what": "Codex is OpenAI's coding agent for writing and changing code.",
+  "what_ar": "Codex هو وكيل البرمجة من OpenAI لكتابة الكود وتعديله.",
+  "skills": [
+   "Running the agent",
+   "Giving context with AGENTS.md",
+   "Reviewing changes"
+  ],
+  "skills_ar": [
+   "تشغيل الوكيل",
+   "إعطاء السياق عبر AGENTS.md",
+   "مراجعة التغييرات"
+  ],
+  "roles": [
+   "Developer using AI tools"
+  ],
+  "roles_ar": [
+   "مطوّر يستخدم أدوات الذكاء الاصطناعي"
+  ],
+  "outcome": "You can use Codex on real projects and review what it changes.",
+  "outcome_ar": "تستطيع استخدام Codex في مشاريع حقيقية ومراجعة تغييراته."
+ },
+ "vibe-coding": {
+  "what": "Building with AI assistants means describing what you want and steering an AI that writes the code.",
+  "what_ar": "البناء بمساعدة الذكاء الاصطناعي يعني وصف ما تريد وتوجيه ذكاء اصطناعي يكتب الكود.",
+  "skills": [
+   "Reading code",
+   "Prompting",
+   "Version control",
+   "Security basics",
+   "Deployment"
+  ],
+  "skills_ar": [
+   "قراءة الكود",
+   "كتابة التعليمات",
+   "التحكم بالإصدارات",
+   "أساسيات الأمان",
+   "النشر"
+  ],
+  "roles": [
+   "Founder",
+   "Product builder",
+   "Developer"
+  ],
+  "roles_ar": [
+   "مؤسس",
+   "صانع منتجات",
+   "مطوّر"
+  ],
+  "outcome": "You can build and ship a small app with AI help, and understand what it does.",
+  "outcome_ar": "تستطيع بناء تطبيق صغير بمساعدة الذكاء الاصطناعي وإطلاقه وفهم ما يفعله."
+ },
+ "openclaw": {
+  "what": "OpenClaw is an open-source framework for running your own AI agent, connected to chat apps and tools.",
+  "what_ar": "OpenClaw إطار مفتوح المصدر لتشغيل وكيل ذكاء اصطناعي خاص بك، متصل بتطبيقات المحادثة والأدوات.",
+  "skills": [
+   "Installation",
+   "Agent concepts",
+   "Tools and memory",
+   "Security for agents"
+  ],
+  "skills_ar": [
+   "التثبيت",
+   "مفاهيم الوكلاء",
+   "الأدوات والذاكرة",
+   "أمان الوكلاء"
+  ],
+  "roles": [
+   "Developer",
+   "Power user"
+  ],
+  "roles_ar": [
+   "مطوّر",
+   "مستخدم متقدم"
+  ],
+  "outcome": "You can run your own agent and limit what it's allowed to do.",
+  "outcome_ar": "تستطيع تشغيل وكيلك الخاص وتحديد ما يُسمح له بفعله."
+ }
+}

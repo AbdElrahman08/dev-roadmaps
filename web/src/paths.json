@@ -13,7 +13,9 @@
       "khan-programming"
      ],
      "title_ar": "فكّر كمبرمج",
-     "why_ar": "تعلّم ما يفعله الكود فعلًا، من خلال كورس واحد ممتاز مع تمارين حقيقية."
+     "why_ar": "تعلّم ما يفعله الكود فعلًا، من خلال كورس واحد ممتاز مع تمارين حقيقية.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Get fluent in one language",
@@ -24,7 +26,9 @@
       "fcc-python"
      ],
      "title_ar": "أتقن لغة واحدة",
-     "why_ar": "بايثون سهلة البداية وتُستخدم في الويب والبيانات والذكاء الاصطناعي."
+     "why_ar": "بايثون سهلة البداية وتُستخدم في الويب والبيانات والذكاء الاصطناعي.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Use the tools every developer uses",
@@ -34,7 +38,23 @@
       "progit"
      ],
      "title_ar": "استخدم أدوات كل مطوّر",
-     "why_ar": "سطر الأوامر وGit والمحرّر هي ما يفصل الدروس عن العمل الحقيقي."
+     "why_ar": "سطر الأوامر وGit والمحرّر هي ما يفصل الدروس عن العمل الحقيقي.",
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
+     ]
     }
    ],
    "category": "start",
@@ -47,6 +67,18 @@
    "for": "People who want to build websites and web apps people see and use.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "HTML and CSS",
      "why": "Structure and layout come first. Build pages that work on phones.",
      "courses": [
@@ -55,7 +87,9 @@
       "webdev-css"
      ],
      "title_ar": "HTML وCSS",
-     "why_ar": "البنية والتنسيق أولًا. صمّم صفحات تعمل على الموبايل."
+     "why_ar": "البنية والتنسيق أولًا. صمّم صفحات تعمل على الموبايل.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "JavaScript",
@@ -66,7 +100,9 @@
       "mdn-learn"
      ],
      "title_ar": "JavaScript",
-     "why_ar": "لغة المتصفح. تعلّمها جيدًا قبل أي إطار عمل."
+     "why_ar": "لغة المتصفح. تعلّمها جيدًا قبل أي إطار عمل.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "A framework and real apps",
@@ -77,7 +113,9 @@
       "odin-fsjs"
      ],
      "title_ar": "إطار عمل وتطبيقات حقيقية",
-     "why_ar": "React منتشر جدًا. تعلّمه من خلال مشاريع حقيقية."
+     "why_ar": "React منتشر جدًا. تعلّمه من خلال مشاريع حقيقية.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Quality",
@@ -87,7 +125,25 @@
       "ts-handbook"
      ],
      "title_ar": "الجودة",
-     "why_ar": "إمكانية الوصول وأنواع TypeScript تجعل عملك قابلًا للاستخدام والصيانة."
+     "why_ar": "إمكانية الوصول وأنواع TypeScript تجعل عملك قابلًا للاستخدام والصيانة.",
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
+     ]
     }
    ],
    "category": "role",
@@ -100,6 +156,19 @@
    "for": "People who want to build the servers, APIs and databases behind apps.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Databases and SQL",
      "why": "Almost every backend stores data. SQL is the skill that lasts longest.",
      "courses": [
@@ -108,7 +177,9 @@
       "pg-tutorial"
      ],
      "title_ar": "قواعد البيانات وSQL",
-     "why_ar": "تقريبًا كل باك إند يخزّن بيانات، وSQL مهارة تدوم طويلًا."
+     "why_ar": "تقريبًا كل باك إند يخزّن بيانات، وSQL مهارة تدوم طويلًا.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build APIs",
@@ -120,7 +191,9 @@
       "fcc-backend"
      ],
      "title_ar": "ابنِ واجهات API",
-     "why_ar": "اختر بيئة واحدة (بايثون أو JavaScript) وابنِ endpoints حقيقية."
+     "why_ar": "اختر بيئة واحدة (بايثون أو JavaScript) وابنِ endpoints حقيقية.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Security and depth",
@@ -130,7 +203,25 @@
       "cmu-db"
      ],
      "title_ar": "الأمان والعمق",
-     "why_ar": "اعرف الثغرات الشائعة، ثم تعلّم كيف تعمل قواعد البيانات من الداخل."
+     "why_ar": "اعرف الثغرات الشائعة، ثم تعلّم كيف تعمل قواعد البيانات من الداخل.",
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
+     ]
     }
    ],
    "category": "role",
@@ -143,6 +234,17 @@
    "for": "People who want to answer business questions with data.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. A first taste of Python and the statistics you'll use every day.",
+     "why_ar": "لا تحتاج خبرة. أول خطوة في بايثون والإحصاء الذي ستستخدمه يوميًا.",
+     "courses": [
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Python and SQL basics",
      "why": "The two tools almost every analyst job asks for.",
      "courses": [
@@ -151,7 +253,9 @@
       "kg-pandas"
      ],
      "title_ar": "أساسيات بايثون وSQL",
-     "why_ar": "الأداتان اللتان تطلبهما معظم وظائف التحليل."
+     "why_ar": "الأداتان اللتان تطلبهما معظم وظائف التحليل.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Statistics you'll actually use",
@@ -160,7 +264,9 @@
       "khan-stats"
      ],
      "title_ar": "الإحصاء الذي ستستخدمه فعلًا",
-     "why_ar": "المتوسطات والتشتت والعيّنات والاختبارات، حتى تصمد استنتاجاتك."
+     "why_ar": "المتوسطات والتشتت والعيّنات والاختبارات، حتى تصمد استنتاجاتك.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Analysis and visualization",
@@ -171,7 +277,9 @@
       "pyda"
      ],
      "title_ar": "التحليل والتصوير",
-     "why_ar": "حوّل البيانات إلى رسوم ونتائج يمكن التصرف بناءً عليها."
+     "why_ar": "حوّل البيانات إلى رسوم ونتائج يمكن التصرف بناءً عليها.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "BI tools or R",
@@ -181,7 +289,22 @@
       "r4ds"
      ],
      "title_ar": "أدوات BI أو R",
-     "why_ar": "Power BI للوحات الأعمال، أو R إن كنت تتجه نحو البحث."
+     "why_ar": "Power BI للوحات الأعمال، أو R إن كنت تتجه نحو البحث.",
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
+     ]
     }
    ],
    "category": "role",
@@ -194,6 +317,17 @@
    "for": "People who want to train and evaluate models, with the maths behind them.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "Start with programming and the maths: probability, statistics and linear algebra.",
+     "why_ar": "ابدأ بالبرمجة والرياضيات: الاحتمالات والإحصاء والجبر الخطي.",
+     "courses": [
+      "cs50p"
+     ]
+    },
+    {
      "title": "The maths",
      "why": "Linear algebra and probability are the language of ML.",
      "courses": [
@@ -202,7 +336,9 @@
       "khan-stats"
      ],
      "title_ar": "الرياضيات",
-     "why_ar": "الجبر الخطي والاحتمالات هما لغة التعلّم الآلي."
+     "why_ar": "الجبر الخطي والاحتمالات هما لغة التعلّم الآلي.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Classical ML",
@@ -214,7 +350,9 @@
       "islp"
      ],
      "title_ar": "التعلّم الآلي الكلاسيكي",
-     "why_ar": "الانحدار والأشجار والتقييم ما زالت تحل معظم المشكلات الحقيقية."
+     "why_ar": "الانحدار والأشجار والتقييم ما زالت تحل معظم المشكلات الحقيقية.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Deep learning",
@@ -225,7 +363,9 @@
       "d2l"
      ],
      "title_ar": "التعلّم العميق",
-     "why_ar": "الشبكات العصبية من التطبيق العملي إلى النظرية."
+     "why_ar": "الشبكات العصبية من التطبيق العملي إلى النظرية.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Theory",
@@ -234,7 +374,23 @@
       "cs229"
      ],
      "title_ar": "النظرية",
-     "why_ar": "لمن يستهدف البحث أو الدراسات العليا."
+     "why_ar": "لمن يستهدف البحث أو الدراسات العليا.",
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Compete, publish your projects, then prepare for ML interviews.",
+     "why_ar": "نافس وانشر مشاريعك، ثم استعد لمقابلات التعلّم الآلي.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "chip-machine-learning-interviews-book",
+      "yangshun-tech-interview-handbook"
+     ]
     }
    ],
    "category": "role",
@@ -247,6 +403,19 @@
    "for": "Developers building products on large language models.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "How LLMs work",
      "why": "Build a small language model yourself, so the APIs stop being magic.",
      "courses": [
@@ -254,7 +423,9 @@
       "hf-llm"
      ],
      "title_ar": "كيف تعمل نماذج اللغة",
-     "why_ar": "ابنِ نموذج لغة صغيرًا بنفسك حتى تفهم ما وراء الـ API."
+     "why_ar": "ابنِ نموذج لغة صغيرًا بنفسك حتى تفهم ما وراء الـ API.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Prompting and tool use",
@@ -265,7 +436,9 @@
       "oai-cookbook"
      ],
      "title_ar": "كتابة التعليمات واستخدام الأدوات",
-     "why_ar": "معظم جودة المنتج تأتي من التعليمات والسياق والأدوات."
+     "why_ar": "معظم جودة المنتج تأتي من التعليمات والسياق والأدوات.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Agents",
@@ -274,7 +447,9 @@
       "hf-agents"
      ],
      "title_ar": "الوكلاء",
-     "why_ar": "التخطيط واستدعاء الأدوات والتعافي من الأخطاء."
+     "why_ar": "التخطيط واستدعاء الأدوات والتعافي من الأخطاء.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Shipping it",
@@ -284,7 +459,25 @@
       "madewithml"
      ],
      "title_ar": "الإطلاق",
-     "why_ar": "التقييم والنشر والمراقبة في بيئة الإنتاج."
+     "why_ar": "التقييم والنشر والمراقبة في بيئة الإنتاج.",
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
+     ]
     }
    ],
    "category": "role",
@@ -297,6 +490,18 @@
    "for": "People who want to build, ship and run software reliably.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center"
+     ]
+    },
+    {
      "title": "Linux and the shell",
      "why": "Servers run Linux. You'll live in the terminal.",
      "courses": [
@@ -304,7 +509,9 @@
       "missing"
      ],
      "title_ar": "لينكس وسطر الأوامر",
-     "why_ar": "الخوادم تعمل بلينكس، وستقضي وقتك في الطرفية."
+     "why_ar": "الخوادم تعمل بلينكس، وستقضي وقتك في الطرفية.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Containers",
@@ -314,7 +521,9 @@
       "dwd"
      ],
      "title_ar": "الحاويات",
-     "why_ar": "Docker هو الطريقة القياسية لتغليف البرمجيات."
+     "why_ar": "Docker هو الطريقة القياسية لتغليف البرمجيات.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Automation and CI/CD",
@@ -324,7 +533,9 @@
       "tf-tut"
      ],
      "title_ar": "الأتمتة وCI/CD",
-     "why_ar": "كل تغيير يُبنى ويُختبر ويُنشر تلقائيًا."
+     "why_ar": "كل تغيير يُبنى ويُختبر ويُنشر تلقائيًا.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Orchestration and the cloud",
@@ -335,7 +546,9 @@
       "az-fund"
      ],
      "title_ar": "التنسيق والسحابة",
-     "why_ar": "شغّل الحاويات على نطاق واسع وافهم مكوّنات السحابة."
+     "why_ar": "شغّل الحاويات على نطاق واسع وافهم مكوّنات السحابة.",
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Reliability",
@@ -344,7 +557,25 @@
       "sre-books"
      ],
      "title_ar": "الاعتمادية",
-     "why_ar": "كيف تحافظ الفرق الكبيرة على عمل الأنظمة."
+     "why_ar": "كيف تحافظ الفرق الكبيرة على عمل الأنظمة.",
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
+     ]
     }
    ],
    "category": "role",
@@ -357,6 +588,19 @@
    "for": "People who want to defend systems, or test them with permission.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "Hands-on basics",
      "why": "Learn Linux and security thinking by playing.",
      "courses": [
@@ -364,7 +608,9 @@
       "picoctf"
      ],
      "title_ar": "أساسيات عملية",
-     "why_ar": "تعلّم لينكس والتفكير الأمني من خلال اللعب."
+     "why_ar": "تعلّم لينكس والتفكير الأمني من خلال اللعب.",
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Core concepts",
@@ -375,7 +621,9 @@
       "csb"
      ],
      "title_ar": "المفاهيم الأساسية",
-     "why_ar": "المفاهيم وراء الشهادات المبتدئة، وكيف تنظّم الشركات الأمن."
+     "why_ar": "المفاهيم وراء الشهادات المبتدئة، وكيف تنظّم الشركات الأمن.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Web security",
@@ -385,7 +633,9 @@
       "portswigger"
      ],
      "title_ar": "أمن الويب",
-     "why_ar": "معظم الهجمات تبدأ من تطبيق ويب."
+     "why_ar": "معظم الهجمات تبدأ من تطبيق ويب.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Systems security",
@@ -394,7 +644,21 @@
       "mit-6858"
      ],
      "title_ar": "أمن الأنظمة",
-     "why_ar": "عمق بمستوى جامعي."
+     "why_ar": "عمق بمستوى جامعي.",
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Play capture-the-flag events, write up what you learn, then prepare for interviews.",
+     "why_ar": "شارك في مسابقات CTF واكتب ما تتعلّمه، ثم استعد للمقابلات.",
+     "courses": [
+      "ctftime-ctftime-capture-the-flag-events",
+      "yangshun-tech-interview-handbook"
+     ]
     }
    ],
    "category": "role",
@@ -407,13 +671,28 @@
    "for": "Self-taught developers who want what a CS degree covers.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Maths for CS",
      "why": "Proofs, discrete maths and probability.",
      "courses": [
       "mit-6042"
      ],
      "title_ar": "رياضيات علوم الحاسب",
-     "why_ar": "البراهين والرياضيات المتقطعة والاحتمالات."
+     "why_ar": "البراهين والرياضيات المتقطعة والاحتمالات.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Algorithms and data structures",
@@ -424,7 +703,9 @@
       "erickson"
      ],
      "title_ar": "الخوارزميات وهياكل البيانات",
-     "why_ar": "أساس مقابلات العمل التقنية والكود الفعّال."
+     "why_ar": "أساس مقابلات العمل التقنية والكود الفعّال.",
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "How computers work",
@@ -435,7 +716,25 @@
       "cnsa"
      ],
      "title_ar": "كيف تعمل الحواسيب",
-     "why_ar": "من البوابات المنطقية إلى أنظمة التشغيل والشبكات."
+     "why_ar": "من البوابات المنطقية إلى أنظمة التشغيل والشبكات.",
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
+     ]
     }
    ],
    "category": "cs",
@@ -451,6 +750,18 @@
    "for_ar": "لمن يريد بناء تطبيق ويب كامل، من الصفحة إلى قاعدة البيانات إلى الخادم.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "The web's building blocks",
      "title_ar": "أساسيات الويب",
      "why": "HTML, CSS and JavaScript, learned on real projects.",
@@ -458,7 +769,9 @@
      "courses": [
       "odin-foundations",
       "jsinfo"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Frontend and backend together",
@@ -468,7 +781,9 @@
      "courses": [
       "fso",
       "odin-fsjs"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Data",
@@ -478,7 +793,9 @@
      "courses": [
       "cs50sql",
       "pg-tutorial"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Ship it",
@@ -489,6 +806,24 @@
       "docker-start",
       "gha-quick",
       "github-configuring-a-publishing-source-for-githu"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -502,6 +837,19 @@
    "for_ar": "لمهندسي DevOps الذين يريدون دمج الأمان في كل خطوة من خطوات التسليم.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "Know the risks",
      "title_ar": "اعرف المخاطر",
      "why": "The vulnerabilities you're protecting against, and how to model threats.",
@@ -509,7 +857,9 @@
      "courses": [
       "owasp-top10",
       "owasp-threat-modeling-cheat-sheet"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Secure the pipeline",
@@ -520,7 +870,9 @@
       "owasp-devsecops-guideline",
       "github-about-code-scanning",
       "github-about-dependabot-alerts"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Containers and clusters",
@@ -530,7 +882,9 @@
      "courses": [
       "docker-docker-engine-security",
       "kubernetes-kubernetes-security-concepts"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Supply chain",
@@ -539,6 +893,21 @@
      "why_ar": "أثبت مصدر برمجياتك.",
      "courses": [
       "openssf-slsa-supply-chain-levels-for-software-ar"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Play capture-the-flag events, write up what you learn, then prepare for interviews.",
+     "why_ar": "شارك في مسابقات CTF واكتب ما تتعلّمه، ثم استعد للمقابلات.",
+     "courses": [
+      "ctftime-ctftime-capture-the-flag-events",
+      "picoctf",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -552,13 +921,27 @@
    "for_ar": "لمن يريد اكتشاف الأنماط في البيانات وبناء نماذج تتنبأ.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "Start with programming and the maths: probability, statistics and linear algebra.",
+     "why_ar": "ابدأ بالبرمجة والرياضيات: الاحتمالات والإحصاء والجبر الخطي.",
+     "courses": [
+      "cs50p",
+      "khan-la"
+     ]
+    },
+    {
      "title": "Statistics",
      "title_ar": "الإحصاء",
      "why": "Probability, inference and experiments.",
      "why_ar": "الاحتمالات والاستدلال والتجارب.",
      "courses": [
       "khan-stats"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Python for data",
@@ -568,7 +951,9 @@
      "courses": [
       "kg-pandas",
       "pyda"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Machine learning",
@@ -579,7 +964,9 @@
       "islp",
       "kg-ml",
       "kg-iml"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Deep learning and practice",
@@ -589,6 +976,22 @@
      "courses": [
       "fastai",
       "google-rules-of-machine-learning"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Compete, publish your projects, then prepare for ML interviews.",
+     "why_ar": "نافس وانشر مشاريعك، ثم استعد لمقابلات التعلّم الآلي.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "chip-machine-learning-interviews-book",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -602,6 +1005,19 @@
    "for_ar": "لمن يريد بناء خطوط البيانات التي تنقلها وتخزنها على نطاق واسع.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. A first taste of Python and the statistics you'll use every day.",
+     "why_ar": "لا تحتاج خبرة. أول خطوة في بايثون والإحصاء الذي ستستخدمه يوميًا.",
+     "courses": [
+      "kg-python",
+      "khan-stats",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "SQL and databases",
      "title_ar": "SQL وقواعد البيانات",
      "why": "The core skill. Learn it deeply.",
@@ -609,7 +1025,9 @@
      "courses": [
       "cs50sql",
       "pg-tutorial"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Pipelines end to end",
@@ -619,7 +1037,9 @@
      "courses": [
       "datatalksclub-data-engineering-zoomcamp",
       "apache-airflow-tutorial-fundamentals"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Processing at scale",
@@ -629,7 +1049,9 @@
      "courses": [
       "apache-spark-quick-start",
       "apache-introduction-to-kafka"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Modelling and internals",
@@ -639,6 +1061,24 @@
      "courses": [
       "kimball-dimensional-modeling-techniques",
       "cmu-db"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -652,13 +1092,28 @@
    "for_ar": "لمن يريد بناء تطبيقات لهواتف أندرويد.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Kotlin",
      "title_ar": "Kotlin",
      "why": "The language Android is built around.",
      "why_ar": "اللغة التي يعتمد عليها أندرويد.",
      "courses": [
       "kotlin-kotlin-tour"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build your first apps",
@@ -667,7 +1122,9 @@
      "why_ar": "كورس Google المجاني باستخدام Jetpack Compose.",
      "courses": [
       "android-android-basics-with-compose"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Architecture",
@@ -676,7 +1133,9 @@
      "why_ar": "نظّم التطبيقات لتبقى قابلة للصيانة.",
      "courses": [
       "android-guide-to-app-architecture"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Publish",
@@ -685,6 +1144,24 @@
      "why_ar": "جهّز تطبيقك وأطلقه.",
      "courses": [
       "android-publish-your-app"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -698,13 +1175,28 @@
    "for_ar": "لمن يريد بناء تطبيقات لـ iPhone وiPad.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Swift",
      "title_ar": "Swift",
      "why": "Apple's language, from the official book.",
      "why_ar": "لغة Apple من الكتاب الرسمي.",
      "courses": [
       "swift-org-the-swift-programming-language"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "SwiftUI",
@@ -713,7 +1205,9 @@
      "why_ar": "ابنِ الواجهات بدروس Apple خطوة بخطوة.",
      "courses": [
       "apple-swiftui-tutorials"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "A university course",
@@ -722,7 +1216,9 @@
      "why_ar": "كورس Stanford لتطوير iOS بالمحاضرات والتكليفات.",
      "courses": [
       "stanford-cs193p-developing-apps-for-ios"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Ship",
@@ -731,6 +1227,24 @@
      "why_ar": "الاختبار التجريبي والنشر على App Store.",
      "courses": [
       "apple-distributing-your-app-for-beta-testing-and"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -744,6 +1258,19 @@
    "for_ar": "لمن يريد تشغيل PostgreSQL في الإنتاج: الإعداد والنسخ الاحتياطي والضبط والإتاحة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "SQL fluency",
      "title_ar": "إتقان SQL",
      "why": "You can't administer what you can't query.",
@@ -751,7 +1278,9 @@
      "courses": [
       "cs50sql",
       "pg-tutorial"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Administration",
@@ -760,7 +1289,9 @@
      "why_ar": "التثبيت والإعداد والأدوار والصيانة.",
      "courses": [
       "postgresql-server-administration"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Backups and availability",
@@ -770,7 +1301,9 @@
      "courses": [
       "postgresql-backup-and-restore",
       "postgresql-high-availability-load-balancing-and-"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Performance",
@@ -780,6 +1313,24 @@
      "courses": [
       "postgresql-performance-tips",
       "cmu-db"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -793,6 +1344,19 @@
    "for_ar": "للمطوّرين الذين يريدون بناء العقود الذكية والتطبيقات اللامركزية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "How blockchains work",
      "title_ar": "كيف تعمل البلوكتشين",
      "why": "Start with the original idea.",
@@ -800,7 +1364,9 @@
      "courses": [
       "satoshi-bitcoin-a-peer-to-peer-electronic-cash-s",
       "ethereum-org-ethereum-developer-docs"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Smart contracts",
@@ -810,7 +1376,9 @@
      "courses": [
       "solidity-solidity-documentation",
       "cryptozombies-cryptozombies"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Security",
@@ -819,6 +1387,24 @@
      "why_ar": "أخطاء العقود تكلّف أموالًا حقيقية. تعلّم الشائع منها.",
      "courses": [
       "ethereum-org-smart-contract-security"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -832,13 +1418,28 @@
    "for_ar": "لمن يريد التأكد من أن البرمجيات تعمل قبل أن يكتشف المستخدمون العكس.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Testing strategy",
      "title_ar": "استراتيجية الاختبار",
      "why": "What to test, at which level, and why.",
      "why_ar": "ماذا تختبر، وعلى أي مستوى، ولماذا.",
      "courses": [
       "martin-the-practical-test-pyramid"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Automate the browser",
@@ -848,7 +1449,9 @@
      "courses": [
       "playwright-playwright-getting-started",
       "cypress-why-cypress"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "APIs and code",
@@ -858,7 +1461,9 @@
      "courses": [
       "postman-postman-learning-center",
       "pytest-pytest-get-started"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Performance and accessibility",
@@ -868,6 +1473,24 @@
      "courses": [
       "grafana-k6-documentation",
       "w3c-evaluating-web-accessibility"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -881,13 +1504,28 @@
    "for_ar": "للمهندسين الكبار الذين يصممون الأنظمة ويتخذون القرارات الصعب تغييرها لاحقًا.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "What architecture is",
      "title_ar": "ما هي البنية المعمارية",
      "why": "Ideas and vocabulary.",
      "why_ar": "الأفكار والمصطلحات.",
      "courses": [
       "martin-software-architecture-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Communicate designs",
@@ -897,7 +1535,9 @@
      "courses": [
       "c4-the-c4-model",
       "adr-architectural-decision-records"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Design at scale",
@@ -908,7 +1548,9 @@
       "donne-system-design-primer",
       "aws-aws-well-architected-framework",
       "microsoft-azure-architecture-center"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Reliability",
@@ -917,6 +1559,23 @@
      "why_ar": "شغّل ما تصممه.",
      "courses": [
       "sre-books"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university"
      ]
     }
    ]
@@ -937,7 +1596,9 @@
      "courses": [
       "nielsen-10-usability-heuristics",
       "laws-laws-of-ux"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Research",
@@ -946,7 +1607,9 @@
      "why_ar": "اعرف ما يحتاجه المستخدمون قبل التصميم.",
      "courses": [
       "gov-uk-user-research"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Interface design",
@@ -956,7 +1619,9 @@
      "courses": [
       "google-material-design-3",
       "figma-figma-learn"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Accessibility",
@@ -966,6 +1631,20 @@
      "courses": [
       "w3c-accessibility-fundamentals",
       "webdev-a11y"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Turn your best work into case studies and publish a portfolio.",
+     "why_ar": "حوّل أفضل أعمالك إلى دراسات حالة وانشر ملف أعمال.",
+     "courses": [
+      "nielsen-ux-design-portfolios",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]
@@ -979,6 +1658,18 @@
    "for_ar": "لمن يريد كتابة توثيق يقرؤه المطوّرون فعلًا.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No coding needed to start. Learn how software is built and get comfortable in a terminal.",
+     "why_ar": "لا تحتاج برمجة للبدء. تعلّم كيف تُبنى البرمجيات وارتح في استخدام الطرفية.",
+     "courses": [
+      "harvard-cs50-s-computer-science-for-business-pro",
+      "missing"
+     ]
+    },
+    {
      "title": "Write clearly",
      "title_ar": "اكتب بوضوح",
      "why": "Google's free courses on technical writing.",
@@ -986,7 +1677,9 @@
      "courses": [
       "google-technical-writing-courses",
       "google-developer-documentation-style-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Structure docs",
@@ -995,7 +1688,9 @@
      "why_ar": "الدروس والأدلة والمراجع والشروح.",
      "courses": [
       "di-taxis-di-taxis-documentation-framework"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Tools and community",
@@ -1005,6 +1700,20 @@
      "courses": [
       "markdown-markdown-guide",
       "write-write-the-docs-guide"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Write up real work as case studies, then prepare for behavioural interviews.",
+     "why_ar": "اكتب أعمالك الحقيقية كدراسات حالة، ثم استعد للمقابلات السلوكية.",
+     "courses": [
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1018,13 +1727,28 @@
    "for_ar": "لمن يريد صناعة الألعاب، من النماذج ثنائية الأبعاد إلى المحركات ثلاثية الأبعاد.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "A first game course",
      "title_ar": "أول كورس ألعاب",
      "why": "Harvard's game development course.",
      "why_ar": "كورس Harvard لتطوير الألعاب.",
      "courses": [
       "harvard-cs50-s-introduction-to-game-development"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "An engine",
@@ -1033,7 +1757,9 @@
      "why_ar": "Godot مجاني ومفتوح المصدر.",
      "courses": [
       "godot-godot-getting-started"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "How games are built",
@@ -1044,7 +1770,9 @@
       "robert-game-programming-patterns",
       "amit-red-blob-games",
       "khan-la"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Graphics",
@@ -1053,6 +1781,24 @@
      "why_ar": "اعرض المشاهد ثلاثية الأبعاد بنفسك.",
      "courses": [
       "joey-learnopengl"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -1066,13 +1812,28 @@
    "for_ar": "للمطوّرين الذين يبنون الخوادم وراء الألعاب الجماعية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Networking basics",
      "title_ar": "أساسيات الشبكات",
      "why": "How data moves between machines.",
      "why_ar": "كيف تنتقل البيانات بين الأجهزة.",
      "courses": [
       "cnsa"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Multiplayer architecture",
@@ -1083,7 +1844,9 @@
       "gabriel-fast-paced-multiplayer",
       "valve-source-multiplayer-networking",
       "glenn-gaffer-on-games"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Run it",
@@ -1093,6 +1856,24 @@
      "courses": [
       "docker-start",
       "k8s-basics"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -1106,6 +1887,19 @@
    "for_ar": "للمهندسين الذين ينقلون النماذج من الدفاتر إلى أنظمة إنتاج موثوقة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "Start with programming and the maths: probability, statistics and linear algebra.",
+     "why_ar": "ابدأ بالبرمجة والرياضيات: الاحتمالات والإحصاء والجبر الخطي.",
+     "courses": [
+      "cs50p",
+      "khan-stats",
+      "khan-la"
+     ]
+    },
+    {
      "title": "The practice",
      "title_ar": "الممارسة",
      "why": "What it takes to run ML in production.",
@@ -1113,7 +1907,9 @@
      "courses": [
       "google-mlops-continuous-delivery-and-automation-",
       "google-rules-of-machine-learning"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "A full course",
@@ -1123,7 +1919,9 @@
      "courses": [
       "madewithml",
       "datatalksclub-mlops-zoomcamp"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Tracking and versioning",
@@ -1133,7 +1931,9 @@
      "courses": [
       "mlflow-mlflow-documentation",
       "dvc-dvc-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Serving",
@@ -1143,6 +1943,22 @@
      "courses": [
       "docker-start",
       "k8s-basics"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Compete, publish your projects, then prepare for ML interviews.",
+     "why_ar": "نافس وانشر مشاريعك، ثم استعد لمقابلات التعلّم الآلي.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "chip-machine-learning-interviews-book",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1156,13 +1972,26 @@
    "for_ar": "لمن يريد أن يقرر ماذا يُبنى ولماذا.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No coding needed. Enough computer science to work well with engineers, and the basics of usable products.",
+     "why_ar": "لا تحتاج برمجة. ما يكفي من علوم الحاسب للعمل جيدًا مع المهندسين، وأساسيات المنتجات سهلة الاستخدام.",
+     "courses": [
+      "harvard-cs50-s-computer-science-for-business-pro"
+     ]
+    },
+    {
      "title": "The role",
      "title_ar": "الدور",
      "why": "What product managers do day to day.",
      "why_ar": "ماذا يفعل مدير المنتج يوميًا.",
      "courses": [
       "atlassian-product-management-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Shaping and delivery",
@@ -1172,7 +2001,9 @@
      "courses": [
       "basecamp-shape-up",
       "scrum-org-the-scrum-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Users and services",
@@ -1182,7 +2013,9 @@
      "courses": [
       "gov-uk-service-manual",
       "nielsen-10-usability-heuristics"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Metrics",
@@ -1191,6 +2024,20 @@
      "why_ar": "استعلم عن بيانات منتجك بنفسك.",
      "courses": [
       "kg-sql"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Write up real work as case studies, then prepare for behavioural interviews.",
+     "why_ar": "اكتب أعمالك الحقيقية كدراسات حالة، ثم استعد للمقابلات السلوكية.",
+     "courses": [
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1204,6 +2051,18 @@
    "for_ar": "للمهندسين الذين ينتقلون إلى قيادة الفرق والأشخاص.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No coding needed. Enough computer science to work well with engineers, and the basics of usable products.",
+     "why_ar": "لا تحتاج برمجة. ما يكفي من علوم الحاسب للعمل جيدًا مع المهندسين، وأساسيات المنتجات سهلة الاستخدام.",
+     "courses": [
+      "harvard-cs50-s-computer-science-for-business-pro",
+      "nielsen-10-usability-heuristics"
+     ]
+    },
+    {
      "title": "Leading people",
      "title_ar": "قيادة الأشخاص",
      "why": "Practical guides for teams and managers.",
@@ -1211,7 +2070,9 @@
      "courses": [
       "atlassian-team-playbook",
       "gitlab-gitlab-handbook"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Engineering practice",
@@ -1221,7 +2082,9 @@
      "courses": [
       "google-google-engineering-practices",
       "dora-dora-research"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "When things break",
@@ -1230,7 +2093,9 @@
      "why_ar": "أدِر الحوادث وتعلّم منها دون لوم.",
      "courses": [
       "google-postmortem-culture"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Technical leadership",
@@ -1239,6 +2104,20 @@
      "why_ar": "كيف يقود المهندسون الكبار دون إدارة مباشرة.",
      "courses": [
       "will-staffeng"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Write up real work as case studies, then prepare for behavioural interviews.",
+     "why_ar": "اكتب أعمالك الحقيقية كدراسات حالة، ثم استعد للمقابلات السلوكية.",
+     "courses": [
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1252,6 +2131,18 @@
    "for_ar": "لمن يريد مساعدة المطوّرين على النجاح مع منتج، عبر التوثيق والمحاضرات والمجتمع.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No coding needed to start. Learn how software is built and get comfortable in a terminal.",
+     "why_ar": "لا تحتاج برمجة للبدء. تعلّم كيف تُبنى البرمجيات وارتح في استخدام الطرفية.",
+     "courses": [
+      "harvard-cs50-s-computer-science-for-business-pro",
+      "missing"
+     ]
+    },
+    {
      "title": "Community",
      "title_ar": "المجتمع",
      "why": "Build and look after a developer community.",
@@ -1259,7 +2150,9 @@
      "courses": [
       "github-open-source-guides",
       "github-building-communities"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Content",
@@ -1269,7 +2162,9 @@
      "courses": [
       "di-taxis-di-taxis-documentation-framework",
       "google-technical-writing-courses"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Speaking",
@@ -1278,6 +2173,20 @@
      "why_ar": "قدّم محاضرات يتذكرها الناس.",
      "courses": [
       "zach-speaking-io"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Write up real work as case studies, then prepare for behavioural interviews.",
+     "why_ar": "اكتب أعمالك الحقيقية كدراسات حالة، ثم استعد للمقابلات السلوكية.",
+     "courses": [
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1291,6 +2200,18 @@
    "for_ar": "لمن يبني اللوحات والتقارير التي يعتمد عليها العمل.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. A first taste of Python and the statistics you'll use every day.",
+     "why_ar": "لا تحتاج خبرة. أول خطوة في بايثون والإحصاء الذي ستستخدمه يوميًا.",
+     "courses": [
+      "kg-python",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "SQL",
      "title_ar": "SQL",
      "why": "Get data out of the warehouse yourself.",
@@ -1298,7 +2219,9 @@
      "courses": [
       "kg-sql",
       "cs50sql"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Modelling",
@@ -1308,7 +2231,9 @@
      "courses": [
       "kimball-dimensional-modeling-techniques",
       "microsoft-star-schema-guidance-for-power-bi"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Dashboards",
@@ -1318,7 +2243,9 @@
      "courses": [
       "mslearn-pbi",
       "microsoft-dax-reference"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Statistics",
@@ -1327,6 +2254,21 @@
      "why_ar": "اعرف متى يكون التغيير حقيقيًا.",
      "courses": [
       "khan-stats"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1340,6 +2282,17 @@
    "for_ar": "لمن يريد تصميم وتشغيل الشبكات التي يعتمد عليها كل شيء.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x"
+     ]
+    },
+    {
      "title": "How networks work",
      "title_ar": "كيف تعمل الشبكات",
      "why": "Protocols from the physical layer up.",
@@ -1347,7 +2300,9 @@
      "courses": [
       "cnsa",
       "olivier-computer-networking-principles-protocols"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Hands-on",
@@ -1357,7 +2312,9 @@
      "courses": [
       "wireshark-wireshark-user-s-guide",
       "linuxjourney"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "The modern network",
@@ -1366,6 +2323,24 @@
      "why_ar": "DNS وشبكات توزيع المحتوى والأمان عند الحافة.",
      "courses": [
       "cloudflare-cloudflare-learning-center"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -1379,6 +2354,19 @@
    "for_ar": "للمهندسين الذين يعملون داخل فرق العملاء ليجعلوا المنتج يحل مشكلتهم الحقيقية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Build fast across the stack",
      "title_ar": "ابنِ بسرعة عبر كل الطبقات",
      "why": "Full-stack skills to prototype on site.",
@@ -1386,7 +2374,9 @@
      "courses": [
       "fso",
       "cs50sql"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Data and AI integration",
@@ -1396,7 +2386,9 @@
      "courses": [
       "hf-llm",
       "anthropic-courses"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Cloud",
@@ -1406,7 +2398,9 @@
      "courses": [
       "az-fund",
       "docker-start"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Communicate",
@@ -1415,6 +2409,24 @@
      "why_ar": "اكتب واشرح بوضوح لغير المهندسين.",
      "courses": [
       "google-technical-writing-courses"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -1428,6 +2440,18 @@
    "for_ar": "لمن يريد تحويل فكرة إلى منتج ذكاء اصطناعي يعمل.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No coding needed. Enough computer science to work well with engineers, and the basics of usable products.",
+     "why_ar": "لا تحتاج برمجة. ما يكفي من علوم الحاسب للعمل جيدًا مع المهندسين، وأساسيات المنتجات سهلة الاستخدام.",
+     "courses": [
+      "harvard-cs50-s-computer-science-for-business-pro",
+      "nielsen-10-usability-heuristics"
+     ]
+    },
+    {
      "title": "Prompting",
      "title_ar": "كتابة التعليمات",
      "why": "Get reliable results from models.",
@@ -1435,7 +2459,9 @@
      "courses": [
       "prompting-guide",
       "anthropic-courses"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Design for AI",
@@ -1444,7 +2470,9 @@
      "why_ar": "كيف يختبر الناس ميزات الذكاء الاصطناعي.",
      "courses": [
       "google-people-ai-guidebook"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build",
@@ -1454,7 +2482,9 @@
      "courses": [
       "oai-cookbook",
       "anthropic-building-effective-agents"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Ship and measure",
@@ -1464,6 +2494,20 @@
      "courses": [
       "basecamp-shape-up",
       "anthropic-define-success-criteria-and-build-eval"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Write up real work as case studies, then prepare for behavioural interviews.",
+     "why_ar": "اكتب أعمالك الحقيقية كدراسات حالة، ثم استعد للمقابلات السلوكية.",
+     "courses": [
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1484,7 +2528,9 @@
      "courses": [
       "nielsen-10-usability-heuristics",
       "laws-laws-of-ux"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Systems",
@@ -1494,7 +2540,9 @@
      "courses": [
       "brad-atomic-design",
       "gov-uk-gov-uk-design-system"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Tools",
@@ -1504,6 +2552,20 @@
      "courses": [
       "figma-figma-learn",
       "google-material-design-3"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Turn your best work into case studies and publish a portfolio.",
+     "why_ar": "حوّل أفضل أعمالك إلى دراسات حالة وانشر ملف أعمال.",
+     "courses": [
+      "nielsen-ux-design-portfolios",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]
@@ -1517,6 +2579,19 @@
    "for_ar": "لأخصائيي الأمن الذين يختبرون أنظمة الذكاء الاصطناعي بحثًا عن سلوك ضار أو غير آمن، بإذن.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Know the risks",
      "title_ar": "اعرف المخاطر",
      "why": "The main ways LLM applications fail.",
@@ -1524,7 +2599,9 @@
      "courses": [
       "owasp-owasp-top-10-for-llm-applications",
       "mitre-mitre-atlas"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Method",
@@ -1534,7 +2611,9 @@
      "courses": [
       "microsoft-ai-red-team-guidance",
       "nist-ai-risk-management-framework"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Tools",
@@ -1544,6 +2623,21 @@
      "courses": [
       "nvidia-garak-llm-vulnerability-scanner",
       "microsoft-pyrit"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Play capture-the-flag events, write up what you learn, then prepare for interviews.",
+     "why_ar": "شارك في مسابقات CTF واكتب ما تتعلّمه، ثم استعد للمقابلات.",
+     "courses": [
+      "ctftime-ctftime-capture-the-flag-events",
+      "picoctf",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1557,6 +2651,19 @@
    "for_ar": "للمهندسين الذين يجعلون النماذج الكبيرة تعمل بسرعة وتكلفة أقل في الإنتاج.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "Start with programming and the maths: probability, statistics and linear algebra.",
+     "why_ar": "ابدأ بالبرمجة والرياضيات: الاحتمالات والإحصاء والجبر الخطي.",
+     "courses": [
+      "cs50p",
+      "khan-stats",
+      "khan-la"
+     ]
+    },
+    {
      "title": "Why inference is hard",
      "title_ar": "لماذا الاستدلال صعب",
      "why": "Where the time and memory go.",
@@ -1564,7 +2671,9 @@
      "courses": [
       "theia-how-to-make-llms-go-fast",
       "modal-gpu-glossary"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Serving engines",
@@ -1575,7 +2684,9 @@
       "vllm-vllm-documentation",
       "hugging-text-generation-inference",
       "ggml-org-llama-cpp"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Make it smaller and faster",
@@ -1585,6 +2696,22 @@
      "courses": [
       "hugging-quantization-overview",
       "nvidia-cuda-c-programming-guide"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Compete, publish your projects, then prepare for ML interviews.",
+     "why_ar": "نافس وانشر مشاريعك، ثم استعد لمقابلات التعلّم الآلي.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "chip-machine-learning-interviews-book",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1605,7 +2732,9 @@
      "courses": [
       "sqlbolt-sqlbolt",
       "kg-sql"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Design databases",
@@ -1615,7 +2744,9 @@
      "courses": [
       "cs50sql",
       "fcc-rdb"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Fast queries",
@@ -1625,6 +2756,21 @@
      "courses": [
       "markus-use-the-index-luke",
       "pg-tutorial"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1638,6 +2784,19 @@
    "for_ar": "لمن يتعلم لغة الويب، للمتصفح أو للخادم.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "The language",
      "title_ar": "اللغة",
      "why": "Learn it properly from the start.",
@@ -1645,7 +2804,9 @@
      "courses": [
       "jsinfo",
       "mdn-javascript-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Practise",
@@ -1654,7 +2815,9 @@
      "why_ar": "حل المسائل حتى تصبح طبيعية.",
      "courses": [
       "fcc-js"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Go deeper",
@@ -1664,6 +2827,22 @@
      "courses": [
       "marijn-eloquent-javascript",
       "kyle-you-don-t-know-js-yet"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1677,13 +2856,28 @@
    "for_ar": "لمطوّري JavaScript الذين يريدون أنواعًا تكشف الأخطاء قبل المستخدمين.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Start",
      "title_ar": "البداية",
      "why": "TypeScript for people who know JavaScript.",
      "why_ar": "TypeScript لمن يعرف JavaScript.",
      "courses": [
       "typescript-typescript-for-javascript-programmers"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "The handbook",
@@ -1693,7 +2887,9 @@
      "courses": [
       "ts-handbook",
       "matt-total-typescript-essentials"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Advanced types",
@@ -1702,6 +2898,22 @@
      "why_ar": "ألغاز تعلّمك نظام الأنواع بعمق.",
      "courses": [
       "type-challenges-type-challenges"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1723,7 +2935,9 @@
       "cs50p",
       "mooc-python",
       "python-the-python-tutorial"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Use it",
@@ -1732,7 +2946,9 @@
      "why_ar": "أتمت المهام اليومية.",
      "courses": [
       "al-automate-the-boring-stuff-with-python"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Write it professionally",
@@ -1742,6 +2958,22 @@
      "courses": [
       "pytest-pytest-get-started",
       "python-packaging-python-projects"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1755,6 +2987,19 @@
    "for_ar": "لمن يتعلم Java للباك إند أو أندرويد أو المؤسسات.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn the language",
      "title_ar": "تعلّم اللغة",
      "why": "A complete university course with exercises.",
@@ -1762,7 +3007,9 @@
      "courses": [
       "university-java-programming-mooc",
       "dev-java-learn-java"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build tools and tests",
@@ -1772,6 +3019,22 @@
      "courses": [
       "apache-maven-getting-started",
       "junit-junit-5-user-guide"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1785,13 +3048,28 @@
    "for_ar": "لمطوّري Java الذين يبنون خدمات الويب.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Java first",
      "title_ar": "Java أولًا",
      "why": "You'll need solid Java.",
      "why_ar": "ستحتاج Java قوية.",
      "courses": [
       "university-java-programming-mooc"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Spring guides",
@@ -1801,7 +3079,9 @@
      "courses": [
       "spring-spring-guides",
       "spring-building-rest-services-with-spring"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Data and security",
@@ -1811,7 +3091,9 @@
      "courses": [
       "spring-spring-data-jpa",
       "spring-spring-security-reference"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Reference",
@@ -1820,6 +3102,22 @@
      "why_ar": "التوثيق الكامل.",
      "courses": [
       "spring-spring-boot-reference"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1833,13 +3131,28 @@
    "for_ar": "للمطوّرين الذين يبنون تطبيقات وواجهات API بـ C# و.NET.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "C#",
      "title_ar": "C#",
      "why": "A tour of the language.",
      "why_ar": "جولة في اللغة.",
      "courses": [
       "microsoft-a-tour-of-c"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Web apps and APIs",
@@ -1849,7 +3162,9 @@
      "courses": [
       "microsoft-introduction-to-asp-net-core",
       "microsoft-tutorial-create-a-minimal-api"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Data and tests",
@@ -1859,6 +3174,22 @@
      "courses": [
       "microsoft-entity-framework-core",
       "microsoft-testing-in-net"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1872,13 +3203,28 @@
    "for_ar": "لمطوّري JavaScript الذين يبنون الخوادم والأدوات.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "How Node.js runs JavaScript outside the browser.",
      "why_ar": "كيف يشغّل Node.js لغة JavaScript خارج المتصفح.",
      "courses": [
       "node-learn"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Build web servers",
@@ -1889,7 +3235,9 @@
       "express-express-routing-guide",
       "fcc-backend",
       "fso"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Production",
@@ -1899,6 +3247,22 @@
      "courses": [
       "yoni-node-js-best-practices",
       "node-js-node-js-api-reference"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1912,13 +3276,28 @@
    "for_ar": "لمطوّري الواجهات الذين يبنون بـ React.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn React",
      "title_ar": "تعلّم React",
      "why": "The official tutorial and concepts.",
      "why_ar": "الدرس الرسمي والمفاهيم.",
      "courses": [
       "react-learn"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Real apps",
@@ -1928,7 +3307,9 @@
      "courses": [
       "fso",
       "tanstack-tanstack-query"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Test it",
@@ -1937,7 +3318,9 @@
      "why_ar": "اختبر المكوّنات كما يستخدمها الناس.",
      "courses": [
       "testing-react-testing-library"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Reference",
@@ -1946,6 +3329,22 @@
      "why_ar": "الـ Hooks والواجهات بالتفصيل.",
      "courses": [
       "react-react-reference"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1959,13 +3358,28 @@
    "for_ar": "لمطوّري React الذين يبنون مواقع كاملة مع العرض على الخادم.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "React first",
      "title_ar": "React أولًا",
      "why": "Next.js builds on React.",
      "why_ar": "Next.js مبني على React.",
      "courses": [
       "react-learn"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Learn Next.js",
@@ -1974,7 +3388,9 @@
      "why_ar": "ابنِ تطبيقًا كاملًا مع الكورس الرسمي.",
      "courses": [
       "vercel-next-js-learn"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Data and deployment",
@@ -1984,6 +3400,22 @@
      "courses": [
       "next-js-fetching-data",
       "next-js-deploying"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -1997,6 +3429,19 @@
    "for_ar": "لمطوّري الواجهات الذين يريدون إطار عمل سهل البداية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn Vue",
      "title_ar": "تعلّم Vue",
      "why": "The official tutorial and guide.",
@@ -2004,7 +3449,9 @@
      "courses": [
       "vue-js-vue-tutorial",
       "vue-js-vue-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Apps",
@@ -2014,7 +3461,9 @@
      "courses": [
       "vue-vue-router-guide",
       "pinia-pinia"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Full sites and tests",
@@ -2024,6 +3473,22 @@
      "courses": [
       "nuxt-nuxt-introduction",
       "vitest-vitest-guide"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2037,13 +3502,28 @@
    "for_ar": "لمطوّري الواجهات الذين يبنون تطبيقات كبيرة بـ Angular.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "TypeScript",
      "title_ar": "TypeScript",
      "why": "Angular is written in TypeScript.",
      "why_ar": "Angular مكتوب بـ TypeScript.",
      "courses": [
       "ts-handbook"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Learn Angular",
@@ -2053,7 +3533,9 @@
      "courses": [
       "angular-angular-tutorials",
       "angular-angular-essentials"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Reactive code and tests",
@@ -2063,6 +3545,22 @@
      "courses": [
       "rxjs-rxjs-overview",
       "angular-testing-angular"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2076,13 +3574,28 @@
    "for_ar": "لمطوّري React الذين يبنون تطبيقات موبايل لـ iOS وأندرويد.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "React first",
      "title_ar": "React أولًا",
      "why": "React Native uses React.",
      "why_ar": "React Native يستخدم React.",
      "courses": [
       "react-learn"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Learn React Native",
@@ -2092,7 +3605,9 @@
      "courses": [
       "react-react-native-introduction",
       "expo-expo-tutorial"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Real apps",
@@ -2102,6 +3617,22 @@
      "courses": [
       "react-react-navigation",
       "expo-expo-documentation"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2115,13 +3646,28 @@
    "for_ar": "للمطوّرين الذين يبنون تطبيقًا واحدًا للموبايل والويب وسطح المكتب.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Dart",
      "title_ar": "Dart",
      "why": "The language behind Flutter.",
      "why_ar": "اللغة وراء Flutter.",
      "courses": [
       "dart-dart-language-tour"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Learn Flutter",
@@ -2131,7 +3677,9 @@
      "courses": [
       "flutter-flutter-get-started",
       "flutter-flutter-codelabs"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "State and release",
@@ -2141,6 +3689,22 @@
      "courses": [
       "flutter-state-management",
       "flutter-deployment"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2154,6 +3718,19 @@
    "for_ar": "للمطوّرين الذين يتعلمون Kotlin لأندرويد أو الخادم.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "The official tour and exercises.",
@@ -2161,7 +3738,9 @@
      "courses": [
       "kotlin-kotlin-tour",
       "kotlin-kotlin-koans"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Concurrency",
@@ -2170,7 +3749,9 @@
      "why_ar": "الـ Coroutines.",
      "courses": [
       "kotlin-coroutines-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Use it",
@@ -2180,6 +3761,22 @@
      "courses": [
       "android-android-basics-with-compose",
       "ktor-ktor-documentation"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2193,6 +3790,19 @@
    "for_ar": "للمطوّرين الذين يبنون واجهات لمنصات Apple.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Swift",
      "title_ar": "Swift",
      "why": "The language first.",
@@ -2200,7 +3810,9 @@
      "courses": [
       "swift-org-the-swift-programming-language",
       "apple-develop-in-swift-tutorials"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "SwiftUI",
@@ -2210,7 +3822,9 @@
      "courses": [
       "apple-swiftui-tutorials",
       "hacking-100-days-of-swiftui"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Go further",
@@ -2219,6 +3833,22 @@
      "why_ar": "كورس Stanford لـ iOS.",
      "courses": [
       "stanford-cs193p-developing-apps-for-ios"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2232,13 +3862,28 @@
    "for_ar": "للمطوّرين في البرمجيات عالية الأداء أو الألعاب أو الأنظمة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn the language",
      "title_ar": "تعلّم اللغة",
      "why": "A complete free tutorial.",
      "why_ar": "درس مجاني كامل.",
      "courses": [
       "learncpp-com-learncpp"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Write it well",
@@ -2248,7 +3893,9 @@
      "courses": [
       "standard-c-core-guidelines",
       "cppreference-com-cppreference"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Build projects",
@@ -2257,6 +3904,22 @@
      "why_ar": "CMake، نظام البناء الشائع.",
      "courses": [
       "cmake-cmake-tutorial"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2270,6 +3933,18 @@
    "for_ar": "لمن يريد فهم كيف تتحدث البرمجيات مع العتاد.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Start",
      "title_ar": "البداية",
      "why": "CS50 starts in C.",
@@ -2277,7 +3952,9 @@
      "courses": [
       "cs50x",
       "brian-beej-s-guide-to-c-programming"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Modern C",
@@ -2286,7 +3963,9 @@
      "why_ar": "كتاب مجاني عن كتابة C جيدًا.",
      "courses": [
       "jens-modern-c"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Systems work",
@@ -2296,6 +3975,22 @@
      "courses": [
       "gnu-debugging-with-gdb",
       "brian-beej-s-guide-to-network-programming"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2309,13 +4004,28 @@
    "for_ar": "للمطوّرين الذين يريدون كود أنظمة سريعًا وآمنًا للذاكرة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "The book",
      "title_ar": "الكتاب",
      "why": "The official introduction.",
      "why_ar": "المقدمة الرسمية.",
      "courses": [
       "rust-the-rust-programming-language"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Practise",
@@ -2325,7 +4035,9 @@
      "courses": [
       "rust-rustlings",
       "rust-rust-by-example"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Go further",
@@ -2335,6 +4047,22 @@
      "courses": [
       "google-comprehensive-rust",
       "rust-asynchronous-programming-in-rust"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2348,6 +4076,19 @@
    "for_ar": "للمطوّرين الذين يبنون خدمات وأدوات سطر أوامر وأدوات سحابية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "The interactive tour.",
@@ -2355,7 +4096,9 @@
      "courses": [
       "go-a-tour-of-go",
       "go-go-by-example"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Idiomatic Go",
@@ -2364,7 +4107,9 @@
      "why_ar": "كيف يُفترض أن يبدو كود Go.",
      "courses": [
       "go-effective-go"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Test-driven",
@@ -2373,6 +4118,22 @@
      "why_ar": "تعلّم Go بكتابة الاختبارات أولًا.",
      "courses": [
       "chris-learn-go-with-tests"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2386,13 +4147,28 @@
    "for_ar": "للمطوّرين الذين يبنون مواقع وتطبيقات ويب بـ PHP.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "The official manual.",
      "why_ar": "الدليل الرسمي.",
      "courses": [
       "php-php-manual-getting-started"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Modern PHP",
@@ -2403,7 +4179,9 @@
       "php-php-the-right-way",
       "composer-composer-introduction",
       "phpunit-phpunit-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "A framework",
@@ -2412,6 +4190,22 @@
      "why_ar": "ابنِ تطبيقًا كاملًا بـ Symfony.",
      "courses": [
       "symfony-symfony-the-fast-track"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2425,13 +4219,28 @@
    "for_ar": "لمطوّري PHP الذين يبنون تطبيقات ويب كاملة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Modern PHP",
      "title_ar": "PHP الحديثة",
      "why": "The language and its ecosystem.",
      "why_ar": "اللغة ومنظومتها.",
      "courses": [
       "php-php-the-right-way"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Learn Laravel",
@@ -2441,7 +4250,9 @@
      "courses": [
       "laravel-laravel-bootcamp",
       "laravel-laravel-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Tests",
@@ -2450,6 +4261,22 @@
      "why_ar": "اختبر بـ Pest.",
      "courses": [
       "pest-pest-documentation"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2463,6 +4290,19 @@
    "for_ar": "لمطوّري بايثون الذين يبنون تطبيقات وواجهات API.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Start",
      "title_ar": "البداية",
      "why": "Two friendly tutorials.",
@@ -2470,7 +4310,9 @@
      "courses": [
       "django-django-girls-tutorial",
       "django-tut"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "APIs",
@@ -2479,7 +4321,9 @@
      "why_ar": "Django REST framework.",
      "courses": [
       "django-django-rest-framework-quickstart"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Production",
@@ -2489,6 +4333,22 @@
      "courses": [
       "django-deployment-checklist",
       "cs50w"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2502,6 +4362,19 @@
    "for_ar": "لمن يتعلم Ruby، غالبًا في الطريق إلى Rails.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "A quick start and the official docs.",
@@ -2509,7 +4382,9 @@
      "courses": [
       "ruby-ruby-in-twenty-minutes",
       "ruby-ruby-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Projects",
@@ -2518,7 +4393,9 @@
      "why_ar": "تعلّم Ruby من خلال المشاريع.",
      "courses": [
       "the-ruby-course"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Tests",
@@ -2527,6 +4404,22 @@
      "why_ar": "RSpec.",
      "courses": [
       "rspec-rspec"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2540,13 +4433,28 @@
    "for_ar": "للمطوّرين الذين يبنون تطبيقات ويب بسرعة باستخدام Rails.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Get started",
      "title_ar": "ابدأ",
      "why": "The official guide builds a first app.",
      "why_ar": "الدليل الرسمي يبني أول تطبيق.",
      "courses": [
       "rails-getting-started-with-rails"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "The full path",
@@ -2555,7 +4463,9 @@
      "why_ar": "منهج مجاني قائم على المشاريع.",
      "courses": [
       "the-full-stack-ruby-on-rails"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Go deeper",
@@ -2565,6 +4475,22 @@
      "courses": [
       "rails-active-record-basics",
       "hotwire-hotwire"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2578,6 +4504,19 @@
    "for_ar": "للمطوّرين في البرمجة الوظيفية أو البيانات الضخمة على JVM.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn Scala",
      "title_ar": "تعلّم Scala",
      "why": "The official book and tour.",
@@ -2585,7 +4524,9 @@
      "courses": [
       "scala-scala-3-book",
       "scala-tour-of-scala"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Practise",
@@ -2595,7 +4536,9 @@
      "courses": [
       "47-scala-exercises",
       "sbt-sbt-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Big data",
@@ -2604,6 +4547,22 @@
      "why_ar": "Spark مكتوب بـ Scala.",
      "courses": [
       "apache-spark-quick-start"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2617,6 +4576,19 @@
    "for_ar": "للمحللين والباحثين في الإحصاء والبيانات.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn R",
      "title_ar": "تعلّم R",
      "why": "Programming basics, then data science.",
@@ -2624,7 +4596,9 @@
      "courses": [
       "garrett-hands-on-programming-with-r",
       "r4ds"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Visualise",
@@ -2633,7 +4607,9 @@
      "why_ar": "ggplot2 بعمق.",
      "courses": [
       "hadley-ggplot2-elegant-graphics-for-data-analysi"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Go further",
@@ -2644,6 +4620,22 @@
       "islp",
       "hadley-advanced-r",
       "hadley-r-packages"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2664,7 +4656,9 @@
      "courses": [
       "web-dev-learn-html",
       "mdn-structuring-content-with-html"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Practise",
@@ -2674,7 +4668,9 @@
      "courses": [
       "fcc-rwd",
       "odin-foundations"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Forms and accessibility",
@@ -2684,6 +4680,22 @@
      "courses": [
       "web-dev-learn-forms",
       "webdev-a11y"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2697,6 +4709,19 @@
    "for_ar": "لكل من يريد تخطيط وتنسيق صفحات الويب.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "Selectors, the box model and the cascade.",
@@ -2704,7 +4729,9 @@
      "courses": [
       "webdev-css",
       "mdn-css-styling-basics"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Layout",
@@ -2716,7 +4743,9 @@
       "css-tricks-a-complete-guide-to-css-grid",
       "codepip-flexbox-froggy",
       "codepip-grid-garden"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Responsive design",
@@ -2725,6 +4754,22 @@
      "why_ar": "صفحات تعمل على كل الشاشات.",
      "courses": [
       "web-dev-learn-responsive-design"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2738,13 +4783,28 @@
    "for_ar": "للمطوّرين الذين يبنون واجهات GraphQL أو يستخدمونها.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Concepts",
      "title_ar": "المفاهيم",
      "why": "Queries, schemas and types.",
      "why_ar": "الاستعلامات والمخططات والأنواع.",
      "courses": [
       "graphql-learn-graphql"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build",
@@ -2754,7 +4814,9 @@
      "courses": [
       "how-how-to-graphql",
       "apollo-apollo-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Specification",
@@ -2763,6 +4825,22 @@
      "why_ar": "كيف تُعرَّف GraphQL.",
      "courses": [
       "graphql-graphql-specification"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -2776,6 +4854,19 @@
    "for_ar": "للمهندسين الذين يستعدون لأدوار متقدمة أو مقابلات تصميم الأنظمة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Building blocks",
      "title_ar": "المكوّنات الأساسية",
      "why": "Caches, queues, load balancers and databases.",
@@ -2783,7 +4874,9 @@
      "courses": [
       "donne-system-design-primer",
       "cloudflare-what-is-a-cdn"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Distributed systems",
@@ -2793,7 +4886,9 @@
      "courses": [
       "martin-distributed-systems-lecture-notes",
       "mit-mit-6-5840-distributed-systems"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Real-world practice",
@@ -2803,6 +4898,23 @@
      "courses": [
       "aws-aws-well-architected-framework",
       "sre-books"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university"
      ]
     }
    ]
@@ -2816,13 +4928,28 @@
    "for_ar": "للمطوّرين الذين يصممون واجهات سيبني عليها الآخرون.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "HTTP",
      "title_ar": "HTTP",
      "why": "The protocol most APIs run on.",
      "why_ar": "البروتوكول الذي تعمل عليه معظم الواجهات.",
      "courses": [
       "mdn-http"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Design guidelines",
@@ -2832,7 +4959,9 @@
      "courses": [
       "google-api-design-guide",
       "microsoft-microsoft-rest-api-guidelines"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Describe and secure",
@@ -2842,7 +4971,9 @@
      "courses": [
       "openapi-openapi-specification",
       "owasp-owasp-api-security-top-10"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Other styles",
@@ -2852,6 +4983,24 @@
      "courses": [
       "graphql-learn-graphql",
       "grpc-grpc-introduction"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -2865,13 +5014,28 @@
    "for_ar": "للمطوّرين الذين يريدون كودًا سهل التغيير.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Design patterns",
      "title_ar": "أنماط التصميم",
      "why": "Common solutions, clearly explained.",
      "why_ar": "حلول شائعة بشرح واضح.",
      "courses": [
       "refactoring-guru-design-patterns"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Domain modelling",
@@ -2880,7 +5044,9 @@
      "why_ar": "صمّم البرمجيات حول طبيعة العمل.",
      "courses": [
       "eric-domain-driven-design-reference"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Architecture",
@@ -2890,6 +5056,24 @@
      "courses": [
       "martin-software-architecture-guide",
       "adr-architectural-decision-records"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -2903,13 +5087,28 @@
    "for_ar": "للمصممين ومطوّري الواجهات الذين يبنون مكتبات مكوّنات مشتركة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Concepts",
      "title_ar": "المفاهيم",
      "why": "How design systems are structured.",
      "why_ar": "كيف تُبنى أنظمة التصميم.",
      "courses": [
       "brad-atomic-design"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Learn from good ones",
@@ -2919,7 +5118,9 @@
      "courses": [
       "gov-uk-gov-uk-design-system",
       "google-material-design-3"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build and ship",
@@ -2930,6 +5131,20 @@
       "w3c-design-tokens-community-group",
       "storybook-storybook-docs",
       "w3c-wcag-overview"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Turn your best work into case studies and publish a portfolio.",
+     "why_ar": "حوّل أفضل أعمالك إلى دراسات حالة وانشر ملف أعمال.",
+     "courses": [
+      "nielsen-ux-design-portfolios",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]
@@ -2950,7 +5165,9 @@
      "courses": [
       "prompting-guide",
       "learn-learn-prompting"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "From the model makers",
@@ -2960,7 +5177,9 @@
      "courses": [
       "anthropic-prompt-engineering-overview",
       "google-prompt-design-strategies"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Practise",
@@ -2969,6 +5188,21 @@
      "why_ar": "دفاتر تفاعلية.",
      "courses": [
       "anthropic-courses"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: use it for real",
+     "title_ar": "المرحلة الأخيرة: استخدمه فعليًا",
+     "why": "Use it on a real project, share what you build, and contribute back.",
+     "why_ar": "استخدمه في مشروع حقيقي وشارك ما تبنيه وساهم في تطويره.",
+     "courses": [
+      "first-first-contributions",
+      "github-how-to-contribute-to-open-source",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]
@@ -2982,13 +5216,28 @@
    "for_ar": "للمطوّرين الذين يبنون أنظمة تخطط فيها النماذج وتستخدم الأدوات.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. A first taste of Python and the statistics you'll use every day.",
+     "why_ar": "لا تحتاج خبرة. أول خطوة في بايثون والإحصاء الذي ستستخدمه يوميًا.",
+     "courses": [
+      "kg-python",
+      "khan-stats",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Patterns",
      "title_ar": "الأنماط",
      "why": "When to use an agent, and the simplest designs that work.",
      "why_ar": "متى تستخدم وكيلًا، وأبسط التصاميم التي تنجح.",
      "courses": [
       "anthropic-building-effective-agents"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "A full course",
@@ -2997,7 +5246,9 @@
      "why_ar": "ابنِ الوكلاء خطوة بخطوة.",
      "courses": [
       "hf-agents"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Tools and frameworks",
@@ -3008,7 +5259,9 @@
       "model-model-context-protocol",
       "langchain-langgraph-documentation",
       "openai-openai-agents-sdk"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Evaluate",
@@ -3017,6 +5270,22 @@
      "why_ar": "اعرف إن كان وكيلك يعمل فعلًا.",
      "courses": [
       "anthropic-define-success-criteria-and-build-eval"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3030,6 +5299,18 @@
    "for_ar": "لمن يريد تحليل البيانات ببايثون بدل الجداول.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. A first taste of Python and the statistics you'll use every day.",
+     "why_ar": "لا تحتاج خبرة. أول خطوة في بايثون والإحصاء الذي ستستخدمه يوميًا.",
+     "courses": [
+      "khan-stats",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Python and pandas",
      "title_ar": "بايثون وpandas",
      "why": "Short hands-on courses.",
@@ -3037,7 +5318,9 @@
      "courses": [
       "kg-python",
       "kg-pandas"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Analysis",
@@ -3047,7 +5330,9 @@
      "courses": [
       "pyda",
       "pandas-pandas-user-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Charts and notebooks",
@@ -3058,7 +5343,9 @@
       "matplotlib-matplotlib-tutorials",
       "seaborn-seaborn-tutorial",
       "project-jupyter-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Certify",
@@ -3067,6 +5354,21 @@
      "why_ar": "مشروع شهادة مجاني.",
      "courses": [
       "fcc-da"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3080,6 +5382,19 @@
    "for_ar": "للمحللين الذين يبنون تقارير ولوحات أعمال.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. A first taste of Python and the statistics you'll use every day.",
+     "why_ar": "لا تحتاج خبرة. أول خطوة في بايثون والإحصاء الذي ستستخدمه يوميًا.",
+     "courses": [
+      "kg-python",
+      "khan-stats",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn Power BI",
      "title_ar": "تعلّم Power BI",
      "why": "Microsoft's own training.",
@@ -3087,7 +5402,9 @@
      "courses": [
       "mslearn-pbi",
       "microsoft-power-bi-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Prepare data",
@@ -3097,7 +5414,9 @@
      "courses": [
       "microsoft-power-query-m-reference",
       "microsoft-star-schema-guidance-for-power-bi"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "DAX",
@@ -3106,6 +5425,21 @@
      "why_ar": "الحسابات والمقاييس.",
      "courses": [
       "microsoft-dax-reference"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3119,13 +5453,28 @@
    "for_ar": "للمطوّرين الذين يستخدمون قاعدة بيانات مستندات.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "CRUD and the manual.",
      "why_ar": "العمليات الأساسية والدليل.",
      "courses": [
       "mongodb-mongodb-manual"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Model data",
@@ -3134,7 +5483,9 @@
      "why_ar": "صمّم المستندات بحسب طريقة قراءتها.",
      "courses": [
       "mongodb-data-modeling"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Query and scale",
@@ -3144,6 +5495,21 @@
      "courses": [
       "mongodb-aggregation-operations",
       "mongodb-indexes"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3157,13 +5523,28 @@
    "for_ar": "للمطوّرين الذين يستخدمون Redis للتخزين المؤقت والطوابير والبيانات السريعة.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "What Redis is and how to use it.",
      "why_ar": "ما هو Redis وكيف تستخدمه.",
      "courses": [
       "redis-redis-documentation"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Data types",
@@ -3172,7 +5553,9 @@
      "why_ar": "النصوص والجداول والقوائم والمجموعات والتدفقات.",
      "courses": [
       "redis-redis-data-types"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Operate it",
@@ -3181,6 +5564,21 @@
      "why_ar": "الاستمرارية والمتانة.",
      "courses": [
       "redis-redis-persistence"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3194,13 +5592,28 @@
    "for_ar": "للمطوّرين الذين يبنون محركات بحث.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "How search works",
      "title_ar": "كيف يعمل البحث",
      "why": "The theory behind search engines.",
      "why_ar": "النظرية وراء محركات البحث.",
      "courses": [
       "stanford-introduction-to-information-retrieval"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Elasticsearch",
@@ -3211,7 +5624,9 @@
       "elastic-elasticsearch-getting-started",
       "elastic-mapping",
       "elastic-query-dsl"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Open-source alternative",
@@ -3220,6 +5635,21 @@
      "why_ar": "OpenSearch.",
      "courses": [
       "opensearch-opensearch-documentation"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Publish analyses on real datasets, then prepare for interviews.",
+     "why_ar": "انشر تحليلات على بيانات حقيقية، ثم استعد للمقابلات.",
+     "courses": [
+      "kaggle-kaggle-competitions",
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3240,7 +5670,9 @@
      "courses": [
       "linuxjourney",
       "william-the-linux-command-line"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Practise",
@@ -3249,7 +5681,9 @@
      "why_ar": "لعبة تُلعب في الطرفية.",
      "courses": [
       "bandit"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Everyday tools",
@@ -3258,6 +5692,22 @@
      "why_ar": "الطرفية والمحرّرات والسكربتات وGit.",
      "courses": [
       "missing"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3271,6 +5721,19 @@
    "for_ar": "لمن يريد أتمتة العمل في الطرفية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "The command line",
      "title_ar": "سطر الأوامر",
      "why": "Commands and pipes.",
@@ -3278,7 +5741,9 @@
      "courses": [
       "missing",
       "william-the-linux-command-line"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Bash scripting",
@@ -3288,7 +5753,9 @@
      "courses": [
       "greg-s-bashguide",
       "shellcheck-shellcheck"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Reference",
@@ -3297,6 +5764,22 @@
      "why_ar": "الدليل الكامل.",
      "courses": [
       "gnu-bash-reference-manual"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3317,7 +5800,9 @@
      "courses": [
       "peter-learn-git-branching",
       "progit"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "GitHub",
@@ -3327,7 +5812,9 @@
      "courses": [
       "github-github-skills",
       "github-get-started-with-github"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Automate and recover",
@@ -3337,6 +5824,22 @@
      "courses": [
       "gha-quick",
       "katie-oh-shit-git"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3350,6 +5853,19 @@
    "for_ar": "للمطوّرين الذين يريدون تغليف البرمجيات وتشغيلها في أي مكان.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "Images, containers and Dockerfiles.",
@@ -3357,7 +5873,9 @@
      "courses": [
       "docker-start",
       "dwd"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Multi-container apps",
@@ -3366,7 +5884,9 @@
      "why_ar": "Compose.",
      "courses": [
       "docker-docker-compose"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Production",
@@ -3376,6 +5896,22 @@
      "courses": [
       "docker-building-best-practices",
       "docker-docker-engine-security"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3389,6 +5925,19 @@
    "for_ar": "للمهندسين الذين يشغّلون الحاويات في الإنتاج.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "Pods, deployments and services.",
@@ -3396,7 +5945,9 @@
      "courses": [
       "k8s-basics",
       "kubernetes-kubernetes-concepts"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "A full course",
@@ -3405,7 +5956,9 @@
      "why_ar": "كورس جامعي مجاني.",
      "courses": [
       "dwk"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Package and understand",
@@ -3415,6 +5968,22 @@
      "courses": [
       "helm-helm-documentation",
       "kelsey-kubernetes-the-hard-way"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3428,13 +5997,28 @@
    "for_ar": "للمهندسين الذين يريدون تعريف البنية التحتية ككود.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "Tutorials",
      "title_ar": "الدروس",
      "why": "Official hands-on tutorials.",
      "why_ar": "الدروس العملية الرسمية.",
      "courses": [
       "tf-tut"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "The language",
@@ -3445,7 +6029,9 @@
       "hashicorp-terraform-language",
       "hashicorp-modules",
       "hashicorp-state"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Test and alternatives",
@@ -3455,6 +6041,22 @@
      "courses": [
       "hashicorp-terraform-tests",
       "opentofu-opentofu-documentation"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3468,13 +6070,28 @@
    "for_ar": "للمهندسين الذين يبنون على Amazon Web Services.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "Start",
      "title_ar": "البداية",
      "why": "Getting-started guides.",
      "why_ar": "أدلة البداية.",
      "courses": [
       "aws-getting-started-resource-center"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Core services",
@@ -3487,7 +6104,9 @@
       "aws-amazon-s3-user-guide",
       "aws-amazon-vpc-user-guide",
       "aws-aws-lambda-developer-guide"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Design well",
@@ -3496,6 +6115,22 @@
      "why_ar": "مبادئ البنية من AWS نفسها.",
      "courses": [
       "aws-aws-well-architected-framework"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3509,6 +6144,19 @@
    "for_ar": "لكل من يريد فهم السحابة قبل اختيار مزوّد.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "cloudflare-cloudflare-learning-center",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "What the cloud is",
      "title_ar": "ما هي السحابة",
      "why": "Definitions and service models.",
@@ -3516,7 +6164,9 @@
      "courses": [
       "nist-the-nist-definition-of-cloud-computing-sp-8",
       "cloudflare-what-is-the-cloud"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Try a provider",
@@ -3527,7 +6177,9 @@
       "az-fund",
       "aws-getting-started-resource-center",
       "google-google-cloud-overview"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Cloud-native skills",
@@ -3538,6 +6190,22 @@
       "docker-start",
       "k8s-basics",
       "tf-tut"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3551,6 +6219,18 @@
    "for_ar": "للمطوّرين الذين يبنون المواقع ويحمونها على شبكة Cloudflare.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. How computers and the internet work, and how to use Linux.",
+     "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
+     "courses": [
+      "cs50x",
+      "linuxjourney"
+     ]
+    },
+    {
      "title": "How the internet works",
      "title_ar": "كيف يعمل الإنترنت",
      "why": "DNS, CDNs and security, explained.",
@@ -3558,7 +6238,9 @@
      "courses": [
       "cloudflare-cloudflare-learning-center",
       "cloudflare-cloudflare-dns"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Build on the edge",
@@ -3569,7 +6251,9 @@
       "cloudflare-cloudflare-workers",
       "cloudflare-cloudflare-pages",
       "cloudflare-cloudflare-r2"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Protect",
@@ -3578,6 +6262,22 @@
      "why_ar": "جدار حماية تطبيقات الويب.",
      "courses": [
       "cloudflare-cloudflare-waf"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3591,6 +6291,19 @@
    "for_ar": "للمطوّرين الذين يستعدون للمقابلات أو يريدون كودًا أسرع.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Learn them",
      "title_ar": "تعلّمها",
      "why": "A university course and visual explanations.",
@@ -3598,7 +6311,9 @@
      "courses": [
       "mit-6006",
       "visualgo-visualgo"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Books",
@@ -3608,7 +6323,9 @@
      "courses": [
       "ods",
       "erickson"
-     ]
+     ],
+     "kind": "step",
+     "level": "advanced"
     },
     {
      "title": "Practise",
@@ -3618,6 +6335,24 @@
      "courses": [
       "cses-cses-problem-set",
       "cp-algorithms-algorithms-for-competitive-program"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -3631,13 +6366,28 @@
    "for_ar": "لمن يستعد للمقابلات التقنية.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Plan",
      "title_ar": "الخطة",
      "why": "What interviews test and how to prepare.",
      "why_ar": "ماذا تختبر المقابلات وكيف تستعد.",
      "courses": [
       "yangshun-tech-interview-handbook"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Patterns",
@@ -3646,7 +6396,9 @@
      "why_ar": "قائمة منظّمة لأنماط المسائل.",
      "courses": [
       "neetcode-neetcode-roadmap"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Practise",
@@ -3656,7 +6408,9 @@
      "courses": [
       "cses-cses-problem-set",
       "antti-competitive-programmer-s-handbook"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     }
    ]
   },
@@ -3669,6 +6423,19 @@
    "for_ar": "للمطوّرين الذين يريدون تقديم مراجعات أفضل وتلقّيها.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "How Google reviews code",
      "title_ar": "كيف تراجع Google الكود",
      "why": "For reviewers and for authors.",
@@ -3676,7 +6443,9 @@
      "courses": [
       "google-google-engineering-practices-the-reviewer",
       "google-google-engineering-practices-the-author-s"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Write useful comments",
@@ -3685,7 +6454,9 @@
      "why_ar": "ملاحظات واضحة ولطيفة وقابلة للتنفيذ.",
      "courses": [
       "conventional-conventional-comments"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Review for security",
@@ -3694,6 +6465,24 @@
      "why_ar": "اكتشف الثغرات أثناء المراجعة.",
      "courses": [
       "owasp-code-review-guide"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build real projects, contribute to open source, then prepare for coding and system design interviews.",
+     "why_ar": "ابنِ مشاريع حقيقية وساهم في المصادر المفتوحة، ثم استعد لمقابلات البرمجة وتصميم الأنظمة.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook",
+      "john-coding-interview-university",
+      "donne-system-design-primer"
      ]
     }
    ]
@@ -3707,13 +6496,28 @@
    "for_ar": "لمن يبني مواقع وقوالب وإضافات بـ WordPress.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Use WordPress",
      "title_ar": "استخدم WordPress",
      "why": "Official free courses.",
      "why_ar": "كورسات رسمية مجانية.",
      "courses": [
       "wordpress-org-learn-wordpress"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Develop",
@@ -3724,7 +6528,9 @@
       "wordpress-theme-handbook",
       "wordpress-plugin-handbook",
       "wordpress-block-editor-handbook"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Secure",
@@ -3733,6 +6539,22 @@
      "why_ar": "حصّن موقع WordPress.",
      "courses": [
       "wordpress-hardening-wordpress"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Build two or three real projects, contribute to open source, then prepare for interviews.",
+     "why_ar": "ابنِ مشروعين أو ثلاثة حقيقية، وساهم في المصادر المفتوحة، ثم استعد للمقابلات.",
+     "courses": [
+      "codecrafters-build-your-own-x",
+      "florin-app-ideas",
+      "first-first-contributions",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3746,6 +6568,19 @@
    "for_ar": "لمن يريد أن تظهر مواقعه في نتائج البحث.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "No experience needed. Build your first web pages, then learn the command line and Git.",
+     "why_ar": "لا تحتاج خبرة. ابنِ أولى صفحات الويب، ثم تعلّم سطر الأوامر وGit.",
+     "courses": [
+      "odin-foundations",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Basics",
      "title_ar": "الأساسيات",
      "why": "Google's own starter guide.",
@@ -3753,7 +6588,9 @@
      "courses": [
       "google-seo-starter-guide",
       "moz-beginner-s-guide-to-seo"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Technical SEO",
@@ -3763,7 +6600,9 @@
      "courses": [
       "google-introduction-to-structured-data",
       "web-dev-web-vitals"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Measure",
@@ -3772,6 +6611,20 @@
      "why_ar": "Search Console.",
      "courses": [
       "google-search-console-help"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: projects and getting hired",
+     "title_ar": "المرحلة الأخيرة: المشاريع والتوظيف",
+     "why": "Write up real work as case studies, then prepare for behavioural interviews.",
+     "why_ar": "اكتب أعمالك الحقيقية كدراسات حالة، ثم استعد للمقابلات السلوكية.",
+     "courses": [
+      "github-configuring-a-publishing-source-for-githu",
+      "yangshun-tech-interview-handbook"
      ]
     }
    ]
@@ -3785,6 +6638,19 @@
    "for_ar": "للمطوّرين الذين يستخدمون Claude Code لكتابة الكود وتعديله.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Get started",
      "title_ar": "ابدأ",
      "why": "What it is and your first session.",
@@ -3792,7 +6658,9 @@
      "courses": [
       "anthropic-claude-code-overview",
       "anthropic-claude-code-quickstart"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Work well with it",
@@ -3802,7 +6670,9 @@
      "courses": [
       "anthropic-claude-code-best-practices",
       "anthropic-manage-claude-s-memory"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Extend it",
@@ -3812,6 +6682,21 @@
      "courses": [
       "anthropic-hooks",
       "model-model-context-protocol"
+     ],
+     "kind": "step",
+     "level": "advanced"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: use it for real",
+     "title_ar": "المرحلة الأخيرة: استخدمه فعليًا",
+     "why": "Use it on a real project, share what you build, and contribute back.",
+     "why_ar": "استخدمه في مشروع حقيقي وشارك ما تبنيه وساهم في تطويره.",
+     "courses": [
+      "first-first-contributions",
+      "github-how-to-contribute-to-open-source",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]
@@ -3825,6 +6710,19 @@
    "for_ar": "للمطوّرين الذين يستخدمون وكيل البرمجة من OpenAI.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Get started",
      "title_ar": "ابدأ",
      "why": "Official docs and the open-source CLI.",
@@ -3832,7 +6730,9 @@
      "courses": [
       "openai-codex-documentation",
       "openai-codex-cli"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Give it context",
@@ -3841,6 +6741,21 @@
      "why_ar": "تعليمات المشروع التي يقرؤها الوكلاء.",
      "courses": [
       "agents-md-agents-md"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: use it for real",
+     "title_ar": "المرحلة الأخيرة: استخدمه فعليًا",
+     "why": "Use it on a real project, share what you build, and contribute back.",
+     "why_ar": "استخدمه في مشروع حقيقي وشارك ما تبنيه وساهم في تطويره.",
+     "courses": [
+      "first-first-contributions",
+      "github-how-to-contribute-to-open-source",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]
@@ -3861,7 +6776,9 @@
      "courses": [
       "cs50x",
       "fcc-rwd"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Ask well",
@@ -3871,7 +6788,9 @@
      "courses": [
       "prompting-guide",
       "anthropic-claude-code-overview"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Stay safe",
@@ -3881,7 +6800,9 @@
      "courses": [
       "progit",
       "owasp-top10"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "Put it online",
@@ -3891,6 +6812,20 @@
      "courses": [
       "github-configuring-a-publishing-source-for-githu",
       "cloudflare-cloudflare-pages"
+     ],
+     "kind": "step",
+     "level": "foundation"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: use it for real",
+     "title_ar": "المرحلة الأخيرة: استخدمه فعليًا",
+     "why": "Use it on a real project, share what you build, and contribute back.",
+     "why_ar": "استخدمه في مشروع حقيقي وشارك ما تبنيه وساهم في تطويره.",
+     "courses": [
+      "first-first-contributions",
+      "github-how-to-contribute-to-open-source"
      ]
     }
    ]
@@ -3904,6 +6839,19 @@
    "for_ar": "لمن يريد تشغيل وكيل ذكاء اصطناعي خاص به عبر OpenClaw بأمان.",
    "stages": [
     {
+     "kind": "zero",
+     "level": "zero",
+     "title": "Start from zero",
+     "title_ar": "ابدأ من الصفر",
+     "why": "You don't need any experience. Learn how programs work, then the command line and Git that every later stage assumes.",
+     "why_ar": "لا تحتاج أي خبرة. تعلّم كيف تعمل البرامج، ثم سطر الأوامر وGit اللذين تفترضهما المراحل التالية.",
+     "courses": [
+      "cs50x",
+      "missing",
+      "peter-learn-git-branching"
+     ]
+    },
+    {
      "title": "Install and set up",
      "title_ar": "التثبيت والإعداد",
      "why": "The official docs and install guide.",
@@ -3911,7 +6859,9 @@
      "courses": [
       "openclaw-openclaw-documentation",
       "openclaw-install-openclaw"
-     ]
+     ],
+     "kind": "step",
+     "level": "foundation"
     },
     {
      "title": "How agents work",
@@ -3921,7 +6871,9 @@
      "courses": [
       "anthropic-building-effective-agents",
       "model-model-context-protocol"
-     ]
+     ],
+     "kind": "step",
+     "level": "core"
     },
     {
      "title": "Run it safely",
@@ -3931,6 +6883,21 @@
      "courses": [
       "owasp-owasp-top-10-for-llm-applications",
       "openclaw-openclaw-source-code"
+     ],
+     "kind": "step",
+     "level": "core"
+    },
+    {
+     "kind": "final",
+     "level": "final",
+     "title": "Final stage: use it for real",
+     "title_ar": "المرحلة الأخيرة: استخدمه فعليًا",
+     "why": "Use it on a real project, share what you build, and contribute back.",
+     "why_ar": "استخدمه في مشروع حقيقي وشارك ما تبنيه وساهم في تطويره.",
+     "courses": [
+      "first-first-contributions",
+      "github-how-to-contribute-to-open-source",
+      "github-configuring-a-publishing-source-for-githu"
      ]
     }
    ]

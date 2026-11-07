@@ -1,0 +1,724 @@
+{
+ "cybersecurity": [
+  {
+   "id": "soc",
+   "title": "SOC analyst",
+   "title_ar": "محلل مركز العمليات الأمنية",
+   "for": "Watch for attacks and respond to incidents.",
+   "for_ar": "راقب الهجمات واستجب للحوادث.",
+   "courses": [
+    "security-security-onion-documentation",
+    "sigmahq-sigma-detection-rules",
+    "nist-computer-security-incident-handling-guide-s"
+   ],
+   "next": [
+    "linux",
+    "network-engineer"
+   ]
+  },
+  {
+   "id": "pentest",
+   "title": "Penetration tester",
+   "title_ar": "مختبر اختراق",
+   "for": "Find weaknesses, with permission, before attackers do.",
+   "for_ar": "اكتشف الثغرات بإذن قبل المهاجمين.",
+   "courses": [
+    "portswigger",
+    "owasp-owasp-web-security-testing-guide",
+    "offsec-metasploit-unleashed",
+    "bandit"
+   ],
+   "next": [
+    "linux",
+    "shell-bash"
+   ]
+  },
+  {
+   "id": "cloudsec",
+   "title": "Cloud security",
+   "title_ar": "أمن السحابة",
+   "for": "Secure workloads and identities in the cloud.",
+   "for_ar": "أمّن الأحمال والهويات في السحابة.",
+   "courses": [
+    "aws-security-pillar-aws-well-architected",
+    "kubernetes-kubernetes-security-concepts",
+    "center-cis-benchmarks"
+   ],
+   "next": [
+    "aws",
+    "kubernetes",
+    "devsecops"
+   ]
+  },
+  {
+   "id": "grc",
+   "title": "Governance, risk and compliance",
+   "title_ar": "الحوكمة والمخاطر والامتثال",
+   "for": "Turn security into policies, risk decisions and audits.",
+   "for_ar": "حوّل الأمن إلى سياسات وقرارات مخاطر وتدقيق.",
+   "courses": [
+    "nist-csf",
+    "iso-iso-iec-27001-overview",
+    "center-cis-critical-security-controls"
+   ],
+   "next": []
+  }
+ ],
+ "ai-engineer": [
+  {
+   "id": "rag",
+   "title": "Retrieval and search (RAG)",
+   "title_ar": "الاسترجاع والبحث (RAG)",
+   "for": "Ground model answers in your own documents.",
+   "for_ar": "اجعل إجابات النموذج مبنية على مستنداتك.",
+   "courses": [
+    "pinecone-retrieval-augmented-generation",
+    "sbert-sentence-transformers-documentation",
+    "anthropic-contextual-retrieval"
+   ],
+   "next": [
+    "elasticsearch"
+   ]
+  },
+  {
+   "id": "agents",
+   "title": "Agents",
+   "title_ar": "الوكلاء",
+   "for": "Systems that plan and use tools.",
+   "for_ar": "أنظمة تخطط وتستخدم الأدوات.",
+   "courses": [
+    "hf-agents",
+    "anthropic-building-effective-agents"
+   ],
+   "next": [
+    "ai-agents"
+   ]
+  },
+  {
+   "id": "finetune",
+   "title": "Fine-tuning",
+   "title_ar": "الضبط الدقيق للنماذج",
+   "for": "Adapt open models to your task.",
+   "for_ar": "كيّف النماذج المفتوحة لمهمتك.",
+   "courses": [
+    "hugging-fine-tuning-with-the-trainer-api",
+    "hugging-peft-documentation"
+   ],
+   "next": [
+    "inference-engineering",
+    "mlops"
+   ]
+  }
+ ],
+ "machine-learning": [
+  {
+   "id": "cv",
+   "title": "Computer vision",
+   "title_ar": "الرؤية الحاسوبية",
+   "for": "Models that understand images and video.",
+   "for_ar": "نماذج تفهم الصور والفيديو.",
+   "courses": [
+    "stanford-cs231n-deep-learning-for-computer-visio",
+    "hugging-computer-vision-course"
+   ],
+   "next": []
+  },
+  {
+   "id": "nlp",
+   "title": "Natural language processing",
+   "title_ar": "معالجة اللغات الطبيعية",
+   "for": "Models that read and write text.",
+   "for_ar": "نماذج تقرأ النصوص وتكتبها.",
+   "courses": [
+    "hf-llm",
+    "stanford-cs224n-nlp-with-deep-learning"
+   ],
+   "next": [
+    "ai-engineer"
+   ]
+  },
+  {
+   "id": "rl",
+   "title": "Reinforcement learning",
+   "title_ar": "التعلّم المعزّز",
+   "for": "Agents that learn by trial and error.",
+   "for_ar": "وكلاء يتعلّمون بالتجربة والخطأ.",
+   "courses": [
+    "openai-spinning-up-in-deep-rl",
+    "hugging-deep-rl-course"
+   ],
+   "next": []
+  },
+  {
+   "id": "prod",
+   "title": "ML in production",
+   "title_ar": "التعلّم الآلي في الإنتاج",
+   "for": "Ship and run models reliably.",
+   "for_ar": "أطلق النماذج وشغّلها بثبات.",
+   "courses": [
+    "madewithml"
+   ],
+   "next": [
+    "mlops",
+    "inference-engineering"
+   ]
+  }
+ ],
+ "data-scientist": [
+  {
+   "id": "experiments",
+   "title": "Experimentation and causal inference",
+   "title_ar": "التجارب والاستدلال السببي",
+   "for": "Prove that a change caused an effect.",
+   "for_ar": "أثبت أن تغييرًا ما سبّب أثرًا.",
+   "courses": [
+    "scott-causal-inference-the-mixtape",
+    "matheus-causal-inference-for-the-brave-and-true"
+   ],
+   "next": []
+  },
+  {
+   "id": "ts",
+   "title": "Time series and forecasting",
+   "title_ar": "السلاسل الزمنية والتنبؤ",
+   "for": "Predict what happens next over time.",
+   "for_ar": "تنبّأ بما سيحدث مع مرور الوقت.",
+   "courses": [
+    "rob-forecasting-principles-and-practice"
+   ],
+   "next": []
+  },
+  {
+   "id": "dl",
+   "title": "Deep learning",
+   "title_ar": "التعلّم العميق",
+   "for": "Neural networks for unstructured data.",
+   "for_ar": "الشبكات العصبية للبيانات غير المنظّمة.",
+   "courses": [
+    "d2l",
+    "mit-6s191"
+   ],
+   "next": [
+    "machine-learning"
+   ]
+  }
+ ],
+ "devops": [
+  {
+   "id": "sre",
+   "title": "Site reliability engineering",
+   "title_ar": "هندسة اعتمادية المواقع",
+   "for": "Keep services up and measure reliability.",
+   "for_ar": "حافظ على عمل الخدمات وقِس اعتماديتها.",
+   "courses": [
+    "sre-books",
+    "prometheus-prometheus-overview",
+    "opentelemetry-opentelemetry-documentation"
+   ],
+   "next": []
+  },
+  {
+   "id": "platform",
+   "title": "Platform engineering",
+   "title_ar": "هندسة المنصات",
+   "for": "Build internal platforms developers use to ship.",
+   "for_ar": "ابنِ منصات داخلية يستخدمها المطوّرون للإطلاق.",
+   "courses": [
+    "cncf-platforms-white-paper",
+    "argo-argo-cd-documentation"
+   ],
+   "next": [
+    "kubernetes",
+    "terraform"
+   ]
+  },
+  {
+   "id": "cloud",
+   "title": "Cloud engineer",
+   "title_ar": "مهندس سحابة",
+   "for": "Design and run systems on a cloud provider.",
+   "for_ar": "صمّم الأنظمة وشغّلها على مزوّد سحابي.",
+   "courses": [
+    "az-fund"
+   ],
+   "next": [
+    "aws",
+    "cloud-computing",
+    "terraform"
+   ]
+  }
+ ],
+ "backend": [
+  {
+   "id": "py",
+   "title": "Python backend",
+   "title_ar": "باك إند ببايثون",
+   "for": "Django or FastAPI.",
+   "for_ar": "Django أو FastAPI.",
+   "courses": [
+    "fastapi-fastapi-tutorial"
+   ],
+   "next": [
+    "django",
+    "python"
+   ]
+  },
+  {
+   "id": "js",
+   "title": "JavaScript backend",
+   "title_ar": "باك إند بـ JavaScript",
+   "for": "Node.js and Express.",
+   "for_ar": "Node.js وExpress.",
+   "courses": [],
+   "next": [
+    "nodejs",
+    "typescript"
+   ]
+  },
+  {
+   "id": "java",
+   "title": "Java backend",
+   "title_ar": "باك إند بـ Java",
+   "for": "Spring Boot for large systems.",
+   "for_ar": "Spring Boot للأنظمة الكبيرة.",
+   "courses": [],
+   "next": [
+    "java",
+    "spring-boot"
+   ]
+  },
+  {
+   "id": "go",
+   "title": "Go backend",
+   "title_ar": "باك إند بـ Go",
+   "for": "Fast services and cloud tools.",
+   "for_ar": "خدمات سريعة وأدوات سحابية.",
+   "courses": [],
+   "next": [
+    "go"
+   ]
+  },
+  {
+   "id": "scale",
+   "title": "Scaling backends",
+   "title_ar": "توسيع الأنظمة الخلفية",
+   "for": "Caching, queues and distributed design.",
+   "for_ar": "التخزين المؤقت والطوابير والتصميم الموزع.",
+   "courses": [],
+   "next": [
+    "redis",
+    "system-design",
+    "api-design"
+   ]
+  }
+ ],
+ "frontend": [
+  {
+   "id": "react",
+   "title": "React and Next.js",
+   "title_ar": "React وNext.js",
+   "for": "The most common stack in job listings.",
+   "for_ar": "البيئة الأكثر طلبًا في الوظائف.",
+   "courses": [],
+   "next": [
+    "react",
+    "nextjs"
+   ]
+  },
+  {
+   "id": "vue",
+   "title": "Vue or Angular",
+   "title_ar": "Vue أو Angular",
+   "for": "Alternative frameworks with strong ecosystems.",
+   "for_ar": "أطر بديلة ذات منظومات قوية.",
+   "courses": [],
+   "next": [
+    "vue",
+    "angular"
+   ]
+  },
+  {
+   "id": "perf",
+   "title": "Performance and accessibility",
+   "title_ar": "الأداء وإمكانية الوصول",
+   "for": "Fast, inclusive interfaces.",
+   "for_ar": "واجهات سريعة وشاملة.",
+   "courses": [
+    "web-dev-learn-performance",
+    "webdev-a11y"
+   ],
+   "next": []
+  },
+  {
+   "id": "mobile",
+   "title": "Mobile with web skills",
+   "title_ar": "الموبايل بمهارات الويب",
+   "for": "Use React to build phone apps.",
+   "for_ar": "استخدم React لبناء تطبيقات الهاتف.",
+   "courses": [],
+   "next": [
+    "react-native"
+   ]
+  }
+ ],
+ "full-stack": [
+  {
+   "id": "js",
+   "title": "JavaScript full stack",
+   "title_ar": "Full-stack بـ JavaScript",
+   "for": "React, Node.js and SQL.",
+   "for_ar": "React وNode.js وSQL.",
+   "courses": [],
+   "next": [
+    "react",
+    "nodejs",
+    "sql"
+   ]
+  },
+  {
+   "id": "py",
+   "title": "Python full stack",
+   "title_ar": "Full-stack ببايثون",
+   "for": "Django with a modern frontend.",
+   "for_ar": "Django مع واجهة حديثة.",
+   "courses": [],
+   "next": [
+    "django",
+    "javascript"
+   ]
+  },
+  {
+   "id": "php",
+   "title": "PHP full stack",
+   "title_ar": "Full-stack بـ PHP",
+   "for": "Laravel apps.",
+   "for_ar": "تطبيقات Laravel.",
+   "courses": [],
+   "next": [
+    "laravel"
+   ]
+  }
+ ],
+ "data-engineer": [
+  {
+   "id": "stream",
+   "title": "Streaming",
+   "title_ar": "البيانات المتدفقة",
+   "for": "Real-time pipelines with Kafka and Flink.",
+   "for_ar": "خطوط بيانات فورية بـ Kafka وFlink.",
+   "courses": [
+    "apache-apache-flink-documentation"
+   ],
+   "next": [
+    "scala"
+   ]
+  },
+  {
+   "id": "analytics",
+   "title": "Analytics engineering",
+   "title_ar": "هندسة التحليلات",
+   "for": "Model warehouse data for analysts.",
+   "for_ar": "نمذج بيانات المستودع للمحللين.",
+   "courses": [
+    "dbt-dbt-documentation"
+   ],
+   "next": [
+    "sql",
+    "bi-analyst"
+   ]
+  },
+  {
+   "id": "cloudde",
+   "title": "Cloud data platforms",
+   "title_ar": "منصات البيانات السحابية",
+   "for": "Warehouses and lakes in the cloud.",
+   "for_ar": "المستودعات والبحيرات في السحابة.",
+   "courses": [
+    "google-bigquery-documentation"
+   ],
+   "next": [
+    "aws",
+    "terraform"
+   ]
+  }
+ ],
+ "cloud-computing": [
+  {
+   "id": "aws",
+   "title": "AWS",
+   "title_ar": "AWS",
+   "for": "The largest cloud provider.",
+   "for_ar": "أكبر مزوّد سحابي.",
+   "courses": [],
+   "next": [
+    "aws"
+   ]
+  },
+  {
+   "id": "azure",
+   "title": "Microsoft Azure",
+   "title_ar": "Microsoft Azure",
+   "for": "Common in enterprises.",
+   "for_ar": "شائع في المؤسسات.",
+   "courses": [
+    "az-fund",
+    "microsoft-azure-architecture-center"
+   ],
+   "next": []
+  },
+  {
+   "id": "gcp",
+   "title": "Google Cloud",
+   "title_ar": "Google Cloud",
+   "for": "Strong in data and AI.",
+   "for_ar": "قوي في البيانات والذكاء الاصطناعي.",
+   "courses": [
+    "google-google-cloud-overview",
+    "google-google-cloud-architecture-center"
+   ],
+   "next": []
+  },
+  {
+   "id": "edge",
+   "title": "Edge and serverless",
+   "title_ar": "الحافة والخدمات دون خادم",
+   "for": "Run code close to users without servers.",
+   "for_ar": "شغّل الكود قرب المستخدمين دون خوادم.",
+   "courses": [],
+   "next": [
+    "cloudflare"
+   ]
+  }
+ ],
+ "game-developer": [
+  {
+   "id": "godot",
+   "title": "Godot",
+   "title_ar": "Godot",
+   "for": "Free and open source, great for 2D and indie 3D.",
+   "for_ar": "مجاني ومفتوح المصدر، ممتاز للألعاب ثنائية الأبعاد والمستقلة.",
+   "courses": [
+    "godot-your-first-2d-game"
+   ],
+   "next": []
+  },
+  {
+   "id": "unity",
+   "title": "Unity",
+   "title_ar": "Unity",
+   "for": "Widely used for mobile and indie games.",
+   "for_ar": "واسع الاستخدام لألعاب الموبايل والألعاب المستقلة.",
+   "courses": [
+    "unity-unity-learn",
+    "unity-unity-manual"
+   ],
+   "next": []
+  },
+  {
+   "id": "unreal",
+   "title": "Unreal Engine",
+   "title_ar": "Unreal Engine",
+   "for": "High-end 3D games, using C++.",
+   "for_ar": "ألعاب ثلاثية الأبعاد عالية الجودة باستخدام C++.",
+   "courses": [
+    "epic-unreal-engine-documentation"
+   ],
+   "next": [
+    "cpp"
+   ]
+  },
+  {
+   "id": "online",
+   "title": "Multiplayer",
+   "title_ar": "الألعاب الجماعية",
+   "for": "Servers and networking for online games.",
+   "for_ar": "الخوادم والشبكات للألعاب على الإنترنت.",
+   "courses": [],
+   "next": [
+    "multiplayer-backend"
+   ]
+  }
+ ],
+ "ux-design": [
+  {
+   "id": "research",
+   "title": "UX research",
+   "title_ar": "بحث تجربة المستخدم",
+   "for": "Interviews, usability tests and insight.",
+   "for_ar": "المقابلات واختبارات قابلية الاستخدام والاستنتاجات.",
+   "courses": [
+    "gov-uk-user-research",
+    "nielsen-usability-testing-101"
+   ],
+   "next": []
+  },
+  {
+   "id": "ui",
+   "title": "UI and visual design",
+   "title_ar": "تصميم الواجهات والتصميم البصري",
+   "for": "Typography, colour and layout.",
+   "for_ar": "الخطوط والألوان والتخطيط.",
+   "courses": [
+    "google-material-design-3",
+    "refactoring-refactoring-ui-tips"
+   ],
+   "next": [
+    "design-system"
+   ]
+  },
+  {
+   "id": "content",
+   "title": "UX writing",
+   "title_ar": "كتابة تجربة المستخدم",
+   "for": "The words in the interface.",
+   "for_ar": "الكلمات داخل الواجهة.",
+   "courses": [
+    "gov-uk-content-design"
+   ],
+   "next": [
+    "technical-writer"
+   ]
+  }
+ ],
+ "qa": [
+  {
+   "id": "auto",
+   "title": "Test automation",
+   "title_ar": "أتمتة الاختبارات",
+   "for": "Automate checks across UI and APIs.",
+   "for_ar": "أتمت الفحوص عبر الواجهة والواجهات البرمجية.",
+   "courses": [],
+   "next": [
+    "javascript",
+    "python"
+   ]
+  },
+  {
+   "id": "perf",
+   "title": "Performance testing",
+   "title_ar": "اختبار الأداء",
+   "for": "Find how much load a system takes.",
+   "for_ar": "اكتشف كم من الحِمل يتحمّل النظام.",
+   "courses": [
+    "grafana-k6-documentation"
+   ],
+   "next": []
+  },
+  {
+   "id": "sectest",
+   "title": "Security testing",
+   "title_ar": "اختبار الأمان",
+   "for": "Test for vulnerabilities.",
+   "for_ar": "اختبر وجود الثغرات.",
+   "courses": [
+    "owasp-owasp-web-security-testing-guide"
+   ],
+   "next": [
+    "cybersecurity"
+   ]
+  }
+ ],
+ "product-manager": [
+  {
+   "id": "tpm",
+   "title": "Technical product manager",
+   "title_ar": "مدير منتج تقني",
+   "for": "Own platform and API products.",
+   "for_ar": "تولَّ منتجات المنصات والواجهات البرمجية.",
+   "courses": [],
+   "next": [
+    "api-design",
+    "system-design"
+   ]
+  },
+  {
+   "id": "aipm",
+   "title": "AI product manager",
+   "title_ar": "مدير منتجات ذكاء اصطناعي",
+   "for": "Ship features built on AI models.",
+   "for_ar": "أطلق ميزات مبنية على نماذج الذكاء الاصطناعي.",
+   "courses": [
+    "google-people-ai-guidebook"
+   ],
+   "next": [
+    "ai-product-builder",
+    "prompt-engineering"
+   ]
+  },
+  {
+   "id": "growth",
+   "title": "Growth and analytics",
+   "title_ar": "النمو والتحليلات",
+   "for": "Measure and grow product usage.",
+   "for_ar": "قِس استخدام المنتج ونمّه.",
+   "courses": [],
+   "next": [
+    "data-analyst",
+    "sql"
+   ]
+  }
+ ],
+ "data-analyst": [
+  {
+   "id": "bi",
+   "title": "Business intelligence",
+   "title_ar": "ذكاء الأعمال",
+   "for": "Dashboards and reporting.",
+   "for_ar": "اللوحات والتقارير.",
+   "courses": [],
+   "next": [
+    "bi-analyst",
+    "power-bi"
+   ]
+  },
+  {
+   "id": "pyan",
+   "title": "Python analyst",
+   "title_ar": "محلل بيانات ببايثون",
+   "for": "Analysis in code, beyond spreadsheets.",
+   "for_ar": "التحليل بالكود بعد الجداول.",
+   "courses": [],
+   "next": [
+    "python-data"
+   ]
+  },
+  {
+   "id": "tods",
+   "title": "Towards data science",
+   "title_ar": "الطريق إلى علم البيانات",
+   "for": "Add modelling and machine learning.",
+   "for_ar": "أضف النمذجة والتعلّم الآلي.",
+   "courses": [],
+   "next": [
+    "data-scientist"
+   ]
+  }
+ ],
+ "software-architect": [
+  {
+   "id": "cloudarch",
+   "title": "Cloud architect",
+   "title_ar": "معماري سحابة",
+   "for": "Design systems on cloud platforms.",
+   "for_ar": "صمّم الأنظمة على المنصات السحابية.",
+   "courses": [],
+   "next": [
+    "aws",
+    "cloud-computing"
+   ]
+  },
+  {
+   "id": "solarch",
+   "title": "Solutions architect",
+   "title_ar": "معماري حلول",
+   "for": "Fit technology to business problems.",
+   "for_ar": "طابق التقنية مع مشكلات العمل.",
+   "courses": [],
+   "next": [
+    "system-design",
+    "api-design",
+    "software-design"
+   ]
+  }
+ ]
+}

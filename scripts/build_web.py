@@ -17,10 +17,17 @@ for c in src["courses"]:
     c["cost"] = "free" if pe and pe["tier"] == "provider-free" else "open"
     (shown if ok else hidden).append(c)
 ids = {c["id"] for c in shown}
+overviews = json.load(open("web/src/overviews.json")) if os.path.exists("web/src/overviews.json") else {}
+tracks = json.load(open("web/src/tracks.json")) if os.path.exists("web/src/tracks.json") else {}
 out_paths = []
 for p in paths:
     stages = [dict(s, courses=[i for i in s["courses"] if i in ids]) for s in p["stages"]]
-    out_paths.append(dict(p, stages=stages, course_count=len({i for s in stages for i in s["courses"]})))
+    # A zero or final stage whose resources all failed the check is dropped rather than shown empty.
+    stages = [s for s in stages if s["courses"] or s.get("kind") == "step"]
+    tr = [dict(t, courses=[i for i in t["courses"] if i in ids]) for t in tracks.get(p["id"], [])]
+    tr = [t for t in tr if t["courses"] or t["next"]]
+    out_paths.append(dict(p, stages=stages, overview=overviews.get(p["id"]), tracks=tr,
+                          course_count=len({i for s in stages for i in s["courses"]})))
 site = json.load(open("web/src/site.json"))
 os.makedirs("web/data", exist_ok=True)
 json.dump({"site": site, "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "verified_on": src["verified_on"],
