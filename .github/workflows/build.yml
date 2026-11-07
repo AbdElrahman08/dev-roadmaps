@@ -24,11 +24,11 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 300
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with: { python-version: "3.12" }
       - run: pip install aiohttp==3.10.11
       - name: Clone upstream roadmap content
@@ -65,7 +65,7 @@ jobs:
           done
       - uses: actions/configure-pages@v5
         continue-on-error: true
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with: { path: web }   # only the independent site is ever deployed; site/ holds roadmap.sh-derived data (personal use)
       - uses: actions/deploy-pages@v4
         continue-on-error: true
