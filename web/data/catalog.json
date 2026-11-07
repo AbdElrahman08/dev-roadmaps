@@ -23,7 +23,7 @@
 "sql"
 ]
 },
-"built_at": "2026-11-07T12:22:07Z",
+"built_at": "2026-11-07T12:25:02Z",
 "verified_on": "2026-11-05",
 "providers": {
 "Harvard CS50": {
@@ -1878,6 +1878,21 @@
 "cost": "open"
 },
 {
+"id": "w3c-evaluating-web-accessibility",
+"title": "Accessibility testing",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:53Z"
+},
+"cost": "open"
+},
+{
 "id": "martin-software-architecture-guide",
 "title": "Software Architecture Guide",
 "provider": "Martin Fowler",
@@ -2039,6 +2054,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-05T21:58:25Z"
+},
+"cost": "open"
+},
+{
+"id": "w3c-accessibility-fundamentals",
+"title": "Accessibility",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:53Z"
 },
 "cost": "open"
 },
@@ -2283,6 +2313,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "dvc-dvc-documentation",
+"title": "DVC (Data Version Control)",
+"provider": "Iterative",
+"url": "https://github.com/iterative/dvc",
+"format": "Tool",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:58Z"
 },
 "cost": "open"
 },
@@ -2632,6 +2677,21 @@
 "cost": "open"
 },
 {
+"id": "owasp-owasp-top-10-for-llm-applications",
+"title": "OWASP Top 10 for LLM applications",
+"provider": "OWASP",
+"url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:54Z"
+},
+"cost": "open"
+},
+{
 "id": "mitre-mitre-atlas",
 "title": "MITRE ATLAS",
 "provider": "MITRE",
@@ -2778,6 +2838,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "hugging-quantization-overview",
+"title": "Quantization concepts",
+"provider": "Hugging Face Optimum",
+"url": "https://huggingface.co/docs/optimum/concept_guides/quantization",
+"format": "Docs",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:55Z"
 },
 "cost": "open"
 },
@@ -3697,6 +3772,21 @@
 "cost": "open"
 },
 {
+"id": "cppreference-com-cppreference",
+"title": "C++ language reference",
+"provider": "Microsoft Learn",
+"url": "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference",
+"format": "Reference",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:56Z"
+},
+"cost": "open"
+},
+{
 "id": "cmake-cmake-tutorial",
 "title": "CMake tutorial",
 "provider": "CMake",
@@ -3978,6 +4068,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-07T12:16:32Z"
+},
+"cost": "open"
+},
+{
+"id": "laravel-laravel-bootcamp",
+"title": "Laravel starter kits",
+"provider": "Laravel",
+"url": "https://laravel.com/docs/starter-kits",
+"format": "Docs",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:56Z"
 },
 "cost": "open"
 },
@@ -4500,6 +4605,21 @@
 "cost": "open"
 },
 {
+"id": "cloudflare-what-is-a-cdn",
+"title": "CDN",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Glossary/CDN",
+"format": "Reference",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:53Z"
+},
+"cost": "open"
+},
+{
 "id": "martin-distributed-systems-lecture-notes",
 "title": "Distributed Systems lecture notes",
 "provider": "Martin Kleppmann (University of Cambridge)",
@@ -4635,6 +4755,21 @@
 "cost": "open"
 },
 {
+"id": "eric-domain-driven-design-reference",
+"title": "Domain-Driven Design",
+"provider": "Martin Fowler",
+"url": "https://martinfowler.com/bliki/DomainDrivenDesign.html",
+"format": "Article",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:52Z"
+},
+"cost": "open"
+},
+{
 "id": "w3c-design-tokens-community-group",
 "title": "Design Tokens Community Group",
 "provider": "W3C",
@@ -4661,6 +4796,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-05T21:59:27Z"
+},
+"cost": "open"
+},
+{
+"id": "w3c-wcag-overview",
+"title": "Understanding WCAG",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG",
+"format": "Guide",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:53Z"
 },
 "cost": "open"
 },
@@ -4946,6 +5096,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-05T21:35:51Z"
+},
+"cost": "open"
+},
+{
+"id": "stanford-introduction-to-information-retrieval",
+"title": "What is information retrieval?",
+"provider": "Elastic",
+"url": "https://www.elastic.co/what-is/information-retrieval",
+"format": "Article",
+"level": "Intermediate",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:56Z"
 },
 "cost": "open"
 },
@@ -5385,6 +5550,21 @@
 "cost": "open"
 },
 {
+"id": "cloudflare-what-is-the-cloud",
+"title": "Cloud computing",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Glossary/Cloud_computing",
+"format": "Reference",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:53Z"
+},
+"cost": "open"
+},
+{
 "id": "google-google-cloud-overview",
 "title": "Google Cloud overview",
 "provider": "Google Cloud",
@@ -5516,6 +5696,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-07T12:16:28Z"
+},
+"cost": "open"
+},
+{
+"id": "yangshun-tech-interview-handbook",
+"title": "Tech Interview Handbook",
+"provider": "Yangshun Tay",
+"url": "https://github.com/yangshun/tech-interview-handbook",
+"format": "Guide",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-07T12:23:58Z"
 },
 "cost": "open"
 },
@@ -6809,11 +7004,12 @@
 "why": "Load testing and accessibility checks.",
 "why_ar": "اختبار الحِمل وفحوص إمكانية الوصول.",
 "courses": [
-"grafana-k6-documentation"
+"grafana-k6-documentation",
+"w3c-evaluating-web-accessibility"
 ]
 }
 ],
-"course_count": 6
+"course_count": 7
 },
 {
 "id": "software-architect",
@@ -6908,11 +7104,12 @@
 "why": "Design for everyone, including people with disabilities.",
 "why_ar": "صمّم للجميع، بمن فيهم ذوو الإعاقة.",
 "courses": [
+"w3c-accessibility-fundamentals",
 "webdev-a11y"
 ]
 }
 ],
-"course_count": 6
+"course_count": 7
 },
 {
 "id": "technical-writer",
@@ -7078,7 +7275,8 @@
 "why": "Track experiments and version data and models.",
 "why_ar": "تتبّع التجارب وأصدر البيانات والنماذج.",
 "courses": [
-"mlflow-mlflow-documentation"
+"mlflow-mlflow-documentation",
+"dvc-dvc-documentation"
 ]
 },
 {
@@ -7092,7 +7290,7 @@
 ]
 }
 ],
-"course_count": 7
+"course_count": 8
 },
 {
 "id": "product-manager",
@@ -7477,6 +7675,7 @@
 "why": "The main ways LLM applications fail.",
 "why_ar": "أهم طرق فشل تطبيقات نماذج اللغة.",
 "courses": [
+"owasp-owasp-top-10-for-llm-applications",
 "mitre-mitre-atlas"
 ]
 },
@@ -7501,7 +7700,7 @@
 ]
 }
 ],
-"course_count": 5
+"course_count": 6
 },
 {
 "id": "inference-engineering",
@@ -7538,11 +7737,12 @@
 "why": "Quantization and GPU programming.",
 "why_ar": "التكميم وبرمجة GPU.",
 "courses": [
+"hugging-quantization-overview",
 "nvidia-cuda-c-programming-guide"
 ]
 }
 ],
-"course_count": 6
+"course_count": 7
 },
 {
 "id": "sql",
@@ -8217,7 +8417,8 @@
 "why": "Modern guidelines and the reference.",
 "why_ar": "الإرشادات الحديثة والمرجع.",
 "courses": [
-"standard-c-core-guidelines"
+"standard-c-core-guidelines",
+"cppreference-com-cppreference"
 ]
 },
 {
@@ -8230,7 +8431,7 @@
 ]
 }
 ],
-"course_count": 3
+"course_count": 4
 },
 {
 "id": "c",
@@ -8414,6 +8615,7 @@
 "why": "Build an app with the official bootcamp.",
 "why_ar": "ابنِ تطبيقًا مع المعسكر الرسمي.",
 "courses": [
+"laravel-laravel-bootcamp",
 "laravel-laravel-documentation"
 ]
 },
@@ -8427,7 +8629,7 @@
 ]
 }
 ],
-"course_count": 3
+"course_count": 4
 },
 {
 "id": "django",
@@ -8764,7 +8966,8 @@
 "why": "Caches, queues, load balancers and databases.",
 "why_ar": "التخزين المؤقت والطوابير وموازنات الحمل وقواعد البيانات.",
 "courses": [
-"donne-system-design-primer"
+"donne-system-design-primer",
+"cloudflare-what-is-a-cdn"
 ]
 },
 {
@@ -8788,7 +8991,7 @@
 ]
 }
 ],
-"course_count": 5
+"course_count": 6
 },
 {
 "id": "api-design",
@@ -8862,7 +9065,9 @@
 "title_ar": "نمذجة المجال",
 "why": "Model software around the business.",
 "why_ar": "صمّم البرمجيات حول طبيعة العمل.",
-"courses": []
+"courses": [
+"eric-domain-driven-design-reference"
+]
 },
 {
 "title": "Architecture",
@@ -8875,7 +9080,7 @@
 ]
 }
 ],
-"course_count": 3
+"course_count": 4
 },
 {
 "id": "design-system",
@@ -8911,11 +9116,12 @@
 "why_ar": "الرموز وتوثيق المكوّنات وإمكانية الوصول.",
 "courses": [
 "w3c-design-tokens-community-group",
-"storybook-storybook-docs"
+"storybook-storybook-docs",
+"w3c-wcag-overview"
 ]
 }
 ],
-"course_count": 5
+"course_count": 6
 },
 {
 "id": "prompt-engineering",
@@ -9187,7 +9393,9 @@
 "title_ar": "كيف يعمل البحث",
 "why": "The theory behind search engines.",
 "why_ar": "النظرية وراء محركات البحث.",
-"courses": []
+"courses": [
+"stanford-introduction-to-information-retrieval"
+]
 },
 {
 "title": "Elasticsearch",
@@ -9210,7 +9418,7 @@
 ]
 }
 ],
-"course_count": 4
+"course_count": 5
 },
 {
 "id": "linux",
@@ -9509,7 +9717,8 @@
 "why": "Definitions and service models.",
 "why_ar": "التعريفات ونماذج الخدمة.",
 "courses": [
-"nist-the-nist-definition-of-cloud-computing-sp-8"
+"nist-the-nist-definition-of-cloud-computing-sp-8",
+"cloudflare-what-is-the-cloud"
 ]
 },
 {
@@ -9535,7 +9744,7 @@
 ]
 }
 ],
-"course_count": 7
+"course_count": 8
 },
 {
 "id": "cloudflare",
@@ -9632,7 +9841,9 @@
 "title_ar": "الخطة",
 "why": "What interviews test and how to prepare.",
 "why_ar": "ماذا تختبر المقابلات وكيف تستعد.",
-"courses": []
+"courses": [
+"yangshun-tech-interview-handbook"
+]
 },
 {
 "title": "Patterns",
@@ -9654,7 +9865,7 @@
 ]
 }
 ],
-"course_count": 3
+"course_count": 4
 },
 {
 "id": "code-review",
@@ -9931,91 +10142,13 @@
 "why": "An agent with tool access can do real damage. Know the risks.",
 "why_ar": "الوكيل الذي يملك صلاحية الأدوات قد يسبب ضررًا حقيقيًا. اعرف المخاطر.",
 "courses": [
+"owasp-owasp-top-10-for-llm-applications",
 "openclaw-openclaw-source-code"
 ]
 }
 ],
-"course_count": 5
+"course_count": 6
 }
 ],
-"hidden": [
-{
-"id": "w3c-evaluating-web-accessibility",
-"title": "Accessibility testing",
-"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
-"reason": "not checked"
-},
-{
-"id": "w3c-accessibility-fundamentals",
-"title": "Accessibility",
-"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility",
-"reason": "not checked"
-},
-{
-"id": "dvc-dvc-documentation",
-"title": "DVC (Data Version Control)",
-"url": "https://github.com/iterative/dvc",
-"reason": "not checked"
-},
-{
-"id": "owasp-owasp-top-10-for-llm-applications",
-"title": "OWASP Top 10 for LLM applications",
-"url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
-"reason": "not checked"
-},
-{
-"id": "hugging-quantization-overview",
-"title": "Quantization concepts",
-"url": "https://huggingface.co/docs/optimum/concept_guides/quantization",
-"reason": "not checked"
-},
-{
-"id": "cppreference-com-cppreference",
-"title": "C++ language reference",
-"url": "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference",
-"reason": "not checked"
-},
-{
-"id": "laravel-laravel-bootcamp",
-"title": "Laravel starter kits",
-"url": "https://laravel.com/docs/starter-kits",
-"reason": "not checked"
-},
-{
-"id": "cloudflare-what-is-a-cdn",
-"title": "CDN",
-"url": "https://developer.mozilla.org/en-US/docs/Glossary/CDN",
-"reason": "not checked"
-},
-{
-"id": "eric-domain-driven-design-reference",
-"title": "Domain-Driven Design",
-"url": "https://martinfowler.com/bliki/DomainDrivenDesign.html",
-"reason": "not checked"
-},
-{
-"id": "w3c-wcag-overview",
-"title": "Understanding WCAG",
-"url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG",
-"reason": "not checked"
-},
-{
-"id": "stanford-introduction-to-information-retrieval",
-"title": "What is information retrieval?",
-"url": "https://www.elastic.co/what-is/information-retrieval",
-"reason": "not checked"
-},
-{
-"id": "cloudflare-what-is-the-cloud",
-"title": "Cloud computing",
-"url": "https://developer.mozilla.org/en-US/docs/Glossary/Cloud_computing",
-"reason": "not checked"
-},
-{
-"id": "yangshun-tech-interview-handbook",
-"title": "Tech Interview Handbook",
-"url": "https://github.com/yangshun/tech-interview-handbook",
-"reason": "not checked"
-}
-]
+"hidden": []
 }
