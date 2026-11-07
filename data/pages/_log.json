@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T22:35:05Z",
+ "fetched_at": "2026-11-07T11:50:39Z",
  "results": [
   {
    "slug": "ai-agents",
@@ -30,7 +30,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-engineer",
    "status": "ok",
    "nodes": 280,
-   "updatedAt": "2026-10-16T13:43:41.288Z",
+   "updatedAt": "2026-11-06T08:14:55.149Z",
    "title": {
     "card": "AI Engineer",
     "page": "AI Engineer",

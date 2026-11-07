@@ -1,5 +1,5 @@
 {
- "repo_commit": "2c6b81e61150dc900a397dacd89ca631335c4b5c",
+ "repo_commit": "d922417cd1ef690e66c008a3c3612f683e8e433a",
  "roadmaps": [
   {
    "slug": "ai-agents",
@@ -9,17 +9,17 @@
    "topics": 101,
    "counts": {
     "resources": 282,
-    "shown": 238,
-    "removed": 44,
+    "shown": 235,
+    "removed": 47,
     "added": 2,
     "verified_free": 8,
     "uncertain": 0,
     "replaced": 1,
     "needs_review": 0,
     "not_reviewed": 273,
-    "link_ok": 238,
+    "link_ok": 239,
     "link_bad": 2,
-    "link_unchecked": 42,
+    "link_unchecked": 41,
     "topics_without_verified_link": 1
    }
   },
@@ -48,13 +48,13 @@
   {
    "slug": "ai-engineer",
    "title": "AI Engineer",
-   "page_updatedAt": "2026-10-16T13:43:41.288Z",
+   "page_updatedAt": "2026-11-06T08:14:55.149Z",
    "page_fetched": true,
    "topics": 191,
    "counts": {
     "resources": 495,
-    "shown": 397,
-    "removed": 98,
+    "shown": 395,
+    "removed": 100,
     "added": 9,
     "verified_free": 24,
     "uncertain": 2,
@@ -172,8 +172,8 @@
     "needs_review": 0,
     "not_reviewed": 254,
     "link_ok": 239,
-    "link_bad": 1,
-    "link_unchecked": 17,
+    "link_bad": 2,
+    "link_unchecked": 16,
     "topics_without_verified_link": 0
    }
   },
@@ -194,8 +194,8 @@
     "needs_review": 0,
     "not_reviewed": 354,
     "link_ok": 325,
-    "link_bad": 19,
-    "link_unchecked": 31,
+    "link_bad": 17,
+    "link_unchecked": 33,
     "topics_without_verified_link": 0
    }
   },
@@ -282,8 +282,8 @@
     "needs_review": 0,
     "not_reviewed": 260,
     "link_ok": 311,
-    "link_bad": 5,
-    "link_unchecked": 28,
+    "link_bad": 19,
+    "link_unchecked": 14,
     "topics_without_verified_link": 4
    }
   },
@@ -295,17 +295,17 @@
    "topics": 127,
    "counts": {
     "resources": 400,
-    "shown": 336,
-    "removed": 64,
+    "shown": 337,
+    "removed": 63,
     "added": 2,
     "verified_free": 27,
     "uncertain": 1,
     "replaced": 2,
     "needs_review": 0,
     "not_reviewed": 370,
-    "link_ok": 345,
-    "link_bad": 11,
-    "link_unchecked": 44,
+    "link_ok": 346,
+    "link_bad": 27,
+    "link_unchecked": 27,
     "topics_without_verified_link": 0
    }
   },
@@ -458,8 +458,8 @@
     "needs_review": 0,
     "not_reviewed": 466,
     "link_ok": 439,
-    "link_bad": 28,
-    "link_unchecked": 38,
+    "link_bad": 29,
+    "link_unchecked": 37,
     "topics_without_verified_link": 0
    }
   },
@@ -502,8 +502,8 @@
     "needs_review": 0,
     "not_reviewed": 230,
     "link_ok": 235,
-    "link_bad": 4,
-    "link_unchecked": 2,
+    "link_bad": 5,
+    "link_unchecked": 1,
     "topics_without_verified_link": 0
    }
   },
@@ -524,8 +524,8 @@
     "needs_review": 0,
     "not_reviewed": 656,
     "link_ok": 623,
-    "link_bad": 15,
-    "link_unchecked": 51,
+    "link_bad": 18,
+    "link_unchecked": 48,
     "topics_without_verified_link": 1
    }
   },
@@ -546,8 +546,8 @@
     "needs_review": 0,
     "not_reviewed": 195,
     "link_ok": 187,
-    "link_bad": 5,
-    "link_unchecked": 16,
+    "link_bad": 18,
+    "link_unchecked": 3,
     "topics_without_verified_link": 1
    }
   },
@@ -568,8 +568,8 @@
     "needs_review": 0,
     "not_reviewed": 377,
     "link_ok": 397,
-    "link_bad": 4,
-    "link_unchecked": 26,
+    "link_bad": 3,
+    "link_unchecked": 27,
     "topics_without_verified_link": 2
    }
   },
@@ -678,8 +678,8 @@
     "needs_review": 0,
     "not_reviewed": 135,
     "link_ok": 195,
-    "link_bad": 15,
-    "link_unchecked": 9,
+    "link_bad": 16,
+    "link_unchecked": 8,
     "topics_without_verified_link": 10
    }
   },
@@ -691,17 +691,17 @@
    "topics": 94,
    "counts": {
     "resources": 316,
-    "shown": 273,
-    "removed": 43,
+    "shown": 275,
+    "removed": 41,
     "added": 14,
     "verified_free": 16,
     "uncertain": 1,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 299,
-    "link_ok": 291,
+    "link_ok": 293,
     "link_bad": 2,
-    "link_unchecked": 23,
+    "link_unchecked": 21,
     "topics_without_verified_link": 0
    }
   },
@@ -920,8 +920,8 @@
     "needs_review": 0,
     "not_reviewed": 265,
     "link_ok": 229,
-    "link_bad": 15,
-    "link_unchecked": 39,
+    "link_bad": 12,
+    "link_unchecked": 42,
     "topics_without_verified_link": 3
    }
   },
@@ -1250,8 +1250,8 @@
     "needs_review": 0,
     "not_reviewed": 321,
     "link_ok": 297,
-    "link_bad": 5,
-    "link_unchecked": 52,
+    "link_bad": 8,
+    "link_unchecked": 49,
     "topics_without_verified_link": 0
    }
   },
@@ -1461,17 +1461,17 @@
    "topics": 118,
    "counts": {
     "resources": 249,
-    "shown": 220,
-    "removed": 29,
+    "shown": 221,
+    "removed": 28,
     "added": 21,
     "verified_free": 22,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 227,
-    "link_ok": 222,
-    "link_bad": 5,
-    "link_unchecked": 22,
+    "link_ok": 223,
+    "link_bad": 6,
+    "link_unchecked": 20,
     "topics_without_verified_link": 2
    }
   },
@@ -1791,18 +1791,18 @@
    "topics": 216,
    "counts": {
     "resources": 457,
-    "shown": 424,
-    "removed": 33,
+    "shown": 425,
+    "removed": 32,
     "added": 111,
     "verified_free": 112,
     "uncertain": 0,
     "replaced": 0,
     "needs_review": 0,
     "not_reviewed": 345,
-    "link_ok": 430,
+    "link_ok": 431,
     "link_bad": 3,
-    "link_unchecked": 24,
-    "topics_without_verified_link": 4
+    "link_unchecked": 23,
+    "topics_without_verified_link": 3
    }
   },
   {
@@ -2064,8 +2064,8 @@
     "needs_review": 0,
     "not_reviewed": 66,
     "link_ok": 109,
-    "link_bad": 1,
-    "link_unchecked": 14,
+    "link_bad": 3,
+    "link_unchecked": 12,
     "topics_without_verified_link": 2
    }
   },
@@ -2146,11 +2146,11 @@
   "replaced": 71,
   "needs_review": 0,
   "not_reviewed": 25632,
-  "link_ok": 24927,
-  "link_bad": 466,
-  "link_unchecked": 2181,
-  "topics_without_verified_link": 95
+  "link_ok": 24933,
+  "link_bad": 516,
+  "link_unchecked": 2125,
+  "topics_without_verified_link": 94
  },
  "verification_entries": 382,
- "linkcheck_entries": 22108
+ "linkcheck_entries": 22104
 }
