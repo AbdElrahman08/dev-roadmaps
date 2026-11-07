@@ -2,3 +2,6 @@ upstream/
 node_modules/
 *.png
 __pycache__/
+web/_site/
+web/_test.html
+!web/og.png

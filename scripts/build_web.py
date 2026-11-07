@@ -21,8 +21,9 @@ out_paths = []
 for p in paths:
     stages = [dict(s, courses=[i for i in s["courses"] if i in ids]) for s in p["stages"]]
     out_paths.append(dict(p, stages=stages, course_count=len({i for s in stages for i in s["courses"]})))
+site = json.load(open("web/src/site.json"))
 os.makedirs("web/data", exist_ok=True)
-json.dump({"built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "verified_on": src["verified_on"],
+json.dump({"site": site, "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "verified_on": src["verified_on"],
            "providers": src["providers"], "courses": shown, "paths": out_paths,
            "hidden": [{"id": c["id"], "title": c["title"], "url": c["url"], "reason": c["check"]["verdict"]} for c in hidden]},
           open("web/data/catalog.json", "w"), ensure_ascii=False, indent=0)

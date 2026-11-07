@@ -1,76 +1,85 @@
 <title>Darb Learning Paths</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Free tech courses from universities and trusted providers, organised into learning paths and checked every week.">
+<meta name="description" content="Free tech courses from universities and trusted providers, organised into 93 learning paths and checked every week.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Kufi+Arabic:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Kufi+Arabic:wght@600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
 <style>
-/* Layout: a study atlas. One sticky top bar; each view is a single column of bands. Paths read as routes (numbered stages are real order); the catalog is a filterable list. */
+/* Layout: a study atlas. Sticky top bar; each view is a column of bands. Paths read as routes (stage numbers are real order); the catalog is a filterable list. Logical properties throughout so Arabic mirrors cleanly. */
 :root{
-  --bg:#f3f6f7; --surface:#ffffff; --sunk:#e8eef0; --ink:#102027; --muted:#55666e; --line:#d3dde1;
-  --nile:#0b5671; --nile-ink:#ffffff; --nile-soft:#dcecf2; --saffron:#c98a12; --saffron-soft:#f8ecd2;
+  --bg:#f3f6f7; --surface:#ffffff; --sunk:#e8eef0; --ink:#102027; --muted:#53646c; --line:#d3dde1;
+  --nile:#0b5671; --nile-ink:#ffffff; --nile-soft:#dcecf2; --saffron:#a8700a; --saffron-soft:#f8ecd2;
   --ok:#1d7a43; --ok-soft:#dff1e6; --warn:#8a5a00; --warn-soft:#f7ecd4;
   --display:"Familjen Grotesk","Segoe UI",system-ui,sans-serif; --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
-  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace; --arabic:"Noto Kufi Arabic","Segoe UI",sans-serif;
-  --r:10px;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace; --arabic-display:"Noto Kufi Arabic","Segoe UI",Tahoma,sans-serif;
+  --arabic-body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif; --r:10px;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0c1417; --surface:#131e22; --sunk:#0f191c; --ink:#e3ecef; --muted:#97a9b0; --line:#25353b;
+  --bg:#0c1417; --surface:#131e22; --sunk:#0f191c; --ink:#e3ecef; --muted:#9aacb3; --line:#25353b;
   --nile:#5cb8d6; --nile-ink:#06161c; --nile-soft:#14313b; --saffron:#e8b24a; --saffron-soft:#33280f;
   --ok:#78d39b; --ok-soft:#163222; --warn:#e9bf6a; --warn-soft:#33290f; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0c1417; --surface:#131e22; --sunk:#0f191c; --ink:#e3ecef; --muted:#97a9b0; --line:#25353b;
+  --bg:#0c1417; --surface:#131e22; --sunk:#0f191c; --ink:#e3ecef; --muted:#9aacb3; --line:#25353b;
   --nile:#5cb8d6; --nile-ink:#06161c; --nile-soft:#14313b; --saffron:#e8b24a; --saffron-soft:#33280f;
   --ok:#78d39b; --ok-soft:#163222; --warn:#e9bf6a; --warn-soft:#33290f; color-scheme:dark}
+:root[lang="ar"]{--display:var(--arabic-display);--body:var(--arabic-body)}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body)}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);margin:0}
+:root[lang="ar"] body{line-height:1.8}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--surface)}
 a{color:var(--nile)}
 :focus-visible{outline:2px solid var(--nile);outline-offset:2px}
+.skip{position:absolute;inset-inline-start:12px;top:-60px;z-index:40;background:var(--nile);color:var(--nile-ink);padding:10px 14px;border-radius:8px;font-weight:600}
+.skip:focus{top:12px}
 .wrap{max-width:1140px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-h1,h2,h3{font-family:var(--display);line-height:1.12;text-wrap:balance;margin:0}
-h1{font-size:clamp(34px,5.6vw,58px);font-weight:700;letter-spacing:-.02em}
-h2{font-size:clamp(24px,3.2vw,32px);font-weight:700;letter-spacing:-.01em}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(32px,5.4vw,56px);font-weight:700;letter-spacing:-.02em}
+h2{font-size:clamp(23px,3vw,31px);font-weight:700;letter-spacing:-.01em}
 h3{font-size:19px;font-weight:600}
+:root[lang="ar"] h1,:root[lang="ar"] h2{letter-spacing:0}
+:root[lang="ar"] h1{font-size:clamp(28px,4.6vw,48px);line-height:1.35}
 p{margin:0}
-.lede{font-size:19px;color:var(--muted);max-width:60ch}
+.lede{font-size:19px;color:var(--muted);max-width:62ch}
 .eyebrow{font:500 12px/1.3 var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+:root[lang="ar"] .eyebrow{font-family:var(--body);font-size:14px;letter-spacing:0}
+.arr{display:inline-block}
+[dir="rtl"] .arr{transform:scaleX(-1)}
 
-/* top bar */
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
-.top .wrap{display:flex;align-items:center;gap:18px;min-height:62px;flex-wrap:wrap;padding-block:8px}
-.brand{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:var(--ink);margin-right:auto}
-.brand b{font:700 22px/1 var(--display);letter-spacing:-.01em}
-.brand .ar{font:700 18px/1 var(--arabic);color:var(--saffron)}
-.nav{display:flex;flex-wrap:wrap;gap:4px}
+.top .wrap{display:flex;align-items:center;gap:14px;min-height:62px;flex-wrap:wrap;padding-block:8px}
+.brand{display:flex;align-items:baseline;gap:8px;text-decoration:none;color:var(--ink);margin-inline-end:auto}
+.brand b{font:700 22px/1 "Familjen Grotesk",system-ui,sans-serif;letter-spacing:-.01em}
+.brand .ar{font:700 18px/1 var(--arabic-display);color:var(--saffron)}
+.nav{display:flex;flex-wrap:wrap;gap:2px;align-items:center}
 .nav a{font:600 15px/1 var(--body);color:var(--ink);text-decoration:none;padding:9px 11px;border-radius:8px}
 .nav a:hover{background:var(--sunk)}
 .nav a[aria-current="page"]{background:var(--nile-soft);color:var(--nile)}
+.lang{font:600 14px/1 var(--body);color:var(--ink);background:transparent;border:1px solid var(--line);padding:8px 11px;border-radius:8px;cursor:pointer;text-decoration:none}
+.lang:hover{border-color:var(--nile);color:var(--nile)}
 .menu-btn{display:none;font:600 15px var(--body);background:var(--sunk);border:0;color:var(--ink);padding:9px 12px;border-radius:8px}
-@media (max-width:820px){.menu-btn{display:block}.nav{display:none;width:100%;flex-direction:column}.nav.open{display:flex}.nav a{padding:12px}}
+@media (max-width:860px){.menu-btn{display:block}.nav{display:none;width:100%;flex-direction:column;align-items:stretch}.nav.open{display:flex}.nav a{padding:12px}.nav .lang{margin-top:6px;text-align:center}}
 
-/* buttons */
 .btn{display:inline-flex;align-items:center;gap:8px;font:600 16px/1 var(--body);padding:13px 18px;border-radius:9px;text-decoration:none;border:1px solid transparent;cursor:pointer}
 .btn-primary{background:var(--nile);color:var(--nile-ink)}
 .btn-primary:hover{filter:brightness(1.08)}
 .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .btn-ghost:hover{border-color:var(--nile);color:var(--nile)}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.between{justify-content:space-between}
 
-/* bands */
-.band{padding-block:56px}
-.band.tight{padding-block:36px}
+.band{padding-block:52px}
 .band.alt{background:var(--surface);border-block:1px solid var(--line)}
 .stack{display:grid;gap:18px}
-.hero{padding-block:64px 44px;display:grid;gap:22px}
+.stack>*{min-width:0}
+.hero{padding-block:60px 40px;display:grid;gap:22px}
 .hero h1 em{font-style:normal;color:var(--nile)}
 .search{display:flex;gap:8px;max-width:640px;flex-wrap:wrap}
 .search input{flex:1 1 260px;min-width:0;font:17px var(--body);padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
 .stats{display:flex;flex-wrap:wrap;gap:10px 28px;font:500 14px/1.3 var(--mono);color:var(--muted)}
 .stats b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums;font-size:16px}
+:root[lang="ar"] .stats{font-family:var(--body)}
 
-/* path cards */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
 .pcard{display:grid;gap:10px;align-content:start;padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-width:0}
 .pcard:hover{border-color:var(--nile)}
 .pcard p{color:var(--muted);font-size:15.5px}
@@ -78,24 +87,35 @@ p{margin:0}
 .route i{display:block;width:22px;height:4px;border-radius:2px;background:var(--nile-soft)}
 .route i.done{background:var(--nile)}
 .meta{font:400 13px/1.4 var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+:root[lang="ar"] .meta{font-family:var(--body);font-size:14px}
+.cat{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--saffron)}
+:root[lang="ar"] .cat{font-family:var(--body);font-size:13px;letter-spacing:0}
 
-/* offer row */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:600 14px/1 var(--body);padding:9px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--nile);border-color:var(--nile);color:var(--nile-ink)}
+.chip .n{font-weight:400;opacity:.75;margin-inline-start:4px}
+
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.catcard{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:16px 18px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);font-weight:600;cursor:pointer;font:600 16px var(--body);text-align:start}
+.catcard:hover{border-color:var(--nile)}
+.catcard span{font:400 13px var(--mono);color:var(--muted)}
+
 .offers{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 .offer{display:grid;gap:10px;align-content:start;padding:22px;border-radius:var(--r);background:var(--bg);border:1px solid var(--line);min-width:0}
-.offer .tag{font:500 12px/1 var(--mono);color:var(--saffron);letter-spacing:.06em;text-transform:uppercase}
 .offer p{color:var(--muted);font-size:15.5px}
 .offer a{font-weight:600}
 
-/* path page */
 .path-head{display:grid;gap:14px;padding-block:44px 24px}
-.progress{display:flex;align-items:center;gap:12px;font:500 14px var(--mono);color:var(--muted)}
+.progress{display:flex;align-items:center;gap:12px;font:500 14px var(--mono);color:var(--muted);flex-wrap:wrap}
+:root[lang="ar"] .progress{font-family:var(--body)}
 .meter{flex:0 0 180px;height:8px;border-radius:4px;background:var(--sunk);overflow:hidden}
 .meter i{display:block;height:100%;width:0;background:var(--nile)}
 .layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;padding-bottom:64px;align-items:start}
 @media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
-.stages{display:grid;gap:0;list-style:none;margin:0;padding:0}
+.stages{display:grid;list-style:none;margin:0;padding:0}
 .stage{display:grid;grid-template-columns:44px minmax(0,1fr);gap:14px;padding-bottom:28px;position:relative}
-.stage::before{content:"";position:absolute;left:21px;top:44px;bottom:0;width:2px;background:var(--line)}
+.stage::before{content:"";position:absolute;inset-inline-start:21px;top:44px;bottom:0;width:2px;background:var(--line)}
 .stage:last-child::before{display:none}
 .num{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font:600 16px var(--mono);background:var(--surface);border:2px solid var(--nile);color:var(--nile)}
 .stage.complete .num{background:var(--nile);color:var(--nile-ink)}
@@ -105,11 +125,11 @@ p{margin:0}
 @media (max-width:900px){.side{position:static}}
 .sponsor-slot{padding:18px;border:1px dashed var(--saffron);border-radius:var(--r);background:var(--saffron-soft);display:grid;gap:8px}
 .sponsor-slot .lbl{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--saffron)}
+:root[lang="ar"] .sponsor-slot .lbl{font-family:var(--body);font-size:13px;letter-spacing:0}
 .sponsor-slot p{font-size:15px}
 .box{padding:18px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);display:grid;gap:8px}
 .box p{font-size:15px;color:var(--muted)}
 
-/* course cards */
 .courses{display:grid;gap:8px}
 .course{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
 .course input{width:20px;height:20px;margin-top:4px;accent-color:var(--nile)}
@@ -118,28 +138,25 @@ p{margin:0}
 .course .t a:hover{color:var(--nile)}
 .course.done .t a{color:var(--muted);text-decoration:line-through}
 .course .sub{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font-size:14.5px;color:var(--muted)}
-.course .note{grid-column:2;font-size:14.5px;color:var(--muted)}
+.course .note,.course details.ev{grid-column:2;font-size:14.5px;color:var(--muted)}
 .course.nobox{grid-template-columns:minmax(0,1fr)}
-.course.nobox .note{grid-column:1}
+.course.nobox .note,.course.nobox details.ev{grid-column:1}
 .pill{font:500 11px/1 var(--mono);letter-spacing:.04em;padding:5px 7px;border-radius:5px;white-space:nowrap}
+:root[lang="ar"] .pill{font-family:var(--body);font-size:12px;letter-spacing:0}
 .p-free{background:var(--ok-soft);color:var(--ok)}
 .p-open{background:var(--nile-soft);color:var(--nile)}
 .p-lvl{background:var(--sunk);color:var(--muted)}
-details.ev{grid-column:2;font-size:14px}
-.course.nobox details.ev{grid-column:1}
 details.ev summary{cursor:pointer;color:var(--nile);font-weight:600}
-details.ev p{margin-top:6px;color:var(--muted)}
+details.ev p{margin-top:6px}
 
-/* catalog */
 .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
 .filters input,.filters select{font:16px var(--body);padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);min-width:0;max-width:100%}
 .filters input{flex:1 1 220px}
 .filters select{flex:1 1 150px;width:0}
-.stack>*{min-width:0}
 .count{font:500 14px var(--mono);color:var(--muted)}
+:root[lang="ar"] .count{font-family:var(--body)}
 .empty{padding:28px;border:1px dashed var(--line);border-radius:var(--r);color:var(--muted);text-align:center}
 
-/* forms */
 .split{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:36px;align-items:start}
 @media (max-width:900px){.split{grid-template-columns:minmax(0,1fr)}}
 .points{display:grid;gap:14px;list-style:none;margin:0;padding:0}
@@ -147,14 +164,8 @@ details.ev p{margin-top:6px;color:var(--muted)}
 .points li::before{content:"";width:10px;height:10px;margin-top:9px;border-radius:2px;background:var(--saffron);justify-self:center}
 .points b{display:block}
 .points span{color:var(--muted)}
-form.card{display:grid;gap:14px;padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
-label{display:grid;gap:6px;font-weight:600;font-size:15px}
-label small{font-weight:400;color:var(--muted)}
-form input,form select,form textarea{font:16px var(--body);padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);width:100%}
-form textarea{min-height:96px;resize:vertical}
-.form-msg{padding:12px 14px;border-radius:8px;font-size:15px}
-.form-msg.info{background:var(--saffron-soft);color:var(--ink)}
-.form-msg.err{background:var(--warn-soft);color:var(--warn)}
+.cta-card{display:grid;gap:12px;padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);align-content:start}
+.cta-card p{color:var(--muted)}
 .faq{display:grid;gap:8px}
 .faq details{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
 .faq summary{cursor:pointer;font-weight:600}
@@ -162,299 +173,461 @@ form textarea{min-height:96px;resize:vertical}
 .tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .tier{padding:18px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);display:grid;gap:8px;align-content:start}
 .tier p{color:var(--muted);font-size:15px}
-.method{display:grid;gap:14px;max-width:72ch}
-.method ol{margin:0;padding-left:22px;display:grid;gap:10px}
+.note-box{padding:14px 16px;border-radius:8px;background:var(--saffron-soft);color:var(--ink);font-size:15.5px}
+.prose{display:grid;gap:14px;max-width:72ch;padding-bottom:64px}
+.prose h2{font-size:22px;margin-top:10px}
+.prose ul,.prose ol{margin:0;padding-inline-start:22px;display:grid;gap:8px}
+.prose p,.prose li{color:var(--ink)}
+
 footer{border-top:1px solid var(--line);background:var(--surface);padding-block:28px 44px;margin-top:20px}
 footer .wrap{display:grid;gap:14px}
 footer p{font-size:14.5px;color:var(--muted);max-width:80ch}
 footer nav{display:flex;flex-wrap:wrap;gap:6px 18px}
 footer nav a{font-weight:600;font-size:15px;text-decoration:none}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 </style>
 
+<a class="skip" href="#view" id="skip">Skip to content</a>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#home" aria-label="Darb home"><b>Darb</b><span class="ar" lang="ar">درب</span></a>
+    <a class="brand" data-nav="" href="./" aria-label="Darb"><b>Darb</b><span class="ar" lang="ar">درب</span></a>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav class="nav" id="nav" aria-label="Main">
-      <a href="#paths">Paths</a><a href="#courses">Courses</a><a href="#cohorts">Cohorts</a>
-      <a href="#institutions">For institutions</a><a href="#sponsor">Sponsor</a><a href="#support">Support</a>
-    </nav>
+    <nav class="nav" id="nav" aria-label="Main"></nav>
   </div>
 </header>
 
-<main id="view" tabindex="-1"><div class="wrap band"><p class="meta">Loading courses…</p></div></main>
+<main id="view" tabindex="-1"><div class="wrap band"><p class="meta">Loading…</p></div></main>
 
-<footer>
-  <div class="wrap">
-    <nav aria-label="Footer"><a href="#paths">Paths</a><a href="#courses">All courses</a><a href="#method">How we check courses</a><a href="#cohorts">Cohorts</a><a href="#institutions">For institutions</a><a href="#sponsor">Sponsor a path</a><a href="#support">Support Darb</a></nav>
-    <p>Darb links to courses that the providers publish for free. We aren't affiliated with any of them, and their names belong to them. Sponsors never decide which courses appear.</p>
-    <p id="footStamp"></p>
-  </div>
-</footer>
+<footer><div class="wrap" id="foot"></div></footer>
+<noscript><div class="wrap band"><p>Darb needs JavaScript to show its paths and courses. Turn it on and reload the page.</p></div></noscript>
 
 <script>
-/* ---- Site settings: fill these in before going public. Empty values keep the feature in its "not connected yet" state. ---- */
-const CONFIG = {
-  forms: { waitlist: "https://form.typeform.com/to/CLR4YoH0", institution: "https://form.typeform.com/to/BqHGGquz", sponsor: "https://form.typeform.com/to/ZvDPPuai" },   // Typeform share links (publish each form in Typeform first)
-  donate: [],                                               // e.g. [{label:"GitHub Sponsors", url:"https://github.com/sponsors/..."}]
-  contactEmail: ""                                          // shown as text where people need to reach you
-};
-/* ------------------------------------------------------------------------------------------------------------------------- */
 (function(){
-const KEY='darb-progress-v1';
+"use strict";
+/* ================= text ================= */
+const T={
+en:{
+ skip:"Skip to content",menu:"Menu",nav_paths:"Paths",nav_courses:"Courses",nav_cohorts:"Cohorts",nav_inst:"For institutions",nav_sponsor:"Sponsor",nav_support:"Support",lang_other:"العربية",lang_other_code:"ar",
+ loading:"Loading…",load_fail:"The course list didn't load. Check your connection and reload the page.",
+ hero_eyebrow:"Free courses · checked every week",hero_h1:"Learn tech skills from <em>free courses</em> by universities and trusted providers.",
+ hero_lede:"Darb organises free courses from Harvard, MIT, Helsinki, Google, Microsoft and others into {paths} step-by-step paths. Every link is checked weekly. If one starts charging or disappears, it comes off the site.",
+ search_ph:"Try “Python”, “SQL” or “security”",search_btn:"Search",search_label:"Search courses",
+ st_courses:"resources",st_paths:"paths",st_checked:"Last checked",
+ popular:"Popular paths",all_paths:"All {n} paths",browse_cat:"Browse by category",
+ further:"Want to go further?",further_lede:"The courses stay free. These are optional extras.",
+ off_learn_tag:"For learners",off_learn_h:"Live cohorts and mentorship",off_learn_p:"Work through a path with a small group: weekly live sessions, code reviews and feedback on your projects.",off_learn_a:"Join the waitlist",
+ off_inst_tag:"For institutions",off_inst_h:"Paths for your students",off_inst_p:"Universities and training centres can use Darb paths with progress reports and a cohort delivered for their learners.",off_inst_a:"Talk to us",
+ off_sp_tag:"For companies",off_sp_h:"Sponsor a path",off_sp_p:"Support free learning and reach people building skills in your field. Sponsors are always labelled.",off_sp_a:"Sponsor a path",
+ paths_eyebrow:"Learning paths",paths_h1:"Pick where you want to end up.",paths_lede:"Each path puts free resources in order, from your first step to job-ready depth. Do the stages in order and tick things off as you finish. Your progress stays in this browser.",
+ paths_search:"Search paths",all:"All",no_paths:"No paths match. Try another word or category.",
+ stages_n:"{n} stages",courses_n:"{n} resources",done_n:"{n} done",
+ back_paths:"All paths",progress_t:"{d} of {t} done",stage:"Stage {n}",stage_empty:"Nothing in this stage passed this week's check. We're finding a replacement.",
+ sp_slot:"Sponsor slot · open",sp_slot_p:"This path has no sponsor yet. A sponsor here helps keep it free and is shown with a clear label.",sp_slot_a:"Sponsor this path",
+ grp_h:"Study with a group",grp_p:"Do this path in a live cohort, with weekly sessions and project reviews.",grp_a:"Join the cohort waitlist",
+ reset_h:"Starting over?",reset_p:"Clear the ticks for this path in this browser.",reset_btn:"Reset progress",
+ mark_done:"Mark {t} as done",free:"FREE",open:"OPEN ACCESS",how_free:"How we know it's free",
+ ev_provider:"<b>Provider says:</b> {claim} (<a href=\"{url}\" target=\"_blank\" rel=\"noopener\">source</a>, read {date}).",
+ ev_open:"<b>Open access:</b> the provider doesn't state a price, so we label this from our own check. It loaded publicly with no paywall or sign-in wall.",
+ ev_check:"Last link check: {v}{d}.",
+ lv_Beginner:"BEGINNER",lv_Intermediate:"INTERMEDIATE",lv_Advanced:"ADVANCED",
+ cat_eyebrow:"Courses and resources",cat_h1:"Everything on Darb",cat_lede:"Every item here passed this week's check: it loads publicly, with no paywall or sign-in wall. <b>Free</b> means the provider says so on its own page. <b>Open access</b> means our check found it free, but the provider doesn't state a price.",
+ f_search:"Search titles and providers",f_path:"All paths",f_level:"All levels",f_cost:"Free and open access",f_free:"Free (provider says so)",f_open:"Open access",
+ lvl_Beginner:"Beginner",lvl_Intermediate:"Intermediate",lvl_Advanced:"Advanced",
+ count:"{n} of {t}",no_match:"Nothing matches these filters. Clear a filter or try a shorter search.",show_more:"Show more",
+ co_eyebrow:"Live cohorts and mentorship",co_h1:"Don't learn alone.",co_lede:"The courses are free and always will be. A cohort adds structure: a group that moves through a path together, with a mentor and a schedule.",
+ co_p1:"Weekly live sessions",co_p1s:"We go over the week's material, answer questions and work through problems together.",
+ co_p2:"Code and project reviews",co_p2s:"Written feedback on the projects you build, so your portfolio holds up in interviews.",
+ co_p3:"Small groups",co_p3s:"Groups small enough that everyone gets heard.",
+ co_p4:"Arabic or English",co_p4s:"Sessions in the language you learn best in.",
+ co_p5:"One-to-one mentorship",co_p5s:"Separate sessions for career planning, CV review and mock interviews.",
+ co_q1:"How much will it cost?",co_a1:"Prices aren't set yet. People on the waitlist hear first, before anything is announced publicly.",
+ co_q2:"Do I lose access to the free courses?",co_a2:"No. Every resource on Darb stays free whether or not you join a cohort.",
+ co_q3:"When do cohorts start?",co_a3:"Start dates depend on how many people join the waitlist for each path. We'll email you a date before asking for any commitment.",
+ co_form_h:"Join the waitlist",co_form_p:"Name, email, the path you want and your preferred language. About two minutes.",co_form_btn:"Open the waitlist form",
+ form_soon:"Sign-ups open soon.",
+ in_eyebrow:"For universities, training centres and employers",in_h1:"Free paths for your learners, with the reporting you need.",in_lede:"Your learners use free, checked resources. You get structure, delivery and visibility on top.",
+ in_t1:"Curated paths",in_t1p:"Paths shaped to your programme or job roles, built only from free resources, with a page you can share with your learners.",
+ in_t2:"Progress reports",in_t2p:"See who is moving through which stage, so you can step in early.",
+ in_t3:"Cohort delivery",in_t3p:"Live sessions and project reviews run for your group, in Arabic or English.",
+ in_price:"Pricing depends on group size and what you need, so we quote after a short call.",in_form_h:"Tell us about your learners",in_form_p:"Organisation, contact details, group size and what you need.",in_form_btn:"Open the enquiry form",
+ sp_eyebrow:"Sponsorship",sp_h1:"Keep a path free, and be seen by the people learning it.",sp_lede:"Each path has one sponsor slot. Sponsors pay for the weekly checks and the time spent keeping a path current.",
+ sp_p1:"One slot per path",sp_p1s:"Your logo, a line of text and a link, shown beside the path. No pop-ups.",
+ sp_p2:"Always labelled",sp_p2s:"Every sponsor slot says \"Sponsor\". Learners always know what's paid for.",
+ sp_p3:"No say over the content",sp_p3s:"Sponsors can't add, remove or reorder resources. We choose them only on quality and free access.",
+ sp_p4:"No hidden tracking",sp_p4s:"We don't sell learner data. Sponsor links are plain links.",
+ sp_open:"Open slots",sp_open_p:"All {n} paths have an open slot.",sp_form_h:"Ask about a slot",sp_form_p:"Company, contact details and the path you're interested in.",sp_form_btn:"Open the sponsor form",
+ su_eyebrow:"Support Darb",su_h1:"Help keep it free.",su_lede:"Darb has no paywall and no ads. Support from learners pays for the time it takes to check every link each week, replace what disappears and write new paths.",
+ su_t1:"What your support pays for",su_t1p:"The weekly check of every link, replacing resources that start charging, and new paths people ask for.",
+ su_t2:"Free ways to help",su_t2p:"Share a path with a friend, or tell us about a broken link or a great free course we've missed.",
+ su_none:"Online donations aren't open yet. Sharing a path is the best way to help for now.",
+ me_eyebrow:"How we check",me_h1:"Free means free. Here's how we check.",
+ me_1:"<b>We pick each resource ourselves</b>, from the provider's own catalog: universities, nonprofits and the official documentation of the tools.",
+ me_2:"<b>We read the provider's policy.</b> If the provider's own page says it's free, it gets the <span class=\"pill p-free\">FREE</span> label, and we quote that page under \"How we know it's free\".",
+ me_3:"<b>We check every link every week.</b> A resource stays listed only if its page loads publicly with no paywall or sign-in wall. Resources without a stated price are labelled <span class=\"pill p-open\">OPEN ACCESS</span>.",
+ me_4:"<b>Failures come off the site automatically.</b> If a page breaks, starts charging or asks you to sign in, it's hidden until we fix or replace it.",
+ me_5:"<b>Certificates are a separate question.</b> A free course can still sell a certificate. We mention this only where the provider states it.",
+ me_stats:"This week: {n} resources listed, {h} held back. Catalog built {d}.",
+ nf_h1:"That page isn't here.",nf_p:"Go to the <a {home}>home page</a> or <a {paths}>browse the paths</a>.",
+ f_links_paths:"Paths",f_links_courses:"All resources",f_links_method:"How we check",f_links_privacy:"Privacy",f_links_terms:"Terms",
+ f_disclaimer:"Darb links to resources that their providers publish for free. We aren't affiliated with any of them, and their names belong to them. Sponsors never decide what appears.",
+ f_stamp:"{n} resources in {p} paths, last checked {d}.",
+ pv_title:"Privacy",tm_title:"Terms of use",updated:"Last updated {d}",
+ contact_line:"Questions: {c}.",contact_none:"use any of the forms on this site",
+ cats:{start:"Start here",role:"Roles",lang:"Languages",web:"Web and mobile",data:"Data and AI",cloud:"Cloud and DevOps",cs:"CS and architecture",design:"Design and product",tools:"AI coding tools"},
+ page_desc_path:"A free {t} learning path: {f} {n} free resources in {s} stages, checked every week.",
+ titles:{home:"Darb: free tech learning paths",paths:"Learning paths",courses:"All courses and resources",cohorts:"Cohorts and mentorship",institutions:"For institutions",sponsor:"Sponsor a path",support:"Support Darb",method:"How we check courses",privacy:"Privacy",terms:"Terms of use",nf:"Page not found"},
+ descs:{home:"Free tech courses from universities and trusted providers, organised into {p} learning paths and checked every week.",paths:"{p} free learning paths for tech roles, languages, data, cloud and security.",courses:"Every free course and resource on Darb, with filters for path, level and evidence.",cohorts:"Join a live cohort or mentorship on top of free Darb paths.",institutions:"Darb paths, progress reports and cohort delivery for universities and training centres.",sponsor:"Sponsor a Darb learning path. One clearly labelled slot per path.",support:"Help keep Darb free.",method:"How Darb checks that every course is free and still online.",privacy:"What Darb collects and why.",terms:"The terms for using Darb.",nf:"This page doesn't exist."}
+},
+ar:{
+ skip:"انتقل إلى المحتوى",menu:"القائمة",nav_paths:"المسارات",nav_courses:"الكورسات",nav_cohorts:"المجموعات",nav_inst:"للمؤسسات",nav_sponsor:"الرعاية",nav_support:"ادعمنا",lang_other:"English",lang_other_code:"en",
+ loading:"جارٍ التحميل…",load_fail:"لم تُحمَّل قائمة الكورسات. تحقّق من الاتصال وأعد تحميل الصفحة.",
+ hero_eyebrow:"كورسات مجانية · نتحقق منها أسبوعيًا",hero_h1:"تعلّم المهارات التقنية من <em>كورسات مجانية</em> تقدّمها الجامعات والجهات الموثوقة.",
+ hero_lede:"درب ينظّم كورسات مجانية من Harvard وMIT وجامعة هلسنكي وGoogle وMicrosoft وغيرها في {paths} مسارًا خطوة بخطوة. نتحقق من كل رابط أسبوعيًا، وإذا أصبح مدفوعًا أو اختفى نحذفه من الموقع.",
+ search_ph:"جرّب \"Python\" أو \"SQL\" أو \"أمن\"",search_btn:"ابحث",search_label:"ابحث في الكورسات",
+ st_courses:"مصدرًا",st_paths:"مسارًا",st_checked:"آخر فحص",
+ popular:"مسارات شائعة",all_paths:"كل المسارات ({n})",browse_cat:"تصفّح حسب المجال",
+ further:"تريد أن تتقدّم أكثر؟",further_lede:"الكورسات تبقى مجانية. هذه إضافات اختيارية.",
+ off_learn_tag:"للمتعلمين",off_learn_h:"مجموعات مباشرة وإرشاد",off_learn_p:"اعمل على مسار مع مجموعة صغيرة: جلسات مباشرة أسبوعية ومراجعة للكود وملاحظات على مشاريعك.",off_learn_a:"انضم إلى قائمة الانتظار",
+ off_inst_tag:"للمؤسسات",off_inst_h:"مسارات لطلابك",off_inst_p:"يمكن للجامعات ومراكز التدريب استخدام مسارات درب مع تقارير تقدّم ومجموعة تُقدَّم لمتعلميها.",off_inst_a:"تواصل معنا",
+ off_sp_tag:"للشركات",off_sp_h:"ارعَ مسارًا",off_sp_p:"ادعم التعلّم المجاني ووصِل إلى من يبنون مهارات في مجالك. الرعاة يظهرون دائمًا بعلامة واضحة.",off_sp_a:"ارعَ مسارًا",
+ paths_eyebrow:"مسارات التعلّم",paths_h1:"اختر أين تريد أن تصل.",paths_lede:"كل مسار يرتّب مصادر مجانية من خطوتك الأولى حتى الجاهزية للعمل. اتبع المراحل بالترتيب وضع علامة على ما تنهيه. تقدّمك يُحفظ في هذا المتصفح فقط.",
+ paths_search:"ابحث في المسارات",all:"الكل",no_paths:"لا توجد مسارات مطابقة. جرّب كلمة أو مجالًا آخر.",
+ stages_n:"{n} مراحل",courses_n:"{n} مصادر",done_n:"أنجزت {n}",
+ back_paths:"كل المسارات",progress_t:"أنجزت {d} من {t}",stage:"المرحلة {n}",stage_empty:"لم يجتز أي مصدر في هذه المرحلة فحص هذا الأسبوع. نبحث عن بديل.",
+ sp_slot:"مساحة رعاية · متاحة",sp_slot_p:"لا يوجد راعٍ لهذا المسار بعد. الراعي هنا يساعد في إبقائه مجانيًا ويظهر بعلامة واضحة.",sp_slot_a:"ارعَ هذا المسار",
+ grp_h:"تعلّم مع مجموعة",grp_p:"خُض هذا المسار ضمن مجموعة مباشرة، مع جلسات أسبوعية ومراجعة للمشاريع.",grp_a:"انضم إلى قائمة الانتظار",
+ reset_h:"تريد البدء من جديد؟",reset_p:"امسح العلامات لهذا المسار في هذا المتصفح.",reset_btn:"مسح التقدّم",
+ mark_done:"ضع علامة على {t} كمنجز",free:"مجاني",open:"وصول مفتوح",how_free:"كيف نعرف أنه مجاني",
+ ev_provider:"<b>بحسب الجهة المقدّمة:</b> {claim} (<a href=\"{url}\" target=\"_blank\" rel=\"noopener\">المصدر</a>، قُرئ في {date}).",
+ ev_open:"<b>وصول مفتوح:</b> الجهة المقدّمة لا تذكر سعرًا، لذلك نصنّفه بناءً على فحصنا: الصفحة تُفتح للعامة دون اشتراك أو تسجيل دخول.",
+ ev_check:"آخر فحص للرابط: {v}{d}.",
+ lv_Beginner:"مبتدئ",lv_Intermediate:"متوسط",lv_Advanced:"متقدم",
+ cat_eyebrow:"الكورسات والمصادر",cat_h1:"كل ما في درب",cat_lede:"كل عنصر هنا اجتاز فحص هذا الأسبوع: يُفتح للعامة دون اشتراك أو تسجيل دخول. <b>مجاني</b> يعني أن الجهة المقدّمة تقول ذلك في صفحتها. <b>وصول مفتوح</b> يعني أن فحصنا وجده مجانيًا لكن الجهة لا تذكر سعرًا.",
+ f_search:"ابحث في العناوين والجهات",f_path:"كل المسارات",f_level:"كل المستويات",f_cost:"مجاني ووصول مفتوح",f_free:"مجاني (بحسب الجهة)",f_open:"وصول مفتوح",
+ lvl_Beginner:"مبتدئ",lvl_Intermediate:"متوسط",lvl_Advanced:"متقدم",
+ count:"{n} من {t}",no_match:"لا شيء يطابق هذه الفلاتر. امسح فلترًا أو جرّب بحثًا أقصر.",show_more:"عرض المزيد",
+ co_eyebrow:"مجموعات مباشرة وإرشاد",co_h1:"لا تتعلّم وحدك.",co_lede:"الكورسات مجانية وستبقى كذلك. المجموعة تضيف تنظيمًا: أشخاص يقطعون المسار معًا، مع مرشد وجدول.",
+ co_p1:"جلسات مباشرة أسبوعية",co_p1s:"نراجع مادة الأسبوع ونجيب عن الأسئلة ونحل المسائل معًا.",
+ co_p2:"مراجعة الكود والمشاريع",co_p2s:"ملاحظات مكتوبة على المشاريع التي تبنيها، حتى يصمد ملف أعمالك في المقابلات.",
+ co_p3:"مجموعات صغيرة",co_p3s:"مجموعات صغيرة بما يكفي ليُسمع صوت الجميع.",
+ co_p4:"بالعربية أو الإنجليزية",co_p4s:"جلسات باللغة التي تتعلّم بها أفضل.",
+ co_p5:"إرشاد فردي",co_p5s:"جلسات منفصلة للتخطيط المهني ومراجعة السيرة الذاتية والمقابلات التجريبية.",
+ co_q1:"كم ستكون التكلفة؟",co_a1:"لم تُحدَّد الأسعار بعد. المسجّلون في قائمة الانتظار يعرفون أولًا قبل أي إعلان عام.",
+ co_q2:"هل أفقد الوصول إلى الكورسات المجانية؟",co_a2:"لا. كل مصادر درب تبقى مجانية سواء انضممت إلى مجموعة أم لا.",
+ co_q3:"متى تبدأ المجموعات؟",co_a3:"تعتمد المواعيد على عدد المنضمين لقائمة الانتظار في كل مسار. سنراسلك بالموعد قبل طلب أي التزام.",
+ co_form_h:"انضم إلى قائمة الانتظار",co_form_p:"الاسم والبريد والمسار الذي تريده ولغتك المفضّلة. حوالي دقيقتين.",co_form_btn:"افتح نموذج قائمة الانتظار",
+ form_soon:"التسجيل يُفتح قريبًا.",
+ in_eyebrow:"للجامعات ومراكز التدريب وأصحاب العمل",in_h1:"مسارات مجانية لمتعلميك، مع التقارير التي تحتاجها.",in_lede:"متعلموك يستخدمون مصادر مجانية تم التحقق منها، وأنت تحصل على التنظيم والتنفيذ والمتابعة.",
+ in_t1:"مسارات مخصّصة",in_t1p:"مسارات مصمّمة لبرنامجك أو للوظائف المستهدفة، من مصادر مجانية فقط، بصفحة تشاركها مع متعلميك.",
+ in_t2:"تقارير التقدّم",in_t2p:"اعرف من يتقدّم في أي مرحلة، لتتدخل مبكرًا.",
+ in_t3:"تنفيذ المجموعات",in_t3p:"جلسات مباشرة ومراجعة مشاريع لمجموعتك، بالعربية أو الإنجليزية.",
+ in_price:"يعتمد السعر على حجم المجموعة واحتياجاتك، لذلك نقدّم عرض سعر بعد مكالمة قصيرة.",in_form_h:"أخبرنا عن متعلميك",in_form_p:"المؤسسة وبيانات التواصل وحجم المجموعة واحتياجاتك.",in_form_btn:"افتح نموذج الاستفسار",
+ sp_eyebrow:"الرعاية",sp_h1:"أبقِ مسارًا مجانيًا، واظهر لمن يتعلّمونه.",sp_lede:"لكل مسار مساحة رعاية واحدة. الرعاة يموّلون الفحص الأسبوعي والوقت اللازم لتحديث المسار.",
+ sp_p1:"مساحة واحدة لكل مسار",sp_p1s:"شعارك وسطر نصي ورابط بجانب المسار. بلا نوافذ منبثقة.",
+ sp_p2:"علامة واضحة دائمًا",sp_p2s:"كل مساحة رعاية مكتوب عليها \"راعٍ\". المتعلمون يعرفون دائمًا ما هو مدفوع.",
+ sp_p3:"لا تأثير على المحتوى",sp_p3s:"لا يستطيع الرعاة إضافة مصادر أو حذفها أو ترتيبها. نختارها بناءً على الجودة والوصول المجاني فقط.",
+ sp_p4:"بلا تتبّع خفي",sp_p4s:"لا نبيع بيانات المتعلمين. روابط الرعاة روابط عادية.",
+ sp_open:"المساحات المتاحة",sp_open_p:"كل المسارات ({n}) فيها مساحة متاحة.",sp_form_h:"اسأل عن مساحة",sp_form_p:"الشركة وبيانات التواصل والمسار الذي يهمك.",sp_form_btn:"افتح نموذج الرعاية",
+ su_eyebrow:"ادعم درب",su_h1:"ساعدنا في إبقائه مجانيًا.",su_lede:"درب بلا اشتراكات وبلا إعلانات. دعم المتعلمين يموّل الوقت اللازم لفحص كل رابط أسبوعيًا واستبدال ما يختفي وكتابة مسارات جديدة.",
+ su_t1:"ما الذي يموّله دعمك",su_t1p:"الفحص الأسبوعي لكل رابط، واستبدال المصادر التي تصبح مدفوعة، ومسارات جديدة يطلبها الناس.",
+ su_t2:"طرق مجانية للمساعدة",su_t2p:"شارك مسارًا مع صديق، أو أخبرنا عن رابط معطّل أو كورس مجاني رائع فاتنا.",
+ su_none:"التبرعات الإلكترونية لم تُفتح بعد. مشاركة المسارات هي أفضل طريقة للمساعدة الآن.",
+ me_eyebrow:"كيف نتحقق",me_h1:"المجاني يعني مجانيًا. وهكذا نتحقق.",
+ me_1:"<b>نختار كل مصدر بأنفسنا</b> من كتالوج الجهة المقدّمة: الجامعات والمؤسسات غير الربحية والتوثيق الرسمي للأدوات.",
+ me_2:"<b>نقرأ سياسة الجهة المقدّمة.</b> إذا قالت صفحتها إن المصدر مجاني يحصل على علامة <span class=\"pill p-free\">مجاني</span>، ونقتبس تلك الصفحة تحت \"كيف نعرف أنه مجاني\".",
+ me_3:"<b>نفحص كل رابط كل أسبوع.</b> يبقى المصدر معروضًا فقط إذا فُتحت صفحته للعامة دون اشتراك أو تسجيل دخول. المصادر التي لا يُذكر سعرها تحمل علامة <span class=\"pill p-open\">وصول مفتوح</span>.",
+ me_4:"<b>ما يفشل يُحذف تلقائيًا.</b> إذا تعطّلت الصفحة أو أصبحت مدفوعة أو طلبت تسجيل الدخول، تُخفى حتى نصلحها أو نستبدلها.",
+ me_5:"<b>الشهادات مسألة منفصلة.</b> قد يبيع كورس مجاني شهادة. نذكر ذلك فقط حين تصرّح به الجهة المقدّمة.",
+ me_stats:"هذا الأسبوع: {n} مصدرًا معروضًا و{h} محجوبًا. بُني الكتالوج في {d}.",
+ nf_h1:"هذه الصفحة غير موجودة.",nf_p:"اذهب إلى <a {home}>الصفحة الرئيسية</a> أو <a {paths}>تصفّح المسارات</a>.",
+ f_links_paths:"المسارات",f_links_courses:"كل المصادر",f_links_method:"كيف نتحقق",f_links_privacy:"الخصوصية",f_links_terms:"شروط الاستخدام",
+ f_disclaimer:"درب يضع روابط لمصادر تنشرها جهاتها مجانًا. لا نتبع أيًا منها، وأسماؤها مملوكة لأصحابها. الرعاة لا يقرّرون ما يظهر.",
+ f_stamp:"{n} مصدرًا في {p} مسارًا، آخر فحص {d}.",
+ pv_title:"الخصوصية",tm_title:"شروط الاستخدام",updated:"آخر تحديث {d}",
+ contact_line:"للأسئلة: {c}.",contact_none:"استخدم أيًا من النماذج على هذا الموقع",
+ cats:{start:"ابدأ من هنا",role:"الوظائف",lang:"لغات البرمجة",web:"الويب والموبايل",data:"البيانات والذكاء الاصطناعي",cloud:"السحابة وDevOps",cs:"علوم الحاسب والبنية",design:"التصميم والمنتج",tools:"أدوات البرمجة بالذكاء الاصطناعي"},
+ page_desc_path:"مسار تعلّم مجاني: {t}. {f} {n} مصدرًا مجانيًا في {s} مراحل، نتحقق منها أسبوعيًا.",
+ titles:{home:"درب: مسارات مجانية لتعلّم التقنية",paths:"مسارات التعلّم",courses:"كل الكورسات والمصادر",cohorts:"المجموعات والإرشاد",institutions:"للمؤسسات",sponsor:"ارعَ مسارًا",support:"ادعم درب",method:"كيف نتحقق من الكورسات",privacy:"الخصوصية",terms:"شروط الاستخدام",nf:"الصفحة غير موجودة"},
+ descs:{home:"كورسات تقنية مجانية من الجامعات والجهات الموثوقة، منظّمة في {p} مسارًا ونتحقق منها أسبوعيًا.",paths:"{p} مسارًا مجانيًا للوظائف التقنية ولغات البرمجة والبيانات والسحابة والأمن.",courses:"كل الكورسات والمصادر المجانية في درب مع فلاتر للمسار والمستوى ونوع الإثبات.",cohorts:"انضم إلى مجموعة مباشرة أو إرشاد فوق مسارات درب المجانية.",institutions:"مسارات درب وتقارير التقدّم وتنفيذ المجموعات للجامعات ومراكز التدريب.",sponsor:"ارعَ مسار تعلّم في درب. مساحة واحدة بعلامة واضحة لكل مسار.",support:"ساعد في إبقاء درب مجانيًا.",method:"كيف يتحقق درب من أن كل كورس مجاني وما زال متاحًا.",privacy:"ما يجمعه درب ولماذا.",terms:"شروط استخدام درب.",nf:"هذه الصفحة غير موجودة."}
+}};
+const LEGAL={
+en:{privacy:`<p>Darb is a free directory of learning resources. We collect as little as possible.</p>
+<h2>What stays on your device</h2><ul><li>Your progress ticks and language choice are saved in your browser's local storage. They never leave your device, and we can't see them. Clear your browser's site data to remove them.</li></ul>
+<h2>What we don't do</h2><ul><li>No accounts, no ads and no advertising trackers.</li><li>We don't sell or share personal data.</li></ul>
+<h2>Forms</h2><ul><li>The waitlist, institution and sponsor forms are run by Typeform. What you enter there is stored by Typeform and used only to reply to you about Darb. Typeform's own privacy policy also applies.</li><li>You can ask us to delete your form answers at any time.</li></ul>
+<h2>Other sites</h2><ul><li>Courses open on the provider's own website, under that provider's privacy policy.</li><li>Fonts load from Google Fonts, which receives your IP address when your browser requests them.</li></ul>`,
+terms:`<p>By using Darb you agree to these terms.</p>
+<h2>What Darb is</h2><ul><li>Darb links to learning resources that their providers publish. We don't host, own or control them, and we aren't affiliated with any provider.</li><li>We check every link weekly, but a provider can change its price or content at any time. Check the provider's page before relying on it.</li></ul>
+<h2>Our content</h2><ul><li>The paths, stage descriptions and checks are Darb's own work. You can share links to any page.</li></ul>
+<h2>Sponsors and paid extras</h2><ul><li>Sponsored slots are always labelled and never affect which resources are listed.</li><li>Cohorts and mentorship are optional. Their terms and prices are given before you commit to anything.</li></ul>
+<h2>No warranty</h2><ul><li>Darb is provided as it is, without guarantees of accuracy, availability or outcomes such as passing an exam or getting a job.</li></ul>
+<h2>Changes</h2><ul><li>We may update these terms. The date at the top shows the latest version.</li></ul>`},
+ar:{privacy:`<p>درب دليل مجاني لمصادر التعلّم. نجمع أقل قدر ممكن من البيانات.</p>
+<h2>ما يبقى على جهازك</h2><ul><li>علامات تقدّمك واختيار اللغة تُحفظ في التخزين المحلي لمتصفحك. لا تغادر جهازك ولا نستطيع رؤيتها. امسح بيانات الموقع من متصفحك لحذفها.</li></ul>
+<h2>ما لا نفعله</h2><ul><li>لا حسابات ولا إعلانات ولا أدوات تتبّع إعلانية.</li><li>لا نبيع البيانات الشخصية ولا نشاركها.</li></ul>
+<h2>النماذج</h2><ul><li>نماذج قائمة الانتظار والمؤسسات والرعاية تعمل عبر Typeform. ما تُدخله يُخزَّن لدى Typeform ويُستخدم فقط للرد عليك بخصوص درب. تنطبق أيضًا سياسة خصوصية Typeform.</li><li>يمكنك أن تطلب منا حذف إجاباتك في أي وقت.</li></ul>
+<h2>المواقع الأخرى</h2><ul><li>الكورسات تُفتح على موقع الجهة المقدّمة وتخضع لسياسة خصوصيتها.</li><li>الخطوط تُحمَّل من Google Fonts، التي تستقبل عنوان IP الخاص بك عند طلب متصفحك لها.</li></ul>`,
+terms:`<p>باستخدامك درب فإنك توافق على هذه الشروط.</p>
+<h2>ما هو درب</h2><ul><li>درب يضع روابط لمصادر تعلّم تنشرها جهاتها. لا نستضيفها ولا نملكها ولا نتحكم فيها، ولا نتبع أي جهة منها.</li><li>نفحص كل رابط أسبوعيًا، لكن الجهة قد تغيّر السعر أو المحتوى في أي وقت. راجع صفحة الجهة قبل الاعتماد عليها.</li></ul>
+<h2>محتوانا</h2><ul><li>المسارات وأوصاف المراحل والفحوص من عمل درب. يمكنك مشاركة روابط أي صفحة.</li></ul>
+<h2>الرعاة والإضافات المدفوعة</h2><ul><li>مساحات الرعاية تحمل علامة واضحة دائمًا ولا تؤثر على المصادر المعروضة.</li><li>المجموعات والإرشاد اختيارية، وتُعرض شروطها وأسعارها قبل أي التزام.</li></ul>
+<h2>إخلاء المسؤولية</h2><ul><li>يُقدَّم درب كما هو، دون ضمان للدقة أو الإتاحة أو النتائج مثل اجتياز اختبار أو الحصول على وظيفة.</li></ul>
+<h2>التغييرات</h2><ul><li>قد نحدّث هذه الشروط. التاريخ في الأعلى يوضح أحدث نسخة.</li></ul>`}};
+const FMT_AR={"Docs":"توثيق","Course":"كورس","Book":"كتاب","Guide":"دليل","Tutorial":"درس","Tutorials":"دروس","Interactive course":"كورس تفاعلي","Video course":"كورس فيديو","Article":"مقال","Reference":"مرجع","Framework":"إطار","Tool":"أداة","Exercises":"تمارين","Lectures":"محاضرات","Lecture notes":"ملاحظات محاضرات","Specification":"مواصفة","Design system":"نظام تصميم","Examples":"أمثلة","Interactive certification":"شهادة تفاعلية","Project-based curriculum":"منهج قائم على المشاريع","Video course + problem sets":"كورس فيديو وتمارين","Lectures + problem sets":"محاضرات وتمارين","Video series":"سلسلة فيديو","Notebooks":"دفاتر تفاعلية","Paper":"ورقة بحثية","Standard":"معيار","Game":"لعبة","Research":"أبحاث","Handbook":"دليل","Articles":"مقالات","Modules":"وحدات تعليمية","Learning path":"مسار تعليمي"};
+
+/* ================= state ================= */
+const KEY='darb-progress-v1', LKEY='darb-lang';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let progress={}; try{progress=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){}
 const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(progress))}catch(e){}};
-let D=null, byId={};
+const baseMeta=document.querySelector('meta[name="darb-base"]');
+const MODE=baseMeta?'path':'hash', BASE=baseMeta?baseMeta.content:'';
+let LANG='en';
+let D=null, byId={}, pathById={};
 const view=document.getElementById('view');
-const fmtDate=s=>s?new Date(s).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}):'';
-const lastChecked=()=>{const t=D.courses.map(c=>c.check.checked_at).filter(Boolean).sort();return t.length?t[t.length-1]:null};
+const ui={catFilter:'',pathQ:'',limit:60};
+const t=(k,v)=>{let s=T[LANG][k]??T.en[k]??k;if(v)for(const x in v)s=s.split('{'+x+'}').join(v[x]);return s};
+const loc=(o,k)=>LANG==='ar'&&o[k+'_ar']?o[k+'_ar']:o[k];
+const fmtDate=s=>s?new Date(s).toLocaleDateString(LANG==='ar'?'ar-EG':'en-GB',{day:'numeric',month:'short',year:'numeric'}):'';
+const num=n=>Number(n).toLocaleString(LANG==='ar'?'ar-EG':'en-GB');
 
-function costPill(c){return c.cost==='free'?'<span class="pill p-free">FREE</span>':'<span class="pill p-open">OPEN ACCESS</span>'}
+/* ================= routing ================= */
+function parse(){
+  if(MODE==='path'){
+    let p=decodeURIComponent(location.pathname);
+    if(p.startsWith(BASE))p=p.slice(BASE.length);else p=p.replace(/^\//,'');
+    p=p.replace(/index\.html$/,'').replace(/\/+$/,'');
+    if(p==='ar'||p.startsWith('ar/')){LANG='ar';p=p.slice(3)}else LANG='en';
+    return p;
+  }
+  try{const l=localStorage.getItem(LKEY);if(l==='ar'||l==='en')LANG=l}catch(e){}
+  const h=decodeURIComponent(location.hash.slice(1));
+  if(!h||h==='home'||h==='view')return '';
+  if(h.startsWith('path-'))return 'paths/'+h.slice(5);
+  return h;
+}
+function href(route,lang){
+  lang=lang||LANG;
+  if(MODE==='path')return BASE+(lang==='ar'?'ar/':'')+(route?route+'/':'');
+  if(!route)return '#home';
+  return '#'+route.replace(/^paths\//,'path-');
+}
+const A=(route,attrs)=>`href="${href(route)}" data-nav="${route}"${attrs?' '+attrs:''}`;
+function go(route,replace){
+  if(MODE==='path'){history[replace?'replaceState':'pushState'](null,'',href(route));render()}
+  else{const h=href(route);if(location.hash===h)render();else location.hash=h}
+}
+
+/* ================= pieces ================= */
+function costPill(c){return c.cost==='free'?`<span class="pill p-free">${t('free')}</span>`:`<span class="pill p-open">${t('open')}</span>`}
+function fmtLabel(f){return LANG==='ar'&&FMT_AR[f]?FMT_AR[f]:f}
 function evidence(c){
   const pe=c.provider_evidence, ch=c.check;
-  let s=pe?`<p><b>Provider says:</b> ${esc(pe.claim)} (<a href="${esc(pe.url)}" target="_blank" rel="noopener">source</a>, read ${fmtDate(D.verified_on)}).</p>`:
-    `<p><b>Open access:</b> the provider page doesn't state a price, so we label this from our own check. It loaded publicly with no paywall or sign-in wall.</p>`;
-  s+=`<p>Last link check: ${esc(ch.verdict)}${ch.checked_at?', '+fmtDate(ch.checked_at):''}.</p>`;
-  return `<details class="ev"><summary>How we know it's free</summary>${s}</details>`;
+  let s=pe?`<p>${t('ev_provider',{claim:esc(pe.claim),url:esc(pe.url),date:fmtDate(D.verified_on)})}</p>`:`<p>${t('ev_open')}</p>`;
+  s+=`<p>${t('ev_check',{v:esc(ch.verdict),d:ch.checked_at?', '+fmtDate(ch.checked_at):''})}</p>`;
+  return `<details class="ev"><summary>${t('how_free')}</summary>${s}</details>`;
 }
-function courseCard(c,withBox){
+function courseCard(c,box){
   const done=!!progress[c.id];
-  return `<div class="course${done?' done':''}${withBox?'':' nobox'}" data-id="${c.id}">
-    ${withBox?`<input type="checkbox" id="cb-${c.id}" ${done?'checked':''} aria-label="Mark ${esc(c.title)} as done">`:''}
-    <div><div class="t"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a></div>
-    <div class="sub"><span>${esc(c.provider)}</span>${costPill(c)}<span class="pill p-lvl">${esc(c.level.toUpperCase())}</span><span>${esc(c.format)}</span></div></div>
-    ${c.note?`<p class="note">${esc(c.note)}</p>`:''}${evidence(c)}</div>`;
+  return `<div class="course${done?' done':''}${box?'':' nobox'}" data-id="${c.id}">
+    ${box?`<input type="checkbox" id="cb-${c.id}-${box}" data-cid="${c.id}" ${done?'checked':''} aria-label="${esc(t('mark_done',{t:c.title}))}">`:''}
+    <div><div class="t"><a href="${esc(c.url)}" target="_blank" rel="noopener" lang="en" dir="auto">${esc(c.title)}</a></div>
+    <div class="sub"><span dir="auto">${esc(c.provider)}</span>${costPill(c)}<span class="pill p-lvl">${t('lv_'+c.level)}</span><span>${esc(fmtLabel(c.format))}</span></div></div>
+    ${c.note&&LANG==='en'?`<p class="note">${esc(c.note)}</p>`:''}${evidence(c)}</div>`;
 }
-function pathDone(p){const ids=[...new Set(p.stages.flatMap(s=>s.courses))];return [ids.filter(i=>progress[i]).length,ids.length]}
+const pathIds=p=>[...new Set(p.stages.flatMap(s=>s.courses))];
+function pathDone(p){const ids=pathIds(p);return [ids.filter(i=>progress[i]).length,ids.length]}
+function pathCard(p){
+  const [d,n]=pathDone(p);
+  return `<a class="pcard" ${A('paths/'+p.id)}><span class="cat">${esc(t('cats')[p.category]||'')}</span><h3>${esc(loc(p,'title'))}</h3><p>${esc(loc(p,'for'))}</p>
+    <div class="route" aria-hidden="true">${p.stages.map(s=>`<i class="${s.courses.length&&s.courses.every(i=>progress[i])?'done':''}"></i>`).join('')}</div>
+    <span class="meta">${t('stages_n',{n:num(p.stages.length)})} · ${t('courses_n',{n:num(n)})}${d?' · '+t('done_n',{n:num(d)}):''}</span></a>`;
+}
+const CAT_ORDER=['start','role','lang','web','data','cloud','cs','design','tools'];
 
-/* ---------- views ---------- */
-function home(){
-  const prov=new Set(D.courses.map(c=>c.provider)).size;
+/* ================= views ================= */
+const V={};
+V['']=()=>{
+  const feat=(D.site.featured||[]).map(i=>pathById[i]).filter(Boolean);
+  const counts=CAT_ORDER.map(c=>[c,D.paths.filter(p=>p.category===c).length]).filter(x=>x[1]);
   return `<section class="wrap hero">
-    <div class="eyebrow">Free courses · checked every week</div>
-    <h1>Learn tech skills from <em>free courses</em> by universities and trusted providers.</h1>
-    <p class="lede">Darb organises free courses from Harvard, MIT, Helsinki, Kaggle, freeCodeCamp and others into step-by-step paths. Every course is checked weekly. If one starts charging or disappears, it comes off the site.</p>
-    <form class="search" id="homeSearch" role="search"><label class="sr" for="hq">Search courses</label>
-      <input id="hq" type="search" placeholder="Try “Python”, “SQL” or “security”" autocomplete="off"><button class="btn btn-primary" type="submit">Search courses</button></form>
-    <div class="stats"><span><b>${D.courses.length}</b> courses</span><span><b>${D.paths.length}</b> paths</span><span><b>${prov}</b> providers</span><span>Last checked <b>${fmtDate(lastChecked())}</b></span></div>
+    <div class="eyebrow">${t('hero_eyebrow')}</div><h1>${t('hero_h1')}</h1>
+    <p class="lede">${t('hero_lede',{paths:num(D.paths.length)})}</p>
+    <form class="search" id="homeSearch" role="search"><label class="sr" for="hq">${t('search_label')}</label>
+      <input id="hq" type="search" placeholder="${esc(t('search_ph'))}" autocomplete="off"><button class="btn btn-primary" type="submit">${t('search_btn')}</button></form>
+    <div class="stats"><span><b>${num(D.courses.length)}</b> ${t('st_courses')}</span><span><b>${num(D.paths.length)}</b> ${t('st_paths')}</span><span>${t('st_checked')} <b>${fmtDate(lastChecked())}</b></span></div>
   </section>
   <section class="band alt"><div class="wrap stack">
-    <div class="row" style="justify-content:space-between"><h2>Choose a path</h2><a href="#paths">All paths</a></div>
-    <div class="grid">${D.paths.map(pathCard).join('')}</div>
+    <div class="row between"><h2>${t('popular')}</h2><a ${A('paths')}>${t('all_paths',{n:num(D.paths.length)})} <span class="arr">→</span></a></div>
+    <div class="grid">${feat.map(pathCard).join('')}</div>
+    <h2 style="margin-top:18px">${t('browse_cat')}</h2>
+    <div class="cats">${counts.map(([c,n])=>`<button class="catcard" type="button" data-cat="${c}">${esc(t('cats')[c])}<span>${num(n)}</span></button>`).join('')}</div>
   </div></section>
-  <section class="band"><div class="wrap stack">
-    <h2>Want to go further?</h2>
-    <p class="lede">The courses stay free. These are optional extras.</p>
+  <section class="band"><div class="wrap stack"><h2>${t('further')}</h2><p class="lede">${t('further_lede')}</p>
     <div class="offers">
-      <div class="offer"><span class="tag">For learners</span><h3>Live cohorts and mentorship</h3><p>Work through a path with a small group: weekly live sessions, code reviews and feedback on your projects.</p><a href="#cohorts">Join the waitlist →</a></div>
-      <div class="offer"><span class="tag">For institutions</span><h3>Paths for your students</h3><p>Universities and training centres can use Darb paths with progress reports and a cohort delivered for their learners.</p><a href="#institutions">Talk to us →</a></div>
-      <div class="offer"><span class="tag">For companies</span><h3>Sponsor a path</h3><p>Support free learning and reach people building skills in your field. Sponsors are clearly labelled.</p><a href="#sponsor">Sponsor a path →</a></div>
+      <div class="offer"><span class="cat">${t('off_learn_tag')}</span><h3>${t('off_learn_h')}</h3><p>${t('off_learn_p')}</p><a ${A('cohorts')}>${t('off_learn_a')} <span class="arr">→</span></a></div>
+      <div class="offer"><span class="cat">${t('off_inst_tag')}</span><h3>${t('off_inst_h')}</h3><p>${t('off_inst_p')}</p><a ${A('institutions')}>${t('off_inst_a')} <span class="arr">→</span></a></div>
+      <div class="offer"><span class="cat">${t('off_sp_tag')}</span><h3>${t('off_sp_h')}</h3><p>${t('off_sp_p')}</p><a ${A('sponsor')}>${t('off_sp_a')} <span class="arr">→</span></a></div>
+    </div></div></section>`;
+};
+V['paths']=()=>{
+  const counts=CAT_ORDER.map(c=>[c,D.paths.filter(p=>p.category===c).length]).filter(x=>x[1]);
+  return `<section class="wrap path-head"><div class="eyebrow">${t('paths_eyebrow')}</div><h1>${t('paths_h1')}</h1><p class="lede">${t('paths_lede')}</p></section>
+  <section class="wrap stack" style="padding-bottom:64px">
+    <div class="filters"><label class="sr" for="pq">${t('paths_search')}</label><input id="pq" type="search" placeholder="${esc(t('paths_search'))}" value="${esc(ui.pathQ)}" autocomplete="off"></div>
+    <div class="chips" id="catChips" role="group" aria-label="${esc(t('browse_cat'))}">
+      <button class="chip" type="button" data-cat="" aria-pressed="${!ui.catFilter}">${t('all')}<span class="n">${num(D.paths.length)}</span></button>
+      ${counts.map(([c,n])=>`<button class="chip" type="button" data-cat="${c}" aria-pressed="${ui.catFilter===c}">${esc(t('cats')[c])}<span class="n">${num(n)}</span></button>`).join('')}
     </div>
-  </div></section>`;
-}
-function pathCard(p){
-  const [d,t]=pathDone(p);
-  return `<a class="pcard" href="#path-${p.id}"><h3>${esc(p.title)}</h3><p>${esc(p.for)}</p>
-    <div class="route" aria-hidden="true">${p.stages.map(s=>`<i class="${s.courses.length&&s.courses.every(i=>progress[i])?'done':''}"></i>`).join('')}</div>
-    <span class="meta">${p.stages.length} stages · ${t} courses${d?` · ${d} done`:''}</span></a>`;
-}
-function paths(){
-  return `<section class="wrap path-head"><div class="eyebrow">Learning paths</div><h1>Pick where you want to end up.</h1>
-    <p class="lede">Each path puts free courses in order, from your first step to job-ready depth. Do the stages in order and tick off courses as you finish. Your progress stays in this browser.</p></section>
-    <section class="wrap" style="padding-bottom:64px"><div class="grid">${D.paths.map(pathCard).join('')}</div></section>`;
+    <div class="count" id="pcount" aria-live="polite"></div>
+    <div class="grid" id="pgrid"></div>
+  </section>`;
+};
+function drawPaths(){
+  const q=ui.pathQ.trim().toLowerCase();
+  const list=D.paths.filter(p=>(!ui.catFilter||p.category===ui.catFilter)&&(!q||[p.title,p.title_ar,p.for,p.for_ar,...p.stages.map(s=>s.title+' '+(s.title_ar||''))].join(' ').toLowerCase().includes(q)));
+  document.getElementById('pcount').textContent=t('count',{n:num(list.length),t:num(D.paths.length)});
+  document.getElementById('pgrid').innerHTML=list.length?list.map(pathCard).join(''):`<div class="empty">${t('no_paths')}</div>`;
+  document.querySelectorAll('#catChips .chip').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.cat===ui.catFilter)));
 }
 function pathView(id){
-  const p=D.paths.find(x=>x.id===id); if(!p) return notFound();
-  const [d,t]=pathDone(p);
-  return `<section class="wrap path-head"><a href="#paths" class="meta">← All paths</a><h1>${esc(p.title)}</h1><p class="lede">${esc(p.for)}</p>
-    <div class="progress"><span class="meter"><i id="meter" style="width:${t?100*d/t:0}%"></i></span><span id="ptext">${d} of ${t} courses done</span></div></section>
+  const p=pathById[id]; if(!p) return null;
+  const [d,n]=pathDone(p);
+  return `<section class="wrap path-head"><a ${A('paths','class="meta"')}><span class="arr">←</span> ${t('back_paths')}</a><span class="cat">${esc(t('cats')[p.category]||'')}</span><h1>${esc(loc(p,'title'))}</h1><p class="lede">${esc(loc(p,'for'))}</p>
+    <div class="progress"><span class="meter"><i id="meter" style="width:${n?100*d/n:0}%"></i></span><span id="ptext">${t('progress_t',{d:num(d),t:num(n)})}</span></div></section>
   <section class="wrap layout">
-    <ol class="stages">${p.stages.map((s,i)=>`<li class="stage${s.courses.length&&s.courses.every(c=>progress[c])?' complete':''}"><span class="num" aria-hidden="true">${i+1}</span>
-      <div class="stage-body"><h2 style="font-size:22px">Stage ${i+1}: ${esc(s.title)}</h2><p>${esc(s.why)}</p>
-      <div class="courses">${s.courses.length?s.courses.map(c=>courseCard(byId[c],true)).join(''):'<div class="empty">No course in this stage passed this week\'s check. We\'re finding a replacement.</div>'}</div></div></li>`).join('')}</ol>
+    <ol class="stages">${p.stages.map((s,i)=>`<li class="stage${s.courses.length&&s.courses.every(c=>progress[c])?' complete':''}"><span class="num" aria-hidden="true">${num(i+1)}</span>
+      <div class="stage-body"><h2 style="font-size:22px">${t('stage',{n:num(i+1)})}: ${esc(loc(s,'title'))}</h2><p>${esc(loc(s,'why'))}</p>
+      <div class="courses">${s.courses.length?s.courses.map(c=>courseCard(byId[c],'s'+i)).join(''):`<div class="empty">${t('stage_empty')}</div>`}</div></div></li>`).join('')}</ol>
     <aside class="side">
-      <div class="sponsor-slot"><span class="lbl">Sponsor slot · open</span><p>This path has no sponsor yet. A sponsor here keeps it free and is shown with a clear label.</p><a href="#sponsor">Sponsor this path →</a></div>
-      <div class="box"><h3>Study with a group</h3><p>Do this path in a live cohort, with weekly sessions and project reviews.</p><a href="#cohorts">Join the cohort waitlist →</a></div>
-      <div class="box"><h3>Resetting?</h3><p>Clear the ticks for this path in this browser.</p><button class="btn btn-ghost" id="resetPath" type="button">Reset progress</button></div>
-    </aside>
-  </section>`;
+      <div class="sponsor-slot"><span class="lbl">${t('sp_slot')}</span><p>${t('sp_slot_p')}</p><a ${A('sponsor')}>${t('sp_slot_a')} <span class="arr">→</span></a></div>
+      <div class="box"><h3>${t('grp_h')}</h3><p>${t('grp_p')}</p><a ${A('cohorts')}>${t('grp_a')} <span class="arr">→</span></a></div>
+      <div class="box"><h3>${t('reset_h')}</h3><p>${t('reset_p')}</p><button class="btn btn-ghost" id="resetPath" type="button" data-path="${p.id}">${t('reset_btn')}</button></div>
+    </aside></section>`;
 }
-function courses(q){
-  const provs=[...new Set(D.courses.map(c=>c.provider))].sort(), fmts=[...new Set(D.courses.map(c=>c.format))].sort();
-  return `<section class="wrap path-head"><div class="eyebrow">Course catalog</div><h1>All free courses</h1>
-    <p class="lede">Every course here passed this week's check: it loads publicly, with no paywall or sign-in wall. <b>Free</b> means the provider says so on its own page. <b>Open access</b> means our check found it free, but the provider doesn't state a price.</p></section>
+V['courses']=()=>`<section class="wrap path-head"><div class="eyebrow">${t('cat_eyebrow')}</div><h1>${t('cat_h1')}</h1><p class="lede">${t('cat_lede')}</p></section>
   <section class="wrap stack" style="padding-bottom:64px">
     <div class="filters" role="search">
-      <label class="sr" for="fq">Search</label><input id="fq" type="search" placeholder="Search titles and providers" value="${esc(q||'')}">
-      <label class="sr" for="fpath">Path</label><select id="fpath"><option value="">All paths</option>${D.paths.map(p=>`<option value="${p.id}">${esc(p.title)}</option>`).join('')}</select>
-      <label class="sr" for="flevel">Level</label><select id="flevel"><option value="">All levels</option><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select>
-      <label class="sr" for="fcost">Evidence</label><select id="fcost"><option value="">Free and open access</option><option value="free">Free (provider says so)</option><option value="open">Open access</option></select>
-      <label class="sr" for="fprov">Provider</label><select id="fprov"><option value="">All providers</option>${provs.map(p=>`<option>${esc(p)}</option>`).join('')}</select>
-      <label class="sr" for="ffmt">Format</label><select id="ffmt"><option value="">All formats</option>${fmts.map(f=>`<option>${esc(f)}</option>`).join('')}</select>
+      <label class="sr" for="fq">${t('f_search')}</label><input id="fq" type="search" placeholder="${esc(t('f_search'))}" autocomplete="off">
+      <label class="sr" for="fpath">${t('f_path')}</label><select id="fpath"><option value="">${t('f_path')}</option>${D.paths.map(p=>`<option value="${p.id}">${esc(loc(p,'title'))}</option>`).join('')}</select>
+      <label class="sr" for="flevel">${t('f_level')}</label><select id="flevel"><option value="">${t('f_level')}</option>${['Beginner','Intermediate','Advanced'].map(l=>`<option value="${l}">${t('lvl_'+l)}</option>`).join('')}</select>
+      <label class="sr" for="fcost">${t('f_cost')}</label><select id="fcost"><option value="">${t('f_cost')}</option><option value="free">${t('f_free')}</option><option value="open">${t('f_open')}</option></select>
     </div>
     <div class="count" id="count" aria-live="polite"></div>
     <div class="courses" id="list"></div>
+    <button class="btn btn-ghost" id="more" type="button" hidden>${t('show_more')}</button>
   </section>`;
-}
-function filterCourses(){
+function filterCourses(reset){
+  if(reset)ui.limit=60;
   const v=id=>document.getElementById(id).value, q=v('fq').trim().toLowerCase(), path=v('fpath');
-  const inPath=path?new Set(D.paths.find(p=>p.id===path).stages.flatMap(s=>s.courses)):null;
-  const list=D.courses.filter(c=>(!q||(c.title+' '+c.provider+' '+c.format+' '+(c.note||'')).toLowerCase().includes(q))&&(!inPath||inPath.has(c.id))
-    &&(!v('flevel')||c.level===v('flevel'))&&(!v('fcost')||c.cost===v('fcost'))&&(!v('fprov')||c.provider===v('fprov'))&&(!v('ffmt')||c.format===v('ffmt')));
-  document.getElementById('count').textContent=`${list.length} of ${D.courses.length} courses`;
-  document.getElementById('list').innerHTML=list.length?list.map(c=>courseCard(c,false)).join(''):'<div class="empty">No courses match these filters. Clear a filter or try a shorter search.</div>';
+  const inPath=path?new Set(pathIds(pathById[path])):null;
+  const list=D.courses.filter(c=>(!q||(c.title+' '+c.provider+' '+c.format).toLowerCase().includes(q))&&(!inPath||inPath.has(c.id))&&(!v('flevel')||c.level===v('flevel'))&&(!v('fcost')||c.cost===v('fcost')));
+  document.getElementById('count').textContent=t('count',{n:num(list.length),t:num(D.courses.length)});
+  document.getElementById('list').innerHTML=list.length?list.slice(0,ui.limit).map(c=>courseCard(c,'')).join(''):`<div class="empty">${t('no_match')}</div>`;
+  document.getElementById('more').hidden=list.length<=ui.limit;
 }
-function formBlock(kind,fields,submitLabel){
-  const url=CONFIG.forms[kind];
-  if(url) return `<div class="card box"><h3>Ready when you are</h3><p>The form opens in a new tab and takes about two minutes.</p><a class="btn btn-primary" href="${esc(url)}" target="_blank" rel="noopener">${esc(submitLabel)}</a></div>`;
-  return `<form class="card" data-kind="${kind}" novalidate>${fields}<button class="btn btn-primary" type="submit">${esc(submitLabel)}</button><div class="form-msg info" hidden></div></form>`;
-}
-const pathOptions=()=>D.paths.map(p=>`<option value="${p.id}">${esc(p.title)}</option>`).join('');
-function cohorts(){
-  return `<section class="wrap path-head"><div class="eyebrow">Live cohorts and mentorship</div><h1>Don't learn alone.</h1>
-    <p class="lede">The courses are free and always will be. A cohort adds structure: a group that moves through a path together, with a mentor and a schedule.</p></section>
-  <section class="wrap split" style="padding-bottom:56px">
-    <div class="stack">
-      <ul class="points">
-        <li><div><b>Weekly live sessions</b><span>We go over the week's material, answer questions and work through problems together.</span></div></li>
-        <li><div><b>Code and project reviews</b><span>Written feedback on the projects you build, so your portfolio holds up in interviews.</span></div></li>
-        <li><div><b>Small groups</b><span>Groups small enough that everyone gets heard.</span></div></li>
-        <li><div><b>Arabic or English</b><span>Sessions in the language you learn best in.</span></div></li>
-        <li><div><b>One-to-one mentorship</b><span>Separate sessions for career planning, CV review and mock interviews.</span></div></li>
-      </ul>
-      <div class="faq">
-        <details><summary>How much will it cost?</summary><p>Prices aren't set yet. People on the waitlist hear first, before anything is announced publicly.</p></details>
-        <details><summary>Do I lose access to the free courses?</summary><p>No. Every course on Darb stays free whether or not you join a cohort.</p></details>
-        <details><summary>When do cohorts start?</summary><p>Start dates depend on how many people join the waitlist for each path. We'll email you a date before asking for any commitment.</p></details>
-      </div>
-    </div>
-    ${formBlock('waitlist',`<h2 style="font-size:24px">Join the waitlist</h2>
-      <label>Name<input name="name" autocomplete="name" required></label>
-      <label>Email<input name="email" type="email" autocomplete="email" required></label>
-      <label>Path<select name="path" required>${pathOptions()}</select></label>
-      <label>Preferred language<select name="lang"><option>Arabic</option><option>English</option><option>Either</option></select></label>
-      <label>Where are you now? <small>Optional</small><textarea name="about" placeholder="e.g. second-year student, I know some Python"></textarea></label>`,'Join the waitlist')}
-  </section>`;
-}
-function institutions(){
-  return `<section class="wrap path-head"><div class="eyebrow">For universities, training centres and employers</div><h1>Free paths for your learners, with the reporting you need.</h1>
-    <p class="lede">Your learners use free, checked courses. You get structure, delivery and visibility on top.</p></section>
-  <section class="wrap split" style="padding-bottom:56px">
-    <div class="stack">
-      <div class="tiers">
-        <div class="tier"><h3>Curated paths</h3><p>Paths shaped to your programme or job roles, built only from free courses, with a page you can share with your learners.</p></div>
-        <div class="tier"><h3>Progress reports</h3><p>See who is moving through which stage, so you can step in early.</p></div>
-        <div class="tier"><h3>Cohort delivery</h3><p>Live sessions and project reviews run for your group, in Arabic or English.</p></div>
-      </div>
-      <p class="meta">Pricing depends on group size and what you need, so we quote after a short call.</p>
-    </div>
-    ${formBlock('institution',`<h2 style="font-size:24px">Tell us about your learners</h2>
-      <label>Organisation<input name="org" autocomplete="organization" required></label>
-      <label>Type<select name="type"><option>University</option><option>Training provider</option><option>Employer</option><option>NGO or government programme</option><option>Other</option></select></label>
-      <label>Your name<input name="name" autocomplete="name" required></label>
-      <label>Work email<input name="email" type="email" autocomplete="email" required></label>
-      <label>Roughly how many learners?<input name="size" inputmode="numeric" placeholder="e.g. 40"></label>
-      <label>What do you need? <small>Optional</small><textarea name="need"></textarea></label>`,'Send enquiry')}
-  </section>`;
-}
-function sponsor(){
-  return `<section class="wrap path-head"><div class="eyebrow">Sponsorship</div><h1>Keep a path free, and be seen by the people learning it.</h1>
-    <p class="lede">Each path has one sponsor slot. Sponsors pay for the weekly checks and the time spent keeping a path current.</p></section>
-  <section class="wrap split" style="padding-bottom:56px">
-    <div class="stack">
-      <ul class="points">
-        <li><div><b>One slot per path</b><span>Your logo, a line of text and a link, shown beside the path. No pop-ups.</span></div></li>
-        <li><div><b>Always labelled</b><span>Every sponsor slot says "Sponsor". Learners always know what's paid for.</span></div></li>
-        <li><div><b>No say over the courses</b><span>Sponsors can't add, remove or reorder courses. We choose courses only on quality and free access.</span></div></li>
-        <li><div><b>No hidden tracking</b><span>We don't sell learner data. Sponsor links are plain links.</span></div></li>
-      </ul>
-      <div class="box"><h3>Open slots</h3><p>${D.paths.map(p=>esc(p.title)).join(' · ')}</p></div>
-    </div>
-    ${formBlock('sponsor',`<h2 style="font-size:24px">Ask about a slot</h2>
-      <label>Company<input name="company" autocomplete="organization" required></label>
-      <label>Your name<input name="name" autocomplete="name" required></label>
-      <label>Work email<input name="email" type="email" autocomplete="email" required></label>
-      <label>Path<select name="path">${pathOptions()}<option value="any">Not sure yet</option></select></label>
-      <label>Message <small>Optional</small><textarea name="msg"></textarea></label>`,'Ask about sponsoring')}
-  </section>`;
-}
-function support(){
-  const links=CONFIG.donate.filter(d=>d.url);
-  return `<section class="wrap path-head"><div class="eyebrow">Support Darb</div><h1>Help keep it free.</h1>
-    <p class="lede">Darb has no paywall and no ads. Support from learners pays for the time it takes to check courses every week, replace the ones that disappear and write new paths.</p></section>
-  <section class="wrap stack" style="padding-bottom:64px">
-    <div class="tiers">
-      <div class="tier"><h3>What your support pays for</h3><p>The weekly check of every link, replacing courses that start charging, and new paths people ask for.</p></div>
-      <div class="tier"><h3>Free ways to help</h3><p>Share a path with a friend, or tell us about a broken link or a great free course we've missed.</p></div>
-    </div>
-    ${links.length?`<div class="row">${links.map(d=>`<a class="btn btn-primary" href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.label)}</a>`).join('')}</div>`:
-      `<div class="form-msg info">Online donations aren't open yet. Sharing a path is the best way to help for now.</div>`}
-  </section>`;
-}
-function method(){
-  return `<section class="wrap path-head"><div class="eyebrow">How we check courses</div><h1>Free means free. Here's how we check.</h1></section>
-  <section class="wrap method" style="padding-bottom:64px">
-    <ol>
-      <li><b>We pick each course ourselves</b>, from the provider's own catalog: universities, nonprofits and the official documentation of the tools.</li>
-      <li><b>We read the provider's policy.</b> If the provider's own page says the course is free, it gets the <span class="pill p-free">FREE</span> label, and we quote that page under "How we know it's free".</li>
-      <li><b>We check every link every week.</b> A course stays listed only if its page loads publicly with no paywall or sign-in wall. Courses the provider doesn't put a price on are labelled <span class="pill p-open">OPEN ACCESS</span>.</li>
-      <li><b>Failures come off the site automatically.</b> If a page breaks, starts charging or asks you to sign in, it's hidden until we fix or replace it.</li>
-      <li><b>Certificates are a separate question.</b> A free course can still sell a certificate. We note this only where the provider states it.</li>
-    </ol>
-    <p class="meta">This week: ${D.courses.length} courses listed, ${D.hidden.length} held back. Catalog built ${fmtDate(D.built_at)}.</p>
-  </section>`;
-}
-function notFound(){return `<section class="wrap path-head"><h1>That page isn't here.</h1><p class="lede"><a href="#home">Go to the home page</a> or <a href="#paths">browse the paths</a>.</p></section>`}
+const ctaCard=(kind,h,p,btn)=>{const url=D.site.forms[kind];return `<div class="cta-card"><h2 style="font-size:24px">${h}</h2><p>${p}</p>${url?`<a class="btn btn-primary" href="${esc(url)}" target="_blank" rel="noopener">${btn} <span class="arr">→</span></a>`:`<div class="note-box">${t('form_soon')}</div>`}</div>`};
+const points=keys=>`<ul class="points">${keys.map(k=>`<li><div><b>${t(k)}</b><span>${t(k+'s')}</span></div></li>`).join('')}</ul>`;
+V['cohorts']=()=>`<section class="wrap path-head"><div class="eyebrow">${t('co_eyebrow')}</div><h1>${t('co_h1')}</h1><p class="lede">${t('co_lede')}</p></section>
+  <section class="wrap split" style="padding-bottom:56px"><div class="stack">${points(['co_p1','co_p2','co_p3','co_p4','co_p5'])}
+    <div class="faq">${[1,2,3].map(i=>`<details><summary>${t('co_q'+i)}</summary><p>${t('co_a'+i)}</p></details>`).join('')}</div></div>
+    ${ctaCard('waitlist',t('co_form_h'),t('co_form_p'),t('co_form_btn'))}</section>`;
+V['institutions']=()=>`<section class="wrap path-head"><div class="eyebrow">${t('in_eyebrow')}</div><h1>${t('in_h1')}</h1><p class="lede">${t('in_lede')}</p></section>
+  <section class="wrap split" style="padding-bottom:56px"><div class="stack"><div class="tiers">${[1,2,3].map(i=>`<div class="tier"><h3>${t('in_t'+i)}</h3><p>${t('in_t'+i+'p')}</p></div>`).join('')}</div><p class="meta">${t('in_price')}</p></div>
+    ${ctaCard('institution',t('in_form_h'),t('in_form_p'),t('in_form_btn'))}</section>`;
+V['sponsor']=()=>`<section class="wrap path-head"><div class="eyebrow">${t('sp_eyebrow')}</div><h1>${t('sp_h1')}</h1><p class="lede">${t('sp_lede')}</p></section>
+  <section class="wrap split" style="padding-bottom:56px"><div class="stack">${points(['sp_p1','sp_p2','sp_p3','sp_p4'])}<div class="box"><h3>${t('sp_open')}</h3><p>${t('sp_open_p',{n:num(D.paths.length)})}</p></div></div>
+    ${ctaCard('sponsor',t('sp_form_h'),t('sp_form_p'),t('sp_form_btn'))}</section>`;
+V['support']=()=>{const links=(D.site.donate||[]).filter(d=>d.url);
+  return `<section class="wrap path-head"><div class="eyebrow">${t('su_eyebrow')}</div><h1>${t('su_h1')}</h1><p class="lede">${t('su_lede')}</p></section>
+  <section class="wrap stack" style="padding-bottom:64px"><div class="tiers"><div class="tier"><h3>${t('su_t1')}</h3><p>${t('su_t1p')}</p></div><div class="tier"><h3>${t('su_t2')}</h3><p>${t('su_t2p')}</p></div></div>
+  ${links.length?`<div class="row">${links.map(d=>`<a class="btn btn-primary" href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.label)}</a>`).join('')}</div>`:`<div class="note-box">${t('su_none')}</div>`}</section>`};
+V['method']=()=>`<section class="wrap path-head"><div class="eyebrow">${t('me_eyebrow')}</div><h1>${t('me_h1')}</h1></section>
+  <section class="wrap prose"><ol>${[1,2,3,4,5].map(i=>`<li>${t('me_'+i)}</li>`).join('')}</ol>
+  <p class="meta">${t('me_stats',{n:num(D.courses.length),h:num(D.hidden.length),d:fmtDate(D.built_at)})}</p></section>`;
+const legal=(kind,titleKey)=>()=>`<section class="wrap path-head"><div class="eyebrow">${t('updated',{d:fmtDate(D.site.legalUpdated)})}</div><h1>${t(titleKey)}</h1></section>
+  <section class="wrap prose">${LEGAL[LANG][kind]}<p>${t('contact_line',{c:D.site.contactEmail?esc(D.site.contactEmail):t('contact_none')})}</p></section>`;
+V['privacy']=legal('privacy','pv_title');V['terms']=legal('terms','tm_title');
+const notFound=()=>`<section class="wrap path-head"><h1>${t('nf_h1')}</h1><p class="lede">${t('nf_p',{home:A(''),paths:A('paths')})}</p></section>`;
+const lastChecked=()=>{const x=D.courses.map(c=>c.check.checked_at).filter(Boolean).sort();return x.length?x[x.length-1]:null};
 
-/* ---------- router ---------- */
-const ROUTES={home,paths,courses:()=>courses(''),cohorts,institutions,sponsor,support,method};
-function route(){
-  const h=decodeURIComponent(location.hash.slice(1))||'home';
-  let html, section=h;
-  if(h.startsWith('path-')){html=pathView(h.slice(5));section='paths'}
-  else if(ROUTES[h]) html=ROUTES[h](); else html=notFound();
-  view.innerHTML=html;
-  document.querySelectorAll('#nav a').forEach(a=>{if(a.getAttribute('href')==='#'+section)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
-  document.getElementById('nav').classList.remove('open');document.getElementById('menuBtn').setAttribute('aria-expanded','false');
-  if(h==='courses') {wireFilters();filterCourses()}
-  window.scrollTo(0,0);
+/* ================= chrome ================= */
+function chrome(route){
+  const root=document.documentElement;root.lang=LANG;root.dir=LANG==='ar'?'rtl':'ltr';
+  document.getElementById('skip').textContent=t('skip');
+  document.getElementById('menuBtn').textContent=t('menu');
+  const brand=document.querySelector('.brand');brand.setAttribute('href',href(''));brand.dataset.nav='';
+  const sec=route.startsWith('paths')?'paths':route;
+  const items=[['paths','nav_paths'],['courses','nav_courses'],['cohorts','nav_cohorts'],['institutions','nav_inst'],['sponsor','nav_sponsor'],['support','nav_support']];
+  const other=t('lang_other_code');
+  document.getElementById('nav').innerHTML=items.map(([r,k])=>`<a ${A(r)}${sec===r?' aria-current="page"':''}>${t(k)}</a>`).join('')+
+    (MODE==='path'?`<a class="lang" href="${href(route,other)}" hreflang="${other}" lang="${other}" data-lang="${other}">${t('lang_other')}</a>`:`<button class="lang" type="button" lang="${other}" data-lang="${other}">${t('lang_other')}</button>`);
+  document.getElementById('foot').innerHTML=`<nav aria-label="Footer"><a ${A('paths')}>${t('f_links_paths')}</a><a ${A('courses')}>${t('f_links_courses')}</a><a ${A('method')}>${t('f_links_method')}</a><a ${A('cohorts')}>${t('nav_cohorts')}</a><a ${A('institutions')}>${t('nav_inst')}</a><a ${A('sponsor')}>${t('nav_sponsor')}</a><a ${A('support')}>${t('nav_support')}</a><a ${A('privacy')}>${t('f_links_privacy')}</a><a ${A('terms')}>${t('f_links_terms')}</a></nav>
+    <p>${t('f_disclaimer')}</p><p>${t('f_stamp',{n:num(D.courses.length),p:num(D.paths.length),d:fmtDate(lastChecked())})}</p>`;
 }
-function wireFilters(){['fq','fpath','flevel','fcost','fprov','ffmt'].forEach(id=>document.getElementById(id).addEventListener(id==='fq'?'input':'change',filterCourses))}
-window.addEventListener('hashchange',route);
-document.getElementById('menuBtn').addEventListener('click',e=>{const n=document.getElementById('nav');const o=n.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)});
+function setMeta(route,found){
+  let title,desc;const T2=t('titles'),DS=t('descs');
+  if(route.startsWith('paths/')&&found){const p=pathById[route.slice(6)];const n=pathIds(p).length;
+    title=`${loc(p,'title')} · Darb`;desc=t('page_desc_path',{t:loc(p,'title'),f:loc(p,'for'),n:num(n),s:num(p.stages.length)})}
+  else{const k=found?(route||'home'):'nf';title=k==='home'?T2.home:`${T2[k]} · Darb`;desc=(DS[k]||'').replace('{p}',num(D.paths.length))}
+  document.title=title;const m=document.querySelector('meta[name="description"]');if(m)m.setAttribute('content',desc);
+}
+let lastRoute=null;
+function render(){
+  const route=parse();
+  let html;
+  if(route.startsWith('paths/'))html=pathView(route.slice(6));
+  else if(V[route])html=V[route]();
+  const found=html!=null;
+  if(!found)html=notFound();
+  chrome(route);
+  view.innerHTML=html;
+  setMeta(route,found);
+  document.getElementById('nav').classList.remove('open');document.getElementById('menuBtn').setAttribute('aria-expanded','false');
+  if(route==='courses')filterCourses(true);
+  if(route==='paths')drawPaths();
+  if(lastRoute!==null&&lastRoute!==route){window.scrollTo(0,0);view.focus({preventScroll:true})}
+  lastRoute=route;
+}
+
+/* ================= events ================= */
+document.addEventListener('click',e=>{
+  if(e.target.id==='skip'){e.preventDefault();view.focus();return}
+  const a=e.target.closest('a[data-nav]');
+  if(a&&MODE==='path'&&!e.metaKey&&!e.ctrlKey&&!e.shiftKey&&e.button===0){e.preventDefault();go(a.dataset.nav);return}
+  const lb=e.target.closest('[data-lang]');
+  if(lb&&MODE==='hash'){e.preventDefault();LANG=lb.dataset.lang;try{localStorage.setItem(LKEY,LANG)}catch(_){}render();return}
+  const cat=e.target.closest('[data-cat]');
+  if(cat){ui.catFilter=cat.dataset.cat;if(parse()!=='paths')go('paths');else drawPaths();return}
+  if(e.target.id==='more'){ui.limit+=60;filterCourses(false);return}
+  if(e.target.id==='resetPath'){const p=pathById[e.target.dataset.path];pathIds(p).forEach(i=>delete progress[i]);save();render()}
+});
+document.getElementById('menuBtn').addEventListener('click',e=>{const n=document.getElementById('nav');const o=n.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',String(o))});
 view.addEventListener('submit',e=>{
-  const f=e.target;
-  if(f.id==='homeSearch'){e.preventDefault();const q=document.getElementById('hq').value;location.hash='courses';setTimeout(()=>{const i=document.getElementById('fq');if(i){i.value=q;filterCourses()}},0);return}
-  if(!f.dataset.kind)return;
-  e.preventDefault();
-  const msg=f.querySelector('.form-msg');
-  const bad=[...f.querySelectorAll('[required]')].filter(i=>!i.value.trim()||(i.type==='email'&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(i.value)));
-  if(bad.length){msg.hidden=false;msg.className='form-msg err';msg.textContent='Please fill in '+bad.map(i=>i.closest('label').childNodes[0].textContent.trim().toLowerCase()).join(', ')+'. Emails need an @ and a domain.';bad[0].focus();return}
-  msg.hidden=false;msg.className='form-msg info';
-  msg.textContent='Sign-ups open soon. Nothing was sent, so please come back in a few days.'+(CONFIG.contactEmail?' In the meantime you can email '+CONFIG.contactEmail+'.':'');
+  if(e.target.id!=='homeSearch')return;e.preventDefault();
+  const q=document.getElementById('hq').value;go('courses');
+  const i=document.getElementById('fq');if(i){i.value=q;filterCourses(true)}
+});
+view.addEventListener('input',e=>{
+  if(e.target.id==='pq'){ui.pathQ=e.target.value;drawPaths()}
+  if(e.target.id==='fq')filterCourses(true);
 });
 view.addEventListener('change',e=>{
-  if(e.target.type!=='checkbox'||!e.target.id.startsWith('cb-'))return;
-  const card=e.target.closest('.course'),id=card.dataset.id;
-  if(e.target.checked)progress[id]=Date.now();else delete progress[id];save();
-  document.querySelectorAll(`.course[data-id="${id}"]`).forEach(c=>{c.classList.toggle('done',e.target.checked);const b=c.querySelector('input');if(b)b.checked=e.target.checked});
-  const h=location.hash.slice(1);if(h.startsWith('path-')){const p=D.paths.find(x=>x.id===h.slice(5));const [d,t]=pathDone(p);
-    document.getElementById('meter').style.width=(t?100*d/t:0)+'%';document.getElementById('ptext').textContent=`${d} of ${t} courses done`;
+  if(['fpath','flevel','fcost'].includes(e.target.id)){filterCourses(true);return}
+  const cid=e.target.dataset&&e.target.dataset.cid;if(!cid)return;
+  if(e.target.checked)progress[cid]=Date.now();else delete progress[cid];save();
+  document.querySelectorAll(`.course[data-id="${cid}"]`).forEach(c=>{c.classList.toggle('done',e.target.checked);const b=c.querySelector('input');if(b)b.checked=e.target.checked});
+  const r=parse();if(r.startsWith('paths/')){const p=pathById[r.slice(6)];const [d,n]=pathDone(p);
+    document.getElementById('meter').style.width=(n?100*d/n:0)+'%';document.getElementById('ptext').textContent=t('progress_t',{d:num(d),t:num(n)});
     document.querySelectorAll('.stage').forEach((li,i)=>{const s=p.stages[i];li.classList.toggle('complete',s.courses.length>0&&s.courses.every(c=>progress[c]))})}
 });
-view.addEventListener('click',e=>{
-  if(e.target.id!=='resetPath')return;
-  const p=D.paths.find(x=>x.id===location.hash.slice(6));if(!p)return;
-  p.stages.flatMap(s=>s.courses).forEach(i=>delete progress[i]);save();route();
-});
+window.addEventListener(MODE==='path'?'popstate':'hashchange',render);
+
 (async function(){
-  try{D=await (await fetch('data/catalog.json')).json()}catch(e){view.innerHTML='<div class="wrap band"><p>The course list didn\'t load. Check your connection and reload the page.</p></div>';return}
-  D.courses.forEach(c=>byId[c.id]=c);
-  document.getElementById('footStamp').textContent=`${D.courses.length} courses, last checked ${fmtDate(lastChecked())}.`;
-  route();
+  try{D=await (await fetch((MODE==='path'?BASE:'')+'data/catalog.json')).json()}catch(e){parse();view.innerHTML=`<div class="wrap band"><p>${t('load_fail')}</p></div>`;return}
+  D.courses.forEach(c=>byId[c.id]=c);D.paths.forEach(p=>pathById[p.id]=p);
+  render();
 })();
 })();
 </script>

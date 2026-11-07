@@ -2,7 +2,7 @@ name: Build inventory, check links, deploy site
 on:
   push:
     branches: [main]
-    paths: ["data/verifications.json", "data/additions.json", "scripts/**", "site/index.html", "web/src/**", "web/index.html", ".github/workflows/build.yml"]
+    paths: ["data/verifications.json", "data/additions.json", "scripts/**", "site/index.html", "web/src/**", "web/index.html", "web/favicon.svg", "web/og.png", ".github/workflows/build.yml"]
   schedule:
     - cron: "17 3 * * 1"   # weekly, Monday 03:17 UTC
   workflow_dispatch:
@@ -63,9 +63,11 @@ jobs:
             git push -q origin HEAD:main && break
             sleep 10
           done
+      - name: Build production pages (one page per route and language, sitemap, 404)
+        run: python scripts/build_web.py && node scripts/build_pages.mjs
       - uses: actions/configure-pages@v5
         continue-on-error: true
       - uses: actions/upload-pages-artifact@v4
-        with: { path: web }   # only the independent site is ever deployed; site/ holds roadmap.sh-derived data (personal use)
+        with: { path: web/_site }   # only the independent Darb site is ever deployed; site/ holds roadmap.sh-derived data (personal use)
       - uses: actions/deploy-pages@v4
         continue-on-error: true

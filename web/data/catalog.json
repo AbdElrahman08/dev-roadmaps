@@ -1,5 +1,29 @@
 {
-"built_at": "2026-11-07T12:17:37Z",
+"site": {
+"name": "Darb",
+"siteUrl": "https://abdelrahman08.github.io/darb/",
+"basePath": "/darb/",
+"forms": {
+"waitlist": "https://form.typeform.com/to/CLR4YoH0",
+"institution": "https://form.typeform.com/to/BqHGGquz",
+"sponsor": "https://form.typeform.com/to/ZvDPPuai"
+},
+"donate": [],
+"contactEmail": "",
+"legalUpdated": "2026-11-07",
+"featured": [
+"foundations",
+"frontend",
+"backend",
+"data-analyst",
+"ai-engineer",
+"devops",
+"cybersecurity",
+"python",
+"sql"
+]
+},
+"built_at": "2026-11-07T12:22:07Z",
 "verified_on": "2026-11-05",
 "providers": {
 "Harvard CS50": {
@@ -2518,6 +2542,21 @@
 "cost": "open"
 },
 {
+"id": "cloudflare-cloudflare-learning-center",
+"title": "How does the Internet work?",
+"provider": "MDN Web Docs",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
+"format": "Article",
+"level": "Beginner",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:38:51Z"
+},
+"cost": "open"
+},
+{
 "id": "google-people-ai-guidebook",
 "title": "People + AI Guidebook",
 "provider": "Google PAIR",
@@ -2739,6 +2778,21 @@
 "check": {
 "verdict": "ok",
 "checked_at": "2026-11-07T12:16:33Z"
+},
+"cost": "open"
+},
+{
+"id": "nvidia-cuda-c-programming-guide",
+"title": "An Even Easier Introduction to CUDA",
+"provider": "NVIDIA Developer",
+"url": "https://developer.nvidia.com/blog/even-easier-introduction-cuda/",
+"format": "Article",
+"level": "Advanced",
+"note": "",
+"provider_evidence": null,
+"check": {
+"verdict": "ok",
+"checked_at": "2026-11-05T21:40:39Z"
 },
 "cost": "open"
 },
@@ -7261,10 +7315,12 @@
 "title_ar": "الشبكات الحديثة",
 "why": "DNS, CDNs and security at the edge.",
 "why_ar": "DNS وشبكات توزيع المحتوى والأمان عند الحافة.",
-"courses": []
+"courses": [
+"cloudflare-cloudflare-learning-center"
+]
 }
 ],
-"course_count": 4
+"course_count": 5
 },
 {
 "id": "forward-deployed-engineer",
@@ -7481,10 +7537,12 @@
 "title_ar": "اجعله أصغر وأسرع",
 "why": "Quantization and GPU programming.",
 "why_ar": "التكميم وبرمجة GPU.",
-"courses": []
+"courses": [
+"nvidia-cuda-c-programming-guide"
+]
 }
 ],
-"course_count": 5
+"course_count": 6
 },
 {
 "id": "sql",
@@ -9493,6 +9551,7 @@
 "why": "DNS, CDNs and security, explained.",
 "why_ar": "DNS وشبكات التوزيع والأمان بشرح مبسّط.",
 "courses": [
+"cloudflare-cloudflare-learning-center",
 "cloudflare-cloudflare-dns"
 ]
 },
@@ -9517,7 +9576,7 @@
 ]
 }
 ],
-"course_count": 5
+"course_count": 6
 },
 {
 "id": "dsa",
@@ -9882,93 +9941,81 @@
 "hidden": [
 {
 "id": "w3c-evaluating-web-accessibility",
-"title": "Evaluating web accessibility",
-"url": "https://www.w3.org/WAI/test-evaluate/",
-"reason": "blocked"
+"title": "Accessibility testing",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
+"reason": "not checked"
 },
 {
 "id": "w3c-accessibility-fundamentals",
-"title": "Accessibility fundamentals",
-"url": "https://www.w3.org/WAI/fundamentals/",
-"reason": "blocked"
+"title": "Accessibility",
+"url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility",
+"reason": "not checked"
 },
 {
 "id": "dvc-dvc-documentation",
-"title": "DVC documentation",
-"url": "https://dvc.org/doc",
-"reason": "blocked"
-},
-{
-"id": "cloudflare-cloudflare-learning-center",
-"title": "Cloudflare Learning Center",
-"url": "https://www.cloudflare.com/learning/",
-"reason": "blocked"
+"title": "DVC (Data Version Control)",
+"url": "https://github.com/iterative/dvc",
+"reason": "not checked"
 },
 {
 "id": "owasp-owasp-top-10-for-llm-applications",
 "title": "OWASP Top 10 for LLM applications",
-"url": "https://genai.owasp.org/llm-top-10/",
-"reason": "blocked"
+"url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+"reason": "not checked"
 },
 {
 "id": "hugging-quantization-overview",
-"title": "Quantization overview",
-"url": "https://huggingface.co/docs/transformers/main/en/quantization/overview",
-"reason": "blocked"
-},
-{
-"id": "nvidia-cuda-c-programming-guide",
-"title": "CUDA C++ Programming Guide",
-"url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
-"reason": "broken"
+"title": "Quantization concepts",
+"url": "https://huggingface.co/docs/optimum/concept_guides/quantization",
+"reason": "not checked"
 },
 {
 "id": "cppreference-com-cppreference",
-"title": "cppreference",
-"url": "https://en.cppreference.com/w/",
-"reason": "blocked"
+"title": "C++ language reference",
+"url": "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference",
+"reason": "not checked"
 },
 {
 "id": "laravel-laravel-bootcamp",
-"title": "Laravel Bootcamp",
-"url": "https://bootcamp.laravel.com/",
-"reason": "broken"
+"title": "Laravel starter kits",
+"url": "https://laravel.com/docs/starter-kits",
+"reason": "not checked"
 },
 {
 "id": "cloudflare-what-is-a-cdn",
-"title": "What is a CDN?",
-"url": "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/",
-"reason": "blocked"
+"title": "CDN",
+"url": "https://developer.mozilla.org/en-US/docs/Glossary/CDN",
+"reason": "not checked"
 },
 {
 "id": "eric-domain-driven-design-reference",
-"title": "Domain-Driven Design Reference",
-"url": "https://www.domainlanguage.com/ddd/reference/",
-"reason": "blocked"
+"title": "Domain-Driven Design",
+"url": "https://martinfowler.com/bliki/DomainDrivenDesign.html",
+"reason": "not checked"
 },
 {
 "id": "w3c-wcag-overview",
-"title": "WCAG overview",
-"url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
-"reason": "blocked"
+"title": "Understanding WCAG",
+"url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG",
+"reason": "not checked"
 },
 {
 "id": "stanford-introduction-to-information-retrieval",
-"title": "Introduction to Information Retrieval",
-"url": "https://nlp.stanford.edu/IR-book/",
-"reason": "error"
+"title": "What is information retrieval?",
+"url": "https://www.elastic.co/what-is/information-retrieval",
+"reason": "not checked"
 },
 {
 "id": "cloudflare-what-is-the-cloud",
-"title": "What is the cloud?",
-"url": "https://www.cloudflare.com/learning/cloud/what-is-the-cloud/",
-"reason": "blocked"
+"title": "Cloud computing",
+"url": "https://developer.mozilla.org/en-US/docs/Glossary/Cloud_computing",
+"reason": "not checked"
 },
 {
 "id": "yangshun-tech-interview-handbook",
 "title": "Tech Interview Handbook",
-"url": "https://www.techinterviewhandbook.org/",
-"reason": "blocked"
+"url": "https://github.com/yangshun/tech-interview-handbook",
+"reason": "not checked"
 }
 ]
 }

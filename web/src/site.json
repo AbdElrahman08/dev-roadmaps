@@ -1,0 +1,14 @@
+{
+  "name": "Darb",
+  "siteUrl": "https://abdelrahman08.github.io/darb/",
+  "basePath": "/darb/",
+  "forms": {
+    "waitlist": "https://form.typeform.com/to/CLR4YoH0",
+    "institution": "https://form.typeform.com/to/BqHGGquz",
+    "sponsor": "https://form.typeform.com/to/ZvDPPuai"
+  },
+  "donate": [],
+  "contactEmail": "",
+  "legalUpdated": "2026-11-07",
+  "featured": ["foundations", "frontend", "backend", "data-analyst", "ai-engineer", "devops", "cybersecurity", "python", "sql"]
+}
