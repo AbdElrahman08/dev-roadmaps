@@ -4274,10 +4274,10 @@
   },
   {
    "id": "offsec-metasploit-unleashed",
-   "title": "Metasploit Unleashed",
-   "provider": "OffSec",
-   "url": "https://www.offsec.com/metasploit-unleashed/",
-   "format": "Course",
+   "title": "Metasploit documentation",
+   "provider": "Rapid7",
+   "url": "https://docs.metasploit.com/",
+   "format": "Docs",
    "level": "Intermediate",
    "note": "",
    "provider_evidence": null
@@ -4298,16 +4298,6 @@
    "provider": "Center for Internet Security",
    "url": "https://www.cisecurity.org/cis-benchmarks",
    "format": "Reference",
-   "level": "Intermediate",
-   "note": "",
-   "provider_evidence": null
-  },
-  {
-   "id": "iso-iso-iec-27001-overview",
-   "title": "ISO/IEC 27001 overview",
-   "provider": "ISO",
-   "url": "https://www.iso.org/standard/27001",
-   "format": "Standard",
    "level": "Intermediate",
    "note": "",
    "provider_evidence": null

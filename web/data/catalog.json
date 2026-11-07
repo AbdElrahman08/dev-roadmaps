@@ -23,7 +23,7 @@
 "sql"
 ]
 },
-"built_at": "2026-11-07T12:37:49Z",
+"built_at": "2026-11-07T12:38:19Z",
 "verified_on": "2026-11-05",
 "providers": {
 "Harvard CS50": {
@@ -17315,15 +17315,9 @@
 "hidden": [
 {
 "id": "offsec-metasploit-unleashed",
-"title": "Metasploit Unleashed",
-"url": "https://www.offsec.com/metasploit-unleashed/",
-"reason": "blocked"
-},
-{
-"id": "iso-iso-iec-27001-overview",
-"title": "ISO/IEC 27001 overview",
-"url": "https://www.iso.org/standard/27001",
-"reason": "blocked"
+"title": "Metasploit documentation",
+"url": "https://docs.metasploit.com/",
+"reason": "not checked"
 }
 ]
 }

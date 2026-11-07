@@ -127,6 +127,21 @@ p{margin:0}
 .sponsor-slot .lbl{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--saffron)}
 :root[lang="ar"] .sponsor-slot .lbl{font-family:var(--body);font-size:13px;letter-spacing:0}
 .sponsor-slot p{font-size:15px}
+.overview{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:6px}
+.ov{padding:16px 18px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:grid;gap:8px;align-content:start;min-width:0}
+.ov h3{font-size:15px;font-family:var(--body);font-weight:600;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:14.5px;padding:5px 10px;border-radius:999px;background:var(--sunk);color:var(--ink)}
+.lv{font:500 11px/1 var(--mono);letter-spacing:.05em;padding:5px 7px;border-radius:5px;background:var(--sunk);color:var(--muted);vertical-align:middle;margin-inline-start:8px;white-space:nowrap}
+:root[lang="ar"] .lv{font-family:var(--body);font-size:12px;letter-spacing:0}
+.lv-zero{background:var(--saffron-soft);color:var(--saffron)}.lv-final{background:var(--nile);color:var(--nile-ink)}
+.stage.final .num{border-color:var(--saffron);color:var(--saffron)}
+.tracks{display:grid;gap:14px;padding-bottom:64px}
+.track{padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:grid;gap:12px}
+.track>p{color:var(--muted)}
+.next{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:15px}
+.next a{font-weight:600;padding:6px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none}
+.next a:hover{border-color:var(--nile)}
 .box{padding:18px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);display:grid;gap:8px}
 .box p{font-size:15px;color:var(--muted)}
 
@@ -222,7 +237,7 @@ en:{
  paths_eyebrow:"Learning paths",paths_h1:"Pick where you want to end up.",paths_lede:"Each path puts free resources in order, from your first step to job-ready depth. Do the stages in order and tick things off as you finish. Your progress stays in this browser.",
  paths_search:"Search paths",all:"All",no_paths:"No paths match. Try another word or category.",
  stages_n:"{n} stages",courses_n:"{n} resources",done_n:"{n} done",
- back_paths:"All paths",progress_t:"{d} of {t} done",stage:"Stage {n}",stage_empty:"Nothing in this stage passed this week's check. We're finding a replacement.",
+ back_paths:"All paths",about_h:"About this field",skills_h:"Skills you'll learn",roles_h:"Jobs this leads to",prereq_h:"Before you start",prereq_zero:"Nothing. Stage 0 starts from zero.",prereq_none:"Nothing. This path is the starting point.",prereq_has:"Comfortable with: {x}.",outcome_h:"Where you'll end up",lvl_zero:"ZERO",lvl_foundation:"FOUNDATIONS",lvl_core:"CORE",lvl_advanced:"ADVANCED",lvl_final:"FINAL",tracks_h:"Choose a specialisation",tracks_p:"After the core stages, pick the direction that fits you. Each one lists extra resources and the Darb paths to continue with.",continue_with:"Continue with:",progress_t:"{d} of {t} done",stage:"Stage {n}",stage_empty:"Nothing in this stage passed this week's check. We're finding a replacement.",
  sp_slot:"Sponsor slot · open",sp_slot_p:"This path has no sponsor yet. A sponsor here helps keep it free and is shown with a clear label.",sp_slot_a:"Sponsor this path",
  grp_h:"Study with a group",grp_p:"Do this path in a live cohort, with weekly sessions and project reviews.",grp_a:"Join the cohort waitlist",
  reset_h:"Starting over?",reset_p:"Clear the ticks for this path in this browser.",reset_btn:"Reset progress",
@@ -294,7 +309,7 @@ ar:{
  paths_eyebrow:"مسارات التعلّم",paths_h1:"اختر أين تريد أن تصل.",paths_lede:"كل مسار يرتّب مصادر مجانية من خطوتك الأولى حتى الجاهزية للعمل. اتبع المراحل بالترتيب وضع علامة على ما تنهيه. تقدّمك يُحفظ في هذا المتصفح فقط.",
  paths_search:"ابحث في المسارات",all:"الكل",no_paths:"لا توجد مسارات مطابقة. جرّب كلمة أو مجالًا آخر.",
  stages_n:"{n} مراحل",courses_n:"{n} مصادر",done_n:"أنجزت {n}",
- back_paths:"كل المسارات",progress_t:"أنجزت {d} من {t}",stage:"المرحلة {n}",stage_empty:"لم يجتز أي مصدر في هذه المرحلة فحص هذا الأسبوع. نبحث عن بديل.",
+ back_paths:"كل المسارات",about_h:"عن هذا المجال",skills_h:"المهارات التي ستتعلّمها",roles_h:"الوظائف التي يؤدي إليها",prereq_h:"قبل أن تبدأ",prereq_zero:"لا شيء. المرحلة 0 تبدأ من الصفر.",prereq_none:"لا شيء. هذا المسار هو نقطة البداية.",prereq_has:"أن تكون مرتاحًا في: {x}.",outcome_h:"أين ستصل",lvl_zero:"من الصفر",lvl_foundation:"أساسيات",lvl_core:"المستوى الأساسي",lvl_advanced:"متقدم",lvl_final:"المرحلة الأخيرة",tracks_h:"اختر تخصّصًا",tracks_p:"بعد المراحل الأساسية، اختر الاتجاه المناسب لك. كل تخصص يضم مصادر إضافية ومسارات درب التي تكمل بها.",continue_with:"أكمل مع:",progress_t:"أنجزت {d} من {t}",stage:"المرحلة {n}",stage_empty:"لم يجتز أي مصدر في هذه المرحلة فحص هذا الأسبوع. نبحث عن بديل.",
  sp_slot:"مساحة رعاية · متاحة",sp_slot_p:"لا يوجد راعٍ لهذا المسار بعد. الراعي هنا يساعد في إبقائه مجانيًا ويظهر بعلامة واضحة.",sp_slot_a:"ارعَ هذا المسار",
  grp_h:"تعلّم مع مجموعة",grp_p:"خُض هذا المسار ضمن مجموعة مباشرة، مع جلسات أسبوعية ومراجعة للمشاريع.",grp_a:"انضم إلى قائمة الانتظار",
  reset_h:"تريد البدء من جديد؟",reset_p:"امسح العلامات لهذا المسار في هذا المتصفح.",reset_btn:"مسح التقدّم",
@@ -374,7 +389,7 @@ terms:`<p>باستخدامك درب فإنك توافق على هذه الشرو
 <h2>الرعاة والإضافات المدفوعة</h2><ul><li>مساحات الرعاية تحمل علامة واضحة دائمًا ولا تؤثر على المصادر المعروضة.</li><li>المجموعات والإرشاد اختيارية، وتُعرض شروطها وأسعارها قبل أي التزام.</li></ul>
 <h2>إخلاء المسؤولية</h2><ul><li>يُقدَّم درب كما هو، دون ضمان للدقة أو الإتاحة أو النتائج مثل اجتياز اختبار أو الحصول على وظيفة.</li></ul>
 <h2>التغييرات</h2><ul><li>قد نحدّث هذه الشروط. التاريخ في الأعلى يوضح أحدث نسخة.</li></ul>`}};
-const FMT_AR={"Docs":"توثيق","Course":"كورس","Book":"كتاب","Guide":"دليل","Tutorial":"درس","Tutorials":"دروس","Interactive course":"كورس تفاعلي","Video course":"كورس فيديو","Article":"مقال","Reference":"مرجع","Framework":"إطار","Tool":"أداة","Exercises":"تمارين","Lectures":"محاضرات","Lecture notes":"ملاحظات محاضرات","Specification":"مواصفة","Design system":"نظام تصميم","Examples":"أمثلة","Interactive certification":"شهادة تفاعلية","Project-based curriculum":"منهج قائم على المشاريع","Video course + problem sets":"كورس فيديو وتمارين","Lectures + problem sets":"محاضرات وتمارين","Video series":"سلسلة فيديو","Notebooks":"دفاتر تفاعلية","Paper":"ورقة بحثية","Standard":"معيار","Game":"لعبة","Research":"أبحاث","Handbook":"دليل","Articles":"مقالات","Modules":"وحدات تعليمية","Learning path":"مسار تعليمي"};
+const FMT_AR={"Article series":"سلسلة مقالات","Book chapter":"فصل من كتاب","Books":"كتب","Capture the flag":"مسابقة CTF","Course + labs":"كورس ومعامل","Course + projects":"كورس ومشاريع","Hands-on game":"لعبة عملية","Interactive articles":"مقالات تفاعلية","Interactive book":"كتاب تفاعلي","Interactive guide":"دليل تفاعلي","Interactive visualisations":"رسوم تفاعلية","Knowledge base":"قاعدة معرفة","Lectures + assignments":"محاضرات وتكليفات","Lectures + labs":"محاضرات ومعامل","Lectures + notes":"محاضرات وملاحظات","Lectures + projects":"محاضرات ومشاريع","Practice":"تمرين","Problem list":"قائمة مسائل","Project ideas":"أفكار مشاريع","Source code":"كود المصدر","Study plan":"خطة دراسة","Video course + projects":"كورس فيديو ومشاريع","Docs":"توثيق","Course":"كورس","Book":"كتاب","Guide":"دليل","Tutorial":"درس","Tutorials":"دروس","Interactive course":"كورس تفاعلي","Video course":"كورس فيديو","Article":"مقال","Reference":"مرجع","Framework":"إطار","Tool":"أداة","Exercises":"تمارين","Lectures":"محاضرات","Lecture notes":"ملاحظات محاضرات","Specification":"مواصفة","Design system":"نظام تصميم","Examples":"أمثلة","Interactive certification":"شهادة تفاعلية","Project-based curriculum":"منهج قائم على المشاريع","Video course + problem sets":"كورس فيديو وتمارين","Lectures + problem sets":"محاضرات وتمارين","Video series":"سلسلة فيديو","Notebooks":"دفاتر تفاعلية","Paper":"ورقة بحثية","Standard":"معيار","Game":"لعبة","Research":"أبحاث","Handbook":"دليل","Articles":"مقالات","Modules":"وحدات تعليمية","Learning path":"مسار تعليمي"};
 
 /* ================= state ================= */
 const KEY='darb-progress-v1', LKEY='darb-lang';
@@ -486,7 +501,7 @@ V['paths']=()=>{
 };
 function drawPaths(){
   const q=ui.pathQ.trim().toLowerCase();
-  const list=D.paths.filter(p=>(!ui.catFilter||p.category===ui.catFilter)&&(!q||[p.title,p.title_ar,p.for,p.for_ar,...p.stages.map(s=>s.title+' '+(s.title_ar||''))].join(' ').toLowerCase().includes(q)));
+  const list=D.paths.filter(p=>(!ui.catFilter||p.category===ui.catFilter)&&(!q||[p.title,p.title_ar,p.for,p.for_ar,...p.stages.map(s=>s.title+' '+(s.title_ar||'')),...(p.overview?[...p.overview.skills,...p.overview.skills_ar,...p.overview.roles,...p.overview.roles_ar]:[]),...(p.tracks||[]).map(x=>x.title+' '+x.title_ar)].join(' ').toLowerCase().includes(q)));
   document.getElementById('pcount').textContent=t('count',{n:num(list.length),t:num(D.paths.length)});
   document.getElementById('pgrid').innerHTML=list.length?list.map(pathCard).join(''):`<div class="empty">${t('no_paths')}</div>`;
   document.querySelectorAll('#catChips .chip').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.cat===ui.catFilter)));
@@ -494,12 +509,26 @@ function drawPaths(){
 function pathView(id){
   const p=pathById[id]; if(!p) return null;
   const [d,n]=pathDone(p);
+  const ov=p.overview, hasZero=p.stages.some(s=>s.kind==='zero');
+  const L2=(o,k)=>LANG==='ar'&&o[k+'_ar']?o[k+'_ar']:o[k];
+  const ovHtml=ov?`<div class="overview" aria-label="${esc(t('about_h'))}">
+      <div class="ov" style="grid-column:1/-1"><h3>${t('about_h')}</h3><p>${esc(L2(ov,'what'))}</p></div>
+      <div class="ov"><h3>${t('skills_h')}</h3><div class="tags">${L2(ov,'skills').map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div></div>
+      <div class="ov"><h3>${t('roles_h')}</h3><div class="tags">${L2(ov,'roles').map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div></div>
+      <div class="ov"><h3>${t('prereq_h')}</h3><p>${p.category==='start'?t('prereq_none'):hasZero?t('prereq_zero'):t('prereq_none')}</p></div>
+      <div class="ov"><h3>${t('outcome_h')}</h3><p>${esc(L2(ov,'outcome'))}</p></div></div>`:'';
+  let k=hasZero?-1:0;
+  const nums=p.stages.map(s=>s.kind==='final'?'★':num(++k));
   return `<section class="wrap path-head"><a ${A('paths','class="meta"')}><span class="arr">←</span> ${t('back_paths')}</a><span class="cat">${esc(t('cats')[p.category]||'')}</span><h1>${esc(loc(p,'title'))}</h1><p class="lede">${esc(loc(p,'for'))}</p>
-    <div class="progress"><span class="meter"><i id="meter" style="width:${n?100*d/n:0}%"></i></span><span id="ptext">${t('progress_t',{d:num(d),t:num(n)})}</span></div></section>
+    <div class="progress"><span class="meter"><i id="meter" style="width:${n?100*d/n:0}%"></i></span><span id="ptext">${t('progress_t',{d:num(d),t:num(n)})}</span></div>${ovHtml}</section>
   <section class="wrap layout">
-    <ol class="stages">${p.stages.map((s,i)=>`<li class="stage${s.courses.length&&s.courses.every(c=>progress[c])?' complete':''}"><span class="num" aria-hidden="true">${num(i+1)}</span>
-      <div class="stage-body"><h2 style="font-size:22px">${t('stage',{n:num(i+1)})}: ${esc(loc(s,'title'))}</h2><p>${esc(loc(s,'why'))}</p>
+    <div><ol class="stages">${p.stages.map((s,i)=>`<li class="stage${s.kind==='final'?' final':''}${s.courses.length&&s.courses.every(c=>progress[c])?' complete':''}"><span class="num" aria-hidden="true">${nums[i]}</span>
+      <div class="stage-body"><h2 style="font-size:22px">${s.kind==='final'?esc(loc(s,'title')):`${t('stage',{n:nums[i]})}: ${esc(loc(s,'title'))}`}<span class="lv lv-${s.level||'core'}">${t('lvl_'+(s.level||'core'))}</span></h2><p>${esc(loc(s,'why'))}</p>
       <div class="courses">${s.courses.length?s.courses.map(c=>courseCard(byId[c],'s'+i)).join(''):`<div class="empty">${t('stage_empty')}</div>`}</div></div></li>`).join('')}</ol>
+    ${p.tracks&&p.tracks.length?`<section class="tracks" aria-labelledby="tracksH"><h2 id="tracksH">${t('tracks_h')}</h2><p class="lede">${t('tracks_p')}</p>
+      ${p.tracks.map((tr,j)=>`<div class="track"><h3>${esc(loc(tr,'title'))}</h3><p>${esc(loc(tr,'for'))}</p>
+        ${tr.courses.length?`<div class="courses">${tr.courses.map(c=>courseCard(byId[c],'t'+j)).join('')}</div>`:''}
+        ${tr.next.filter(x=>pathById[x]).length?`<div class="next"><span>${t('continue_with')}</span>${tr.next.filter(x=>pathById[x]).map(x=>`<a ${A('paths/'+x)}>${esc(loc(pathById[x],'title'))}</a>`).join('')}</div>`:''}</div>`).join('')}</section>`:''}</div>
     <aside class="side">
       <div class="sponsor-slot"><span class="lbl">${t('sp_slot')}</span><p>${t('sp_slot_p')}</p><a ${A('sponsor')}>${t('sp_slot_a')} <span class="arr">→</span></a></div>
       <div class="box"><h3>${t('grp_h')}</h3><p>${t('grp_p')}</p><a ${A('cohorts')}>${t('grp_a')} <span class="arr">→</span></a></div>
