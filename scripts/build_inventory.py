@@ -2,7 +2,7 @@
 into one source-of-truth inventory.
 
 Inputs
-  upstream/roadmaps/<slug>/content/*.md   (kamranahmedse/developer-roadmap, pinned commit)
+  upstream/roadmaps/<slug>/content/*.md   (nilbuild/developer-roadmap, formerly kamranahmedse/developer-roadmap)
   data/pages/<slug>.json                  (roadmap.sh loaded data, from fetch_pages.py)
   data/verifications.json                 (provider-page checks and free replacements, keyed by URL)
   data/linkcheck.json                     (automated link results, keyed by URL; optional)

@@ -33,7 +33,7 @@ jobs:
       - run: pip install aiohttp==3.10.11
       - name: Clone upstream roadmap content
         run: |
-          git clone --filter=blob:none --no-checkout https://github.com/kamranahmedse/developer-roadmap.git upstream
+          git clone --filter=blob:none --no-checkout https://github.com/nilbuild/developer-roadmap.git upstream
           cd upstream && git sparse-checkout set roadmaps && git checkout "${{ github.event.inputs.upstream_ref || 'master' }}"
           git log -1 --format='%H %cI'
       - name: Fetch roadmap.sh page data
