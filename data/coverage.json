@@ -1,5 +1,5 @@
 {
- "repo_commit": "d922417cd1ef690e66c008a3c3612f683e8e433a",
+ "repo_commit": "f590626ad3b4a242b85a676e2a78c361936bc732",
  "roadmaps": [
   {
    "slug": "ai-agents",
@@ -114,9 +114,9 @@
    "repo_topics": 146,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 358,
+   "repo_resource_links": 357,
    "page_resource_buttons": 1,
-   "inventory_resources": 375
+   "inventory_resources": 374
   },
   {
    "slug": "aws",
@@ -335,9 +335,9 @@
    "repo_topics": 187,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 3,
-   "repo_resource_links": 395,
+   "repo_resource_links": 394,
    "page_resource_buttons": 0,
-   "inventory_resources": 427
+   "inventory_resources": 426
   },
   {
    "slug": "datastructures-and-algorithms",
@@ -803,9 +803,9 @@
    "repo_topics": 113,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 252,
+   "repo_resource_links": 253,
    "page_resource_buttons": 0,
-   "inventory_resources": 261
+   "inventory_resources": 262
   },
   {
    "slug": "openclaw",
