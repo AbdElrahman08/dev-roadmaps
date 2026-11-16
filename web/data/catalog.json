@@ -23,7 +23,7 @@
 "sql"
 ]
 },
-"built_at": "2026-11-09T11:49:44Z",
+"built_at": "2026-11-16T11:51:49Z",
 "verified_on": "2026-11-05",
 "providers": {
 "Harvard CS50": {
@@ -78,7 +78,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -97,7 +97,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -112,7 +112,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:36Z"
+"checked_at": "2026-11-16T11:49:00Z"
 },
 "cost": "open"
 },
@@ -127,7 +127,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:46:47Z"
 },
 "cost": "open"
 },
@@ -142,7 +142,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:22Z"
+"checked_at": "2026-11-16T11:50:58Z"
 },
 "cost": "open"
 },
@@ -161,7 +161,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:50:25Z"
 },
 "cost": "free"
 },
@@ -180,7 +180,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "free"
 },
@@ -199,7 +199,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:45:24Z"
 },
 "cost": "free"
 },
@@ -218,7 +218,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:17Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "free"
 },
@@ -233,7 +233,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:20Z"
+"checked_at": "2026-11-16T11:45:00Z"
 },
 "cost": "open"
 },
@@ -248,7 +248,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:37Z"
+"checked_at": "2026-11-16T11:45:11Z"
 },
 "cost": "open"
 },
@@ -263,7 +263,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:37Z"
+"checked_at": "2026-11-16T11:45:11Z"
 },
 "cost": "open"
 },
@@ -282,7 +282,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "free"
 },
@@ -297,7 +297,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:16Z"
+"checked_at": "2026-11-16T11:41:29Z"
 },
 "cost": "open"
 },
@@ -312,7 +312,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:37Z"
+"checked_at": "2026-11-16T11:49:50Z"
 },
 "cost": "open"
 },
@@ -327,7 +327,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:30Z"
+"checked_at": "2026-11-16T11:50:47Z"
 },
 "cost": "open"
 },
@@ -346,7 +346,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:45:24Z"
 },
 "cost": "free"
 },
@@ -361,7 +361,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:01Z"
+"checked_at": "2026-11-16T11:45:49Z"
 },
 "cost": "open"
 },
@@ -380,7 +380,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -399,7 +399,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -418,7 +418,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "free"
 },
@@ -437,7 +437,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "free"
 },
@@ -452,7 +452,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:44Z"
+"checked_at": "2026-11-16T11:44:47Z"
 },
 "cost": "open"
 },
@@ -467,7 +467,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:46:14Z"
 },
 "cost": "open"
 },
@@ -482,7 +482,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:55Z"
+"checked_at": "2026-11-16T11:47:12Z"
 },
 "cost": "open"
 },
@@ -497,7 +497,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:31Z"
+"checked_at": "2026-11-16T11:47:24Z"
 },
 "cost": "open"
 },
@@ -512,7 +512,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:36Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "open"
 },
@@ -531,7 +531,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:51Z"
+"checked_at": "2026-11-16T11:50:20Z"
 },
 "cost": "free"
 },
@@ -550,7 +550,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:50:20Z"
 },
 "cost": "free"
 },
@@ -569,7 +569,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:50:19Z"
 },
 "cost": "free"
 },
@@ -588,7 +588,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:50:19Z"
 },
 "cost": "free"
 },
@@ -607,7 +607,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:16Z"
 },
 "cost": "free"
 },
@@ -626,7 +626,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:11Z"
+"checked_at": "2026-11-16T11:50:26Z"
 },
 "cost": "free"
 },
@@ -641,7 +641,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:05Z"
+"checked_at": "2026-11-16T11:49:43Z"
 },
 "cost": "open"
 },
@@ -656,7 +656,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:37Z"
+"checked_at": "2026-11-16T11:45:12Z"
 },
 "cost": "open"
 },
@@ -671,7 +671,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:47Z"
+"checked_at": "2026-11-16T11:45:13Z"
 },
 "cost": "open"
 },
@@ -690,7 +690,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:09Z"
+"checked_at": "2026-11-16T11:50:26Z"
 },
 "cost": "free"
 },
@@ -709,7 +709,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "free"
 },
@@ -724,7 +724,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:02Z"
+"checked_at": "2026-11-16T11:45:29Z"
 },
 "cost": "open"
 },
@@ -743,7 +743,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:50:19Z"
 },
 "cost": "free"
 },
@@ -762,7 +762,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:50:19Z"
 },
 "cost": "free"
 },
@@ -777,7 +777,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:45:09Z"
 },
 "cost": "open"
 },
@@ -796,7 +796,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:37Z"
+"checked_at": "2026-11-16T11:41:22Z"
 },
 "cost": "free"
 },
@@ -811,7 +811,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:44Z"
+"checked_at": "2026-11-16T11:41:27Z"
 },
 "cost": "open"
 },
@@ -826,7 +826,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:41:30Z"
 },
 "cost": "open"
 },
@@ -841,7 +841,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "open"
 },
@@ -856,7 +856,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:41:38Z"
 },
 "cost": "open"
 },
@@ -871,7 +871,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -886,7 +886,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:41:22Z"
 },
 "cost": "open"
 },
@@ -901,7 +901,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:31Z"
+"checked_at": "2026-11-16T11:51:21Z"
 },
 "cost": "open"
 },
@@ -916,7 +916,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:02Z"
+"checked_at": "2026-11-16T11:44:16Z"
 },
 "cost": "open"
 },
@@ -931,22 +931,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
-},
-"cost": "open"
-},
-{
-"id": "madewithml",
-"title": "Made With ML (MLOps)",
-"provider": "Made With ML",
-"url": "https://madewithml.com/",
-"format": "Course",
-"level": "Advanced",
-"note": "",
-"provider_evidence": null,
-"check": {
-"verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:41:21Z"
 },
 "cost": "open"
 },
@@ -961,22 +946,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:30Z"
-},
-"cost": "open"
-},
-{
-"id": "linuxjourney",
-"title": "Linux Journey",
-"provider": "Linux Journey",
-"url": "https://linuxjourney.com/",
-"format": "Interactive guide",
-"level": "Beginner",
-"note": "",
-"provider_evidence": null,
-"check": {
-"verdict": "ok",
-"checked_at": "2026-11-05T21:33:01Z"
+"checked_at": "2026-11-16T11:50:47Z"
 },
 "cost": "open"
 },
@@ -991,7 +961,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:15Z"
+"checked_at": "2026-11-16T11:46:16Z"
 },
 "cost": "open"
 },
@@ -1006,7 +976,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:45:43Z"
 },
 "cost": "open"
 },
@@ -1021,7 +991,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:47Z"
+"checked_at": "2026-11-16T11:44:12Z"
 },
 "cost": "open"
 },
@@ -1036,7 +1006,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:45:43Z"
 },
 "cost": "open"
 },
@@ -1051,7 +1021,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:46:23Z"
 },
 "cost": "open"
 },
@@ -1066,7 +1036,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:44:55Z"
 },
 "cost": "open"
 },
@@ -1081,7 +1051,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:45:13Z"
 },
 "cost": "open"
 },
@@ -1096,7 +1066,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:20Z"
+"checked_at": "2026-11-16T11:41:37Z"
 },
 "cost": "open"
 },
@@ -1111,7 +1081,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:23Z"
 },
 "cost": "open"
 },
@@ -1126,7 +1096,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:20Z"
+"checked_at": "2026-11-16T11:47:42Z"
 },
 "cost": "open"
 },
@@ -1141,7 +1111,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:41:30Z"
 },
 "cost": "open"
 },
@@ -1156,7 +1126,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:48:01Z"
 },
 "cost": "open"
 },
@@ -1171,7 +1141,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:33Z"
+"checked_at": "2026-11-16T11:44:05Z"
 },
 "cost": "open"
 },
@@ -1190,7 +1160,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "free"
 },
@@ -1205,7 +1175,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:53Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -1224,7 +1194,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "free"
 },
@@ -1243,7 +1213,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "free"
 },
@@ -1258,7 +1228,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:32Z"
+"checked_at": "2026-11-16T11:41:31Z"
 },
 "cost": "open"
 },
@@ -1273,7 +1243,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:09Z"
+"checked_at": "2026-11-16T11:47:17Z"
 },
 "cost": "open"
 },
@@ -1288,7 +1258,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:32Z"
+"checked_at": "2026-11-16T11:41:21Z"
 },
 "cost": "open"
 },
@@ -1303,7 +1273,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:35Z"
+"checked_at": "2026-11-16T11:47:25Z"
 },
 "cost": "open"
 },
@@ -1318,7 +1288,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T22:07:34Z"
+"checked_at": "2026-11-16T11:50:43Z"
 },
 "cost": "open"
 },
@@ -1333,7 +1303,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:31Z"
 },
 "cost": "open"
 },
@@ -1348,7 +1318,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:50:54Z"
 },
 "cost": "open"
 },
@@ -1363,7 +1333,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:24Z"
 },
 "cost": "open"
 },
@@ -1378,7 +1348,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:23Z"
 },
 "cost": "open"
 },
@@ -1393,7 +1363,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:24Z"
 },
 "cost": "open"
 },
@@ -1408,7 +1378,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:15Z"
+"checked_at": "2026-11-16T11:46:16Z"
 },
 "cost": "open"
 },
@@ -1423,7 +1393,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:38Z"
+"checked_at": "2026-11-16T11:44:04Z"
 },
 "cost": "open"
 },
@@ -1438,7 +1408,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:28Z"
 },
 "cost": "open"
 },
@@ -1453,7 +1423,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:31Z"
 },
 "cost": "open"
 },
@@ -1468,7 +1438,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:51:08Z"
 },
 "cost": "open"
 },
@@ -1483,7 +1453,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:36:04Z"
+"checked_at": "2026-11-16T11:47:10Z"
 },
 "cost": "open"
 },
@@ -1498,7 +1468,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:34Z"
 },
 "cost": "open"
 },
@@ -1513,7 +1483,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:41:38Z"
 },
 "cost": "open"
 },
@@ -1528,7 +1498,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:50:28Z"
 },
 "cost": "open"
 },
@@ -1543,7 +1513,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:43:54Z"
 },
 "cost": "open"
 },
@@ -1558,7 +1528,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:10Z"
+"checked_at": "2026-11-16T11:44:03Z"
 },
 "cost": "open"
 },
@@ -1573,7 +1543,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:13Z"
+"checked_at": "2026-11-16T11:44:21Z"
 },
 "cost": "open"
 },
@@ -1588,7 +1558,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:43Z"
+"checked_at": "2026-11-16T11:44:20Z"
 },
 "cost": "open"
 },
@@ -1603,7 +1573,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:47:10Z"
 },
 "cost": "open"
 },
@@ -1618,7 +1588,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:13Z"
+"checked_at": "2026-11-16T11:44:47Z"
 },
 "cost": "open"
 },
@@ -1633,7 +1603,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "open"
 },
@@ -1648,7 +1618,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:44:45Z"
 },
 "cost": "open"
 },
@@ -1663,7 +1633,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:41:41Z"
 },
 "cost": "open"
 },
@@ -1678,7 +1648,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:41:42Z"
 },
 "cost": "open"
 },
@@ -1693,7 +1663,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:42:09Z"
 },
 "cost": "open"
 },
@@ -1708,7 +1678,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:42:44Z"
 },
 "cost": "open"
 },
@@ -1723,7 +1693,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:50:08Z"
 },
 "cost": "open"
 },
@@ -1738,7 +1708,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:50:37Z"
 },
 "cost": "open"
 },
@@ -1753,7 +1723,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -1768,7 +1738,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -1783,7 +1753,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:14Z"
+"checked_at": "2026-11-16T11:50:38Z"
 },
 "cost": "open"
 },
@@ -1798,7 +1768,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:41Z"
+"checked_at": "2026-11-16T11:45:56Z"
 },
 "cost": "open"
 },
@@ -1813,7 +1783,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:04Z"
+"checked_at": "2026-11-16T11:47:45Z"
 },
 "cost": "open"
 },
@@ -1828,7 +1798,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:45:59Z"
 },
 "cost": "open"
 },
@@ -1843,7 +1813,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:45:18Z"
 },
 "cost": "open"
 },
@@ -1858,7 +1828,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:54Z"
 },
 "cost": "open"
 },
@@ -1873,7 +1843,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:44Z"
 },
 "cost": "open"
 },
@@ -1888,7 +1858,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:53Z"
+"checked_at": "2026-11-16T11:45:00Z"
 },
 "cost": "open"
 },
@@ -1903,7 +1873,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:45:56Z"
 },
 "cost": "open"
 },
@@ -1918,7 +1888,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:50:45Z"
 },
 "cost": "open"
 },
@@ -1933,7 +1903,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:47:12Z"
 },
 "cost": "open"
 },
@@ -1948,7 +1918,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:49:23Z"
 },
 "cost": "open"
 },
@@ -1963,7 +1933,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:45:54Z"
 },
 "cost": "open"
 },
@@ -1978,7 +1948,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:44:53Z"
 },
 "cost": "open"
 },
@@ -1993,7 +1963,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:06Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -2008,7 +1978,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:32Z"
+"checked_at": "2026-11-16T11:44:45Z"
 },
 "cost": "open"
 },
@@ -2023,7 +1993,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:47:27Z"
 },
 "cost": "open"
 },
@@ -2038,7 +2008,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:45:52Z"
 },
 "cost": "open"
 },
@@ -2053,7 +2023,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:25Z"
+"checked_at": "2026-11-16T11:51:08Z"
 },
 "cost": "open"
 },
@@ -2068,7 +2038,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:53Z"
+"checked_at": "2026-11-16T11:45:00Z"
 },
 "cost": "open"
 },
@@ -2083,7 +2053,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:22Z"
+"checked_at": "2026-11-16T11:45:40Z"
 },
 "cost": "open"
 },
@@ -2098,7 +2068,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:22Z"
+"checked_at": "2026-11-16T11:45:40Z"
 },
 "cost": "open"
 },
@@ -2113,7 +2083,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:21Z"
+"checked_at": "2026-11-16T11:45:43Z"
 },
 "cost": "open"
 },
@@ -2128,7 +2098,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:07Z"
+"checked_at": "2026-11-16T11:50:44Z"
 },
 "cost": "open"
 },
@@ -2143,7 +2113,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:19Z"
+"checked_at": "2026-11-16T11:46:04Z"
 },
 "cost": "open"
 },
@@ -2162,7 +2132,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -2177,7 +2147,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:31Z"
 },
 "cost": "open"
 },
@@ -2192,7 +2162,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:50:50Z"
 },
 "cost": "open"
 },
@@ -2207,7 +2177,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:44:31Z"
 },
 "cost": "open"
 },
@@ -2222,7 +2192,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:45:18Z"
 },
 "cost": "open"
 },
@@ -2237,7 +2207,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:55Z"
+"checked_at": "2026-11-16T11:47:19Z"
 },
 "cost": "open"
 },
@@ -2252,7 +2222,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:19Z"
 },
 "cost": "open"
 },
@@ -2267,7 +2237,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:50:47Z"
 },
 "cost": "open"
 },
@@ -2282,7 +2252,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:51:02Z"
 },
 "cost": "open"
 },
@@ -2297,7 +2267,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:25Z"
+"checked_at": "2026-11-16T11:51:08Z"
 },
 "cost": "open"
 },
@@ -2312,7 +2282,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:48Z"
 },
 "cost": "open"
 },
@@ -2327,7 +2297,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:58Z"
+"checked_at": "2026-11-16T11:49:50Z"
 },
 "cost": "open"
 },
@@ -2342,7 +2312,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:03Z"
+"checked_at": "2026-11-16T11:45:27Z"
 },
 "cost": "open"
 },
@@ -2357,7 +2327,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:49:54Z"
 },
 "cost": "open"
 },
@@ -2372,7 +2342,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:36Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -2387,7 +2357,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:47:26Z"
 },
 "cost": "open"
 },
@@ -2402,7 +2372,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:45:45Z"
 },
 "cost": "open"
 },
@@ -2417,7 +2387,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:51:03Z"
 },
 "cost": "open"
 },
@@ -2432,7 +2402,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:43Z"
 },
 "cost": "open"
 },
@@ -2447,7 +2417,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:26Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "open"
 },
@@ -2462,7 +2432,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:24Z"
+"checked_at": "2026-11-16T11:41:37Z"
 },
 "cost": "open"
 },
@@ -2477,7 +2447,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:41:42Z"
 },
 "cost": "open"
 },
@@ -2492,7 +2462,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:18Z"
 },
 "cost": "open"
 },
@@ -2507,7 +2477,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:24Z"
 },
 "cost": "open"
 },
@@ -2522,7 +2492,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:34Z"
 },
 "cost": "open"
 },
@@ -2537,7 +2507,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:24Z"
+"checked_at": "2026-11-16T11:45:06Z"
 },
 "cost": "open"
 },
@@ -2552,7 +2522,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:44:59Z"
 },
 "cost": "open"
 },
@@ -2567,7 +2537,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:46:05Z"
 },
 "cost": "open"
 },
@@ -2582,7 +2552,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:46:03Z"
 },
 "cost": "open"
 },
@@ -2597,7 +2567,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:51Z"
+"checked_at": "2026-11-16T11:45:01Z"
 },
 "cost": "open"
 },
@@ -2612,7 +2582,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:25Z"
 },
 "cost": "open"
 },
@@ -2627,7 +2597,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:45:26Z"
 },
 "cost": "open"
 },
@@ -2642,7 +2612,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -2657,7 +2627,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:49:00Z"
 },
 "cost": "open"
 },
@@ -2672,7 +2642,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:37Z"
 },
 "cost": "open"
 },
@@ -2687,7 +2657,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:54Z"
+"checked_at": "2026-11-16T11:47:24Z"
 },
 "cost": "open"
 },
@@ -2702,7 +2672,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:49:00Z"
 },
 "cost": "open"
 },
@@ -2717,7 +2687,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:45:09Z"
 },
 "cost": "open"
 },
@@ -2732,7 +2702,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:54Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -2747,7 +2717,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:51:14Z"
 },
 "cost": "open"
 },
@@ -2762,7 +2732,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:06Z"
+"checked_at": "2026-11-16T11:51:06Z"
 },
 "cost": "open"
 },
@@ -2777,7 +2747,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:01Z"
 },
 "cost": "open"
 },
@@ -2792,7 +2762,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:43Z"
+"checked_at": "2026-11-16T11:46:49Z"
 },
 "cost": "open"
 },
@@ -2807,7 +2777,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:26Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "open"
 },
@@ -2822,7 +2792,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:25Z"
+"checked_at": "2026-11-16T11:41:22Z"
 },
 "cost": "open"
 },
@@ -2837,7 +2807,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:49:43Z"
 },
 "cost": "open"
 },
@@ -2852,7 +2822,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:55Z"
+"checked_at": "2026-11-16T11:41:22Z"
 },
 "cost": "open"
 },
@@ -2867,7 +2837,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:39Z"
+"checked_at": "2026-11-16T11:45:17Z"
 },
 "cost": "open"
 },
@@ -2882,7 +2852,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:37Z"
 },
 "cost": "open"
 },
@@ -2897,7 +2867,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:01Z"
+"checked_at": "2026-11-16T11:44:57Z"
 },
 "cost": "open"
 },
@@ -2912,7 +2882,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:20Z"
+"checked_at": "2026-11-16T11:45:10Z"
 },
 "cost": "open"
 },
@@ -2927,7 +2897,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:25Z"
+"checked_at": "2026-11-16T11:47:18Z"
 },
 "cost": "open"
 },
@@ -2942,7 +2912,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:22Z"
+"checked_at": "2026-11-16T11:49:42Z"
 },
 "cost": "open"
 },
@@ -2957,7 +2927,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:45:50Z"
 },
 "cost": "open"
 },
@@ -2972,7 +2942,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:45:27Z"
 },
 "cost": "open"
 },
@@ -2987,7 +2957,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:33Z"
 },
 "cost": "open"
 },
@@ -3002,7 +2972,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:24Z"
+"checked_at": "2026-11-16T11:46:55Z"
 },
 "cost": "open"
 },
@@ -3017,7 +2987,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:25Z"
+"checked_at": "2026-11-16T11:49:02Z"
 },
 "cost": "open"
 },
@@ -3032,7 +3002,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:24Z"
 },
 "cost": "open"
 },
@@ -3047,7 +3017,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:16Z"
+"checked_at": "2026-11-16T11:41:28Z"
 },
 "cost": "open"
 },
@@ -3062,7 +3032,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:39Z"
 },
 "cost": "open"
 },
@@ -3077,7 +3047,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:51Z"
+"checked_at": "2026-11-16T11:45:57Z"
 },
 "cost": "open"
 },
@@ -3092,7 +3062,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:07Z"
+"checked_at": "2026-11-16T11:41:38Z"
 },
 "cost": "open"
 },
@@ -3107,7 +3077,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:35Z"
 },
 "cost": "open"
 },
@@ -3122,7 +3092,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:35Z"
 },
 "cost": "open"
 },
@@ -3137,7 +3107,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:16Z"
+"checked_at": "2026-11-16T11:41:36Z"
 },
 "cost": "open"
 },
@@ -3152,7 +3122,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -3167,7 +3137,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -3182,7 +3152,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:37Z"
+"checked_at": "2026-11-16T11:45:02Z"
 },
 "cost": "open"
 },
@@ -3197,7 +3167,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:32Z"
+"checked_at": "2026-11-16T11:44:51Z"
 },
 "cost": "open"
 },
@@ -3212,7 +3182,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:44:52Z"
 },
 "cost": "open"
 },
@@ -3227,7 +3197,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:42Z"
+"checked_at": "2026-11-16T11:45:02Z"
 },
 "cost": "open"
 },
@@ -3242,7 +3212,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:45:02Z"
 },
 "cost": "open"
 },
@@ -3257,7 +3227,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:50:40Z"
 },
 "cost": "open"
 },
@@ -3272,7 +3242,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:49:44Z"
 },
 "cost": "open"
 },
@@ -3287,7 +3257,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:26Z"
+"checked_at": "2026-11-16T11:47:11Z"
 },
 "cost": "open"
 },
@@ -3302,7 +3272,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:44:01Z"
 },
 "cost": "open"
 },
@@ -3317,7 +3287,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:39Z"
+"checked_at": "2026-11-16T11:44:07Z"
 },
 "cost": "open"
 },
@@ -3332,7 +3302,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:43Z"
+"checked_at": "2026-11-16T11:49:58Z"
 },
 "cost": "open"
 },
@@ -3347,7 +3317,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:36:32Z"
+"checked_at": "2026-11-16T11:47:07Z"
 },
 "cost": "open"
 },
@@ -3362,7 +3332,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:36:08Z"
+"checked_at": "2026-11-16T11:47:04Z"
 },
 "cost": "open"
 },
@@ -3377,7 +3347,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:36:06Z"
+"checked_at": "2026-11-16T11:47:04Z"
 },
 "cost": "open"
 },
@@ -3392,7 +3362,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:07Z"
 },
 "cost": "open"
 },
@@ -3407,7 +3377,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:05Z"
 },
 "cost": "open"
 },
@@ -3422,7 +3392,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:51:06Z"
 },
 "cost": "open"
 },
@@ -3437,7 +3407,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:42Z"
 },
 "cost": "open"
 },
@@ -3452,7 +3422,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:11Z"
+"checked_at": "2026-11-16T11:47:13Z"
 },
 "cost": "open"
 },
@@ -3467,7 +3437,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:26Z"
+"checked_at": "2026-11-16T11:45:02Z"
 },
 "cost": "open"
 },
@@ -3482,7 +3452,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:37Z"
+"checked_at": "2026-11-16T11:47:47Z"
 },
 "cost": "open"
 },
@@ -3497,7 +3467,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:37Z"
+"checked_at": "2026-11-16T11:46:32Z"
 },
 "cost": "open"
 },
@@ -3512,7 +3482,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:40Z"
+"checked_at": "2026-11-16T11:51:12Z"
 },
 "cost": "open"
 },
@@ -3527,7 +3497,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:17Z"
+"checked_at": "2026-11-16T11:47:45Z"
 },
 "cost": "open"
 },
@@ -3542,7 +3512,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:56Z"
+"checked_at": "2026-11-16T11:50:00Z"
 },
 "cost": "open"
 },
@@ -3557,7 +3527,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:17Z"
 },
 "cost": "open"
 },
@@ -3572,7 +3542,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:50:07Z"
 },
 "cost": "open"
 },
@@ -3587,7 +3557,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:19Z"
+"checked_at": "2026-11-16T11:46:17Z"
 },
 "cost": "open"
 },
@@ -3602,7 +3572,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:32Z"
 },
 "cost": "open"
 },
@@ -3617,7 +3587,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:18Z"
 },
 "cost": "open"
 },
@@ -3632,7 +3602,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:17Z"
 },
 "cost": "open"
 },
@@ -3647,7 +3617,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:18Z"
 },
 "cost": "open"
 },
@@ -3662,7 +3632,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:29Z"
+"checked_at": "2026-11-16T11:46:18Z"
 },
 "cost": "open"
 },
@@ -3677,7 +3647,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:47:45Z"
 },
 "cost": "open"
 },
@@ -3692,7 +3662,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:16Z"
+"checked_at": "2026-11-16T11:42:56Z"
 },
 "cost": "open"
 },
@@ -3707,7 +3677,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:07Z"
+"checked_at": "2026-11-16T11:44:00Z"
 },
 "cost": "open"
 },
@@ -3722,7 +3692,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:44:47Z"
 },
 "cost": "open"
 },
@@ -3737,7 +3707,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:47:42Z"
 },
 "cost": "open"
 },
@@ -3752,7 +3722,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:31Z"
+"checked_at": "2026-11-16T11:50:32Z"
 },
 "cost": "open"
 },
@@ -3767,7 +3737,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:41:27Z"
 },
 "cost": "open"
 },
@@ -3782,7 +3752,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:56Z"
+"checked_at": "2026-11-16T11:44:59Z"
 },
 "cost": "open"
 },
@@ -3797,7 +3767,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:42Z"
+"checked_at": "2026-11-16T11:51:06Z"
 },
 "cost": "open"
 },
@@ -3812,7 +3782,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:43Z"
+"checked_at": "2026-11-16T11:49:56Z"
 },
 "cost": "open"
 },
@@ -3827,7 +3797,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:51:00Z"
 },
 "cost": "open"
 },
@@ -3842,7 +3812,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:32Z"
 },
 "cost": "open"
 },
@@ -3857,7 +3827,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:44Z"
+"checked_at": "2026-11-16T11:49:56Z"
 },
 "cost": "open"
 },
@@ -3872,7 +3842,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:04Z"
+"checked_at": "2026-11-16T11:45:45Z"
 },
 "cost": "open"
 },
@@ -3887,7 +3857,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:23Z"
 },
 "cost": "open"
 },
@@ -3902,7 +3872,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:45Z"
 },
 "cost": "open"
 },
@@ -3917,7 +3887,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:43Z"
 },
 "cost": "open"
 },
@@ -3932,7 +3902,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:51:11Z"
 },
 "cost": "open"
 },
@@ -3947,7 +3917,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:24Z"
+"checked_at": "2026-11-16T11:50:39Z"
 },
 "cost": "open"
 },
@@ -3962,7 +3932,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:33Z"
+"checked_at": "2026-11-16T11:50:41Z"
 },
 "cost": "open"
 },
@@ -3977,7 +3947,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:29Z"
+"checked_at": "2026-11-16T11:50:38Z"
 },
 "cost": "open"
 },
@@ -3992,7 +3962,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:49:40Z"
 },
 "cost": "open"
 },
@@ -4007,7 +3977,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:41:36Z"
 },
 "cost": "open"
 },
@@ -4022,7 +3992,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:18Z"
+"checked_at": "2026-11-16T11:47:38Z"
 },
 "cost": "open"
 },
@@ -4037,7 +4007,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:50:53Z"
 },
 "cost": "open"
 },
@@ -4052,7 +4022,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:54Z"
 },
 "cost": "open"
 },
@@ -4067,22 +4037,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
-},
-"cost": "open"
-},
-{
-"id": "laravel-laravel-bootcamp",
-"title": "Laravel starter kits",
-"provider": "Laravel",
-"url": "https://laravel.com/docs/starter-kits",
-"format": "Docs",
-"level": "Beginner",
-"note": "",
-"provider_evidence": null,
-"check": {
-"verdict": "ok",
-"checked_at": "2026-11-07T12:23:56Z"
+"checked_at": "2026-11-16T11:43:59Z"
 },
 "cost": "open"
 },
@@ -4097,7 +4052,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:44:24Z"
 },
 "cost": "open"
 },
@@ -4112,7 +4067,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:03Z"
+"checked_at": "2026-11-16T11:47:27Z"
 },
 "cost": "open"
 },
@@ -4127,7 +4082,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:44:52Z"
 },
 "cost": "open"
 },
@@ -4142,7 +4097,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:46:47Z"
 },
 "cost": "open"
 },
@@ -4157,7 +4112,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:14Z"
 },
 "cost": "open"
 },
@@ -4172,7 +4127,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:55Z"
+"checked_at": "2026-11-16T11:47:27Z"
 },
 "cost": "open"
 },
@@ -4187,7 +4142,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:53Z"
+"checked_at": "2026-11-16T11:47:27Z"
 },
 "cost": "open"
 },
@@ -4206,7 +4161,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:45:25Z"
 },
 "cost": "free"
 },
@@ -4221,7 +4176,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:19Z"
+"checked_at": "2026-11-16T11:51:06Z"
 },
 "cost": "open"
 },
@@ -4236,7 +4191,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:04Z"
+"checked_at": "2026-11-16T11:50:58Z"
 },
 "cost": "open"
 },
@@ -4255,7 +4210,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:45:24Z"
 },
 "cost": "free"
 },
@@ -4270,7 +4225,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:52Z"
 },
 "cost": "open"
 },
@@ -4285,7 +4240,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:35Z"
+"checked_at": "2026-11-16T11:51:13Z"
 },
 "cost": "open"
 },
@@ -4300,7 +4255,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:47:08Z"
 },
 "cost": "open"
 },
@@ -4315,7 +4270,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -4330,7 +4285,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:44:49Z"
 },
 "cost": "open"
 },
@@ -4345,7 +4300,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:44:52Z"
 },
 "cost": "open"
 },
@@ -4360,7 +4315,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:51:06Z"
 },
 "cost": "open"
 },
@@ -4375,7 +4330,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:50:54Z"
 },
 "cost": "open"
 },
@@ -4390,7 +4345,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:47:12Z"
 },
 "cost": "open"
 },
@@ -4405,7 +4360,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:49:41Z"
 },
 "cost": "open"
 },
@@ -4420,7 +4375,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:12Z"
 },
 "cost": "open"
 },
@@ -4435,7 +4390,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:45:00Z"
 },
 "cost": "open"
 },
@@ -4450,7 +4405,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:12Z"
 },
 "cost": "open"
 },
@@ -4465,7 +4420,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:20Z"
+"checked_at": "2026-11-16T11:45:00Z"
 },
 "cost": "open"
 },
@@ -4480,7 +4435,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:00Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -4495,7 +4450,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:00Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -4510,7 +4465,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:50:43Z"
 },
 "cost": "open"
 },
@@ -4525,7 +4480,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -4540,7 +4495,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:12Z"
 },
 "cost": "open"
 },
@@ -4555,7 +4510,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:01Z"
+"checked_at": "2026-11-16T11:50:48Z"
 },
 "cost": "open"
 },
@@ -4570,7 +4525,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:18Z"
+"checked_at": "2026-11-16T11:48:03Z"
 },
 "cost": "open"
 },
@@ -4585,7 +4540,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:33Z"
+"checked_at": "2026-11-16T11:45:26Z"
 },
 "cost": "open"
 },
@@ -4600,7 +4555,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:07Z"
+"checked_at": "2026-11-16T11:41:34Z"
 },
 "cost": "open"
 },
@@ -4615,7 +4570,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:53Z"
+"checked_at": "2026-11-16T11:44:57Z"
 },
 "cost": "open"
 },
@@ -4630,7 +4585,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:45:58Z"
 },
 "cost": "open"
 },
@@ -4645,7 +4600,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:26Z"
 },
 "cost": "open"
 },
@@ -4660,7 +4615,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:09Z"
 },
 "cost": "open"
 },
@@ -4675,7 +4630,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:07Z"
+"checked_at": "2026-11-16T11:51:01Z"
 },
 "cost": "open"
 },
@@ -4690,7 +4645,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:02Z"
 },
 "cost": "open"
 },
@@ -4705,7 +4660,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:24Z"
+"checked_at": "2026-11-16T11:41:34Z"
 },
 "cost": "open"
 },
@@ -4720,7 +4675,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:24Z"
+"checked_at": "2026-11-16T11:47:23Z"
 },
 "cost": "open"
 },
@@ -4735,7 +4690,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:17Z"
+"checked_at": "2026-11-16T11:50:51Z"
 },
 "cost": "open"
 },
@@ -4750,7 +4705,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:36:06Z"
+"checked_at": "2026-11-16T11:50:40Z"
 },
 "cost": "open"
 },
@@ -4765,7 +4720,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:52Z"
+"checked_at": "2026-11-16T11:45:56Z"
 },
 "cost": "open"
 },
@@ -4780,7 +4735,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:24Z"
+"checked_at": "2026-11-16T11:46:21Z"
 },
 "cost": "open"
 },
@@ -4795,7 +4750,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:27Z"
+"checked_at": "2026-11-16T11:42:09Z"
 },
 "cost": "open"
 },
@@ -4810,7 +4765,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:53Z"
+"checked_at": "2026-11-16T11:45:02Z"
 },
 "cost": "open"
 },
@@ -4825,7 +4780,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:45:21Z"
 },
 "cost": "open"
 },
@@ -4840,7 +4795,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -4855,7 +4810,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:36:00Z"
+"checked_at": "2026-11-16T11:47:10Z"
 },
 "cost": "open"
 },
@@ -4870,7 +4825,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:52Z"
+"checked_at": "2026-11-16T11:46:50Z"
 },
 "cost": "open"
 },
@@ -4885,7 +4840,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:44:21Z"
 },
 "cost": "open"
 },
@@ -4900,7 +4855,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "open"
 },
@@ -4915,7 +4870,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:25Z"
 },
 "cost": "open"
 },
@@ -4930,7 +4885,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:49Z"
+"checked_at": "2026-11-16T11:45:57Z"
 },
 "cost": "open"
 },
@@ -4945,7 +4900,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:38Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -4960,7 +4915,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:32Z"
 },
 "cost": "open"
 },
@@ -4975,7 +4930,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:45:03Z"
 },
 "cost": "open"
 },
@@ -4990,7 +4945,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:45:09Z"
 },
 "cost": "open"
 },
@@ -5005,7 +4960,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:35Z"
+"checked_at": "2026-11-16T11:51:02Z"
 },
 "cost": "open"
 },
@@ -5020,7 +4975,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:22Z"
+"checked_at": "2026-11-16T11:51:03Z"
 },
 "cost": "open"
 },
@@ -5035,7 +4990,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:30Z"
+"checked_at": "2026-11-16T11:51:02Z"
 },
 "cost": "open"
 },
@@ -5050,7 +5005,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:22Z"
+"checked_at": "2026-11-16T11:51:03Z"
 },
 "cost": "open"
 },
@@ -5065,7 +5020,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:09Z"
+"checked_at": "2026-11-16T11:50:18Z"
 },
 "cost": "open"
 },
@@ -5080,7 +5035,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:40Z"
+"checked_at": "2026-11-16T11:50:36Z"
 },
 "cost": "open"
 },
@@ -5095,7 +5050,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:51Z"
+"checked_at": "2026-11-16T11:50:39Z"
 },
 "cost": "open"
 },
@@ -5110,7 +5065,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:56Z"
+"checked_at": "2026-11-16T11:47:11Z"
 },
 "cost": "open"
 },
@@ -5125,7 +5080,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -5140,7 +5095,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -5155,7 +5110,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -5170,7 +5125,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:18Z"
 },
 "cost": "open"
 },
@@ -5185,7 +5140,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:45Z"
 },
 "cost": "open"
 },
@@ -5200,7 +5155,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:52Z"
 },
 "cost": "open"
 },
@@ -5215,7 +5170,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:34Z"
+"checked_at": "2026-11-16T11:44:59Z"
 },
 "cost": "open"
 },
@@ -5230,7 +5185,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:58:27Z"
+"checked_at": "2026-11-16T11:47:26Z"
 },
 "cost": "open"
 },
@@ -5245,7 +5200,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:15Z"
+"checked_at": "2026-11-16T11:45:17Z"
 },
 "cost": "open"
 },
@@ -5260,7 +5215,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:08Z"
+"checked_at": "2026-11-16T11:41:28Z"
 },
 "cost": "open"
 },
@@ -5275,7 +5230,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:25Z"
+"checked_at": "2026-11-16T11:46:26Z"
 },
 "cost": "open"
 },
@@ -5290,7 +5245,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "open"
 },
@@ -5305,7 +5260,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:34Z"
+"checked_at": "2026-11-16T11:46:14Z"
 },
 "cost": "open"
 },
@@ -5320,7 +5275,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:32Z"
+"checked_at": "2026-11-16T11:46:14Z"
 },
 "cost": "open"
 },
@@ -5335,7 +5290,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:11Z"
+"checked_at": "2026-11-16T11:44:01Z"
 },
 "cost": "open"
 },
@@ -5350,7 +5305,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:27Z"
+"checked_at": "2026-11-16T11:51:07Z"
 },
 "cost": "open"
 },
@@ -5365,7 +5320,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:49:54Z"
 },
 "cost": "open"
 },
@@ -5380,7 +5335,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:27Z"
+"checked_at": "2026-11-16T11:44:51Z"
 },
 "cost": "open"
 },
@@ -5395,7 +5350,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:30Z"
+"checked_at": "2026-11-16T11:44:51Z"
 },
 "cost": "open"
 },
@@ -5410,7 +5365,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:35Z"
+"checked_at": "2026-11-16T11:44:52Z"
 },
 "cost": "open"
 },
@@ -5425,7 +5380,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:37:38Z"
+"checked_at": "2026-11-16T11:44:52Z"
 },
 "cost": "open"
 },
@@ -5440,7 +5395,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:38Z"
+"checked_at": "2026-11-16T11:47:18Z"
 },
 "cost": "open"
 },
@@ -5455,7 +5410,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:34Z"
+"checked_at": "2026-11-16T11:49:33Z"
 },
 "cost": "open"
 },
@@ -5470,7 +5425,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:05Z"
+"checked_at": "2026-11-16T11:45:52Z"
 },
 "cost": "open"
 },
@@ -5485,7 +5440,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:39:51Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -5500,7 +5455,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:02Z"
+"checked_at": "2026-11-16T11:45:52Z"
 },
 "cost": "open"
 },
@@ -5515,7 +5470,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:35Z"
+"checked_at": "2026-11-16T11:45:54Z"
 },
 "cost": "open"
 },
@@ -5530,7 +5485,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:31Z"
+"checked_at": "2026-11-16T11:45:54Z"
 },
 "cost": "open"
 },
@@ -5545,7 +5500,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "open"
 },
@@ -5560,7 +5515,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:53Z"
+"checked_at": "2026-11-16T11:44:58Z"
 },
 "cost": "open"
 },
@@ -5575,7 +5530,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:22Z"
+"checked_at": "2026-11-16T11:51:03Z"
 },
 "cost": "open"
 },
@@ -5590,7 +5545,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:24Z"
 },
 "cost": "open"
 },
@@ -5605,7 +5560,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:25Z"
 },
 "cost": "open"
 },
@@ -5620,7 +5575,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:24Z"
 },
 "cost": "open"
 },
@@ -5635,7 +5590,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:39Z"
+"checked_at": "2026-11-16T11:45:25Z"
 },
 "cost": "open"
 },
@@ -5650,7 +5605,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:25Z"
 },
 "cost": "open"
 },
@@ -5665,7 +5620,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:30Z"
+"checked_at": "2026-11-16T11:45:02Z"
 },
 "cost": "open"
 },
@@ -5680,7 +5635,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:29Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "open"
 },
@@ -5695,7 +5650,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:41:22Z"
 },
 "cost": "open"
 },
@@ -5710,7 +5665,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:23:58Z"
+"checked_at": "2026-11-16T11:50:37Z"
 },
 "cost": "open"
 },
@@ -5725,7 +5680,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:53Z"
 },
 "cost": "open"
 },
@@ -5740,7 +5695,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "open"
 },
@@ -5755,7 +5710,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:44Z"
 },
 "cost": "open"
 },
@@ -5770,7 +5725,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:43Z"
 },
 "cost": "open"
 },
@@ -5785,7 +5740,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:28Z"
+"checked_at": "2026-11-16T11:41:21Z"
 },
 "cost": "open"
 },
@@ -5800,7 +5755,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:27Z"
+"checked_at": "2026-11-16T11:47:24Z"
 },
 "cost": "open"
 },
@@ -5815,7 +5770,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:45:16Z"
 },
 "cost": "open"
 },
@@ -5830,7 +5785,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:24Z"
 },
 "cost": "open"
 },
@@ -5845,22 +5800,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:56Z"
-},
-"cost": "open"
-},
-{
-"id": "wordpress-block-editor-handbook",
-"title": "Block editor handbook",
-"provider": "WordPress Developer Resources",
-"url": "https://developer.wordpress.org/block-editor/",
-"format": "Docs",
-"level": "Intermediate",
-"note": "",
-"provider_evidence": null,
-"check": {
-"verdict": "ok",
-"checked_at": "2026-11-05T21:40:53Z"
+"checked_at": "2026-11-16T11:45:21Z"
 },
 "cost": "open"
 },
@@ -5875,7 +5815,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:52Z"
+"checked_at": "2026-11-16T11:45:20Z"
 },
 "cost": "open"
 },
@@ -5890,7 +5830,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:20Z"
+"checked_at": "2026-11-16T11:45:38Z"
 },
 "cost": "open"
 },
@@ -5905,7 +5845,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:51Z"
 },
 "cost": "open"
 },
@@ -5920,7 +5860,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:13Z"
+"checked_at": "2026-11-16T11:45:34Z"
 },
 "cost": "open"
 },
@@ -5935,7 +5875,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:57:59Z"
+"checked_at": "2026-11-16T11:45:10Z"
 },
 "cost": "open"
 },
@@ -5950,7 +5890,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:42:52Z"
 },
 "cost": "open"
 },
@@ -5965,7 +5905,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -5980,7 +5920,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -5995,7 +5935,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:31Z"
+"checked_at": "2026-11-16T11:45:26Z"
 },
 "cost": "open"
 },
@@ -6010,7 +5950,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -6025,7 +5965,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:32Z"
+"checked_at": "2026-11-16T11:45:51Z"
 },
 "cost": "open"
 },
@@ -6040,7 +5980,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:27Z"
+"checked_at": "2026-11-16T11:45:42Z"
 },
 "cost": "open"
 },
@@ -6055,7 +5995,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:40Z"
+"checked_at": "2026-11-16T11:50:09Z"
 },
 "cost": "open"
 },
@@ -6070,7 +6010,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:36Z"
+"checked_at": "2026-11-16T11:47:12Z"
 },
 "cost": "open"
 },
@@ -6085,7 +6025,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:33:56Z"
+"checked_at": "2026-11-16T11:46:39Z"
 },
 "cost": "open"
 },
@@ -6100,7 +6040,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:46:51Z"
 },
 "cost": "open"
 },
@@ -6115,7 +6055,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:16:33Z"
+"checked_at": "2026-11-16T11:50:10Z"
 },
 "cost": "open"
 },
@@ -6134,7 +6074,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:47Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -6153,7 +6093,7 @@
 },
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:47Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "free"
 },
@@ -6168,7 +6108,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:46Z"
+"checked_at": "2026-11-16T11:49:13Z"
 },
 "cost": "open"
 },
@@ -6183,7 +6123,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:47Z"
+"checked_at": "2026-11-16T11:49:41Z"
 },
 "cost": "open"
 },
@@ -6198,7 +6138,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:46Z"
+"checked_at": "2026-11-16T11:49:41Z"
 },
 "cost": "open"
 },
@@ -6213,7 +6153,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:48Z"
+"checked_at": "2026-11-16T11:47:18Z"
 },
 "cost": "open"
 },
@@ -6228,7 +6168,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:35:11Z"
+"checked_at": "2026-11-16T11:49:52Z"
 },
 "cost": "open"
 },
@@ -6243,7 +6183,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:34:51Z"
+"checked_at": "2026-11-16T11:50:19Z"
 },
 "cost": "open"
 },
@@ -6258,7 +6198,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -6273,7 +6213,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -6288,7 +6228,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:41:01Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -6303,7 +6243,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:47:09Z"
 },
 "cost": "open"
 },
@@ -6318,7 +6258,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:46Z"
+"checked_at": "2026-11-16T11:51:16Z"
 },
 "cost": "open"
 },
@@ -6333,7 +6273,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:59:12Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -6348,7 +6288,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:48Z"
+"checked_at": "2026-11-16T11:47:24Z"
 },
 "cost": "open"
 },
@@ -6363,7 +6303,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:40:06Z"
+"checked_at": "2026-11-16T11:46:33Z"
 },
 "cost": "open"
 },
@@ -6378,7 +6318,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:45:54Z"
 },
 "cost": "open"
 },
@@ -6393,7 +6333,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:44Z"
+"checked_at": "2026-11-16T11:45:58Z"
 },
 "cost": "open"
 },
@@ -6408,7 +6348,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:44Z"
+"checked_at": "2026-11-16T11:45:58Z"
 },
 "cost": "open"
 },
@@ -6423,7 +6363,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:47Z"
+"checked_at": "2026-11-16T11:41:39Z"
 },
 "cost": "open"
 },
@@ -6438,7 +6378,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:49Z"
+"checked_at": "2026-11-16T11:44:49Z"
 },
 "cost": "open"
 },
@@ -6453,7 +6393,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:45:26Z"
 },
 "cost": "open"
 },
@@ -6468,7 +6408,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -6483,7 +6423,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:41:22Z"
 },
 "cost": "open"
 },
@@ -6498,7 +6438,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:47Z"
+"checked_at": "2026-11-16T11:41:24Z"
 },
 "cost": "open"
 },
@@ -6513,7 +6453,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -6528,7 +6468,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:45:11Z"
 },
 "cost": "open"
 },
@@ -6543,7 +6483,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:47Z"
+"checked_at": "2026-11-16T11:41:34Z"
 },
 "cost": "open"
 },
@@ -6558,7 +6498,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:55Z"
+"checked_at": "2026-11-16T11:41:23Z"
 },
 "cost": "open"
 },
@@ -6573,7 +6513,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:46:47Z"
 },
 "cost": "open"
 },
@@ -6588,7 +6528,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:44Z"
+"checked_at": "2026-11-16T11:45:57Z"
 },
 "cost": "open"
 },
@@ -6603,7 +6543,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:48Z"
+"checked_at": "2026-11-16T11:47:23Z"
 },
 "cost": "open"
 },
@@ -6618,7 +6558,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:32:32Z"
+"checked_at": "2026-11-16T11:49:01Z"
 },
 "cost": "open"
 },
@@ -6633,7 +6573,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:38:37Z"
+"checked_at": "2026-11-16T11:47:18Z"
 },
 "cost": "open"
 },
@@ -6648,7 +6588,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:43Z"
+"checked_at": "2026-11-16T11:44:00Z"
 },
 "cost": "open"
 },
@@ -6663,7 +6603,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:01Z"
+"checked_at": "2026-11-16T11:48:07Z"
 },
 "cost": "open"
 },
@@ -6678,7 +6618,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:50:40Z"
 },
 "cost": "open"
 },
@@ -6693,7 +6633,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:57:59Z"
+"checked_at": "2026-11-16T11:45:12Z"
 },
 "cost": "open"
 },
@@ -6708,7 +6648,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:47:07Z"
 },
 "cost": "open"
 },
@@ -6723,7 +6663,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:46:18Z"
 },
 "cost": "open"
 },
@@ -6738,7 +6678,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:46Z"
+"checked_at": "2026-11-16T11:51:02Z"
 },
 "cost": "open"
 },
@@ -6753,7 +6693,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:46Z"
+"checked_at": "2026-11-16T11:51:01Z"
 },
 "cost": "open"
 },
@@ -6768,7 +6708,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:46:31Z"
 },
 "cost": "open"
 },
@@ -6783,7 +6723,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:42Z"
+"checked_at": "2026-11-16T11:45:15Z"
 },
 "cost": "open"
 },
@@ -6798,7 +6738,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:45Z"
+"checked_at": "2026-11-16T11:47:15Z"
 },
 "cost": "open"
 },
@@ -6813,7 +6753,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:44Z"
+"checked_at": "2026-11-16T11:41:39Z"
 },
 "cost": "open"
 },
@@ -6828,7 +6768,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-05T21:40:08Z"
+"checked_at": "2026-11-16T11:41:25Z"
 },
 "cost": "open"
 },
@@ -6843,7 +6783,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:49Z"
+"checked_at": "2026-11-16T11:44:46Z"
 },
 "cost": "open"
 },
@@ -6858,7 +6798,7 @@
 "provider_evidence": null,
 "check": {
 "verdict": "ok",
-"checked_at": "2026-11-07T12:36:41Z"
+"checked_at": "2026-11-16T11:47:26Z"
 },
 "cost": "open"
 }
@@ -7619,9 +7559,7 @@
 "title_ar": "التعلّم الآلي في الإنتاج",
 "for": "Ship and run models reliably.",
 "for_ar": "أطلق النماذج وشغّلها بثبات.",
-"courses": [
-"madewithml"
-],
+"courses": [],
 "next": [
 "mlops",
 "inference-engineering"
@@ -7688,8 +7626,7 @@
 "title": "Shipping it",
 "why": "Evaluation, deployment and monitoring in production.",
 "courses": [
-"fsdl-llm",
-"madewithml"
+"fsdl-llm"
 ],
 "title_ar": "الإطلاق",
 "why_ar": "التقييم والنشر والمراقبة في بيئة الإنتاج.",
@@ -7794,7 +7731,7 @@
 ]
 }
 ],
-"course_count": 17
+"course_count": 16
 },
 {
 "id": "devops",
@@ -7817,7 +7754,6 @@
 "title": "Linux and the shell",
 "why": "Servers run Linux. You'll live in the terminal.",
 "courses": [
-"linuxjourney",
 "missing"
 ],
 "title_ar": "لينكس وسطر الأوامر",
@@ -7974,7 +7910,7 @@
 ]
 }
 ],
-"course_count": 18
+"course_count": 17
 },
 {
 "id": "cybersecurity",
@@ -7990,8 +7926,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -8156,7 +8091,7 @@
 "next": []
 }
 ],
-"course_count": 13
+"course_count": 12
 },
 {
 "id": "computer-science",
@@ -8441,8 +8376,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -8538,7 +8472,7 @@
 "outcome_ar": "تستطيع تأمين خط التسليم من الكود حتى الإنتاج."
 },
 "tracks": [],
-"course_count": 14
+"course_count": 13
 },
 {
 "id": "data-scientist",
@@ -10164,7 +10098,6 @@
 "why": "Two free courses covering the whole lifecycle.",
 "why_ar": "كورسان مجانيان يغطيان دورة الحياة كاملة.",
 "courses": [
-"madewithml",
 "datatalksclub-mlops-zoomcamp"
 ],
 "kind": "step",
@@ -10238,7 +10171,7 @@
 "outcome_ar": "تستطيع أتمتة تدريب نموذج ونشره ومراقبته."
 },
 "tracks": [],
-"course_count": 15
+"course_count": 14
 },
 {
 "id": "product-manager",
@@ -10756,8 +10689,7 @@
 "why": "Capture and read real traffic.",
 "why_ar": "التقط حركة البيانات الحقيقية واقرأها.",
 "courses": [
-"wireshark-wireshark-user-s-guide",
-"linuxjourney"
+"wireshark-wireshark-user-s-guide"
 ],
 "kind": "step",
 "level": "foundation"
@@ -10821,7 +10753,7 @@
 "outcome_ar": "تستطيع تصميم شبكة وحل مشكلاتها وتأمينها."
 },
 "tracks": [],
-"course_count": 12
+"course_count": 11
 },
 {
 "id": "forward-deployed-engineer",
@@ -13520,7 +13452,6 @@
 "why": "Build an app with the official bootcamp.",
 "why_ar": "ابنِ تطبيقًا مع المعسكر الرسمي.",
 "courses": [
-"laravel-laravel-bootcamp",
 "laravel-laravel-documentation"
 ],
 "kind": "step",
@@ -13581,7 +13512,7 @@
 "outcome_ar": "تستطيع بناء تطبيق Laravel كامل واختباره."
 },
 "tracks": [],
-"course_count": 11
+"course_count": 10
 },
 {
 "id": "django",
@@ -15528,7 +15459,6 @@
 "why": "Files, permissions, processes.",
 "why_ar": "الملفات والصلاحيات والعمليات.",
 "courses": [
-"linuxjourney",
 "william-the-linux-command-line"
 ],
 "kind": "step",
@@ -15600,7 +15530,7 @@
 "outcome_ar": "تستطيع إدارة جهاز لينكس من الطرفية."
 },
 "tracks": [],
-"course_count": 8
+"course_count": 7
 },
 {
 "id": "shell-bash",
@@ -15619,8 +15549,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -15700,7 +15629,7 @@
 "outcome_ar": "تستطيع كتابة سكربتات آمنة التشغيل."
 },
 "tracks": [],
-"course_count": 12
+"course_count": 11
 },
 {
 "id": "git-github",
@@ -15807,8 +15736,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -15888,7 +15816,7 @@
 "outcome_ar": "تستطيع تغليف تطبيقات متعددة الخدمات في حاويات وتشغيلها."
 },
 "tracks": [],
-"course_count": 12
+"course_count": 11
 },
 {
 "id": "kubernetes",
@@ -15907,8 +15835,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -15990,7 +15917,7 @@
 "outcome_ar": "تستطيع نشر التطبيقات وتشغيلها على Kubernetes."
 },
 "tracks": [],
-"course_count": 12
+"course_count": 11
 },
 {
 "id": "terraform",
@@ -16009,8 +15936,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -16093,7 +16019,7 @@
 "outcome_ar": "تستطيع إدارة بنية تحتية حقيقية بأمان باستخدام Terraform."
 },
 "tracks": [],
-"course_count": 13
+"course_count": 12
 },
 {
 "id": "aws",
@@ -16112,8 +16038,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -16197,7 +16122,7 @@
 "outcome_ar": "تستطيع بناء تطبيق أساسي على AWS وتأمينه."
 },
 "tracks": [],
-"course_count": 14
+"course_count": 13
 },
 {
 "id": "cloud-computing",
@@ -16216,8 +16141,7 @@
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
 "cs50x",
-"cloudflare-cloudflare-learning-center",
-"linuxjourney"
+"cloudflare-cloudflare-learning-center"
 ]
 },
 {
@@ -16347,7 +16271,7 @@
 ]
 }
 ],
-"course_count": 15
+"course_count": 14
 },
 {
 "id": "cloudflare",
@@ -16365,8 +16289,7 @@
 "why": "No experience needed. How computers and the internet work, and how to use Linux.",
 "why_ar": "لا تحتاج خبرة. كيف تعمل الحواسيب والإنترنت، وكيف تستخدم لينكس.",
 "courses": [
-"cs50x",
-"linuxjourney"
+"cs50x"
 ]
 },
 {
@@ -16449,7 +16372,7 @@
 "outcome_ar": "تستطيع استضافة موقع وتسريعه وحمايته على Cloudflare."
 },
 "tracks": [],
-"course_count": 12
+"course_count": 11
 },
 {
 "id": "dsa",
@@ -16777,8 +16700,7 @@
 "why_ar": "القوالب والإضافات والكتل.",
 "courses": [
 "wordpress-theme-handbook",
-"wordpress-plugin-handbook",
-"wordpress-block-editor-handbook"
+"wordpress-plugin-handbook"
 ],
 "kind": "step",
 "level": "core"
@@ -16838,7 +16760,7 @@
 "outcome_ar": "تستطيع بناء مواقع WordPress مخصصة وتأمينها."
 },
 "tracks": [],
-"course_count": 12
+"course_count": 11
 },
 {
 "id": "seo",
@@ -17328,5 +17250,30 @@
 "course_count": 12
 }
 ],
-"hidden": []
+"hidden": [
+{
+"id": "madewithml",
+"title": "Made With ML (MLOps)",
+"url": "https://madewithml.com/",
+"reason": "blocked"
+},
+{
+"id": "linuxjourney",
+"title": "Linux Journey",
+"url": "https://linuxjourney.com/",
+"reason": "blocked"
+},
+{
+"id": "laravel-laravel-bootcamp",
+"title": "Laravel starter kits",
+"url": "https://laravel.com/docs/starter-kits",
+"reason": "blocked"
+},
+{
+"id": "wordpress-block-editor-handbook",
+"title": "Block editor handbook",
+"url": "https://developer.wordpress.org/block-editor/",
+"reason": "blocked"
+}
+]
 }

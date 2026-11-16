@@ -1,16 +1,16 @@
 {
- "fetched_at": "2026-11-09T11:48:30Z",
+ "fetched_at": "2026-11-16T11:41:18Z",
  "results": [
   {
    "slug": "ai-agents",
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-agents",
    "status": "ok",
-   "nodes": 189,
-   "updatedAt": "2026-03-09T11:24:39.307Z",
+   "nodes": 192,
+   "updatedAt": "2026-11-13T08:57:25.435Z",
    "title": {
     "card": "AI Agents",
     "page": "AI Agents",
-    "_id": "69aeadf598cf6f865c8d9b39"
+    "_id": "6af6d0f4db5536d0f18ac08b"
    }
   },
   {
@@ -29,12 +29,12 @@
    "slug": "ai-engineer",
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-engineer",
    "status": "ok",
-   "nodes": 280,
-   "updatedAt": "2026-11-06T08:14:55.149Z",
+   "nodes": 281,
+   "updatedAt": "2026-11-10T08:19:26.189Z",
    "title": {
     "card": "AI Engineer",
     "page": "AI Engineer",
-    "_id": "6ad22a0cda8eeb9e5a02fe8c"
+    "_id": "6af2d38cdb5536d0f18a8df5"
    }
   },
   {
@@ -54,11 +54,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-red-teaming",
    "status": "ok",
    "nodes": 105,
-   "updatedAt": "2026-03-20T12:25:38.799Z",
+   "updatedAt": "2026-11-13T08:59:21.728Z",
    "title": {
     "card": "AI Red Teaming",
     "page": "AI Red Teaming",
-    "_id": "69bd3bcd31e228f31bc863d5"
+    "_id": "6af6d168db5536d0f18ac0b3"
    }
   },
   {
@@ -185,12 +185,12 @@
    "slug": "claude-code",
    "url": "https://roadmap.sh/api/v1-official-roadmap/claude-code",
    "status": "ok",
-   "nodes": 189,
-   "updatedAt": "2026-10-26T15:06:09.601Z",
+   "nodes": 180,
+   "updatedAt": "2026-11-13T08:53:18.854Z",
    "title": {
     "card": "Claude Code",
     "page": "Claude Code",
-    "_id": "6adf6c609133391546ad6595"
+    "_id": "6af6cffcdb5536d0f18abf01"
    }
   },
   {
@@ -233,12 +233,12 @@
    "slug": "codex",
    "url": "https://roadmap.sh/api/v1-official-roadmap/codex",
    "status": "ok",
-   "nodes": 138,
-   "updatedAt": "2026-11-04T14:29:16.883Z",
+   "nodes": 141,
+   "updatedAt": "2026-11-13T08:52:14.782Z",
    "title": {
     "card": "Codex",
     "page": "Codex",
-    "_id": "6aea07c9db5536d0f18a57bc"
+    "_id": "6af6cfbddb5536d0f18abdd2"
    }
   },
   {
@@ -275,6 +275,18 @@
     "card": "CSS",
     "page": "CSS",
     "_id": "69a0046a14f628c75763a339"
+   }
+  },
+  {
+   "slug": "cursor",
+   "url": "https://roadmap.sh/api/v1-official-roadmap/cursor",
+   "status": "ok",
+   "nodes": 148,
+   "updatedAt": "2026-11-13T08:55:41.452Z",
+   "title": {
+    "card": "Cursor",
+    "page": "Cursor",
+    "_id": "6af6d08cdb5536d0f18ac075"
    }
   },
   {
@@ -450,11 +462,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/forward-deployed-engineer",
    "status": "ok",
    "nodes": 142,
-   "updatedAt": "2026-10-27T10:39:54.563Z",
+   "updatedAt": "2026-11-13T09:00:44.243Z",
    "title": {
     "card": "Forward Deployed Engineer",
     "page": "Forward Deployed Engineer",
-    "_id": "6ae07f799133391546ad7d3e"
+    "_id": "6af6d1bbdb5536d0f18ac0db"
    }
   },
   {
@@ -570,11 +582,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/inference-engineering",
    "status": "ok",
    "nodes": 175,
-   "updatedAt": "2026-10-29T14:26:52.637Z",
+   "updatedAt": "2026-11-13T09:00:23.792Z",
    "title": {
     "card": "Inference Engineering",
     "page": "Inference Engineering",
-    "_id": "6ae357ab9133391546ad8842"
+    "_id": "6af6d1a6db5536d0f18ac0c7"
    }
   },
   {
@@ -665,12 +677,12 @@
    "slug": "linux",
    "url": "https://roadmap.sh/api/v1-official-roadmap/linux",
    "status": "ok",
-   "nodes": 121,
-   "updatedAt": "2026-05-12T11:02:34.052Z",
+   "nodes": 123,
+   "updatedAt": "2026-11-12T16:43:02.480Z",
    "title": {
     "card": "Linux",
     "page": "Linux Roadmap",
-    "_id": "6a0308c870a823016f6a6c6d"
+    "_id": "6af5ec94db5536d0f18abca0"
    }
   },
   {
@@ -749,12 +761,12 @@
    "slug": "openclaw",
    "url": "https://roadmap.sh/api/v1-official-roadmap/openclaw",
    "status": "ok",
-   "nodes": 154,
-   "updatedAt": "2026-09-10T11:04:25.517Z",
+   "nodes": 156,
+   "updatedAt": "2026-11-13T09:01:35.488Z",
    "title": {
     "card": "OpenClaw",
     "page": "OpenClaw",
-    "_id": "69deafce31e228f31bc915b2"
+    "_id": "6af6d1eedb5536d0f18ac0f3"
    }
   },
   {
@@ -810,23 +822,23 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/product-manager",
    "status": "ok",
    "nodes": 203,
-   "updatedAt": "2026-02-26T08:49:13.640Z",
+   "updatedAt": "2026-11-13T10:17:21.237Z",
    "title": {
     "card": "Product Manager",
     "page": "Product Manager",
-    "_id": "69a0090714f628c75763a77e"
+    "_id": "6af6e3b1db5536d0f18ac20b"
    }
   },
   {
    "slug": "prompt-engineering",
    "url": "https://roadmap.sh/api/v1-official-roadmap/prompt-engineering",
    "status": "ok",
-   "nodes": 94,
-   "updatedAt": "2026-04-29T07:36:03.435Z",
+   "nodes": 96,
+   "updatedAt": "2026-11-16T10:29:59.946Z",
    "title": {
     "card": "Prompt Engineering",
     "page": "Prompt Engineering Roadmap",
-    "_id": "69f1b4de0cbf10396238cd4f"
+    "_id": "6afadb2766c6cc3e09cd1c4a"
    }
   },
   {
@@ -994,12 +1006,12 @@
    "slug": "shell-bash",
    "url": "https://roadmap.sh/api/v1-official-roadmap/shell-bash",
    "status": "ok",
-   "nodes": 237,
-   "updatedAt": "2026-09-29T14:36:05.499Z",
+   "nodes": 239,
+   "updatedAt": "2026-11-12T16:47:38.205Z",
    "title": {
     "card": "Shell / Bash",
     "page": "Shell / Bash Roadmap",
-    "_id": "6abbccd2b63d4fa9c3928504"
+    "_id": "6af5eda9db5536d0f18abcba"
    }
   },
   {

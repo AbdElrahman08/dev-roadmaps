@@ -1,14 +1,14 @@
 {
- "repo_commit": "f590626ad3b4a242b85a676e2a78c361936bc732",
+ "repo_commit": "2b534461da5629c57d8a0a4a7efcb26adc7f179e",
  "roadmaps": [
   {
    "slug": "ai-agents",
    "page_fetched": true,
    "page_ai_course_titles_without_links": 10,
    "page_partner_promo": false,
-   "page_topics": 101,
+   "page_topics": 102,
    "repo_topics": 101,
-   "topics_only_in_page": 0,
+   "topics_only_in_page": 1,
    "topics_only_in_repo": 0,
    "repo_resource_links": 280,
    "page_resource_buttons": 0,
@@ -32,13 +32,13 @@
    "page_fetched": true,
    "page_ai_course_titles_without_links": 10,
    "page_partner_promo": false,
-   "page_topics": 190,
+   "page_topics": 191,
    "repo_topics": 191,
-   "topics_only_in_page": 0,
+   "topics_only_in_page": 1,
    "topics_only_in_repo": 1,
-   "repo_resource_links": 485,
+   "repo_resource_links": 486,
    "page_resource_buttons": 1,
-   "inventory_resources": 495
+   "inventory_resources": 496
   },
   {
    "slug": "ai-product-builder",
@@ -63,8 +63,8 @@
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
    "repo_resource_links": 206,
-   "page_resource_buttons": 1,
-   "inventory_resources": 207
+   "page_resource_buttons": 0,
+   "inventory_resources": 206
   },
   {
    "slug": "android",
@@ -199,15 +199,15 @@
   {
    "slug": "claude-code",
    "page_fetched": true,
-   "page_ai_course_titles_without_links": 1,
+   "page_ai_course_titles_without_links": 0,
    "page_partner_promo": false,
-   "page_topics": 146,
+   "page_topics": 138,
    "repo_topics": 149,
    "topics_only_in_page": 0,
-   "topics_only_in_repo": 3,
-   "repo_resource_links": 451,
+   "topics_only_in_repo": 11,
+   "repo_resource_links": 449,
    "page_resource_buttons": 0,
-   "inventory_resources": 455
+   "inventory_resources": 453
   },
   {
    "slug": "cloud-computing",
@@ -253,9 +253,9 @@
    "page_fetched": true,
    "page_ai_course_titles_without_links": 0,
    "page_partner_promo": false,
-   "page_topics": 112,
+   "page_topics": 113,
    "repo_topics": 116,
-   "topics_only_in_page": 0,
+   "topics_only_in_page": 1,
    "topics_only_in_repo": 4,
    "repo_resource_links": 232,
    "page_resource_buttons": 0,
@@ -301,6 +301,19 @@
    "inventory_resources": 241
   },
   {
+   "slug": "cursor",
+   "page_fetched": true,
+   "page_ai_course_titles_without_links": 0,
+   "page_partner_promo": false,
+   "page_topics": 121,
+   "repo_topics": 122,
+   "topics_only_in_page": 0,
+   "topics_only_in_repo": 1,
+   "repo_resource_links": 296,
+   "page_resource_buttons": 0,
+   "inventory_resources": 296
+  },
+  {
    "slug": "cyber-security",
    "page_fetched": true,
    "page_ai_course_titles_without_links": 10,
@@ -309,9 +322,9 @@
    "repo_topics": 301,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 679,
+   "repo_resource_links": 680,
    "page_resource_buttons": 0,
-   "inventory_resources": 689
+   "inventory_resources": 690
   },
   {
    "slug": "data-analyst",
@@ -622,8 +635,8 @@
    "topics_only_in_page": 0,
    "topics_only_in_repo": 4,
    "repo_resource_links": 479,
-   "page_resource_buttons": 1,
-   "inventory_resources": 486
+   "page_resource_buttons": 0,
+   "inventory_resources": 485
   },
   {
    "slug": "ios",
@@ -777,9 +790,9 @@
    "repo_topics": 197,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 1,
-   "repo_resource_links": 458,
+   "repo_resource_links": 459,
    "page_resource_buttons": 0,
-   "inventory_resources": 467
+   "inventory_resources": 468
   },
   {
    "slug": "nextjs",
@@ -842,9 +855,9 @@
    "repo_topics": 170,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 370,
+   "repo_resource_links": 369,
    "page_resource_buttons": 0,
-   "inventory_resources": 380
+   "inventory_resources": 379
   },
   {
    "slug": "power-bi",
@@ -907,9 +920,9 @@
    "repo_topics": 87,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 245,
+   "repo_resource_links": 246,
    "page_resource_buttons": 0,
-   "inventory_resources": 245
+   "inventory_resources": 246
   },
   {
    "slug": "python-data-analysis",
@@ -920,9 +933,9 @@
    "repo_topics": 113,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 1,
-   "repo_resource_links": 306,
+   "repo_resource_links": 309,
    "page_resource_buttons": 0,
-   "inventory_resources": 310
+   "inventory_resources": 313
   },
   {
    "slug": "qa",
@@ -933,9 +946,9 @@
    "repo_topics": 146,
    "topics_only_in_page": 1,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 304,
+   "repo_resource_links": 305,
    "page_resource_buttons": 0,
-   "inventory_resources": 328
+   "inventory_resources": 329
   },
   {
    "slug": "r",
