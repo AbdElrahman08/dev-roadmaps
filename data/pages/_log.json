@@ -1,16 +1,16 @@
 {
- "fetched_at": "2026-11-16T11:41:18Z",
+ "fetched_at": "2026-11-23T13:08:41Z",
  "results": [
   {
    "slug": "ai-agents",
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-agents",
    "status": "ok",
    "nodes": 192,
-   "updatedAt": "2026-11-13T08:57:25.435Z",
+   "updatedAt": "2026-11-21T16:24:27.916Z",
    "title": {
     "card": "AI Agents",
     "page": "AI Agents",
-    "_id": "6af6d0f4db5536d0f18ac08b"
+    "_id": "6b01c4cb4ae751aa57ed9ac7"
    }
   },
   {
@@ -18,7 +18,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-data-scientist",
    "status": "ok",
    "nodes": 129,
-   "updatedAt": "2026-10-19T10:20:05.906Z",
+   "updatedAt": "2026-11-20T17:14:23.971Z",
    "title": {
     "card": "AI and Data Scientist",
     "page": "AI and Data Scientist Roadmap",
@@ -30,23 +30,23 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-engineer",
    "status": "ok",
    "nodes": 281,
-   "updatedAt": "2026-11-10T08:19:26.189Z",
+   "updatedAt": "2026-11-21T16:22:19.567Z",
    "title": {
     "card": "AI Engineer",
     "page": "AI Engineer",
-    "_id": "6af2d38cdb5536d0f18a8df5"
+    "_id": "6b01c5394ae751aa57ed9b13"
    }
   },
   {
    "slug": "ai-product-builder",
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-product-builder",
    "status": "ok",
-   "nodes": 93,
-   "updatedAt": "2026-10-22T16:50:37.601Z",
+   "nodes": 95,
+   "updatedAt": "2026-11-21T16:23:24.257Z",
    "title": {
     "card": "AI Product Builders",
     "page": "AI Product Builder",
-    "_id": "6ada3edc0ce35cf4cea4eb63"
+    "_id": "6b01c57a4ae751aa57ed9b37"
    }
   },
   {
@@ -54,11 +54,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ai-red-teaming",
    "status": "ok",
    "nodes": 105,
-   "updatedAt": "2026-11-13T08:59:21.728Z",
+   "updatedAt": "2026-11-21T16:22:38.877Z",
    "title": {
     "card": "AI Red Teaming",
     "page": "AI Red Teaming",
-    "_id": "6af6d168db5536d0f18ac0b3"
+    "_id": "6b01c54d4ae751aa57ed9b28"
    }
   },
   {
@@ -66,7 +66,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/android",
    "status": "ok",
    "nodes": 157,
-   "updatedAt": "2026-07-24T08:58:13.999Z",
+   "updatedAt": "2026-11-20T17:16:05.699Z",
    "title": {
     "card": "Android",
     "page": "Android Developer",
@@ -78,7 +78,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/angular",
    "status": "ok",
    "nodes": 201,
-   "updatedAt": "2026-06-15T11:34:57.179Z",
+   "updatedAt": "2026-11-20T17:30:52.187Z",
    "title": {
     "card": "Angular",
     "page": "Angular Developer",
@@ -90,7 +90,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/api-design",
    "status": "ok",
    "nodes": 123,
-   "updatedAt": "2026-05-18T13:59:39.252Z",
+   "updatedAt": "2026-11-20T17:27:41.483Z",
    "title": {
     "card": "API Design",
     "page": "API Design",
@@ -102,7 +102,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/aspnet-core",
    "status": "ok",
    "nodes": 202,
-   "updatedAt": "2026-09-14T11:34:19.617Z",
+   "updatedAt": "2026-11-20T17:27:16.450Z",
    "title": {
     "card": "ASP.NET Core",
     "page": "ASP.NET Core Developer",
@@ -114,7 +114,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/aws",
    "status": "ok",
    "nodes": 133,
-   "updatedAt": "2026-10-27T10:45:30.875Z",
+   "updatedAt": "2026-11-20T17:26:45.786Z",
    "title": {
     "card": "AWS",
     "page": "AWS Roadmap",
@@ -126,7 +126,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/backend",
    "status": "ok",
    "nodes": 225,
-   "updatedAt": "2026-02-07T16:58:57.293Z",
+   "updatedAt": "2026-11-20T17:13:32.294Z",
    "title": {
     "card": "Backend",
     "page": "Backend Developer",
@@ -138,7 +138,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/backend-beginner",
    "status": "ok",
    "nodes": 49,
-   "updatedAt": "2026-03-04T16:32:38.311Z",
+   "updatedAt": "2026-11-20T17:21:33.231Z",
    "title": {
     "card": "Backend Beginner",
     "page": "Backend Beginner",
@@ -150,7 +150,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/bi-analyst",
    "status": "ok",
    "nodes": 212,
-   "updatedAt": "2026-10-08T09:04:00.664Z",
+   "updatedAt": "2026-11-20T17:16:17.192Z",
    "title": {
     "card": "BI Analyst",
     "page": "BI Analyst",
@@ -162,7 +162,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/blockchain",
    "status": "ok",
    "nodes": 172,
-   "updatedAt": "2026-01-06T16:31:52.106Z",
+   "updatedAt": "2026-11-20T17:16:31.054Z",
    "title": {
     "card": "Blockchain",
     "page": "Blockchain Developer",
@@ -174,7 +174,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/c",
    "status": "ok",
    "nodes": 177,
-   "updatedAt": "2026-07-15T12:17:03.888Z",
+   "updatedAt": "2026-11-20T17:26:55.279Z",
    "title": {
     "card": "C Programming",
     "page": "C Programming",
@@ -186,11 +186,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/claude-code",
    "status": "ok",
    "nodes": 180,
-   "updatedAt": "2026-11-13T08:53:18.854Z",
+   "updatedAt": "2026-11-21T16:24:10.235Z",
    "title": {
     "card": "Claude Code",
     "page": "Claude Code",
-    "_id": "6af6cffcdb5536d0f18abf01"
+    "_id": "6b01c4f94ae751aa57ed9ad9"
    }
   },
   {
@@ -198,7 +198,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/cloud-computing",
    "status": "ok",
    "nodes": 150,
-   "updatedAt": "2026-11-03T15:44:10.607Z",
+   "updatedAt": "2026-11-20T17:22:52.185Z",
    "title": {
     "card": "Cloud Computing",
     "page": "Cloud Computing",
@@ -210,7 +210,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/cloudflare",
    "status": "ok",
    "nodes": 127,
-   "updatedAt": "2026-05-21T16:45:33.617Z",
+   "updatedAt": "2026-11-20T17:31:38.282Z",
    "title": {
     "card": "Cloudflare",
     "page": "Cloudflare",
@@ -222,7 +222,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/code-review",
    "status": "ok",
    "nodes": 18,
-   "updatedAt": "2025-09-03T11:33:30.622Z",
+   "updatedAt": "2026-11-22T16:11:57.776Z",
    "title": {
     "card": "Code Review",
     "page": "Code Review Pyramid",
@@ -234,11 +234,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/codex",
    "status": "ok",
    "nodes": 141,
-   "updatedAt": "2026-11-13T08:52:14.782Z",
+   "updatedAt": "2026-11-21T16:24:12.243Z",
    "title": {
     "card": "Codex",
     "page": "Codex",
-    "_id": "6af6cfbddb5536d0f18abdd2"
+    "_id": "6b01c5124ae751aa57ed9aed"
    }
   },
   {
@@ -246,7 +246,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/computer-science",
    "status": "ok",
    "nodes": 244,
-   "updatedAt": "2026-09-07T17:52:13.415Z",
+   "updatedAt": "2026-11-20T17:25:49.677Z",
    "title": {
     "card": "Computer Science",
     "page": "Computer Science",
@@ -258,7 +258,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/cpp",
    "status": "ok",
    "nodes": 164,
-   "updatedAt": "2026-07-08T11:38:30.950Z",
+   "updatedAt": "2026-11-20T17:23:41.403Z",
    "title": {
     "card": "C++",
     "page": "C++ Developer Roadmap",
@@ -270,7 +270,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/css",
    "status": "ok",
    "nodes": 147,
-   "updatedAt": "2026-02-26T08:29:32.677Z",
+   "updatedAt": "2026-11-20T17:24:12.826Z",
    "title": {
     "card": "CSS",
     "page": "CSS",
@@ -281,12 +281,12 @@
    "slug": "cursor",
    "url": "https://roadmap.sh/api/v1-official-roadmap/cursor",
    "status": "ok",
-   "nodes": 148,
-   "updatedAt": "2026-11-13T08:55:41.452Z",
+   "nodes": 150,
+   "updatedAt": "2026-11-21T16:24:13.941Z",
    "title": {
     "card": "Cursor",
     "page": "Cursor",
-    "_id": "6af6d08cdb5536d0f18ac075"
+    "_id": "6b01c51c4ae751aa57ed9afc"
    }
   },
   {
@@ -294,7 +294,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/cyber-security",
    "status": "ok",
    "nodes": 373,
-   "updatedAt": "2026-06-15T11:47:47.372Z",
+   "updatedAt": "2026-11-20T17:13:45.607Z",
    "title": {
     "card": "Cyber Security",
     "page": "Cyber Security Expert",
@@ -306,7 +306,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/data-analyst",
    "status": "ok",
    "nodes": 156,
-   "updatedAt": "2026-10-08T14:57:10.940Z",
+   "updatedAt": "2026-11-20T17:13:54.748Z",
    "title": {
     "card": "Data Analyst",
     "page": "Data Analyst Roadmap",
@@ -318,7 +318,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/data-engineer",
    "status": "ok",
    "nodes": 258,
-   "updatedAt": "2026-10-09T08:12:57.882Z",
+   "updatedAt": "2026-11-20T17:14:31.556Z",
    "title": {
     "card": "Data Engineer",
     "page": "Data Engineer Roadmap",
@@ -330,7 +330,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/datastructures-and-algorithms",
    "status": "ok",
    "nodes": 134,
-   "updatedAt": "2026-09-25T07:16:54.387Z",
+   "updatedAt": "2026-11-20T17:23:53.106Z",
    "title": {
     "card": "Data Structures & Algorithms",
     "page": "Data Structures & Algorithms",
@@ -342,7 +342,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/design-system",
    "status": "ok",
    "nodes": 173,
-   "updatedAt": "2025-11-19T08:40:14.512Z",
+   "updatedAt": "2026-11-20T17:30:09.169Z",
    "title": {
     "card": "Design System",
     "page": "Design System",
@@ -354,7 +354,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/devops",
    "status": "ok",
    "nodes": 171,
-   "updatedAt": "2026-10-27T10:48:40.272Z",
+   "updatedAt": "2026-11-20T17:13:50.545Z",
    "title": {
     "card": "DevOps",
     "page": "DevOps Roadmap",
@@ -366,7 +366,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/devops-beginner",
    "status": "ok",
    "nodes": 47,
-   "updatedAt": "2026-03-04T16:32:50.218Z",
+   "updatedAt": "2026-11-20T17:21:44.808Z",
    "title": {
     "card": "DevOps Beginner",
     "page": "DevOps Beginner",
@@ -402,7 +402,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/django",
    "status": "ok",
    "nodes": 160,
-   "updatedAt": "2026-02-26T08:25:03.150Z",
+   "updatedAt": "2026-11-20T17:30:47.873Z",
    "title": {
     "card": "Django",
     "page": "Django",
@@ -414,7 +414,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/docker",
    "status": "ok",
    "nodes": 80,
-   "updatedAt": "2026-10-27T10:43:44.663Z",
+   "updatedAt": "2026-11-20T17:27:46.060Z",
    "title": {
     "card": "Docker",
     "page": "Docker Roadmap",
@@ -426,7 +426,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/elasticsearch",
    "status": "ok",
    "nodes": 175,
-   "updatedAt": "2026-01-06T16:31:58.650Z",
+   "updatedAt": "2026-11-20T17:33:13.103Z",
    "title": {
     "card": "Elasticsearch",
     "page": "Elasticsearch",
@@ -438,7 +438,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/engineering-manager",
    "status": "ok",
    "nodes": 227,
-   "updatedAt": "2026-02-26T08:48:55.643Z",
+   "updatedAt": "2026-11-20T17:16:36.460Z",
    "title": {
     "card": "Engineering Manager",
     "page": "Engineering Manager",
@@ -450,7 +450,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/flutter",
    "status": "ok",
    "nodes": 139,
-   "updatedAt": "2026-01-06T16:31:57.099Z",
+   "updatedAt": "2026-11-20T17:28:04.772Z",
    "title": {
     "card": "Flutter",
     "page": "Flutter Developer",
@@ -462,7 +462,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/forward-deployed-engineer",
    "status": "ok",
    "nodes": 142,
-   "updatedAt": "2026-11-13T09:00:44.243Z",
+   "updatedAt": "2026-11-20T17:17:22.850Z",
    "title": {
     "card": "Forward Deployed Engineer",
     "page": "Forward Deployed Engineer",
@@ -474,7 +474,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/frontend",
    "status": "ok",
    "nodes": 156,
-   "updatedAt": "2026-07-15T11:43:37.362Z",
+   "updatedAt": "2026-11-20T17:14:01.531Z",
    "title": {
     "card": "Frontend",
     "page": "Frontend Developer",
@@ -486,7 +486,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/frontend-beginner",
    "status": "ok",
    "nodes": 38,
-   "updatedAt": "2026-03-04T16:31:44.654Z",
+   "updatedAt": "2026-11-20T17:21:25.854Z",
    "title": {
     "card": "Frontend Beginner",
     "page": "Frontend Beginner",
@@ -498,7 +498,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/full-stack",
    "status": "ok",
    "nodes": 79,
-   "updatedAt": "2026-01-06T16:31:50.558Z",
+   "updatedAt": "2026-11-20T17:14:03.176Z",
    "title": {
     "card": "Full Stack",
     "page": "Full Stack Developer",
@@ -510,7 +510,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/game-developer",
    "status": "ok",
    "nodes": 172,
-   "updatedAt": "2026-01-06T16:31:53.833Z",
+   "updatedAt": "2026-11-20T17:15:23.725Z",
    "title": {
     "card": "Game Developer",
     "page": "Game Developer",
@@ -522,7 +522,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/git-github",
    "status": "ok",
    "nodes": 201,
-   "updatedAt": "2026-09-03T08:24:40.418Z",
+   "updatedAt": "2026-11-20T17:27:09.662Z",
    "title": {
     "card": "Git and GitHub",
     "page": "Learn Git and GitHub",
@@ -534,7 +534,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/git-github-beginner",
    "status": "ok",
    "nodes": 34,
-   "updatedAt": "2026-03-04T16:32:58.606Z",
+   "updatedAt": "2026-11-20T17:21:38.692Z",
    "title": {
     "card": "Git and GitHub Beginner",
     "page": "Git and GitHub Beginner",
@@ -546,7 +546,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/golang",
    "status": "ok",
    "nodes": 231,
-   "updatedAt": "2026-01-06T16:31:57.237Z",
+   "updatedAt": "2026-11-20T17:25:56.330Z",
    "title": {
     "card": "Go",
     "page": "Go Developer",
@@ -558,7 +558,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/graphql",
    "status": "ok",
    "nodes": 104,
-   "updatedAt": "2026-02-26T08:43:56.741Z",
+   "updatedAt": "2026-11-22T16:11:38.093Z",
    "title": {
     "card": "GraphQL",
     "page": "GraphQL",
@@ -570,7 +570,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/html",
    "status": "ok",
    "nodes": 111,
-   "updatedAt": "2026-02-26T08:54:20.306Z",
+   "updatedAt": "2026-11-20T17:24:01.095Z",
    "title": {
     "card": "HTML",
     "page": "HTML",
@@ -582,11 +582,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/inference-engineering",
    "status": "ok",
    "nodes": 175,
-   "updatedAt": "2026-11-13T09:00:23.792Z",
+   "updatedAt": "2026-11-20T18:08:31.998Z",
    "title": {
     "card": "Inference Engineering",
     "page": "Inference Engineering",
-    "_id": "6af6d1a6db5536d0f18ac0c7"
+    "_id": "6b008c9e4ae751aa57ed8d3b"
    }
   },
   {
@@ -606,7 +606,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/java",
    "status": "ok",
    "nodes": 125,
-   "updatedAt": "2026-01-27T13:57:35.172Z",
+   "updatedAt": "2026-11-20T17:21:58.422Z",
    "title": {
     "card": "Java",
     "page": "Java Developer",
@@ -618,7 +618,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/javascript",
    "status": "ok",
    "nodes": 165,
-   "updatedAt": "2026-04-06T09:20:34.848Z",
+   "updatedAt": "2026-11-21T16:24:39.885Z",
    "title": {
     "card": "JavaScript",
     "page": "JavaScript Roadmap",
@@ -630,7 +630,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/kotlin",
    "status": "ok",
    "nodes": 191,
-   "updatedAt": "2026-02-26T08:35:47.767Z",
+   "updatedAt": "2026-11-20T17:31:13.391Z",
    "title": {
     "card": "Kotlin",
     "page": "Kotlin",
@@ -642,7 +642,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/kubernetes",
    "status": "ok",
    "nodes": 87,
-   "updatedAt": "2026-10-27T10:42:27.713Z",
+   "updatedAt": "2026-11-20T17:27:56.531Z",
    "title": {
     "card": "Kubernetes",
     "page": "Kubernetes Roadmap",
@@ -654,7 +654,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/laravel",
    "status": "ok",
    "nodes": 155,
-   "updatedAt": "2026-10-09T08:23:36.599Z",
+   "updatedAt": "2026-11-20T17:31:00.467Z",
    "title": {
     "card": "Laravel",
     "page": "Laravel",
@@ -666,7 +666,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/leetcode",
    "status": "ok",
    "nodes": 151,
-   "updatedAt": "2026-09-29T07:01:31.577Z",
+   "updatedAt": "2026-11-20T17:27:19.584Z",
    "title": {
     "card": "LeetCode",
     "page": "LeetCode",
@@ -678,7 +678,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/linux",
    "status": "ok",
    "nodes": 123,
-   "updatedAt": "2026-11-12T16:43:02.480Z",
+   "updatedAt": "2026-11-20T17:22:46.407Z",
    "title": {
     "card": "Linux",
     "page": "Linux Roadmap",
@@ -690,7 +690,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/machine-learning",
    "status": "ok",
    "nodes": 201,
-   "updatedAt": "2026-06-17T17:44:42.082Z",
+   "updatedAt": "2026-11-20T17:14:21.920Z",
    "title": {
     "card": "Machine Learning",
     "page": "Machine Learning",
@@ -702,11 +702,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/mlops",
    "status": "ok",
    "nodes": 80,
-   "updatedAt": "2026-10-27T10:35:29.327Z",
+   "updatedAt": "2026-11-20T18:09:05.767Z",
    "title": {
     "card": "MLOps",
     "page": "MLOps Roadmap",
-    "_id": "6ae07e6e9133391546ad7cdc"
+    "_id": "6b008cc04ae751aa57ed8d59"
    }
   },
   {
@@ -714,7 +714,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/mongodb",
    "status": "ok",
    "nodes": 138,
-   "updatedAt": "2026-07-15T09:50:03.565Z",
+   "updatedAt": "2026-11-20T17:31:28.749Z",
    "title": {
     "card": "MongoDB",
     "page": "MongoDB",
@@ -726,7 +726,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/network-engineer",
    "status": "ok",
    "nodes": 248,
-   "updatedAt": "2026-10-27T10:38:44.286Z",
+   "updatedAt": "2026-11-20T17:14:45.436Z",
    "title": {
     "card": "Network Engineer",
     "page": "Network Engineer",
@@ -738,7 +738,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/nextjs",
    "status": "ok",
    "nodes": 132,
-   "updatedAt": "2026-09-14T12:43:59.385Z",
+   "updatedAt": "2026-11-20T17:31:08.599Z",
    "title": {
     "card": "Next.js",
     "page": "Next.js",
@@ -750,7 +750,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/nodejs",
    "status": "ok",
    "nodes": 160,
-   "updatedAt": "2026-01-06T16:31:52.243Z",
+   "updatedAt": "2026-11-20T17:27:24.632Z",
    "title": {
     "card": "Node.js",
     "page": "Node.js Developer",
@@ -762,11 +762,11 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/openclaw",
    "status": "ok",
    "nodes": 156,
-   "updatedAt": "2026-11-13T09:01:35.488Z",
+   "updatedAt": "2026-11-20T18:08:13.936Z",
    "title": {
     "card": "OpenClaw",
     "page": "OpenClaw",
-    "_id": "6af6d1eedb5536d0f18ac0f3"
+    "_id": "6b008c8c4ae751aa57ed8d26"
    }
   },
   {
@@ -774,7 +774,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/php",
    "status": "ok",
    "nodes": 195,
-   "updatedAt": "2026-06-15T11:41:38.992Z",
+   "updatedAt": "2026-11-20T17:28:22.923Z",
    "title": {
     "card": "PHP",
     "page": "PHP Roadmap",
@@ -786,7 +786,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/postgresql-dba",
    "status": "ok",
    "nodes": 233,
-   "updatedAt": "2026-01-06T16:31:51.969Z",
+   "updatedAt": "2026-11-20T17:16:20.497Z",
    "title": {
     "card": "PostgreSQL",
     "page": "PostgreSQL DBA",
@@ -798,7 +798,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/power-bi",
    "status": "ok",
    "nodes": 163,
-   "updatedAt": "2026-09-29T07:01:25.804Z",
+   "updatedAt": "2026-11-20T17:27:50.604Z",
    "title": {
     "card": "Power BI",
     "page": "Power BI",
@@ -810,7 +810,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/product-design",
    "status": "ok",
    "nodes": 143,
-   "updatedAt": "2026-08-06T15:08:10.657Z",
+   "updatedAt": "2026-11-20T17:18:49.696Z",
    "title": {
     "card": "Product Design",
     "page": "Product Design",
@@ -822,23 +822,23 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/product-manager",
    "status": "ok",
    "nodes": 203,
-   "updatedAt": "2026-11-13T10:17:21.237Z",
+   "updatedAt": "2026-11-22T17:19:02.611Z",
    "title": {
     "card": "Product Manager",
     "page": "Product Manager",
-    "_id": "6af6e3b1db5536d0f18ac20b"
+    "_id": "6b0324064ae751aa57ed9c5c"
    }
   },
   {
    "slug": "prompt-engineering",
    "url": "https://roadmap.sh/api/v1-official-roadmap/prompt-engineering",
    "status": "ok",
-   "nodes": 96,
-   "updatedAt": "2026-11-16T10:29:59.946Z",
+   "nodes": 108,
+   "updatedAt": "2026-11-21T16:24:29.438Z",
    "title": {
-    "card": "Prompt Engineering",
-    "page": "Prompt Engineering Roadmap",
-    "_id": "6afadb2766c6cc3e09cd1c4a"
+    "card": "Prompt & Context Engineering",
+    "page": "Prompt & Context Engineering",
+    "_id": "6b009d434ae751aa57ed9892"
    }
   },
   {
@@ -846,7 +846,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/python",
    "status": "ok",
    "nodes": 124,
-   "updatedAt": "2026-10-15T07:59:06.285Z",
+   "updatedAt": "2026-11-20T17:20:51.158Z",
    "title": {
     "card": "Python",
     "page": "Python Developer",
@@ -858,7 +858,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/python-data-analysis",
    "status": "ok",
    "nodes": 155,
-   "updatedAt": "2026-09-29T07:01:14.780Z",
+   "updatedAt": "2026-11-20T17:20:54.597Z",
    "title": {
     "card": "Python for Data Analysis",
     "page": "Python for Data Analysis",
@@ -870,7 +870,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/qa",
    "status": "ok",
    "nodes": 186,
-   "updatedAt": "2026-03-30T09:08:13.741Z",
+   "updatedAt": "2026-11-20T17:14:56.167Z",
    "title": {
     "card": "QA",
     "page": "QA Engineer",
@@ -887,7 +887,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/r-programming",
    "status": "ok",
    "nodes": 162,
-   "updatedAt": "2026-09-29T07:01:11.450Z",
+   "updatedAt": "2026-11-20T17:30:42.827Z",
    "title": {
     "card": "R Programming",
     "page": "R Programming",
@@ -899,7 +899,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/react",
    "status": "ok",
    "nodes": 112,
-   "updatedAt": "2026-10-13T09:14:19.064Z",
+   "updatedAt": "2026-11-20T17:26:07.753Z",
    "title": {
     "card": "React",
     "page": "React Developer",
@@ -911,7 +911,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/react-native",
    "status": "ok",
    "nodes": 125,
-   "updatedAt": "2026-01-06T16:31:56.550Z",
+   "updatedAt": "2026-11-20T17:31:03.596Z",
    "title": {
     "card": "React Native",
     "page": "React Native Developer",
@@ -923,7 +923,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/redis",
    "status": "ok",
    "nodes": 246,
-   "updatedAt": "2026-03-20T12:21:44.235Z",
+   "updatedAt": "2026-11-20T17:31:27.114Z",
    "title": {
     "card": "Redis",
     "page": "Redis Roadmap",
@@ -935,7 +935,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ruby",
    "status": "ok",
    "nodes": 142,
-   "updatedAt": "2026-02-26T08:24:17.062Z",
+   "updatedAt": "2026-11-20T17:32:13.142Z",
    "title": {
     "card": "Ruby",
     "page": "Ruby",
@@ -947,7 +947,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ruby-on-rails",
    "status": "ok",
    "nodes": 141,
-   "updatedAt": "2026-02-26T08:23:04.930Z",
+   "updatedAt": "2026-11-20T17:33:11.773Z",
    "title": {
     "card": "Ruby on Rails",
     "page": "Ruby on Rails",
@@ -959,7 +959,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/rust",
    "status": "ok",
    "nodes": 176,
-   "updatedAt": "2026-08-05T10:29:08.098Z",
+   "updatedAt": "2026-11-20T17:28:00.819Z",
    "title": {
     "card": "Rust",
     "page": "Rust Developer",
@@ -971,7 +971,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/scala",
    "status": "ok",
    "nodes": 231,
-   "updatedAt": "2026-03-19T14:05:02.831Z",
+   "updatedAt": "2026-11-20T17:32:23.334Z",
    "title": {
     "card": "Scala",
     "page": "Scala",
@@ -983,7 +983,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/seo",
    "status": "ok",
    "nodes": 263,
-   "updatedAt": "2026-09-29T07:19:34.015Z",
+   "updatedAt": "2026-11-20T17:18:15.742Z",
    "title": {
     "card": "SEO",
     "page": "SEO",
@@ -1007,7 +1007,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/shell-bash",
    "status": "ok",
    "nodes": 239,
-   "updatedAt": "2026-11-12T16:47:38.205Z",
+   "updatedAt": "2026-11-20T17:30:04.937Z",
    "title": {
     "card": "Shell / Bash",
     "page": "Shell / Bash Roadmap",
@@ -1019,7 +1019,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/software-architect",
    "status": "ok",
    "nodes": 146,
-   "updatedAt": "2026-01-06T16:31:52.878Z",
+   "updatedAt": "2026-11-20T17:19:03.072Z",
    "title": {
     "card": "Software Architect",
     "page": "Software Architect",
@@ -1031,7 +1031,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/software-design-architecture",
    "status": "ok",
    "nodes": 126,
-   "updatedAt": "2025-09-12T12:38:05.654Z",
+   "updatedAt": "2026-11-20T17:27:34.168Z",
    "title": {
     "card": "Software Design and Architecture",
     "page": "Software Design and Architecture",
@@ -1043,7 +1043,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/spring-boot",
    "status": "ok",
    "nodes": 57,
-   "updatedAt": "2026-03-17T15:55:08.992Z",
+   "updatedAt": "2026-11-20T17:27:29.715Z",
    "title": {
     "card": "Spring Boot",
     "page": "Spring Boot Developer",
@@ -1055,7 +1055,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/sql",
    "status": "ok",
    "nodes": 158,
-   "updatedAt": "2026-09-03T08:37:19.312Z",
+   "updatedAt": "2026-11-20T17:22:31.982Z",
    "title": {
     "card": "SQL",
     "page": "SQL Roadmap",
@@ -1067,7 +1067,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/swift-ui",
    "status": "ok",
    "nodes": 216,
-   "updatedAt": "2026-02-26T08:29:09.161Z",
+   "updatedAt": "2026-11-20T17:31:32.255Z",
    "title": {
     "card": "Swift & Swift UI",
     "page": "Swift & Swift UI",
@@ -1079,7 +1079,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/system-design",
    "status": "ok",
    "nodes": 201,
-   "updatedAt": "2026-03-03T10:30:08.690Z",
+   "updatedAt": "2026-11-20T17:21:17.099Z",
    "title": {
     "card": "System Design",
     "page": "System Design Roadmap",
@@ -1103,7 +1103,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/terraform",
    "status": "ok",
    "nodes": 129,
-   "updatedAt": "2026-10-27T10:47:12.532Z",
+   "updatedAt": "2026-11-20T17:31:19.366Z",
    "title": {
     "card": "Terraform",
     "page": "Terraform Roadmap",
@@ -1115,7 +1115,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/typescript",
    "status": "ok",
    "nodes": 120,
-   "updatedAt": "2026-01-06T16:31:52.381Z",
+   "updatedAt": "2026-11-20T17:28:13.022Z",
    "title": {
     "card": "TypeScript",
     "page": "TypeScript",
@@ -1127,7 +1127,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/ux-design",
    "status": "ok",
    "nodes": 140,
-   "updatedAt": "2026-07-20T12:22:38.616Z",
+   "updatedAt": "2026-11-20T17:15:55.138Z",
    "title": {
     "card": "UX Design",
     "page": "UX Design",
@@ -1138,12 +1138,12 @@
    "slug": "vibe-coding",
    "url": "https://roadmap.sh/api/v1-official-roadmap/vibe-coding",
    "status": "ok",
-   "nodes": 93,
-   "updatedAt": "2026-10-26T07:32:29.015Z",
+   "nodes": 95,
+   "updatedAt": "2026-11-21T16:24:24.751Z",
    "title": {
     "card": "Vibe Coding",
     "page": "Vibe Coding",
-    "_id": "6adf020c9133391546ad5399"
+    "_id": "6b01c4974ae751aa57ed9ab4"
    }
   },
   {
@@ -1151,7 +1151,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/vue",
    "status": "ok",
    "nodes": 115,
-   "updatedAt": "2026-01-06T16:31:50.785Z",
+   "updatedAt": "2026-11-20T17:31:50.967Z",
    "title": {
     "card": "Vue",
     "page": "Vue Developer",
@@ -1163,7 +1163,7 @@
    "url": "https://roadmap.sh/api/v1-official-roadmap/wordpress",
    "status": "ok",
    "nodes": 171,
-   "updatedAt": "2026-01-06T16:31:58.787Z",
+   "updatedAt": "2026-11-20T17:31:22.722Z",
    "title": {
     "card": "WordPress",
     "page": "WordPress",

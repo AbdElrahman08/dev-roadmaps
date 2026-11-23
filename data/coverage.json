@@ -1,5 +1,5 @@
 {
- "repo_commit": "2b534461da5629c57d8a0a4a7efcb26adc7f179e",
+ "repo_commit": "7cfd86d20026a4b5e882969b481a5a5618302009",
  "roadmaps": [
   {
    "slug": "ai-agents",
@@ -7,12 +7,12 @@
    "page_ai_course_titles_without_links": 10,
    "page_partner_promo": false,
    "page_topics": 102,
-   "repo_topics": 101,
-   "topics_only_in_page": 1,
+   "repo_topics": 102,
+   "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 280,
+   "repo_resource_links": 287,
    "page_resource_buttons": 0,
-   "inventory_resources": 282
+   "inventory_resources": 289
   },
   {
    "slug": "ai-data-scientist",
@@ -33,12 +33,12 @@
    "page_ai_course_titles_without_links": 10,
    "page_partner_promo": false,
    "page_topics": 191,
-   "repo_topics": 191,
-   "topics_only_in_page": 1,
+   "repo_topics": 192,
+   "topics_only_in_page": 0,
    "topics_only_in_repo": 1,
-   "repo_resource_links": 486,
+   "repo_resource_links": 491,
    "page_resource_buttons": 1,
-   "inventory_resources": 496
+   "inventory_resources": 501
   },
   {
    "slug": "ai-product-builder",
@@ -140,9 +140,9 @@
    "repo_topics": 156,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 1,
-   "repo_resource_links": 526,
+   "repo_resource_links": 527,
    "page_resource_buttons": 0,
-   "inventory_resources": 528
+   "inventory_resources": 529
   },
   {
    "slug": "backend-beginner",
@@ -205,9 +205,9 @@
    "repo_topics": 149,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 11,
-   "repo_resource_links": 449,
+   "repo_resource_links": 452,
    "page_resource_buttons": 0,
-   "inventory_resources": 453
+   "inventory_resources": 456
   },
   {
    "slug": "cloud-computing",
@@ -257,9 +257,9 @@
    "repo_topics": 116,
    "topics_only_in_page": 1,
    "topics_only_in_repo": 4,
-   "repo_resource_links": 232,
+   "repo_resource_links": 231,
    "page_resource_buttons": 0,
-   "inventory_resources": 232
+   "inventory_resources": 231
   },
   {
    "slug": "computer-science",
@@ -270,9 +270,9 @@
    "repo_topics": 188,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 496,
+   "repo_resource_links": 490,
    "page_resource_buttons": 1,
-   "inventory_resources": 505
+   "inventory_resources": 499
   },
   {
    "slug": "cpp",
@@ -296,22 +296,22 @@
    "repo_topics": 104,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 239,
+   "repo_resource_links": 238,
    "page_resource_buttons": 0,
-   "inventory_resources": 241
+   "inventory_resources": 240
   },
   {
    "slug": "cursor",
    "page_fetched": true,
    "page_ai_course_titles_without_links": 0,
    "page_partner_promo": false,
-   "page_topics": 121,
+   "page_topics": 123,
    "repo_topics": 122,
-   "topics_only_in_page": 0,
+   "topics_only_in_page": 2,
    "topics_only_in_repo": 1,
-   "repo_resource_links": 296,
+   "repo_resource_links": 295,
    "page_resource_buttons": 0,
-   "inventory_resources": 296
+   "inventory_resources": 295
   },
   {
    "slug": "cyber-security",
@@ -413,9 +413,9 @@
    "repo_topics": 142,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 135,
+   "repo_resource_links": 131,
    "page_resource_buttons": 1,
-   "inventory_resources": 219
+   "inventory_resources": 215
   },
   {
    "slug": "devsecops",
@@ -517,9 +517,9 @@
    "repo_topics": 120,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 393,
+   "repo_resource_links": 394,
    "page_resource_buttons": 0,
-   "inventory_resources": 394
+   "inventory_resources": 395
   },
   {
    "slug": "frontend-beginner",
@@ -569,9 +569,9 @@
    "repo_topics": 155,
    "topics_only_in_page": 1,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 350,
+   "repo_resource_links": 351,
    "page_resource_buttons": 0,
-   "inventory_resources": 353
+   "inventory_resources": 354
   },
   {
    "slug": "git-github-beginner",
@@ -608,9 +608,9 @@
    "repo_topics": 66,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 81,
+   "repo_resource_links": 85,
    "page_resource_buttons": 0,
-   "inventory_resources": 83
+   "inventory_resources": 87
   },
   {
    "slug": "html",
@@ -634,9 +634,9 @@
    "repo_topics": 142,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 4,
-   "repo_resource_links": 479,
+   "repo_resource_links": 482,
    "page_resource_buttons": 0,
-   "inventory_resources": 485
+   "inventory_resources": 488
   },
   {
    "slug": "ios",
@@ -855,9 +855,9 @@
    "repo_topics": 170,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 369,
+   "repo_resource_links": 371,
    "page_resource_buttons": 0,
-   "inventory_resources": 379
+   "inventory_resources": 381
   },
   {
    "slug": "power-bi",
@@ -894,22 +894,22 @@
    "repo_topics": 172,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 518,
+   "repo_resource_links": 523,
    "page_resource_buttons": 0,
-   "inventory_resources": 519
+   "inventory_resources": 524
   },
   {
    "slug": "prompt-engineering",
    "page_fetched": true,
    "page_ai_course_titles_without_links": 10,
    "page_partner_promo": false,
-   "page_topics": 47,
-   "repo_topics": 47,
-   "topics_only_in_page": 0,
-   "topics_only_in_repo": 0,
-   "repo_resource_links": 92,
+   "page_topics": 70,
+   "repo_topics": 82,
+   "topics_only_in_page": 7,
+   "topics_only_in_repo": 19,
+   "repo_resource_links": 281,
    "page_resource_buttons": 0,
-   "inventory_resources": 93
+   "inventory_resources": 281
   },
   {
    "slug": "python",
@@ -946,9 +946,9 @@
    "repo_topics": 146,
    "topics_only_in_page": 1,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 305,
+   "repo_resource_links": 304,
    "page_resource_buttons": 0,
-   "inventory_resources": 329
+   "inventory_resources": 328
   },
   {
    "slug": "r",
@@ -1063,9 +1063,9 @@
    "repo_topics": 165,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 376,
+   "repo_resource_links": 375,
    "page_resource_buttons": 1,
-   "inventory_resources": 400
+   "inventory_resources": 399
   },
   {
    "slug": "seo",
@@ -1102,9 +1102,9 @@
    "repo_topics": 174,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 456,
+   "repo_resource_links": 454,
    "page_resource_buttons": 0,
-   "inventory_resources": 467
+   "inventory_resources": 465
   },
   {
    "slug": "software-architect",
@@ -1115,9 +1115,9 @@
    "repo_topics": 112,
    "topics_only_in_page": 1,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 269,
+   "repo_resource_links": 268,
    "page_resource_buttons": 0,
-   "inventory_resources": 287
+   "inventory_resources": 286
   },
   {
    "slug": "software-design-architecture",
@@ -1128,9 +1128,9 @@
    "repo_topics": 94,
    "topics_only_in_page": 0,
    "topics_only_in_repo": 0,
-   "repo_resource_links": 141,
+   "repo_resource_links": 140,
    "page_resource_buttons": 1,
-   "inventory_resources": 162
+   "inventory_resources": 161
   },
   {
    "slug": "spring-boot",
